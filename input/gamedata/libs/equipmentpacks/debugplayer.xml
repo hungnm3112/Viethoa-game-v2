@@ -1,0 +1,24 @@
+<EquipPack name="DebugPlayer" primary="Fists">
+ <Items>
+  <Fists type="ItemGivable"/>
+  <Pistol type="ItemGivable"/>
+  <HuntingShotgun type="ItemGivable"/>
+  <TacticalShotgun type="ItemGivable"/>
+  <HuntingRifle type="ItemGivable"/>
+  <AssaultRifle type="ItemGivable"/>
+  <Bat type="ItemGivable"/>
+  <Crowbar type="ItemGivable"/>
+  <Pipe type="ItemGivable"/>
+  <Wrench type="ItemGivable"/>
+  <Sledgehammer type="ItemGivable"/>
+  <FryingPan type="ItemGivable"/>
+  <GolfClub type="ItemGivable"/>
+ </Items>
+ <Ammos>
+  <Ammo name="bullet" amount="10000"/>
+  <Ammo name="ShotgunShell" amount="0"/>
+  <Ammo name="UL_Grenade" amount="0"/>
+  <Ammo name="bulletmagnum" amount="0"/>
+  <Ammo name="bulletrifle" amount="0"/>
+ </Ammos>
+</EquipPack>

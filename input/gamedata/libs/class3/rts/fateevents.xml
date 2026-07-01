@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<FateEvents xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <FateEvent Id="Fate.Event.Flee">
+        <Outputs>
+             <Output OutputID="Actor.Flee"/>
+             <Output OutputID="Stockpile.Food" MinAmount="-3" MaxAmount="-1"/>
+        </Outputs>
+    </FateEvent>
+</FateEvents>
+

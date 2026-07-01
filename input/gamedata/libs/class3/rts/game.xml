@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RTSData>
+    <Group Name="Game">
+        <Value Name="Demo" Default="false" />
+    </Group>
+</RTSData>

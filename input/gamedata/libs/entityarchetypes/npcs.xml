@@ -1,0 +1,30 @@
+<EntityPrototypeLibrary Name="NPCs" SandboxVersion="3.3.7.2591">
+ <EntityPrototype Name="ProtoAlly" Id="{9F646D7F-178D-491E-B339-8A713B2BC625}" Library="NPCs" Class="ProtoAlly" Description="">
+  <Properties accuracy="1" AnimPack="" attackrange="70" awarenessOfPlayer="0" esBehaviorSelectionTree="AllyLeader" bCannotSwim="0" aicharacter_character="" eiColliderMode="0" commrange="30" distanceToHideFrom="3" equip_EquipmentPack="Runner" esFaction="Civilians" bFactionHostility="1" objFrozenModel="" bGrenades="0" fGroupHostility="0" IdleSequence="None" bIdleStartOnSpawn="0" bInvulnerable="0" fileModel="" nModelVariations="0" bNanoSuit="0" physicMassMult="1" preferredCombatDistance="20" ragdollPersistence="0" rank="4" reaction="1" soclasses_SmartObjectClass="NPC" SoundPack="" SoundPackAlternative="" SpawnedEntityName="" special="0" bSquadMate="0" bSquadMateIncendiary="0" StateMachineData="" bTrackable="1" bUsable="0" UseText="" nVoiceID="0" voiceType="enemy">
+   <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_npc" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="Player_Footstep_Gear_Run" footstepIndGearAudioSignal_Walk="Player_Footstep_Gear_Walk" remoteFootstepEffect="footstep"/>
+   <Damage FallPercentage="20" FallSleepTime="2" health="250" bLogDamages="0" bNoDeath="0" bNoGrab="0"/>
+   <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+   <Perception audioScale="1" camoScale="1" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" heatScale="1" bIsAffectedByLight="0" minAlarmLevel="0" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3" bThermalVision="0" velBase="1" velScale="0.03">
+    <TargetTracks classThreat="1" targetLimit="0"/>
+   </Perception>
+   <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+   <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="ProtoMerc" Id="{F5EDD276-C082-4739-B4AD-3877E36CF54B}" Library="NPCs" Class="Mercenary" Description="">
+  <Properties accuracy="1" AnimPack="" attackrange="70" awarenessOfPlayer="0" esBehaviorSelectionTree="Mercenary" bCannotSwim="0" aicharacter_character="" eiColliderMode="0" commrange="30" distanceToHideFrom="3" equip_EquipmentPack="Runner" esFaction="Civilians" bFactionHostility="1" objFrozenModel="" bGrenades="0" fGroupHostility="0" IdleSequence="None" bIdleStartOnSpawn="0" bInvulnerable="0" fileModel="" nModelVariations="0" bNanoSuit="0" physicMassMult="1" preferredCombatDistance="20" ragdollPersistence="0" rank="4" reaction="1" soclasses_SmartObjectClass="Actor" SoundPack="" SoundPackAlternative="" SpawnedEntityName="" special="0" bSquadMate="0" bSquadMateIncendiary="0" StateMachineData="" bTrackable="1" bUsable="0" UseText="" nVoiceID="0" voiceType="enemy">
+   <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_npc" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="Player_Footstep_Gear_Run" footstepIndGearAudioSignal_Walk="Player_Footstep_Gear_Walk" remoteFootstepEffect="footstep"/>
+   <Damage FallPercentage="20" FallSleepTime="2" health="250" bLogDamages="0" bNoDeath="0" bNoGrab="0"/>
+   <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+   <Perception audioScale="1" camoScale="1" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" heatScale="1" bIsAffectedByLight="0" minAlarmLevel="0" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3" bThermalVision="0" velBase="1" velScale="0.03">
+    <TargetTracks classThreat="1" targetLimit="0"/>
+   </Perception>
+   <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+   <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>

@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MusicData FarZombieRange="150" FreakWeight="3" HomeRange="23" InfestationWeight="25" MaxInitialMusicDelay="85" MinInitialMusicDelay="70" MissionCompleteDelay="40" NearNonAggroZombieRange="43" NearZombieRange="25">
+  <Buckets>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Manual - Aftermath" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="120" MaxMoralePercent="100" MaxTrackDelaySeconds="45" MinMoralePercent="0" MinTrackDelaySeconds="45" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="21" Priority="6" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_dreissk_01_enable" Sequence="dreissk_01" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_dreissk_02_enable" Sequence="dreissk_02" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_kyd_03_enable" Sequence="kyd_03" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_kyd_07_enable" Sequence="kyd_07" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_kyd_08_enable_01" Sequence="kyd_08" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_kyd_08_enable_02" Sequence="kyd_08" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_kyd_03_enable" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_kyd_07_enable" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_kyd_08_enable_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_kyd_08_enable_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Manual - Climax" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="360" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="13" Priority="5" StopTrackDelaySeconds="1">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_climax:mis_dreissk_01_climax" Sequence="dreissk_01" Stinger="Sounds/music:mis_climax_stinger:mis_dreissk_01_climax_stinger" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_dreissk_02_climax" Sequence="dreissk_02" Stinger="Sounds/music:mis_climax_stinger:mis_dreissk_02_climax_stinger" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_06_climax_01" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_06_climax_02" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_10_climax" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_07_climax_01" Sequence="kyd_07" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_07_climax_02" Sequence="kyd_07" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_09_climax" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_11_climax" Sequence="kyd_11" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_dreissk_01_climax" Sequence="" Stinger="Sounds/music:mis_climax_stinger:mis_dreissk_01_climax_stinger" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_dreissk_02_climax" Sequence="" Stinger="Sounds/music:mis_climax_stinger:mis_dreissk_02_climax_stinger" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_06_climax_01" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_06_climax_02" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_10_climax" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_07_climax_01" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_07_climax_02" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_09_climax" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_11_climax" Sequence="" Stinger="" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Manual - Combat" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="420" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="15" Priority="4" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_combat:mis_dreissk_01_combat" Sequence="dreissk_01" Stinger="Sounds/music:mis_combat_stinger:mis_dreissk_01_combat_stinger" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_dreissk_02_combat" Sequence="dreissk_02" Stinger="Sounds/music:mis_combat_stinger:mis_dreissk_02_combat_stinger" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_04_combat" Sequence="kyd_04" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_05_combat_01" Sequence="kyd_05" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_05_combat_02" Sequence="kyd_05" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_07_combat_01" Sequence="kyd_07" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_07_combat_02" Sequence="kyd_07" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_08_combat" Sequence="kyd_08" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_11_combat" Sequence="kyd_11" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_dreissk_02_combat" Sequence="" Stinger="Sounds/music:mis_combat_stinger:mis_dreissk_02_combat_stinger" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_dreissk_01_combat" Sequence="" Stinger="Sounds/music:mis_combat_stinger:mis_dreissk_01_combat_stinger" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_04_combat" Sequence="" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_05_combat_01" Sequence="" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_05_combat_02" Sequence="" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_07_combat_01" Sequence="" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_07_combat_02" Sequence="" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_08_combat" Sequence="kyd_08" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_combat:mis_kyd_11_combat" Sequence="" Stinger="" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Manual - Approach" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="240" MaxMoralePercent="100" MaxTrackDelaySeconds="15" MinMoralePercent="0" MinTrackDelaySeconds="5" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="13" Priority="3" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_approach:mis_dreissk_01_approach" Sequence="dreissk_01" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_dreissk_02_approach" Sequence="dreissk_02" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_03_approach_02" Sequence="kyd_03" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_04_approach" Sequence="kyd_04" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_05_approach" Sequence="kyd_05" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_07_approach" Sequence="kyd_07" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_08_approach" Sequence="kyd_08" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_dreissk_01_approach" Sequence="" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_dreissk_02_approach" Sequence="" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_03_approach_02" Sequence="" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_04_approach" Sequence="" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_05_approach" Sequence="" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_07_approach" Sequence="" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_08_approach" Sequence="" Stinger="" StingerDelaySeconds="2" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Manual - Enabled" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="180" MaxMoralePercent="100" MaxTrackDelaySeconds="65" MinMoralePercent="0" MinTrackDelaySeconds="45" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="13" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_enable:mis_dreissk_01_enable" Sequence="dreissk_01" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_dreissk_02_enable" Sequence="dreissk_02" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_kyd_03_enable" Sequence="kyd_03" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_kyd_07_enable" Sequence="kyd_07" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_kyd_08_enable_01" Sequence="kyd_08" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_kyd_08_enable_02" Sequence="kyd_08" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_dreissk_01_enable" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_dreissk_02_enable" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_kyd_03_enable" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_kyd_07_enable" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_kyd_08_enable_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_enable:mis_kyd_08_enable_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Manual - Defend" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="300" MaxMoralePercent="100" MaxTrackDelaySeconds="15" MinMoralePercent="0" MinTrackDelaySeconds="5" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="20" Priority="4" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_defend:cbt_04_light_01" Sequence="" Stinger="" StingerDelaySeconds="3" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_defend:cbt_05_light_01" Sequence="" Stinger="" StingerDelaySeconds="3" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_defend:cbt_07_light_01" Sequence="" Stinger="" StingerDelaySeconds="3" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_defend:cbt_08_light_01" Sequence="" Stinger="" StingerDelaySeconds="3" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_defend:exp_03_dark_01" Sequence="" Stinger="" StingerDelaySeconds="3" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_defend:exp_03_dark_04" Sequence="" Stinger="" StingerDelaySeconds="3" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_defend:exp_08_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="3" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_defend:mis_dreissk_01_approach" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_defend:mis_dreissk_02_approach" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="SkipDelay" BucketName="Manual - Exploration" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="240" MaxMoralePercent="100" MaxTrackDelaySeconds="55" MinMoralePercent="0" MinTrackDelaySeconds="35" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="20" Priority="1" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_explore:exp_02_searching_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_02_searching_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_02_searching_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_03_dark_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_03_dark_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_03_dark_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_03_dark_04" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_07_somber_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_07_somber_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_08_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_explore:exp_09_longing_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Manual - Escort" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="300" MaxMoralePercent="100" MaxTrackDelaySeconds="30" MinMoralePercent="0" MinTrackDelaySeconds="20" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="25" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_escort:drone_darkmelody_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_darkmelody_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_exploration_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_exploration_03" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_tension_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:exp_02_searching_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:exp_02_searching_03" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:exp_03_dark_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:exp_08_ominous_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:mis_dreissk_01_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:mis_dreissk_02_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Manual - DroneCue" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="180" MaxMoralePercent="100" MaxTrackDelaySeconds="65" MinMoralePercent="0" MinTrackDelaySeconds="45" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="20" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_drones:drone_darkmelody_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_darkmelody_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_exploration_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_exploration_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_exploration_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_exploration_04" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_ominous_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_ominous_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_tension_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_tension_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="SkipDelay" BucketName="Manual - EscortLead" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="150" MaxMoralePercent="100" MaxTrackDelaySeconds="30" MinMoralePercent="0" MinTrackDelaySeconds="20" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="25" Priority="1" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_escort:drone_darkmelody_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_darkmelody_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_exploration_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_exploration_03" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:drone_tension_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:exp_02_searching_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:exp_02_searching_03" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:exp_03_dark_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:exp_08_ominous_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:mis_dreissk_01_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_escort:mis_dreissk_02_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="SkipDelay" BucketName="Manual - Drone" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="180" MaxMoralePercent="100" MaxTrackDelaySeconds="65" MinMoralePercent="0" MinTrackDelaySeconds="45" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="20" Priority="1" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_drones:drone_darkmelody_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_darkmelody_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_exploration_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_exploration_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_exploration_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_exploration_04" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_ominous_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_ominous_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_tension_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:mis_drones:drone_tension_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Infested - Trouble" CLEORadius="0" Crash="0" FarZombiesRequired="100" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="8" NearZombieStopThreshold="3" NewTrackDelaySeconds="30" Priority="3" StopTrackDelaySeconds="13">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_04_normal_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_05_normal_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_06_heavy_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_07_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_07_heavy_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_07_heavy_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_11_heavy_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:dreissk_01_climax" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:dreissk_02_climax" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Danger - Trouble" CLEORadius="0" Crash="0" FarZombiesRequired="50" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="8" NearZombieStopThreshold="3" NewTrackDelaySeconds="30" Priority="3" StopTrackDelaySeconds="13">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_05_normal_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_06_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_07_normal_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_08_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_09_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:dreissk_01_combat" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:dreissk_02_combat" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_04_normal_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_05_normal_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_06_heavy_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_07_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_07_heavy_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_07_heavy_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:cbt_11_heavy_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:dreissk_01_climax" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_trouble:dreissk_02_climax" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Protected - Trouble" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="8" NearZombieStopThreshold="3" NewTrackDelaySeconds="30" Priority="3" StopTrackDelaySeconds="13">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_protected_trouble:cbt_04_normal_01a" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_trouble:cbt_04_normal_01b" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_trouble:cbt_05_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_trouble:cbt_08_normal_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_trouble:cbt_10_heavy_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_trouble:cbt_11_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_trouble:dreissk_01_approach" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_trouble:dreissk_02_approach" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_05_normal_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_06_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_07_normal_02" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_08_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:cbt_09_normal_01" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:dreissk_01_combat" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_trouble:dreissk_02_combat" Sequence="" Stinger="" StingerDelaySeconds="7" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="SkipDelay" BucketName="Infested - CLEO" CLEORadius="80" Crash="0" FarZombiesRequired="100" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="90" MinMoralePercent="0" MinTrackDelaySeconds="50" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="7" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_03b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="SkipDelay" BucketName="Danger - CLEO" CLEORadius="80" Crash="0" FarZombiesRequired="50" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="110" MinMoralePercent="0" MinTrackDelaySeconds="60" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="10" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_03b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_02a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_02b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_03a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_05a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_05b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="SkipDelay" BucketName="Protected - CLEO" CLEORadius="80" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="130" MinMoralePercent="0" MinTrackDelaySeconds="70" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="15" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_03b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt, SkipDelay" BucketName="Horde Alerted" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="1" HordeAlertedSize="5" Location="Exploration" ManualDuration="25" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="20" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:crash:crash_01a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_01b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_02a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_02b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_03b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_04a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_05a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_05b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_05c" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt, SkipDelay" BucketName="Crash" CLEORadius="0" Crash="1" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="25" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="20" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:crash:crash_01a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_01b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_02a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_02b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_03a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_03b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_04a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_05a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_05b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:crash:crash_05c" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Base - Negative" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Home" ManualDuration="0" MaxMoralePercent="45" MaxTrackDelaySeconds="120" MinMoralePercent="0" MinTrackDelaySeconds="70" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="1" StopTrackDelaySeconds="20">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:base_negative:drone_darkmelody_01" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:base_negative:drone_darkmelody_02" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Base - Neutral" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Home" ManualDuration="0" MaxMoralePercent="85" MaxTrackDelaySeconds="120" MinMoralePercent="45" MinTrackDelaySeconds="70" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="1" StopTrackDelaySeconds="13">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:base_neutral:drone_tension_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:base_neutral:drone_tension_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Base - Positive" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Home" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="120" MinMoralePercent="80" MinTrackDelaySeconds="70" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="15" Priority="1" StopTrackDelaySeconds="7">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:base_positive:base_01_positive_01" Sequence="" Stinger="Sounds/music:base_positive:base_01_positive_stinger_01" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:base_positive:base_01_positive_02" Sequence="" Stinger="Sounds/music:base_positive:base_01_positive_stinger_01" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="SkipDelay" BucketName="Infested - Sneaking" CLEORadius="0" Crash="0" FarZombiesRequired="100" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="15" MinMoralePercent="0" MinTrackDelaySeconds="10" NearNonAggroZombiesRequired="10" NearNonAggroZombiesStopThreshold="3" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="13" Priority="1" StopTrackDelaySeconds="15">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_02a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_02b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_03a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_05a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_05b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="SkipDelay" BucketName="Danger - Sneaking" CLEORadius="0" Crash="0" FarZombiesRequired="50" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="15" MinMoralePercent="0" MinTrackDelaySeconds="10" NearNonAggroZombiesRequired="10" NearNonAggroZombiesStopThreshold="3" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="13" Priority="1" StopTrackDelaySeconds="15">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_03b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_02a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_02b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_03a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_05a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_tension:suspense_05b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="SkipDelay" BucketName="Protected - Sneaking" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="15" MinMoralePercent="0" MinTrackDelaySeconds="10" NearNonAggroZombiesRequired="10" NearNonAggroZombiesStopThreshold="3" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="13" Priority="1" StopTrackDelaySeconds="15">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_01b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_03b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_sneaking:suspense_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Infested - Calm" CLEORadius="0" Crash="0" FarZombiesRequired="100" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="90" MinMoralePercent="0" MinTrackDelaySeconds="70" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="7" Priority="1" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_infested_calm:drone_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:drone_tension_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:drone_tension_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:cbt_04_light_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:exp_03_dark_04" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:cbt_05_light_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:cbt_07_light_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:cbt_08_light_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:exp_08_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:dreissk_01_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:dreissk_02_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_infested_calm:exp_hd_03a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_infested_calm:exp_hd_03b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_infested_calm:exp_hd_04a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_danger_calm:exp_hd_02a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_danger_calm:exp_hd_02b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_danger_calm:exp_hd_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Danger - Calm" CLEORadius="0" Crash="0" FarZombiesRequired="50" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="105" MinMoralePercent="0" MinTrackDelaySeconds="80" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="10" Priority="1" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_02_searching_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:drone_darkmelody_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:drone_darkmelody_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:drone_ominous_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:drone_ominous_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_03_dark_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_03_dark_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_07_somber_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_08_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_09_longing_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:dreissk_01_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:dreissk_02_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:drone_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:drone_tension_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:drone_tension_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:cbt_04_light_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:exp_03_dark_04" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:cbt_05_light_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:cbt_07_light_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:cbt_08_light_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:exp_08_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:dreissk_01_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_infested_calm:dreissk_02_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_protected_calm:exp_hd_01a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_protected_calm:exp_hd_01b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_protected_calm:exp_hd_05a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_protected_calm:exp_hd_05b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_danger_calm:exp_hd_02a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_danger_calm:exp_hd_02b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_danger_calm:exp_hd_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_infested_calm:exp_hd_03a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_infested_calm:exp_hd_03b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_infested_calm:exp_hd_04a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Protected - Calm" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Exploration" ManualDuration="0" MaxMoralePercent="100" MaxTrackDelaySeconds="120" MinMoralePercent="0" MinTrackDelaySeconds="90" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="15" Priority="1" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:exp_protected_calm:exp_02_searching_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_calm:exp_02_searching_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_calm:drone_exploration_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_calm:drone_exploration_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_calm:drone_exploration_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_calm:drone_exploration_04" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_calm:exp_03_dark_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_calm:exp_07_somber_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_protected_calm:exp_08_ominous_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_02_searching_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:drone_darkmelody_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:drone_darkmelody_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:drone_ominous_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:drone_ominous_03" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_03_dark_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_03_dark_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_07_somber_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_08_ominous_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:exp_09_longing_01" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:dreissk_01_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_danger_calm:dreissk_02_enable" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_protected_calm:exp_hd_01a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_protected_calm:exp_hd_01b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_protected_calm:exp_hd_05a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_protected_calm:exp_hd_05b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_danger_calm:exp_hd_02b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_danger_calm:exp_hd_02a" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+        <MusicTrack Event="Sounds/music:exp_hd_danger_calm:exp_hd_04b" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Cue - Ominous" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="30" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="41" Priority="7" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:cues:ominous" Sequence="" Stinger="" StingerDelaySeconds="21" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Cue - Eulogy" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="30" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="59" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="11" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:cues:funeral" Sequence="" Stinger="" StingerDelaySeconds="25" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Cue - Death" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="5" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="10" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:cues:death" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Cue - BoG" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="5" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="10" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:cues:bog" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Tutorial - BridgeFightClimax" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="90" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="10" Priority="9" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:tutorial:bridge_climax" Sequence="" Stinger="Sounds/music:tutorial:bridge_climax_stinger" StingerDelaySeconds="30" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Tutorial - BridgeFight" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="120" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="8" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:tutorial:bridge_fight" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Tutorial - ThomasDead" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="30" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="45" Priority="7" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:tutorial:thomas_dead" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Tutorial - HelpStranger" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="30" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="9" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:tutorial:help_stranger" Sequence="" Stinger="Sounds/music:tutorial:help_stranger_stinger" StingerDelaySeconds="50" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Tutorial - StartStinger" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="360" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="8" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:tutorial:start_stinger" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Tutorial - Start" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="150" MaxMoralePercent="100" MaxTrackDelaySeconds="50" MinMoralePercent="0" MinTrackDelaySeconds="50" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="15" Priority="7" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:tutorial:start" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Tutorial - Tour" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="130" MaxMoralePercent="100" MaxTrackDelaySeconds="83" MinMoralePercent="0" MinTrackDelaySeconds="83" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="60" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:cues:tour" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Farmhouse - Aftermath" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="120" MaxMoralePercent="100" MaxTrackDelaySeconds="45" MinMoralePercent="0" MinTrackDelaySeconds="45" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="21" Priority="6" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_aftermath:mis_kyd_07_enable" Sequence="" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Farmhouse - Climax" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="360" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="13" Priority="5" StopTrackDelaySeconds="1">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_climax:mis_dreissk_02_climax" Sequence="dreissk_02" Stinger="Sounds/music:mis_climax_stinger:mis_dreissk_02_climax_stinger" StingerDelaySeconds="11" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Farmhouse - Combat" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="420" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="15" Priority="4" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_combat:mis_dreissk_02_combat" Sequence="dreissk_02" Stinger="Sounds/music:mis_combat_stinger:mis_dreissk_02_combat_stinger" StingerDelaySeconds="4" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Farmhouse - Approach" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="240" MaxMoralePercent="100" MaxTrackDelaySeconds="15" MinMoralePercent="0" MinTrackDelaySeconds="5" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="13" Priority="3" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_approach:mis_dreissk_02_approach" Sequence="dreissk_02" Stinger="" StingerDelaySeconds="3" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Farmhouse - Enabled" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="160" MaxMoralePercent="100" MaxTrackDelaySeconds="65" MinMoralePercent="0" MinTrackDelaySeconds="65" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="13" Priority="2" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_enable:mis_dreissk_02_enable" Sequence="dreissk_02" Stinger="" StingerDelaySeconds="5" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Ending - Credits_End" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="600" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="11" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:cues:credits_end" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Ending - Credits_Start" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="600" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="10" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:cues:credits_start" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Scorecard" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="600" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="9" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:cues:scorecard" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="" BucketName="Ending - Cue" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="600" MaxMoralePercent="100" MaxTrackDelaySeconds="11" MinMoralePercent="0" MinTrackDelaySeconds="5" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="9" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:cues:ending_scene" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Ending - Problem" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="600" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="8" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_approach:mis_kyd_03_approach_02" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+    <MusicBucket BucketFlags="Interrupt" BucketName="Ending - Battle" CLEORadius="0" Crash="0" FarZombiesRequired="0" HordeAlerted="0" HordeAlertedSize="0" Location="Manual" ManualDuration="600" MaxMoralePercent="100" MaxTrackDelaySeconds="0" MinMoralePercent="0" MinTrackDelaySeconds="0" NearNonAggroZombiesRequired="0" NearNonAggroZombiesStopThreshold="0" NearZombiesRequired="0" NearZombieStopThreshold="0" NewTrackDelaySeconds="0" Priority="7" StopTrackDelaySeconds="0">
+      <Tracks>
+        <MusicTrack Event="Sounds/music:mis_climax:mis_kyd_11_climax" Sequence="" Stinger="" StingerDelaySeconds="0" StingerMissionFailure="" StingerMissionSuccess="" />
+      </Tracks>
+    </MusicBucket>
+  </Buckets>
+</MusicData>

@@ -1,0 +1,562 @@
+<VariantData>
+    <Gender type="female" weight="3" skeleton="characters/female/zombie/skeleton/skeleton">
+        <BodyType type="standard" weight="24">
+            <Head>
+                <Model file="characters/female/zombie/heads/head01/head01" weight="1"/>
+            </Head>
+            <Skin>
+                <Model file="characters/female/zombie/skin/shortsleeve/skin" weight="1"/>
+            </Skin>
+            <Body>
+                <Model file="characters/female/zombie/body/blouse/blouse" weight="3">
+                    <EigenZombie file="characters/female/zombie/body/tshirt/low/low.cdf"/>
+                    <VariantShader type='shirt' patternOdds="0.8" >
+                        <VariantIndex index="1" brightnessMin="0.1" brightnessMax="0.275" satSlope="-0.45" satZero="0.6" saturationMin="0.15" hueOffset="-0.2"  patternOdds="0.8">
+                            <ColorPrefs Orange="3" Yellow="1" Green="2" Cyan="1"/>                              
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+                <Model file="characters/female/zombie/body/tshirt/tshirt" weight="5">
+                    <EigenZombie file="characters/female/zombie/body/tshirt/low/low.cdf"/>
+                    <VariantShader type='shirt' decalOdds="0.25">
+                        <VariantIndex index="1" brightnessMin="0.1" brightnessMax="0.275" satSlope="-0.35" satZero="0.6" saturationMin="0.2" hueOffset="-0.2" decalOdds="0.25">
+                            <ColorPrefs Orange="3" Yellow="1" Green="2" Cyan="1"/>                              
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Body>
+            <Legs>
+                <Model file="characters/female/zombie/legs/shorts/shorts" weight="1">
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.2" brightnessMax="0.6" satSlope="-0.2" satZero="1" saturationMin="0.2" hueOffset="0"/>
+                    </VariantShader>
+                </Model>
+                <Model file="characters/female/zombie/legs/capri/capri" weight="4">
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.025" brightnessMax="0.15" satSlope="-0.4" satZero=".65" saturationMin="0.2" hueOffset="2.3">
+                            <ColorPrefs  Red="1" Orange="1" Yellow="1" Green="1" Cyan="1" Blue="1"/>                              
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Legs>
+            <Hair>
+                <Model file="characters/female/zombie/hair/hair01/hair01" weight="1"/>
+                <Model file="characters/female/zombie/hair/hair02/hair02" weight="1"/>
+                <Model file="characters/female/zombie/hair/hair03/hair03" weight="1"/>
+                <Model file="characters/female/zombie/hair/hair04/hair04" weight="1"/>
+                <Model file="characters/female/zombie/hair/waitress/waitress" weight="1"/>
+            </Hair>
+            <SkinVariant maxDiffuse="0.25,0.3,0.45" minDiffuse="0.1,0.10,0.20" maxMelanin="0.6" zombifyDecalOdds="0"/>
+        </BodyType>
+        <BodyType type="waitress" weight="3">
+            <Head>
+                <Model file="characters/female/zombie/heads/head01/head01" weight="1"/>
+            </Head>
+            <Skin>
+                <Model file="characters/female/zombie/skin/waitress/skin" weight="1"/>
+            </Skin>
+            <Body>
+                <Model file="characters/female/zombie/body/waitress/waitress" weight="1">
+                    <EigenZombie file="characters/female/zombie/body/tshirt/low/low.cdf"/>
+                    <VariantShader type='shirt' >
+                        <VariantIndex index="1" brightnessMin="0.21" brightnessMax="0.35" satSlope="-0.2" satZero="0.75" saturationMin="0.35" hueOffset="0"/>
+                        <VariantIndex index="2" brightnessMin="0.2" brightnessMax="0.4" satSlope="-0.5" satZero="0.2" saturationMin="0.05" hueOffset="0"/>
+                        <VariantIndex index="3" brightnessMin="0.2" brightnessMax="0.4" satSlope="-0.5" satZero="0.2" saturationMin="0.05" hueOffset="0"/>
+                    </VariantShader>
+                </Model>
+            </Body>
+            <Hair>
+                <Model file="characters/female/zombie/hair/hair01/hair01" weight="1"/>
+                <Model file="characters/female/zombie/hair/hair02/hair02" weight="1"/>
+                <Model file="characters/female/zombie/hair/hair03/hair03" weight="1"/>
+                <Model file="characters/female/zombie/hair/hair04/hair04" weight="1"/>
+                <Model file="characters/female/zombie/hair/waitress/waitress" weight="1"/>
+            </Hair>
+            <SkinVariant maxDiffuse="0.25,0.3,0.45" minDiffuse="0.1,0.10,0.20" maxMelanin="0.6" zombifyDecalOdds="0"/>
+        </BodyType>
+    </Gender>
+    <Gender type="male" weight="10" skeleton="characters/male/zombie/skeleton/skeleton">
+        <BodyType type="standard" weight="6">
+            <Body>
+                <Model file="characters/male/zombie/body/buttons_jeans/buttons_jeans" weight="5">
+                    <EigenZombie file="characters/male/zombie/body/buttons_jeans/low/low.cdf"/>
+                    <VariantShader type='shirt' patternOdds="0.8">
+                        <VariantIndex index="1" brightnessMin="0.05" brightnessMax="0.375" satSlope="-0.6" satZero="0.65" saturationMin="0.05" hueOffset="0.1" patternOdds="0.8">
+                            <ColorPrefs  Red="1" Orange="1" Yellow="1" Green="1" Cyan="1" Blue="1"/>                              
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+                <Model file="characters/male/zombie/body/suit/suit" weight="2">
+                    <EigenZombie file="characters/male/zombie/body/suit/low/low.cdf"/>
+                    <VariantShader type='shirt' >
+                        <VariantIndex index="1" brightnessMin="0.05" brightnessMax="0.3" satSlope="-0.5" satZero="0.45" saturationMin="0.05" hueOffset="0.1"/>
+                        <VariantIndex index="2" brightnessMin="0.1" brightnessMax="0.2" satSlope="-0.5" satZero="0.45" saturationMin="0.05" hueOffset="0.1"/>
+                        <VariantIndex index="3" brightnessMin="0.02" brightnessMax="0.3" satSlope="-0.4" satZero="1.75" saturationMin="0.05" hueOffset="0.1"/>
+                    </VariantShader>
+                </Model>
+                <Model file="characters/male/zombie/body/tshirt_jeans/tshirt_jeans" weight="4">
+                    <EigenZombie file="characters/male/zombie/body/tshirt_jeans/low/low.cdf"/>
+                    <VariantShader type='shirt' decalOdds="0.5">
+                        <VariantIndex index="1" brightnessMin="0.075" brightnessMax="0.35" satSlope="-0.5" satZero="0.6" saturationMin=".1" hueOffset="0" decalOdds="0.9">
+                            <ColorPrefs  Orange="1" Green="2" Cyan="2" Blue="2"/>
+                        </VariantIndex>
+                        <VariantIndex index="2" brightnessMin="0.075" brightnessMax="0.3S5" satSlope="-0.5" satZero="0.6" saturationMin="0.1" hueOffset="0"/>
+                    </VariantShader>
+                </Model>
+            </Body>
+            <Legs>
+                <Model file="characters/male/zombie/legs/jeans/jeans" weight="1">
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.1" brightnessMax="0.4" satSlope="-0.1" satZero="2.4" saturationMin="0.5" hueOffset="-3">
+                            <ColorPrefs  Cyan="1" Blue="5"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Legs>
+            <Skin>
+                <Model file="characters/male/zombie/skin/shortsleeve02/skin" weight="1"/>
+                <Model file="characters/male/zombie/skin/shortsleeve/skin" weight="1"/>
+            </Skin>
+            <Head>
+                <Model file="characters/male/zombie/heads/head02/head02" weight="2"/>
+                <Model file="characters/male/zombie/heads/head03/head03" weight="1"/>
+            </Head>
+            <Hair>
+                <Model file="characters/male/human/hair/hair04/hair04" weight="2"/>
+                <Model file="characters/male/human/hair/hair08/hair08" weight="6"/>
+                <Model file="characters/male/zombie/hair/hair02/hair02" weight="3"/>
+                <Model file="characters/male/zombie/hair/hair04/hair04" weight="1"/>
+                <Model file="characters/male/zombie/hair/hair05/hair05" weight="10"/>
+                <Model file="characters/male/zombie/hair/hair06/hair06" weight="10"/>
+                <Model file="characters/male/zombie/hair/hair07/hair07" weight="10"/>
+                <Model file="characters/male/zombie/hair/hair08/hair08" weight="15"/>
+            </Hair>
+            <SkinVariant maxDiffuse="0.55,0.55,0.5" minDiffuse="0.15,0.3,0.45" maxMelanin="0.65" zombifyDecalOdds="0"/>
+        </BodyType>
+        <BodyType type="noshirt" weight="2">
+            <Head>
+                <Model file="characters/male/zombie/heads/head02/head02" weight="3"/>
+                <Model file="characters/male/zombie/heads/head03/head03" weight="2"/>
+            </Head>
+            <Body>
+                <Model file="characters/male/zombie/body/noshirt02/noshirt02" weight="4">
+                    <EigenZombie file="characters/male/zombie/body/noshirt_jeans/low/low.cdf"/>
+                </Model>
+                <Model file="characters/male/zombie/body/noshirt03/noshirt03" weight="6">
+                    <EigenZombie file="characters/male/zombie/body/noshirt_jeans/low/low.cdf"/>
+                </Model>
+            </Body>
+            <Legs>
+                <Model file="characters/male/zombie/legs/jeans/jeans" weight="1">
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.1" brightnessMax="0.4" satSlope="-0.1" satZero="2.4" saturationMin="0.5" hueOffset="-3">
+                            <ColorPrefs  Cyan="1" Blue="5"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Legs>
+            <Hair>
+                <Model file="characters/male/human/hair/hair04/hair04" weight="2"/>
+                <Model file="characters/male/human/hair/hair08/hair08" weight="6"/>
+                <Model file="characters/male/zombie/hair/hair02/hair02" weight="2"/>
+                <Model file="characters/male/zombie/hair/hair04/hair04" weight="1"/>
+                <Model file="characters/male/zombie/hair/hair05/hair05" weight="10"/>
+                <Model file="characters/male/zombie/hair/hair06/hair06" weight="10"/>
+                <Model file="characters/male/zombie/hair/hair07/hair07" weight="10"/>
+                <Model file="characters/male/zombie/hair/hair08/hair08" weight="15"/>
+            </Hair>
+            <SkinVariant maxDiffuse="0.55,0.55,0.5" minDiffuse="0.15,0.3,0.45" maxMelanin="0.65" zombifyDecalOdds="0"/>
+        </BodyType>
+        <BodyType type="decay" weight="1">
+            <Body>
+                <Model file="characters/male/zombie/body/decay/decay" weight="1">
+                    <EigenZombie file="characters/male/zombie/body/noshirt_jeans/low/low.cdf"/>
+                </Model>
+            </Body>
+            <Legs>
+                <Model file="characters/male/zombie/legs/jeans/jeans" weight="1">
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.1" brightnessMax="0.2" satSlope="-0.1" satZero="2.4" saturationMin="0.5" hueOffset="-3">
+                            <ColorPrefs  Cyan="1" Blue="5"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Legs>
+            <Hair>
+                <Model file="characters/male/zombie/hair/hair03/hair03" weight="2"/>
+                <Model file="characters/male/zombie/hair/hair04/hair04" weight="1"/>
+            </Hair>
+            <SkinVariant maxDiffuse="0.55,0.55,0.5" minDiffuse="0.15,0.3,0.45" maxMelanin="0.45" zombifyDecalOdds="0"/>
+        </BodyType>
+        <BodyType type="fat" weight="1">
+            <Head>
+            </Head>
+            <Body>
+                <Model file="characters/male/zombie/fatguy/body/tshirt/tshirt" weight="3">
+                    <EigenZombie file="characters/male/zombie/fatguy/low/low.cdf"/>
+                    <VariantShader type='pants' >
+                       <VariantIndex index="1" brightnessMin="0.03" brightnessMax="0.20" satSlope="-0.1" satZero="2.3" saturationMin="1.5" hueOffset="-2.5">
+                            <ColorPrefs  Orange="1" Cyan="1" Blue="3"/>
+                        </VariantIndex>
+                    </VariantShader>
+                    <VariantShader type='shirt' decalOdds="0.25" >
+                        <VariantIndex index="1" brightnessMin="0.04" brightnessMax="0.25" satSlope="-0.4" satZero="0.9" saturationMin="0.125" hueOffset="-0.2" decalOdds="0.25">
+                            <ColorPrefs  Orange="3" Yellow="1" Green="3" Cyan="1" Blue="2"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+                <Model file="characters/male/zombie/fatguy/body/overalls/overalls" weight="1">
+                    <EigenZombie file="characters/male/zombie/fatguy/low/low.cdf"/>
+                    <VariantShader type='pants' >
+                        <VariantIndex index="2" brightnessMin="0.04" brightnessMax="0.25" satSlope="-0.4" satZero="0.9" saturationMin="0.125" hueOffset="-0.2" decalOdds="0.25">
+                            <ColorPrefs  Orange="3" Yellow="1" Green="3" Cyan="1" Blue="2"/>
+                        </VariantIndex>
+                       <VariantIndex index="1" brightnessMin="0.03" brightnessMax="0.20" satSlope="-0.1" satZero="2.3" saturationMin="1.5" hueOffset="-2.5">
+                            <ColorPrefs  Orange="1" Cyan="1" Blue="3"/>
+                        </VariantIndex>
+                   </VariantShader>
+                </Model>
+            </Body>
+            <Skin>
+                <Model file="characters/male/zombie/fatguy/skin/basic/skin" weight="1"/>
+            </Skin>
+            <Hair>
+                <Model file="characters/male/zombie/fatguy/hair/hair01/hair01" weight="1"/>
+                <Model file="characters/male/zombie/fatguy/hair/hair02/hair02" weight="2"/>
+                <Model file="characters/male/zombie/fatguy/hair/hair03/hair03" weight="2"/>
+                <Model file="characters/male/zombie/fatguy/hair/hair04/hair04" weight="2"/>
+            </Hair>
+            <SkinVariant maxDiffuse="0.2,0.4,0.4" minDiffuse="0.08,0.12,0.12" maxMelanin="0.7" zombifyDecalOdds="0"/>
+        </BodyType>
+        <BodyType type="fresh" weight="2">
+            <Body>
+                <Model file="characters/male/human/body/hoodie_shorts/hoodie_shorts" weight="4">
+                    <EigenZombie file="characters/male/zombie/body/buttons_jeans/low/low.cdf"/>
+                    <VariantShader type='shirt' decalOdds="0.6">
+                        <VariantIndex index="0" brightnessMin="0.025" brightnessMax="0.2" satSlope="-0.4" satZero="0.4" saturationMin="0.05" hueOffset="-0.1">
+                            <ColorPrefs Orange="2" Yellow="1" Green="1" Cyan="1" Blue="2"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+                <Model file="characters/male/human/body/denimjacket_jeans/denimjacket_jeans" weight="3">
+                    <EigenZombie file="characters/male/zombie/body/suit/low/low.cdf"/>
+                    <VariantShader type='shirt' decalOdds="0.6">
+                        <VariantIndex index="1" brightnessMin="0.065" brightnessMax="0.2" satSlope="-0.3" satZero="1.0" saturationMin="0.05" hueOffset="-2.8">
+                            <ColorPrefs Orange="1"  Blue="3"/>
+                        </VariantIndex>
+                        <VariantIndex index="2" brightnessMin="0.075" brightnessMax="0.3" satSlope="-0.3" satZero="0.3" saturationMin="0.05" hueOffset="0.0">
+                            <ColorPrefs Red="1" Orange="1"/>
+                        </VariantIndex>
+                        <VariantIndex index="3" brightnessMin="0.075" brightnessMax="0.3" satSlope="-0.5" satZero="0.4" saturationMin="0.05" hueOffset="0.0">
+                            <ColorPrefs Red="1" Orange="1" Yellow="1" Cyan="1" Blue="1" Green="1"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Body>
+            <Legs>
+                <Model file="characters/male/human/legs/jeans/jeans" weight="1">
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.035" brightnessMax="0.4" satSlope="-0.1" satZero="2.4" saturationMin="0.25" hueOffset="-3">
+                            <ColorPrefs  Cyan="1" Blue="5"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Legs>
+            <Skin>
+                <Model file="characters/male/human/skin/med_sleeve_thick_jacket/skin" weight="1"/>
+            </Skin>
+            <Head>
+                <Model file="characters/male/zombie/heads/fresh/head04/head04" weight="1"/>
+            </Head>
+            <Hair>
+                <Model file="characters/male/human/hair/hair04/hair04" weight="1"/>
+                <Model file="characters/male/human/hair/hair08/hair08" weight="2"/>
+                <Model file="characters/male/zombie/hair/hair05/hair05" weight="2"/>
+                <Model file="characters/male/zombie/hair/hair08/hair08" weight="2"/>
+            </Hair>
+            <SkinVariant maxDiffuse="0.25,0.4,0.4" minDiffuse="0.1,0.15,0.15" maxMelanin="0.7" Shininess="64" BlurScale="1.15" SpecularStrenght="0.1" SelfShadowSoftening="40" zombifyDecalOdds="1"/>
+        </BodyType>
+    </Gender>
+    <Gender type="SwatZombie" weight="0" skeleton="characters/freaks/armored/skeleton/skeleton">
+        <BodyType type="armored" weight="0">
+            <Head>
+            </Head>
+            <Body>
+                <Model file="characters/freaks/armored/armored" weight="3">
+                    <EigenZombie file="characters/freaks/armored/armored.cdf"/>
+                    <VariantShader type='shirt' >
+                        <VariantIndex index="1" brightnessMin="0.3" brightnessMax="0.5" satSlope="-0.4" satZero="0.7" saturationMin="0.2" hueOffset="-2.95">
+                            <ColorPrefs  Cyan="1" Blue="3"/>
+                        </VariantIndex>
+                        <VariantIndex index="2" brightnessMin="0.05" brightnessMax="1.0" satSlope="-0.4" satZero="1.0" saturationMin="0.2" hueOffset="-2.95">
+                            <ColorPrefs  Green="1" Cyan="1" Blue="3"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Body>
+            <Skin>
+                <Model file="characters/freaks/armored/skin/skin" weight="1"/>
+            </Skin>
+            <Hair>
+            </Hair>
+            <SkinVariant maxDiffuse="0.5,0.5,0.5" minDiffuse="0.15,0.3,0.475" maxMelanin="0.7" zombifyDecalOdds="0"/>
+        </BodyType>    
+    </Gender>
+    <Gender type="ArmyZombie" weight="0" skeleton="characters/freaks/armored/skeleton/skeleton">
+        <BodyType type="ArmyZombie" weight="0">
+            <Head>
+                <Model file="characters/male/zombie/heads/fresh/head04/head04" weight="1"/>
+            </Head>
+            <Body>
+                <Model file="characters/male/human/body/army/army" weight="1">
+                    <EigenZombie file="characters/freaks/armored/armored.cdf"/>
+                    <VariantShader type='shirt' >
+                        <VariantIndex index="1" brightnessMin="0.3" brightnessMax="0.4" satSlope="-0.4" satZero="0.7" saturationMin="0.2" hueOffset="0">
+                            <ColorPrefs  Green="1"/>
+                        </VariantIndex>
+                        <VariantIndex index="2" brightnessMin="0.3" brightnessMax="0.4" satSlope="-0.4" satZero="0.7" saturationMin="0.2" hueOffset="0">
+                            <ColorPrefs  Green="1"/>
+                        </VariantIndex>
+                        <VariantIndex index="3" brightnessMin="0.15" brightnessMax="0.175" satSlope="-0.4" satZero="1.0" saturationMin="0.2" hueOffset="0">
+                            <ColorPrefs  Orange="1"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Body>
+            <Legs>
+                <Model file="characters/male/human/legs/combat/combat" weight="1">
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.2" brightnessMax="0.25" satSlope="-0.1" satZero="1.2" saturationMin="0.8" hueOffset="0">
+                            <ColorPrefs  Green="1"/>
+                        </VariantIndex>
+                        <VariantIndex index="3" brightnessMin="0.15" brightnessMax="0.175" satSlope="-0.4" satZero="1.0" saturationMin="0.2" hueOffset="0">
+                            <ColorPrefs  Orange="1"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Legs>
+            <Skin>
+                <Model file="characters/male/human/skin/med_sleeve_thick_jacket/skin" weight="1"/>
+            </Skin>
+            <Hat>
+                <Model file="characters/male/human/parts/hats/army_helmet/helmet" weight="1">
+                    <VariantShader type='shirt' >
+                        <VariantIndex index="1" brightnessMin="0.3" brightnessMax="0.4" satSlope="-0.1" satZero="1.5" saturationMin="1.0" hueOffset="-3">
+                            <ColorPrefs  Green="1"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Hat>
+            <SkinVariant maxDiffuse="0.25,0.4,0.4" minDiffuse="0.1,0.15,0.15" maxMelanin="0.7" Shininess="64" BlurScale="1.15" SpecularStrenght="0.1" SelfShadowSoftening="40" zombifyDecalOdds="1"/>
+        </BodyType>    
+    </Gender>
+    <Gender type="bloater" weight="0" skeleton="characters/freaks/bloater/skeleton/skeleton">
+        <BodyType type="bloater" weight="0">`
+            <Head>
+            </Head>
+            <Body>
+                <Model file="characters/freaks/bloater/bloater" weight="3">
+                    <EigenZombie file="characters/freaks/bloater/bloater.cdf"/>
+                </Model>
+            </Body>
+            <Hair>
+            </Hair>
+            <SkinVariant maxDiffuse="0.4,0.4,0.4" minDiffuse="0.1,0.1,0.25" maxMelanin="0.65" zombifyDecalOdds="0"/>
+        </BodyType>
+    </Gender>
+    <Gender type="feral" weight="0" skeleton="characters/freaks/feral/skeleton/skeleton">
+        <BodyType type="feral" weight="0">`
+            <Head>
+            </Head>
+            <Body>
+                <Model file="characters/freaks/feral/feral" weight="3">
+                    <EigenZombie file="characters/freaks/feral/feral.cdf"/>
+                </Model>
+            </Body>
+            <Hair>
+                <Model file="characters/freaks/feral/hair/hair01" weight="1"/>
+            </Hair>
+        </BodyType>
+    </Gender>
+    <Gender type="juggernaut" weight="0" skeleton="characters/freaks/juggernaut/skeleton/skeleton">
+        <BodyType type="juggernaut" weight="0">`
+            <Head>
+            </Head>
+            <Body>
+                <Model file="characters/freaks/juggernaut/juggernaut" weight="3">
+                    <EigenZombie file="characters/freaks/juggernaut/juggernaut.cdf"/>
+                </Model>
+            </Body>
+            <Hair>
+            </Hair>
+            <SkinVariant maxDiffuse="0.55,0.5,0.5" minDiffuse="0.275,0.33,0.45" maxMelanin="0.5" zombifyDecalOdds="0"/>
+        </BodyType>
+    </Gender>
+    <Gender type="screamer" weight="0" skeleton="characters/freaks/screamer/skeleton/skeleton">
+        <BodyType type="screamer" weight="0">`
+            <Head>
+            </Head>
+            <Body>
+                <Model file="characters/freaks/screamer/screamer" weight="3">
+                    <EigenZombie file="characters/freaks/screamer/screamer.cdf"/>
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.05" brightnessMax="0.25" satSlope="-0.25" satZero="2.4" saturationMin="0.5" hueOffset="-3">
+                            <ColorPrefs  Orange="2" Cyan="1" Blue="3"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Body>
+            <Hair>
+            </Hair>
+            <SkinVariant maxDiffuse="0.45,0.45,0.4" minDiffuse="0.15,0.15,0.25" maxMelanin="0.65" zombifyDecalOdds="0"/>
+        </BodyType>
+    </Gender>
+    <Gender type="FreshZombie" weight="0" skeleton="characters/male/zombie/skeleton/skeleton">
+        <BodyType type="FreshGrunt" weight="0">
+            <Body>
+                <Model file="characters/male/human/body/hoodie_shorts/hoodie_shorts" weight="4">
+                    <EigenZombie file="characters/male/zombie/body/buttons_jeans/low/low.cdf"/>
+                    <VariantShader type='shirt' decalOdds="0.6">
+                        <VariantIndex index="0" brightnessMin="0.025" brightnessMax="0.2" satSlope="-0.4" satZero="0.4" saturationMin="0.05" hueOffset="-0.1">
+                            <ColorPrefs Orange="2" Yellow="1" Green="1" Cyan="1" Blue="2"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+                <Model file="characters/male/human/body/denimjacket_jeans/denimjacket_jeans" weight="3">
+                    <EigenZombie file="characters/male/zombie/body/suit/low/low.cdf"/>
+                    <VariantShader type='shirt' decalOdds="0.6">
+                        <VariantIndex index="1" brightnessMin="0.065" brightnessMax="0.2" satSlope="-0.3" satZero="1.0" saturationMin="0.05" hueOffset="-2.8">
+                            <ColorPrefs Orange="1"  Blue="3"/>
+                        </VariantIndex>
+                        <VariantIndex index="2" brightnessMin="0.075" brightnessMax="0.3" satSlope="-0.3" satZero="0.3" saturationMin="0.05" hueOffset="0.0">
+                            <ColorPrefs Red="1" Orange="1"/>
+                        </VariantIndex>
+                        <VariantIndex index="3" brightnessMin="0.075" brightnessMax="0.3" satSlope="-0.5" satZero="0.4" saturationMin="0.05" hueOffset="0.0">
+                            <ColorPrefs Red="1" Orange="1" Yellow="1" Cyan="1" Blue="1" Green="1"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Body>
+            <Legs>
+                <Model file="characters/male/human/legs/jeans/jeans" weight="1">
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.035" brightnessMax="0.4" satSlope="-0.1" satZero="2.4" saturationMin="0.25" hueOffset="-3">
+                            <ColorPrefs  Cyan="1" Blue="5"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Legs>
+            <Skin>
+                <Model file="characters/male/human/skin/med_sleeve_thick_jacket/skin" weight="1"/>
+            </Skin>
+            <Head>
+                <Model file="characters/male/zombie/heads/fresh/head04/head04" weight="1"/>
+            </Head>
+            <Hair>
+                <Model file="characters/male/human/hair/hair04/hair04" weight="1"/>
+                <Model file="characters/male/human/hair/hair08/hair08" weight="2"/>
+                <Model file="characters/male/zombie/hair/hair05/hair05" weight="2"/>
+                <Model file="characters/male/zombie/hair/hair08/hair08" weight="2"/>
+            </Hair>
+            <SkinVariant maxDiffuse="0.25,0.4,0.4" minDiffuse="0.1,0.15,0.15" maxMelanin="0.7" Shininess="64" BlurScale="1.15" SpecularStrenght="0.1" SelfShadowSoftening="40" zombifyDecalOdds="1"/>
+        </BodyType>
+    </Gender>
+    <Gender type="Eatter" weight="0" skeleton="characters/male/zombie/skeleton/skeleton">
+        <BodyType type="Eatter" weight="0">
+            <Body>
+                <Model file="characters/male/human/body/hoodie_shorts/hoodie_shorts" weight="4">
+                    <EigenZombie file="characters/male/zombie/body/buttons_jeans/low/low.cdf"/>
+                    <VariantShader type='shirt' decalOdds="0.6">
+                        <VariantIndex index="0" brightnessMin="0.025" brightnessMax="0.2" satSlope="-0.4" satZero="0.4" saturationMin="0.05" hueOffset="-0.1">
+                            <ColorPrefs Orange="2" Yellow="1" Green="1" Cyan="1" Blue="2"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+                <Model file="characters/male/human/body/denimjacket_jeans/denimjacket_jeans" weight="3">
+                    <EigenZombie file="characters/male/zombie/body/suit/low/low.cdf"/>
+                    <VariantShader type='shirt' decalOdds="0.6">
+                        <VariantIndex index="1" brightnessMin="0.065" brightnessMax="0.2" satSlope="-0.3" satZero="1.0" saturationMin="0.05" hueOffset="-2.8">
+                            <ColorPrefs Orange="1"  Blue="3"/>
+                        </VariantIndex>
+                        <VariantIndex index="2" brightnessMin="0.075" brightnessMax="0.3" satSlope="-0.3" satZero="0.3" saturationMin="0.05" hueOffset="0.0">
+                            <ColorPrefs Red="1" Orange="1"/>
+                        </VariantIndex>
+                        <VariantIndex index="3" brightnessMin="0.075" brightnessMax="0.3" satSlope="-0.5" satZero="0.4" saturationMin="0.05" hueOffset="0.0">
+                            <ColorPrefs Red="1" Orange="1" Yellow="1" Cyan="1" Blue="1" Green="1"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Body>
+            <Legs>
+                <Model file="characters/male/human/legs/jeans/jeans" weight="1">
+                    <VariantShader type='pants' >
+                        <VariantIndex index="1" brightnessMin="0.035" brightnessMax="0.4" satSlope="-0.1" satZero="2.4" saturationMin="0.25" hueOffset="-3">
+                            <ColorPrefs  Cyan="1" Blue="5"/>
+                        </VariantIndex>
+                    </VariantShader>
+                </Model>
+            </Legs>
+            <Skin>
+                <Model file="characters/male/human/skin/med_sleeve_thick_jacket/skin" weight="1"/>
+            </Skin>
+            <Head>
+                <Model file="characters/male/zombie/heads/fresh/head04/head04" weight="1"/>
+            </Head>
+            <Hair>
+                <Model file="characters/male/human/hair/hair04/hair04" weight="1"/>
+                <Model file="characters/male/human/hair/hair08/hair08" weight="2"/>
+                <Model file="characters/male/zombie/hair/hair05/hair05" weight="2"/>
+                <Model file="characters/male/zombie/hair/hair08/hair08" weight="2"/>
+            </Hair>
+            <SkinVariant maxDiffuse="0.25,0.4,0.4" minDiffuse="0.1,0.15,0.15" maxMelanin="0.7" Shininess="64" BlurScale="1.15" SpecularStrenght="0.1" SelfShadowSoftening="40" zombifyDecalOdds="1"/>
+        </BodyType>
+    </Gender>
+    <MaterialTypes>
+        <Material type="cloth" FresnelBias1="0.3" FresnelPower1="4" FresnelScale1="16" Glossiness1="4" SpecColor1="0.010397803,0.013473397,0.026548682" weight="3"/>
+        <Material type="flannel" FresnelBias1="0" FresnelPower1="3" FresnelScale1="28" Glossiness1="2" SpecColor1="0.010397803,0.013473397,0.026548682" weight="3"/>
+        <Material type="satin" FresnelBias1="0" FresnelPower1="3" FresnelScale1="28" Glossiness1="2" SpecColor1="0.010397803,0.013473397,0.026548682" weight="1"/>
+        <Material type="leather" FresnelBias1=".75" FresnelPower1="2" FresnelScale1="8" Glossiness1="20" SpecColor1="0.010397803,0.013473397,0.026548682" weight="2"/>
+    </MaterialTypes>
+    <Colors>
+        <Red    min="-0.16" max="0.35" weight="1"/>
+        <Orange min="-0.55" max="0.16" weight="1"/>
+        <Yellow min="-1.1" max="-0.65" weight="1"/>
+        <Green  min="-2.47" max="-1.1" weight="1"/>
+        <Cyan   min="-3.66" max="-2.47" weight="1"/>
+        <Blue   min="2.2" max="2.62" weight="1"/>
+        <Purple min="1.35" max="2.2" weight="0"/>
+        <Magenta min="0.35" max="1.35" weight="0"/>
+    </Colors>
+    <Decals>
+        <Decal file="characters/textures/big_daddy_auto.tif"  weight="2"/>
+        <Decal file="characters/textures/big_dick.tif"  weight="2"/>
+        <Decal file="characters/textures/fivewolf_moon.tif"  weight="2"/>
+        <Decal file="characters/textures/hells_vipers.tif"  weight="2"/>
+        <Decal file="characters/textures/hot_zombie.tif"  weight="2"/>
+        <Decal file="characters/textures/ledot_donut.tif"  weight="2"/>
+        <Decal file="characters/textures/palin.tif"  weight="2"/>
+        <Decal file="characters/textures/skull.tif"  weight="2"/>
+        <Decal file="characters/textures/sprang.tif"  weight="2"/>
+        <Decal file="characters/textures/undeadlabs.tif" weight=" 2"/>
+    </Decals>
+    <Patterns tileMin="0.75" tileMax="5.0" >
+        <Pattern file="characters/textures/flannel_light.tif"  weight="2"/>
+        <Pattern file="characters/textures/flannel_red.tif"  weight="4"/>
+        <Pattern file="characters/textures/invertstripes.tif"  weight="5"/>
+        <Pattern file="characters/textures/paisley.tif"  weight="1"/>
+        <Pattern file="characters/textures/pinstripes.tif"  weight="5"/>
+        <Pattern file="characters/textures/stripes.tif"  weight="5"/>
+        <Pattern file="characters/textures/plaid.tif"  weight="6"/>
+    </Patterns>
+    <HairTemplates>
+        <HairTemplate file="characters/male/human/hair/brown01"  weight="12"/>
+        <HairTemplate file="characters/male/human/hair/brown02"  weight="24"/>
+        <HairTemplate file="characters/male/human/hair/brown03"  weight="32"/>
+        <HairTemplate file="characters/male/human/hair/brown04"  weight="24"/>
+        <HairTemplate file="characters/male/human/hair/black01"  weight="12"/>
+        <HairTemplate file="characters/male/human/hair/red01"  weight="2"/>
+    </HairTemplates>
+    <ZombifyDecals>
+        <ZombifyDecal file="characters/textures/zombify/zombify.tif"  weight="1"/>
+    </ZombifyDecals>
+</VariantData>

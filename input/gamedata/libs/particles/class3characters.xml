@@ -1,0 +1,324 @@
+<ParticleLibrary Name="Class3Characters" SandboxVersion="3.3.8.54800" ParticleVersion="22">
+ <Particles Name="Screamer.mouth_spray" Id="{4F4978DD-8E26-4B1D-B727-9EF050AD76B1}" Library="Class3Characters">
+  <Params Continuous="true" Count="4,,(,0.43,32;0.2325,1;1)" EmitterLifeTime="3.5,0.25" ParticleLifeTime="0.325,0.25,(,1;1,1)" PositionOffset="-0.05,0.15" EmitAngle="10,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_large" Alpha="1.25,,(,0.3181818,32;0.2475,0.77272725;0.5925,1;1,0.11363637),(0.0025,,32;0.2025,1;0.99)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;0.47257385,1,32;1,0.18181819)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.25,0.35,(,0.38636363,32;0.49860725,1;1,0.6818182,4),(,,32;0.5075,0.84090906;1,1)" Stretch="0.2,,(,1;1,1),(0.004576659,1,32;1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="5,0.75,(,1;1,1)" RotationalDragScale="0" GravityScale="0.25" RandomAngles=",360" RotationRate=",-25" RandomRotationRate=",60"/>
+  <Childs>
+   <Particles Name="ropey">
+    <Params Continuous="true" Count="6,,(,0.43,32;0.2325,1;1,0.275,4)" EmitterLifeTime="2.5" ParticleLifeTime="0.475,0.3,(,1;1,1)" PositionOffset="-0.05,0.15" EmitAngle="15,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="0.85,,(,,32;0.22,0.79545456;0.675,1;1,0.4318182,4),(,,32;0.2025,1;0.99)" AlphaClamp="0.8,,(,1;1,1)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.25,0.35,(,0.408,32;0.3175,1;1,0.61,4),(,,32;0.63,0.79545456;0.9875,1,4)" Stretch="0.2,,(,1;1,1),(0.004576659,1,32;1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="3.75,0.75,(,1;1,1)" RotationalDragScale="0" GravityScale="0.35" RandomAngles=",360" RotationRate=",45" RandomRotationRate=",90" DrawLast="-28"/>
+   </Particles>
+   <Particles Name="spotty">
+    <Params Continuous="true" Count="6,,(,0.43,32;0.2325,1;1,0.275,4)" EmitterLifeTime="3" ParticleLifeTime="0.5,0.3,(,1;1,1)" PositionOffset="-0.05,0.15" EmitAngle="15,1,(,1;1,1)" TextureTiling="2,,,2" Material="Particles/Materials/zed_blood_spray" Alpha=",,(,0.36363637,32;0.1525,1;0.7525,1;0.99,,4),(,1;0.2425,1,4;0.99)" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,0.35,(,0.70454544,32;0.3175,1;1,0.75,4),(,,32;0.51,0.84090906;0.9925,1)" Stretch="0.2,,(,1;1,1),(0.004576659,1,32;1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="4,0.75,(,1;1,1)" RotationalDragScale="0" GravityScale="0.35" RandomAngles=",360" RotationRate=",45" RandomRotationRate=",90" DrawLast="-15"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Juggernaut.head_nick" Id="{6941F4C1-F2FC-4B27-BB52-7EE207369471}" Library="Class3Characters">
+  <Params Continuous="true" Count="20,0.5" EmitterLifeTime="0.1" ParticleLifeTime="1.35,0.5" EmitAngle="45,1" Texture="textures/particles/liquids/blood_spurts.tif" TextureTiling="2,2,,4" Color="(0.302,0.06,0.03)" DiffuseLighting="0.85" Size="0.035,0.35,,(,0.84;0.46604937,0.59)" Stretch="0.1" TailLength="0.1,,,(,1,32;0.53089243),3" Speed="6,0.65" AirResistance="0.65" GravityScale="0.65"/>
+  <Childs>
+   <Particles Name="fan">
+    <Params Count="4" ParticleLifeTime="0.65,0.5" EmitAngle="45,1" Texture="textures/particles/smoke/smoke_tiled_small.tif" TextureTiling="2,2,,4" Alpha="0.85,,,(,,32;0.15363128,1;1)" Color="(0.19,0.09,0.07),0.5" DiffuseLighting="0.85" DiffuseBacklighting="0.35" ReceiveShadows="true" Size="0.25,0.35,,(,0.43,32;1,1)" Stretch="0.2,,,(,1,32;0.2389937,0.294;1)" Speed="4,0.65" RandomAngles=",360" RotationRate=",-45" RandomRotationRate=",90"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Screamer.mouth_spurt_start" Id="{3DB9A0CC-CE79-42D2-AA30-F0AD6081C1D6}" Library="Class3Characters">
+  <Params Continuous="true" Count="5,,(,0.43,32;0.2325,1;1)" EmitterLifeTime="0.35,0.25" ParticleLifeTime="0.35,0.3" PositionOffset="-0.05,0.15" EmitAngle="10,1" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_large" Alpha=",,,(,1;0.2525,1,4;0.99)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" ReceiveShadows="true" Size="0.25,0.35,,(,0.16;0.645,0.953;1,0.863)" Stretch="0.115,,,(0.004576659,1,32;1)" Speed="6,0.35" RotationalDragScale="0" GravityScale="0.25" RandomAngles=",360" RotationRate=",45" RandomRotationRate=",90"/>
+  <Childs>
+   <Particles Name="spotty">
+    <Params Count="10,,(,0.43,32;0.2325,1;1,0.275,4)" EmitterLifeTime="0.35" ParticleLifeTime="0.5,0.3" PositionOffset="-0.05,0.15" EmitAngle="15,1" TextureTiling="2,,,2" Material="Particles/Materials/zed_blood_spray" Alpha=",,,(,1;0.2425,1,4;0.99)" DiffuseLighting="0.5" DiffuseBacklighting="0.35" ReceiveShadows="true" Size="0.35,0.35,,(;0.5175,0.933;0.9925,1)" Stretch="0.115,,,(0.004576659,1,32;1)" Speed="4,0.5" RotationalDragScale="0" GravityScale="0.35" RandomAngles=",360" RotationRate=",45" RandomRotationRate=",90" DrawLast="-15"/>
+   </Particles>
+   <Particles Name="ropey">
+    <Params Count="8,,(,0.43,32;0.2325,1;1,0.275,4)" EmitterLifeTime="0.35" ParticleLifeTime="0.4,0.3" PositionOffset="-0.05,0.15" EmitAngle="15,1" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="0.9,,,(,1;0.2425,1,4;0.99)" DiffuseLighting="0.85" DiffuseBacklighting="0.35" ReceiveShadows="true" Size="0.2,0.35,,(;0.645,0.953;1,0.863)" Stretch="0.115,,,(0.004576659,1,32;1)" Speed="4.5,0.35" RotationalDragScale="0" GravityScale="0.25" RandomAngles=",360" RotationRate=",45" RandomRotationRate=",90" DrawLast="-15"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Juggernaut.head_burst" Id="{86D433BB-B4B1-4FFB-88FF-0E41DB7AB85F}" Library="Class3Characters">
+  <Params Enabled="false" ParticleLifeTime="0.2" RandomOffset="0.05,0.05,0.05" EmitAngle="65,0.65" TextureTiling="2,2,,4" Alpha=",,,(,1;0.5011442,1,32;1)" Color="(0.224,0.075,0.055)" Size="0.2,,,(0.018306635,,32;0.3729977,0.816;1,1)" Stretch="0.1" Speed="1" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",180"/>
+  <Childs>
+   <Particles Name="ropey">
+    <Params Continuous="true" Count="7" EmitterLifeTime="0.1" ParticleLifeTime="0.85,0.65,(,1;1,1)" EmitAngle="65,0.75" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="1.75,0.35,(,1;1,1),(,1;0.3825,1;1)" AlphaTest="0.01" AlphaClamp=",,(,1,32;0.2857143,1,32;0.8360656,0.09090909)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.45,0.25,(,1;1,1),(,0.18181819,32;0.3676815,0.8636364;1,1)" Stretch="0.5,0.35,(,1;1,1),(,1,32;0.55971897)" Speed="4.25,0.5,(,1;1,1)" RotationalDragScale="0" GravityScale="0.6,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" Streamable="false"/>
+   </Particles>
+   <Particles Name="dotty">
+    <Params Continuous="true" Count="4" EmitterLifeTime="0.1" ParticleLifeTime="0.9,0.65,(,1;1,1)" EmitAngle="90,0.8" TextureTiling="2,,,2" Material="Particles/Materials/zed_blood_spray" Alpha="1.35,,(,1;1,1),(,1,32;0.3569794,1;1,,4)" AlphaClamp=",,(,1;0.18615752,1,32;1,0.13636364)" Color="(0.024,0,0)" DiffuseBacklighting="0.35" ReceiveShadows="true" DiffuseCubemap="true" Size="0.55,0.35,(,1;1,1),(,0.20454545,32;0.34047619,0.84090906;1,1)" Stretch="0.25,0.35,(,1;1,1),(,1,32;0.5833333)" Speed="4.5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.65" RandomAngles=",360" RandomRotationRate=",45" DrawLast="-64" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_physics">
+    <Params Count="4,0.35" ParticleLifeTime="6,0.25,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.85" DiffuseBacklighting="0.55" Size="0.05,0.5,(,1;1,1),(,1;1,1)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="3,0.5,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.75" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_nophysics">
+    <Params Continuous="true" Count="8,0.35" EmitterLifeTime="0.15" ParticleLifeTime="1.5,0.65,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.75" DiffuseBacklighting="0.55" Size="0.03,0.5,(,1;1,1),(,1;0.625,1;1,,4)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="4,0.65,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.85" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+   </Particles>
+   <Particles Name="geochunkguts">
+    <Params Count="5,0.5" ParticleLifeTime="9" EmitAngle="90,1" Facing="Free" BlendType="Opaque" Texture="particles/geometry/guts/guts_tilable.tif" Material="particles/geometry/guts/zed_guts" Geometry="particles/geometry/guts/zed_guts.cgf" Color="(0.71,0.302,0.34)" Size="0.75,0.35" Speed="1.5,0.5" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1" InitAngles="180,180,180" RandomAngles="360,360,360" RotationRate="-20,-20,-20" RandomRotationRate="40,40,40" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" SurfaceType="zed_flesh" Bounciness="1" DynamicFriction="1" Density="5000" MaxCollisionEvents="5" DrawLast="-21"/>
+    <Childs>
+     <Particles Name="splat">
+      <Params Enabled="false" Count="2,,(,1;1,1)" SecondGeneration="true" SpawnOnParentCollision="true" ParticleLifeTime="6,0.35,(,1;1,1)" RandomOffset="0.15,0.1,0.15" EmitAngle=",,(,1;1,1)" Facing="Terrain" OrientToVelocity="true" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="0.9,,(,1;1,1),(,1;0.5925,1;1)" AlphaClamp=",,(,1;1,1)" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,0.5,(,1;1,1),(,0.6136364,32;0.0175,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed=",,(,1;1,1)" Streamable="false"/>
+     </Particles>
+    </Childs>
+   </Particles>
+   <Particles Name="core_sheet">
+    <Params Continuous="true" Count="3" EmitterLifeTime="0.05" ParticleLifeTime="0.7,0.5,(,1;1,1)" RandomOffset=",0.15" PosRandomOffset="0.25" FocusGravityDir="true" EmitAngle="85,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small_sheet" Alpha="1.5,0.35,(,1;1,1),(,1;0.4262295,1;1,,4)" AlphaTest="0.01" AlphaClamp="0.95,,(,1;0.26697892,1,32;0.94145197,0.06818182)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.45,0.35,(,1;1,1),(,0.3181818;0.52693206,1;1,0.70454544,4)" Stretch="1,0.35,(,1;1,1),(,1,32;0.7517564)" Speed="5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.5,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" DrawLast="-5" Streamable="false"/>
+   </Particles>
+   <Particles Name="sounds_jugg_death">
+    <Params Count="1" EmitterLifeTime="0.1" ParticleLifeTime="0.1" Sound="Sounds/zdx:zdx_juggernaut:death"/>
+   </Particles>
+   <Particles Name="sounds_skull_groundimpact">
+    <Params Count="1" EmitterLifeTime="0.1" ParticleLifeTime="0.1" Sound="Sounds/combat:gore:skull_burstimpact"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Feral.head_burst" Id="{2E855C62-40DA-4DE5-AF17-3EF9BA57915B}" Library="Class3Characters">
+  <Params Enabled="false" ParticleLifeTime="0.2" RandomOffset="0.05,0.05,0.05" EmitAngle="65,0.65" TextureTiling="2,2,,4" Alpha=",,,(,1;0.5011442,1,32;1)" Color="(0.224,0.075,0.055)" Size="0.2,,,(0.018306635,,32;0.3729977,0.816;1,1)" Stretch="0.1" Speed="1" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",180"/>
+  <Childs>
+   <Particles Name="ropey">
+    <Params Continuous="true" Count="7" EmitterLifeTime="0.1" ParticleLifeTime="0.85,0.65,(,1;1,1)" EmitAngle="65,0.75" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="1.75,0.35,(,1;1,1),(,1;0.3825,1;1)" AlphaTest="0.01" AlphaClamp=",,(,1,32;0.2857143,1,32;0.8360656,0.09090909)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.45,0.25,(,1;1,1),(,0.18181819,32;0.3676815,0.8636364;1,1)" Stretch="0.5,0.35,(,1;1,1),(,1,32;0.55971897)" Speed="4.25,0.5,(,1;1,1)" RotationalDragScale="0" GravityScale="0.6,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" Streamable="false"/>
+   </Particles>
+   <Particles Name="dotty">
+    <Params Continuous="true" Count="4" EmitterLifeTime="0.1" ParticleLifeTime="0.9,0.65,(,1;1,1)" EmitAngle="90,0.8" TextureTiling="2,,,2" Material="Particles/Materials/zed_blood_spray" Alpha="1.35,,(,1;1,1),(,1,32;0.3569794,1;1,,4)" AlphaClamp=",,(,1;0.18615752,1,32;1,0.13636364)" Color="(0.024,0,0)" DiffuseBacklighting="0.35" ReceiveShadows="true" DiffuseCubemap="true" Size="0.55,0.35,(,1;1,1),(,0.20454545,32;0.34047619,0.84090906;1,1)" Stretch="0.25,0.35,(,1;1,1),(,1,32;0.5833333)" Speed="4.5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.65" RandomAngles=",360" RandomRotationRate=",45" DrawLast="-64" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_physics">
+    <Params Count="4,0.35" ParticleLifeTime="6,0.25,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.85" DiffuseBacklighting="0.55" Size="0.05,0.5,(,1;1,1),(,1;1,1)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="3,0.5,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.75" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_nophysics">
+    <Params Continuous="true" Count="8,0.35" EmitterLifeTime="0.15" ParticleLifeTime="1.5,0.65,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.75" DiffuseBacklighting="0.55" Size="0.03,0.5,(,1;1,1),(,1;0.625,1;1,,4)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="4,0.65,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.85" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+   </Particles>
+   <Particles Name="geochunkguts">
+    <Params Count="5,0.5" ParticleLifeTime="9" EmitAngle="90,1" Facing="Free" BlendType="Opaque" Texture="particles/geometry/guts/guts_tilable.tif" Material="particles/geometry/guts/zed_guts" Geometry="particles/geometry/guts/zed_guts.cgf" Color="(0.71,0.302,0.34)" Size="0.75,0.35" Speed="1.5,0.5" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1" InitAngles="180,180,180" RandomAngles="360,360,360" RotationRate="-20,-20,-20" RandomRotationRate="40,40,40" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" SurfaceType="zed_flesh" Bounciness="1" DynamicFriction="1" Density="5000" MaxCollisionEvents="5" DrawLast="-21"/>
+    <Childs>
+     <Particles Name="splat">
+      <Params Enabled="false" Count="2,,(,1;1,1)" SecondGeneration="true" SpawnOnParentCollision="true" ParticleLifeTime="6,0.35,(,1;1,1)" RandomOffset="0.15,0.1,0.15" EmitAngle=",,(,1;1,1)" Facing="Terrain" OrientToVelocity="true" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="0.9,,(,1;1,1),(,1;0.5925,1;1)" AlphaClamp=",,(,1;1,1)" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,0.5,(,1;1,1),(,0.6136364,32;0.0175,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed=",,(,1;1,1)" Streamable="false"/>
+     </Particles>
+    </Childs>
+   </Particles>
+   <Particles Name="core_sheet">
+    <Params Continuous="true" Count="3" EmitterLifeTime="0.05" ParticleLifeTime="0.7,0.5,(,1;1,1)" RandomOffset=",0.15" PosRandomOffset="0.25" FocusGravityDir="true" EmitAngle="85,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small_sheet" Alpha="1.5,0.35,(,1;1,1),(,1;0.4262295,1;1,,4)" AlphaTest="0.01" AlphaClamp="0.95,,(,1;0.26697892,1,32;0.94145197,0.06818182)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.45,0.35,(,1;1,1),(,0.3181818;0.52693206,1;1,0.70454544,4)" Stretch="1,0.35,(,1;1,1),(,1,32;0.7517564)" Speed="5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.5,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" DrawLast="-5" Streamable="false"/>
+   </Particles>
+   <Particles Name="sounds_feral_death">
+    <Params Count="1" EmitterLifeTime="0.1" ParticleLifeTime="0.1" Sound="Sounds/zdx:zdx_feral:death"/>
+   </Particles>
+   <Particles Name="sounds_skull_groundimpact">
+    <Params Count="1" EmitterLifeTime="0.1" ParticleLifeTime="0.1" Sound="Sounds/combat:gore:skull_burstimpact"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Feral.head_nick" Id="{CD74978C-C450-4AA3-A2B3-84C3866C367A}" Library="Class3Characters">
+  <Params Continuous="true" Count="20,0.5" EmitterLifeTime="0.1" ParticleLifeTime="1.35,0.5" EmitAngle="45,1" Texture="textures/particles/liquids/blood_spurts.tif" TextureTiling="2,2,,4" Color="(0.302,0.06,0.03)" DiffuseLighting="0.85" Size="0.035,0.35,,(,0.84;0.46604937,0.59)" Stretch="0.1" TailLength="0.1,,,(,1,32;0.53089243),3" Speed="6,0.65" AirResistance="0.65" GravityScale="0.65"/>
+  <Childs>
+   <Particles Name="fan">
+    <Params Count="4" ParticleLifeTime="0.65,0.5" EmitAngle="45,1" Texture="textures/particles/smoke/smoke_tiled_small.tif" TextureTiling="2,2,,4" Alpha="0.85,,,(,,32;0.15363128,1;1)" Color="(0.19,0.09,0.07),0.5" DiffuseLighting="0.85" DiffuseBacklighting="0.35" ReceiveShadows="true" Size="0.25,0.35,,(,0.43,32;1,1)" Stretch="0.2,,,(,1,32;0.2389937,0.294;1)" Speed="4,0.65" RandomAngles=",360" RotationRate=",-45" RandomRotationRate=",90"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Bloater.stank_pop" Id="{E30BBDEF-C260-4460-9789-0A2B814CEE12}" Library="Class3Characters">
+  <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="0.65,0.65,(,1;1,1)" PositionOffset=",0.25" PosRandomOffset="0.15" FocusGravityDir="true" EmitAngle="90,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/blood/bloater_goop_foam" Alpha=",0.35,(,1;1,1),(,1,32;0.3560606,1;1)" AlphaTest="0.05" AlphaClamp="0.9,,(,1,32;0.34660423,1;1,0.38636363)" SoftParticle="true" DiffuseLighting="0.75" DiffuseBacklighting="0.35" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/zdx:zdx_bloater:death" Size="1.35,0.35,(,1,32;1,1),(,0.11363637;0.49874055,0.8636364;1,1,4)" Stretch="0.5,0.35,(,1;1,1),(,1,32;0.6088993)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="7.5,0.65,(,1;1,1)" AirResistance="1.5" RotationalDragScale="0.35" GravityScale="0.25" RandomAngles=",360" RotationRate=",-50" RandomRotationRate=",100" DrawLast="16" Streamable="false"/>
+  <Childs>
+   <Particles Name="blood_spurt">
+    <Params Continuous="true" Count="12,0.5,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.5,0.5,(,1;1,1)" FocusGravityDir="true" EmitAngle="140,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_spurts" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.85" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.055,0.35,(,1;1,1),(,0.84;0.46604937,0.59)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength="0.15,,(,1;1,1),(,1,32;0.58157897),3" Speed="8,0.65,(,1;1,1)" AirResistance="0.5" GravityScale="0.85" DrawLast="1" Streamable="false"/>
+   </Particles>
+   <Particles Name="blood_dotty">
+    <Params Continuous="true" Count="6" SpawnDelay="0.1" EmitterLifeTime="0.1" ParticleLifeTime="0.75,0.5,(,1;1,1)" EmitAngle="75,0.8,(,1;1,1)" TextureTiling="2,,,2" Material="Particles/Materials/blood/bloater_goop_small_spray" Alpha="1.5,,(,1;1,1),(,1,32;0.44028103,1;1,,4)" AlphaTest="0.05" AlphaClamp="0.9,,(,1;0.3114754,1,32;0.9742389,0.20454545)" DiffuseLighting="0.75" DiffuseBacklighting="0.5" Size="0.85,0.35,(,1;1,1),(0.0063829785,,32;0.29290617,0.84;1,1)" Stretch="0.25,0.35,(,1;1,1),(,1,32;0.7096019)" Speed="6,0.65,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0" GravityScale="0.75" RandomAngles=",360" RandomRotationRate=",45" DrawLast="-64" Streamable="false"/>
+   </Particles>
+   <Particles Name="sound_bloater_vo">
+    <Params Count="1,,(,1;1,1)" SecondGeneration="true" ParticleLifeTime="0.1,,(,1;1,1)" EmitAngle=",,(,1;1,1)" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/zdx:zdx_bloater:death" Size=",,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed=",,(,1;1,1)" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_physics">
+    <Params Count="8,0.35,(,1;1,1)" ParticleLifeTime="2.5,0.65,(,1;1,1)" PosRandomOffset="0.05" EmitAngle="85,0.75,(,1;1,1)" BlendType="Opaque" Texture="textures/particles/debris/brain_chunks.tif" TextureTiling="2,2,,4" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" Color="(0.255,0.153,0.106)" DiffuseLighting="0.75" DiffuseBacklighting="0.55" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.085,0.5,(,1;1,1),(,1;0.625,1;1,,4)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="3,0.5,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.75" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.35" DynamicFriction="2" Density="100" MaxCollisionEvents="4" DrawLast="-77" Streamable="false"/>
+   </Particles>
+   <Particles Name="geochunkies">
+    <Params Count="7,0.5,(,1;1,1)" ParticleLifeTime="9,,(,1;1,1)" EmitAngle="90,1,(,1;1,1)" Facing="Free" BlendType="Opaque" Texture="particles/geometry/guts/guts_tilable.tif" Material="particles/geometry/guts/zed_guts" Geometry="particles/geometry/guts/zed_guts.cgf" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" Color="(0.71,0.302,0.34)" LightSource=",(,,(,1;1,1),(,1;1,1))" Size=",0.5,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="5,0.5,(,1;1,1)" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1" InitAngles="180,180,180" RandomAngles="360,360,360" RotationRate="-20,-20,-20" RandomRotationRate="40,40,40" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" SurfaceType="zed_flesh" Bounciness="1" DynamicFriction="1" Density="5000" MaxCollisionEvents="5" DrawLast="-21" Streamable="false"/>
+    <Childs>
+     <Particles Name="splat">
+      <Params Enabled="false" Count="2,,(,1;1,1)" SecondGeneration="true" SpawnOnParentCollision="true" ParticleLifeTime="6,0.35,(,1;1,1)" RandomOffset="0.15,0.1,0.15" EmitAngle=",,(,1;1,1)" Facing="Terrain" OrientToVelocity="true" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="0.9,,(,1;1,1),(,1;0.5925,1;1)" AlphaClamp=",,(,1;1,1)" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,0.5,(,1;1,1),(,0.6136364,32;0.0175,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed=",,(,1;1,1)"/>
+     </Particles>
+    </Childs>
+   </Particles>
+   <Particles Name="ropey_bloaterspunk">
+    <Params Count="8" EmitterLifeTime="0.075" ParticleLifeTime="0.5,0.5,(,1;1,1)" PositionOffset=",0.15" RandomOffset=",0.35" FocusGravityDir="true" EmitAngle="100,0.75,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/blood/bloater_goop_small_sheet" Alpha="1.75,0.35,(,1;1,1),(,1;0.4262295,1;1,,4)" AlphaTest="0.01" AlphaClamp=",,(,1;0.18735363,1,36;0.9836066,0.11363637)" Color=",0.5" DiffuseLighting="0.85" DiffuseBacklighting="0.65" ReceiveShadows="true" Size="0.85,0.35,(,1;1,1),(,0.3181818;0.52693206,1;1,0.70454544,4)" Stretch="1.15,0.35,(,1;1,1),(,1,32;0.51288056)" Speed="8,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.35,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" DrawLast="-10" Streamable="false"/>
+   </Particles>
+   <Particles Name="core_sheets">
+    <Params Enabled="false" Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.15" ParticleLifeTime="0.75,0.5,(,1;1,1)" RandomOffset=",0.15" PosRandomOffset="0.25" FocusGravityDir="true" EmitAngle="85,0.75,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small_sheet" Alpha="1.75,0.35,(,1;1,1),(,1;0.4262295,1;1,,4)" AlphaTest="0.01" AlphaClamp=",,(,1;0.26697892,1,32;0.94145197,0.06818182)" Color=",0.5" DiffuseLighting="0.85" DiffuseBacklighting="0.65" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.75,0.25,(,1;1,1),(,0.3181818;0.52693206,1;1,0.70454544,4)" Stretch="1,0.35,(,1;1,1),(,1,32;0.7517564)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="6,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.5,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" DrawLast="-20" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Bloater.stank_constant" Id="{A19567BC-D885-4CEA-A5AA-D41D709F7E65}" Library="Class3Characters">
+  <Params Continuous="true" Count="8,,(,1;1,1)" ParticleLifeTime="3.5,0.25,(,1;1,1)" PositionOffset=",0.15" RandomOffset="0.5,0.35,0.5" FocusGravityDir="true" EmitAngle="85,0.15,(,1;1,1)" BlendType="Additive" TextureTiling="2,2,,4" Material="Particles/Materials/blood/bloater_goop_foam" Alpha=",0.25,(,1;1,1),(;0.38173303,1;1,0.022727273)" AlphaClamp="0.95,,(,1;0.39812645,1,32;1)" Color="(0.714,0.71,0.686),,,(,(0.01991784,0.01991784,0.01991784);0.41299304,(0.59894186,0.59894186,0.59894186);0.9837587)" SoftParticle="true" DiffuseLighting="0.85" DiffuseBacklighting="0.45" LightSource=",(,,(,1;1,1),(,1;1,1)),5" Size="2,0.45,(,1;1,1),(,0.29545453,32;0.52693206,0.9318182;1,1,4)" Stretch="0.35,,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="1.25,0.5,(,1;1,1)" InheritVelocity="0.35" AirResistance="0.15" RotationalDragScale="0.5" GravityScale="-0.0025" RandomAngles=",360" RotationRate=",-7" RandomRotationRate=",14" DrawLast="-10" Streamable="false"/>
+  <Childs>
+   <Particles Name="wisps_wide">
+    <Params Continuous="true" Count="16,,(,1;1,1)" ParticleLifeTime="4.5,0.35,(,1;1,1)" PositionOffset=",0.25" RandomOffset="0.85,0.25,0.85" FocusGravityDir="true" EmitAngle="75,0.25,(,1;1,1)" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.75,0.35,(,1;1,1),(;0.44730678,1;0.99531615,0.022727273)" AlphaClamp="0.95,,(,1;1,1)" Color="(0.075,0.067,0.024)" SoftParticle="true" DiffuseLighting="0.75" DiffuseBacklighting="0.55" LightSource=",(,,(,1;1,1),(,1;1,1)),5" Size="2.5,0.45,(,1;1,1),(,0.6363636,32;1,1)" Stretch="0.5,,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="1.5,0.5,(,1;1,1)" InheritVelocity="0.5" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="-0.005" RandomAngles=",360" RotationRate=",-7" RandomRotationRate=",14" DrawLast="20" Streamable="false"/>
+   </Particles>
+   <Particles Name="dots">
+    <Params Continuous="true" Count="4,,(,1;1,1)" ParticleLifeTime="4.25,0.35,(,1;1,1)" PositionOffset=",0.15" RandomOffset="0.5,,0.5" FocusGravityDir="true" EmitAngle="85,0.25,(,1;1,1)" BlendType="Additive" TextureTiling="2,2,,4" Material="Particles/Materials/blood/bloater_goop_splash" Alpha="1.25,0.35,(,1;1,1),(,,32;0.43091336,1;0.99531615,0.022727273)" AlphaTest="0.05" AlphaClamp="0.9,,(,1;0.45901638,1;1,0.18181819)" Color=",,,0.4361949;0.9930394" SoftParticle="true" DiffuseLighting="0.75" DiffuseBacklighting="0.55" LightSource=",(,,(,1;1,1),(,1;1,1)),5" Size="1.5,0.45,(,1;1,1),(,0.6136364,32;1,1)" Stretch="0.35,,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="1,0.5,(,1;1,1)" InheritVelocity="0.35" AirResistance="0.15" RotationalDragScale="0.5" GravityScale="-0.005" RandomAngles=",360" RotationRate=",-5" RandomRotationRate=",10" DrawLast="-5" Streamable="false"/>
+   </Particles>
+   <Particles Name="size_marker">
+    <Params Enabled="false" Continuous="true" Count="1" ParticleLifeTime="10,,(,1;1,1)" EmitAngle=",,(,1;1,1)" Texture="particles/sprites/debug_dot.tif" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" Color="(0.18,0.18,0.18)" DiffuseLighting="0.5" DiffuseBacklighting="0.5" Size="4,,(,1;1,1),(,1;1,1)" DrawLast="20"/>
+   </Particles>
+   <Particles Name="wisps_center">
+    <Params Continuous="true" Count="5,,(,1;1,1)" ParticleLifeTime="2.5,0.35,(,1;1,1)" PositionOffset=",0.15" RandomOffset="0.25,0.25,0.25" FocusGravityDir="true" EmitAngle="75,0.35,(,1;1,1)" Texture="textures/particles/smoke/smoke_tiled_small.tif" TextureTiling="2,2,,4" Alpha="0.85,0.35,(,1;1,1),(;0.3442623,1;0.99531615,0.022727273)" AlphaClamp="0.95,,(,1;1,1)" Color="(0.357,0.31,0.17)" SoftParticle="true" DiffuseLighting="0.5" DiffuseBacklighting="0.65" LightSource=",(,,(,1;1,1),(,1;1,1)),5" Size="2,0.45,(,1;1,1),(,0.47727272,32;1,1)" Stretch="0.25,,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="1.5,0.5,(,1;1,1)" InheritVelocity="0.5" AirResistance="0.15" RotationalDragScale="0.5" GravityScale="-0.005" RandomAngles=",360" RotationRate=",-20" RandomRotationRate=",40" DrawLast="11" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Bloater.stank_ending" Id="{3A23BC3E-0088-40A8-A281-3FEFAA43977D}" Library="Class3Characters">
+  <Params Continuous="true" Count="16,,(,1;1,,4)" EmitterLifeTime="5" ParticleLifeTime="4,0.5,(,1;1,1)" PositionOffset=",0.75" RandomOffset="0.5,,0.5" PosRandomOffset="0.15" EmitAngle="75,1,(,1;1,1)" Texture="textures/particles/liquids/water_foam.tif" TextureTiling="2,2,,4" Alpha="0.75,0.35,(,1;1,1),(,,32;0.26385224,1;1,,4)" AlphaClamp=",,(,1;1,1)" Color="(0.05,0.06,0.043)" SoftParticle="true" DiffuseLighting="0.85" DiffuseBacklighting="0.45" LightSource=",(,,(,1;1,1),(,1;1,1)),5" Size="2,0.35,(,1;1,1),(,0.47727272,32;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.25" RotationalDragScale="0.35" GravityScale="-0.005" RandomAngles=",360" RotationRate=",-10" RandomRotationRate=",20" Streamable="false"/>
+ </Particles>
+ <Particles Name="Basic_Zeds.Gut_burst" Id="{D3DDA848-53A6-4114-9032-38CF0A952D92}" Library="Class3Characters">
+  <Params Enabled="false" ParticleLifeTime="0.2" RandomOffset="0.05,0.05,0.05" EmitAngle="65,0.65" TextureTiling="2,2,,4" Alpha=",,,(,1;0.5011442,1,32;1)" Color="(0.224,0.075,0.055)" Size="0.2,,,(0.018306635,,32;0.3729977,0.816;1,1)" Stretch="0.1" Speed="1" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",180"/>
+  <Childs>
+   <Particles Name="ropey">
+    <Params Continuous="true" Count="7" EmitterLifeTime="0.15" ParticleLifeTime="0.75,0.65,(,1;1,1)" EmitAngle="65,0.75" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="1.75,0.35,(,1;1,1),(,1;0.3825,1;1)" AlphaTest="0.01" AlphaClamp=",,(,1,32;0.3325527,1,32;0.8360656,0.09090909)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" ReceiveShadows="true" Size="0.475,0.25,(,1;1,1),(,0.18181819,32;0.3676815,0.8636364;1,1)" Stretch="0.35,0.35,(,1;1,1),(,1,32;0.55971897)" Speed="4,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.6,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" Streamable="false"/>
+   </Particles>
+   <Particles Name="dotty">
+    <Params Continuous="true" Count="6,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="0.85,0.65,(,1;1,1)" EmitAngle="90,0.8" TextureTiling="2,,,2" Material="Particles/Materials/zed_blood_spray" Alpha=",,(,1;1,1),(,1,32;0.44028103,1;1,,4)" AlphaTest="0.01" AlphaClamp="0.9,,(,1;1,1,4)" DiffuseLighting="0.75" DiffuseBacklighting="0.5" LightSource="(,,(,1;1,1),(,1;1,1)),(,,(,1;1,1),(,1;1,1))" Size="0.65,0.35,(,1;1,1),(0.0063829785,,32;0.29290617,0.84;1,1)" Stretch="0.1,0.35,(,1;1,1),(,1;1)" Speed="3.35,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.75" RandomAngles=",360" RandomRotationRate=",45" DrawLast="-64" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_physics">
+    <Params Count="4,0.35" ParticleLifeTime="6,0.25,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.85" DiffuseBacklighting="0.55" ReceiveShadows="true" Size="0.05,0.5" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="3,0.5,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.75" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_nophysics">
+    <Params Continuous="true" Count="8,0.35" EmitterLifeTime="0.15" ParticleLifeTime="1.5,0.65,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.75" DiffuseBacklighting="0.55" ReceiveShadows="true" Size="0.03,0.5,,(,1;0.625,1;1,,4)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="4,0.65,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.85" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" DrawLast="-77" Streamable="false"/>
+   </Particles>
+   <Particles Name="geochunkguts">
+    <Params Count="5,0.5" ParticleLifeTime="9,,(,1;1,1)" EmitAngle="90,1" Facing="Free" BlendType="Opaque" Texture="particles/geometry/guts/guts_tilable.tif" Material="particles/geometry/guts/zed_guts" Geometry="particles/geometry/guts/zed_guts.cgf" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" Color="(0.71,0.302,0.34)" Size="0.75,0.35" Stretch=",,(,1;1,1),(,1;1,1)" Speed="1.5,0.5,(,1;1,1)" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1" InitAngles="180,180,180" RandomAngles="360,360,360" RotationRate="-20,-20,-20" RandomRotationRate="40,40,40" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" SurfaceType="zed_flesh" Bounciness="1" DynamicFriction="1" Density="5000" MaxCollisionEvents="5" DrawLast="-21" Streamable="false"/>
+    <Childs>
+     <Particles Name="splat">
+      <Params Enabled="false" Count="2,,(,1;1,1)" SecondGeneration="true" SpawnOnParentCollision="true" ParticleLifeTime="6,0.35,(,1;1,1)" RandomOffset="0.15,0.1,0.15" EmitAngle=",,(,1;1,1)" Facing="Terrain" OrientToVelocity="true" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="0.9,,(,1;1,1),(,1;0.5925,1;1)" AlphaClamp=",,(,1;1,1)" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,0.5,(,1;1,1),(,0.6136364,32;0.0175,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed=",,(,1;1,1)" Streamable="false"/>
+     </Particles>
+    </Childs>
+   </Particles>
+   <Particles Name="sound_guts_sever_bullet">
+    <Params Count="1" ParticleLifeTime="0.1" Sound="Sounds/combat:gore_sever:guts"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Bloater.stank_warning" Id="{B702478F-917C-4F33-B232-3D52F5AB3498}" Library="Class3Characters">
+  <Params Continuous="true" Count="4,,(,1;1,1)" ParticleLifeTime="4,0.35,(,1;1,1)" FocusGravityDir="true" EmitAngle="15,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/blood/bloater_goop_splash" Alpha="0.75,0.35,(,1;1,1),(;0.31615925,1;1,0.022727273)" AlphaTest="0.05" AlphaClamp="0.9,,(,1;0.24824356,1;1,0.06818182)" Color="(0.518,0.518,0.518)" DiffuseLighting="0.85" DiffuseBacklighting="0.45" LightSource=",(,,(,1;1,1),(,1;1,1)),5" Size="0.85,0.45,(,1;1,1),(,0.25,32;1,1)" Stretch="0.5,,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="0.35,0.5,(,1;1,1)" AirResistance="0.2" RotationalDragScale="0.5" GravityScale="-0.005" RandomAngles=",360" RotationRate=",-7" RandomRotationRate=",20" Streamable="false"/>
+  <Childs>
+   <Particles Name="wisps">
+    <Params Continuous="true" Count="10,,(,1;1,1)" ParticleLifeTime="5.5,0.35,(,1;1,1)" FocusGravityDir="true" EmitAngle="15,1,(,1;1,1)" Texture="textures/particles/smoke/smoke_tiled_small.tif" TextureTiling="2,2,,4" Alpha="0.85,0.35,(,1;1,1),(;0.40046838,1;0.99531615,0.022727273)" AlphaClamp=",,(,1;1,1)" Color="(0.05,0.047,0.016)" SoftParticle="true" DiffuseLighting="0.75" DiffuseBacklighting="0.55" LightSource=",(,,(,1;1,1),(,1;1,1)),5" Size="0.75,0.45,(,1;1,1),(,0.79545456,32;1,1)" Stretch="0.5,,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="0.65,0.5,(,1;1,1)" AirResistance="0.25" RotationalDragScale="0.5" GravityScale="-0.005" RandomAngles=",360" RotationRate=",-7" RandomRotationRate=",20" DrawLast="86" Streamable="false"/>
+   </Particles>
+   <Particles Name="head_burst">
+    <Params Enabled="false" ParticleLifeTime="0.2" RandomOffset="0.05,0.05,0.05" EmitAngle="65,0.65" TextureTiling="2,2,,4" Alpha=",,,(,1;0.5011442,1,32;1)" Color="(0.224,0.075,0.055)" Size="0.2,,,(0.018306635,,32;0.3729977,0.816;1,1)" Stretch="0.1" Speed="1" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",180"/>
+    <Childs>
+     <Particles Name="ropey">
+      <Params Continuous="true" Count="8,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.65,(,1;1,1)" EmitAngle="65,0.75,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="1.75,0.35,(,1;1,1),(,1;0.3825,1;1)" AlphaTest="0.01" AlphaClamp=",,(,1,32;0.2857143,1,32;0.9164733,0.09090909)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.45,0.25,(,1;1,1),(,0.18181819,32;0.3676815,0.8636364;1,1)" Stretch="0.5,0.35,(,1;1,1),(,1,32;0.55971897)" Speed="4.25,0.5,(,1;1,1)" RotationalDragScale="0" GravityScale="0.6,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" Streamable="false"/>
+     </Particles>
+     <Particles Name="dotty">
+      <Params Continuous="true" Count="4" EmitterLifeTime="0.1" ParticleLifeTime="0.9,0.65,(,1;1,1)" EmitAngle="90,0.8" TextureTiling="2,,,2" Material="Particles/Materials/zed_blood_spray" Alpha="1.35,,(,1;1,1),(,1,32;0.3569794,1;1,,4)" AlphaClamp=",,(,1;0.18615752,1,32;1,0.13636364)" Color="(0.024,0,0)" DiffuseBacklighting="0.35" Size="0.55,0.35,(,1;1,1),(,0.20454545,32;0.34047619,0.84090906;1,1)" Stretch="0.25,0.35,(,1;1,1),(,1,32;0.5833333)" Speed="4.5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.65" RandomAngles=",360" RandomRotationRate=",45" DrawLast="-64" Streamable="false"/>
+     </Particles>
+     <Particles Name="chunkies_physics">
+      <Params Count="4,0.35" ParticleLifeTime="6,0.25,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.85" DiffuseBacklighting="0.55" Size="0.05,0.5,(,1;1,1),(,1;1,1)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="3,0.5,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.75" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+     </Particles>
+     <Particles Name="chunkies_nophysics">
+      <Params Continuous="true" Count="8,0.35,(,1;1,1)" EmitterLifeTime="0.15" ParticleLifeTime="1.5,0.65,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.75" DiffuseBacklighting="0.55" Size="0.035,0.5,(,1;1,1),(,1;0.625,1;1,,4)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="4,0.65,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.85" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+     </Particles>
+     <Particles Name="geochunkguts">
+      <Params Count="5,0.5,(,1;1,1)" ParticleLifeTime="9" EmitAngle="90,1,(,1;1,1)" Facing="Free" BlendType="Opaque" Texture="particles/geometry/guts/guts_tilable.tif" Material="particles/geometry/guts/zed_guts" Geometry="particles/geometry/guts/zed_guts.cgf" AlphaClamp=",,(,1;1,1)" Color="(0.71,0.302,0.34)" Size="0.85,0.35" Speed="1.5,0.5" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1" InitAngles="180,180,180" RandomAngles="360,360,360" RotationRate="-20,-20,-20" RandomRotationRate="40,40,40" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" SurfaceType="zed_flesh" Bounciness="0.5" DynamicFriction="1" Density="5000" MaxCollisionEvents="5" DrawLast="-21"/>
+     </Particles>
+     <Particles Name="sound_gore">
+      <Params Count="1" ParticleLifeTime="0.1,,(,1;1,1)" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" Sound="Sounds/combat:gore_sever:guts" Size=",,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" Speed=",,(,1;1,1)"/>
+     </Particles>
+     <Particles Name="core_sheet">
+      <Params Continuous="true" Count="4,,(,1;1,1)" EmitterLifeTime="0.05" ParticleLifeTime="0.75,0.5,(,1;1,1)" RandomOffset=",0.15" PosRandomOffset="0.25" FocusGravityDir="true" EmitAngle="85,0.75,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small_sheet" Alpha=",0.35,(,1;1,1),(,1;0.4262295,1;1,,4)" AlphaTest="0.01" AlphaClamp="0.85,,(,1;0.26697892,1,32;0.94145197,0.06818182)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.4,0.35,(,1;1,1),(,0.3181818;0.52693206,1;1,0.70454544,4)" Stretch="0.65,0.35,(,1;1,1),(,1,32;0.7517564)" Speed="5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.5,,(,1;1,1),(,1;1,1)" InitAngles=",-15" RandomAngles=",30" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" DrawLast="-5" Streamable="false"/>
+     </Particles>
+     <Particles Name="spurts">
+      <Params Continuous="true" Count="16,0.454,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.5,0.5,(,1;1,1)" FocusGravityDir="true" EmitAngle="85,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_spurts" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" Size="0.0275,0.25,(,1;1,1),(,1;0.4875,0.5)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength="0.15,,,(,1,32;0.53089243),3" Speed="5,0.5,(,1;1,1)" AirResistance="0.5" RotationalDragScale="0" GravityScale="0.65" CameraMaxDistance="80" CameraMaxFadeLength="10" ViewDistanceAdjust="10" Streamable="false"/>
+     </Particles>
+    </Childs>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Juggernaut.blood_dripping" Id="{45577485-BC1E-4BAA-AE5D-491E10A711D7}" Library="Class3Characters">
+  <Params Continuous="true" Count="7" EmitterLifeTime="6" ParticleLifeTime="0.667,0.334,(,1;1,1)" PosRandomOffset="0.05" EmitAngle="15,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/PC_blood_splash_large_halfshadowed" Alpha=",,(,1;1,1),(,,32;0.16521738,1;1)" Size="0.15,0.25,(,1;1,1,4),(,1;1,1)" Stretch="0.75,0.25,(,1;1,1),(,1,32;1,,4),0.667" Speed="-0.2,0.1,(,1;1,1)" InheritVelocity="0.5" AirResistance="0.25" GravityScale="0.334,0.334,(,1;1,1),(,1;1,1)" RandomAngles=",360"/>
+  <Childs>
+   <Particles Name="blood_chunks">
+    <Params Continuous="true" Count="11" EmitterLifeTime="6" ParticleLifeTime="0.75,0.25,(,1;1,1)" PosRandomOffset="0.1" EmitAngle="15,1,(,1;1,1)" OrientToVelocity="true" TextureTiling="2,2,,4" Material="Particles/Materials/PC_blood_spurt" Size="0.05,0.25,(,1;1,1),(,,32;0.24347825,1,36;1,,4)" Stretch="0.05,,(,1;1,1),(,1,32;1)" Speed="-0.2,,(,1;1,1)" InheritVelocity="0.667" AirResistance="0.25" GravityScale="0.5,0.25,(,1;1,1),(,1;1,1)"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Juggernaut.Slam" Id="{3A5109DB-694E-43AC-BADD-30B899DCA59F}" Library="Class3Characters">
+  <Params Count="5,0.15,(,1;1,1)" ParticleLifeTime="1,0.334,(,1;1,1)" PosRandomOffset="0.15" FocusGravityDir="true" EmitAngle="10,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/rocks_n_dirt/dirt_spray_shadowed" Alpha=",,(,1;1,1),(0.09565217,1;1,,4)" AlphaClamp="0.667,,(,1;1,1)" Color="(0.055,0.047,0.043)" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.4,0.334,(,1;1,1),(,0.5,32;1,1)" Stretch="0.25,0.1,(,1;1,1),(,1,32;0.7478261)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="9,0.5,(,1;1,1)" AirResistance="1" RotationalDragScale="1.5" GravityScale="1.25" RandomAngles=",360" RandomRotationRate=",90"/>
+  <Childs>
+   <Particles Name="rock_chuncks">
+    <Params Count="7,,(,1;1,1)" ParticleLifeTime="1,0.334,(,1;1,1)" FocusGravityDir="true" EmitAngle="25,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/debris/dirt_chunks_shadowed" Alpha=",,(,1;1,1),(0.7478261,1,4;1,,4)" AlphaClamp="0.95" Color="(0.04,0.03,0.024)" Size="0.0667,0.75,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" Speed="9,0.5,(,1;1,1)" AirResistance="1" RotationalDragScale="0.25" GravityScale="1.2" RandomAngles=",360" RandomRotationRate=",720" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.5" DynamicFriction="1"/>
+   </Particles>
+   <Particles Name="dust_ring">
+    <Params Count="3,,(,1;1,1)" ParticleLifeTime="0.3,,(,1;1,1)" FocusGravityDir="true" EmitAngle=",,(,1;1,1)" Facing="Terrain" Texture="textures/particles/liquids/water_ripples.tif" TextureTiling="2,2,,4" Alpha="0.45,,(,1;1,1),(;0.20869565,1,36;1)" Color="(0.39,0.325,0.275)" SoftParticle="true" Size="2.5,0.334,(,1;1,1),(,0.25,32;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" Speed=",,(,1;1,1)" RandomAngles=",360"/>
+   </Particles>
+   <Particles Name="dust_plume">
+    <Params Count="5" SpawnDelay="0.0125" ParticleLifeTime="0.334,,(,1;1,1)" PosRandomOffset="0.2" FocusGravityDir="true" EmitAngle="15,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.5,,(,1;1,1),(,1,32;1)" Color="(0.373,0.34,0.294)" Size="0.35,0.25,(,1;1,1),(,,32;0.5,1;1,0.5)" Stretch="1,0.334,(,1;1,1),(,1;1,1)" Speed="5,0.5,(,1;1,1)" RandomAngles=",360"/>
+   </Particles>
+   <Particles Name="dust_poof">
+    <Params Count="5" SpawnDelay="0.0225" ParticleLifeTime="1.25,,(,1;1,1)" PosRandomOffset="0.2" FocusGravityDir="true" EmitAngle="30,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.2,,(,1;1,1),(,,32;0.25652173,1;1)" Color="(0.38,0.34,0.29)" Size=",0.667,(,1;1,1),(,,32;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" Speed="4,1,(,1;1,1)" AirResistance="2" RotationalDragScale="0.75" Turbulence3DSpeed="0.5" RandomAngles=",360" RotationRate=",30" RandomRotationRate=",120"/>
+   </Particles>
+   <Particles Name="rock_chunks_ground">
+    <Params Count="7,,(,1;1,1)" ParticleLifeTime="1.25,0.334,(,1;1,1)" EmitAngle="30,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/debris/dirt_chunks_shadowed" Alpha=",,(,1;1,1),(0.7478261,1,4;1,,4)" AlphaClamp="0.95" Color="(0.04,0.03,0.024)" Size="0.06,0.75,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" Speed="11,0.5,(,1;1,1)" AirResistance="1" RotationalDragScale="0.25" GravityScale="1.2" RandomAngles=",360" RandomRotationRate=",720" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.667" DynamicFriction="1"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Juggernaut.bash" Id="{4F8FFE61-CB62-4EE5-9E95-27B46D5AACBC}" Library="Class3Characters">
+  <Params Count="5,,(,1;1,1)" SpawnDelay="0.0125" ParticleLifeTime="0.25,,(,1;1,1)" FocusGravityDir="true" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.334,,(,1;1,1),(,1,32;1)" AlphaClamp=",,(,1;1,1)" Color="(0.373,0.34,0.294)" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.5,0.25,(,1;1,1),(,,32;1,1)" Stretch="0.25,0.334,(,1;1,1),(,1;1,,4)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="4,0.5,(,1;1,1)" GravityScale=",,(,1;1,1),(,1;1,1)" RandomAngles=",360" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust_poof">
+    <Params Count="5,,(,1;1,1)" SpawnDelay="0.0125" ParticleLifeTime="0.25,,(,1;1,1)" FocusGravityDir="true" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.5,,(,1;1,1),(,1,32;1)" AlphaClamp=",,(,1;1,1)" Color="(0.373,0.34,0.294)" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.3,,(,1;1,1),(,,32;1,1)" Stretch="0.2,,(,1;1,1),(,,32;1,1),-0.5" TailLength=",,(,1;1,1),(,1;1,1)" Speed="5,0.5,(,1;1,1)" AirResistance=",,(,1;1,1),(,1;1,1)" GravityScale=",,(,1;1,1),(,1;1,1)" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Juggernaut.bash.dust_burst" Id="{C6C9E56B-50D4-470E-8B28-BFC905BA2EC3}" Library="Class3Characters">
+  <Params Continuous="true" Count="5" SpawnDelay="0.0125" ParticleLifeTime="0.3,,(,1;1,1)" FocusGravityDir="true" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.5,,(,1;1,1),(,1,32;1)" Color="(0.373,0.34,0.294)" Size="0.2,0.25,(,1;1,1),(,,32;0.5,1;1,0.5)" Stretch="0.5,0.5,(,1;1,1),(,1;1,1)" Speed="5,0.5,(,1;1,1)" GravityScale=",,(,1;1,1),(,1;1,1)" RandomAngles=",360"/>
+ </Particles>
+ <Particles Name="Bloater.head_burst" Id="{19F2B095-1162-4EAB-B227-B6E3FBC2EE85}" Library="Class3Characters">
+  <Params Enabled="false" ParticleLifeTime="0.2" RandomOffset="0.05,0.05,0.05" EmitAngle="65,0.65" TextureTiling="2,2,,4" Alpha=",,,(,1;0.5011442,1,32;1)" Color="(0.224,0.075,0.055)" Size="0.2,,,(0.018306635,,32;0.3729977,0.816;1,1)" Stretch="0.1" Speed="1" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",180"/>
+  <Childs>
+   <Particles Name="ropey">
+    <Params Continuous="true" Count="8,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.65,(,1;1,1)" EmitAngle="65,0.75,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="1.75,0.35,(,1;1,1),(,1;0.3825,1;1)" AlphaTest="0.01" AlphaClamp=",,(,1,32;0.2857143,1,32;0.9164733,0.09090909)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.45,0.25,(,1;1,1),(,0.18181819,32;0.3676815,0.8636364;1,1)" Stretch="0.5,0.35,(,1;1,1),(,1,32;0.55971897)" Speed="4.25,0.5,(,1;1,1)" RotationalDragScale="0" GravityScale="0.6,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" Streamable="false"/>
+   </Particles>
+   <Particles Name="dotty">
+    <Params Continuous="true" Count="4" EmitterLifeTime="0.1" ParticleLifeTime="0.9,0.65,(,1;1,1)" EmitAngle="90,0.8" TextureTiling="2,,,2" Material="Particles/Materials/zed_blood_spray" Alpha="1.35,,(,1;1,1),(,1,32;0.3569794,1;1,,4)" AlphaClamp=",,(,1;0.18615752,1,32;1,0.13636364)" Color="(0.024,0,0)" DiffuseBacklighting="0.35" Size="0.55,0.35,(,1;1,1),(,0.20454545,32;0.34047619,0.84090906;1,1)" Stretch="0.25,0.35,(,1;1,1),(,1,32;0.5833333)" Speed="4.5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.65" RandomAngles=",360" RandomRotationRate=",45" DrawLast="-64" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_physics">
+    <Params Count="4,0.35" ParticleLifeTime="6,0.25,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.85" DiffuseBacklighting="0.55" Size="0.05,0.5,(,1;1,1),(,1;1,1)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="3,0.5,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.75" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_nophysics">
+    <Params Continuous="true" Count="8,0.35,(,1;1,1)" EmitterLifeTime="0.15" ParticleLifeTime="1.5,0.65,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.75" DiffuseBacklighting="0.55" Size="0.035,0.5,(,1;1,1),(,1;0.625,1;1,,4)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="4,0.65,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.85" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+   </Particles>
+   <Particles Name="geochunkguts">
+    <Params Count="5,0.5,(,1;1,1)" ParticleLifeTime="9" EmitAngle="90,1,(,1;1,1)" Facing="Free" BlendType="Opaque" Texture="particles/geometry/guts/guts_tilable.tif" Material="particles/geometry/guts/zed_guts" Geometry="particles/geometry/guts/zed_guts.cgf" AlphaClamp=",,(,1;1,1)" Color="(0.71,0.302,0.34)" Size="0.85,0.35" Speed="1.5,0.5" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1" InitAngles="180,180,180" RandomAngles="360,360,360" RotationRate="-20,-20,-20" RandomRotationRate="40,40,40" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" SurfaceType="zed_flesh" Bounciness="0.5" DynamicFriction="1" Density="5000" MaxCollisionEvents="5" DrawLast="-21"/>
+   </Particles>
+   <Particles Name="sound_gore">
+    <Params Count="1" ParticleLifeTime="0.1,,(,1;1,1)" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" Sound="Sounds/combat:gore:skull_burstimpact" Size=",,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" Speed=",,(,1;1,1)"/>
+   </Particles>
+   <Particles Name="core_sheet">
+    <Params Continuous="true" Count="4,,(,1;1,1)" EmitterLifeTime="0.05" ParticleLifeTime="0.75,0.5,(,1;1,1)" RandomOffset=",0.15" PosRandomOffset="0.25" FocusGravityDir="true" EmitAngle="85,0.75,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small_sheet" Alpha=",0.35,(,1;1,1),(,1;0.4262295,1;1,,4)" AlphaTest="0.01" AlphaClamp="0.85,,(,1;0.26697892,1,32;0.94145197,0.06818182)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.4,0.35,(,1;1,1),(,0.3181818;0.52693206,1;1,0.70454544,4)" Stretch="0.65,0.35,(,1;1,1),(,1,32;0.7517564)" Speed="5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.5,,(,1;1,1),(,1;1,1)" InitAngles=",-15" RandomAngles=",30" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" DrawLast="-5" Streamable="false"/>
+   </Particles>
+   <Particles Name="spurts">
+    <Params Continuous="true" Count="16,0.454,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.5,0.5,(,1;1,1)" FocusGravityDir="true" EmitAngle="85,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_spurts" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" Size="0.0275,0.25,(,1;1,1),(,1;0.4875,0.5)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength="0.15,,,(,1,32;0.53089243),3" Speed="5,0.5,(,1;1,1)" AirResistance="0.5" RotationalDragScale="0" GravityScale="0.65" CameraMaxDistance="80" CameraMaxFadeLength="10" ViewDistanceAdjust="10" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Screamer.head_burst" Id="{D0E83B97-DA42-4C32-AFA7-F37EC140F385}" Library="Class3Characters">
+  <Params Enabled="false" ParticleLifeTime="0.2" RandomOffset="0.05,0.05,0.05" EmitAngle="65,0.65" TextureTiling="2,2,,4" Alpha=",,,(,1;0.5011442,1,32;1)" Color="(0.224,0.075,0.055)" Size="0.2,,,(0.018306635,,32;0.3729977,0.816;1,1)" Stretch="0.1" Speed="1" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",180"/>
+  <Childs>
+   <Particles Name="ropey">
+    <Params Continuous="true" Count="8,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.65,(,1;1,1)" EmitAngle="65,0.75,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small" Alpha="1.75,0.35,(,1;1,1),(,1;0.3825,1;1)" AlphaTest="0.01" AlphaClamp=",,(,1,32;0.2857143,1,32;0.9164733,0.09090909)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.45,0.25,(,1;1,1),(,0.18181819,32;0.3676815,0.8636364;1,1)" Stretch="0.5,0.35,(,1;1,1),(,1,32;0.55971897)" Speed="4.25,0.5,(,1;1,1)" RotationalDragScale="0" GravityScale="0.6,,(,1;1,1),(,1;1,1)" RandomAngles=",360" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" Streamable="false"/>
+   </Particles>
+   <Particles Name="dotty">
+    <Params Continuous="true" Count="4" EmitterLifeTime="0.1" ParticleLifeTime="0.9,0.65,(,1;1,1)" EmitAngle="90,0.8" TextureTiling="2,,,2" Material="Particles/Materials/zed_blood_spray" Alpha="1.35,,(,1;1,1),(,1,32;0.3569794,1;1,,4)" AlphaClamp=",,(,1;0.18615752,1,32;1,0.13636364)" Color="(0.024,0,0)" DiffuseBacklighting="0.35" Size="0.55,0.35,(,1;1,1),(,0.20454545,32;0.34047619,0.84090906;1,1)" Stretch="0.25,0.35,(,1;1,1),(,1,32;0.5833333)" Speed="4.5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.65" RandomAngles=",360" RandomRotationRate=",45" DrawLast="-64" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_physics">
+    <Params Count="4,0.35" ParticleLifeTime="6,0.25,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.85" DiffuseBacklighting="0.55" Size="0.05,0.5,(,1;1,1),(,1;1,1)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="3,0.5,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.75" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+   </Particles>
+   <Particles Name="chunkies_nophysics">
+    <Params Continuous="true" Count="8,0.35,(,1;1,1)" EmitterLifeTime="0.15" ParticleLifeTime="1.5,0.65,(,1;1,1)" PositionOffset=",0.1" PosRandomOffset="0.05" EmitAngle="35,0.75,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/brain_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" DiffuseLighting="0.75" DiffuseBacklighting="0.55" Size="0.035,0.5,(,1;1,1),(,1;0.625,1;1,,4)" Stretch="0.0085,,(,1;1,1),(,1,32;0.2791762,0.23;1)" Speed="4,0.65,(,1;1,1)" InheritVelocity="0.35" RotationalDragScale="0" GravityScale="0.85" InitAngles=",180" RandomAngles="90,90,90" RotationRate="-180,-180,-180" RandomRotationRate="360,360,360" Bounciness="0.5" DynamicFriction="1" Density="100" MaxCollisionEvents="4" CameraMinDistance="1" CameraMaxDistance="50" CameraMinFadeLength="1" CameraMaxFadeLength="10" ViewDistanceAdjust="5" DrawLast="-50" Streamable="false"/>
+   </Particles>
+   <Particles Name="geochunkguts">
+    <Params Count="5,0.5,(,1;1,1)" ParticleLifeTime="9" EmitAngle="90,1,(,1;1,1)" Facing="Free" BlendType="Opaque" Texture="particles/geometry/guts/guts_tilable.tif" Material="particles/geometry/guts/zed_guts" Geometry="particles/geometry/guts/zed_guts.cgf" AlphaClamp=",,(,1;1,1)" Color="(0.71,0.302,0.34)" Size="0.85,0.35" Speed="1.5,0.5" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1" InitAngles="180,180,180" RandomAngles="360,360,360" RotationRate="-20,-20,-20" RandomRotationRate="40,40,40" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" SurfaceType="zed_flesh" Bounciness="0.5" DynamicFriction="1" Density="5000" MaxCollisionEvents="5" DrawLast="-21"/>
+   </Particles>
+   <Particles Name="sound_gore">
+    <Params Count="1" ParticleLifeTime="0.1,,(,1;1,1)" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" Sound="Sounds/combat:gore:skull_burstimpact" Size=",,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" Speed=",,(,1;1,1)"/>
+   </Particles>
+   <Particles Name="core_sheet">
+    <Params Continuous="true" Count="4,,(,1;1,1)" EmitterLifeTime="0.05" ParticleLifeTime="0.75,0.5,(,1;1,1)" RandomOffset=",0.15" PosRandomOffset="0.25" FocusGravityDir="true" EmitAngle="85,0.75,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_small_sheet" Alpha=",0.35,(,1;1,1),(,1;0.4262295,1;1,,4)" AlphaTest="0.01" AlphaClamp="0.85,,(,1;0.26697892,1,32;0.94145197,0.06818182)" DiffuseLighting="0.85" DiffuseBacklighting="0.65" Size="0.4,0.35,(,1;1,1),(,0.3181818;0.52693206,1;1,0.70454544,4)" Stretch="0.65,0.35,(,1;1,1),(,1,32;0.7517564)" Speed="5,0.65,(,1;1,1)" RotationalDragScale="0" GravityScale="0.5,,(,1;1,1),(,1;1,1)" InitAngles=",-15" RandomAngles=",30" RotationRate=",-90" RandomRotationRate=",45" CameraMaxDistance="50" DrawLast="-5" Streamable="false"/>
+   </Particles>
+   <Particles Name="spurts">
+    <Params Continuous="true" Count="16,0.454,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.5,0.5,(,1;1,1)" FocusGravityDir="true" EmitAngle="85,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/zed_blood_spurts" Alpha=",,(,1;1,1),(,1;1,1)" AlphaClamp=",,(,1;1,1)" Size="0.0275,0.25,(,1;1,1),(,1;0.4875,0.5)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength="0.15,,,(,1,32;0.53089243),3" Speed="5,0.5,(,1;1,1)" AirResistance="0.5" RotationalDragScale="0" GravityScale="0.65" CameraMaxDistance="80" CameraMaxFadeLength="10" ViewDistanceAdjust="10" Streamable="false"/>
+   </Particles>
+   <Particles Name="sound_deathVO">
+    <Params Count="1" EmitterLifeTime="0.1" ParticleLifeTime="0.1" Sound="Sounds/zdx:zdx_screamer:death"/>
+   </Particles>
+  </Childs>
+ </Particles>
+</ParticleLibrary>

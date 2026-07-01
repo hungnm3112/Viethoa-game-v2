@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTSData>
+  <EnclaveValues />
+  <Group Name="Character">
+    <Subgroup Name="XPBonus">
+      <Value Default="0" Name="MeleeBasic">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GunBasic">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CardioBasic">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Survival">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+  </Group>
+</RTSData>

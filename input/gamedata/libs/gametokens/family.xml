@@ -1,0 +1,15 @@
+<GameTokensLibrary Name="Family">
+ <GameToken Name="Expertise.MeleeUnarmed" Type="Int" Value="0" Description="Combat ability; used w/ no large weapon" LocalOnly="0"/>
+ <GameToken Name="Expertise.MeleeBlunt" Type="Int" Value="0" Description="Combat ability; used with bashing weapons" LocalOnly="0"/>
+ <GameToken Name="Expertise.MeleeBlade" Type="Int" Value="0" Description="Combat ability; used with axes and bladed weapons" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunPistol" Type="Int" Value="0" Description="Gun ability: used with handguns and revolvers" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunShotgun" Type="Int" Value="0" Description="Gun ability: used with shotguns" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunRifle" Type="Int" Value="0" Description="Gun ability; used with rifles" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunAssault" Type="Int" Value="0" Description="Gun ability; used with assault rifles and SMGs" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunHeavy" Type="Int" Value="0" Description="Gun ability; used with machine guns" LocalOnly="0"/>
+ <GameToken Name="Expertise.Medicine" Type="Int" Value="0" Description="Medical ability; used with Medical Bag item" LocalOnly="0"/>
+ <GameToken Name="Expertise.Repair" Type="Int" Value="0" Description="Repair ability; used with Tool Kit item" LocalOnly="0"/>
+ <GameToken Name="Expertise.Psychology" Type="Int" Value="0" Description="Npc interaction ability" LocalOnly="0"/>
+ <GameToken Name="Influence" Type="Int" Value="0" Description="Available currency" LocalOnly="0"/>
+ <GameToken Name="Renown" Type="Int" Value="0" Description="Wealth rating; determines available influence each day" LocalOnly="0"/>
+</GameTokensLibrary>

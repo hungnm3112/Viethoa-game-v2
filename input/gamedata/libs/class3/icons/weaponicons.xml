@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Bat" Value="1" />
+  <Icon Name="Crowbar" Value="2" />
+  <Icon Name="Pipe" Value="3" />
+  <Icon Name="Wrench" Value="4" />
+  <Icon Name="Sledgehammer" Value="5" />
+  <Icon Name="Pan" Value="6" />
+  <Icon Name="Golf Club" Value="7" />
+  <Icon Name="Baton" Value="8" />
+  <Icon Name="Hatchet" Value="9" />
+  <Icon Name="Bat Wood" Value="10" />
+  <Icon Name="Machete Old" Value="11" />
+  <Icon Name="Machete" Value="12" />
+  <Icon Name="Branch" Value="13" />
+  <Icon Name="Sword" Value="14" />
+  <Icon Name="Baton Cop" Value="15" />
+  <Icon Name="Pipe Threader" Value="16" />
+  <Icon Name="Poker" Value="17" />
+  <Icon Name="Prybar" Value="18" />
+  <Icon Name="2x4" Value="19" />
+  <Icon Name="2x4 Bracket" Value="20" />
+  <Icon Name="2x4 Nails" Value="21" />
+  <Icon Name="Cane" Value="22" />
+  <Icon Name="Bat Cricket" Value="23" />
+  <Icon Name="Escrima" Value="24" />
+  <Icon Name="Hockeystick" Value="25" />
+  <Icon Name="Table leg" Value="26" />
+  <Icon Name="Tomahawk" Value="27" />
+  <Icon Name="Wakizashi" Value="28" />
+  <Icon Name="Hoe" Value="29" />
+  <Icon Name="Nailpuller" Value="30" />
+  <Icon Name="Axe" Value="31" />
+  <Icon Name="Edger" Value="32" />
+  <Icon Name="Firemans Axe" Value="33" />
+  <Icon Name="Kama" Value="34" />
+  <Icon Name="Kukri" Value="35" />
+  <Icon Name="Kukri02" Value="36" />
+  <Icon Name="Mace" Value="37" />
+  <Icon Name="Machete Fancy" Value="38" />
+  <Icon Name="Pipe straight" Value="39" />
+  <Icon Name="Pipe Valve" Value="40" />
+  <Icon Name="Pipewrench" Value="41" />
+  <Icon Name="Saber" Value="42" />
+  <Icon Name="Scimitar" Value="43" />
+  <Icon Name="Shovel" Value="44" />
+  <Icon Name="Shovel02" Value="45" />
+  <Icon Name="Sledgehammer02" Value="46" />
+  <Icon Name="Claymore" Value="47" />
+  <Icon Name="Waki Short" Value="48" />
+  <Icon Name="Wrench02" Value="49" />
+  <Icon Name="Machete_Rusty" Value="50" />
+  <Icon Name="Wrench_hero" Value="51" />
+  <Icon Name="Brushaxe" Value="52" />
+  <Icon Name="Candlestick" Value="53" />
+  <Icon Name="Crutch" Value="54" />
+  <Icon Name="Cutter" Value="55" />
+  <Icon Name="Axe_Dwarven" Value="56" />
+  <Icon Name="Gavel" Value="57" />
+  <Icon Name="Hedgetrimmers" Value="58" />
+  <Icon Name="Axe_Igorot" Value="59" />
+  <Icon Name="Kanabo" Value="60" />
+  <Icon Name="Limbsaw" Value="61" />
+  <Icon Name="Micstand" Value="62" />
+  <Icon Name="Papercutter" Value="63" />
+  <Icon Name="Pipebender" Value="64" />
+  <Icon Name="Sword_Pirate" Value="65" />
+  <Icon Name="Rebar" Value="66" />
+  <Icon Name="Rollingpin" Value="67" />
+  <Icon Name="Axe_tachawk" Value="68" />
+  <Icon Name="Baton_telescoping" Value="69" />
+  <Icon Name="Tire_iron" Value="70" />
+  <Icon Name="Oar" Value="71" />
+  <Icon Name="Igorot_hero" Value="72" />
+  <Icon Name="Kanabo_hero" Value="73" />
+  <Icon Name="Splitting_maul" Value="74" />
+  <Icon Name="access_tool" Value="75" />
+  <Icon Name="barbell_long" Value="76" />
+  <Icon Name="barbell_sml" Value="77" />
+  <Icon Name="baton_juggling" Value="78" />
+  <Icon Name="buzzball" Value="79" />
+  <Icon Name="cleo_machete" Value="80" />
+  <Icon Name="cleo_axe" Value="81" />
+  <Icon Name="cleo_crab" Value="82" />
+  <Icon Name="demo_axe" Value="83" />
+  <Icon Name="fireman_axe" Value="84" />
+  <Icon Name="fireman_hook" Value="85" />
+  <Icon Name="folding_axe" Value="86" />
+  <Icon Name="hellchild" Value="87" />
+  <Icon Name="ice_axe" Value="88" />
+  <Icon Name="khanda" Value="89" />
+  <Icon Name="mallet" Value="90" />
+  <Icon Name="ork" Value="91" />
+  <Icon Name="plumbing_pipe" Value="92" />
+  <Icon Name="bat_practice" Value="93" />
+  <Icon Name="pry_knife" Value="94" />
+  <Icon Name="sword_spartan" Value="95" />
+  <Icon Name="sword_Stark" Value="96" />
+  <Icon Name="sword_talwar" Value="97" />
+  <Icon Name="bat_training" Value="98" />
+  <Icon Name="trencher" Value="99" />
+  <Icon Name="uni_tool" Value="100" />
+  <Icon Name="sword_vampyr" Value="101" />
+  <Icon Name="sword_viking" Value="102" />
+  <Icon Name="wrecker" Value="103" />
+</IconData>

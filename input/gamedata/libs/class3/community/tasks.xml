@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tasks>
+  <PriorityGroup Name="Very High Breach" Value="8">
+    <Task Name="Task.DefendBreach" />
+  </PriorityGroup>
+  <PriorityGroup Name="Very High Recuperate" Value="7">
+    <Task Name="Task.RecuperateHurt" />
+    <Task Name="Task.RecuperateSick" />
+  </PriorityGroup>
+  <PriorityGroup Name="Very High Threat" Value="6">
+    <Task Name="Task.DefendThreat" />
+  </PriorityGroup>
+  <PriorityGroup Name="High" Value="5">
+    <Task Name="Task.CC_RadioTalk" />
+    <Task Name="Task.WS_Create" />
+    <Task Name="Task.INF_TendPatient" />
+    <Task Name="Task.TR_Fitness" />
+    <Task Name="Task.TR_Combat" />
+    <Task Name="Task.KIT_Cook" />
+    <Task Name="Task.GDN_Harvest" />
+    <Task Name="Task.LIB_Research" />
+    <Task Name="Task.WS_Research" />
+    <Task Name="Task.StaffWatchtower" />
+    <Task Name="Task.StaffRadio" />
+  </PriorityGroup>
+  <PriorityGroup Name="Medium" Value="4">
+    <Task Name="Task.Grieve" />
+    <Task Name="Task.Rest" />
+    <Task Name="Task.Build" />
+    <Task Name="Task.UpgradeWorkshop" />
+    <Task Name="Task.UpgradeInfirmary" />
+    <Task Name="Task.UpgradeBunkhouse" />
+    <Task Name="Task.UpgradeTraining" />
+    <Task Name="Task.UpgradeKitchen" />
+    <Task Name="Task.UpgradeStorage" />
+    <Task Name="Task.UpgradeGenerator" />
+    <Task Name="Task.UpgradeGarden" />
+    <Task Name="Task.UpgradeWatchtower" />
+  </PriorityGroup>
+  <PriorityGroup Name="Regular" Value="3">
+    <Task Name="Task.Staff" />
+    <Task Name="Task.StaffGarden" />
+  </PriorityGroup>
+  <PriorityGroup Name="Low" Value="2">
+    <Task Name="Task.Vigilant" />
+    <Task Name="Task.Barricade" />
+    <Task Name="Task.Watchtower" />
+  </PriorityGroup>
+  <PriorityGroup Name="Very Low" Value="1">
+    <Task Name="Task.WC" />
+    <Task Name="Task.Sleep" />
+  </PriorityGroup>
+  <PriorityGroup Name="Idle" Value="0">
+    <Task Name="Task.Relax" />
+  </PriorityGroup>
+</Tasks>

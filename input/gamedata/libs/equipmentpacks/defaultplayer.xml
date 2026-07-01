@@ -1,0 +1,22 @@
+<EquipPack name="DefaultPlayer" primary="Fists">
+ <Items>
+  <Fists type="ItemGivable"/>
+  <Hammer type="ItemGivable"/>
+  <Journal type="ItemGivable"/>
+  <Prop_Meds type="ItemGivable"/>
+  <Prop_Food type="ItemGivable"/>
+  <Prop_Pie type="ItemGivable"/>
+  <Prop_Pistol type="ItemGivable"/>
+  <Prop_Knife01 type="ItemGivable"/>
+  <Prop_Knife_BB type="ItemGivable"/>
+  <Prop_Knife_AMA type="ItemGivable"/>
+  <Prop_Knife_GS type="ItemGivable"/>
+ </Items>
+ <Ammos>
+  <Ammo name="ShotgunShell" amount="0"/>
+  <Ammo name="UL_Grenade" amount="0"/>
+  <Ammo name="bullet" amount="0"/>
+  <Ammo name="bulletmagnum" amount="0"/>
+  <Ammo name="bulletrifle" amount="0"/>
+ </Ammos>
+</EquipPack>

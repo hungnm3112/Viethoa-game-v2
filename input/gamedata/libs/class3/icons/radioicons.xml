@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Merc" Value="1" />
+  <Icon Name="Snipers" Value="2" />
+  <Icon Name="AirStrike" Value="3" />
+  <Icon Name="Medevac" Value="4" />
+  <Icon Name="Vehicle" Value="5" />
+  <Icon Name="AmmoDrop" Value="6" />
+  <Icon Name="Sawapult" Value="7" />
+  <Icon Name="Builder" Value="8" />
+  <Icon Name="Cheers" Value="9" />
+  <Icon Name="Moving" Value="10" />
+  <Icon Name="Outpost" Value="11" />
+  <Icon Name="Scavenger" Value="12" />
+  <Icon Name="Doctor" Value="13" />
+  <Icon Name="Preach" Value="14" />
+</IconData>

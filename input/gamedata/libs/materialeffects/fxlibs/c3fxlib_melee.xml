@@ -1,0 +1,219 @@
+<FXLib>
+<Effect name="blank_event">
+</Effect>
+
+<Effect name="mle_kick_face" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:kick_face</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.45" maxscale="0.65" maxscaledist="70">bullet.hit_flesh.a</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.45" maxscale="0.65" maxscaledist="70">bullet.hit_flesh.b</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.45" maxscale="0.65" maxscaledist="70">bullet.hit_flesh.c</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+<Effect name="mle_punch_face" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:punch_face</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.45" maxscale="0.65" maxscaledist="70">bullet.hit_flesh.a</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.45" maxscale="0.65" maxscaledist="70">bullet.hit_flesh.b</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.45" maxscale="0.65" maxscaledist="70">bullet.hit_flesh.c</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+<Effect name="mle_limb_face" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:elbowknee</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.45" maxscale="0.65" maxscaledist="70">bullet.hit_flesh.a</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.45" maxscale="0.65" maxscaledist="70">bullet.hit_flesh.b</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.45" maxscale="0.65" maxscaledist="70">bullet.hit_flesh.c</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+<Effect name="mle_stomp_head_kill" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:mle_stomp_head_kill</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Bullets.head</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Bullets.torso</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+<Effect name="mle_head_head_kill" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:head_head_kill</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Bullets.head</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Bullets.torso</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+<Effect name="mle_kick_body" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:kick_body</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Bullets.leg</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.65" maxscale="0.85" maxscaledist="70">Class3Bullets.torso</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+<Effect name="mle_punch_body" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:punch_body</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.65" maxscale="0.85" maxscaledist="80">Class3Bullets.leg</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.65" maxscale="0.85" maxscaledist="70">Class3Bullets.arm</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+<Effect name="mle_limb_body" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:elbowknee</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.65" maxscale="0.85" maxscaledist="80">Class3Bullets.leg</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.65" maxscale="0.85" maxscaledist="70">Class3Bullets.arm</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+<Effect name="mle_stomp_body" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:kick_body</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Bullets.leg</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.65" maxscale="0.85" maxscaledist="70">Class3Bullets.torso</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+
+<Effect name="mle_head_ground_kill_default" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:ground_head_kill</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+	<Particle>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Bullets.head</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Bullets.torso</Name>
+		</Particle>
+		<Name>Headshot.Zombie.Headshot</Name>
+	</Particle>
+	</RandEffect>
+
+</Effect>
+</FXLib>

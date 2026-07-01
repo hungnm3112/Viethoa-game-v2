@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Pistol" Value="1" />
+  <Icon Name="Revolver" Value="2" />
+  <Icon Name="Shotgun" Value="3" />
+  <Icon Name="SMG" Value="4" />
+  <Icon Name="Rifle" Value="5" />
+  <Icon Name="Assault" Value="6" />
+  <Icon Name="Sniper" Value="7" />
+  <Icon Name="Chaingun" Value="8" />
+  <Icon Name="Grenade_Launcher" Value="9" />
+  <Icon Name="Silencer" Value="10" />
+</IconData>

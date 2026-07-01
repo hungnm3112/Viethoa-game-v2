@@ -1,0 +1,22 @@
+<item name="ConsumableMine" class="Weapon" category="utility" priority="40" uniqueId="1">
+	<params>
+		<param name="giveable" 		value="0" />
+		<param name="selectable" 	value="0" />
+		<param name="droppable" 	value="0" />
+    <param name="unique" 	    value="0" />
+		<param name="pose" 				value="lockpick" />
+		<param name="mass"				value="4" />
+		<param name="raiseable"		value="true" />
+		<param name="raise_distance" value="0.60" />
+		<param name="uniqueId" value="1" />
+		<param name="display_name"	value="Mine" />
+    <param name="iconIndex"     value="13" />
+  </params>	<geometry>
+	</geometry>
+	<actions>
+	</actions>
+	<firemodes>
+	</firemodes>
+	<zoommodes>
+	</zoommodes>
+</item>

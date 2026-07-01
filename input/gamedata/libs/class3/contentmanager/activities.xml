@@ -1,0 +1,1815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActivityData>
+  <ActivityAssassinate>
+    <EventComplete />
+  </ActivityAssassinate>
+  <ActivityClearInfestation>
+    <EventComplete>
+      <Action ActionFlags="" ActionId="First" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="!Status.Recent.InfestationCleared" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="5" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="20h" OutputId="Status.Recent.InfestationCleared" PauseWhenOffline="" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="HighCountBonus" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <Check InputAmount="3" InputFlags="" InputId="Count.Infestations" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="3" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="15" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.ReviewAdvice" />
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Bonus" IconId="27">
+            <NameText Flags="" Notes="" Text="SEEK AND DESTROY: Infestation Cleared" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="I went into a zombie infestation and cleared it out. Destroyed the screamers who were attracting 'em and wiped out the rest of the zombies. Should be safe here for a little while. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Zeds wiped from this location." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Doing what I can." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="ClearWarning" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <Check InputAmount="&lt;3" InputFlags="" InputId="Count.InfestationsNearHome" />
+        </Inputs>
+        <Outputs>
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="false" OutputDuration="" OutputId="Status.Warning.Danger_InfestationCount" PauseWhenOffline="" />
+        </Outputs>
+      </Action>
+    </EventComplete>
+  </ActivityClearInfestation>
+  <ActivityDeliverRucksack>
+    <EventCompleteBackpack>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
+            <NameText Flags="" Notes="" Text="RECOVER: Belongings" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="I found the belongings of a fallen ally and brought them home. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Recovered a fallen ally's backpack" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Doing what I can." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteBackpack>
+    <EventCompleteBackpackNpc>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Home, Npc" HideWarnings="" Optional="" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
+            <NameText Flags="" Notes="" Text="RECOVER: Belongings" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="We found a backpack containing the belongings of a fallen ally and brought them home. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Recovered a fallen ally's backpack" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Doing what I can." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteBackpackNpc>
+    <EventCompleteResource>
+      <Action ActionFlags="" ActionId="First" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="!Status.Recent.RucksackDelivered" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="5" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="20h" OutputId="Status.Recent.RucksackDelivered" PauseWhenOffline="" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="HighNeedBonus" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="3" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="15" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
+            <NameText Flags="" Notes="" Text="SUPPLY RUN: Resources Delivered" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="I gathered resources and brought them home. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Resources Gained" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Doing what I can." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteResource>
+    <EventCompleteResourceNpc>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Home, Npc" HideWarnings="" Optional="" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
+            <NameText Flags="" Notes="" Text="RECOVER: Supplies" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="We found a backpack containing gathered resources and brought them home. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Recovered a backpack of gathered resources" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Doing what I can." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteResourceNpc>
+  </ActivityDeliverRucksack>
+  <ActivityInterceptHorde>
+    <EventHomeAttackSim>
+      <Action ActionFlags="" ActionId="ReduceMorale" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts>
+          <Alt AltId="HalfReduction" AltOdds="100.0" />
+        </Alts>
+        <Effects />
+        <Inputs>
+          <Spend InputAmount="2" InputFlags="" InputId="Stat.Morale" />
+        </Inputs>
+        <Outputs />
+      </Action>
+      <Action ActionFlags="Alt" ActionId="HalfReduction" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <Spend InputAmount="1" InputFlags="" InputId="Stat.Morale" />
+        </Inputs>
+        <Outputs />
+      </Action>
+      <Action ActionFlags="" ActionId="PlayScene" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Scene_ScenePlay Scene="Combat_Sim_Intercept" SceneReason="Chatter" />
+        </Outputs>
+      </Action>
+    </EventHomeAttackSim>
+    <EventHomeCompleteNoParticipation>
+      <Action ActionFlags="" ActionId="DestroyHorde" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.HordeIntercepts_Destroy" />
+        </Outputs>
+      </Action>
+    </EventHomeCompleteNoParticipation>
+    <EventHomeCompleteOutpost>
+      <Action ActionFlags="" ActionId="Event" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="10" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="House" IconId="10">
+            <NameText Flags="" Notes="" Text="DEFENSE: Outpost Destroyed Horde" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="CommandName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our outpost took out an incoming horde. - %1$s" />
+                <SummaryText Flags="" Notes="" Text="Setting up traps ftw." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects />
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="DestroyHorde" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.HordeIntercepts_Destroy" />
+        </Outputs>
+      </Action>
+    </EventHomeCompleteOutpost>
+    <EventHomeCompletePlayer>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Enclave ActorFlags="" ActorName="Enclave.Home" EnclaveStat="" HideWarnings="" Optional="" />
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="10" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <Enclave_AddTrust DisableBonus="false" EnclaveIndex="0" Trust="1" />
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="House" IconId="10">
+            <NameText Flags="" Notes="" Text="HOME DEFENSE: Horde Destroyed" />
+            <TutorialText Flags="" Notes="" Text="The others can fight the hordes on their own too, but there's always some risk." />
+            <DescArgs>
+              <EventDescArg Param="1" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="I intercepted and destroyed an incoming horde before it could do much damage. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="%1$s led the way." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="1" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="DestroyHorde" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.HordeIntercepts_Destroy" />
+        </Outputs>
+      </Action>
+    </EventHomeCompletePlayer>
+    <EventHomeFail>
+      <Action ActionFlags="" ActionId="DebugLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs />
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="EventLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Command" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Home, Npc" HideWarnings="" Optional="" TargetEnclave="" />
+        </Actors>
+        <Alts>
+          <Alt AltId="EventLog_VeryLowMorale" AltOdds="100.0" />
+          <Alt AltId="EventLog_LowMorale" AltOdds="100.0" />
+        </Alts>
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="1" Event="PRIDE" EventLogOutput="General" />
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="House" IconId="10">
+            <NameText Flags="" Notes="" Text="HOME DEFENSE: Horde Destroyed" />
+            <TutorialText Flags="" Notes="" Text="The others can fight the hordes on their own too, but there's always some risk." />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="We fended off another zombie horde. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Community Morale is Good" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="1" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="Alt" ActionId="EventLog_LowMorale" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Command" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Home, Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs>
+          <Check InputAmount="25" InputFlags="" InputId="!Stat.Morale" />
+        </Inputs>
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="1" Event="PRIDE" EventLogOutput="General" />
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="House" IconId="10">
+            <NameText Flags="" Notes="" Text="HOME DEFENSE: Horde Destroyed" />
+            <TutorialText Flags="" Notes="" Text="These attacks gradually wear down morale." />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="We fended off yet another zombie horde. It's really starting to wear on everyone. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Community Morale is Low" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="1" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="Alt" ActionId="EventLog_VeryLowMorale" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Command" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Home, Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs>
+          <Check InputAmount="10" InputFlags="" InputId="!Stat.Morale" />
+        </Inputs>
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="1" Event="PRIDE" EventLogOutput="General" />
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="House" IconId="10">
+            <NameText Flags="" Notes="" Text="HOME DEFENSE: Horde Destroyed" />
+            <TutorialText Flags="" Notes="" Text="These attacks gradually wear down morale." />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="We fended off another zombie horde, but we're in bad shape. I'm not sure we can handle another one. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Community Morale is Very Low" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="1" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="DestroyHorde" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.HordeIntercepts_Destroy" />
+        </Outputs>
+      </Action>
+    </EventHomeFail>
+    <EventOtherCompleteNoParticipation>
+      <Action ActionFlags="" ActionId="DestroyHorde" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.HordeIntercepts_Destroy" />
+        </Outputs>
+      </Action>
+    </EventOtherCompleteNoParticipation>
+    <EventOtherCompleteOutpost>
+      <Action ActionFlags="" ActionId="Event" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="10" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="House" IconId="10">
+            <NameText Flags="" Notes="" Text="DEFENSE: Outpost Destroyed Horde" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="CommandName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our outpost took out an incoming horde. - %1$s" />
+                <SummaryText Flags="" Notes="" Text="Setting up traps ftw." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects />
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="DestroyHorde" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.HordeIntercepts_Destroy" />
+        </Outputs>
+      </Action>
+    </EventOtherCompleteOutpost>
+    <EventOtherCompletePlayer>
+      <Action ActionFlags="" ActionId="First" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="!Status.Recent.HordeIntercepted" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="5" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="20h" OutputId="Status.Recent.HordeIntercepted" PauseWhenOffline="" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="HighNeedBonus" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="3" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="15" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="Gratitude" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="GRATITUDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="10" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="House" IconId="10">
+            <NameText Flags="" Notes="" Text="DEFENSE: Incoming Horde Destroyed" />
+            <TutorialText Flags="" Notes="" Text="The others can fight the hordes on their own too, but there's always some risk." />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="I intercepted and destroyed an incoming horde before it could do much damage. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="%1$s led the way." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="DestroyHorde" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.HordeIntercepts_Destroy" />
+        </Outputs>
+      </Action>
+    </EventOtherCompletePlayer>
+    <EventOtherFail>
+      <Action ActionFlags="" ActionId="DebugLog" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs />
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Command" HideWarnings="" Optional="" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="SadFace" OutputAmount="-1" OutputId="Stat.Morale" RewardList="General" IconId="13">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Fate" IconId="92">
+            <NameText Flags="" Notes="" Text="NEW INFESTATION" />
+            <TutorialText Flags="" Notes="" Text="Destroy hordes to slow the spread of infestations." />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our scouts spotted a horde moving in to create a new infestation. We weren't in a position to stop it. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="That's not good." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Tracking the Situation" />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="DestroyHorde" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.HordeIntercepts_Destroy" />
+        </Outputs>
+      </Action>
+    </EventOtherFail>
+    <EventRandomHordeKilled>
+      <Action ActionFlags="" ActionId="DestroyHorde" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventTrigger Event="fsEvent.HordeIntercepts_Destroy" />
+        </Outputs>
+      </Action>
+    </EventRandomHordeKilled>
+  </ActivityInterceptHorde>
+  <ActivityScoutRescue>
+    <EventComplete>
+      <Action ActionFlags="" ActionId="First" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="!Status.Recent.InfestationCleared" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="5" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="20h" OutputId="Status.Recent.InfestationCleared" PauseWhenOffline="" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="HighCountBonus" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <Check InputAmount="3" InputFlags="" InputId="Count.Infestations" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="3" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="15" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
+            <NameText Flags="" Notes="" Text="SEARCH AND RESCUE: Missing Person Found" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="We all run into trouble sometimes. There's nothing more important than going out and finding one of our people. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Found by %1$s." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventComplete>
+  </ActivityScoutRescue>
+  <ActivityScoutResource>
+    <EventComplete>
+      <Action ActionFlags="" ActionId="First" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="!Status.Recent.InfestationCleared" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="5" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="20h" OutputId="Status.Recent.InfestationCleared" PauseWhenOffline="" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="HighCountBonus" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <Check InputAmount="3" InputFlags="" InputId="Count.Infestations" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="3" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="15" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Bonus" IconId="27">
+            <NameText Flags="" Notes="" Text="SUPPLY RUN: Resources Found" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our resource stockpiles were running a little low so I went out to find what we needed. Mission accomplished. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Scouted by %1$s." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Scouted for resources." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventComplete>
+  </ActivityScoutResource>
+  <ActivitySupplyRun>
+    <EventCompleteAmmo>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="1" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="2" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="GiveItems" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Enclave_Give AmmoPercentage="100" Count="20" EnclaveIndex="" GiveFlags="" Name="AmmoBullet9mm" />
+          <Enclave_Give AmmoPercentage="100" Count="20" EnclaveIndex="" GiveFlags="" Name="AmmoBullet22cal" />
+          <Enclave_Give AmmoPercentage="100" Count="20" EnclaveIndex="" GiveFlags="" Name="AmmoBullet45cal" />
+          <Enclave_Give AmmoPercentage="100" Count="20" EnclaveIndex="" GiveFlags="" Name="AmmoShotgunShell" />
+          <Enclave_Give AmmoPercentage="100" Count="15" EnclaveIndex="" GiveFlags="" Name="AmmoBullet762mm" />
+          <Enclave_Give AmmoPercentage="100" Count="15" EnclaveIndex="" GiveFlags="" Name="AmmoBullet44cal" />
+          <Enclave_Give AmmoPercentage="100" Count="15" EnclaveIndex="" GiveFlags="" Name="AmmoBullet40cal" />
+          <Enclave_Give AmmoPercentage="100" Count="15" EnclaveIndex="" GiveFlags="" Name="AmmoBullet556mm" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Ammo" IconId="1">
+            <NameText Flags="" Notes="" Text="SUPPLY RUN: Ammo Acquired" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our resource stockpiles were running a little low so I went out to find what we needed. Mission accomplished. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Gathered by %1$s." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteAmmo>
+    <EventCompleteFood>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="1" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="2" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="GiveItems" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Enclave_Give AmmoPercentage="100" Count="9" EnclaveIndex="" GiveFlags="" Name="Food" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Food" IconId="37">
+            <NameText Flags="" Notes="" Text="SUPPLY RUN: Food Acquired" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our resource stockpiles were running a little low so I went out to find what we needed. Mission accomplished. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Gathered by %1$s." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteFood>
+    <EventCompleteFuel>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="1" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="2" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="GiveItems" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Enclave_Give AmmoPercentage="100" Count="6" EnclaveIndex="" GiveFlags="" Name="Molotov_Fuel" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Fuel" IconId="39">
+            <NameText Flags="" Notes="" Text="SUPPLY RUN: Fuel Acquired" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our resource stockpiles were running a little low so I went out to find what we needed. Mission accomplished. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Gathered by %1$s." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteFuel>
+    <EventCompleteMats>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="1" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="2" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="GiveItems" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Enclave_Give AmmoPercentage="100" Count="3" EnclaveIndex="" GiveFlags="" Name="Suppressor_Homemade" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Materials" IconId="48">
+            <NameText Flags="" Notes="" Text="SUPPLY RUN: Materials Found" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our resource stockpiles were running a little low so I went out to find what we needed. Mission accomplished. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Gathered by %1$s." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteMats>
+    <EventCompleteMeds>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="1" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="2" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="GiveItems" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Enclave_Give AmmoPercentage="100" Count="7" EnclaveIndex="" GiveFlags="" Name="HealthPack" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Medicine" IconId="49">
+            <NameText Flags="" Notes="" Text="SUPPLY RUN: Medicine Acquired" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our resource stockpiles were running a little low so I went out to find what we needed. Mission accomplished. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Gathered by %1$s." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteMeds>
+    <EventCompleteMixed>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="1" Event="PRIDE" EventLogOutput="General" />
+          <Actor_EvolveTraits ActorIndex="2" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+          <Character ActorFlags="" ActorName="" ActorTask="" ActorTraits="" FunctionTags="Npc" HideWarnings="" Optional="True" TargetEnclave="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="House" IconId="10">
+            <NameText Flags="" Notes="" Text="SUPPLY RUN: Resources Acquired" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our resource stockpiles were running a little low so I went out to find what we needed. Mission accomplished. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Gathered by %1$s." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Led the way." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCompleteMixed>
+  </ActivitySupplyRun>
+  <ActivitySurvey>
+    <EventComplete>
+      <Action ActionFlags="" ActionId="First" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="!Status.Recent.Survey" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="5" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="20h" OutputId="Status.Recent.Survey" PauseWhenOffline="" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="HighNeedBonus" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="3" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="15" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="10" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="2" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
+            <NameText Flags="" Notes="" Text="EYES IN THE SKY: Survey Complete" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Climbed up high and got a good look at the surrounding environs. It's important to do this periodically. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Catalogued today's hot spots." />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Surveyed the area." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventComplete>
+  </ActivitySurvey>
+  <ActivityWant>
+    <EventComplete>
+      <Action ActionFlags="" ActionId="First" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="!Status.Recent.Want" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="5" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <RTSStat_SetBool DurationCancellable="" OutputAmount="true" OutputDuration="20h" OutputId="Status.Recent.Want" PauseWhenOffline="" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="HighNeedBonus" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventRewardStat ExludeFromSummary="false" Icon="HappyFace" OutputAmount="3" OutputId="Stat.Morale" RewardList="General" IconId="11">
+            <DescriptionText Flags="" Notes="" Text="%+d Community Morale." />
+          </EventRewardStat>
+          <EventRewardStat ExludeFromSummary="false" Icon="Influence" OutputAmount="15" OutputId="Family.Influence" RewardList="General" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="%+d Influence for the day." />
+          </EventRewardStat>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="Pride" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <Actor_EvolveTraits ActorIndex="0" Event="PRIDE" EventLogOutput="General" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="BaselineRewards" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors>
+          <Player HideWarnings="" Optional="" />
+        </Actors>
+        <Alts />
+        <Effects />
+        <Inputs />
+        <Outputs>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Checkmark" IconId="162">
+            <NameText Flags="" Notes="" Text="SEARCH COMPLETE: Facility Need" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="ActorName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="I found what we needed and brought it home. There was much rejoicing. - %1$s." />
+                <SummaryText Flags="" Notes="" Text="Work can continue" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects>
+              <EventNpcEffect ActorIndex="0" Value="0">
+                <DescriptionText Flags="" Notes="" Text="Got things rolling again." />
+              </EventNpcEffect>
+            </NpcEffects>
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventComplete>
+    <EventCreate>
+      <Action ActionFlags="" ActionId="FacilityWorkshop" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityWorkshop" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="18 Shop" RewardList="General" Type="Facility" Value="1" IconId="18">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Workshop" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityInfirmary" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityInfirmary" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="13 Infirmary" RewardList="General" Type="Facility" Value="1" IconId="13">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Infirmary" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityGenerators" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityGenerators" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="12 Generator" RewardList="General" Type="Facility" Value="1" IconId="12">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Generators" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityGarden" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityGarden" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="10 Garden" RewardList="General" Type="Facility" Value="1" IconId="10">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Garden" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityKitchen" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityKitchen" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="14 Kitchen" RewardList="General" Type="Facility" Value="1" IconId="14">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Kitchen" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityBunkhouse" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityBunkhouse" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="2 Bunkhouse" RewardList="General" Type="Facility" Value="1" IconId="2">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Bunkhouse" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityTraining" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityTraining" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="24 Training" RewardList="General" Type="Facility" Value="1" IconId="24">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Training Area" />
+          </EventAddEffect>
+          <Console_Command Command="LOG: Status.Want.FacilityTraining" />
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityStorage" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityStorage" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="22 Storage" RewardList="General" Type="Facility" Value="1" IconId="22">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Storage" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityLibrary" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityLibrary" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="15 Library" RewardList="General" Type="Facility" Value="1" IconId="15">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Library" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityDining" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityDiningArea" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="9 Dining" RewardList="General" Type="Facility" Value="1" IconId="9">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Dining Area" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="FacilityWatchtower" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.FacilityWatchtower" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventAddEffect Icon="23 Tower" RewardList="General" Type="Facility" Value="1" IconId="23">
+            <DescriptionText Flags="" Notes="" Text="We don't have everything we need." />
+            <NameText Flags="" Notes="" Text="Watchtower" />
+          </EventAddEffect>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="ActionGeneral" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.ActionGeneral" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Fate" IconId="92">
+            <NameText Flags="" Notes="" Text="HOME: Facility Need" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="CommandName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="It looks like work's going to be stalled a bit. - %1$s" />
+                <SummaryText Flags="" Notes="" Text="Action Delayed" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects />
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="ActionBuild" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.ActionBuild" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Fate" IconId="92">
+            <NameText Flags="" Notes="" Text="HOME: Facility Need" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="CommandName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="It looks like we don't have everything we need to build this facility. - %1$s" />
+                <SummaryText Flags="" Notes="" Text="Construction Delayed" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects />
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="ActionUpgrade" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.ActionUpgrade" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventLog DisplayType="EventBanner" EventFlags="General" Icon="Fate" IconId="92">
+            <NameText Flags="" Notes="" Text="HOME: Facility Need" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="CommandName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="We're going to need a few things to complete this upgrade. - %1$s" />
+                <SummaryText Flags="" Notes="" Text="Upgrade Delayed" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects />
+          </EventLog>
+        </Outputs>
+      </Action>
+      <Action ActionFlags="" ActionId="ActionResearch" ActionType="Action.Passive" ExecuteTimeStandard="0.0" OutputDelayTime="0.0" PauseWhenOffline="">
+        <RTSActionIcon Name="" Id="" />
+        <NameText Flags="" Notes="" Text="" />
+        <Actors />
+        <Alts />
+        <Effects />
+        <Inputs>
+          <CheckBool InputFlags="" InputId="Status.Want.ActionResearch" Invert="" />
+        </Inputs>
+        <Outputs>
+          <EventLog DisplayType="EventBanner" EventFlags="None" Icon="Fate" IconId="92">
+            <NameText Flags="" Notes="" Text="HOME: Facility Need" />
+            <TutorialText Flags="" Notes="" Text="" />
+            <DescArgs>
+              <EventDescArg Param="0" Type="CommandName" />
+            </DescArgs>
+            <Descriptions>
+              <EventLogDesc>
+                <DescriptionText Flags="" Notes="" Text="Our research project has run into some unexpected delays. - %1$s" />
+                <SummaryText Flags="" Notes="" Text="Research Delayed" />
+              </EventLogDesc>
+            </Descriptions>
+            <NpcEffects />
+          </EventLog>
+        </Outputs>
+      </Action>
+    </EventCreate>
+  </ActivityWant>
+  <RTSData>
+    <EnclaveValues />
+  </RTSData>
+</ActivityData>

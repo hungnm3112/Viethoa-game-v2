@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<DefaultVehicleLights>
+ <Lights>
+  <Light type="HeadLightBeam" 
+    fakeLight="1" 
+    material="materials/lightbeams/lightbeam_floodlight.mtl" 
+    texture="textures/lights/flashlight1.dds" 
+    diffuse="1,1,1" 
+    diffuseMult="1.5" 
+    diffuseMult_fp="0.6"
+    radius="12" 
+    frustumAngle="10"
+   />    
+   
+  <Light type="HeadLightFlare" 
+    fakeLight="0" 
+    HDRDynamic="0.25"
+    material="materials/lightbeams/corona_headlights.mtl" 
+    diffuse="1,0.95,0.85" 
+    diffuseMult="1.5" 
+    coronaDistSize="0.002" 
+    coronaDistIntensity="0.06" 
+    coronaScale="5.5"
+    radius="6" 
+   />
+
+   
+  <Light type="HeadLightBlueFlare" 
+    fakeLight="0" 
+    HDRDynamic="0.5"
+    material="materials/lightbeams/corona_headlights.mtl" 
+    diffuse="0.5,0.75,1" 
+    diffuseMult="2" 
+    coronaDistSize="0.002" 
+    coronaDistIntensity="0.06" 
+    coronaScale="4.5"
+    radius="6" 
+   />      
+   
+      
+  <Light type="HeadLightFlareWide" 
+    fakeLight="0" 
+    HDRDynamic="0.25"
+    material="materials/lightbeams/corona_headlights_wide.mtl" 
+    diffuse="1,0.85,0.75" 
+    diffuseMult="1.5" 
+    coronaDistSize="0.002" 
+    coronaDistIntensity="0.06" 
+    coronaScale="5.5"
+    radius="6" 
+   />    
+   
+  <Light type="HeadLightFlareWeakWide" 
+    fakeLight="0" 
+    material="materials/lightbeams/corona_headlights_wide.mtl" 
+    diffuse="1,0.85,0.45" 
+    diffuseMult="1.25" 
+    coronaDistSize="0.002" 
+    coronaDistIntensity="0.06" 
+    coronaScale="4"
+    radius="5" 
+   />    
+
+      
+  <Light type="HeadLightFlareStrongWide" 
+    fakeLight="0" 
+    HDRDynamic="0.75"
+    material="materials/lightbeams/corona_headlights_wide.mtl" 
+    diffuse="1,0.95,0.85" 
+    diffuseMult="2" 
+    coronaDistSize="0.002" 
+    coronaDistIntensity="0.06" 
+    coronaScale="6"
+    radius="7" 
+   />   
+
+  <Light type="SirenBlue" 
+    fakeLight="1" 
+    style="3"
+    animSpeed="15"
+    HDRDynamic="4"
+    material="materials/lightbeams/siren_blue.mtl" 
+    diffuse="1,1,1" 
+    radius="4"
+    diffuseMult="5" 
+    coronaDistIntensity="0.0065" 
+    coronaDistSize="0.0025"
+    coronaScale="4"
+   />
+
+  <Light type="SirenRed" 
+    fakeLight="1" 
+    style="3"
+    animSpeed="15"
+    animPhase="50"
+    HDRDynamic="4"
+    material="materials/lightbeams/siren_red.mtl" 
+    diffuse="1,1,1" 
+    radius="4"
+    diffuseMult="5" 
+    coronaDistIntensity="0.0065" 
+    coronaDistSize="0.0025"
+    coronaScale="4"
+   />
+   
+   
+  <Light type="Rear" 
+    fakeLight="0" 
+    HDRDynamic="0.5"
+    material="materials/lightbeams/lightglow_white.mtl" 
+    diffuse="1,1,0.85" 
+    radius="5"
+    diffuseMult="2" 
+    coronaDistIntensity="0.0065" 
+    coronaDistSize="0.0025"
+    coronaScale="2.5"
+   />
+   
+  <Light type="RearWeak" 
+    fakeLight="0" 
+    HDRDynamic="0.25"
+    material="materials/lightbeams/lightglow_white.mtl" 
+    diffuse="1,0.85,0.5" 
+    radius="4"
+    diffuseMult="1" 
+    coronaDistIntensity="0.0065" 
+    coronaDistSize="0.0025"
+    coronaScale="2"
+   />    
+   
+
+  <Light type="RearWide" 
+    fakeLight="0" 
+    HDRDynamic="0.5"
+    material="materials/lightbeams/lightglow_white_wide.mtl" 
+    diffuse="1,1,0.85" 
+    radius="5"
+    diffuseMult="2" 
+    coronaDistIntensity="0.0065" 
+    coronaDistSize="0.0025"
+    coronaScale="3"
+   />      
+   
+   
+  <Light type="Brake"
+    fakeLight="0" 
+    material="materials/lightbeams/lightglow_red.mtl" 
+    radius="4"
+    diffuse="1,0.05,0.05" 
+    diffuseMult="2" 
+    coronaDistSize="0.002" 
+    coronaDistIntensity="0.06" 
+    coronaScale="2"
+   />    
+   
+  <Light type="BrakeWide"
+    fakeLight="0" 
+    material="materials/lightbeams/lightglow_red_wide.mtl" 
+    radius="4"
+    diffuse="1,0.25,0.05" 
+    diffuseMult="2" 
+    coronaDistSize="0.002" 
+    coronaDistIntensity="0.06" 
+    coronaScale="3"
+   />    
+   
+   
+  <Light type="Search" 
+    fakeLight="0" 
+    texture="textures/lights/flashlight1.dds"
+    lightFrustumAngle="40"
+    radius="20"
+    directFactor="2"
+    diffuseMult="5"
+    specularMult="1"
+   />    
+   
+      
+  <Light type="Spot" 
+    fakeLight="1" 
+    material="materials/lightbeams/lightglow_white_wide.mtl" 
+    diffuse="1,1,0.85" 
+    radius="2"
+    diffuseMult="0.85" 
+    coronaDistIntensity="0.0065" 
+    coronaDistSize="0.0025"
+    coronaScale="1"
+   />    
+   
+   
+  <Light type="HeadLightDynamic" 
+    fakeLight="0" 
+    diffuse ="1,1,0.75"
+    texture="textures/lights/headlight_projector.dds"
+    frustumAngle="30" 
+    radius="60" 
+    directFactor="2.25" 
+    diffuseMult="20" 
+    specularMult="2.9"
+   />    
+   
+  <Light type="HeadLightMilitary" 
+    fakeLight="0" 
+    texture="textures/lights/headlight_projector_mil.dds"
+    frustumAngle="33" 
+    radius="66" 
+    directFactor="2.5" 
+    diffuseMult="22" 
+    specularMult="3.1"
+   />    
+   
+      
+  <Light type="HeadLightWeak" 
+    fakeLight="0" 
+    diffuse ="1,1,.55"
+    texture="textures/lights/headlight_projector.dds"
+    frustumAngle="30" 
+    radius="47" 
+    directFactor="1.9" 
+    diffuseMult="18" 
+    specularMult="2.2"
+   />    
+ 
+  <Light type="HeadLightBlue" 
+   fakeLight="0" 
+    diffuse =".5,.5,1"
+    texture="textures/lights/headlight_projector.dds"
+    frustumAngle="30" 
+    radius="47" 
+    directFactor="2" 
+    diffuseMult="18" 
+    specularMult="2.3"
+   />  
+ 
+   
+   
+ </Lights>
+</DefaultVehicleLights>

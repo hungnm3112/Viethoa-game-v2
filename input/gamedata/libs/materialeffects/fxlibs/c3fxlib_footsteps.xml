@@ -1,0 +1,681 @@
+<FXLib>
+
+<Effect name="default">
+	<Sound><Name>sounds/foley:fs_default:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.default</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="upholstery">
+	<Sound><Name>sounds/foley:fs_upholstery:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.default</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="metal_hollow">
+	<Sound><Name>sounds/foley:fs_metal_hollow:shoe</Name></Sound>
+</Effect>
+
+<Effect name="concrete">
+	<Sound><Name>sounds/foley:fs_concrete:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="metal_solid">
+	<Sound><Name>sounds/foley:fs_metal_solid:shoe</Name></Sound>
+</Effect>
+
+<Effect name="tile">
+	<Sound><Name>sounds/foley:fs_tile:shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood">
+	<Sound><Name>sounds/foley:fs_wood:shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_hollow">
+	<Sound><Name>sounds/foley:fs_wood_hollow:shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_creaky">
+	<Sound><Name>sounds/foley:fs_wood_creaky:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>
+
+<Effect name="debris_misc">
+	<Sound><Name>sounds/foley:fs_debris_misc:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water">
+	<Sound><Name>sounds/foley:fs_water:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.25" maxscaledist="50">Class3Collisions.footsteps.water_splash</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="water_puddle">
+	<Sound><Name>sounds/foley:fs_water:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.25" maxscaledist="50">Class3Collisions.footsteps.water_splash</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="mud">
+	<Sound><Name>sounds/foley:fs_mud:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.water_muddy</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_muddy">
+	<Sound><Name>sounds/foley:fs_water_puddle:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.water_muddy</Name>
+	</Particle>
+</Effect>
+
+<Effect name="carpet">
+	<Sound><Name>sounds/foley:fs_carpet:shoe</Name></Sound>
+</Effect>
+
+<Effect name="dirt">
+	<Sound><Name>sounds/foley:fs_dirt:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.dust</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass">
+	<Sound><Name>sounds/foley:fs_grass:shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.grass_dead</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zombie">
+	<Sound>
+		<Name>sounds/foley:fs_zombie:shoe</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">Class3Collisions.footsteps.zombie_splat</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.14" maxscale="0.14">
+			<Material>materials/decals/footstep_sand</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+
+
+
+
+<Effect name="stealth_default">
+	<Sound><Name>sounds/foley:fs_default:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.default</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="stealth_upholstery">
+	<Sound><Name>sounds/foley:fs_upholstery:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.default</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="stealth_metal_hollow">
+	<Sound><Name>sounds/foley:fs_metal_hollow:shoe_stealth</Name></Sound>
+</Effect>
+
+<Effect name="stealth_concrete">
+	<Sound><Name>sounds/foley:fs_concrete:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="stealth_metal_solid">
+	<Sound><Name>sounds/foley:fs_metal_solid:shoe_stealth</Name></Sound>
+</Effect>
+
+<Effect name="stealth_tile">
+	<Sound><Name>sounds/foley:fs_tile:shoe_stealth</Name></Sound>
+</Effect>
+
+<Effect name="stealth_wood">
+	<Sound><Name>sounds/foley:fs_wood:shoe_stealth</Name></Sound>
+</Effect>
+
+<Effect name="stealth_wood_hollow">
+	<Sound><Name>sounds/foley:fs_wood_hollow:shoe_stealth</Name></Sound>
+</Effect>
+
+<Effect name="stealth_wood_creaky">
+	<Sound><Name>sounds/foley:fs_wood_creaky:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>
+
+<Effect name="stealth_debris_misc">
+	<Sound><Name>sounds/foley:fs_debris_misc:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>
+
+<Effect name="stealth_water">
+	<Sound><Name>sounds/foley:fs_water:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.25" maxscaledist="50">Class3Collisions.footsteps.water_splash</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="stealth_water_puddle">
+	<Sound><Name>sounds/foley:fs_water:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.25" maxscaledist="50">Class3Collisions.footsteps.water_splash</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="stealth_mud">
+	<Sound><Name>sounds/foley:fs_mud:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.water_muddy</Name>
+	</Particle>
+</Effect>
+
+<Effect name="stealth_water_muddy">
+	<Sound><Name>sounds/foley:fs_water_puddle:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.water_muddy</Name>
+	</Particle>
+</Effect>
+
+<Effect name="stealth_carpet">
+	<Sound><Name>sounds/foley:fs_carpet:shoe_stealth</Name></Sound>
+</Effect>
+
+<Effect name="stealth_dirt">
+	<Sound><Name>sounds/foley:fs_dirt:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.dust</Name>
+	</Particle>
+</Effect>
+
+<Effect name="stealth_grass">
+	<Sound><Name>sounds/foley:fs_grass:shoe_stealth</Name></Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Collisions.footsteps.grass_dead</Name>
+	</Particle>
+</Effect>
+
+<Effect name="stealth_zombie">
+	<Sound>
+		<Name>sounds/foley:fs_zombie:shoe_stealth</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">Class3Collisions.footsteps.zombie_splat</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.14" maxscale="0.14">
+			<Material>materials/decals/footstep_sand</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+
+
+
+
+
+
+
+
+
+<Effect name="default_npc">
+	<Sound><Name>sounds/foley:fs_default:NPC_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="100">Class3Collisions.footsteps_npc.concrete</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="upholstery_npc">
+	<Sound><Name>sounds/foley:fs_upholstery:NPC_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps_npc.default</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="metal_hollow_npc">
+	<Sound><Name>sounds/foley:fs_metal_hollow:NPC_shoe</Name></Sound>
+</Effect>
+
+<Effect name="concrete_npc">
+	<Sound><Name>sounds/foley:fs_concrete:NPC_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.25" maxscale="0.35" maxscaledist="100">Class3Collisions.footsteps_npc.concrete</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="metal_solid_npc">
+	<Sound><Name>sounds/foley:fs_metal_solid:NPC_shoe</Name></Sound>
+</Effect>
+
+<Effect name="tile_npc">
+	<Sound><Name>sounds/foley:fs_tile:NPC_shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_npc">
+	<Sound><Name>sounds/foley:fs_wood:NPC_shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_hollow_npc">
+	<Sound><Name>sounds/foley:fs_wood_hollow:NPC_shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_creaky_npc">
+	<Sound><Name>sounds/foley:fs_wood_creaky:NPC_shoe</Name></Sound>
+</Effect>
+
+<Effect name="debris_misc_npc">
+	<Sound><Name>sounds/foley:fs_debris_misc:NPC_shoe</Name></Sound>
+</Effect>
+
+<Effect name="water_npc">
+	<Sound><Name>sounds/foley:fs_water:NPC_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps_npc.water_splash</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="water_puddle_npc">
+	<Sound><Name>sounds/foley:fs_water:NPC_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps_npc.water_splash</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="mud_npc">
+	<Sound><Name>sounds/foley:fs_mud:NPC_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">Class3Collisions.footsteps_npc.water_muddy</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="water_muddy_npc">
+	<Sound><Name>sounds/foley:fs_water_puddle:NPC_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">Class3Collisions.footsteps_npc.water_muddy</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="carpet_npc">
+	<Sound><Name>sounds/foley:fs_carpet:NPC_shoe</Name></Sound>
+</Effect>
+
+<Effect name="dirt_npc">
+	<Sound><Name>sounds/foley:fs_dirt:NPC_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="100">Class3Collisions.footsteps_npc.dust</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass_npc">
+	<Sound><Name>sounds/foley:fs_grass:NPC_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="100">Class3Collisions.footsteps_npc.grass_dead</Name>
+	</Particle>
+</Effect>
+
+
+
+
+
+
+
+
+
+
+<Effect name="default_zed">
+	<Sound><Name>sounds/foley:fs_default:ZED_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="100">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="upholstery_zed">
+	<Sound><Name>sounds/foley:fs_upholstery:ZED_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.default</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="metal_hollow_zed">
+	<Sound><Name>sounds/foley:fs_metal_hollow:ZED_shoe</Name></Sound>
+</Effect>
+
+<Effect name="metal_solid_zed">
+	<Sound><Name>sounds/foley:fs_metal_solid:ZED_shoe</Name></Sound>
+</Effect>
+
+<Effect name="concrete_zed">
+	<Sound><Name>sounds/foley:fs_concrete:ZED_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.25" maxscale="0.35" maxscaledist="100">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="tile_zed">
+	<Sound><Name>sounds/foley:fs_tile:ZED_shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_zed">
+	<Sound><Name>sounds/foley:fs_wood:ZED_shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_hollow_zed">
+	<Sound><Name>sounds/foley:fs_wood_hollow:ZED_shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_creaky_zed">
+	<Sound><Name>sounds/foley:fs_wood_creaky:ZED_shoe</Name></Sound>
+</Effect>
+
+<Effect name="debris_misc_zed">
+	<Sound><Name>sounds/foley:fs_debris_misc:ZED_shoe</Name></Sound>
+</Effect>
+
+<Effect name="water_zed">
+	<Sound><Name>sounds/foley:fs_water:ZED_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.water_splash</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="water_puddle_zed">
+	<Sound><Name>sounds/foley:fs_water:ZED_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="1">Class3Collisions.footsteps.water_splash</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="mud_zed">
+	<Sound><Name>sounds/foley:fs_mud:ZED_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.water_muddy</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="water_muddy_zed">
+	<Sound><Name>sounds/foley:fs_water_puddle:ZED_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.water_muddy</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="carpet_zed">
+	<Sound><Name>sounds/foley:fs_carpet:ZED_shoe</Name></Sound>
+</Effect>
+
+<Effect name="dirt_zed">
+	<Sound><Name>sounds/foley:fs_dirt:ZED_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.5" maxscaledist="100">Class3Collisions.footsteps.dust</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass_zed">
+	<Sound><Name>sounds/foley:fs_grass:ZED_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.65" maxscaledist="100">Class3Collisions.footsteps.grass_dead</Name>
+	</Particle>
+</Effect>
+
+
+
+
+
+
+
+
+
+
+
+<Effect name="default_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_default:ZED_jugg_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.25" maxscale="0.35" maxscaledist="100">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>
+
+<Effect name="upholstery_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_upholstery:ZED_jugg_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.default</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="concrete_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_concrete:ZED_jugg_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.25" maxscale="0.35" maxscaledist="100">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>
+
+<Effect name="metal_hollow_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_metal_hollow:ZED_jugg_shoe</Name></Sound>
+</Effect>
+
+<Effect name="metal_solid_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_metal_solid:ZED_jugg_shoe</Name></Sound>
+</Effect>
+
+<Effect name="tile_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_tile:ZED_jugg_shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_wood:ZED_jugg_shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_hollow_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_wood_hollow:ZED_jugg_shoe</Name></Sound>
+</Effect>
+
+<Effect name="wood_creaky_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_wood_creaky:ZED_jugg_shoe</Name></Sound>
+</Effect>
+
+<Effect name="debris_misc_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_debris_misc:ZED_jugg_shoe</Name></Sound>
+</Effect>
+
+<Effect name="water_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_water:ZED_jugg_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.5" maxscaledist="1">Class3Collisions.footsteps.water_splash</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="water_puddle_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_water:ZED_jugg_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.5" maxscaledist="1">Class3Collisions.footsteps.water_splash</Name>
+	</Particle>
+</Effect>
+
+<Effect name="mud_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_mud:ZED_jugg_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">Class3Collisions.footsteps.water_muddy</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="water_muddy_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_water_puddle:ZED_jugg_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">Class3Collisions.footsteps.water_muddy</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="carpet_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_carpet:ZED_jugg_shoe</Name></Sound>
+</Effect>
+
+<Effect name="dirt_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_dirt:ZED_jugg_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.5" maxscaledist="100">Class3Collisions.footsteps.dust</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass_zed_juggernaut">
+	<Sound><Name>sounds/foley:fs_grass:ZED_jugg_shoe</Name></Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.65" maxscaledist="100">Class3Collisions.footsteps.grass_dead</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zombie_juggernaut">
+	<Sound>
+		<Name>sounds/foley:fs_zombie:ZED_jugg_shoe</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">collisions.footsteps.sand</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.14" maxscale="0.14">
+			<Material>materials/decals/footstep_sand</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+
+
+
+
+
+<Effect name="default_zed_feral">
+	<Sound><Name>sounds/foley:fs_default:ZED_feral</Name></Sound>
+	<Particle>
+		<Name minscale="0.25" maxscale="0.35" maxscaledist="100">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>
+
+<Effect name="upholstery_zed_feral">
+	<Sound><Name>sounds/foley:fs_upholstery:ZED_feral</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="1.1" maxscaledist="100">Class3Collisions.footsteps.default</Name>
+	</Particle>
+</Effect>	
+
+<Effect name="concrete_zed_feral">
+	<Sound><Name>sounds/foley:fs_concrete:ZED_feral</Name></Sound>
+	<Particle>
+		<Name minscale="0.25" maxscale="0.35" maxscaledist="100">Class3Collisions.footsteps.concrete</Name>
+	</Particle>
+</Effect>
+
+<Effect name="metal_hollow_zed_feral">
+	<Sound><Name>sounds/foley:fs_metal_hollow:ZED_feral</Name></Sound>
+</Effect>
+
+<Effect name="metal_solid_zed_feral">
+	<Sound><Name>sounds/foley:fs_metal_solid:ZED_feral</Name></Sound>
+</Effect>
+
+<Effect name="tile_zed_feral">
+	<Sound><Name>sounds/foley:fs_tile:ZED_feral</Name></Sound>
+</Effect>
+
+<Effect name="wood_zed_feral">
+	<Sound><Name>sounds/foley:fs_wood:ZED_feral</Name></Sound>
+</Effect>
+
+<Effect name="wood_hollow_zed_feral">
+	<Sound><Name>sounds/foley:fs_wood_hollow:ZED_feral</Name></Sound>
+</Effect>
+
+<Effect name="wood_creaky_zed_feral">
+	<Sound><Name>sounds/foley:fs_wood_creaky:ZED_feral</Name></Sound>
+</Effect>
+
+<Effect name="debris_misc_zed_feral">
+	<Sound><Name>sounds/foley:fs_debris_misc:ZED_feral</Name></Sound>
+</Effect>
+
+<Effect name="water_zed_feral">
+	<Sound><Name>sounds/foley:fs_water:ZED_feral</Name></Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.5" maxscaledist="1">collisions.footsteps.water_shallow</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="water_puddle_zed_feral">
+	<Sound><Name>sounds/foley:fs_water:ZED_feral</Name></Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.5" maxscaledist="1">collisions.footsteps.water_shallow</Name>
+	</Particle>
+</Effect>
+
+<Effect name="mud_zed_feral">
+	<Sound><Name>sounds/foley:fs_mud:ZED_feral</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">collisions.footsteps.mud</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="water_muddy_zed_feral">
+	<Sound><Name>sounds/foley:fs_water_puddle:ZED_feral</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">collisions.footsteps.mud</Name>
+	</Particle>	
+</Effect>
+
+<Effect name="carpet_zed_feral">
+	<Sound><Name>sounds/foley:fs_carpet:ZED_feral</Name></Sound>
+</Effect>
+
+<Effect name="dirt_zed_feral"> 
+	<Sound><Name>sounds/foley:fs_dirt:ZED_feral</Name></Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.5" maxscaledist="100">Class3Collisions.footsteps.dust</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass_zed_feral">
+	<Sound><Name>sounds/foley:fs_grass:ZED_feral</Name></Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.65" maxscaledist="100">Class3Collisions.footsteps.grass_dead</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zombie_feral">
+	<Sound>
+		<Name>sounds/foley:fs_zombie:ZED_feral</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">collisions.footsteps.sand</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.14" maxscale="0.14">
+			<Material>materials/decals/footstep_sand</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+</FXLib>

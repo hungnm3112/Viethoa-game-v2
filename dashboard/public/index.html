@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of Decay YOSE - Translation Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-container">
+                <div class="logo-icon">☣️</div>
+                <h1 class="logo-text">SoD YOSE<br><span>Localization</span></h1>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-view="dashboard">
+                    <span class="icon">📊</span> Tổng Quan
+                </a>
+                <a href="#" class="nav-item" data-view="database">
+                    <span class="icon">🗄️</span> Database
+                </a>
+            </nav>
+            
+            <div class="global-progress">
+                <h3>Tiến độ chung</h3>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="global-progress-bar"></div>
+                </div>
+                <div class="progress-stats" id="global-progress-text">Đang tải...</div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <h2>Translation Dashboard</h2>
+                <div class="user-status">🟢 System Online</div>
+            </header>
+
+            <!-- Dashboard View -->
+            <section id="view-dashboard" class="view-section active">
+                <div class="stats-grid" id="zones-grid">
+                    <!-- Zones will be rendered here -->
+                </div>
+            </section>
+
+            <!-- Database View -->
+            <section id="view-database" class="view-section">
+                <div class="db-controls">
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="Tìm kiếm chuỗi gốc hoặc bản dịch...">
+                        <button id="search-btn">Tìm kiếm</button>
+                    </div>
+                    <div class="filters">
+                        <select id="filter-zone">
+                            <option value="">Tất cả phân khu</option>
+                        </select>
+                        <select id="filter-status">
+                            <option value="">Trạng thái: Tất cả</option>
+                            <option value="translated">Đã dịch</option>
+                            <option value="untranslated">Chưa dịch</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="table-container">
+                    <table class="db-table">
+                        <thead>
+                            <tr>
+                                <th width="15%">Phân Khu</th>
+                                <th width="40%">Text Gốc</th>
+                                <th width="45%">Bản Dịch</th>
+                            </tr>
+                        </thead>
+                        <tbody id="db-body">
+                            <!-- Data rows -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination">
+                    <button id="page-prev" class="btn-page">← Trước</button>
+                    <span id="page-info">Trang 1 / 1</span>
+                    <button id="page-next" class="btn-page">Sau →</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

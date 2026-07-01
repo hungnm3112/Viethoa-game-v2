@@ -1,0 +1,4 @@
+<GameTokensLibrary Name="TourGuide">
+ <GameToken Name="TargetLocationIndex" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Enabled" Type="Bool" Value="false" LocalOnly="1"/>
+</GameTokensLibrary>

@@ -1,0 +1,63 @@
+<SelectionTrees>
+	<SelectionTree name="ZombieStandard" type="BehaviorSelectionTree">
+		<Variables>
+			<Variable name="Pursuit" default="false" />
+			<Variable name="Combat" default="false" />
+			<Variable name="TooClose" default="false" />
+			<Variable name="TooFar" default="false" />
+			<Variable name="IdleTypeHunt" default="false" />
+			<Variable name="IdleTypeDormant" default="false" />
+			<Variable name="IdleTypeDragger" default="false" />
+			<Variable name="IdleTypeMutilation" default="false" />
+			<Variable name="IdleTypePlayDead" default="false" />
+			<Variable name="IdleTypeShamble" default="false" />
+			<Variable name="IdleTypeWander" default="false" />
+			<Variable name="Fast" default="false" />
+		</Variables>	
+		
+		<SignalVariables>
+			<Signal name="TO_FRESHMEAT" variable="Pursuit" value="true" />
+			<Signal name="TO_FRESHMEAT" variable="Combat" value="false" />
+			
+			<Signal name="TO_FAST" variable="Fast" value="true" />
+			
+			<Signal name="TO_SLOW" variable="Fast" value="false" />
+			
+			<Signal name="TO_ATTACK" variable="Combat" value="true" />
+			<Signal name="TO_ATTACK" variable="Pursuit" value="false" />
+			<Signal name="TO_ATTACK" variable="TooClose" value="false" />
+			<Signal name="TO_ATTACK" variable="TooFar" value="false" />
+			
+			<Signal name="TOO_CLOSE" variable="TooClose" value="true" />
+			<Signal name="TOO_CLOSE" variable="TooFar" value="false" />
+			
+			<Signal name="TOO_FAR" variable="TooFar" value="true" />
+			<Signal name="TOO_FAR" variable="TooClose" value="false" />
+			
+			<Signal name="TO_IDLE" variable="Combat" value="false" />
+			<Signal name="TO_IDLE" variable="Pursuit" value="false" />
+		</SignalVariables>
+	
+		<Priority name="Root">	
+			<Leaf name="ZombieFastFreshMeat" condition="Fast and Pursuit" />
+			<Leaf name="ZombieFastSeek" condition="Fast and Combat and TooFar" />
+			<Leaf name="ZombieFastEscape" condition="Fast and Combat and TooClose" />
+			<Leaf name="ZombieFastAttack" condition="Fast and Combat" />
+
+			<Leaf name="ZombieSlowFreshMeat" condition="Pursuit" />
+			<Leaf name="ZombieSlowSeek" condition="Combat and TooFar" />
+			<Leaf name="ZombieSlowEscape" condition="Combat and TooClose" />
+			<Leaf name="ZombieSlowAttack" condition="Combat" />
+
+			<Leaf name="ZombieHunt" condition="Fast and IdleTypeHunt" />
+			<Leaf name="ZombieFastIdle" condition="Fast" />
+			<Leaf name="ZombieDormant" condition="IdleTypeDormant" />
+			<Leaf name="ZombieDragger" condition="IdleTypeDragger" />
+			<Leaf name="ZombieMutilation" condition="IdleTypeMutilation" />
+			<Leaf name="ZombiePlayDead" condition="IdleTypePlayDead" />
+			<Leaf name="ZombieShamble" condition="IdleTypeShamble" />
+			<Leaf name="ZombieWander" condition="IdleTypeWander" />
+			<Leaf name="ZombieFlowIdle" condition="!Fast"/>
+		</Priority>	
+	</SelectionTree>
+</SelectionTrees>

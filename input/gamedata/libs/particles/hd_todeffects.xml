@@ -1,0 +1,102 @@
+<ParticleLibrary Name="HD_TODEffects" SandboxVersion="3.3.8.3040" ParticleVersion="22">
+ <Particles Name="fireflies_5m" Id="{E5DAA8E0-DDCC-4C80-A86F-147819CF2B7C}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="15" ParticleLifeTime="2.5,0.5" PositionOffset=",0.5" RandomOffset="2.5,,2.5" FocusAngle="30" FocusAzimuth="180" EmitAngle="45" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/flares/glow_spot.tif" Alpha=",0.1,,(,,32;0.23033708,1;1)" AlphaTest="0.1" AlphaClamp="0.1" Color="(,0.573,0.075)" SoftParticle="true" DiffuseLighting="15" DiffuseBacklighting="1" EmissiveLighting="5" EmissiveHDRDynamic="2" NotAffectedByFog="true" LightSource="0.5,(10,0.5,,(,,32;0.33962265,1;1)),1" Size="0.02,0.6,,(,1;1)" TailLength="0.025,,,,5" Speed="0.7,0.5" RotationalDragScale="0" TurbulenceSize="1.5" TurbulenceSpeed="75,1" Thickness="0" Density="0" ViewDistanceAdjust="15"/>
+ </Particles>
+ <Particles Name="fireflies_15m" Id="{DD9FA379-7697-4FB1-A266-A9957FA18523}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="30" ParticleLifeTime="2.5,0.5" PositionOffset=",0.5" RandomOffset="7.5,,7.5" FocusAngle="30" FocusAzimuth="180" EmitAngle="45" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/flares/glow_spot.tif" Alpha=",0.1,,(,,32;0.23033708,1;1)" AlphaTest="0.1" AlphaClamp="0.1" Color="(,0.573,0.075)" SoftParticle="true" DiffuseLighting="0" EmissiveLighting="50" EmissiveHDRDynamic="4" NotAffectedByFog="true" LightSource="0.6,(20,0.5,,(,,32;0.33962265,1;1)),1" Size="0.02,0.6,,(,1;1)" TailLength="0.03,,,,5" Speed="0.7,0.5" RotationalDragScale="0" TurbulenceSize="1.5" TurbulenceSpeed="75,1" Thickness="0" Density="0" MoveRelEmitter="true" CameraMaxDistance="30" ViewDistanceAdjust="5000" FillRateCost="0"/>
+ </Particles>
+ <Particles Name="lakemist_50m" Id="{0436D6AB-54FA-4388-B600-3C063C223B96}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="350" ParticleLifeTime="10,0.25" RandomOffset="25,1.5,25" PosRandomOffset="1" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.05,0.5,,(;0.4228395,1;1)" Color="(0.573,0.61,0.54)" SoftParticle="true" DiffuseLighting="0.1" DiffuseBacklighting="0.9" Size="8,0.5,,(,0.43,32;0.6388889,1;1,1)" AirResistance="0.025" RotationalDragScale="0.25" GravityScale="-0.002,0.8" RotationRate=",-5" MoveRelEmitter="true" FillRateCost="0"/>
+  <Childs>
+   <Particles Name="lakemist_align">
+    <Params Continuous="true" Count="30" ParticleLifeTime="10,0.25" RandomOffset="15,,15" PosRandomOffset="1" Facing="Water" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.1,0.5,,(;0.4228395,1;1)" Color="(0.55,0.584,0.604)" SoftParticle="true" DiffuseLighting="0.35" DiffuseBacklighting="0.9" Size="8,0.5,,(,0.43,32;0.6388889,1;1,1)" AirResistance="0.025" RotationalDragScale="0.25" GravityScale="-0.0005" RotationRate=",-5" Thickness="0" Density="0" MoveRelEmitter="true" ViewDistanceAdjust="10" FillRateCost="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="lakemist_20m" Id="{CFB18298-404A-45D3-91D7-10D757907488}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="150" ParticleLifeTime="10,0.25" RandomOffset="10,1.5,10" PosRandomOffset="1" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.35,0.5,,(;0.4228395,1;1)" Color="(0.498,0.63,0.66)" SoftParticle="true" DiffuseLighting="0.1" DiffuseBacklighting="0.9" Size="8,0.5,,(,0.43,32;0.6388889,1;1,1)" AirResistance="0.025" RotationalDragScale="0.25" GravityScale="-0.0005" RotationRate=",-5" FillRateCost="0"/>
+  <Childs>
+   <Particles Name="lakemist_align">
+    <Params Continuous="true" Count="30" ParticleLifeTime="10,0.25" RandomOffset="8,,8" PosRandomOffset="1" Facing="Water" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.35,0.5,,(;0.4228395,1;1)" Color="(0.498,0.63,0.66)" SoftParticle="true" DiffuseLighting="0.35" DiffuseBacklighting="0.9" Size="8,0.5,,(,0.43,32;0.6388889,1;1,1)" AirResistance="0.025" RotationalDragScale="0.25" GravityScale="-0.0005" RotationRate=",-5" Thickness="0" Density="0" ViewDistanceAdjust="10" FillRateCost="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="forestmist_50m" Id="{4A0D950B-F1CC-4DA6-8A30-E80E5083F3D5}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="650" ParticleLifeTime="10,0.25" RandomOffset="25,5,25" PosRandomOffset="1" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.085,0.5,,(;0.4228395,1;1)" Color="(0.675,0.61,0.494)" SoftParticle="true" DiffuseLighting="0.1" DiffuseBacklighting="0.9" Size="5,0.5,,(,0.43,32;0.6388889,1;1,1)" AirResistance="0.025" RotationalDragScale="0.25" GravityScale="-0.0005" RotationRate=",-5" RandomRotationRate=",10" MoveRelEmitter="true" CameraMaxDistance="100" CameraMinFadeLength="5" CameraMaxFadeLength="100" ViewDistanceAdjust="3" FillRateCost="0"/>
+ </Particles>
+ <Particles Name="forestmist_10m" Id="{C20898DA-84AB-47CD-8A8B-38EC4735F3C7}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="40" ParticleLifeTime="10,0.25" RandomOffset="8,8,8" PosRandomOffset="1" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.085,0.5,,(;0.4228395,1;1)" Color="(0.675,0.61,0.494)" SoftParticle="true" DiffuseLighting="0.15" DiffuseBacklighting="0.4" EmissiveLighting="0.1" Size="6,0.5,,(,0.43,32;0.6388889,1;1,1)" AirResistance="0.025" RotationalDragScale="0.25" GravityScale="-0.0005" RotationRate=",-5" MoveRelEmitter="true" CameraMaxDistance="100" CameraMaxFadeLength="100" ViewDistanceAdjust="5" FillRateCost="0"/>
+  <Childs>
+   <Particles Name="mist_motes">
+    <Params Continuous="true" Count="50" ParticleLifeTime="5,0.5" PositionOffset=",2.5" RandomOffset="5,2,5" FocusAzimuth="180" EmitAngle="90" OrientToVelocity="true" Texture="textures/particles/dirt/dust_spex.tif" TextureTiling="2,2,,4" Alpha="0.3,0.6,,(;0.12704918,1;0.4228395,1;1)" Color="(0.373,0.37,0.357)" DiffuseLighting="0.5" DiffuseBacklighting="0.6" EmissiveLighting="0.2" Size="0.015,1,,(,,32;0.6388889,1;1,,4)" Speed="-0.1" RotationalDragScale="0" TurbulenceSize="5" TurbulenceSpeed="-5" RandomRotationRate=",50" MoveRelEmitter="true" CameraMaxDistance="300" CameraMinFadeLength="5" ViewDistanceAdjust="50" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ToDDust.dry_tan_dust_20m_Noon" Id="{6A0023E9-74E6-45A1-A6BD-87568FA8AE68}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="250" ParticleLifeTime="15,0.25" PositionOffset=",-0.1" RandomOffset="15,1,15" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.04,,,(;0.44495413,1;1)" Color="(0.302,0.24,0.192),0.5" SoftParticle="true" DiffuseLighting="0.2" DiffuseBacklighting="0.2" EmissiveLighting="0.1" Size="2.5,0.2,,(,0.27272728,32;0.913242,1;1,1)" AirResistance="0.01" RotationalDragScale="0.25" RandomAngles=",180" RotationRate=",-10" RandomRotationRate=",4" MoveRelEmitter="true" CameraMaxDistance="75" CameraMinFadeLength="5" CameraMaxFadeLength="15" ViewDistanceAdjust="30" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="DustyBits">
+    <Params Continuous="true" Count="600" ParticleLifeTime="6,0.25" RandomOffset="15,2,15" EmitAngle="90" OrientToVelocity="true" Texture="textures/particles/dirt/dust_spex.tif" TextureTiling="2,2,,4" Alpha="0.5,1,,(;0.12704918,1;0.622449,1;1)" Color="(0.33,0.267,0.184)" DiffuseLighting="0.5" DiffuseBacklighting="0.3" EmissiveLighting="0.1" Size="0.02,0.5,,(,0.75,32;0.6388889,1;1,1)" AirResistance="0.075" RotationalDragScale="0.25" GravityScale="0.0005" Acceleration="0.05,0.05" Turbulence3DSpeed="0.1" CameraMaxDistance="300" ViewDistanceAdjust="50" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ToDDust.dry_tan_dust_20m_Evening" Id="{258101CD-43E8-434C-BC09-6F6E03F01F63}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="250" ParticleLifeTime="15,0.25" RandomOffset="15,1.5,15" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.05,,,(;0.44495413,1;1)" Color="(0.3,0.353,0.38),0.5" SoftParticle="true" DiffuseLighting="0.2" DiffuseBacklighting="0.2" EmissiveLighting="0.1" Size="2.5,0.2,,(,0.27272728,32;0.913242,1;1,1)" Stretch="2" AirResistance="0.1" RotationalDragScale="0.25" Acceleration="0.15" RandomAngles=",180" RotationRate=",-10" RandomRotationRate=",20" MoveRelEmitter="true" CameraMaxDistance="75" CameraMaxFadeLength="15" ViewDistanceAdjust="10" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="DustyBits">
+    <Params Continuous="true" Count="1200" ParticleLifeTime="6,0.25" RandomOffset="15,2,15" EmitAngle="90" OrientToVelocity="true" Texture="textures/particles/dirt/dust_spex.tif" TextureTiling="2,2,,4" Alpha="0.3,1,,(;0.12704918,1;0.622449,1;1)" Color="(0.192,0.255,0.32)" DiffuseBacklighting="0.3" EmissiveLighting="0.1" Size="0.02,0.5,,(,0.75,32;0.6388889,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.0005" Acceleration="1,0.1" Turbulence3DSpeed="0.3" CameraMaxDistance="300" ViewDistanceAdjust="50" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ToDDust.dry_tan_dust_20m_Night" Id="{99F969C3-2903-4660-8A2A-520A51517366}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="150" ParticleLifeTime="15,0.25" RandomOffset="12,1.5,12" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.085,,,(;0.44495413,1;1)" Color="(0.21,0.267,0.33),0.5" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.5" EmissiveLighting="0.2" Size="2.5,0.2,,(,0.27272728,32;0.913242,1;1,1)" AirResistance="0.025" RotationalDragScale="0.25" GravityScale="-0.0005" RandomAngles=",180" RotationRate=",-5" RandomRotationRate=",10" MoveRelEmitter="true" CameraMaxDistance="200" CameraMinFadeLength="5" CameraMaxFadeLength="30" ViewDistanceAdjust="2" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="DustyBits">
+    <Params Continuous="true" Count="1200" ParticleLifeTime="6,0.25" RandomOffset="15,2,15" EmitAngle="90" OrientToVelocity="true" Texture="textures/particles/dirt/dust_spex.tif" TextureTiling="2,2,,4" Alpha=",1,,(;0.12704918,1;0.622449,1;1)" Color="(0.41,0.302,0.13)" DiffuseLighting="0.4" DiffuseBacklighting="0.3" EmissiveLighting="0.1" Size="0.02,0.5,,(,0.75,32;0.6388889,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.0005" Acceleration="1,0.25" Turbulence3DSpeed="0.3" CameraMaxDistance="80" ViewDistanceAdjust="50" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="wider_fog">
+    <Params Continuous="true" Count="300" ParticleLifeTime="15,0.25" RandomOffset="20,3,20" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.065,,,(;0.44495413,1;1)" Color="(0.21,0.267,0.33),0.5" SoftParticle="true" DiffuseLighting="0.25" DiffuseBacklighting="0.5" EmissiveLighting="0.2" Size="3.5,0.2,,(,0.27272728,32;0.913242,1;1,1)" AirResistance="0.025" RotationalDragScale="0.25" GravityScale="-0.0005" RandomAngles=",180" RotationRate=",-5" RandomRotationRate=",10" MoveRelEmitter="true" CameraMaxDistance="200" CameraMinFadeLength="5" CameraMaxFadeLength="30" ViewDistanceAdjust="5" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ToDDust.dry_tan_dust_20m_Morning" Id="{2ED96C4A-4B56-46F9-B9D4-319535B1697F}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="250" ParticleLifeTime="15,0.25" RandomOffset="15,1.5,15" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.085,,,(;0.44495413,1;1)" Color="(0.467,0.255,0.416),0.5" SoftParticle="true" DiffuseLighting="0.15" DiffuseBacklighting="0.2" EmissiveLighting="0.1" Size="2.75,0.2,,(,0.27272728,32;0.913242,1;1,1)" Stretch="0.5" AirResistance="0.035" RotationalDragScale="0.25" GravityScale="-0.0005" Acceleration=",,0.05" RandomAngles=",180" RotationRate=",-5" RandomRotationRate=",10" MoveRelEmitter="true" CameraMaxDistance="75" CameraMaxFadeLength="15" ViewDistanceAdjust="30" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="DustyBits">
+    <Params Continuous="true" Count="400" ParticleLifeTime="6,0.25" RandomOffset="15,3,15" EmitAngle="90" OrientToVelocity="true" Texture="textures/particles/dirt/dust_spex.tif" TextureTiling="2,2,,4" Alpha=",1,,(;0.12704918,1;0.622449,1;1)" Color="(0.41,0.302,0.13)" DiffuseLighting="0.4" DiffuseBacklighting="0.3" EmissiveLighting="0.1" Size="0.02,0.5,,(,0.75,32;0.6388889,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.0005" Acceleration="1,0.25" Turbulence3DSpeed="0.3" CameraMaxDistance="300" ViewDistanceAdjust="50" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ToDDust.dry_tan_dust_20m_LONG_Morning" Id="{D7C234D2-1D7A-4E02-AC78-7E4857680CCE}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="100" ParticleLifeTime="7,0.5" RandomOffset="15,1,7" EmitAngle="90" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.085,,,(;0.44387755,1;1)" Color="(0.4,0.37,0.333),0.5" SoftParticle="true" DiffuseLighting="0.1" DiffuseBacklighting="0.1" EmissiveLighting="0.4" Size="3,0.2,,(,0.75;1,1)" Stretch="2" Speed="0.2" RotationalDragScale="0.25" RandomAngles=",180" RandomRotationRate=",8" MoveRelEmitter="true" CameraMaxDistance="50" CameraMaxFadeLength="15" ViewDistanceAdjust="30" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="DustyBits">
+    <Params Continuous="true" Count="900" ParticleLifeTime="6,0.25" RandomOffset="15,2,15" EmitAngle="90" OrientToVelocity="true" Texture="textures/particles/dirt/dust_spex.tif" TextureTiling="2,2,,4" Alpha=",1,,(;0.12704918,1;0.622449,1;1)" Color="(0.41,0.302,0.13)" DiffuseLighting="0.4" DiffuseBacklighting="0.3" EmissiveLighting="0.1" Size="0.02,0.5,,(,0.75,32;0.6388889,1;1,1)" AirResistance="0.05" RotationalDragScale="0.25" GravityScale="0.0005" Acceleration="0.2,0.25" Turbulence3DSpeed="0.3" CameraMaxDistance="300" ViewDistanceAdjust="50" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ToDDust.dry_tan_dust_20m_LONG_Noon" Id="{113CC92A-BEBE-49BC-9D62-6464F2BE76F1}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="120" ParticleLifeTime="7,0.5" PositionOffset=",-0.1" RandomOffset="15,1,7" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.085,,,(;0.44387755,1;1)" Color="(0.17,0.145,0.125),0.5" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.2" EmissiveLighting="0.7" Size="2.2,0.2,,(,0.75;1,1)" RotationalDragScale="0.25" RandomAngles=",180" RandomRotationRate=",16" MoveRelEmitter="true" CameraMaxDistance="50" CameraMinFadeLength="5" CameraMaxFadeLength="15" ViewDistanceAdjust="30" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="DustyBits">
+    <Params Continuous="true" Count="900" ParticleLifeTime="6,0.25" RandomOffset="15,2,15" EmitAngle="90" OrientToVelocity="true" Texture="textures/particles/dirt/dust_spex.tif" TextureTiling="2,2,,4" Alpha=",1,,(;0.12704918,1;0.622449,1;1)" Color="(0.41,0.302,0.13)" DiffuseLighting="0.4" DiffuseBacklighting="0.3" EmissiveLighting="0.1" Size="0.02,0.5,,(,0.75,32;0.6388889,1;1,1)" AirResistance="0.002" RotationalDragScale="0.25" GravityScale="0.0005" Acceleration="0.1,0.1" Turbulence3DSpeed="0.3" CameraMaxDistance="300" ViewDistanceAdjust="50" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ToDDust.dry_tan_dust_20m_LONG_Evening" Id="{E738779F-E6E6-42B6-AF6D-993C15064707}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="100" ParticleLifeTime="7,0.5" PositionOffset=",0.25" RandomOffset="15,1,7" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.085,,,(;0.44387755,1;1)" Color="(0.31,0.353,0.404),0.5" SoftParticle="true" DiffuseLighting="0.5" DiffuseBacklighting="0.2" EmissiveLighting="0.2" Size="1.3,0.2,,(0.0040983604,0.36363637;1,1,4)" Stretch="1" AirResistance="0.2" RotationalDragScale="0.25" Acceleration="2" RandomAngles=",270" RotationRate=",-25" MoveRelEmitter="true" CameraMaxDistance="50" CameraMinFadeLength="5" CameraMaxFadeLength="15" ViewDistanceAdjust="30" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="DustyBits">
+    <Params Continuous="true" Count="900" ParticleLifeTime="6,0.25" RandomOffset="15,2,15" EmitAngle="90" OrientToVelocity="true" Texture="textures/particles/dirt/dust_spex.tif" TextureTiling="2,2,,4" Alpha=",1,,(;0.12704918,1;0.622449,1;1)" Color="(0.41,0.302,0.13)" DiffuseLighting="0.4" DiffuseBacklighting="0.3" EmissiveLighting="0.1" Size="0.02,0.5,,(,0.75,32;0.6388889,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.0005" Acceleration="1,0.25" Turbulence3DSpeed="0.3" CameraMaxDistance="300" ViewDistanceAdjust="50" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ToDDust.dry_tan_dust_20m_LONG_Night" Id="{216E0831-C739-4069-9B1D-66AECF9BEC35}" Library="HD_TODEffects">
+  <Params Continuous="true" Count="150" ParticleLifeTime="10,0.5" RandomOffset="15,1,7" EmitAngle="90" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.085,,,(;0.44387755,1;1)" Color="(0.318,0.353,0.42),0.5" SoftParticle="true" DiffuseLighting="0.15" DiffuseBacklighting="0.1" EmissiveLighting="0.3" Size="2,0.2,,(0.008196721,0.52272725;1,1)" Stretch="2" Speed="0.2" RotationalDragScale="0.25" Acceleration="0.1" RandomAngles=",180" RandomRotationRate=",8" MoveRelEmitter="true" CameraMaxDistance="50" CameraMaxFadeLength="15" ViewDistanceAdjust="30" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="DustyBits">
+    <Params Continuous="true" Count="900" ParticleLifeTime="6,0.25" RandomOffset="15,2,15" EmitAngle="90" OrientToVelocity="true" Texture="textures/particles/dirt/dust_spex.tif" TextureTiling="2,2,,4" Alpha=",1,,(;0.12704918,1;0.622449,1;1)" Color="(0.41,0.302,0.13)" DiffuseLighting="0.4" DiffuseBacklighting="0.3" EmissiveLighting="0.1" Size="0.02,0.5,,(,0.75,32;0.6388889,1;1,1)" AirResistance="0.05" RotationalDragScale="0.25" GravityScale="0.0005" Acceleration="0.2,0.25" Turbulence3DSpeed="0.3" CameraMaxDistance="300" ViewDistanceAdjust="50" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+</ParticleLibrary>

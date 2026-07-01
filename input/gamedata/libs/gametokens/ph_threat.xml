@@ -1,0 +1,8 @@
+<GameTokensLibrary Name="ph_Threat">
+ <GameToken Name="ThreatLevelName" Type="String" Value="No Threat" LocalOnly="1"/>
+ <GameToken Name="ThreatLevel" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="ThreatPoints" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="ThreatX" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="ThreatY" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="ThreatAITerritoryName" Type="String" Value="AITerritoryAA01" LocalOnly="0"/>
+</GameTokensLibrary>

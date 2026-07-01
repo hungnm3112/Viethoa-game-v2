@@ -1,0 +1,2 @@
+- Menu chính (Phân khu 2) là bất khả xâm phạm.
+- Mọi lần dịch và merge file BTXT mới đều phải đảm bảo các bản dịch menu không bị ghi đè hay làm hỏng.

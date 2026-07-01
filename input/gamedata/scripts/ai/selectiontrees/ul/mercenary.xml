@@ -1,0 +1,32 @@
+<SelectionTrees>
+    <SelectionTree name="Mercenary" type="BehaviorSelectionTree">
+        <Variables>
+          <ref name="AllyVariables"/>
+        </Variables>
+
+        <SignalVariables>
+          <ref name="AllySignalVariables"/>
+        </SignalVariables>
+
+        <Priority name="Root">
+            <Priority name="Follow"                             condition="BehaviorFollow">
+                <Leaf name="UL_Ally_FollowPlayer_Cleanup"       condition="ExitBehavior and !Reloading and !InVehicle"/>
+                <Priority name="FollowReady"                    condition="BehaviorFollowReady">
+				            <Priority name="Vehicle"                        condition="InVehicle">
+				                <Leaf name="UL_Ally_Vehicle"                condition="BehaviorFollowReady" />
+				                <Leaf name="UL_Ally_ExitVehicleASAP"        />
+				            </Priority>
+                    <Leaf name="UL_Ally_MachineDriven"              condition="StateMachine" />
+                    <Leaf name="UL_Ally_FollowPlayer_Vehicle"       condition="TargetInVehicle and !VehicleMoving" />
+                    <Leaf name="UL_Ally_FollowPlayer_TooFar"        condition="DistanceFromTarget_TooFar and !NoLOSwithTarget or NoLOSwithTarget" />
+                    <Leaf name="UL_Ally_EngageEnemyRanged"          condition="!DistanceFromTarget_TooFar and DealWithEnemyRanged and HasGun" />
+                    <Leaf name="UL_Ally_FollowPlayer_Idle"          />
+                </Priority>
+                <Leaf name="UL_Ally_FollowPlayer_Initialize" />
+            </Priority>
+
+            <Leaf name="AllyLeaderIdleST_Cleanup" condition="ExitBehavior and !Reloading"/>
+            <Leaf name="AllyLeaderIdleST"/>
+        </Priority>
+    </SelectionTree>
+</SelectionTrees>

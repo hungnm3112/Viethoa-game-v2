@@ -1,0 +1,53 @@
+<GameTokensLibrary Name="Zombies">
+ <GameToken Name="ActivationDist" Type="Float" Value="15.000000" Description="Distance at which LabAI switches to CryAI(must be less than AggroDist)" LocalOnly="0"/>
+ <GameToken Name="AggroDist" Type="Float" Value="4.000000" Description="Base aggro distance when standing or walking" LocalOnly="0"/>
+ <GameToken Name="AmbientRespawnRate" Type="Float" Value="15.000000" Description="(Minutes) Time period over which ambient zombies respawn to reach desired denstiy" LocalOnly="0"/>
+ <GameToken Name="DeactivationDist" Type="Float" Value="20.000000" Description="Distance at which CryAI switches to LabAI(must be greater than ActivationDist&gt;" LocalOnly="0"/>
+ <GameToken Name="DeaggroDist" Type="Float" Value="50.000000" Description="Range at which aggroed zombie loses aggro... must be higher than all other aggro ranges!" LocalOnly="0"/>
+ <GameToken Name="RecognitionTime" Type="Float" Value="0.000000" Description="Delay for a dumb zombie to notice player when within aggro dist" LocalOnly="0"/>
+ <GameToken Name="AttackDelay" Type="Float" Value="0.000000" Description="Delay for a dumb zombie to aggro after noticing player (ignored by &quot;instant aggro dist&quot;)" LocalOnly="0"/>
+ <GameToken Name="SprintSoundDist" Type="Float" Value="4.500000" Description="Aggro dist used if sprinting." LocalOnly="0"/>
+ <GameToken Name="GunFireSoundDist" Type="Float" Value="22.000000" Description="Instant aggro range triggered by shooting. (Eventually should be weapon/silencer based.)" LocalOnly="0"/>
+ <GameToken Name="CombatSoundDist" Type="Float" Value="8.000000" Description="Instant aggro range triggered by attacking." LocalOnly="0"/>
+ <GameToken Name="KillSoundDist" Type="Float" Value="5.000000" Description="Instant aggro range triggered by a kill. (Eventually should be technique/weapon based.)" LocalOnly="0"/>
+ <GameToken Name="BloodLustPercentage" Type="Float" Value="15.000000" Description="Chance a dumb zombie will bloodlust (fast movement) when they aggro" LocalOnly="0"/>
+ <GameToken Name="BaseFOV" Type="Float" Value="80.000000" Description="FOV for dumb zombies to spot player when base AggroDist is in effect. (sound-based aggro ignores FOV)" LocalOnly="0"/>
+ <GameToken Name="ChaseCount1" Type="Float" Value="1.000000" Description="Num chasing zombies to activate ChaseSoundDist1" LocalOnly="0"/>
+ <GameToken Name="ChaseSoundDist1" Type="Float" Value="6.000000" Description="Aggro dist used if chased by ChaseCount1 zombies" LocalOnly="0"/>
+ <GameToken Name="ChaseCount2" Type="Float" Value="5.000000" Description="Num chasing zombies to activate ChaseSoundDist2" LocalOnly="0"/>
+ <GameToken Name="ChaseSoundDist2" Type="Float" Value="8.000000" Description="Aggro dist used if chased by ChaseCount2 zombies" LocalOnly="0"/>
+ <GameToken Name="ChaseCount3" Type="Float" Value="10.000000" Description="Num chasing zombies to activate ChaseSoundDist3" LocalOnly="0"/>
+ <GameToken Name="ChaseSoundDist3" Type="Float" Value="11.000000" Description="Aggro dist used if chased by ChaseCount3 zombies" LocalOnly="0"/>
+ <GameToken Name="HunterPercentage" Type="Float" Value="0.000000" Description="Pct of all zombies spawned as Hunters (faster and smarter)" LocalOnly="0"/>
+ <GameToken Name="HunterAggroDist" Type="Float" Value="15.000000" Description="Range that Hunters aggro at (within FOV cone)" LocalOnly="0"/>
+ <GameToken Name="HunterFOV" Type="Float" Value="65.000000" Description="FOV cone for Hunters to aggro at HunterAggroDist" LocalOnly="0"/>
+ <GameToken Name="ChaseRadius" Type="Float" Value="10.000000" Description="How close an aggroed zombie must be to add to the ChaseCount" LocalOnly="0"/>
+ <GameToken Name="EchoMultiplier" Type="Float" Value="2.000000" Description="Multiplier - Extend the aggro range for any disturbance beyond base aggro" LocalOnly="0"/>
+ <GameToken Name="EchoDecayRate" Type="Float" Value="2.000000" Description="Seconds - How quickly the echo goes away" LocalOnly="0"/>
+ <GameToken Name="EchoRecognitionTime" Type="Float" Value="5.000000" Description="Seconds - How long it takes a zombie in the echo range to recognize the player" LocalOnly="0"/>
+ <GameToken Name="EchoAttackDelayMin" Type="Float" Value="3.000000" Description="Seconds - How long it takes a zombie in the echo range to attack the player" LocalOnly="0"/>
+ <GameToken Name="EchoAttackDelay" Type="Float" Value="8.000000" Description="Seconds - How long it takes a zombie in the echo range to attack the player" LocalOnly="0"/>
+ <GameToken Name="EchoRepeatEffect" Type="Float" Value="1.000000" Description="Seconds - If an event repeats, reduce the time it takes for a zombie to recognize the player" LocalOnly="0"/>
+ <GameToken Name="Agricultural.Density" Type="Int" Value="35" Description="45... Number of zombies for this tile type" LocalOnly="0"/>
+ <GameToken Name="Agricultural.IdlePercentage" Type="Float" Value="0.000000" Description="Pct of all zombies spawned as Dormant (non-moving)" LocalOnly="0"/>
+ <GameToken Name="Commercial.Density" Type="Int" Value="90" Description="Number of zombies for this tile type" LocalOnly="0"/>
+ <GameToken Name="Commercial.IdlePercentage" Type="Float" Value="0.000000" Description="Pct of all zombies spawned as Dormant (non-moving)" LocalOnly="0"/>
+ <GameToken Name="Industrial.Density" Type="Int" Value="55" Description="Number of zombies for this tile type" LocalOnly="0"/>
+ <GameToken Name="Industrial.IdlePercentage" Type="Float" Value="0.000000" Description="Pct of all zombies spawned as Dormant (non-moving)" LocalOnly="0"/>
+ <GameToken Name="Park.Density" Type="Int" Value="0" Description="35... Number of zombies for this tile type" LocalOnly="0"/>
+ <GameToken Name="Park.IdlePercentage" Type="Float" Value="0.000000" Description="Pct of all zombies spawned as Dormant (non-moving)" LocalOnly="0"/>
+ <GameToken Name="Residential.Density" Type="Int" Value="80" Description="Number of zombies for this tile type" LocalOnly="0"/>
+ <GameToken Name="Residential.IdlePercentage" Type="Float" Value="0.000000" Description="Pct of all zombies spawned as Dormant (non-moving)" LocalOnly="0"/>
+ <GameToken Name="Wilderness.Density" Type="Int" Value="20" Description="20... Number of zombies for this tile type" LocalOnly="0"/>
+ <GameToken Name="Wilderness.IdlePercentage" Type="Float" Value="0.000000" Description="Pct of all zombies spawned as Dormant (non-moving)" LocalOnly="0"/>
+ <GameToken Name="Freak.Type1Percentage" Type="Float" Value="1.000000" Description="Pct of all zombies spawned as this freak type" LocalOnly="0"/>
+ <GameToken Name="Freak.Type1Tag" Type="String" Value="Screamer" Description="Tag to apply to this zombie" LocalOnly="0"/>
+ <GameToken Name="Freak.Type2Percentage" Type="Float" Value="2.000000" Description="Pct of all zombies spawned as this freak type" LocalOnly="0"/>
+ <GameToken Name="Freak.Type2Tag" Type="String" Value="BigGuy" Description="Tag to apply to this zombie" LocalOnly="0"/>
+ <GameToken Name="Freak.Type3Percentage" Type="Float" Value="3.000000" Description="Pct of all zombies spawned as this freak type" LocalOnly="0"/>
+ <GameToken Name="Freak.Type3Tag" Type="String" Value="FreakType3" Description="Tag to apply to this zombie" LocalOnly="0"/>
+ <GameToken Name="Freak.Type4Percentage" Type="Float" Value="4.000000" Description="Pct of all zombies spawned as this freak type" LocalOnly="0"/>
+ <GameToken Name="Freak.Type4Tag" Type="String" Value="FreakType4" Description="Tag to apply to this zombie" LocalOnly="0"/>
+ <GameToken Name="Threat.CurrentSoundRange" Type="Float" Value="0.000000" Description="Current largest sound radius for the player." LocalOnly="0"/>
+ <GameToken Name="EchoInstantAggroPercentage" Type="Float" Value="25.000000" Description="Chance that a non-aggro zombie in an eccho will skip normal delays and aggro immediately" LocalOnly="0"/>
+</GameTokensLibrary>

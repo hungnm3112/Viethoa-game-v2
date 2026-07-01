@@ -1,0 +1,1262 @@
+<ReverbPresetDB>
+ <Carpark>
+  <nEnvironment type="int" min="0" max="25" value="25"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="75"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="0.80000001"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-500"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="5"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.60000002"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="0"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.11"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="0"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.055"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="50"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="222"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.2"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.2"/>
+  </EchoDSP>
+ </Carpark>
+ <Room_Small>
+  <nEnvironment type="int" min="0" max="25" value="25"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="75"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-1000"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="1"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.5"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="0.80000001"/>
+  <nReflections type="int" min="-10000" max="1000" value="-500"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.02"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="100"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.02"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="10"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="75"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="35"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.2"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.13"/>
+  </EchoDSP>
+ </Room_Small>
+ <Submarine>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-300"/>
+  <nRoomLF type="int" min="-10000" max="0" value="-400"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="0.80000001"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.125"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="2"/>
+  <nReflections type="int" min="-10000" max="1000" value="0"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="500"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="10000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="30"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="60"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.15000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.30000001"/>
+  </EchoDSP>
+ </Submarine>
+ <MP_Open_Ground>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5500002"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="0.048999999"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-100"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="1.9299999"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.333"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="0.26499999"/>
+  <nReflections type="int" min="-10000" max="1000" value="-1079"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.221"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="-3390"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.057999998"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0.90499997"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="1.268"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0.068000004"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-94.900002"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="440.5"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="1.9299999"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="30624"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="255"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.23899999"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </MP_Open_Ground>
+ <Tent>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="-1500"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-150"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="1"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.1"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-200"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.015"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="-200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.029999999"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="75"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.1"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="1"/>
+  </EchoDSP>
+ </Tent>
+ <MP_Room_Small>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="-1600"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-300"/>
+  <nRoomLF type="int" min="-10000" max="0" value="-400"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="0.5"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.60000002"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="1000"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.02"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="1500"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.02"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="50"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="500"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.5"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </MP_Room_Small>
+ <Garage>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="25"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-500"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="1.5"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.80000001"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="0"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.0049999999"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="0"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.025"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="50"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.30000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.40000001"/>
+  </EchoDSP>
+ </Garage>
+ <Shop>
+  <nEnvironment type="int" min="0" max="25" value="25"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-1000"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="0.5"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.60000002"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-200"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.0099999998"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.0049999999"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-20"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="25"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.2"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.2"/>
+  </EchoDSP>
+ </Shop>
+ <Street>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="35"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-1000"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="4"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.40000001"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-600"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.1"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="-200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.1"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.2"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="4"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="4000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="1000"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="400"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.2"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </Street>
+ <Corridor>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="0"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="1"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.69999999"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="0"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.0070000002"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.014"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="35"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.30000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.30000001"/>
+  </EchoDSP>
+ </Corridor>
+ <MP_Room_Large>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="20"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="0.60299999"/>
+  <nRoom type="int" min="-10000" max="0" value="-438"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-2000"/>
+  <nRoomLF type="int" min="-10000" max="0" value="-5574"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="3.0999999"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.74800003"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1.551"/>
+  <nReflections type="int" min="-10000" max="1000" value="-184"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.0070000002"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="190"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.024"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.19499999"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="239"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.24600001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </MP_Room_Large>
+ <Underpass>
+  <nEnvironment type="int" min="0" max="25" value="25"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-1000"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="2"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.40000001"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="0.1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-300"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.11"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="400"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.059999999"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.22"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="4000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="1000"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="115"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.30000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.5"/>
+  </EchoDSP>
+ </Underpass>
+ <Tunnel>
+  <nEnvironment type="int" min="0" max="25" value="25"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-500"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="6"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.30000001"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-300"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.050000001"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="0"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.1"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="4000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="1000"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="50"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="185"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.5"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.85000002"/>
+  </EchoDSP>
+ </Tunnel>
+ <Elevator>
+  <nEnvironment type="int" min="0" max="25" value="25"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="0"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="0.5"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-200"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.0080000004"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.011"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.075000003"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.039999999"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="22"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.30000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.40000001"/>
+  </EchoDSP>
+ </Elevator>
+ <Alley>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="0"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-500"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="2"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.5"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="0"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.075000003"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="0"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.050000001"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.2"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="4"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="4000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="1000"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="150"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.30000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.40000001"/>
+  </EchoDSP>
+ </Alley>
+ <MP_Massive>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="13.01"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="-951"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-300"/>
+  <nRoomLF type="int" min="-10000" max="0" value="-400"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="2.97"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.60000002"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1.863"/>
+  <nReflections type="int" min="-10000" max="1000" value="279"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.104"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="1500"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.07"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0.96399999"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-12.5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="53.400002"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="500"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.5"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </MP_Massive>
+ <Room_Large>
+  <nEnvironment type="int" min="0" max="25" value="25"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-1000"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="4"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.5"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-300"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.035"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.07"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="4000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="10"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="150"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.2"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.02"/>
+  </EchoDSP>
+ </Room_Large>
+ <Underwater>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-5000"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="2"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.2"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="2"/>
+  <nReflections type="int" min="-10000" max="1000" value="-10000"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.0099999998"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="1000"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.0099999998"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="4"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="0"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="1000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="1000"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="500"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.5"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </Underwater>
+ <Plaza>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="25"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-400"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="3"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.30000001"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-750"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.075000003"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="-450"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.050000001"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.2"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0.69999999"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="4"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="4000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="1000"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="400"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.15000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </Plaza>
+ <Sewer>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-200"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="3"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.60000002"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="200"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.015"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.029999999"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="4"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="20"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.40000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.64999998"/>
+  </EchoDSP>
+ </Sewer>
+ <Subway>
+  <nEnvironment type="int" min="0" max="25" value="25"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-800"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="3"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.30000001"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="0.1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-1000"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.12"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="-200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.022"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="6000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="1000"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="150"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.30000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.40000001"/>
+  </EchoDSP>
+ </Subway>
+ <Staircase>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="-200"/>
+  <nRoomHF type="int" min="-10000" max="0" value="0"/>
+  <nRoomLF type="int" min="-10000" max="0" value="-500"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="1.75"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.40000001"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="0.1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-500"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.012"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="0"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.024"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="4"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="10"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="100"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.2"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.2"/>
+  </EchoDSP>
+ </Staircase>
+ <OpenGround>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="25"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-300"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="2.5"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.30000001"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="2"/>
+  <nReflections type="int" min="-10000" max="1000" value="-500"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.050000001"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="-800"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.07"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.15000001"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0.69999999"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="4"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="4000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="1000"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="10"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="75"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="400"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.2"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </OpenGround>
+ <Pipe>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-200"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="5"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.60000002"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="300"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.015"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.029999999"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="1"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="4"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="20"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.30000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.80000001"/>
+  </EchoDSP>
+ </Pipe>
+ <Room_Medium>
+  <nEnvironment type="int" min="0" max="25" value="25"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="100"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-1000"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="3"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.5"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-300"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.02"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="200"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.039999999"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="10"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="75"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="80"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.25"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.02"/>
+  </EchoDSP>
+ </Room_Medium>
+ <Park>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="75"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-750"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="0.1"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.1"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="2"/>
+  <nReflections type="int" min="-10000" max="1000" value="-500"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.1"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="-500"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.1"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.2"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0.5"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="4"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-100"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="4000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="500"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="75"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="400"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.15000001"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </Park>
+ <no_effect>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="-10000"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-100"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="1.49"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.82999998"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-10000"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.0070000002"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="-10000"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.011"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="500"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.5"/>
+   <fDryMix type="float" min="0" max="1" value="0"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </no_effect>
+ <Vehicle>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="0.2"/>
+  <nRoom type="int" min="-10000" max="0" value="-1100"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-441"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="0.41"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-211"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.0099999998"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="1075"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.011"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="500"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.5"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </Vehicle>
+ <Station>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="0"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-600"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="5"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.69999999"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="0"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.113"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="100"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.011"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="400"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.2"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0.2"/>
+  </EchoDSP>
+ </Station>
+ <MP_Room_Medium>
+  <nEnvironment type="int" min="0" max="25" value="0"/>
+  <fEnvSize type="float" min="1.0" max="100.0" value="7.5"/>
+  <fEnvDiffusion type="float" min="0.0" max="1.0" value="1"/>
+  <nRoom type="int" min="-10000" max="0" value="-1000"/>
+  <nRoomHF type="int" min="-10000" max="0" value="-100"/>
+  <nRoomLF type="int" min="-10000" max="0" value="0"/>
+  <fDecayTime type="float" min="0.1" max="20.0" value="1.54"/>
+  <fDecayHFRatio type="float" min="0.1" max="2.0" value="0.82999998"/>
+  <fDecayLFRatio type="float" min="0.1" max="2.0" value="1"/>
+  <nReflections type="int" min="-10000" max="1000" value="-731"/>
+  <fReflectionsDelay type="float" min="0.0" max="0.3" value="0.0070000002"/>
+  <fReflectionsPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReflectionsPan>
+  <nReverb type="int" min="-10000" max="2000" value="1016"/>
+  <fReverbDelay type="float" min="0.0" max="0.1" value="0.011"/>
+  <fReverbPan>
+   <x type="float" value="0"/>
+   <y type="float" value="0"/>
+   <z type="float" value="0"/>
+  </fReverbPan>
+  <fEchoTime type="float" min="0.075" max="0.25" value="0.25"/>
+  <fEchoDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fModulationTime type="float" min="0.04" max="4.0" value="0.25"/>
+  <fModulationDepth type="float" min="0.0" max="1.0" value="0"/>
+  <fAirAbsorptionHF type="float" min="-100" max="0.0" value="-5"/>
+  <fHFReference type="float" min="1000.0" max="20000" value="5000"/>
+  <fLFReference type="float" min="20.0" max="1000.0" value="250"/>
+  <fRoomRolloffFactor type="float" min="0.0" max="10.0" value="0"/>
+  <fDiffusion type="float" min="0.0" max="100.0" value="100"/>
+  <fDensity type="float" min="0.0" max="100.0" value="100"/>
+  <nFlags type="int" min="0" max="100000" value="0"/>
+  <EchoDSP>
+   <fDelay type="float" min="10" max="5000" value="500"/>
+   <fDecayRatio type="float" min="0" max="1" value="0.5"/>
+   <fDryMix type="float" min="0" max="1" value="1"/>
+   <fWetMix type="float" min="0" max="1" value="0"/>
+  </EchoDSP>
+ </MP_Room_Medium>
+</ReverbPresetDB>

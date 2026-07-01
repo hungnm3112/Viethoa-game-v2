@@ -1,0 +1,2 @@
+- Bắt buộc cập nhật vào Database: Khi thực hiện dịch bất kỳ đoạn text nào (chỉnh sửa bản dịch cũ hoặc dịch mới), bắt buộc phải cập nhật bản dịch đó vào Database (MongoDB) thông qua tool/script chuẩn. Không được phép chỉnh sửa chay (hardcode) vào các file `.bmd` hoặc `.btxt`.
+- Bảo toàn bản gốc Tiếng Anh: KHÔNG ĐƯỢC PHÉP ghi đè hoặc làm thay đổi các file gốc tiếng Anh trong thư mục `input/`. Mọi dữ liệu gốc phải được giữ nguyên 100% để luôn sẵn sàng cho tác vụ phục hồi (recover) hoặc build lại từ đầu. Tác vụ build chỉ được đọc bản gốc và ghi kết quả ra thư mục `output/`.

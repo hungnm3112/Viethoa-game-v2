@@ -1,0 +1,590 @@
+<SurfaceTypes>
+
+<SurfaceType name="bat_aluminum">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="bat_wood">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="shell_shotgun">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="shell_small">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="shell_med">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="shell_large">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="grenade">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="metal">
+  <Physics friction="1" pierceability="6"/>
+</SurfaceType>
+
+<SurfaceType name="metal_misc">
+  <Physics friction="1" pierceability="6"/>
+</SurfaceType>
+
+<SurfaceType name="metal_garbagecan">
+  <Physics friction="1" pierceability="6"/>
+</SurfaceType>
+
+<SurfaceType name="metal_shoppingcart">
+  <Physics friction="1" pierceability="10"/>
+</SurfaceType>
+
+<SurfaceType name="metal_vehicle">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="metal_vehicle_small">
+  <Physics friction="1" pierceability="8"/>
+</SurfaceType>
+
+<SurfaceType name="metal_vehicle_heavy">
+  <Physics friction="1" pierceability="3"/>
+</SurfaceType>
+
+<SurfaceType name="metal_vehicle_armored">
+  <Physics friction="1" pierceability="1"/>
+</SurfaceType>
+
+<SurfaceType name="metal_vehicle_destroyed">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="metal_sheet">
+  <Physics friction="1" pierceability="7"/>
+</SurfaceType>
+
+<SurfaceType name="metal_grate">
+  <Physics friction="1" pierceability="10"/>
+</SurfaceType>
+
+<SurfaceType name="metal_chainlink">
+  <Physics friction="1" pierceability="15"/>
+</SurfaceType>
+
+<SurfaceType name="metal_bell">
+  <Physics friction="1" pierceability="5"/>
+</SurfaceType>
+
+<SurfaceType name="glass">
+  <Physics friction="0.5" pierceability="7"/>
+</SurfaceType>
+
+<SurfaceType name="glass_vehicle">
+  <Physics friction="0.5" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="glass_breakable" type="glass">
+  <Physics friction="0.60000002" elasticity="0.30000001" pierceability="14" break_energy="750" breakable_2d="1" can_shatter="1"
+   hit_points="1" hit_radius="0" hit_maxdmg="3"/>
+  <breakable_2d
+    rigid_body="0" cell_size=".25" filter_angle="70" max_fracture="0.25"
+    blast_radius=".25" max_patch_tris="6" shard_density="900" vert_size_spread="1"
+    fracture_fx="Class3Breakables.glass.fracture"
+    full_fracture_fx="Class3Breakables.glass.fracture_full"
+    />
+ <AI fImpactRadius="5" fImpactSoundRadius="25" fFootStepRadius="20" proneMult="0.2" crouchMult="0.5" movingMult="2.5"/>
+</SurfaceType>
+
+<SurfaceType name="glass_shatter" type="glass">
+  <Physics friction="0.60000002" elasticity="0.30000001" pierceability="14" break_energy="750" breakable_2d="1" can_shatter="1"
+   hit_points="1" hit_radius="0" hit_maxdmg="3"/>
+  <breakable_2d
+    rigid_body="0" cell_size=".25" filter_angle="70" max_fracture="0"
+    blast_radius=".25" max_patch_tris="5" shard_density="900" vert_size_spread="1"
+    fracture_fx="Class3Breakables.glass.fracture"
+    full_fracture_fx="Class3Breakables.glass.fracture_full"
+    />
+ <AI fImpactRadius="5" fImpactSoundRadius="25" fFootStepRadius="20" proneMult="0.2" crouchMult="0.5" movingMult="2.5"/>
+</SurfaceType>
+
+<SurfaceType name="wood">
+  <Physics friction="1" pierceability="5"/>
+    <BreakageParticles type="breakage" effect="Class3Breakables.wood.edge" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="destroy" effect="Class3Breakables.wood.main" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="joint_break" effect="Class3Breakables.wood.edge"/>
+    <BreakageParticles type="joint_shatter" effect="Class3Breakables.wood.edge"/>
+</SurfaceType>
+
+<SurfaceType name="wood_solid">
+  <Physics friction="1" pierceability="4"/>
+    <BreakageParticles type="breakage" effect="Class3Breakables.wood.edge" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="destroy" effect="Class3Breakables.wood.main" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="joint_break" effect="Class3Breakables.wood.edge"/>
+    <BreakageParticles type="joint_shatter" effect="Class3Breakables.wood.edge"/>
+</SurfaceType>
+
+<SurfaceType name="wood_hollow">
+  <Physics friction="1" pierceability="7"/>
+    <BreakageParticles type="breakage" effect="Class3Breakables.wood.edge" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="destroy" effect="Class3Breakables.wood.main" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="joint_break" effect="Class3Breakables.wood.edge"/>
+    <BreakageParticles type="joint_shatter" effect="Class3Breakables.wood.edge"/>
+</SurfaceType>
+
+<SurfaceType name="wood_creaky">
+  <Physics friction="1" pierceability="5"/>
+    <BreakageParticles type="breakage" effect="Class3Breakables.wood.edge" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="destroy" effect="Class3Breakables.wood.main" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="joint_break" effect="Class3Breakables.wood.edge"/>
+    <BreakageParticles type="joint_shatter" effect="Class3Breakables.wood.edge"/>
+</SurfaceType>
+
+<SurfaceType name="wood_breakable" type="wood">
+  <Physics friction="0.60000002" elasticity="0.30000001" pierceability="10" break_energy="900" breakable_2d="1" can_shatter="0"
+   hit_points="3" hit_radius="0" hit_maxdmg="3"/>
+  <breakable_2d
+    rigid_body="0" cell_size=".15" filter_angle="55" max_fracture="0.5"
+    blast_radius=".25" max_patch_tris="8" shard_density="700" vert_size_spread="1"
+    particle_effect="Class3Breakables.plywood.edges"
+    fracture_fx="Class3Breakables.plywood.break"
+    full_fracture_fx="Class3Breakables.plywood.break_full"
+    />
+</SurfaceType>
+
+<SurfaceType name="wood_tree_nodecal">
+  <Physics friction="1" pierceability="4"/>
+    <BreakageParticles type="breakage" effect="Class3Breakables.wood.edge" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="destroy" effect="Class3Breakables.wood.main" count_per_unit="1" count_scale="1" scale="1"/>
+    <BreakageParticles type="joint_break" effect="Class3Breakables.wood.edge"/>
+    <BreakageParticles type="joint_shatter" effect="Class3Breakables.wood.edge"/>
+</SurfaceType>
+
+<SurfaceType name="debris_misc">
+  <Physics friction="1" pierceability="5"/>
+</SurfaceType>
+
+<SurfaceType name="drywall">
+  <Physics friction="1" pierceability="5"/>
+</SurfaceType>
+
+<SurfaceType name="cardboard">
+  <Physics friction="1" pierceability="10"/>
+</SurfaceType>
+
+<SurfaceType name="water">
+  <Physics friction="1" pierceability="5"/>
+</SurfaceType>
+
+<SurfaceType name="water_muddy">
+  <Physics friction="1" pierceability="5"/>
+</SurfaceType>
+
+<SurfaceType name="water_shallow">
+  <Physics friction="1" pierceability="10"/>
+</SurfaceType>
+
+<SurfaceType name="mud">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="tile">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="linoleum">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="carpet_solid">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="carpet_hollow">
+  <Physics friction="1" pierceability="8"/>
+</SurfaceType>
+
+<SurfaceType name="concrete">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="asphalt">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="brick">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="marble">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="gravel">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="dirt">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="pebble">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="rock">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="grass">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="grass_tall">
+  <Physics friction="1" pierceability="4"/>
+</SurfaceType>
+
+<SurfaceType name="vegetation">
+  <Physics friction="1" pierceability="8" />
+</SurfaceType>
+
+<SurfaceType name="flesh_chunks">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="flesh">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="head" type="head">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="arm_left" type="arm">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="arm_right" type="arm">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="foot_left" type="foot">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="foot_right" type="foot">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="hand_left" type="hand">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="hand_right" type="hand">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="leg_left" type="leg">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="leg_right" type="leg">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="torso" type="torso">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_flesh_chunks">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_flesh_chunks_small">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_flesh">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_head" type="head">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_arm_left" type="arm">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_arm_right" type="arm">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_foot_left" type="foot">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_foot_right" type="foot">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_hand_left" type="hand">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_hand_right" type="hand">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_leg_left" type="leg">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_leg_right" type="leg">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_torso" type="torso">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_head" type="head">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_arm_left" type="arm">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_arm_right" type="arm">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_foot_left" type="foot">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_foot_right" type="foot">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_hand_left" type="hand">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_hand_right" type="hand">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_leg_left" type="leg">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_leg_right" type="leg">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_juggernaut_torso" type="torso">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_head" type="head">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_arm_left" type="arm">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_arm_right" type="arm">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_foot_left" type="foot">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_foot_right" type="foot">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_hand_left" type="hand">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_hand_right" type="hand">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_leg_left" type="leg">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_leg_right" type="leg">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_armored_torso" type="torso">
+  <Physics friction="1" pierceability="3" />
+</SurfaceType>
+
+<SurfaceType name="zed_feral_head" type="head">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_bloater_head" type="head">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="zed_bloater_torso" type="torso">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="fabric">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="upholstery">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="plastic">
+  <Physics friction="1" pierceability="5" />
+</SurfaceType>
+
+<SurfaceType name="plastic_pylon">
+  <Physics friction="1" pierceability="5" />
+</SurfaceType>
+
+<SurfaceType name="plastic_garbagecan">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="plastic_breakable" type="plastic">
+  <Physics friction="0.60000002" elasticity="0.30000001" pierceability="10" break_energy="1500" breakable_2d="1" can_shatter="1"
+   hit_points="5" hit_radius="0.3" hit_maxdmg="2" hit_maxhits="4"/>
+  <breakable_2d rigid_body="0" cell_size=".15" blast_radius=".2" max_patch_tris="100" shard_density="900" vert_size_spread="1"/>
+  <AI fImpactRadius="5" fImpactSoundRadius="25" fFootStepRadius="20" proneMult="0.2" crouchMult="0.5" movingMult="2.5"/>
+</SurfaceType>
+
+<SurfaceType name="rubber">
+  <Physics friction="1" pierceability="5" />
+</SurfaceType>
+
+<SurfaceType name="default">
+  <Physics friction="1" pierceability="5" />
+</SurfaceType>
+
+<SurfaceType name="mat_nodraw">
+  <Physics friction="0" elasticity="0"  pierceability="15"    />
+</SurfaceType>
+
+<SurfaceType name="mat_obstruct">
+  <Physics friction="1.5" elasticity="0"  pierceability="10" no_collide="1"   />
+</SurfaceType>
+
+<SurfaceType name="mat_default">
+</SurfaceType>
+
+<SurfaceType name="mat_player_collider">
+  <Physics friction="0.6" />
+</SurfaceType>
+
+<SurfaceType name="mat_invulnerable" type="default">
+  <Physics friction="1" elasticity="0"  pierceability="0"    />
+  <AI fImpactRadius="5" fImpactSoundRadius="25" fFootStepRadius="15" proneMult="0.2" crouchMult="0.5" movingMult="2.5"/>
+</SurfaceType>
+
+<SurfaceType name="mat_canopy">
+  <Physics friction="1.5" elasticity="0.050000001"  pierceability="10" no_collide="1" can_shatter="1" />
+  <BreakageParticles type="breakage" effect="bullet.hit_leaf.a" count_per_unit="1" count_scale="1" scale="1"/>
+  <BreakageParticles type="destroy" effect="bullet.hit_leaf.a" count_per_unit="1" count_scale="1" scale="1"/>
+  <BreakageParticles type="joint_break" effect="bullet.hit_leaf.a"/>
+  <BreakageParticles type="joint_shatter" effect="bullet.hit_leaf.a"/>
+</SurfaceType>
+
+<SurfaceType name="mat_water">
+  <Physics friction="0.5" pierceability="11" />
+</SurfaceType>
+
+<SurfaceType name="mat_metal">
+  <Physics friction="0.75" pierceability="5" />
+</SurfaceType>
+
+<SurfaceType name="mat_metal_barbwire">
+  <Physics friction="0.75" pierceability="5" />
+</SurfaceType>
+
+<SurfaceType name="mat_grenade">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_wood">
+  <Physics friction="1" pierceability="7"/>
+</SurfaceType>
+
+<SurfaceType name="mat_fabric">
+  <Physics friction="1" pierceability="11"/>
+</SurfaceType>
+
+<SurfaceType name="mat_gravel">
+  <Physics friction="1" pierceability="7"/>
+</SurfaceType>
+
+<SurfaceType name="mat_rock">
+  <Physics friction="1" pierceability="3"/>
+</SurfaceType>
+
+<SurfaceType name="mat_rock_dusty">
+  <Physics friction="1" pierceability="3"/>
+</SurfaceType>
+
+<SurfaceType name="mat_head">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_torso">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_arm_left">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_arm_right">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_hand_left">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_hand_right">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_leg_left">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_leg_right">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_foot_left">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="mat_foot_right">
+  <Physics friction="1" pierceability="7" />
+</SurfaceType>
+
+<SurfaceType name="scene_cage">
+  <Physics friction="1" pierceability="15" />
+</SurfaceType>
+
+</SurfaceTypes>

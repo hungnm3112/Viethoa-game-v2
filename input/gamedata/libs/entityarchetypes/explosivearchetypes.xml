@@ -1,0 +1,55 @@
+<EntityPrototypeLibrary Name="ExplosiveArchetypes" SandboxVersion="3.3.8.3040">
+ <EntityPrototype Name="PropaneField_Tank" Id="{4FA2203D-5815-4AE6-9E72-598037D39629}" Library="ExplosiveArchetypes" Class="UL_ExplodeAndBurnAchievement" Description="">
+  <Properties bBurn="0" fBurningRadius="0" fBurningRadiusForPlayers="0" fDamageThreshold="0" soundExplosionAudio="" fHealth="100" object_Model="objects/decor/facilities/propane_tank/propane_tank.cgf">
+   <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+   <Explosion Damage="1000" Decal="" DecalScale="1" Delay="0" disturbanceVal="5" Effect="Class3Explosions.Propane.20gallon_explosion" EffectScale="1" HoleSize="10" MinPhysRadius="6" MinRadius="6" PhysRadius="12" Pressure="1000" Radius="12" TerrainHoleSize="5">
+    <Direction x="0" y="0" z="1"/>
+    <vOffset x="0" y="0" z="0"/>
+   </Explosion>
+   <ParticleData bActive="1" esAttachForm="" esAttachType="" BurningLoop="" BurnoutLoop="" bCountPerUnit="0" CountScale="1" bPrime="1" PulsePeriod="0" Scale="1" SpeedScale="1" Strength="-1"/>
+   <Timers iBurnoutDelay="3000" iDeathTimerMax="8000" iDeathTimerMin="6000" iLifetimeTimerMax="12000" iLifetimeTimerMin="8000"/>
+   <Vulnerability bBullet="1" bCollision="1" fDamageThreshold="0" bExplosion="0" bMelee="1" bOther="1"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="255" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Minefield_Mine" Id="{80876FFA-B230-4335-A486-57E38329EE3D}" Library="ExplosiveArchetypes" Class="UL_Mine_Minefield" Description="">
+  <Properties DetectRadius="2" placedModel="objects/weapons/mine/mine_land/mine_homemade.cgf" placingModel="objects/weapons/mine/mine_land/mine_homemade.cgf">
+   <Explosion Damage="500" Decal="materials/decals/explosions/explosion_metal.mtl" DecalScale="0.25" disturbanceVal="25" Effect="Class3Explosions.Grenade.explosion" EffectScale="1" HitType="frag" HoleSize="1" MaxPhysRadius="1" MinPhysRadius="0.5" MinRadius="0.5" Pressure="300" Radius="1">
+    <Direction x="0" y="0" z="-1"/>
+   </Explosion>
+   <Placement DecalMaterial="materials/decals/target.mtl"/>
+   <Vulnerability bBullet="1" bCollision="1" fDamageThreshold="0" bExplosion="1" bMelee="1" bOther="1"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="FireworkField_Mine" Id="{1E8E2902-7998-4D99-B977-920DCB61BEA8}" Library="ExplosiveArchetypes" Class="UL_Mine_FireworkField" Description="">
+  <Properties DetectRadius="2" placedModel="objects/class3_2/weapons/mines/mine_firecracker/mine_firecracker.cgf" placingModel="objects/class3_2/weapons/mines/mine_firecracker/mine_firecracker.cgf" WhistlesLeft="1">
+   <Explosion Damage="1000" Decal="" DecalScale="1" disturbanceVal="5" Effect="Class3Explosions.Propane.20gallon_explosion" EffectScale="1" HitType="frag" HoleSize="10" MaxPhysRadius="6" MinPhysRadius="6" MinRadius="6" Pressure="1000" soundRadius="100">
+    <Direction x="0" y="0" z="1"/>
+   </Explosion>
+   <Placement DecalMaterial="materials/decals/target.mtl"/>
+   <Vulnerability bBullet="1" bCollision="1" fDamageThreshold="0" bExplosion="0" bMelee="1" bOther="1"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Minefield_Barrel" Id="{675E8DA6-7C49-4640-8377-A4A3F972F24B}" Library="ExplosiveArchetypes" Class="UL_Mine_Minefield" Description="">
+  <Properties DetectRadius="2" placedModel="objects/class3_2/objects/barrel_explosive/barrel_explosive.cgf" placingModel="objects/class3_2/objects/barrel_explosive/barrel_explosive.cgf">
+   <Explosion Damage="500" Decal="materials/decals/explosions/explosion_metal.mtl" DecalScale="0.25" disturbanceVal="25" Effect="Class3Explosions.Grenade.explosion" EffectScale="1" HitType="frag" HoleSize="5" MaxPhysRadius="6" MinPhysRadius="2.2" MinRadius="5" Pressure="300" Radius="10">
+    <Direction x="0" y="0" z="-1"/>
+   </Explosion>
+   <Placement DecalMaterial="materials/decals/target.mtl"/>
+   <Vulnerability bBullet="1" bCollision="1" fDamageThreshold="0" bExplosion="0" bMelee="1" bOther="1"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Minefield_Sign" Id="{375E5B59-F7EA-4BE6-95B9-E4A14B698EE0}" Library="ExplosiveArchetypes" Class="UL_FacilitySign" Description="">
+  <Properties model="objects/class3_2/objects/military_decor/military_signs/military_mine_sign.cgf">
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>

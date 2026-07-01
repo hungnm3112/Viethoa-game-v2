@@ -1,0 +1,3 @@
+- Khi thay thế chuỗi trong file `.btxt` (ví dụ `english.win.btxt`) bằng chuỗi ngắn hơn, PHẢI độn bằng khoảng trắng (Space).
+- TUYỆT ĐỐI KHÔNG độn bằng ký tự Null (`\0`).
+- File BTXT chỉ được phép có ĐÚNG 1 ký tự Null ở cuối mỗi chuỗi. Dư Null sẽ gây crash game.

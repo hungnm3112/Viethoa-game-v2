@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Dot" Value="1" />
+  <Icon Name="Cross" Value="2" />
+  <Icon Name="Circle" Value="3" />
+  <Icon Name="Nothing" Value="4" />
+</IconData>

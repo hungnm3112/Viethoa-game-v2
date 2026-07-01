@@ -1,0 +1,27 @@
+<GameTokensLibrary Name="ph_Inventory">
+ <GameToken Name="CurrentItemIndex" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="CycleDirection" Type="Int" Value="1" Description="-1 or 1. Value to add to CurrentItemIndex when changing " LocalOnly="0"/>
+ <GameToken Name="UpdateItemDisplay" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="StimulantActive" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="SilencerActive" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="SilencerShots" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Search.PropID" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Search.FoundMission" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Search.FoundMeds" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Search.FoundAmmo" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Search.FoundFood" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Search.FoundStim" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Search.FoundGrenade" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Search.FoundSilencer" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Buy.CommunityAmmo" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Buy.CommunityFood" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Buy.CommunityMeds" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="CheatGun" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Disabled" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ShowAmmo" Type="Bool" Value="false" Description="Allows game code to force display of your current ammo totals." LocalOnly="0"/>
+ <GameToken Name="CombatResupply" Type="Bool" Value="false" Description="Hack! Signal from scene to give the player more stuff!" LocalOnly="0"/>
+ <GameToken Name="FirstItems" Type="Bool" Value="false" Description="Hack! Signal from scene to give the player starting items!" LocalOnly="0"/>
+ <GameToken Name="FirstGun" Type="Bool" Value="false" Description="Hack! Signal from scene to give the player starting gun!" LocalOnly="0"/>
+ <GameToken Name="FirstWeapon" Type="Bool" Value="false" Description="Hack! Signal from scene to give the player starting melee weapon!" LocalOnly="0"/>
+ <GameToken Name="CheatAll" Type="Bool" Value="false" Description="Hack! Signal from RTSEvents to load your community up." LocalOnly="1"/>
+</GameTokensLibrary>

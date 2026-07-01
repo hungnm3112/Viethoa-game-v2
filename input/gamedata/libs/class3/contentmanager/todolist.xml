@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ToDoList>
+  <ToDoItem Icon="Zombie" RtsBool="Status.Warning.Danger_InfestationCount" IconId="14">
+    <Desc Flags="" Notes="" Text="Lots of zombies in the area." />
+    <Text Flags="" Notes="" Text="Too Many Infestations" />
+  </ToDoItem>
+  <ToDoItem Icon="Zombie" RtsBool="Status.Warning.Danger_HordeCount" IconId="14">
+    <Desc Flags="" Notes="" Text="Lots of zombies in the area." />
+    <Text Flags="" Notes="" Text="Too Many Hordes" />
+  </ToDoItem>
+  <ToDoItem Icon="Zombie" RtsBool="Status.Warning.Danger_Feral" IconId="14">
+    <Desc Flags="" Notes="" Text="DANGER: Feral Sighting" />
+    <Text Flags="" Notes="" Text="DANGER: Feral Sighting" />
+  </ToDoItem>
+  <ToDoItem Icon="Zombie" RtsBool="Status.Warning.Danger_Juggernaut" IconId="14">
+    <Desc Flags="" Notes="" Text="DANGER: Juggernaut Sighting" />
+    <Text Flags="" Notes="" Text="DANGER: Juggernaut Sighting" />
+  </ToDoItem>
+  <ToDoItem Icon="Zombie" RtsBool="Status.Warning.Danger_SwatZombie" IconId="14">
+    <Desc Flags="" Notes="" Text="It's best to tackle these in hand-to-hand combat. -%1$s" />
+    <Text Flags="" Notes="" Text="DANGER: Armored Zed Sighting" />
+  </ToDoItem>
+  <ToDoItem Icon="Zombie" RtsBool="Status.Warning.Danger_ArmyZombie" IconId="14">
+    <Desc Flags="" Notes="" Text="It's best to tackle these in hand-to-hand combat. -%1$s" />
+    <Text Flags="" Notes="" Text="DANGER: Army Zed Sighting" />
+  </ToDoItem>
+  <ToDoItem Icon="Zombie" RtsBool="Status.Warning.Danger_Bloater" IconId="14">
+    <Desc Flags="" Notes="" Text="DANGER: Bloater Sighting" />
+    <Text Flags="" Notes="" Text="DANGER: Bloater Sighting" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Warning.Home_Hunger" IconId="9">
+    <Desc Flags="" Notes="" Text="CRISIS: Malnutrition (Need Food)" />
+    <Text Flags="" Notes="" Text="CRISIS: Malnutrition (Need Food)" />
+  </ToDoItem>
+  <ToDoItem Icon="SadFace" RtsBool="Status.Warning.MoraleIssue_Despair" IconId="13">
+    <Desc Flags="" Notes="" Text="Morale Issue: Sadness" />
+    <Text Flags="" Notes="" Text="Morale Issue: Sadness" />
+  </ToDoItem>
+  <ToDoItem Icon="SadFace" RtsBool="Status.Warning.MoraleIssue_Discord" IconId="13">
+    <Desc Flags="" Notes="" Text="Morale Issue: Anger" />
+    <Text Flags="" Notes="" Text="Morale Issue: Anger" />
+  </ToDoItem>
+  <ToDoItem Icon="SadFace" RtsBool="Status.Warning.MoraleIssue_Fear" IconId="13">
+    <Desc Flags="" Notes="" Text="Morale Issue: Fear" />
+    <Text Flags="" Notes="" Text="Morale Issue: Fear" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Bunkhouse_Basic" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Build a Sleeping Area" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Bunkhouse" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Upgrade to Bunkhouse" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Garden" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Build a Garden" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Infirmary_Basic" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Build a Medical Area" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Infirmary" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Upgrade to Infirmary" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_InfirmaryAdvanced" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Upgrade to Medical Lab" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Kitchen" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Build a Cooking Area" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Outposts" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Establish More Outposts" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Outpost_First" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Establish An Outpost" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Training" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Build a Training Area" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_TrainingAdvanced" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Upgrade to Dojo" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Workshop" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Build a Work Area" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Workshop_B" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Upgrade to Workshop" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_WorkshopMunitions" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Upgrade to Munitions Shop" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_WorkshopCar" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Upgrade to Machine Shop" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Watchtower" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Build a Watchtower" />
+  </ToDoItem>
+  <ToDoItem Icon="Base" RtsBool="Status.Advice.Build_Watchtower_B" IconId="9">
+    <Desc Flags="" Notes="" Text="" />
+    <Text Flags="" Notes="" Text="Advice: Upgrade to Shooting Platform" />
+  </ToDoItem>
+</ToDoList>

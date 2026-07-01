@@ -1,0 +1,9 @@
+<GameTokensLibrary Name="CameraTest">
+ <GameToken Name="FOV-Interior" Type="Float" Value="50.000000" LocalOnly="0"/>
+ <GameToken Name="Distance-Interior" Type="Float" Value="2.000000" LocalOnly="0"/>
+ <GameToken Name="OffsetZ-Interior" Type="Float" Value="0.150000" LocalOnly="0"/>
+ <GameToken Name="OffsetY-Interior" Type="Float" Value="0.000000" LocalOnly="0"/>
+ <GameToken Name="FocusDistance-Interior" Type="Float" Value="20.000000" LocalOnly="0"/>
+ <GameToken Name="FocusRange-Interior" Type="Float" Value="15.000000" LocalOnly="0"/>
+ <GameToken Name="BlurAmount-Interior" Type="Float" Value="0.050000" LocalOnly="0"/>
+</GameTokensLibrary>

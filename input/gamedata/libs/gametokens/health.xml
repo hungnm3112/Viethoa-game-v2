@@ -1,0 +1,7 @@
+<GameTokensLibrary Name="Health">
+ <GameToken Name="DamageAccumulated" Type="Float" Value="0.000000" LocalOnly="0"/>
+ <GameToken Name="FatigueAccumulated" Type="Float" Value="0.000000" LocalOnly="0"/>
+ <GameToken Name="StaminaSurge" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="HealthSurge" Type="Bool" Value="false" LocalOnly="0"/>
+ <GameToken Name="Resistance.DamageMultiplier" Type="Float" Value="1.000000" LocalOnly="1"/>
+</GameTokensLibrary>

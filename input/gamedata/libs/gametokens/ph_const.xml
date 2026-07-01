@@ -1,0 +1,32 @@
+<GameTokensLibrary Name="ph_CONST">
+ <GameToken Name="Threat System.THREAT_NAME_0" Type="String" Value="No Threat" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_NAME_1" Type="String" Value="Rising Threat 1" LocalOnly="0"/>
+ <GameToken Name="Threat System.THREAT_NAME_2" Type="String" Value="Rising Threat 2" LocalOnly="0"/>
+ <GameToken Name="Threat System.THREAT_NAME_3" Type="String" Value="Rising Threat 3" LocalOnly="0"/>
+ <GameToken Name="Threat System.THREAT_NAME_4" Type="String" Value="GTFO 1" LocalOnly="0"/>
+ <GameToken Name="Threat System.THREAT_NAME_5" Type="String" Value="GTFO 2" LocalOnly="0"/>
+ <GameToken Name="Threat System.THREAT_NAME_6" Type="String" Value="GTFO 3" LocalOnly="0"/>
+ <GameToken Name="Threat System.THREAT_POINT_THRESHOLD_1" Type="Int" Value="250" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_POINT_THRESHOLD_2" Type="Int" Value="500" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_POINT_THRESHOLD_3" Type="Int" Value="1000" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_POINT_THRESHOLD_4" Type="Int" Value="2000" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_POINT_THRESHOLD_5" Type="Int" Value="5000" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_POINT_THRESHOLD_6" Type="Int" Value="10000" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_DENSITY_1" Type="Int" Value="9" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_DENSITY_2" Type="Int" Value="15" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_DENSITY_3" Type="Int" Value="25" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_DENSITY_4" Type="Int" Value="55" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_DENSITY_5" Type="Int" Value="95" LocalOnly="1"/>
+ <GameToken Name="Threat System.THREAT_DENSITY_6" Type="Int" Value="150" LocalOnly="1"/>
+ <GameToken Name="Threat System.DecayRate" Type="Float" Value="1.000000" LocalOnly="1"/>
+ <GameToken Name="Scene.INACTIVE" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Scene.ACTIVE" Type="Int" Value="1" LocalOnly="1"/>
+ <GameToken Name="Scene.DONE" Type="Int" Value="2" LocalOnly="1"/>
+ <GameToken Name="Scene.CANCELED" Type="Int" Value="3" LocalOnly="1"/>
+ <GameToken Name="Status.NONE" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Status.MINIMAL" Type="Int" Value="1" LocalOnly="1"/>
+ <GameToken Name="Status.LOW" Type="Int" Value="2" LocalOnly="1"/>
+ <GameToken Name="Status.MEDIUM" Type="Int" Value="3" LocalOnly="1"/>
+ <GameToken Name="Status.HIGH" Type="Int" Value="4" LocalOnly="1"/>
+ <GameToken Name="Status.EXTREME" Type="Int" Value="5" LocalOnly="1"/>
+</GameTokensLibrary>

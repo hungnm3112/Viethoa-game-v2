@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Bedroom" Value="1" />
+  <Icon Name="Bunkhouse" Value="2" />
+  <Icon Name="Cache Ammo" Value="3" />
+  <Icon Name="Cache Food" Value="4" />
+  <Icon Name="Cache Fuel" Value="5" />
+  <Icon Name="Cache Materials" Value="6" />
+  <Icon Name="Cache Medicine" Value="7" />
+  <Icon Name="Command" Value="8" />
+  <Icon Name="Dining" Value="9" />
+  <Icon Name="Garden" Value="10" />
+  <Icon Name="Garden Fancy" Value="11" />
+  <Icon Name="Generator" Value="12" />
+  <Icon Name="Infirmary" Value="13" />
+  <Icon Name="Kitchen" Value="14" />
+  <Icon Name="Library" Value="15" />
+  <Icon Name="Lounge" Value="16" />
+  <Icon Name="Parking" Value="17" />
+  <Icon Name="Shop" Value="18" />
+  <Icon Name="Socket In" Value="19" />
+  <Icon Name="Socket Out" Value="20" />
+  <Icon Name="Solar" Value="21" />
+  <Icon Name="Storage" Value="22" />
+  <Icon Name="Tower" Value="23" />
+  <Icon Name="Training" Value="24" />
+  <Icon Name="RV" Value="27" />
+  <Icon Name="Drone" Value="28" />
+  <Icon Name="Artillery" Value="29" />
+  <Icon Name="PMC" Value="30" />
+  <Icon Name="Truck" Value="31" />
+  <Icon Name="Latrine" Value="32" />
+  <Icon Name="Propane" Value="33" />
+  <Icon Name="Fireworks" Value="34" />
+  <Icon Name="Minefield" Value="35" />
+  <Icon Name="Landing Zone" Value="36" />
+</IconData>

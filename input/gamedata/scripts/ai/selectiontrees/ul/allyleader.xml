@@ -1,0 +1,168 @@
+<SelectionTrees>
+    <SelectionTree name="AllyLeader" type="BehaviorSelectionTree">
+        <Variables>
+          <ref name="AllyVariables"/>
+        </Variables>
+
+        <SignalVariables>
+            <ref name="AllySignalVariables"/>
+        </SignalVariables>
+
+        <Priority name="Root">
+            <!--TESTING IN PROGRESS-->
+            <Priority name="SceneActive"                    condition="BehaviorScene">
+                <Leaf name="UL_Ally_Scene_Sync"             condition="Scene_Sync" />
+                <Leaf name="UL_Ally_Scene_Action"           condition="Scene_Action" />
+                <Leaf name="UL_Ally_Scene_Idle"             />
+            </Priority>
+
+            <Priority name="Greeter"                        condition="Greeter">
+                <Leaf name="UL_Ally_EngageEnemyRanged"      condition="DealWithEnemyRanged and HasGun and !ForceEngageMelee" />
+                <Leaf name="UL_Ally_EngageEnemyMelee"       condition="DealWithEnemyMelee" />
+                <Leaf name="UL_Ally_Greeter_GreetMode"      condition="GreetMode" />
+                <Leaf name="UL_Ally_Greeter_MoveToPlayer"   condition="FollowPlayer" />
+                <Leaf name="UL_Ally_Greeter_Exit" />
+            </Priority>
+
+            <Priority name="Suicide"                         condition="BehaviorSuicide">
+                <Leaf name="UL_Ally_Suicide_Cleanup"         condition="ExitBehavior"/>
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="SuicideReady"                    condition="BehaviorSuicideReady">
+                    <Leaf name="UL_Ally_Suicide" />
+                </Priority>
+                <Leaf name="UL_Ally_Suicide_Initialize" />
+            </Priority>
+
+            <!--MANUAL TEST SUCCESSFULL-->
+            <Priority name="Hiding"                         condition="BehaviorHiding">
+                <Leaf name="UL_Ally_Hiding_Cleanup"         condition="ExitBehavior"/>
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="HidingReady"                    condition="BehaviorHidingReady">
+                    <Leaf name="UL_Ally_Hiding" />
+                </Priority>
+                <Leaf name="UL_Ally_Hiding_Initialize" />
+            </Priority>
+
+            <!--MANUAL TEST SUCCESSFULL-->
+            <Priority name="Watchtower"                     condition="BehaviorWatchtower">
+                <Leaf name="UL_Ally_Watchtower_Cleanup"     condition="ExitBehavior and !Reloading" />
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="WatchtowerReady"                condition="BehaviorWatchtowerReady">
+                    <Leaf name="UL_Ally_EngageEnemyRanged"      condition="DealWithEnemyRanged and HasGun and !ForceEngageMelee" />
+                    <Leaf name="UL_Ally_EngageEnemyMelee"       condition="ForceEngageMelee" />
+                    <Leaf name="UL_Ally_Watchtower_Shooter"     />
+                </Priority>
+                <Leaf name="UL_Ally_Watchtower_Initialize"     />
+            </Priority>
+
+            <!--MANUAL TEST SUCCESSFULL-->
+            <Priority name="Barricade"                      condition="BehaviorBarricade">
+                <Leaf name="UL_Ally_Siege_Cleanup"          condition="ExitBehavior and !Reloading"/>
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="BarricadeReady"                 condition="BehaviorBarricadeReady">
+                    <Leaf name="UL_Ally_Leash"                  condition="Leash" />
+                    <Leaf name="UL_Ally_MachineDriven"          condition="StateMachine" />
+                    <Leaf name="UL_Ally_EngageEnemyRanged"      condition="DealWithEnemyRanged and HasGun and !ForceEngageMelee" />
+                    <Leaf name="UL_Ally_EngageEnemyMelee"       condition="DealWithEnemyMelee" />
+                    <Leaf name="UL_Ally_Siege"                  condition="!BarricadesFull"/>
+                    <Leaf name="UL_Ally_Vigilant" />
+                </Priority>
+                <Leaf name="UL_Ally_Siege_Initialize" />
+            </Priority>
+
+            <!--MANUAL TEST SUCCESSFULL-->
+            <Priority name="Vigilant"                       condition="BehaviorVigilant">
+                <Leaf name="UL_Ally_Vigilant_Cleanup"           condition="ExitBehavior and !Reloading"/>
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="VigilantReady"                  condition="VigilantReady">
+                    <Leaf name="UL_Ally_Leash"                  condition="Leash" />
+                    <Leaf name="UL_Ally_MachineDriven"          condition="StateMachine" />
+                    <Leaf name="UL_Ally_EngageEnemyRanged"      condition="DealWithEnemyRanged and HasGun and !ForceEngageMelee" />
+                    <Leaf name="UL_Ally_EngageEnemyMelee"       condition="DealWithEnemyMelee" />
+                    <Leaf name="UL_Ally_Vigilant" />
+                </Priority>
+                <Leaf name="UL_Ally_Vigilant_Initialize" />
+            </Priority>
+
+            <!--MANUAL TEST SUCCESSFULL-->
+            <Priority name="Follow"                             condition="BehaviorFollow">
+                <Leaf name="UL_Ally_FollowPlayer_Cleanup"       condition="ExitBehavior and !Reloading and !InVehicle"/>
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="FollowReady"                    condition="BehaviorFollowReady">
+                            <Priority name="Vehicle"                        condition="InVehicle">
+                                <Leaf name="UL_Ally_Vehicle"                />
+                            </Priority>
+                    <Leaf name="UL_Ally_MachineDriven"              condition="StateMachine" />
+                    <Leaf name="UL_Ally_FollowPlayer_Vehicle"       condition="TargetInVehicle and !VehicleMoving" />
+                    <Leaf name="UL_Ally_FollowPlayer_TooFar"        condition="DistanceFromTarget_TooFar" />
+                    <Leaf name="UL_Ally_FollowPlayer_TooFar"        condition="NoLOSwithTarget and !Inside" />
+                    <Leaf name="UL_Ally_EngageEnemyRanged"          condition="!DistanceFromTarget_TooFar and DealWithEnemyRanged and HasGun and !ForceEngageMelee" />
+                    <Leaf name="UL_Ally_EngageEnemyMelee"           condition="!DistanceFromTarget_TooFar and DealWithEnemyMelee" />
+                    <Leaf name="UL_Ally_FollowPlayer_Idle"          />
+                </Priority>
+                <Leaf name="UL_Ally_FollowPlayer_Initialize" />
+            </Priority>
+
+            <!--MANUAL TEST SUCCESSFULL-->
+            <Priority name="Defend"                         condition="BehaviorDefend">
+                <Leaf name="UL_Ally_DefendLocation_Cleanup" condition="ExitBehavior and !Reloading" />
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="DefendReady"            condition="BehaviorDefendReady" >
+                    <Leaf name="UL_Ally_MachineDriven"          condition="StateMachine" />
+                    <Leaf name="UL_Ally_MoveTo_Location_TooFar" condition="DistanceFromTarget_TooFar" />
+                    <Leaf name="UL_Ally_EngageEnemyRanged"      condition="DealWithEnemyRanged and HasGun and !ForceEngageMelee" />
+                    <Leaf name="UL_Ally_EngageEnemyMelee"       condition="DealWithEnemyMelee" />
+                    <Leaf name="UL_Ally_DefendLocation_Idle"    />
+                </Priority>
+                <Leaf name="UL_Ally_DefendLocation_Initialize" />
+            </Priority>
+
+            <Priority name="AnimateAtPoint"                         condition="BehaviorPointAnimate">
+                <Leaf name="UL_Ally_AnimateAtPoint_Cleanup" condition="ExitBehavior and !Reloading" />
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="AnimateAtPointReady"            condition="BehaviorPointAnimateReady" >
+                    <Leaf name="UL_Ally_MachineDriven"          condition="StateMachine" />
+                    <Leaf name="UL_Ally_MoveTo_Location_TooFar" condition="DistanceFromTarget_TooFar" />
+                    <Leaf name="UL_Ally_EngageEnemyRanged"      condition="DealWithEnemyRanged and HasGun and !ForceEngageMelee" />
+                    <Leaf name="UL_Ally_EngageEnemyMelee"       condition="DealWithEnemyMelee" />
+                    <Leaf name="UL_Ally_AnimateAtPoint_Idle"    />
+                </Priority>
+                <Leaf name="UL_Ally_AnimateAtPoint_Initialize" />
+            </Priority>
+
+            <!--UPDATED, NEEDS TESTING-->
+            <Priority name="MoveTo"                          condition="BehaviorMoveTo">
+                <Leaf name="UL_Ally_MoveTo_Location_Cleanup" condition="ExitBehavior and !Reloading"/>
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="MoveToReady"                    condition="BehaviorMoveToReady">
+                    <Leaf name="UL_Ally_MachineDriven"          condition="StateMachine" />
+                    <Leaf name="UL_Ally_MoveTo_Location_TooFar" condition="DistanceFromTarget_TooFar" />
+                    <Leaf name="UL_Ally_EngageEnemyRanged"      condition="DealWithEnemyRanged and AttackMove and HasGun and !ForceEngageMelee" />
+                    <Leaf name="UL_Ally_EngageEnemyMelee"       condition="DealWithEnemyMelee and AttackMove" />
+                    <Leaf name="UL_Ally_MoveTo_Location_Idle"   />
+                </Priority>
+                <Leaf name="UL_Ally_MoveTo_Location_Initialize"   />
+            </Priority>
+
+            <!--UPDATED, NEEDS TESTING-->
+            <Priority name="Gather"                         condition="BehaviorGather">
+                <Leaf name="UL_Ally_Gather_Search_Cleanup"  condition="ExitBehavior and !Reloading" />
+                <Leaf name="AllyLeaderIdle" condition = "DialogIdle" />
+                <Priority name="GatherReady"                    condition="BehaviorGatherReady">
+                    <Leaf name="UL_Ally_MachineDriven"          condition="StateMachine" />
+                    <Leaf name="UL_Ally_EngageEnemyRanged"      condition="DealWithEnemyRanged and HasGun and !IgnoreZombies and !ForceEngageMelee" />
+                    <Leaf name="UL_Ally_EngageEnemyMelee"       condition="DealWithEnemyMelee and !IgnoreZombies" />
+                    <Leaf name="UL_Ally_Gather_Search" />
+                </Priority>
+                <Leaf name="UL_Ally_Gather_Search_Initialize" />
+            </Priority>
+
+            <Leaf name="AllyLeaderIdleST_Cleanup" condition="ExitBehavior and !Reloading"/>
+            <!-- TRY THESE OUT AT SOME POINT
+            <Leaf name="UL_Ally_MachineDriven"          condition="StateMachine" />
+            <Leaf name="UL_Ally_EngageEnemyRanged"      condition="DealWithEnemyRanged and HasGun and !ForceEngageMelee" />
+            <Leaf name="UL_Ally_EngageEnemyMelee"       condition="DealWithEnemyMelee" />-->
+            <Leaf name="AllyLeaderIdleST"/>
+        </Priority>
+    </SelectionTree>
+</SelectionTrees>

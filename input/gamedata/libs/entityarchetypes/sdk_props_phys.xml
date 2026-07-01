@@ -1,0 +1,101 @@
+<EntityPrototypeLibrary Name="SDK_Props_Phys" SandboxVersion="3.2.5.2094">
+ <EntityPrototype Name="Domestic/Bedroom.Bed_Wood01" Id="{51AB610E-2E6B-4430-846C-20DB3B00AB5C}" Library="SDK_Props_Phys" Class="BasicEntity" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/furniture/beds/bed_wooden.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bRigidBody="1"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Domestic/Bedroom.Pillow01" Id="{C0B9EE08-281D-4163-8514-9FAD6651748E}" Library="SDK_Props_Phys" Class="RigidBodyEx" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/furniture/beds/pillow.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+    <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Food.Rice_Bag01" Id="{0F17B2EE-50D1-49AC-B10D-9327385667AB}" Library="SDK_Props_Phys" Class="RigidBodyEx" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/props/food/rice_bag/rice_bag_closed_01.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="0" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+    <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Food.Banana_Bundle01" Id="{18C5A372-3565-4B2B-A0A7-5FBE12BEE989}" Library="SDK_Props_Phys" Class="RigidBodyEx" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/natural/trees/banana_tree/bananas_only_b.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+    <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Food.Can01" Id="{0442BB7C-249A-4E3E-B0AC-24137D8C07CD}" Library="SDK_Props_Phys" Class="RigidBodyEx" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/props/household/cans/beverage_can_c_closed.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+    <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Food.Can02" Id="{4F53702A-B56A-424B-B37E-E1E5BD2CFD3B}" Library="SDK_Props_Phys" Class="RigidBodyEx" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/props/household/cans/beverage_can_d_closed.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+    <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Food.Can03" Id="{52F6F0CB-D0AF-40F7-A2AF-7E7DE9A7A2FE}" Library="SDK_Props_Phys" Class="RigidBodyEx" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/props/household/cans/beverage_can_a_closed.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+    <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Marine.Lobster_Trap01" Id="{34877FA7-D0FC-413E-BD0A-E1F8990723E4}" Library="SDK_Props_Phys" Class="RigidBodyEx" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/props/household/fishingnet/lobstertrap_con.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+    <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Marine.Fishing_Cage01" Id="{32871223-F3A7-40C1-98AD-D7683AA50536}" Library="SDK_Props_Phys" Class="RigidBodyEx" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/props/fishing_nets/cage_a_con.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+    <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Domestic/Kitchen.Spoon_Wood01" Id="{93736EDA-8B6B-4EB9-B54B-6D0EBB5C9A07}" Library="SDK_Props_Phys" Class="BasicEntity" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/props/household/kitchen/spoon.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics Density="-1" Mass="10" bPhysicalize="1" bPushableByPlayers="1" bRigidBody="1"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Domestic/Kitchen.Pot01" Id="{132C2EEF-2D4C-4E83-AFED-A79791025056}" Library="SDK_Props_Phys" Class="RigidBodyEx" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/props/household/kitchen/pot.cgf" object_ModelFrozen="" bPickable="1" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="0" water_density="1000" water_resistance="2000"/>
+    <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Domestic/Misc.Rug01" Id="{08457333-94F9-4F2C-A400-C0993E447656}" Library="SDK_Props_Phys" Class="BasicEntity" Description="">
+  <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/library/furniture/misc/carpet_hut1.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="0" bRigidBody="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>

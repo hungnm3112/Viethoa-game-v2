@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="banner22cal" Value="1" />
+  <Icon Name="banner9mm" Value="2" />
+  <Icon Name="banner357cal" Value="3" />
+  <Icon Name="banner40cal" Value="4" />
+  <Icon Name="banner44cal" Value="5" />
+  <Icon Name="banner45cal" Value="6" />
+  <Icon Name="banner556mm" Value="7" />
+  <Icon Name="banner762mm" Value="8" />
+  <Icon Name="banner12g" Value="9" />
+  <Icon Name="banner50bmg" Value="10" />
+  <Icon Name="bannerGL" Value="11" />
+  <Icon Name="banner_blank" Value="12" />
+  <Icon Name="bannerIncendiary" Value="13" />
+</IconData>

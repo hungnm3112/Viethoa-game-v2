@@ -1,0 +1,2547 @@
+<FXLib>
+<Effect name="blank_event">
+</Effect>
+
+<Effect name="default">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:default</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="1" maxscaledist="50">Class3Effects.flying_brains</Name>
+	</Particle>
+</Effect>
+
+<Effect name="metal">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_misc</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.metal</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="metal_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_misc</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.metal</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.085" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.085" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.085" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="metal_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_misc</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="80">Class3Bullets.metal</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+<Effect name="metal_vehicle">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.metal</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="metal_vehicle_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.metal</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.085" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.085" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.085" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="metal_vehicle_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="80">Class3Bullets.metal</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="metal_sheet">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.metal_thin</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="metal_sheet_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.metal_thin</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.085" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.085" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.085" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="metal_sheet_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="80">Class3Bullets.metal_thin</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+<Effect name="metal_grate">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_misc</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="80">Class3Bullets.metal_thin</Name>
+	</Particle>
+</Effect>
+
+<Effect name="metal_chainlink">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:metal_fence</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="50">Class3Bullets.metal_thin</Name>
+	</Particle>
+</Effect>
+
+<Effect name="metal_bell">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:bell</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="80">Class3Bullets.metal</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_1</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_2</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_metal_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="glass">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:glass</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.8" maxscaledist="80">Class3Bullets.glass</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.075" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/glass_bullethole</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="glass_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:glass</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="80">Class3Bullets.glass</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/glass_bullethole</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="glass_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:glass</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.5" maxscaledist="80">Class3Bullets.glass</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/glass_bullethole</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="glass_thick">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:glass</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.glass</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/glass_bullethole</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="glass_thick_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:glass</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.glass</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/glass_bullethole</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+<Effect name="glass_thick_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:glass</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.5" maxscaledist="80">Class3Bullets.glass</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/glass_bullethole</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="glass_breakable">
+	<!--<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_generic:glass_shatter</Name>
+	</Sound>-->
+	<Particle>
+		<Name minscale="0.65" maxscale="1" maxscaledist="80">Class3Bullets.glass</Name>
+	</Particle>
+</Effect>
+
+
+<Effect name="wood">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.8" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.065" maxscale="0.095" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.065" maxscale="0.095" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="wood_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="wood_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.4" maxscale="0.55" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="wood_solid">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="wood_solid_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="wood_solid_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.55" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+<Effect name="wood_tree">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+</Effect>
+
+<Effect name="wood_tree_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+</Effect>
+
+<Effect name="wood_tree_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.55" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+</Effect>
+
+<Effect name="wood_hollow">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="wood_hollow_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="wood_hollow_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.55" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.02" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="wood_breakable">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_splinter</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1.15" maxscaledist="40">Class3Bullets.wood</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.075" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_wood1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_wood2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="drywall">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.4" maxscale="0.6" maxscaledist="40">Class3Bullets.drywall</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.055" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="drywall_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="40">Class3Bullets.drywall</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="drywall_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="40">Class3Bullets.drywall</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+<Effect name="cardboard">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:default</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="80">Class3Bullets.cardboard</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_1</Material>
+		</Decal>
+		<Decal minscale="0.04" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="water">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.65" maxscaledist="50">Class3Bullets.water</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.8" maxscaledist="50">Class3Bullets.water</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.water</Name>
+	</Particle>
+</Effect>
+
+
+<Effect name="water_muddy">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.65" maxscaledist="50">Class3Bullets.water_muddy</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_muddy_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.8" maxscaledist="50">Class3Bullets.water_muddy</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_muddy_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.water_muddy</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_deep">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="50">Class3Bullets.water</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_shallow">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.65" maxscaledist="50">Class3Bullets.water</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_shallow_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="50">Class3Bullets.water</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_shallow_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.5" maxscaledist="50">Class3Bullets.water</Name>
+	</Particle>
+</Effect>
+
+<Effect name="water_puddle">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.65" maxscaledist="50">Class3Bullets.water</Name>
+	</Particle>
+</Effect>
+
+<Effect name="mud">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.55" maxscale="0.65" maxscaledist="50">Class3Bullets.mud</Name>
+	</Particle>
+</Effect>
+
+<Effect name="mud_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="50">Class3Bullets.mud</Name>
+	</Particle>
+</Effect>
+
+<Effect name="mud_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:water</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.55" maxscaledist="50">Class3Bullets.mud</Name>
+	</Particle>
+</Effect>
+
+<Effect name="tile">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.55" maxscale="0.75" maxscaledist="40">Class3Bullets.tile</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.055" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="tile_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="40">Class3Bullets.tile</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.125" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.125" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="tile_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="40">Class3Bullets.tile</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.035" maxscale="0.055" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="linoleum">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.65" maxscaledist="50">Class3Bullets.linoleum</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.065" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_1</Material>
+		</Decal>
+		<Decal minscale="0.065" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="linoleum_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="50">Class3Bullets.linoleum</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.085" maxscale="0.135" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_1</Material>
+		</Decal>
+		<Decal minscale="0.085" maxscale="0.135" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="linoleum_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.linoleum</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="carpet_solid">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.65" maxscaledist="50">Class3Bullets.carpet</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="carpet_solid_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="50">Class3Bullets.carpet</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.125" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="carpet_solid_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_dense</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.carpet</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="carpet_hollow">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.55" maxscale="0.75" maxscaledist="50">Class3Bullets.carpet</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.04" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="carpet_hollow_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="50">Class3Bullets.carpet</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.085" maxscale="0.115" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.01" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="carpet_hollow_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.carpet</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.025" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.02" maxscale="0.04" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="ceiling">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.4" maxscale="0.6" maxscaledist="40">Class3Bullets.drywall</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.055" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="ceiling_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.4" maxscale="0.6" maxscaledist="40">Class3Bullets.drywall</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.065" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="ceiling_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:wood_hollow</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.55" maxscaledist="40">Class3Bullets.drywall</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.055" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.1" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="ceiling_tile">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="80">Class3Bullets.drywall</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.075" maxscale="0.135" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.135" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.135" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="ceiling_tile_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.25" maxscaledist="80">Class3Bullets.drywall</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.115" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.115" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.115" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="ceiling_tile_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="80">Class3Bullets.drywall</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.045" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml1</Material>
+		</Decal>
+		<Decal minscale="0.04" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml2</Material>
+		</Decal>
+		<Decal minscale="0.04" maxscale="0.08" lifetime="8.0">
+			<Material>materials/decals/bullet_drywall_sml3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="concrete">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.65" maxscaledist="50">Class3Bullets.concrete</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="concrete_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="50">Class3Bullets.concrete</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_1</Material>
+		</Decal>
+		<Decal minscale="0.125" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+		
+	</RandEffect>
+</Effect>
+
+<Effect name="concrete_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.concrete</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.035" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="asphalt">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.65" maxscaledist="50">Class3Bullets.asphalt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.115" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.115" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.115" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="asphalt_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="50">Class3Bullets.asphalt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_1</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+		<Decal minscale="0.125" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.125" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="asphalt_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.asphalt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.035" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="brick">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="50">Class3Bullets.asphalt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.075" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="brick_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="50">Class3Bullets.asphalt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.085" maxscale="0.135" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="brick_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.4" maxscale="0.5" maxscaledist="50">Class3Bullets.asphalt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.035" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="marble">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.65" maxscaledist="50">Class3Bullets.marble</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.115" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.115" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.115" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+<Effect name="marble_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="50">Class3Bullets.marble</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_1</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+		<Decal minscale="0.125" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.125" maxscale="0.175" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="marble_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.marble</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.035" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_2</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.05" lifetime="8.0">
+			<Material>materials/decals/bullet_concrete_3</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="gravel_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="80">Class3Bullets.gravel</Name>
+	</Particle>
+		<RandEffect>
+		<Decal minscale="0.2" maxscale="0.35" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.2" maxscale="0.35" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="gravel_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="80">Class3Bullets.gravel</Name>
+	</Particle>
+</Effect>
+
+<Effect name="gravel">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="80">Class3Bullets.gravel</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.25" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.25" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect></Effect>
+
+<Effect name="dirt">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.55" maxscale="0.75" maxscaledist="50">Class3Bullets.dirt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.25" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.25" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="dirt_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="50">Class3Bullets.dirt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.2" maxscale="0.35" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.2" maxscale="0.35" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="dirt_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.dirt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.065" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.065" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="pebble">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="1" maxscaledist="50">Class3Bullets.pebble</Name>
+	</Particle>
+</Effect>
+
+<Effect name="rock">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.75" maxscaledist="50">Class3Bullets.rock</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.065" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.065" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="rock_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="50">Class3Bullets.rock</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.165" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.165" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="rock_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:concrete</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.rock</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.05" maxscale="0.085" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+	
+</Effect>
+
+<Effect name="cliff">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="50">Class3Bullets.rock</Name>
+	</Particle>
+		<RandEffect>
+		<Decal minscale="0.065" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.065" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="cliff_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="50">Class3Bullets.rock</Name>
+	</Particle>
+		<RandEffect>
+		<Decal minscale="0.1" maxscale="0.165" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.165" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="cliff_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.rock</Name>
+	</Particle>
+		<RandEffect>
+		<Decal minscale="0.035" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="soil">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="50">Class3Bullets.dirt</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.25" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.25" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="soil_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="50">Class3Bullets.dirt</Name>
+	</Particle>
+		<RandEffect>
+		<Decal minscale="0.2" maxscale="0.35" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.2" maxscale="0.35" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="soil_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.dirt</Name>
+	</Particle>
+		<RandEffect>
+		<Decal minscale="0.065" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.065" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="grass">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="50">Class3Bullets.grass</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="0.9" maxscaledist="50">Class3Bullets.grass</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:dirt</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.55" maxscaledist="50">Class3Bullets.grass</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass_tall">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.85" maxscaledist="50">Class3Bullets.grass</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass_tall_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.25" maxscaledist="50">Class3Bullets.grass</Name>
+	</Particle>
+</Effect>
+
+<Effect name="grass_tall_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.65" maxscaledist="50">Class3Bullets.grass</Name>
+	</Particle>
+</Effect>
+
+<Effect name="vegetation">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.6" maxscale="0.85" maxscaledist="40">Class3Bullets.vegetation</Name>
+	</Particle>
+</Effect>
+
+<Effect name="vegetation_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="40">Class3Bullets.vegetation</Name>
+	</Particle>
+</Effect>
+
+<Effect name="vegetation_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.55" maxscaledist="40">Class3Bullets.vegetation</Name>
+	</Particle>
+</Effect>
+
+<Effect name="leaves">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.85" maxscaledist="50">Class3Bullets.leaves</Name>
+	</Particle>
+</Effect>
+
+<Effect name="leaves_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="50">Class3Bullets.leaves</Name>
+	</Particle>
+</Effect>
+
+<Effect name="leaves_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.55" maxscaledist="50">Class3Bullets.leaves</Name>
+	</Particle>
+</Effect>
+
+<Effect name="leaves_terrain">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="80">Class3Bullets.leaves_terrain</Name>
+	</Particle>
+</Effect>
+
+<Effect name="leaves_terrain_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="80">Class3Bullets.leaves_terrain</Name>
+	</Particle>
+</Effect>
+
+<Effect name="leaves_terrain_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:foliage</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.55" maxscaledist="80">Class3Bullets.leaves_terrain</Name>
+	</Particle>
+</Effect>
+
+<Effect name="flesh_chunks">
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="flesh">
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="head">
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="arm_left">
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="arm_right">
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="foot_left">
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="foot_right">
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="hand_left">
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="hand_right">
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="leg_left">
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="leg_right">
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="torso">
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="80">Class3Bullets.PC_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+
+<Effect name="zed_flesh_chunks">
+	<Particle>
+		<Name minscale="0.5" maxscale="0.85" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+
+<Effect name="zed_flesh_chunks_small">
+	<Particle>
+		<Name minscale="0.3" maxscale="0.4" maxscaledist="30">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+
+<Effect name="zed_flesh">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_flesh_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_flesh_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.65" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_head_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="80">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_head_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_head">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_arm_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_arm_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_foot_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_foot_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_hand_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_hand_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_leg_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_leg_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_torso">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1" maxscaledist="50">Class3Bullets.zed_hits.flesh_medium</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_torso_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="50">Class3Bullets.zed_hits.flesh_medium</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_torso_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.65" maxscaledist="50">Class3Bullets.zed_hits.flesh_medium</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_feral_head">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_feral_head_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="50">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_feral_head_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.65" maxscaledist="50">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_bloater_head">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head</Name>
+	</Sound>
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/zdx:zdx_bloater:pain</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_bloater_head_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head</Name>
+	</Sound>
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/zdx:zdx_bloater:pain</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="50">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_bloater_head_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head</Name>
+	</Sound>
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/zdx:zdx_bloater:pain</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.65" maxscaledist="50">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_bloater_torso">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/zdx:zdx_bloater:pain_reax</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1" maxscaledist="50">Class3Bullets.zed_hits.flesh_medium</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_bloater_torso_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/zdx:zdx_bloater:pain_reax</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="50">Class3Bullets.zed_hits.flesh_medium</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_bloater_torso_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/zdx:zdx_bloater:pain_reax</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.75" maxscaledist="50">Class3Bullets.zed_hits.flesh_medium</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_head">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_head_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="50">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_head_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.65" maxscaledist="50">Class3Bullets.zed_hits.head</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_arm_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_arm_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_foot_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_foot_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_hand_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_hand_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_leg_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_leg_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_torso">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="80">Class3Bullets.zed_hits.flesh_medium</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_torso_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="80">Class3Bullets.zed_hits.flesh_medium</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_juggernaut_torso_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body_jugg</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.65" maxscaledist="80">Class3Bullets.zed_hits.flesh_medium</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_head">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head_helmet</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="80">Class3Bullets.metal_thin</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_head_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head_helmet</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="80">Class3Bullets.metal_thin</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_head_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:head_helmet</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.metal_thin</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_arm_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_arm_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_foot_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_foot_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_hand_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_hand_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_leg_left">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_leg_right">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:limb</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="1.15" maxscaledist="50">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_torso">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1.15" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_torso_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="1" maxscale="1.35" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="zed_armored_torso_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/combat:imp_bullet:body</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.75" maxscaledist="80">Class3Bullets.zed_hits.flesh_small</Name>
+	</Particle>
+</Effect>
+
+<Effect name="fabric">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:upholstery</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.45" maxscale="0.6" maxscaledist="80">Class3Bullets.fabric</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="fabric_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:upholstery</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.65" maxscale="0.85" maxscaledist="80">Class3Bullets.fabric</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.115" maxscale="0.135" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="fabric_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:upholstery</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="80">Class3Bullets.fabric</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.035" maxscale="0.055" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.045" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="upholstery">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:upholstery</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.55" maxscale="0.75" maxscaledist="40">Class3Bullets.upholstery</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_1</Material>
+		</Decal>
+		<Decal minscale="0.04" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="upholstery_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:upholstery</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="40">Class3Bullets.upholstery</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_1</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="upholstery_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:upholstery</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.5" maxscaledist="40">Class3Bullets.upholstery</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.035" maxscale="0.055" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_1</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.055" lifetime="8.0">
+			<Material>materials/decals/bullet_cardboard_2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="plastic">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.55" maxscale="0.75" maxscaledist="80">Class3Bullets.plastic</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.075" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="plastic_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="80">Class3Bullets.plastic</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.2" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.1" maxscale="0.2" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="plastic_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="80">Class3Bullets.plastic</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.035" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_a</Material>
+		</Decal>
+		<Decal minscale="0.035" maxscale="0.065" lifetime="8.0">
+			<Material>materials/decals/ground_crack_b</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="plastic_breakable">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="1" maxscaledist="50">Class3Bullets.plastic</Name>
+	</Particle>
+</Effect>
+
+<Effect name="rubber">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.55" maxscale="0.75" maxscaledist="50">Class3Bullets.rubber</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.075" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="rubber_lrg">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.85" maxscale="1" maxscaledist="50">Class3Bullets.rubber</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.1" maxscale="0.125" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.125" maxscale="0.15" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+<Effect name="rubber_sml">
+	<Sound bIgnoreDistMult="1">
+		<Name>sounds/impacts:imp_bullet:plastic</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.35" maxscale="0.45" maxscaledist="50">Class3Bullets.rubber</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.035" maxscale="0.045" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml1</Material>
+		</Decal>
+		<Decal minscale="0.055" maxscale="0.075" lifetime="8.0">
+			<Material>materials/decals/bullet_dirt_sml2</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+</FXLib>

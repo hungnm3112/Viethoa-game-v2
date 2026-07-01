@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreloadData>
+
+  <Platform PC="1" Xbox360="1" XboxOne="1" PS3="1">
+    <Global>	
+	  <File name="sounds/combat/gor_common.fsb" />	  
+	  <File name="sounds/combat/imp_bullet_zombie.fsb" />
+	  <File name="sounds/combat/mle_plr.fsb" />
+	  <File name="sounds/combat/mle_wpn_common.fsb" />
+	  <File name="sounds/combat/mle_zed.fsb" />	    
+	  <File name="sounds/dialog/dialog_background.fsb" />	  
+	  <File name="sounds/explosions/exp_fire.fsb" />
+	  <File name="sounds/explosions/exp_cmn.fsb" />	
+      <File name="sounds/explosions/toy_flare.fsb" />	  
+      <File name="sounds/foley/br.fsb" />	    
+      <File name="sounds/foley/fol.fsb" />
+	  <File name="sounds/foley/fs.fsb" />
+      <File name="sounds/impacts/imp_fol.fsb" />	  
+      <File name="sounds/impacts/imp_physics.fsb" />
+	  <File name="sounds/impacts/imp_bullet.fsb" /> 
+	  <File name="sounds/impacts/imp_breakables.fsb" />   
+	  <File name="sounds/vehicles/veh_global.fsb" />	  
+	  <File name="sounds/vehicles/veh_doors.fsb" />		 
+	  <File name="sounds/weapons/wpn_common.fsb" />	
+	  <File name="sounds/weapons/phy_bulletcasing.fsb" />
+	  <File name="sounds/weapons/phy_shotgunshell.fsb" />		  
+      <File name="sounds/whooshes/wsh_common.fsb" />	  
+	  <File name="sounds/zdx/zdx_screamer.fsb" />	  
+	  <File name="sounds/ui/ui.fsb" />
+	  <File name="sounds/ui/ui_items.fsb" />	
+	  <File name="sounds/zdx/zdx_generic.fsb" />	  
+	  <File name="sounds/zdx/zed_horde.fsb" />
+	  <File name="sounds/zdx/zed_distant.fsb" />	
+	  <File name="sounds/environment/amb_tone_cmn.fsb" />	
+	  <File name="sounds/environment/env_tone_world.fsb" />	  
+	  <File name="sounds/environment/env_wtr_stream.fsb" />		
+	  <File name="sounds/foley/fol_interactions.fsb" />	  
+      <File name="sounds/foley/fol_search.fsb" />	    	  
+	  <File name="sounds/ui/ui_fx.fsb" />	
+	  <File name="sounds/foley/fol_interactions_base.fsb" />   	
+	  <File name="sounds/foley/fs_feral.fsb" />
+	  <File name="sounds/zdx/zdx_feral.fsb" />
+	  <File name="sounds/impacts/imp_juggernaut.fsb" />
+	  <File name="sounds/whooshes/wsh_juggernaut.fsb" />
+	  <File name="sounds/zdx/zdx_juggernaut.fsb" />
+	  <File name="sounds/foley/br_juggernaut.fsb" />		
+	  <File name="sounds/zdx/zdx_bloater.fsb" />	
+	  <File name="sounds/explosions/exp_zed_bloater.fsb" />	  	  
+	  <File name="sounds/explosions/exp_grenade.fsb" />	  
+	  <File name="sounds/explosions/exp_mine.fsb" />
+	  <File name="sounds/explosions/exp_molotov.fsb" />	 
+	  <File name="sounds/explosions/exp_thermite.fsb" />	  
+	  <File name="sounds/environment/env_frogs.fsb" />		  
+	  <File name="sounds/weapons/wpn_rfl_50.fsb" />	
+	  <File name="sounds/weapons/wpn_rfl_50_sup.fsb" />			
+	  <File name="sounds/weapons/wpn_gl.fsb" />		 
+	  <File name="sounds/environment/amb_factory.fsb" />	 
+	  <File name="sounds/environment/amb_pigeon.fsb" />			  
+	  <File name="sounds/environment/env_wind_hollow_eerie.fsb" />		 
+	  <File name="sounds/environment/amb_barn.fsb" />		
+	  <File name="sounds/environment/cleo_worldobject.fsb" />		
+      <File name="sounds/combat/mle_wpn_hatchet.fsb" />	
+    </Global>
+	<Level name="Class3">
+	  <File name="sounds/environment/env_crows.fsb" />	 	  
+	  <File name="sounds/environment/env_flies.fsb" />		
+	  <File name="sounds/environment/env_wtr_creek_sml.fsb" />	
+	  <File name="sounds/environment/env_wtr_river.fsb" />	
+	  <File name="sounds/environment/env_wtr_river_mono.fsb" />		
+	  <File name="sounds/environment/env_wtr_waterfall.fsb" />		
+	  <File name="sounds/environment/env_wtr_lapping.fsb" />
+	  <File name="sounds/environment/env_birds.fsb" />	  
+	  <File name="sounds/environment/env_wind_dusty.fsb" />
+	  <File name="sounds/environment/env_wind_gust.fsb" />	  
+      <File name="sounds/environment/env_wind_gust_heavy.fsb" />	  
+      <File name="sounds/environment/env_wind_debris_leaves.fsb" />	 	  
+	  <File name="sounds/environment/amb_tone_barn.fsb" />
+	  <File name="sounds/explosions/exp_mortar.fsb" />	  
+	  <File name="sounds/explosions/exp_drone.fsb" />	
+	  <File name="sounds/explosions/exp_drone_recon.fsb" />	 
+	  <File name="sounds/combat/wpn_rfl_308_npc.fsb" />	   	  
+    </Level>
+	<Level name="C3_beltway">
+	  <File name="sounds/DLC2/environment_DLC2/env_crows.fsb" />	 	  
+	  <File name="sounds/DLC2/environment_DLC2/env_flies.fsb" />	
+	  <File name="sounds/DLC2/environment_DLC2/env_wind_dusty.fsb" />
+	  <File name="sounds/DLC2/environment_DLC2/env_wind_gust.fsb" />	  
+      <File name="sounds/DLC2/environment_DLC2/env_wind_gust_heavy.fsb" />	  
+      <File name="sounds/DLC2/environment_DLC2/env_wind_debris_leaves.fsb" />	
+	  <File name="sounds/DLC2/environment_DLC2/env2_tone_gust_wind.fsb" />		   	  
+	  <File name="sounds/DLC2/environment_DLC2/env2_tone_world.fsb" />		  
+	  <File name="sounds/DLC2/explosions_DLC2/exp_dlc2.fsb" />	
+	  <File name="sounds/DLC2/explosions_DLC2/exp_drone_recon.fsb" />	  	  
+	  <File name="sounds/DLC2/environment_DLC2/env_groan_cemetery.fsb" />  
+	  <File name="sounds/DLC2/environment_DLC2/env_swamp.fsb" />  	  
+	  <File name="sounds/DLC2/environment_DLC2/env_wind_hollow_eerie.fsb" />	
+	  <File name="sounds/DLC2/environment_DLC2/env_wind_hollow_wisp.fsb" />	  
+	  <File name="sounds/DLC2/environment_DLC2/env_wind_hollow_draft.fsb" />		
+	  <File name="sounds/DLC2/environment_DLC2/veh_helivac_dist.fsb" />	
+	  <File name="sounds/DLC2/environment_DLC2/veh_helivac.fsb" />			  
+	  <File name="sounds/combat/mle_wpn_fryingpan.fsb" /> 			  
+	  <File name="sounds/weapons/wpn_pstl_45.fsb" /> 		 
+	  <File name="sounds/weapons/wpn_pstl_45_npc.fsb" /> 	
+	  <File name="sounds/DLC2/music_DLC2/music_DLC2_stingers.fsb" />  	  
+    </Level>	
+  </Platform>
+  
+
+  
+  <GameHints>
+  	<!--combat vo-->	
+	<dx_crch>
+		<File name="sounds/dx/dx_crch.fsb" />	
+	</dx_crch>	
+	<dx_crch_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_crch.fsb" />	
+	</dx_crch_dlc2>		
+	<dx_fitz>
+		<File name="sounds/dx/dx_fitz.fsb" />	
+	</dx_fitz>	
+	<dx_fitz_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_fitz.fsb" />	
+	</dx_fitz_dlc2>		
+	<dx_hbsn>
+		<File name="sounds/dx/dx_hbsn.fsb" />	
+	</dx_hbsn>	
+	<dx_hbsn_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_hbsn.fsb" />	
+	</dx_hbsn_dlc2>	
+	<dx_hmnd>
+		<File name="sounds/dx/dx_hmnd.fsb" />	
+	</dx_hmnd>
+	<dx_hmnd_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_hmnd.fsb" />	
+	</dx_hmnd_dlc2>	
+	<dx_ketr>
+		<File name="sounds/dx/dx_ketr.fsb" />	
+	</dx_ketr>
+	<dx_ketr_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_ketr.fsb" />	
+	</dx_ketr_dlc2>	
+	<dx_kim>
+		<File name="sounds/dx/dx_kim.fsb" />	
+	</dx_kim>	
+	<dx_kim_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_kim.fsb" />	
+	</dx_kim_dlc2>	
+	<dx_neto>
+		<File name="sounds/dx/dx_neto.fsb" />	
+	</dx_neto>	
+	<dx_neto_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_neto.fsb" />	
+	</dx_neto_dlc2>		
+	<dx_omar>
+		<File name="sounds/dx/dx_omar.fsb" />	
+	</dx_omar>	
+	<dx_omar_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_omar.fsb" />	
+	</dx_omar_dlc2>	
+	<dx_potr>
+		<File name="sounds/dx/dx_potr.fsb" />	
+	</dx_potr>
+	<dx_potr_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_potr.fsb" />	
+	</dx_potr_dlc2>		
+	<dx_rdmn>
+		<File name="sounds/dx/dx_rdmn.fsb" />	
+	</dx_rdmn>	
+	<dx_rdmn_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_rdmn.fsb" />	
+	</dx_rdmn_dlc2>	
+	<dx_setz>
+		<File name="sounds/dx/dx_setz.fsb" />	
+	</dx_setz>	
+	<dx_setz_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_setz.fsb" />	
+	</dx_setz_dlc2>		
+	<dx_thnt>
+		<File name="sounds/dx/dx_thnt.fsb" />	
+	</dx_thnt>	
+	<dx_thnt_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_thnt.fsb" />	
+	</dx_thnt_dlc2>	
+	<dx_wolf>
+		<File name="sounds/dx/dx_wolf.fsb" />	
+	</dx_wolf>
+	<dx_wolf_dlc2>
+		<File name="sounds/dlc2/dx_dlc2/dx_wolf.fsb" />	
+	</dx_wolf_dlc2>		
+		<!--melee weapons-->
+ 	<mle_wpn_axe>
+		<!-- <File name="sounds/combat/mle_wpn_hatchet.fsb" />	-->
+		<File name="sounds/whooshes/wsh_bat_wood.fsb" />	
+		<File name="sounds/whooshes/wsh_knife.fsb" />		
+	</mle_wpn_axe> 		
+	<mle_wpn_bat_metal>
+		<File name="sounds/combat/mle_wpn_bat_metal.fsb" />
+		<File name="sounds/whooshes/wsh_pipe_metal.fsb" />	  	
+	</mle_wpn_bat_metal> 
+ 	<mle_wpn_bat_wood>
+		<File name="sounds/combat/mle_wpn_bat_wood.fsb" />
+		<File name="sounds/whooshes/wsh_bat_wood.fsb" />	  	
+	</mle_wpn_bat_wood> 
+ 	<mle_wpn_crowbar>
+		<File name="sounds/combat/mle_wpn_crowbar.fsb" />
+		<File name="sounds/whooshes/wsh_crowbar.fsb" />	  	
+	</mle_wpn_crowbar> 	
+ 	<mle_wpn_dense_wood>
+		<File name="sounds/combat/mle_wpn_dense_wood.fsb" />
+		<File name="sounds/whooshes/wsh_bat_wood.fsb" />	  	
+	</mle_wpn_dense_wood> 
+ 	<mle_wpn_edger>
+		<!-- <File name="sounds/combat/mle_wpn_hatchet.fsb" />	-->	
+		<File name="sounds/whooshes/wsh_bat_wood.fsb" />	  	
+	</mle_wpn_edger> 		
+ 	<mle_wpn_fryingpan>
+		<File name="sounds/combat/mle_wpn_fryingpan.fsb" />
+		<File name="sounds/whooshes/wsh_pipe_metal.fsb" />	  	
+	</mle_wpn_fryingpan> 		
+ 	<mle_wpn_golfclub>
+		<File name="sounds/combat/mle_wpn_golfclub.fsb" />
+		<File name="sounds/whooshes/wsh_sword.fsb" />	  	
+	</mle_wpn_golfclub> 
+ 	<mle_wpn_hatchet>
+		<!-- <File name="sounds/combat/mle_wpn_hatchet.fsb" />	-->	
+		<File name="sounds/whooshes/wsh_knife.fsb" />	  	
+	</mle_wpn_hatchet> 	
+ 	<mle_wpn_knife>
+		<!-- <File name="sounds/combat/mle_wpn_hatchet.fsb" />	-->	
+		<File name="sounds/whooshes/wsh_knife.fsb" />	  	
+	</mle_wpn_knife> 		
+ 	<mle_wpn_mace>
+		<File name="sounds/combat/mle_wpn_sledgehammer.fsb" />
+		<File name="sounds/whooshes/wsh_pipe_metal.fsb" />	  	
+	</mle_wpn_mace>	
+ 	<mle_wpn_pipe_metal>
+		<File name="sounds/combat/mle_wpn_pipe_metal.fsb" />
+		<File name="sounds/whooshes/wsh_pipe_metal.fsb" />	  	
+	</mle_wpn_pipe_metal>
+ 	<mle_wpn_shovel>
+		<File name="sounds/combat/mle_wpn_shovel.fsb" />
+		<File name="sounds/whooshes/wsh_bat_wood.fsb" />	  	
+	</mle_wpn_shovel> 	
+ 	<mle_wpn_sledgehammer>
+		<File name="sounds/combat/mle_wpn_sledgehammer.fsb" />
+		<File name="sounds/whooshes/wsh_bat_wood.fsb" />	  	
+	</mle_wpn_sledgehammer>
+ 	<mle_wpn_sword>
+		<File name="sounds/combat/mle_wpn_sword.fsb" />	
+		<File name="sounds/whooshes/wsh_sword.fsb" />	  	
+	</mle_wpn_sword> 		
+ 	<mle_wpn_wrench>
+		<File name="sounds/combat/mle_wpn_wrench.fsb" />
+		<File name="sounds/whooshes/wsh_crowbar.fsb" />	
+ 	</mle_wpn_wrench>
+	<!--ranged weapons-->	
+	<wpn_rev_38>
+		<File name="sounds/weapons/wpn_rev_38.fsb" />	  
+		<File name="sounds/weapons/wpn_rev.fsb" />	 	
+		<File name="sounds/weapons/wpn_rev_rld.fsb" />	 		
+	</wpn_rev_38>		
+	<wpn_rev_357>
+		<File name="sounds/weapons/wpn_rev_357.fsb" />	  
+		<File name="sounds/weapons/wpn_rev.fsb" />	 
+		<File name="sounds/weapons/wpn_rev_rld.fsb" />			
+	</wpn_rev_357>	
+	<wpn_rev_357_v2>
+		<File name="sounds/weapons/wpn_rev_357_v2.fsb" />	  
+		<File name="sounds/weapons/wpn_rev.fsb" />	
+		<File name="sounds/weapons/wpn_rev_rld.fsb" />	 		
+	</wpn_rev_357_v2>	
+	<wpn_rev_44>
+		<File name="sounds/weapons/wpn_rev_44.fsb" />	  
+		<File name="sounds/weapons/wpn_rev.fsb" />	
+		<File name="sounds/weapons/wpn_rev_rld.fsb" />	 		
+	</wpn_rev_44>		
+	<wpn_rev_diplomat>
+		<File name="sounds/weapons/wpn_shtgn_12_moss.fsb" />	  
+		<File name="sounds/weapons/wpn_rev.fsb" />	 
+		<File name="sounds/weapons/wpn_rev_rld.fsb" />			
+	</wpn_rev_diplomat>			
+	<wpn_pstl_22>
+		<File name="sounds/weapons/wpn_pstl_22.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_22_sup.fsb" />	
+		<File name="sounds/weapons/wpn_pstl.fsb" />		
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />			
+	</wpn_pstl_22>	
+	<wpn_pstl_22A>
+		<File name="sounds/weapons/wpn_pstl_22.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_22_sup.fsb" />	
+		<File name="sounds/weapons/wpn_pstl.fsb" />		
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_556.fsb" />			
+	</wpn_pstl_22A>		
+	<wpn_pstl_9mm>
+		<File name="sounds/weapons/wpn_pstl_9mm.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_9mm_sup.fsb" />	
+		<File name="sounds/weapons/wpn_pstl.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />				
+	</wpn_pstl_9mm>
+	<wpn_pstl_9mmA>
+		<File name="sounds/weapons/wpn_pstl_9mm.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45.fsb" />			
+		<File name="sounds/weapons/wpn_pstl_9mm_sup.fsb" />	
+		<File name="sounds/weapons/wpn_pstl.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />				
+	</wpn_pstl_9mmA>	
+	<wpn_pstl_10mm>
+		<File name="sounds/weapons/wpn_pstl_10mm.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45_sup.fsb" />	
+		<File name="sounds/weapons/wpn_pstl.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />				
+	</wpn_pstl_10mm>	
+	<wpn_pstl_40>
+		<File name="sounds/weapons/wpn_pstl_40.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45_sup.fsb" />			
+		<File name="sounds/weapons/wpn_pstl.fsb" />		
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />				
+	</wpn_pstl_40>		
+	<wpn_pstl_45>
+		<File name="sounds/weapons/wpn_pstl_45.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45_sup.fsb" />	
+		<File name="sounds/weapons/wpn_pstl.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />				
+	</wpn_pstl_45>	
+	<wpn_pstl_50>
+		<File name="sounds/weapons/wpn_pstl_50.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45_sup.fsb" />			
+		<File name="sounds/weapons/wpn_pstl.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />				
+	</wpn_pstl_50>	
+	<wpn_smg_22>
+		<File name="sounds/weapons/wpn_pstl_22.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_22_sup.fsb" />	
+		<File name="sounds/weapons/wpn_smg.fsb" />	
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />			
+	</wpn_smg_22>	
+	<wpn_smg_308>
+		<File name="sounds/weapons/wpn_ar_308.fsb" />	
+		<File name="sounds/weapons/wpn_ar_308_sup.fsb" />
+		<File name="sounds/weapons/wpn_smg.fsb" />	
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />		
+	</wpn_smg_308>		
+	<wpn_smg_556_scar_v2>
+		<File name="sounds/weapons/wpn_ar_556_scar_v2.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_m4_sup.fsb" />
+		<File name="sounds/weapons/wpn_smg.fsb" />	
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />		
+	</wpn_smg_556_scar_v2>	
+	<wpn_smg_762>
+		<File name="sounds/weapons/wpn_ar_762.fsb" />	
+		<File name="sounds/weapons/wpn_ar_762_sup.fsb" />
+		<File name="sounds/weapons/wpn_smg.fsb" />	
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />			
+	</wpn_smg_762>		
+	<wpn_smg_9mm>
+		<File name="sounds/weapons/wpn_smg_9mm.fsb" />	
+		<File name="sounds/weapons/wpn_smg_9mm_sup.fsb" />
+		<File name="sounds/weapons/wpn_smg.fsb" />	
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />			
+	</wpn_smg_9mm>	
+	<wpn_smg_9mmA>
+		<File name="sounds/weapons/wpn_smg_9mm.fsb" />	
+		<File name="sounds/weapons/wpn_smg_9mm_sup.fsb" />
+		<File name="sounds/weapons/wpn_smg.fsb" />	
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />		
+		<File name="sounds/weapons/wpn_smg_45.fsb" />			
+	</wpn_smg_9mmA>		
+	<wpn_smg_45>
+		<File name="sounds/weapons/wpn_smg_45.fsb" />	
+		<File name="sounds/weapons/wpn_smg_45_sup.fsb" />
+		<File name="sounds/weapons/wpn_smg.fsb" />		
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />				
+	</wpn_smg_45>	
+	<wpn_smg_45A>
+		<File name="sounds/weapons/wpn_smg_45.fsb" />	
+		<File name="sounds/weapons/wpn_smg_45_sup.fsb" />
+		<File name="sounds/weapons/wpn_smg.fsb" />		
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />	
+		<File name="sounds/weapons/wpn_smg_9mm.fsb" />			
+	</wpn_smg_45A>		
+	<wpn_smg_45_v2>
+		<File name="sounds/weapons/wpn_smg_45_v2.fsb" />	
+		<File name="sounds/weapons/wpn_smg_45_v2_sup.fsb" />
+		<File name="sounds/weapons/wpn_smg.fsb" />			
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />				
+	</wpn_smg_45_v2>	
+	<wpn_smg_556>
+		<File name="sounds/weapons/wpn_ar_556_m4_v2.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_m4_sup.fsb" />	
+		<File name="sounds/weapons/wpn_smg.fsb" />		
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />				
+	</wpn_smg_556>		
+	<wpn_rfl_22>
+		<File name="sounds/weapons/wpn_rfl_22.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_22_sup.fsb" />			
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />			
+	</wpn_rfl_22>	
+	<wpn_rfl_22A>
+		<File name="sounds/weapons/wpn_rfl_22.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_22_sup.fsb" />			
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_556.fsb" />			
+	</wpn_rfl_22A>	
+	<wpn_rfl_308>
+		<File name="sounds/weapons/wpn_rfl_308.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_308_sup.fsb" />	
+		<File name="sounds/weapons/wpn_rfl.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />			
+	</wpn_rfl_308>	
+	<wpn_rfl_308_v2>
+		<File name="sounds/weapons/wpn_rfl_308_v2.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_308_v2_sup.fsb" />	
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />			
+	</wpn_rfl_308_v2>		
+	<wpn_rfl_556>
+		<File name="sounds/weapons/wpn_rfl_556.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_308_sup.fsb" />			
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />			
+	</wpn_rfl_556>	
+	<wpn_rfl_50>
+		<File name="sounds/weapons/wpn_rfl_50.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_50_sup.fsb" />	
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />			
+	</wpn_rfl_50>			
+	<wpn_shtgn_12_moss>
+		<File name="sounds/weapons/wpn_shtgn_12_moss.fsb" />
+		<File name="sounds/weapons/wpn_shtgn.fsb" />		
+		<File name="sounds/weapons/wpn_shtgn_rld.fsb" />		
+	</wpn_shtgn_12_moss>	
+	<wpn_shtgn_12_sga>
+		<File name="sounds/weapons/wpn_shtgn_12_sga.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn.fsb" />
+		<File name="sounds/weapons/wpn_shtgn_rld.fsb" />			
+	</wpn_shtgn_12_sga>	
+	<wpn_shtgn_ar_12_sga>
+		<File name="sounds/weapons/wpn_shtgn_12_sga.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn.fsb" />
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />			
+	</wpn_shtgn_ar_12_sga>		
+	<wpn_fireshtgn_ar_12_sga>
+		<File name="sounds/weapons/wpn_shtgn_12_sga.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn.fsb" />
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />
+		<File name="sounds/weapons/wpn_shtgn_rld.fsb" />		
+		<File name="sounds/weapons/wpn_rev_rld.fsb" />			
+	</wpn_fireshtgn_ar_12_sga>		
+	<wpn_shtgn_12_win>
+		<File name="sounds/weapons/wpn_shtgn_12_win.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn.fsb" />		
+		<File name="sounds/weapons/wpn_shtgn_rld.fsb" />			
+	</wpn_shtgn_12_win>	
+	<wpn_shtgn_12_win_v2>
+		<File name="sounds/weapons/wpn_shtgn_12_win_v2.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn_rld.fsb" />			
+	</wpn_shtgn_12_win_v2>		
+	<wpn_ar_308>
+		<File name="sounds/weapons/wpn_ar_308.fsb" />	
+		<File name="sounds/weapons/wpn_ar_308_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar.fsb" />		
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />		
+	</wpn_ar_308>	
+	<wpn_ar_556_m4>
+		<File name="sounds/weapons/wpn_ar_556_m4.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_m4_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar.fsb" />	
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />				
+	</wpn_ar_556_m4>		
+	<wpn_ar_556_m4_v2>
+		<File name="sounds/weapons/wpn_ar_556_m4_v2.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_m4_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar.fsb" />	
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />				
+	</wpn_ar_556_m4_v2>	
+	<wpn_ar_556_scar>
+		<File name="sounds/weapons/wpn_ar_556_scar.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_m4_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar.fsb" />	
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />				
+	</wpn_ar_556_scar>	
+	<wpn_ar_556_scar_v2>
+		<File name="sounds/weapons/wpn_ar_556_scar_v2.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_m4_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar.fsb" />	
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />				
+	</wpn_ar_556_scar_v2>		
+	<wpn_ar_762>
+		<File name="sounds/weapons/wpn_ar_762.fsb" />	
+		<File name="sounds/weapons/wpn_ar_762_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar.fsb" />	
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />				
+	</wpn_ar_762>
+	<wpn_ar_762_v2>
+		<File name="sounds/weapons/wpn_ar_762_v2.fsb" />	
+		<File name="sounds/weapons/wpn_ar_762_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar.fsb" />		
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />				
+	</wpn_ar_762_v2>	
+	<wpn_gl_m32>
+		<File name="sounds/weapons/wpn_ar.fsb" />		
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />					
+	</wpn_gl_m32>	
+	<wpn_gl_06>
+		<File name="sounds/weapons/wpn_smg.fsb" />		
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />				
+	</wpn_gl_06>			
+	<wpn_ar_556_vz58>
+		<File name="sounds/weapons/wpn_ar_556_m4_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_scar_v2.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_40.fsb" />		
+		<File name="sounds/weapons/wpn_ar.fsb" />		
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />			
+	</wpn_ar_556_vz58>	
+	<wpn_ar_762_g3>
+		<File name="sounds/weapons/wpn_ar_762_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar_762_v2.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_m4.fsb" />		
+		<File name="sounds/weapons/wpn_ar.fsb" />		
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />			
+	</wpn_ar_762_g3>		
+	<wpn_ar_556_xm8>
+		<File name="sounds/weapons/wpn_pstl_45.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_22.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45_sup.fsb" />		
+		<File name="sounds/weapons/wpn_ar.fsb" />		
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />			
+	</wpn_ar_556_xm8>	
+	<wpn_ar_556_g36>
+		<File name="sounds/weapons/wpn_rfl_556.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_308_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar.fsb" />		
+		<File name="sounds/weapons/wpn_ar_rld.fsb" />			
+	</wpn_ar_556_g36>		
+	<wpn_pstl_9mm_p38>
+		<File name="sounds/weapons/wpn_pstl_22.fsb" />	
+		<File name="sounds/weapons/wpn_smg_45.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_22_sup.fsb" />		
+		<File name="sounds/weapons/wpn_pstl.fsb" />		
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />			
+	</wpn_pstl_9mm_p38>		
+	<wpn_pstl_9mm_p08>
+		<File name="sounds/weapons/wpn_smg_45_v2.fsb" />	
+		<File name="sounds/weapons/wpn_smg_45_v2_sup.fsb" />	
+		<File name="sounds/weapons/wpn_pstl.fsb" />		
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />			
+	</wpn_pstl_9mm_p08>		
+	<wpn_pstl_40_f45>
+		<File name="sounds/weapons/wpn_rfl_556.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_308_sup.fsb" />	
+		<File name="sounds/weapons/wpn_pstl.fsb" />		
+		<File name="sounds/weapons/wpn_pstl_rld.fsb" />			
+	</wpn_pstl_40_f45>			
+	<wpn_rfl_22_464>
+		<File name="sounds/weapons/wpn_pstl_10mm.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45_sup.fsb" />	
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn_12_sga.fsb" />			
+	</wpn_rfl_22_464>	
+	<wpn_rfl_22_m1>
+		<File name="sounds/weapons/wpn_pstl_10mm.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45_sup.fsb" />	
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />			
+	</wpn_rfl_22_m1>	
+	<wpn_rfl_762_arctic>
+		<File name="sounds/weapons/wpn_pstl_45_sup.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_scar_v2.fsb" />	
+		<File name="sounds/weapons/wpn_rfl_556.fsb" />			
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />			
+	</wpn_rfl_762_arctic>	
+	<wpn_rfl_762_mdr>
+		<File name="sounds/weapons/wpn_ar_762.fsb" />	
+		<File name="sounds/weapons/wpn_ar_762_sup.fsb" />	
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />		
+	</wpn_rfl_762_mdr>		
+	<wpn_rfl_762_sass>
+		<File name="sounds/weapons/wpn_rfl_50_sup.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_45_sup.fsb" />			
+		<File name="sounds/weapons/wpn_smg_9mm.fsb" />			
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />			
+	</wpn_rfl_762_sass>		
+	<wpn_rfl_9mm_t21>
+		<File name="sounds/weapons/wpn_pstl_9mm.fsb" />	
+		<File name="sounds/weapons/wpn_pstl_9mm_sup.fsb" />	
+		<File name="sounds/weapons/wpn_rfl.fsb" />		
+		<File name="sounds/weapons/wpn_rfl_rld.fsb" />				
+	</wpn_rfl_9mm_t21>	
+	<wpn_shtgn_12_1887>
+		<File name="sounds/weapons/wpn_rev_44.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn_12_sga.fsb" />			
+		<File name="sounds/weapons/wpn_shtgn.fsb" />		
+		<File name="sounds/weapons/wpn_shtgn_rld.fsb" />			
+	</wpn_shtgn_12_1887>		
+	<wpn_shtgn_12_87>
+		<File name="sounds/weapons/wpn_rev_357.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn_12_sga.fsb" />	
+		<File name="sounds/weapons/wpn_shtgn.fsb" />		
+		<File name="sounds/weapons/wpn_shtgn_rld.fsb" />			
+	</wpn_shtgn_12_87>		
+	<wpn_smg_308_93r>
+		<File name="sounds/weapons/wpn_ar_308.fsb" />	
+		<File name="sounds/weapons/wpn_ar_308_sup.fsb" />	
+		<File name="sounds/weapons/wpn_smg.fsb" />		
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />			
+	</wpn_smg_308_93r>		
+	<wpn_smg_556_evo3>
+		<File name="sounds/weapons/wpn_ar_556_scar_v2.fsb" />	
+		<File name="sounds/weapons/wpn_ar_556_m4_sup.fsb" />	
+		<File name="sounds/weapons/wpn_smg.fsb" />		
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />			
+	</wpn_smg_556_evo3>		
+	<wpn_smg_762_lar15>
+		<File name="sounds/weapons/wpn_ar_762.fsb" />	
+		<File name="sounds/weapons/wpn_ar_762_sup.fsb" />	
+		<File name="sounds/weapons/wpn_smg.fsb" />		
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />			
+	</wpn_smg_762_lar15>		
+	<wpn_smg_762_tacp>
+		<File name="sounds/weapons/wpn_ar_762_v2.fsb" />	
+		<File name="sounds/weapons/wpn_ar_762_sup.fsb" />	
+		<File name="sounds/weapons/wpn_smg.fsb" />		
+		<File name="sounds/weapons/wpn_smg_rld.fsb" />			
+	</wpn_smg_762_tacp>	
+	<wpn_rev_9mm_986>
+		<File name="sounds/weapons/wpn_pstl_9mm.fsb" />	
+		<File name="sounds/weapons/wpn_rev_rld.fsb" />	
+		<File name="sounds/weapons/wpn_rev.fsb" />				
+	</wpn_rev_9mm_986>		
+	<!--items-->
+	<wpn_chemincendiary>
+		<File name="sounds/foley/fol_item_molotov.fsb" />	
+		<!--<File name="sounds/explosions/exp_molotov.fsb" />-->
+		<File name="sounds/explosions/exp_thermite.fsb" />		
+	</wpn_chemincendiary>	
+	<wpn_grenade>
+		<File name="sounds/foley/fol_item_grenade.fsb" />	
+		<!--<File name="sounds/explosions/exp_grenade.fsb" />-->	
+	</wpn_grenade>			
+	<wpn_molotov>
+		<File name="sounds/foley/fol_item_molotov.fsb" />	
+		<!--<File name="sounds/explosions/exp_molotov.fsb" />	-->
+	</wpn_molotov>
+	<wpn_landmine>
+		<!--<File name="sounds/explosions/exp_mine.fsb" />-->	
+	</wpn_landmine>	
+<!--	<wpn_flamemine>
+		<File name="sounds/explosions/exp_mine.fsb" />
+		<File name="sounds/explosions/exp_molotov.fsb" />
+		<File name="sounds/explosions/exp_thermite.fsb" />		
+	</wpn_flamemine>		-->
+	<wpn_bouncingbetty>
+		<!--<File name="sounds/explosions/exp_mine.fsb" />-->
+		<File name="sounds/explosions/exp_bouncingbetty.fsb" />			
+	</wpn_bouncingbetty>	
+	<wpn_thermite>
+		<!--<File name="sounds/explosions/exp_thermite.fsb" />-->
+		<File name="sounds/foley/fol_item_smokebomb.fsb" />				
+	</wpn_thermite>	
+	<wpn_airstrike>
+		<File name="sounds/explosions/exp_airstrike.fsb" />
+		<File name="sounds/foley/fol_item_smokebomb.fsb" />			
+	</wpn_airstrike>
+	<wpn_drone>
+		<File name="sounds/foley/fol_item_smokebomb.fsb" />	
+		<File name="sounds/dlc2/explosions_dlc2/exp_drone.fsb" />	
+		<!--<File name="sounds/explosions/exp_thermite.fsb" />	-->
+		<File name="sounds/explosions/exp_mis_barricade.fsb" />			
+		<File name="sounds/explosions/exp_airstrike.fsb" />		
+	</wpn_drone>
+	<wpn_mortar>
+		<File name="sounds/explosions/exp_airstrike.fsb" />
+		<File name="sounds/foley/fol_item_smokebomb.fsb" />		
+		<File name="sounds/dlc2/explosions_dlc2/exp_mortar.fsb" />			
+	</wpn_mortar>	
+	<wpn_merc_sniper>
+		<File name="sounds/weapons/wpn_merc_sniper.fsb" />
+	</wpn_merc_sniper>
+	<toy_alarmclock>
+		<File name="sounds/explosions/toy_alarmclock.fsb" />			
+	</toy_alarmclock>		
+	<toy_flare>
+		<File name="sounds/foley/fol_item_flare.fsb" />			
+	</toy_flare>	
+	<toy_firecracker>
+		<File name="sounds/explosions/toy_firecracker.fsb" />	
+		<File name="sounds/explosions/toy_flare.fsb" />		
+		<File name="sounds/foley/fol_item_flare.fsb" />			
+	</toy_firecracker>	
+	<toy_kitchentimer>
+		<File name="sounds/explosions/toy_kitchentimer.fsb" />			
+	</toy_kitchentimer>	
+	<toy_talkingdoll>
+		<File name="sounds/explosions/toy_talkingdoll.fsb" />			
+	</toy_talkingdoll>		
+	<toy_whistlingmine>
+		<File name="sounds/explosions/toy_whistlingmine.fsb" />	
+		<!--<File name="sounds/explosions/exp_mine.fsb" />-->		
+		<File name="sounds/explosions/toy_flare.fsb" />				
+	</toy_whistlingmine>		
+	<!--ambiences-->
+<!--    <amb2_factory>	  
+	  <File name="sounds/environment/amb_factory.fsb" />	 
+	  <File name="sounds/environment/amb_pigeon.fsb" />		   
+    </amb2_factory>	
+    <amb_barn>
+	  <File name="sounds/environment/amb_tone_barn.fsb" />
+	  <File name="sounds/environment/amb_barn.fsb" />	    
+    </amb_barn>		-->
+    <amb_farm_house>
+	  <File name="sounds/environment/amb_tone_house_hollow.fsb" />	 
+	  <File name="sounds/environment/amb_tone_house_hollowrattle.fsb" />	 	  
+	  <File name="sounds/environment/amb_wood_creak.fsb" />	 	  
+	  <File name="sounds/environment/amb_wood_bang.fsb" />	 		  
+    </amb_farm_house>		
+ <!--   <amb_farm_barn>
+	  <File name="sounds/environment/amb_tone_barn.fsb" />
+	  <File name="sounds/environment/amb_barn.fsb" />	    
+    </amb_farm_barn>-->	
+    <amb_church_abandoned>
+	  <File name="sounds/environment/amb_tone_house_hollow.fsb" />	  	  
+	  <File name="sounds/environment/amb_wood_creak.fsb" />	 	  		  
+    </amb_church_abandoned>		
+    <amb_flies>	  
+	  <File name="sounds/environment/amb_flies.fsb" />	 	  		  
+    </amb_flies>	
+ <!--   <amb_factory>	  
+	  <File name="sounds/environment/amb_factory.fsb" />	 
+	  <File name="sounds/environment/amb_pigeon.fsb" />		  
+	  <File name="sounds/environment/env_wind_hollow_eerie.fsb" />		  
+    </amb_factory>-->
+    <amb_grocery>	  
+	  <File name="sounds/environment/amb_grocery.fsb" />
+<!--	  <File name="sounds/environment/amb_pigeon.fsb" />	-->	  
+    </amb_grocery>	
+	<!--environments-->	
+	<env2_basequadrant>	  
+	  <File name="sounds/DLC2/environment_DLC2/env_wind_debris.fsb" />	
+	  <File name="sounds/DLC2/environment_DLC2/amb2_crashes.fsb" />	 
+	  <File name="sounds/DLC2/environment_DLC2/amb2_flagpole.fsb" /> 
+	  <File name="sounds/DLC2/environment_DLC2/amb2_metal.fsb" />	    
+    </env2_basequadrant>		
+	<env2_ID>
+	  <File name="sounds/DLC2/environment_DLC2/amb2_flagpole.fsb" /> 	  
+	  <File name="sounds/DLC2/environment_DLC2/amb2_metal.fsb" />	
+	  <File name="sounds/DLC2/environment_DLC2/env_trailer_creak.fsb" />	    
+    </env2_ID>	
+	<env2_midtown>
+	  <File name="sounds/DLC2/environment_DLC2/env_wind_debris.fsb" />	  	
+	  <File name="sounds/DLC2/environment_DLC2/amb2_crashes.fsb" />	  
+	  <File name="sounds/DLC2/environment_DLC2/amb2_metal.fsb" />		
+    </env2_midtown>		
+	<env2_monroeville>
+	  <File name="sounds/DLC2/environment_DLC2/env_trailer_creak.fsb" />	  
+	  <File name="sounds/DLC2/environment_DLC2/env_wind_debris.fsb" />	  
+	  <File name="sounds/DLC2/environment_DLC2/amb2_crashes.fsb" />	 
+	  <File name="sounds/DLC2/environment_DLC2/amb2_flagpole.fsb" /> 
+    </env2_monroeville>		
+	<env2_port>
+	  <File name="sounds/DLC2/environment_DLC2/env_seagulls.fsb" />
+	  <File name="sounds/DLC2/environment_DLC2/env_wtr_lapping.fsb" />
+	  <File name="sounds/DLC2/environment_DLC2/env_trailer_creak.fsb" />	  	  
+	  <File name="sounds/DLC2/environment_DLC2/amb2_crashes.fsb" />	 
+	  <File name="sounds/DLC2/environment_DLC2/amb2_flagpole.fsb" /> 
+	  <File name="sounds/DLC2/environment_DLC2/amb2_metal.fsb" />	 
+    </env2_port>		
+	<env2_tunnel>
+	  <File name="sounds/DLC2/environment_DLC2/amb2_metal.fsb" />
+	  <File name="sounds/DLC2/environment_DLC2/amb2_tunnel.fsb" />	
+    </env2_tunnel>		
+	<env_maintown_global>
+	  <File name="sounds/environment/env_birds_resi.fsb" />
+	  <File name="sounds/environment/env_cars_dist.fsb" />
+	  <File name="sounds/environment/env_dogs.fsb" />
+	  <File name="sounds/environment/env_crashes.fsb" />
+	  <File name="sounds/environment/env_seagulls.fsb" />	  
+    </env_maintown_global>
+	<env_maintown_school>
+	  <File name="sounds/environment/env_wind_hollow_eerie.fsb" />	  	  
+    </env_maintown_school>	
+	<env_maintown_footballfield>
+	  <File name="sounds/environment/env_wind_debris.fsb" />	
+	  <File name="sounds/environment/env_wind_hollow_wisp.fsb" />	  	  
+    </env_maintown_footballfield>
+	<env_maintown_junkyard>
+	  <File name="sounds/environment/env_trailer_creak.fsb" />	
+	  <File name="sounds/environment/env_wind_hollow_draft.fsb" />	  
+    </env_maintown_junkyard>	
+	<env_maintown_centralpark>
+	  <File name="sounds/environment/env_wind_mapleleaves.fsb" />	  
+    </env_maintown_centralpark>		
+	<env_maintown_construction>
+	  <File name="sounds/environment/env_wind_debris.fsb" />	
+	  <File name="sounds/environment/env_wind_hollow_draft.fsb" />	  	  
+    </env_maintown_construction>	
+	<env_maintown_pond>
+	  <!--<File name="sounds/environment/env_frogs.fsb" />	--> 	  
+    </env_maintown_pond>		
+	<env_marsh_se>
+	  <!--<File name="sounds/environment/env_frogs.fsb" />	-->
+	  <File name="sounds/environment/env_wind_gust_slow.fsb" />		 	  
+    </env_marsh_se>	
+	<env_field>
+	  <File name="sounds/environment/env_cicadas.fsb" /> 
+	  <File name="sounds/environment/env_birds_field.fsb" /> 
+	  <File name="sounds/environment/env_field_wheat.fsb" /> 	
+	  <File name="sounds/environment/env_wind_gust_field.fsb" /> 	 	  
+    </env_field>		 
+	<env_township>
+	  <File name="sounds/environment/env_birds_township.fsb" /> 	  
+	  <File name="sounds/environment/env_cars_dist.fsb" />  
+	  <File name="sounds/environment/env_dogs.fsb" />  	  
+	  <File name="sounds/environment/env_wind_debris.fsb" />  	
+    </env_township>	
+	<env_township_trailerpark>
+	  <File name="sounds/environment/env_swamp.fsb" />
+	  <File name="sounds/environment/env_trailer_creak.fsb" />  
+	  <File name="sounds/environment/env_trailer_banging.fsb" />  	  
+    </env_township_trailerpark>	
+	<env_township_cemetery>  
+	  <File name="sounds/environment/env_wind_gust_slow.fsb" />
+	  <File name="sounds/environment/env_wind_gust_field.fsb" />	  
+	  <File name="sounds/environment/env_groan_cemetery.fsb" />	  
+	  <File name="sounds/environment/env_wind_hollow_wisp.fsb" />	  	  
+    </env_township_cemetery>		
+	<env_farm>
+	 <!-- <File name="sounds/environment/env_tone_farm_lake.fsb" />	 --> 	  
+    </env_farm>	
+	<env_farm_field>
+	  <File name="sounds/environment/env_birds_field.fsb" />	
+	  <File name="sounds/environment/env_cicadas.fsb" />	
+	  <File name="sounds/environment/env_wind_gust_field.fsb" />		  
+    </env_farm_field>	
+	<env_farm_driveup_random>
+	  <File name="sounds/environment/env_cicadas.fsb" />
+	  <File name="sounds/environment/env_wind_gust_field.fsb" />		  
+	  <File name="sounds/environment/env_wind_debris.fsb" />	  
+    </env_farm_driveup_random>	
+	<env_orchard_random>
+	  <File name="sounds/environment/env_wind_mapleleaves.fsb" />
+	  <File name="sounds/environment/env_groan_forest.fsb" />	  
+    </env_orchard_random>	
+	<env_forest_global>
+	  <File name="sounds/environment/env_forest.fsb" />	  
+	  <File name="sounds/environment/env_wind_mapleleaves.fsb" />		  
+    </env_forest_global>		
+	<env_forest_loggingcamp>
+	  <File name="sounds/environment/env_wind_hollow_eerie.fsb" />	
+	  <File name="sounds/environment/env_groan_forest.fsb" />		  
+    </env_forest_loggingcamp>		
+	<env_lake_mttanner>
+	  <!--<File name="sounds/environment/env_frogs.fsb" />		-->  
+    </env_lake_mttanner>		
+	<env_fairgrounds>
+	  <File name="sounds/environment/env_birds_field.fsb" />	
+	  <File name="sounds/environment/env_cicadas.fsb" />	
+	  <File name="sounds/environment/env_wind_debris.fsb" />		 
+	  <File name="sounds/environment/env_cars_dist.fsb" />  
+	  <File name="sounds/environment/env_dogs.fsb" />  	 
+	  <File name="sounds/environment/env_trailer_creak.fsb" /> 	  
+    </env_fairgrounds>	
+	<env_dam>
+	  <File name="sounds/environment/env_swamp.fsb" />	
+	  <File name="sounds/environment/env_wind_gust_slow.fsb" />		 	 	  
+    </env_dam>		
+	<!--vehicles-->  
+	<veh_engines>	
+      <File name="sounds/vehicles/veh_engines.fsb" />			
+    </veh_engines>		
+	<veh_4_normal_hatchback>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_4_normal_hatchback.fsb" /> 
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_4_normal_hatchback>	
+	<veh_4_tuned_hatchback>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_4_tuned_hatchback.fsb" /> 	    
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_4_tuned_hatchback>		
+	<veh_4_normal_sedan>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_4_normal_sedan.fsb" /> 	  
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_4_normal_sedan>		
+	<veh_6_normal_sedan>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_6_normal_sedan.fsb" /> 	  
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_6_normal_sedan>	
+	<veh_6_normal_wagon>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_6_normal_sedan.fsb" /> 
+	  <File name="sounds/vehicles/veh_6_normal_wagon.fsb" />		  
+	  <File name="sounds/impacts/imp_veh.fsb" />		  
+    </veh_6_normal_wagon>		
+	<veh_6_race>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_6_race.fsb" />
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_6_race>	
+	<veh_6_tuned_police>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_6_tuned_police.fsb" /> 
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_6_tuned_police>	
+	<veh_6_tuned_sedan>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_6_tuned_sedan.fsb" />
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_6_tuned_sedan>	
+	<veh_8_diesel>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_8_diesel.fsb" />
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_8_diesel>		
+	<veh_8_modern_muscle>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_8_modern_muscle.fsb" />
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_8_modern_muscle>		
+	<veh_8_modern_suv>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_8_modern_suv.fsb" /> 
+	  <File name="sounds/impacts/imp_veh.fsb" />	
+    </veh_8_modern_suv>	
+	<veh_8_normal_van>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_8_modern_suv.fsb" />
+	  <File name="sounds/vehicles/veh_8_normal_van.fsb" />	  
+	  <File name="sounds/impacts/imp_veh.fsb" />	
+    </veh_8_normal_van>		
+	<veh_8_normal_ambulance>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_8_modern_suv.fsb" />
+	  <File name="sounds/vehicles/veh_8_normal_van.fsb" />	  
+	  <File name="sounds/vehicles/veh_8_normal_ambulance.fsb" />		  
+	  <File name="sounds/impacts/imp_veh.fsb" />	
+    </veh_8_normal_ambulance>			
+	<veh_8_race>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_8_race.fsb" />  
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_8_race>	
+	<veh_8_vintage>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_8_vintage.fsb" />	  
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_8_vintage>	
+	<veh_12_diesel>
+	  <File name="sounds/vehicles/veh_cmn.fsb" />	 
+	  <File name="sounds/vehicles/veh_12_diesel.fsb" />
+	  <File name="sounds/impacts/imp_veh.fsb" />	  
+    </veh_12_diesel>		
+	<!--mission sounds-->		
+	<mis_ar04Bridges>
+	  <File name="sounds/explosions/exp_mis_bridge.fsb" />	   
+    </mis_ar04Bridges>	
+	<mis_ar07Finale>
+	  <File name="sounds/explosions/exp_mis_barricade.fsb" />	   
+    </mis_ar07Finale>		
+	<mis_dlc2_suicide>
+	  <File name="sounds/weapons/wpn_pstl_45.fsb" />	   
+	  <File name="sounds/weapons/wpn_pstl_45_npc.fsb" />	  	  
+    </mis_dlc2_suicide>	
+	<mis_nuke>
+	  <File name="sounds/dlc2/explosions_dlc2/exp_nuke.fsb" />	   
+    </mis_nuke>			
+	<!--music-->		
+	<main_menu_01>
+	  <File name="sounds/music/main_menu_01.fsb" />	   
+    </main_menu_01>		
+	<main_menu_02>
+	  <File name="sounds/music/main_menu_02.fsb" />	   
+    </main_menu_02>		
+	<main_menu_03>
+	  <File name="sounds/music/main_menu_03.fsb" />	   
+    </main_menu_03>			
+  </GameHints>
+	
+</PreloadData>

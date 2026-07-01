@@ -1,0 +1,42 @@
+<Factions>
+	<Faction name="Players">
+		<Reaction faction="Allies" reaction="friendly" />
+		<Reaction faction="Civilians" reaction="friendly" />
+		<Reaction faction="Grunts" reaction="hostile" />
+		<Reaction faction="Zombies" reaction="hostile" />
+		<Reaction faction="Rogues" reaction="hostile" />
+	</Faction>
+
+	<Faction name="Civilians" default="neutral">
+        <Reaction faction="Zombies" reaction="hostile" />
+    </Faction>
+	
+	<Faction name="Rogues">
+		<Reaction faction="Players" reaction="hostile" />
+		<Reaction faction="Allies" reaction="hostile" />
+		<Reaction faction="Grunts" reaction="hostile" />
+		<Reaction faction="Civilians" reaction="neutral" />
+		<Reaction faction="Rogues" reaction="hostile" />
+	</Faction>
+
+	<Faction name="Zombies">
+		<Reaction faction="Players" reaction="hostile" />
+		<Reaction faction="Civilians" reaction="hostile" />
+		<Reaction faction="Allies" reaction="hostile" />
+		<Reaction faction="Rogues" reaction="hostile" />
+	</Faction>
+
+	<Faction name="Allies">
+		<Reaction faction="Players" reaction="friendly" />
+		<Reaction faction="Civilians" reaction="friendly" />
+		<Reaction faction="Allies" reaction="friendly" />
+		<Reaction faction="Rogues" reaction="hostile" />
+        <Reaction faction="Zombies" reaction="hostile" />
+	</Faction>
+	
+	<Faction name="Grunts">
+		<Reaction faction="Players" reaction="hostile" />
+		<Reaction faction="Civilians" reaction="neutral" />
+		<Reaction faction="Rogues" reaction="hostile" />
+	</Faction>
+</Factions>

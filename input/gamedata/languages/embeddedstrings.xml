@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EmbeddedTextData>
+  <TextFolders>
+    <EmbeddedTextFolder Name="General">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="GUN_JAM" Notes="" Text="Your %s has jammed!" />
+        <EmbeddedText Flags="" Id="WEAPON_BREAK" Notes="" Text="Your %s has broken!" />
+        <EmbeddedText Flags="" Id="HORDE_ALERTED" Notes="" Text="Zombie Horde Alerted!" />
+        <EmbeddedText Flags="" Id="HEADSHOT_STREAK" Notes="" Text="Headshot Streak!" />
+        <EmbeddedText Flags="" Id="CHALLENGE_COMPLETED" Notes="" Text="You completed a challenge" />
+        <EmbeddedText Flags="" Id="JOIN_FAMILY_FAIL" Notes="" Text="Leave me alone!!!!" />
+        <EmbeddedText Flags="" Id="5PANIC" Notes="" Text="+5 Panic" />
+        <EmbeddedText Flags="" Id="SUPPLY_RUN_ABORTED" Notes="" Text="Supply Run Aborted!" />
+        <EmbeddedText Flags="" Id="RESCUE_RUNNERS_EXPIRED" Notes="" Text="Rescue Runners Mission Expired" />
+        <EmbeddedText Flags="" Id="EXHAUSTION_FOR_RUNNERS" Notes="" Text="+Exhaustion For Runners" />
+        <EmbeddedText Flags="" Id="SUPPLY_RUN_COMPLETE" Notes="" Text="Supply Run Complete" />
+        <EmbeddedText Flags="" Id="NEIGHBORS_DISCOVERED" Notes="" Text="Neighbors Discovered" />
+        <EmbeddedText Flags="" Id="NEW_MISSION_OP" Notes="" Text="New Mission Opportunity (Map Updated)" />
+        <EmbeddedText Flags="" Id="OUTPOST_OVERRUN" Notes="" Text="Outpost Overrun!" />
+        <EmbeddedText Flags="" Id="OUTPOST_DEPLETED" Notes="" Text="Outpost Depleted" />
+        <EmbeddedText Flags="" Id="GAINED_RENOWN" Notes="" Text="You gained renown" />
+        <EmbeddedText Flags="" Id="BUILDING_DISCOVERED" Notes="" Text="New Location Discovered" />
+        <EmbeddedText Flags="" Id="NOTHING_USEFUL" Notes="" Text="Found Nothing Useful" />
+        <EmbeddedText Flags="" Id="FULLY_SEARCHED" Notes="" Text="%s Fully Searched" />
+        <EmbeddedText Flags="" Id="NEW_SURVEY_POINT" Notes="" Text="New Survey Point Discovered!" />
+        <EmbeddedText Flags="" Id="NO_SPACE" Notes="" Text="You have no space to carry that!" />
+        <EmbeddedText Flags="" Id="INSUFFICIENT_INFLUENCE" Notes="" Text="Quit trying to freeload!" />
+        <EmbeddedText Flags="" Id="EMPTY_COMMUNITY_CHEST" Notes="" Text="It's empty! Go find stuff." />
+        <EmbeddedText Flags="" Id="INFESTATION_CLEARED" Notes="" Text="Infestation Cleared!" />
+        <EmbeddedText Flags="" Id="SURVEY_COMPLETE" Notes="" Text="Survey Complete" />
+        <EmbeddedText Flags="" Id="CANNOT_CLAIM_HOME" Notes="" Text="Cannot claim home site while on a mission." />
+        <EmbeddedText Flags="" Id="TOO_MANY_OUTPOSTS" Notes="" Text="You have too many outposts for this site." />
+        <EmbeddedText Flags="" Id="SURVIVOR_ACTIVITY" Notes="" Text="Survivor Activity Discovered!" />
+        <EmbeddedText Flags="" Id="FOUND_SMALL_STASH" Notes="" Text="Found a small stash of %s" />
+        <EmbeddedText Flags="" Id="FOUND_MEDIUM_STASH" Notes="" Text="Found a medium stash of %s" />
+        <EmbeddedText Flags="" Id="FOUND_LARGE_STASH" Notes="" Text="Found a large stash of %s" />
+        <EmbeddedText Flags="" Id="CHARACTER_RESTED" Notes="" Text="%s is now rested" />
+        <EmbeddedText Flags="" Id="STRANGER" Notes="" Text="Stranger" />
+        <EmbeddedText Flags="" Id="FOUND" Notes="" Text="%s Found!" />
+        <EmbeddedText Flags="" Id="NOBODY" Notes="" Text="Nobody" />
+        <EmbeddedText Flags="" Id="DASHES" Notes="" Text="--------" />
+        <EmbeddedText Flags="" Id="EMPTY" Notes="" Text="" />
+        <EmbeddedText Flags="" Id="GUEST" Notes="" Text=" (Guest)" />
+        <EmbeddedText Flags="" Id="SUBTITLE_FORMAT" Notes="" Text="%s: %s" />
+        <EmbeddedText Flags="" Id="YOU" Notes="" Text="You" />
+        <EmbeddedText Flags="" Id="OUTPOST_SETUP" Notes="" Text="Outpost Setup" />
+        <EmbeddedText Flags="" Id="EMPTY_SOCKET" Notes="" Text="Empty Socket" />
+        <EmbeddedText Flags="" Id="LEVEL_UP" Notes="" Text="%s Level Up" />
+        <EmbeddedText Flags="" Id="UNLOCKED" Notes="" Text="%s Unlocked" />
+        <EmbeddedText Flags="" Id="CHARACTER_DIED" Notes="" Text="%s is dead." />
+        <EmbeddedText Flags="" Id="CHARACTER_DIED_LIST" Notes="" Text="Deaths: %s" />
+        <EmbeddedText Flags="" Id="UNARMED" Notes="" Text="Unarmed" />
+        <EmbeddedText Flags="" Id="NO_GUN" Notes="" Text="No Gun" />
+        <EmbeddedText Flags="" Id="NO_WEAPON" Notes="" Text="No Melee Weapon" />
+        <EmbeddedText Flags="" Id="ZOMBIE_HORDE_KILLED" Notes="" Text="Zombie Horde Killed!" />
+        <EmbeddedText Flags="" Id="FREAK_KILLED" Notes="" Text="%s Killed!" />
+        <EmbeddedText Flags="" Id="FREAK_SPOTTED" Notes="" Text="%s Spotted!" />
+        <EmbeddedText Flags="" Id="FREAK_BLOATER" Notes="" Text="Bloater" />
+        <EmbeddedText Flags="" Id="FREAK_FERAL" Notes="" Text="Feral" />
+        <EmbeddedText Flags="" Id="FREAK_JUGGERNAUT" Notes="" Text="Juggernaut" />
+        <EmbeddedText Flags="" Id="FREAK_SCREAMER" Notes="" Text="Screamer" />
+        <EmbeddedText Flags="" Id="FREAK_SWAT_ZOMBIE" Notes="" Text="Swat Zombie" />
+        <EmbeddedText Flags="Do Not Localize" Id="BUG" Notes="" Text="Bug" />
+        <EmbeddedText Flags="" Id="PLUS" Notes="" Text="+" />
+        <EmbeddedText Flags="" Id="MINUS" Notes="" Text="-" />
+        <EmbeddedText Flags="" Id="FOUND_THING" Notes="" Text="Found %s!" />
+        <EmbeddedText Flags="" Id="RTS_IO_INPUT" Notes="" Text="%s%d %s" />
+        <EmbeddedText Flags="" Id="RTS_IO_OUTPUT" Notes="" Text="%s%d %s" />
+        <EmbeddedText Flags="" Id="RTS_IO_GTE" Notes="" Text="%s &gt;= %d" />
+        <EmbeddedText Flags="" Id="RTS_IO_LT" Notes="" Text="%s &lt; %d" />
+        <EmbeddedText Flags="" Id="RTS_IO_KNOWN" Notes="" Text="%s Known" />
+        <EmbeddedText Flags="" Id="RTS_IO_UNKNOWN" Notes="" Text="%s Unknown" />
+        <EmbeddedText Flags="" Id="RTS_IO_SET" Notes="" Text="%s is set." />
+        <EmbeddedText Flags="" Id="RTS_IO_NOT_SET" Notes="" Text="%s is not set." />
+        <EmbeddedText Flags="" Id="RTS_IO_UPGRADE" Notes="" Text="Upgrades to %s" />
+        <EmbeddedText Flags="" Id="RTS_IO_GIVES" Notes="" Text="Gives %s." />
+        <EmbeddedText Flags="" Id="RTS_IO_TAKES" Notes="" Text="Takes %s." />
+        <EmbeddedText Flags="" Id="RTS_IO_GIVES_STUFF" Notes="" Text="Gives %d %s" />
+        <EmbeddedText Flags="" Id="PLURAL" Notes="" Text="(s)" />
+        <EmbeddedText Flags="" Id="DESTROY_FACILITY" Notes="" Text="Destroys Facility" />
+        <EmbeddedText Flags="" Id="HAS_ITEM" Notes="" Text="Community Has %s" />
+        <EmbeddedText Flags="" Id="TIME_REDUCTION_DAYS" Notes="" Text="-%d Day(s)" />
+        <EmbeddedText Flags="" Id="TIME_REDUCTION_HOURS" Notes="" Text="-%d Hour(s)" />
+        <EmbeddedText Flags="" Id="TIME_REDUCTION_MINUTES" Notes="" Text="-%d Minute(s)" />
+        <EmbeddedText Flags="" Id="TIME_REDUCTION_SECONDS" Notes="" Text="-%d Seconds" />
+        <EmbeddedText Flags="" Id="CLAIM_HOME" Notes="" Text="Claim Home Site?" />
+        <EmbeddedText Flags="" Id="SEARCH_HOLD" Notes="" Text="Search (Hold)" />
+        <EmbeddedText Flags="" Id="CHECK" Notes="" Text="Check" />
+        <EmbeddedText Flags="" Id="ENCLAVE_COLLAPSE" Notes="" Text="Enclave &quot;%s&quot; has collapsed!" />
+        <EmbeddedText Flags="" Id="ENCLAVE_COLLAPSED_COUNT" Notes="" Text="%d enclaves have collapsed." />
+        <EmbeddedText Flags="" Id="ENCLAVE_TRUST" Notes="" Text="%1$+d Trust with %2$s" />
+        <EmbeddedText Flags="" Id="BUILD_HOLD" Notes="" Text="Barricade (Hold)" />
+        <EmbeddedText Flags="" Id="TALK" Notes="" Text="Talk" />
+        <EmbeddedText Flags="" Id="TALK_NAME" Notes="First Name, Last Name" Text="Talk to %1$s %2$s" />
+        <EmbeddedText Flags="" Id="GREET_NAME" Notes="First Name, Last Name" Text="Greet %1$s %2$s" />
+        <EmbeddedText Flags="" Id="ENCLAVE_JOINED" Notes="" Text="%s joined your home!" />
+        <EmbeddedText Flags="" Id="TWO_LINES" Notes="" Text="%s\n%s" />
+        <EmbeddedText Flags="" Id="BUILDING_CLEARED" Notes="" Text="%s Clear" />
+        <EmbeddedText Flags="" Id="DATE_FORMAT" Notes="Used to localize dates. arg 1 is month, arg 2 is day, arg 3 is year" Text="%1$d/%2$d/%3$d" />
+        <EmbeddedText Flags="" Id="REPAIR_HOLD" Notes="" Text="Repair (Hold)" />
+        <EmbeddedText Flags="" Id="INFESTATIONS_DISCOVERED" Notes="" Text="%d infestations discovered." />
+        <EmbeddedText Flags="" Id="SYS_USER_SIGN_IN_CHANGE" Notes="" Text="Play as new user? You will return to the title screen without saving." />
+        <EmbeddedText Flags="" Id="SYS_USER_SIGN_IN_CHANGE_TITLE" Notes="" Text="Sign In Change" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Save Game Warnings">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="CONFIRM_NO_SAVE_DEVICE_TITLE" Notes="" Text="No Storage Device" />
+        <EmbeddedText Flags="" Id="CONFIRM_NO_SAVE_DEVICE_DESC" Notes="" Text="If no storage device is selected no save game will take place and all progress will be lost." />
+        <EmbeddedText Flags="" Id="CREATE_NEW_SAVE_TITLE" Notes="" Text="No Save Game Detected" />
+        <EmbeddedText Flags="" Id="CREATE_NEW_SAVE_DESC" Notes="" Text="Choose a storage device to create new save data or load another save, or you may continue without saving but will lose any progress made." />
+        <EmbeddedText Flags="" Id="MULTIPLE_SAVES_TITLE" Notes="" Text="Multiple Saves" />
+        <EmbeddedText Flags="" Id="MULTIPLE_SAVES_DESC" Notes="" Text="There is more than one save game available. Please select the storage device with the save you want to use, or continue without saving losing any progress made." />
+        <EmbeddedText Flags="" Id="NEW_GAME_LOSE_PROGRESS_TITLE" Notes="" Text="Start New Game" />
+        <EmbeddedText Flags="" Id="NEW_GAME_LOSE_PROGRESS_DESC" Notes="" Text="Starting a new game will overwrite your existing save game and you will lose any progress made. Are you sure you want to start a new game?" />
+        <EmbeddedText Flags="" Id="SAVE_ALREADY_EXISTS_TITLE" Notes="" Text="Save Game Exists On This Storage Device" />
+        <EmbeddedText Flags="" Id="SAVE_ALREADY_EXISTS_DESC" Notes="" Text="Would you like to load the existing save game?" />
+        <EmbeddedText Flags="" Id="SAVE_ALREADY_EXISTS_LOAD_DESC" Notes="" Text="Do you want to load this save, overwrite the save, or choose another storage device?" />
+        <EmbeddedText Flags="" Id="SAVE_NOT_FOUND_LOSE_PROGRESS_TITLE" Notes="" Text="Save Game Not Found" />
+        <EmbeddedText Flags="" Id="SAVE_NOT_FOUND_LOSE_PROGRESS_DESC" Notes="" Text="A save game cannot be found on this storage device. You can create a save on this storage device, choose another storage device, or continue without saving losing any progress made." />
+        <EmbeddedText Flags="" Id="STORAGE_REMOVED_TITLE" Notes="" Text="Storage Device Removed" />
+        <EmbeddedText Flags="" Id="STORAGE_REMOVED_DESC" Notes="" Text="Reinsert the storage device, or you may continue without saving and lose any progress made." />
+        <EmbeddedText Flags="" Id="SAVE_CREATED_TITLE" Notes="" Text="Save Created" />
+        <EmbeddedText Flags="" Id="SAVE_CREATED_DESC" Notes="" Text="A new save file has been created" />
+        <EmbeddedText Flags="" Id="CONFIRM_OVERWRITE_TITLE" Notes="" Text="Overwrite" />
+        <EmbeddedText Flags="" Id="CONFIRM_OVERWRITE_DESC" Notes="" Text="Are you sure you want to overwrite this save game? All previous save data will be lost." />
+        <EmbeddedText Flags="" Id="INSUFFICIENT_STORAGE_TITLE" Notes="" Text="Insufficient Storage" />
+        <EmbeddedText Flags="" Id="INSUFFICIENT_STORAGE_DESC" Notes="" Text="The selected storage device does not have enough space" />
+        <EmbeddedText Flags="" Id="SAVE_FILE_CORRUPT_TITLE" Notes="" Text="Save Game Corrupt" />
+        <EmbeddedText Flags="" Id="SAVE_FILE_CORRUPT_DESC" Notes="" Text="The save game appears to be damaged and cannot be loaded. You can choose another storage device or continue without saving losing any progress made." />
+        <EmbeddedText Flags="" Id="DISK_CORRUPT_TITLE" Notes="" Text="Disk Corrupt" />
+        <EmbeddedText Flags="" Id="DISK_CORRUPT_DESC" Notes="" Text="The disk appears to be corrupt" />
+        <EmbeddedText Flags="" Id="DELETE_CORRUPT_SAVE_TITLE" Notes="" Text="Delete Corrupt Save" />
+        <EmbeddedText Flags="" Id="DELETE_CORRUPT_SAVE_DESC" Notes="" Text="Are you sure you wish to delete this save?" />
+        <EmbeddedText Flags="" Id="DELETE_INVALID_SAVE_TITLE" Notes="" Text="Delete Invalid Save" />
+        <EmbeddedText Flags="" Id="DELETE_INVALID_SAVE_DESC" Notes="" Text="Are you sure you wish to delete this save?" />
+        <EmbeddedText Flags="" Id="SAVE_GAME_DELETED_TITLE" Notes="" Text="Save Game Deleted" />
+        <EmbeddedText Flags="" Id="SAVE_GAME_DELETED_DESC" Notes="" Text="Save game has been deleted" />
+        <EmbeddedText Flags="" Id="DELETE_ERROR_TITLE" Notes="" Text="Delete Error" />
+        <EmbeddedText Flags="" Id="DELETE_ERROR_DESC" Notes="" Text="Unable to delete save game" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_CANCEL" Notes="" Text="Cancel" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_CHOOSE_STORAGE_DEVICE" Notes="" Text="Choose storage device" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_CONTINUE" Notes="" Text="Continue" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_CONTINUE_WITHOUT_SAVING" Notes="" Text="Continue without saving" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_CREATE" Notes="" Text="Create" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_DELETE" Notes="" Text="Delete" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_LOAD" Notes="" Text="Load" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_NO" Notes="" Text="No" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_OK" Notes="" Text="OK" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_OVERWRITE" Notes="" Text="Overwrite" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_SAVE_ON_THIS_DEVICE" Notes="" Text="Save on this storage device" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_SELECT_DEVICE" Notes="" Text="Select storage device" />
+        <EmbeddedText Flags="" Id="OPT_TEXT_YES" Notes="" Text="Yes" />
+        <EmbeddedText Flags="" Id="DELETE_SAVED_GAME_TITLE" Notes="" Text="Delete Saved Game" />
+        <EmbeddedText Flags="" Id="DELETE_SAVED_GAME_DESC" Notes="" Text="Deleting a saved game will destroy all progress in this save slot.  The slot will be available for a new game.  Are you sure?" />
+        <EmbeddedText Flags="" Id="AUTOSAVE_NOTICE_XBOX" Notes="" Text="This game supports an autosave feature. When you see this icon please do not turn off your console or remove the storage device." />
+        <EmbeddedText Flags="" Id="AUTOSAVE_NOTICE_PC" Notes="" Text="This game supports an autosave feature. When you see this icon please do not turn off your pc or remove the storage device." />
+        <EmbeddedText Flags="" Id="CONTENT_REMOVED_ERROR_TITLE" Notes="" Text="Game Content Removed" />
+        <EmbeddedText Flags="" Id="CONTENT_REMOVED_ERROR_DESC" Notes="" Text="The game will now exit." />
+        <EmbeddedText Flags="" Id="TRANSFER_SAVE" Notes="" Text="Export save games to cloud storage" />
+        <EmbeddedText Flags="" Id="TRANSFER_SAVE_TITLE" Notes="" Text="Exporting save game to cloud." />
+        <EmbeddedText Flags="" Id="TRANSFER_SAVE_WARNING" Notes="" Text="While you see the save icon please do not turn off your console." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Connection Warnings">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="WARN_DISCONNECT" Notes="" Text="You are not connected to Xbox Live.  Your scores will not be recorded to the leaderboards while disconnected." />
+        <EmbeddedText Flags="" Id="SIGNED_OUT_TITLE" Notes="" Text="Signed Out" />
+        <EmbeddedText Flags="" Id="SIGNED_OUT_BODY" Notes="" Text="A sign in change occurred. You are now being returned to the title screen." />
+        <EmbeddedText Flags="" Id="NOT_SIGNED_IN_ACHIEVEMENTS" Notes="" Text="Achievements are not available while not signed in." />
+        <EmbeddedText Flags="" Id="NOT_SIGNED_IN_LEADERBOARDS" Notes="" Text="Leaderboards are not available while not signed in." />
+        <EmbeddedText Flags="" Id="NOT_SIGNED_IN_PURCHASE_BODY" Notes="" Text="You must be signed-in to Xbox Live in order to purchase the full game." />
+        <EmbeddedText Flags="" Id="NOT_SIGNED_IN_PURCHASE_TITLE" Notes="" Text="Xbox Live" />
+        <EmbeddedText Flags="" Id="NOT_SIGNED_IN_DLC1_PURCHASE_BODY" Notes="" Text="You must be signed-in to Xbox Live in order to purchase Breakdown." />
+        <EmbeddedText Flags="" Id="NOT_SIGNED_IN" Notes="" Text="Not signed in" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="SystemMenus">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="SYS_ACHIEVEMENTS" Notes="" Text="Achievements" />
+        <EmbeddedText Flags="" Id="SYS_CONFIRM_EXIT_TO_MAIN_MENU_BODY" Notes="" Text="Are you sure you want to exit? Any unsaved progress will be lost." />
+        <EmbeddedText Flags="" Id="SYS_CONFIRM_EXIT_TO_MAIN_MENU_TITLE" Notes="" Text="Exit Game" />
+        <EmbeddedText Flags="" Id="SYS_CONTINUE" Notes="" Text="Continue" />
+        <EmbeddedText Flags="" Id="SYS_EXIT_GAME" Notes="" Text="Exit Game" />
+        <EmbeddedText Flags="" Id="SYS_HELP" Notes="" Text="Help" />
+        <EmbeddedText Flags="" Id="SYS_HELP_OPTIONS" Notes="" Text="Help &amp; Options" />
+        <EmbeddedText Flags="" Id="SYS_LEADERBOARDS" Notes="" Text="Leaderboards" />
+        <EmbeddedText Flags="" Id="SYS_MAIN_MENU" Notes="" Text="Main Menu" />
+        <EmbeddedText Flags="" Id="SYS_NEW_GAME" Notes="" Text="Start a New Game" />
+        <EmbeddedText Flags="" Id="SYS_PAUSE_MENU_TITLE" Notes="" Text="Game Menu" />
+        <EmbeddedText Flags="" Id="SYS_PRESS_START" Notes="was 'Press Start'" Text="Press" />
+        <EmbeddedText Flags="" Id="SYS_RESUME" Notes="" Text="Resume Game" />
+        <EmbeddedText Flags="" Id="SYS_SAVE_AND_EXIT" Notes="" Text="Exit Game" />
+        <EmbeddedText Flags="" Id="SYS_UNLOCK_GAME" Notes="" Text="Unlock Full Game" />
+        <EmbeddedText Flags="" Id="SYS_USER_SIGN_IN_BODY" Notes="" Text="Do you want to sign in? If you don't you will be unable to save progress." />
+        <EmbeddedText Flags="" Id="SYS_USER_SIGN_IN_TITLE" Notes="" Text="Sign In" />
+        <EmbeddedText Flags="" Id="HELP_HOW_TO_PLAY" Notes="" Text="How to Play" />
+        <EmbeddedText Flags="" Id="HELP_CONTROLS" Notes="" Text="Controls" />
+        <EmbeddedText Flags="" Id="HELP_SETTINGS" Notes="" Text="Settings" />
+        <EmbeddedText Flags="" Id="HELP_CREDITS" Notes="" Text="Credits" />
+        <EmbeddedText Flags="" Id="SETTINGS_SFX_VOLUME" Notes="Sound Effect Volume" Text="SFX Volume" />
+        <EmbeddedText Flags="" Id="SETTINGS_VOICE_VOLUME" Notes="" Text="Voice Volume" />
+        <EmbeddedText Flags="" Id="SETTINGS_MUSIC_VOLUME" Notes="" Text="Music Volume" />
+        <EmbeddedText Flags="" Id="SETTINGS_SUBTITLES" Notes="" Text="Subtitles" />
+        <EmbeddedText Flags="" Id="SETTINGS_INVERT_Y_AXIS" Notes="" Text="Invert Y-Axis" />
+        <EmbeddedText Flags="" Id="SETTINGS_INVERT_X_AXIS" Notes="" Text="Invert X-Axis" />
+        <EmbeddedText Flags="" Id="SETTINGS_CONTROLLER_VIBRATION" Notes="" Text="Controller Vibration" />
+        <EmbeddedText Flags="" Id="SETTINGS_STORAGE_LOCATION" Notes="" Text="Change Storage Location" />
+        <EmbeddedText Flags="" Id="SETTINGS_REVERT_TO_DEFAULTS" Notes="" Text="Revert to Defaults" />
+        <EmbeddedText Flags="" Id="SETTINGS_HINT_DURATION" Notes="" Text="Hint Duration" />
+        <EmbeddedText Flags="" Id="FRONTEND_BACK" Notes="" Text="Back" />
+        <EmbeddedText Flags="" Id="FRONTEND_SAVE_EXIT" Notes="" Text="Save and Exit" />
+        <EmbeddedText Flags="" Id="SETTINGS_SENSITIVITY" Notes="" Text="Controller Sensitivity" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_MIN" Notes="" Text="Graphics - Min Spec" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_MED" Notes="" Text="Graphics - Medium Spec" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_MAX" Notes="" Text="Graphics - Maximum Spec" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_ULTRA" Notes="" Text="Graphics - Ultra Spec" />
+        <EmbeddedText Flags="" Id="SETTINGS_SPEAKERS_MONO" Notes="" Text="Speakers - Mono" />
+        <EmbeddedText Flags="" Id="SETTINGS_SPEAKERS_STEREO" Notes="" Text="Speakers - Stereo" />
+        <EmbeddedText Flags="" Id="SETTINGS_SPEAKERS_QUAD" Notes="" Text="Speakers - QSound" />
+        <EmbeddedText Flags="" Id="SETTINGS_SPEAKERS_SURROUND" Notes="" Text="Speakers - Surround" />
+        <EmbeddedText Flags="" Id="SETTINGS_SPEAKERS_5POINT1" Notes="" Text="Speakers - Dolby 5,1" />
+        <EmbeddedText Flags="" Id="SETTINGS_SPEAKERS_7POINT1" Notes="" Text="Speakers - Dolby 7.1" />
+        <EmbeddedText Flags="" Id="SETTINGS_SPEAKERS_PROLOGIC" Notes="" Text="Speakers - Dolby ProLogic" />
+        <EmbeddedText Flags="" Id="SETTINGS_VSYNC" Notes="" Text="VSync" />
+        <EmbeddedText Flags="" Id="SETTINGS_FULLSCREEN" Notes="" Text="Fullscreen" />
+        <EmbeddedText Flags="" Id="SETTINGS_GAMMA" Notes="" Text="Gamma" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS" Notes="" Text="Graphics Settings" />
+        <EmbeddedText Flags="" Id="SETTINGS_GAME" Notes="" Text="Game Settings" />
+        <EmbeddedText Flags="" Id="SETTINGS_SOUND" Notes="" Text="Sound Settings" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_ASPECT_RATIO" Notes="" Text="Aspect Ratio" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION" Notes="" Text="Screen Resolution" />
+        <EmbeddedText Flags="" Id="SELECT_SAVE_SLOT" Notes="" Text="Choose Save Slot" />
+        <EmbeddedText Flags="" Id="EMPTY_SAVE_SLOT" Notes="" Text="- Empty -" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_480p" Notes="" Text="Resolution 480p" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_720p" Notes="" Text="Resolution 720p" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1080p" Notes="" Text="Resolution 1080p" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_2160p" Notes="" Text="Resolution 2160p" />
+        <EmbeddedText Flags="" Id="TICKER_EMBEDDED" Notes="" Text="Welcome to State of Decay!  Join your fellow survivors at forums.undeadlabs.com for game tips and news!" />
+        <EmbeddedText Flags="" Id="SYS_PLAY_GAME" Notes="" Text="Play Game" />
+        <EmbeddedText Flags="" Id="DELETE_SAVE_SLOT" Notes="" Text="Delete Saved Game" />
+        <EmbeddedText Flags="" Id="SYS_START_GAME" Notes="" Text="Start Game" />
+        <EmbeddedText Flags="" Id="SYS_PLAY_SOD" Notes="" Text="Play State of Decay" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_ASPECT_RATIO_16X9" Notes="" Text="Aspect Ratio - 16:9" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_ASPECT_RATIO_4X3" Notes="" Text="Aspect Ratio - 4:3" />
+        <EmbeddedText Flags="" Id="SETTINGS_MOUSE_SENSITIVITY" Notes="" Text="Mouse Sensitivity" />
+        <EmbeddedText Flags="" Id="SETTINGS_MOUSE_INVERT_X_AXIS" Notes="" Text="Mouse Invert X-Axis" />
+        <EmbeddedText Flags="" Id="SETTINGS_MOUSE_INVERT_Y_AXIS" Notes="" Text="Mouse Invert Y-Axis" />
+        <EmbeddedText Flags="" Id="SETTINGS_CONTROLLER_INVERT_X_AXIS" Notes="" Text="Controller Invert X-Axis" />
+        <EmbeddedText Flags="" Id="SETTINGS_CONTROLLER_INVERT_Y_AXIS" Notes="" Text="Controller Invert Y-Axis" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_ASPECT_RATIO_16X10" Notes="" Text="Aspect Ratio - 16:10" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_640x480" Notes="" Text="Resolution 640x480" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_800x600" Notes="" Text="Resolution 800x600" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1024x768" Notes="" Text="Resolution 1024x768" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1280x1024" Notes="" Text="Resolution 1280x1024" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_2048x1536" Notes="" Text="Resolution 2048x1536" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1280x720" Notes="" Text="Resolution 1280x720" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1366x768" Notes="" Text="Resolution 1366x768" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1600x900" Notes="" Text="Resolution 1600x900" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1920x1080" Notes="" Text="Resolution 1920x1080" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_3840x2160" Notes="" Text="Resolution 3840x2160" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1280x800" Notes="" Text="Resolution 1280x800" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1440x900" Notes="" Text="Resolution 1440x900" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1680x1050" Notes="" Text="Resolution 1680x1050" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_1920x1200" Notes="" Text="Resolution 1920x1200" />
+        <EmbeddedText Flags="" Id="SETTINGS_GRAPHICS_RESOLUTION_2560x1600" Notes="" Text="Resolution 2560x1600" />
+        <EmbeddedText Flags="" Id="SETTINGS_GAMEDVR" Notes="" Text="Game DVR" />
+        <EmbeddedText Flags="" Id="SETTINGS_GAMEDVR_HUMAN_DEATHS" Notes="" Text="Critical human deaths" />
+        <EmbeddedText Flags="" Id="SETTINGS_GAMEDVR_ZOMBIE_KILLS" Notes="" Text="Best zombie kills" />
+        <EmbeddedText Flags="" Id="SETTINGS_GAMEDVR_AUTORECORD" Notes="" Text="Game DVR Auto-record" />
+        <EmbeddedText Flags="" Id="SYS_CONTROLLER_DISCONNECTED_TITLE" Notes="" Text="Controller disconnected." />
+        <EmbeddedText Flags="" Id="SYS_CONTROLLER_DISCONNECTED" Notes="" Text="Reconnect your controller to continue." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Journal">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="J_EXIT" Notes="" Text="Close" />
+        <EmbeddedText Flags="" Id="J_EXIT_SUBMENU" Notes="" Text="Back" />
+        <EmbeddedText Flags="" Id="J_ACTION_DESC_INPUT" Notes="" Text="Cost" />
+        <EmbeddedText Flags="" Id="J_ACTION_DESC_OUTPUT" Notes="" Text="Unlocks" />
+        <EmbeddedText Flags="" Id="J_AVAILABLE_ACTIONS" Notes="" Text="Available Actions:" />
+        <EmbeddedText Flags="" Id="J_NO_ACTIONS" Notes="" Text="No Actions Available" />
+        <EmbeddedText Flags="" Id="J_AVAILABLE_FACILITIES" Notes="" Text="Available Facilities:" />
+        <EmbeddedText Flags="" Id="J_BUILDING_FACILITY" Notes="" Text="Under Construction" />
+        <EmbeddedText Flags="" Id="J_CANCEL_ACTION" Notes="" Text="Cancel Action" />
+        <EmbeddedText Flags="" Id="J_CANCEL_FACILITY" Notes="" Text="Cancel Action" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_DEAD" Notes="" Text="Dead" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_MISSION" Notes="" Text="On a mission" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_AWAY" Notes="" Text="Away from home" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_TRAINING" Notes="" Text="At home" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_TIRED" Notes="" Text="Tired" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_STAFF" Notes="Trailing space" Text="Staffing: " />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_MISSING" Notes="" Text="Missing" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_BUSY_UNKNOWN" Notes="" Text="Busy Unknown" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_IDLE" Notes="" Text="At home" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ACTION_RIDING_SHOTGUN" Notes="" Text="Following you" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_ASSUME_CONTROL" Notes="" Text="Switch to" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_BEFRIEND" Notes="" Text="Befriend" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_IS_ACQUAINTANCE" Notes="" Text="Guest" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_IS_FAMILY" Notes="" Text="Friend" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_IS_PLAYER" Notes="" Text="You" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_NEEDED" Notes="" Text="Needs Someone" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_WANT_NEEDED" Notes="Trailing space" Text="Need: " />
+        <EmbeddedText Flags="" Id="J_CHOOSE_ACTION" Notes="" Text="Select" />
+        <EmbeddedText Flags="" Id="J_CHOOSE_FACILITY" Notes="" Text="Build" />
+        <EmbeddedText Flags="" Id="J_CHOOSE_PERSON" Notes="" Text="Assign" />
+        <EmbeddedText Flags="" Id="J_DISPLAY_ACTION_OPTIONS" Notes="" Text="Choose Action" />
+        <EmbeddedText Flags="" Id="J_DISPLAY_FACILITY_INFO" Notes="" Text="Facility Information" />
+        <EmbeddedText Flags="" Id="J_DISPLAY_FACILITY_OPTIONS" Notes="" Text="Choose Facility" />
+        <EmbeddedText Flags="" Id="J_DISPLAY_PERSON_OPTIONS" Notes="" Text="Assign Person" />
+        <EmbeddedText Flags="" Id="J_UNASSIGN_PERSON" Notes="" Text="Unassign Person" />
+        <EmbeddedText Flags="" Id="J_FACILITY_BONUSES" Notes="" Text="Facility Bonuses" />
+        <EmbeddedText Flags="" Id="J_GENERAL_SPECIALIZATION_HEADING" Notes="" Text="General" />
+        <EmbeddedText Flags="" Id="J_GENERAL_SPECIALIZATION_DESCRIPTION" Notes="" Text=" " />
+        <EmbeddedText Flags="" Id="J_GUN_BROKEN" Notes="" Text="Jammed" />
+        <EmbeddedText Flags="" Id="J_GUN_DAMAGED" Notes="" Text="Damaged" />
+        <EmbeddedText Flags="" Id="J_MORE_INFO" Notes="" Text="Details" />
+        <EmbeddedText Flags="" Id="J_UNUSED_FACILITY_SLOT" Notes="" Text="Available" />
+        <EmbeddedText Flags="" Id="J_WEAPON_DAMAGED" Notes="" Text="Damaged" />
+        <EmbeddedText Flags="" Id="J_BASE_NAME" Notes="" Text="Spencer's Mill Church" />
+        <EmbeddedText Flags="" Id="J_RADIO_BUY" Notes="" Text="Buy" />
+        <EmbeddedText Flags="" Id="J_RADIO_CHANNEL_0_NAME" Notes="" Text="Radio" />
+        <EmbeddedText Flags="" Id="J_RADIO_CHANNEL_1_NAME" Notes="" Text="Extras" />
+        <EmbeddedText Flags="" Id="J_NOTE_NEED_STAFF" Notes="Facility needs a staff member assigned to it" Text="Need Staff" />
+        <EmbeddedText Flags="" Id="J_NOTE_NEED_RESOURCE_1" Notes="" Text="Not Enough %s" />
+        <EmbeddedText Flags="" Id="J_NOTE_NEED_RESOURCE_2" Notes="" Text="Need More %s" />
+        <EmbeddedText Flags="" Id="J_NOTE_WANT" Notes="" Text="Look For %s" />
+        <EmbeddedText Flags="" Id="J_HOME" Notes="" Text="Home" />
+        <EmbeddedText Flags="" Id="J_PEOPLE" Notes="" Text="Community" />
+        <EmbeddedText Flags="" Id="J_EXPERTISE" Notes="" Text="Survivor" />
+        <EmbeddedText Flags="" Id="J_EXPERTISE_ABILITIES_HEADING" Notes="" Text="Abilities" />
+        <EmbeddedText Flags="" Id="J_EXPERTISE_ABILITY_AVAILABLE" Notes="" Text=" " />
+        <EmbeddedText Flags="" Id="J_EXPERTISE_ABILITY_UNAVAILABLE" Notes="" Text="Locked" />
+        <EmbeddedText Flags="" Id="J_EXPERTISE_ABILITY_NEED_LEVEL" Notes="" Text=" " />
+        <EmbeddedText Flags="" Id="J_EXPERTISE_UNLOCK" Notes="" Text="Choose" />
+        <EmbeddedText Flags="" Id="J_EXPERTISE_UNLOCK_HOLD" Notes="" Text="Choose (Hold)" />
+        <EmbeddedText Flags="" Id="J_EXPERTISE_UNLOCK_WARN_TITLE" Notes="" Text="Attention!" />
+        <EmbeddedText Flags="" Id="J_EXPERTISE_UNLOCK_WARN_BODY" Notes="" Text="Choice is final for each character. Hold [ui_x] to choose." />
+        <EmbeddedText Flags="" Id="J_EXPERTISE_UNLOCK_EXPLAIN" Notes="" Text="Choose a specialization" />
+        <EmbeddedText Flags="" Id="J_ASSETS" Notes="" Text="Assets" />
+        <EmbeddedText Flags="" Id="J_EVENTS" Notes="" Text="Events" />
+        <EmbeddedText Flags="" Id="J_DISTANCE_FORMAT" Notes="" Text="%d m" />
+        <EmbeddedText Flags="" Id="J_SOUND_FORMAT" Notes="" Text="%d dB" />
+        <EmbeddedText Flags="" Id="J_WEIGHT_FORMAT" Notes="Used for item weights at least a pound" Text="%.1f lbs" />
+        <EmbeddedText Flags="" Id="J_WEIGHT_LIGHT_FORMAT" Notes="Used for item weights less than a pound" Text="%.2f lbs" />
+        <EmbeddedText Flags="" Id="J_WEIGHT_MIN" Notes="Used for item weights less than 0.01 pounds" Text="&lt;0.01 lbs" />
+        <EmbeddedText Flags="" Id="J_EVENT_DAY_FORMAT" Notes="" Text="Day %d" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_EFFECT_TRUST" Notes="" Text="%+d Trust" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_EFFECT_DIED" Notes="" Text="Died." />
+        <EmbeddedText Flags="" Id="J_CHARACTER_EFFECT_JOINED" Notes="" Text="Joined our community" />
+        <EmbeddedText Flags="" Id="J_ADVISOR" Notes="Indicates that the character is an advisor" Text="Advisor: %1$s" />
+        <EmbeddedText Flags="" Id="J_REWARD_FOOD" Notes="" Text="%+d Daily Rations of Food" />
+        <EmbeddedText Flags="" Id="J_REWARD_AMMO" Notes="" Text="%+d Cases of Ammunition" />
+        <EmbeddedText Flags="" Id="J_REWARD_MEDICINE" Notes="" Text="%+d Cases of Medicine" />
+        <EmbeddedText Flags="" Id="J_REWARD_FUEL" Notes="" Text="%+d Barrels of Fuel" />
+        <EmbeddedText Flags="" Id="J_REWARD_MATERIALS" Notes="" Text="%+d Construction Materials" />
+        <EmbeddedText Flags="" Id="J_INFLUENCE_COST" Notes="" Text="Cost" />
+        <EmbeddedText Flags="" Id="J_INFLUENCE_VALUE" Notes="" Text="Value" />
+        <EmbeddedText Flags="" Id="J_TAB_PEOPLE" Notes="" Text="Community" />
+        <EmbeddedText Flags="" Id="J_TAB_EXPERTISE" Notes="" Text="Survivor" />
+        <EmbeddedText Flags="" Id="J_TAB_ASSETS" Notes="" Text="Assets" />
+        <EmbeddedText Flags="" Id="J_TAB_EVENTS" Notes="" Text="Events" />
+        <EmbeddedText Flags="" Id="J_TAB_HOME" Notes="" Text="Home" />
+        <EmbeddedText Flags="" Id="J_TAB_CHALLENGE" Notes="" Text="Challenges" />
+        <EmbeddedText Flags="" Id="J_STORAGE_CAP" Notes="param is the maxium count of resources that can be stored" Text="Max Storage: %1$d" />
+        <EmbeddedText Flags="" Id="J_PORTRAIT_DEAD" Notes="" Text="DEAD" />
+        <EmbeddedText Flags="" Id="J_PORTRAIT_MISSING" Notes="" Text="MISSING" />
+        <EmbeddedText Flags="" Id="J_PORTRAIT_SICK" Notes="" Text="SICK" />
+        <EmbeddedText Flags="" Id="J_PORTRAIT_HURT" Notes="" Text="HURT" />
+        <EmbeddedText Flags="" Id="J_PORTRAIT_TIRED" Notes="" Text="TIRED" />
+        <EmbeddedText Flags="" Id="J_VEHICLE_AT_HOME" Notes="" Text="(at home)" />
+        <EmbeddedText Flags="" Id="J_CHARACTER_CHECK_FRIENDSHIP" Notes="" Text="Check Friendship" />
+        <EmbeddedText Flags="" Id="J_DURATION_D_H" Notes="Duration with days and hours" Text="%1$dd; %2$dhr" />
+        <EmbeddedText Flags="" Id="J_DURATION_H_M" Notes="Duration with hours and minutes" Text="%1$dhr; %2$dm" />
+        <EmbeddedText Flags="" Id="J_DURATION_M" Notes="Duration in minutes" Text="%1$dm" />
+        <EmbeddedText Flags="" Id="J_DURATION_M_S" Notes="Duration in minutes and seconds" Text="%1$dm; %2$ds" />
+        <EmbeddedText Flags="" Id="J_DURATION_S" Notes="Duration in just seconds" Text="%1$ds" />
+        <EmbeddedText Flags="" Id="J_NOTE_ASSET_HINT" Notes="" Text="View your possession lists here - weapons, guns, automobiles and items" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="UI Prompts">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="CHECK_FACILITY" Notes="" Text="Check %s" />
+        <EmbeddedText Flags="" Id="ATTACH_SUPPRESSOR" Notes="" Text="Attach" />
+        <EmbeddedText Flags="" Id="EQUIP" Notes="" Text="Equip" />
+        <EmbeddedText Flags="" Id="LOAD_AMMO" Notes="" Text="Reload Gun" />
+        <EmbeddedText Flags="" Id="UNEQUIP" Notes="" Text="Unequip" />
+        <EmbeddedText Flags="" Id="DESTROY_HOLD" Notes="" Text="Destroy (Hold)" />
+        <EmbeddedText Flags="" Id="DAMAGED" Notes="Notification that plays when the player's current weapon gets damaged" Text="Damaged" />
+        <EmbeddedText Flags="" Id="USE_CONSUMABLE" Notes="" Text="Use" />
+        <EmbeddedText Flags="" Id="PICK_UP_RUCKSACK" Notes="" Text="Pick Up Rucksack" />
+        <EmbeddedText Flags="" Id="HIDDEN" Notes="" Text="Hidden" />
+        <EmbeddedText Flags="" Id="READ_NOTE" Notes="" Text="Read" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Objective Text">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="OBJ_ASSASSINATE" Notes="" Text="Find and Kill %s" />
+        <EmbeddedText Flags="" Id="OBJ_DELIVER_RUCKSACK" Notes="" Text="Bring %s Home" />
+        <EmbeddedText Flags="" Id="OBJ_INFESTATION" Notes="" Text="Clear Infestation" />
+        <EmbeddedText Flags="" Id="OBJ_HORDE" Notes="" Text="Intercept Zombie Horde" />
+        <EmbeddedText Flags="" Id="OBJ_SCOUT_RESCUE" Notes="" Text="Rescue %s %s" />
+        <EmbeddedText Flags="" Id="OBJ_SCOUT_RESCUE_MULTI" Notes="" Text="Rescue The Missing" />
+        <EmbeddedText Flags="" Id="OBJ_SCOUT_RESOURCE" Notes="" Text="Search For %s" />
+        <EmbeddedText Flags="" Id="OBJ_WANT_ACQUIRED_TARGET" Notes="" Text="Bring %1$s to %2$s" />
+        <EmbeddedText Flags="" Id="OBJ_WANT_ACQUIRED_HOME" Notes="" Text="Bring %s home" />
+        <EmbeddedText Flags="" Id="OBJ_WANT_SEARCHING" Notes="" Text="Looking for %s" />
+        <EmbeddedText Flags="" Id="OBJ_WAYPOINT_HOME_POTENTIAL" Notes="" Text="Waypoint (Potential Home)" />
+        <EmbeddedText Flags="" Id="OBJ_WAYPOINT_HOME" Notes="" Text="Waypoint (Home)" />
+        <EmbeddedText Flags="" Id="OBJ_WAYPOINT_RUNNERS" Notes="" Text="Waypoint (Runners)" />
+        <EmbeddedText Flags="" Id="OBJ_WAYPOINT_ENCLAVE" Notes="" Text="Waypoint (Enclave)" />
+        <EmbeddedText Flags="" Id="OBJ_WAYPOINT_OUTPOST" Notes="" Text="Waypoint (Outpost)" />
+        <EmbeddedText Flags="" Id="OBJ_WAYPOINT" Notes="" Text="Waypoint" />
+        <EmbeddedText Flags="" Id="OBJ_WAYPOINT_RESOURCE" Notes="" Text="Waypoint (%s)" />
+        <EmbeddedText Flags="" Id="OBJ_WAYPOINT_SEARCH" Notes="" Text="Waypoint (Search)" />
+        <EmbeddedText Flags="" Id="OBJ_WAYPOINT_SURVEY" Notes="" Text="Waypoint (Survey)" />
+        <EmbeddedText Flags="" Id="WAYPOINT_MISSION_OP" Notes="" Text="MISSION" />
+        <EmbeddedText Flags="" Id="OBJ_SEARCH_BUILDING_PROGRESS" Notes="" Text="Search Progress" />
+        <EmbeddedText Flags="" Id="OBJ_DISTRACTION_PROGRESS" Notes="" Text="Distraction Progress" />
+        <EmbeddedText Flags="" Id="OBJ_GATHER_PROGRESS_BLOCKED" Notes="" Text="Progress Blocked" />
+        <EmbeddedText Flags="" Id="OBJ_GATHER_PROGRESS" Notes="" Text="Gather Progress" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Leaderboards">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="LB_GLOBAL" Notes="" Text="Global" />
+        <EmbeddedText Flags="" Id="LB_FRIENDS" Notes="" Text="Friends" />
+        <EmbeddedText Flags="" Id="LB_YOU" Notes="" Text="Your Scores" />
+        <EmbeddedText Flags="" Id="LB_CHANGE_VIEW" Notes="" Text="Change View" />
+        <EmbeddedText Flags="" Id="LB_OFFLINE" Notes="" Text="Leaderboards are not available while not connected to Xbox Live." />
+        <EmbeddedText Flags="" Id="LB_RETRIEVING_DATA" Notes="" Text="Retrieving Data" />
+        <EmbeddedText Flags="" Id="LB_SHOW_GAMERCARD" Notes="" Text="Show Gamercard" />
+        <EmbeddedText Flags="" Id="LB_TITLE_ZOMBIES_KILLED" Notes="" Text="Total Zombies Killed" />
+        <EmbeddedText Flags="" Id="LB_SCORE_ZOMBIES_KILLED" Notes="" Text="Kills" />
+        <EmbeddedText Flags="" Id="LB_TITLE_FAME" Notes="" Text="Total Fame Earned" />
+        <EmbeddedText Flags="" Id="LB_SCORE_FAME" Notes="" Text="Fame" />
+        <EmbeddedText Flags="" Id="LB_TITLE_ZOMBIE_SCORE" Notes="" Text="Zombie Kill Points (All Time)" />
+        <EmbeddedText Flags="" Id="LB_SCORE_ZOMBIE_SCORE" Notes="" Text="Points" />
+        <EmbeddedText Flags="" Id="LB_TITLE_ZOMBIE_SCORE_WEEKLY" Notes="" Text="Zombie Kill Points (Weekly)" />
+        <EmbeddedText Flags="" Id="LB_SCORE_ZOMBIE_SCORE_WEEKLY" Notes="" Text="Points" />
+        <EmbeddedText Flags="" Id="LB_UNRANKED_PLAYER" Notes="" Text="You are not ranked on this leaderboard." />
+        <EmbeddedText Flags="" Id="LB_UNRANKED_FRIENDS" Notes="" Text="Your friends are not ranked on this leaderboard." />
+        <EmbeddedText Flags="" Id="LB_UNRANKED_ALL" Notes="" Text="Nobody is ranked on this leaderboard." />
+        <EmbeddedText Flags="" Id="LB_RANK" Notes="" Text="Rank" />
+        <EmbeddedText Flags="" Id="LB_GAMERTAG" Notes="" Text="Gamertag" />
+        <EmbeddedText Flags="" Id="LB_TITLE_SCENARIO_SCORE" Notes="" Text="Best Score Card (Breakdown)" />
+        <EmbeddedText Flags="" Id="LB_SCORE_SCENARIO" Notes="" Text="Score" />
+        <EmbeddedText Flags="" Id="LB_TITLE_PLAYTHROUGH_SCORE" Notes="" Text="Best Playthrough (Breakdown)" />
+        <EmbeddedText Flags="" Id="LB_SCORE_PLAYTHROUGH" Notes="" Text="Score" />
+        <EmbeddedText Flags="" Id="LB_TITLE_COMBAT_SCORE" Notes="" Text="Combat Score (Breakdown)" />
+        <EmbeddedText Flags="" Id="LB_SCORE_COMBAT" Notes="" Text="Score" />
+        <EmbeddedText Flags="" Id="LB_TITLE_PROGRESS_SCORE" Notes="" Text="Weekly Progress Score (Breakdown)" />
+        <EmbeddedText Flags="" Id="LB_SCORE_PROGRESS" Notes="" Text="Score" />
+        <EmbeddedText Flags="" Id="LB_TITLE_LIFELINE_SCORE" Notes="" Text="High Score (Lifeline)" />
+        <EmbeddedText Flags="" Id="LB_SCORE_LIFELINE" Notes="" Text="Score" />
+        <EmbeddedText Flags="" Id="LB_TITLE_LIFELINE_CIVILIANS" Notes="" Text="Civilians Rescued (Lifeline)" />
+        <EmbeddedText Flags="" Id="LB_SCORE_CIVILIANS" Notes="" Text="Civilians" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Map Icon Labels">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="MAP_LABEL_ASSASSINATE" Notes="" Text="Find and Kill %s" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_DELIVER_RUCKSACK" Notes="" Text="Rucksack of %s" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_INFESTATION" Notes="" Text="Infestation" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_HORDE" Notes="" Text="Intercept Zombie Horde" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_SCOUT_RESCUE" Notes="" Text="Rescue: %s" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_SCOUT_RESCUE_MULTI" Notes="" Text="Rescue The Missing" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_SCOUT_RESOURCE" Notes="" Text="Home Needs: %s" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_WANT_TARGET" Notes="" Text="%1$s Needs: %2$s" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_WANT" Notes="" Text="Want: %s" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_ENEMY" Notes="" Text="Zombie" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_HOME_POTENTIAL" Notes="" Text="Potential Home Base" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_HOME" Notes="" Text="Home" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_SURVIVOR" Notes="" Text="Survivor" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_ENCLAVE" Notes="" Text="Enclave %1$s (Trust %2$d)" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_OBJECTIVE" Notes="" Text="Current Objective" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_PLAYER" Notes="" Text="You Are Here" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_WAYPOINT" Notes="" Text="Waypoint" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_BUILDING_DEPLETED" Notes="" Text="Nothing Left" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_BUILDING_UNKNOWN" Notes="" Text="Resources: ????" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_BUILDING_RESOURCES" Notes="" Text="Resources:" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_SURVEY" Notes="" Text="Survey Point" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_SAFE_ZONE" Notes="" Text="Safe Zone" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_SAFE_ZONE_TIME" Notes="Displays minutes" Text="Safe Zone (%dm)" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_ZOMBIE_HORDE" Notes="" Text="Roaming Zombie Horde" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_MORALE" Notes="" Text="Morale" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_ENCLAVE_TRUST" Notes="" Text="Trust" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_SEARCH_PARTY_PROGRESS" Notes="" Text="Search Progress" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_OUTPOST_DEFENSE" Notes="" Text="Outpost %d: Preparing Traps" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_OUTPOST_DEFENSE_READY" Notes="" Text="Outpost %d: Traps Ready" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_INFESTATION_SCREAMERS" Notes="" Text="Screamers" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_HOME_SITE_POP_REQ" Notes="" Text="Requires: %1$d People" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_HOME_SITE_MAT_REQ" Notes="" Text="Requires: %1$d Materials" />
+        <EmbeddedText Flags="" Id="MAP_LABEL_VEHICLE" Notes="" Text="Vehicle" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Map Needs">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="MAP_NEED_FOOD_DESPERATE" Notes="" Text="Desperately Need Food" />
+        <EmbeddedText Flags="" Id="MAP_NEED_FOOD" Notes="" Text="Need Food" />
+        <EmbeddedText Flags="" Id="MAP_NEED_MEDICINE_DESPERATE" Notes="" Text="Desperately Need Medicine" />
+        <EmbeddedText Flags="" Id="MAP_NEED_MEDICINE" Notes="" Text="Need Medicine" />
+        <EmbeddedText Flags="" Id="MAP_NEED_GUNS_DESPERATE" Notes="" Text="Desperately Need Guns" />
+        <EmbeddedText Flags="" Id="MAP_NEED_AMMO" Notes="" Text="Need Ammo" />
+        <EmbeddedText Flags="" Id="MAP_NEED_MATERIALS" Notes="" Text="Need Building Materials" />
+        <EmbeddedText Flags="" Id="MAP_ACTION_STALLED" Notes="" Text="&quot;%1$s&quot; has stalled." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Activities">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="ACT_COMPLETE_MORALE_BONUS" Notes="" Text="%+d Morale!" />
+        <EmbeddedText Flags="" Id="ACT_SCOUT_RESCUE_FOUND" Notes="" Text="Found %s!" />
+        <EmbeddedText Flags="" Id="ACT_SCOUT_RESCUE_FOUND_MULTI" Notes="" Text="Found Missing Npcs!" />
+        <EmbeddedText Flags="" Id="ACT_INTERCEPT_HORDE_FAIL" Notes="" Text="Zombie Horde Infested Location!" />
+        <EmbeddedText Flags="" Id="ACT_INTERCEPT_HORDE_ADD" Notes="" Text="Zombie Horde Inbound!" />
+        <EmbeddedText Flags="" Id="ACT_INTERCEPT_HORDE_NEARING" Notes="" Text="Zombie Horde Nearing Location!" />
+        <EmbeddedText Flags="" Id="ACT_INTERCEPT_HORDE_VICTORY" Notes="" Text="Zombie Horde Killed!" />
+        <EmbeddedText Flags="" Id="ACT_INTERCEPT_HORDE_HOME_FAIL" Notes="" Text="Zombie Horde Attacking Home!" />
+        <EmbeddedText Flags="" Id="ACT_INTERCEPT_HORDE_HOME_ADD" Notes="" Text="Zombie Horde Headed Towards Home!" />
+        <EmbeddedText Flags="" Id="ACT_INTERCEPT_HORDE_HOME_NEARING" Notes="" Text="Zombie Horde Nearing Home!" />
+        <EmbeddedText Flags="" Id="ACT_INTERCEPT_HORDE_HOME_VICTORY" Notes="" Text="Zombie Horde Killed!" />
+        <EmbeddedText Flags="" Id="ACT_DELIVER_RUCKSACK_COMPLETE" Notes="" Text="%s Collected!" />
+        <EmbeddedText Flags="" Id="DELIVERED" Notes="" Text="%s Delivered!" />
+        <EmbeddedText Flags="" Id="ACQUIRED" Notes="" Text="%s Acquired!" />
+        <EmbeddedText Flags="" Id="NEED" Notes="" Text="Need: %s" />
+        <EmbeddedText Flags="" Id="DELIVERED_WANT" Notes="" Text="Delivered %1$s to %2$s" />
+        <EmbeddedText Flags="" Id="ACT_SURVEY_ACTIVE" Notes="" Text="Surveying" />
+        <EmbeddedText Flags="" Id="ACT_SURVEY_AIM_HINT" Notes="" Text="Hold [ul_aim] to Survey" />
+        <EmbeddedText Flags="" Id="ACT_SURVEY_PROGRESSING" Notes="" Text="Examining Site" />
+        <EmbeddedText Flags="" Id="ACT_SURVEY_ENCLAVE" Notes="" Text="Enclave" />
+        <EmbeddedText Flags="" Id="ACT_SURVEY_INFESTATION" Notes="" Text="Infestation" />
+        <EmbeddedText Flags="" Id="ACT_SURVEY_HORDE" Notes="" Text="Zombie Horde" />
+        <EmbeddedText Flags="" Id="ACT_SURVEY_SEARCH_PARTY" Notes="" Text="Survivor Activity" />
+        <EmbeddedText Flags="" Id="ACT_SURVEY_DISCOVER" Notes="" Text="Discovered %s" />
+        <EmbeddedText Flags="" Id="ACT_SURVEY_VEHICLE" Notes="" Text="Vehicle" />
+        <EmbeddedText Flags="" Id="ACT_DELIVER_RUCKSACK_ITEMS_ADDED_LOG" Notes="" Text="Items added to the supply locker!" />
+        <EmbeddedText Flags="" Id="ACT_DELIVER_RUCKSACK_MAP_LABEL_BACKPACK" Notes="" Text="Belongings (%1$s %2$s)" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Resources">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="BOGUS_RESOURCE" Notes="" Text="Unknown resource" />
+        <EmbeddedText Flags="" Id="RESOURCE_AMMO" Notes="" Text="Ammo" />
+        <EmbeddedText Flags="" Id="RESOURCE_FOOD" Notes="" Text="Food" />
+        <EmbeddedText Flags="" Id="RESOURCE_FUEL" Notes="" Text="Fuel" />
+        <EmbeddedText Flags="" Id="RESOURCE_GUN" Notes="" Text="Guns" />
+        <EmbeddedText Flags="" Id="RESOURCE_MATERIALS" Notes="" Text="Materials" />
+        <EmbeddedText Flags="" Id="RESOURCE_MEDICINE" Notes="" Text="Medicine" />
+        <EmbeddedText Flags="" Id="RESOURCE_MELEE_WEAPONS" Notes="" Text="Weapons" />
+        <EmbeddedText Flags="" Id="RESOURCE_PEOPLE" Notes="" Text="People" />
+        <EmbeddedText Flags="" Id="RESOURCE_MISSION" Notes="" Text="Mission" />
+        <EmbeddedText Flags="" Id="RESOURCE_NOTHING" Notes="" Text="Nothing" />
+        <EmbeddedText Flags="" Id="RESOURCE_COMMUNITY_CHEST" Notes="" Text="Supply Locker" />
+        <EmbeddedText Flags="" Id="RESOURCE_LABOR" Notes="" Text="Labor" />
+        <EmbeddedText Flags="" Id="RESOURCE_INFLUENCE" Notes="" Text="Influence" />
+        <EmbeddedText Flags="" Id="RESOURCE_VEHICLE_INVENTORY" Notes="" Text="Vehicle Storage" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Conversations">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="CONV_EXIT" Notes="" Text="Never mind." />
+        <EmbeddedText Flags="" Id="CONV_FAMILY_JOIN" Notes="" Text="Let's be friends." />
+        <EmbeddedText Flags="" Id="CONV_FAMILY_JOIN_DESC" Notes="" Text="Add %1$s as a FRIEND. Friends share Fame and Influence. You can switch between friends when you aren't on a mission." />
+        <EmbeddedText Flags="" Id="CONV_FAMILY_JOIN_FAIL" Notes="" Text="We're friends, right?" />
+        <EmbeddedText Flags="" Id="CONV_FAMILY_JOIN_FAIL_DESC" Notes="" Text="Find out where you stand." />
+        <EmbeddedText Flags="" Id="CONV_ENCLAVE_JOIN" Notes="" Text="Ask %s to join your home?" />
+        <EmbeddedText Flags="" Id="CONV_PLAY_AS" Notes="" Text="I'm beat. Why don't you take over for awhile?" />
+        <EmbeddedText Flags="" Id="CONV_PLAY_AS_DESC" Notes="" Text="Switch to %1$s and let %2$s rest. %2$s will regain maximum Vitality and Stamina while resting." />
+        <EmbeddedText Flags="" Id="CONV_COME_WITH_ME" Notes="" Text="Come with me and watch my back." />
+        <EmbeddedText Flags="" Id="CONV_COME_WITH_ME_DESC" Notes="" Text="Have %s accompany you and fight with you. (%d Influence)" />
+        <EmbeddedText Flags="" Id="CONV_COME_WITH_ME_NOT_AVAILABLE_DESC" Notes="" Text="%s can't accompany you right now. (%s)" />
+        <EmbeddedText Flags="" Id="CONV_BUGGER_OFF" Notes="" Text="You should head home." />
+        <EmbeddedText Flags="" Id="CONV_BUGGER_OFF_DESC" Notes="" Text="Send %1$s home." />
+        <EmbeddedText Flags="" Id="CONV_COME_WITH_ME_NO_INFLUENCE" Notes="" Text="Insufficient Influence" />
+        <EmbeddedText Flags="" Id="CONV_COME_WITH_ME_WONT" Notes="" Text="Refuses" />
+        <EmbeddedText Flags="" Id="CONV_COME_WITH_ME_TIRED" Notes="" Text="Tired or Injured" />
+        <EmbeddedText Flags="" Id="CONV_HEADED_HOME" Notes="" Text="Time to go home." />
+        <EmbeddedText Flags="" Id="CONV_GET_ON_RV" Notes="" Text="Get to the RV!" />
+        <EmbeddedText Flags="" Id="CONV_GET_ON_RV_DESC" Notes="" Text="Tell %s to board the RV." />
+        <EmbeddedText Flags="" Id="CONV_RV_FULL" Notes="" Text="The RV is full." />
+        <EmbeddedText Flags="" Id="CONV_RV_FULL_DESC" Notes="" Text="No room for %s on the RV." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Mission">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="MISSION_COMPLETE" Notes="" Text="Mission Complete" />
+        <EmbeddedText Flags="" Id="MISSION_OP_TAGGED" Notes="" Text="New Waypoint" />
+        <EmbeddedText Flags="" Id="MISSION_REWARD" Notes="" Text="%s%d %s" />
+        <EmbeddedText Flags="" Id="MISSION_SCRAPPED" Notes="" Text="Mission Scrapped" />
+        <EmbeddedText Flags="" Id="MISSION_RETURN_TO_AREA" Notes="Warning message displayed when players stray from a mission area" Text="Return to mission area" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="SearchParty">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="SP_OBJECTIVE_ASK_FOR_SUPPLIES" Notes="param is a resource type" Text="Neighbor Needs %s" />
+        <EmbeddedText Flags="" Id="SP_OBJECTIVE_RESCUE_NPC" Notes="param is an npc name" Text="%s %s Is Missing!" />
+        <EmbeddedText Flags="" Id="SP_SUPPLY_RUN_STATE_IDLE" Notes="param is a resource type" Text="%s Supply Run: Preparing" />
+        <EmbeddedText Flags="" Id="SP_SUPPLY_RUN_STATE_ARRIVE" Notes="param is a resource type" Text="%s Supply Run: On The Move" />
+        <EmbeddedText Flags="" Id="SP_SUPPLY_RUN_STATE_RETURN" Notes="param is a resource type" Text="%s Supply Run: On The Move" />
+        <EmbeddedText Flags="" Id="SP_SUPPLY_RUN_STATE_SEARCH" Notes="param is a resource type" Text="%s Supply Run: Searching (Just Arrived)" />
+        <EmbeddedText Flags="" Id="SP_SUPPLY_RUN_STATE_GATHER" Notes="param1 is a resource type" Text="%s Supply Run: Searching" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Upsell">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="UPSELL_HEADER" Notes="" Text="State of Decay" />
+        <EmbeddedText Flags="" Id="UPSELL_BACK_TO_MENU" Notes="" Text="Back to Main Menu" />
+        <EmbeddedText Flags="" Id="UPSELL_UNLOCK_FULL_VERSION" Notes="" Text="Unlock Full Game" />
+        <EmbeddedText Flags="" Id="UPSELL_AWARD_HEADER" Notes="" Text="You earned:" />
+        <EmbeddedText Flags="" Id="UPSELL_AWARD_BODY" Notes="" Text="Unlock the full game to receive it." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Container">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="CTNR_FOUND_AMMO" Notes="" Text="Found some ammo." />
+        <EmbeddedText Flags="" Id="CTNR_FOUND_FOOD" Notes="" Text="Found some food." />
+        <EmbeddedText Flags="" Id="CTNR_FOUND_FUEL" Notes="" Text="Found some fuel." />
+        <EmbeddedText Flags="" Id="CTNR_FOUND_GUNS" Notes="" Text="Found some guns." />
+        <EmbeddedText Flags="" Id="CTNR_FOUND_MATERIALS" Notes="" Text="Found some materials." />
+        <EmbeddedText Flags="" Id="CTNR_FOUND_MEDICINE" Notes="" Text="Found some medicine." />
+        <EmbeddedText Flags="" Id="CTNR_FOUND_WEAPONS" Notes="" Text="Found some weapons." />
+        <EmbeddedText Flags="" Id="CTNR_FOUND_ITEMS" Notes="" Text="Found some remaining items." />
+        <EmbeddedText Flags="" Id="CTNR_FOUND_NOTHING" Notes="" Text="Nothing left." />
+        <EmbeddedText Flags="" Id="CTNR_TAKE" Notes="" Text="Take" />
+        <EmbeddedText Flags="" Id="CTNR_TAKE_COUNT" Notes="" Text="Take %d" />
+        <EmbeddedText Flags="" Id="CTNR_RESUPPLY" Notes="" Text="Resupply" />
+        <EmbeddedText Flags="" Id="CTNR_LOAD_RUCKSACK" Notes="" Text="Load Rucksack (Hold)" />
+        <EmbeddedText Flags="" Id="CTNR_BREAK_OPEN" Notes="" Text="Break Open (Hold)" />
+        <EmbeddedText Flags="" Id="CTNR_RADIO_HOME" Notes="" Text="Radio Home" />
+        <EmbeddedText Flags="" Id="CTNR_CLOSE" Notes="" Text="Close" />
+        <EmbeddedText Flags="" Id="CTNR_OK" Notes="" Text="Ok" />
+        <EmbeddedText Flags="" Id="CTNR_EMPTY_1" Notes="" Text="Nothing." />
+        <EmbeddedText Flags="" Id="CTNR_EMPTY_2" Notes="" Text="Empty." />
+        <EmbeddedText Flags="" Id="CTNR_EMPTY_3" Notes="" Text="" />
+        <EmbeddedText Flags="" Id="CTNR_PLAYER_INVENTORY" Notes="" Text="Player Inventory" />
+        <EmbeddedText Flags="" Id="CTNR_RETURN" Notes="" Text="Stash" />
+        <EmbeddedText Flags="" Id="CTNR_RETURN_COUNT" Notes="" Text="Stash %d" />
+        <EmbeddedText Flags="" Id="CTNR_SUPPLY_LOCKER" Notes="" Text="Supply Locker" />
+        <EmbeddedText Flags="" Id="CTNR_RETURN_RUCKSACK" Notes="" Text="Stash Rucksack" />
+        <EmbeddedText Flags="" Id="CTNR_TAKE_RUCKSACK" Notes="" Text="Take Rucksack" />
+        <EmbeddedText Flags="" Id="CTNR_REPAIR" Notes="" Text="Repair" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Search">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="SEARCH_TITLE" Notes="" Text="Searching" />
+        <EmbeddedText Flags="" Id="SEARCH_FAST_INFO" Notes="" Text="Hold [sprint] to search faster!" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="EventSummary">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="SUMMARY_REWARD_FOOD_FORMAT" Notes="" Text="%d Daily Rations of Food" />
+        <EmbeddedText Flags="" Id="SUMMARY_REWARD_MEDS_FORMAT" Notes="" Text="%d Cases of Medicine" />
+        <EmbeddedText Flags="" Id="SUMMARY_REWARD_AMMO_FORMAT" Notes="" Text="%d Cases of Ammunition" />
+        <EmbeddedText Flags="" Id="SUMMARY_REWARD_MATS_FORMAT" Notes="" Text="%d Construction Materials" />
+        <EmbeddedText Flags="" Id="SUMMARY_REWARD_FUEL_FORMAT" Notes="" Text="%1$d Barrels of Fuel" />
+        <EmbeddedText Flags="" Id="SUMMARY_REWARD_FAME_FORMAT" Notes="" Text="%+d Fame." />
+        <EmbeddedText Flags="" Id="SUMMARY_REWARD_POPULATION_FORMAT" Notes="" Text="%1$d Population" />
+        <EmbeddedText Flags="" Id="SUMMARY_EFFECT_POPULATION_NAME" Notes="" Text="Community Members" />
+        <EmbeddedText Flags="" Id="SUMMARY_EFFECT_POPULATION_FORMAT" Notes="" Text="%1$d Population" />
+        <EmbeddedText Flags="" Id="SPOILAGE_NAME" Notes="" Text="Resources Lost" />
+        <EmbeddedText Flags="" Id="SPOILAGE_SUMMARY" Notes="" Text="Max Storage exceeded" />
+        <EmbeddedText Flags="" Id="SPOILAGE_TUTORIAL" Notes="" Text="STORAGE facilities increase your maximum storage capacity." />
+        <EmbeddedText Flags="" Id="SPOILAGE_DESC" Notes="" Text="There's no point in stockpiling more resources than we can store properly. -Lily" />
+        <EmbeddedText Flags="" Id="EVENT_NEW_FAMILY_MEMBER_DESC" Notes="" Text="You are now friends with %1$s." />
+        <EmbeddedText Flags="" Id="EVENT_NEW_FAMILY_MEMBER" Notes="" Text="New Friend" />
+        <EmbeddedText Flags="" Id="EVENT_NEW_FAMILY_MEMBER_ARG" Notes="" Text="Is now your friend." />
+        <EmbeddedText Flags="" Id="EOD_RESULTS_NAME" Notes="" Text="Resource Report" />
+        <EmbeddedText Flags="" Id="EOD_RESULTS_SUMMARY" Notes="" Text="Resources Gathered and Consumed" />
+        <EmbeddedText Flags="" Id="EOD_RESULTS_TUTORIAL" Notes="" Text="RESOURCES are gathered and consumed when you are away for a short period of time." />
+        <EmbeddedText Flags="" Id="EOD_RESULTS_DESC" Notes="" Text="RESOURCES keep our community going." />
+        <EmbeddedText Flags="" Id="BONUS_EOD_RESULTS_NAME" Notes="" Text="Bonus Resource Report" />
+        <EmbeddedText Flags="" Id="BONUS_EOD_RESULTS_SUMMARY" Notes="" Text="Bonus Resources Gathered" />
+        <EmbeddedText Flags="" Id="BONUS_EOD_RESULTS_TUTORIAL" Notes="" Text="Bonus RESOURCES are gathered from OUTPOSTS when you are away for more than a day provided you have materials for upkeep." />
+        <EmbeddedText Flags="" Id="BONUS_EOD_RESULTS_DESC" Notes="" Text="RESOURCES keep our community going." />
+        <EmbeddedText Flags="" Id="FACILITY_UPKEEP_FAILED_NAME" Notes="" Text="Outpost Upkeep Failed" />
+        <EmbeddedText Flags="" Id="FACILITY_UPKEEP_FAILED_SUMMARY" Notes="" Text="Insufficient materials" />
+        <EmbeddedText Flags="" Id="FACILITY_UPKEEP_FAILED_TUTORIAL" Notes="" Text="Survivors need 1 Material to maintain an Outpost. In exchange, they return with 3 of whichever resource the Outpost contains." />
+        <EmbeddedText Flags="" Id="FACILITY_UPKEEP_FAILED_DESC" Notes="" Text="OUTPOSTS keep our RESOURCES stocked." />
+        <EmbeddedText Flags="" Id="EVENT_NEW_MILITARY_OFFICER_DESC" Notes="" Text="The brass have given %1$s more operational discretion." />
+        <EmbeddedText Flags="" Id="EVENT_NEW_MILITARY_OFFICER" Notes="" Text="Field Promotion" />
+        <EmbeddedText Flags="" Id="EVENT_NEW_MILITARY_OFFICER_ARG" Notes="" Text="Is now playable." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="How To Play">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="HTP_HEADING_SURVIVAL" Notes="" Text="Survival" />
+        <EmbeddedText Flags="" Id="HTP_TEXT_SURVIVAL" Notes="" Text="State of Decay is an open sandbox world that develops in real time, dynamically responding to your actions, the choices you make, and the ever-increasing zombie threat. Decide where you'd like to set up a fortified safe haven for you and other survivors you've rescued, then scout for critical supplies and call runners to gather resources and create supply chains. Use the materials you've gathered to build and upgrade your home base, but be careful! Resources will deplete as you pillage areas, and zombies are attracted to noise and activity. Take up the offensive by assaulting hordes before they reach your home, or focus on improving your defenses against the massed zombie attacks. Every choice and every action matter in this fully simulated, evolving world." />
+        <EmbeddedText Flags="" Id="HTP_HEADING_HOME_BASE" Notes="" Text="Home Base" />
+        <EmbeddedText Flags="" Id="HTP_TEXT_HOME_BASE" Notes="" Text="Manage your Home via your Journal. Here you can see the status of all your community members, including their Vitality, Stamina, inventory, skills, current condition, and interesting character traits. Earning the friendship of other survivors unlocks the ability to play as them. Help ensure your long-term survival by scavenging supplies, rescuing more survivors to join your community, and building facilities that enable you to create your own resources. Every base has a unique combination of built-in facilities as well as space to build your own. Feeling cramped? Need room to grow? Seek out new locations that offer the protection and space your community needs to expand. Keep an eye on your stockpiles as the strength of your supplies directly impacts your community's morale. Low morale paves the way to negative consequences." />
+        <EmbeddedText Flags="" Id="HTP_HEADING_EXPLORATION" Notes="" Text="Exploration" />
+        <EmbeddedText Flags="" Id="HTP_TEXT_EXPLORATION" Notes="" Text="Navigate the World: Press [xi_a] to interact with a range of environmental objects, from climbing fences, hurdling barriers, to crashing through windows. Stealth: Hold [xi_b] to crouch and enter stealth mode. Use the [xi_thumblx] to move while crouched. Tap [xi_b] again to exit crouch. Crouching while in bushes provides additional stealth. Sneak up on wandering zombies to deliver an instantaneous killing blow with [sprint] + [xi_use]. Discovery: Use [xi_y] to interact with objects in the world such as opening doors, searching containers, and barricading windows. Express Yourself: Experiment with the effects of the different emotes your character can display. Hold [emote_hold] then press [xi_y], [xi_b], [xi_a], or [xi_x]." />
+        <EmbeddedText Flags="" Id="HTP_HEADING_COMBAT" Notes="" Text="Combat" />
+        <EmbeddedText Flags="" Id="HTP_TEXT_COMBAT" Notes="" Text="Practice makes perfect. Every character in the world has a unique set of skills and traits, some of which can impact combat effectiveness. Improve skills through use, then choose which specializations to unlock. Are you a stealth expert, able to sneak into any building? Or are you a one-shot zombie killing machine? Contextual Moves: Press [sprint] + [xi_use] for interactive moves such as pushing a zombie away or shoving it against a wall. Finishers: When an enemy is in a prone position, press [sprint] + [xi_use] to perform a finishing move." />
+        <EmbeddedText Flags="" Id="HTP_HEADING_VEHICLES" Notes="" Text="Vehicles" />
+        <EmbeddedText Flags="" Id="HTP_TEXT_VEHICLES" Notes="" Text="Like all valuable resources in the world, cars are in limited supply. You'll want to get them home and fixed up in your workshop to keep them in top working order. If a vehicle gets damaged beyond repair, it's gone forever. And don't forget, vehicles are noisy!" />
+        <EmbeddedText Flags="" Id="HTP_HEADING_MISSIONS" Notes="" Text="Missions" />
+        <EmbeddedText Flags="" Id="HTP_TEXT_MISSIONS" Notes="" Text="Keep an eye on your map and your ears tuned to the radio for new mission opportunities.  Mission types range in variety, from scavenging runs to helping your neighbors fight off a zombie attack. Decide which missions to take based on your community's needs. Some mission opportunities are time sensitive, so choose your priorities carefully. Survival is exhausting work and, unlike zombies, people need to rest. When your Vitality and Stamina are running low, head back to your home base to rest up. Maybe take another community member out for a stroll." />
+        <EmbeddedText Flags="" Id="HTP_HEADING_INFLUENCE" Notes="" Text="Influence" />
+        <EmbeddedText Flags="" Id="HTP_TEXT_INFLUENCE" Notes="" Text="Cash is no longer a factor in the post-apocalyptic zombie world. The new currency is supplies and deeds that earn you Influence.  Influence plays a large role in getting what you want, whether it be ammo from your own community's supply locker or borrowing some meds from your neighbors. Earning Influence is pretty straightforward: Get Shit Done." />
+        <EmbeddedText Flags="" Id="HTP_PAGE_NEXT" Notes="Move to next page in 'how to play' menu" Text="Next" />
+        <EmbeddedText Flags="" Id="HTP_PAGE_PREV" Notes="Move to previous page in 'how to play' menu" Text="Previous" />
+        <EmbeddedText Flags="" Id="HTP_DLC1_HEADING_SURVIVAL" Notes="" Text="Intro" />
+        <EmbeddedText Flags="" Id="HTP_DLC1_TEXT_SURVIVAL" Notes="" Text="Breakdown is a new, open-ended, endless mode for State of Decay. There is no scripted storyline. Everything is based on your choices. When you exhaust your resources, you can climb aboard an RV, and head out to a new scenario with replenished supplies ... and more difficult zombies." />
+        <EmbeddedText Flags="" Id="HTP_DLC1_HEADING_HOME_BASE" Notes="" Text="Finding a Home" />
+        <EmbeddedText Flags="" Id="HTP_DLC1_TEXT_HOME_BASE" Notes="" Text="When you begin your first Breakdown game, you will need to find a community to join. You have multiple communities to choose from, each marked on the map. When you find the one you want to join, simply speak to their leader (who is standing precisely under the map marker), and announce that you want to join up." />
+        <EmbeddedText Flags="" Id="HTP_DLC1_HEADING_EXPLORATION" Notes="" Text="The RV" />
+        <EmbeddedText Flags="" Id="HTP_DLC1_TEXT_EXPLORATION" Notes="" Text="Even before you are ready to move on to the next map, you'll want to keep your eyes open for a working RV propped up on a jack, somewhere in the environment. That RV is your ticket out. When you approach it for the first time, it is added to the Home Tab in your Journal, next to the Outposts. From then on, you can use that RV icon to repair, load up, and leave in the RV." />
+        <EmbeddedText Flags="" Id="HTP_DLC1_HEADING_COMBAT" Notes="" Text="Breaking Down" />
+        <EmbeddedText Flags="" Id="HTP_DLC1_TEXT_COMBAT" Notes="" Text="Your RV eventually breaks down in an area with refreshed supplies where you can start to rebuild. It will serve as a temporary home site for you until you can find a new place to live." />
+        <EmbeddedText Flags="" Id="HTP_DLC1_HEADING_VEHICLES" Notes="" Text="Difficulty" />
+        <EmbeddedText Flags="" Id="HTP_DLC1_TEXT_VEHICLES" Notes="" Text="Each time you move on in the RV, your difficulty level increases. You can check your current difficulty level by visiting the Challenge tab in the Journal. A high difficulty level means denser, faster, more dangerous zombies, as well as reductions to available resources. Once a difficulty level has been unlocked, you can select it as your starting point in any future Breakdown game." />
+        <EmbeddedText Flags="" Id="HTP_DLC1_HEADING_MISSIONS" Notes="" Text="Challenges and Heroes" />
+        <EmbeddedText Flags="" Id="HTP_DLC1_TEXT_MISSIONS" Notes="" Text="The Challenge Tab in your Journal displays a list of Challenges, each of which is tied to a particular Hero. Complete a challenge, and its Hero will shortly appear as a recruitable character, and will begin to show up randomly in the world in all your future Breakdown games. You may also select that Hero as your starting character when beginning a new game from scratch. Heroes usually begin with upgraded skills, unique abilities, and special weapons." />
+        <EmbeddedText Flags="" Id="HTP_DLC1_HEADING_INFLUENCE" Notes="" Text="Scoring" />
+        <EmbeddedText Flags="" Id="HTP_DLC1_TEXT_INFLUENCE" Notes="" Text="Zombie kills, feats of fighting skill, completed missions, Home upgrades, and a range of other accomplishments all contribute to the Score that you earn at the end of a Breakdown scenario. Whenever you leave the map (or die), your Score will be displayed, and that same Score will be tracked and recorded on the Breakdown leaderboards. Playing at a higher difficulty has a major positive impact on your Score." />
+        <EmbeddedText Flags="" Id="HTP_TEXT_EXPLORATION_KEYBOARD" Notes="" Text="Navigate the World: Press [jump] to interact with a range of environmental objects, from climbing fences, hurdling barriers, to crashing through windows. Stealth: Hold [cover] to crouch and enter stealth mode. Use [moveforward], [moveleft], [moveback], [moveright] to move while crouched. . Tap [cover] again to exit crouch. Crouching while in bushes provides additional stealth. Sneak up on wandering zombies to deliver an instantaneous killing blow. Discovery: Use [xi_use] to interact with objects in the world such as opening doors, searching containers, and barricading windows. Express Yourself: Experiment with the effects of the different emotes your character can display. Press [emote1], [emote4], [emote3], or [emote2] to emote." />
+        <EmbeddedText Flags="" Id="HTP_TEXT_COMBAT_KEYBOARD" Notes="" Text="Practice makes perfect. Every character in the world has a unique set of skills and traits, some of which can impact combat effectiveness. Improve skills through use, then choose which specializations to unlock. Are you a stealth expert, able to sneak into any building? Or are you a one-shot zombie killing machine? Contextual Moves: Press [execute] for interactive moves such as pushing a zombie away or shoving it against a wall. Finishers: When an enemy is in a prone position, press [execute] to perform a finishing move." />
+        <EmbeddedText Flags="" Id="HTP_DLC2_HEADING_INTRO" Notes="" Text="Intro" />
+        <EmbeddedText Flags="" Id="HTP_DLC2_TEXT_INTRO" Notes="" Text="State of Decay: Lifeline is a military-themed expansion to State of Decay, featuring a new map, new characters, and new ways to play. You are Greyhound One, a U.S. Army unit that has been inserted into a zombie-infested city to rescue key personnel, starting with a research scientist named Dr. Thomas Horn, whose helicopter crashed just outside of town." />
+        <EmbeddedText Flags="" Id="HTP_DLC2_HEADING_DANFORTH" Notes="" Text="Welcome to Danforth" />
+        <EmbeddedText Flags="" Id="HTP_DLC2_TEXT_DANFORTH" Notes="" Text="The city of Danforth is almost completely overrun with zombies. Press [ul_map_menu] to view the map. The red areas are Danger Zones. One step inside a Danger Zone will attract a swarm of zombies from the urban center. Use the elevated highway to navigate the outskirts of the city, and stay out of harm's way ... mostly." />
+        <EmbeddedText Flags="" Id="HTP_DLC2_HEADING_BASE" Notes="" Text="Military Base" />
+        <EmbeddedText Flags="" Id="HTP_DLC2_TEXT_BASE" Notes="" Text="Once you have established your base of operations, press [ul_journal_menu] to manage your facilities. New additions for Lifeline include Defenses (traps and distractions), the Landing Zone (supply drops), the Ops Center (tactics and research), the Generator (unlocking advanced facility actions), and the Latrine (staving off sickness). Make sure to explore all the new and advanced options at your disposal." />
+        <EmbeddedText Flags="" Id="HTP_DLC2_HEADING_RESCUE" Notes="" Text="Rescue Missions" />
+        <EmbeddedText Flags="" Id="HTP_DLC2_TEXT_RESCUE" Notes="" Text="You were sent to Danforth specifically to rescue High Value Targets (marked with RED icons on the map). These are the most important missions to complete. Fail or ignore too many of them, and your operation will be scrapped. Civilians (WHITE icons) and Soldiers (GREEN icons) are also valuable, but not mission-critical. Rescued Soldiers may become playable members of your unit. High Value Targets and Civilians will not. When rescued, they will be extracted on the next helicopter." />
+        <EmbeddedText Flags="" Id="HTP_DLC2_HEADING_SIEGES" Notes="" Text="Zombie Sieges" />
+        <EmbeddedText Flags="" Id="HTP_DLC2_TEXT_SIEGES" Notes="" Text="The current Threat Level (displayed below the mini-map) indicates how soon your base will be hit by a siege -- a major zombie attack. This threat builds up over time as zombies escape the city, and then an incoming helicopter from HQ will draw them straight to your base. This means that when you rescue a High Value Target or a Civilian, they will need to survive a siege before they can be airlifted to safety. Whenever a siege is inbound, get back to your base quickly to help defend it, or people are likely to die." />
+        <EmbeddedText Flags="" Id="HTP_DLC2_HEADING_OUTPOSTS" Notes="" Text="Military Outposts" />
+        <EmbeddedText Flags="" Id="HTP_DLC2_TEXT_OUTPOSTS" Notes="" Text="Press [ul_radio_menu] to access radio options from HQ, including artillery strikes, reinforcements, and drone recon (revealing zombie and building locations on the map) ... plus the ability to place Outposts. Eventually, you may need to establish your own access to these abilities by searching for appropriate military sites around the city (Drone Trailers, Artillery Sites, Satellite Uplinks), and placing Outposts there." />
+        <EmbeddedText Flags="" Id="HTP_DLC2_HEADING_VEHICLE_STORAGE" Notes="" Text="Vehicle Storage" />
+        <EmbeddedText Flags="" Id="HTP_DLC2_TEXT_VEHICLE_STORAGE" Notes="" Text="All versions of State of Decay have now been upgraded with Vehicle Storage. Approach the rear of any driveable vehicle, and press [xi_use] to access the inventory for that vehicle. You may load conventional inventory items (weapons, ammunition, consumables, etc) or rucksack resources (Food, Ammo, Materials, Medicine, Fuel) into a vehicle. When you drive a vehicle into your Parking facility, any rucksack resources it contains are automatically delivered into your base." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Emote">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="EMOTE_AGREE" Notes="" Text="Agree" />
+        <EmbeddedText Flags="" Id="EMOTE_CHEER" Notes="" Text="Cheer" />
+        <EmbeddedText Flags="" Id="EMOTE_DISAGREE" Notes="" Text="Disagree" />
+        <EmbeddedText Flags="" Id="EMOTE_YELL" Notes="" Text="Taunt" />
+        <EmbeddedText Flags="" Id="THROW_RUCKSACK" Notes="" Text="Drop Rucksack" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Weapon Types">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="WEAPON_TYPE_BLUNT_HEAVY" Notes="" Text="Heavy Weapon" />
+        <EmbeddedText Flags="" Id="WEAPON_TYPE_BLUNT_LIGHT" Notes="" Text="Blunt Weapon" />
+        <EmbeddedText Flags="" Id="WEAPON_TYPE_EDGED_LIGHT" Notes="" Text="Edged Weapon" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="DLC">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="SYS_DLC_PLAY" Notes="" Text="Play DLC" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_PLAY" Notes="" Text="Play Breakdown" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_BUY" Notes="" Text="Buy Breakdown" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_CONTINUE" Notes="" Text="Continue Breakdown Scenario" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_NEW_GAME" Notes="" Text="Start a New Breakdown Scenario" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_CHALLENGE_REWARD" Notes="" Text="Reward: %s %s" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_CHOOSE_HERO" Notes="" Text="Choose Your Hero" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_SELECT_DIFFICULTY" Notes="" Text="Choose Your Difficulty" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_LEVEL" Notes="" Text="Difficulty Level" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_LEVEL_DESC" Notes="" Text="Difficulty Level determines how hard and how rewarding" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_RANDOM_CHARACTER" Notes="" Text="Random Character" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_RANDOM_CHARACTER_DESC" Notes="" Text="Play as a random non-hero character. At first, this is your only option. After heroes are unlocked, you can still choose it for an extra challenge!" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_HERO_UNLOCK" Notes="" Text="%s %s" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_ARC_GOAL_HEADER" Notes="" Text="Current Goal" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_HERO_PROGRESS" Notes="" Text="Progress: %d/%d" />
+        <EmbeddedText Flags="" Id="J_CHAR_CHECKIN" Notes="" Text="Check In" />
+        <EmbeddedText Flags="" Id="J_CHAR_OFF_RV" Notes="" Text="Off RV!" />
+        <EmbeddedText Flags="" Id="J_PORTRAIT_ON_RV" Notes="" Text="On RV" />
+        <EmbeddedText Flags="" Id="SYS_DLC2_PLAY" Notes="" Text="Play Lifeline" />
+        <EmbeddedText Flags="" Id="SYS_DLC2_BUY" Notes="" Text="Buy Lifeline" />
+        <EmbeddedText Flags="" Id="SYS_DLC_BUY_NOW" Notes="" Text="Install Now" />
+        <EmbeddedText Flags="" Id="SYS_DLC_COMING_SOON" Notes="" Text="Coming Soon" />
+        <EmbeddedText Flags="" Id="SYS_DLC_REBOOT" Notes="" Text="Please restart the game to switch to this game mode." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_0" Notes="" Text="Welcome to Breakdown!" />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_1" Notes="" Text="Fewer resources. Fewer cars. More fast zombies." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_2" Notes="" Text="Fewer resources. Fewer cars. More fast zombies." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_3" Notes="" Text="Fewer resources. Fewer cars. More fast zombies." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_4" Notes="" Text="Fewer resources. Fewer cars. More fast zombies." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_5" Notes="" Text="Fewer resources. Fewer cars. More fast zombies." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_6" Notes="" Text="Fewer resources. Fewer cars. More fast zombies." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_7" Notes="" Text="Fewer resources. Fewer cars. More fast zombies." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_8" Notes="" Text="Fewer resources. Fewer cars. More fast zombies." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_9" Notes="" Text="Small extra damage. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_10" Notes="" Text="Screamers! Extra Screamers. Small extra damage. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_11" Notes="" Text="Small extra damage. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_12" Notes="" Text="Bulletproof! Extra armored zombies. Small extra damage. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_13" Notes="" Text="Small extra damage. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_14" Notes="" Text="Too Quiet... Extra ambush zombies. Small extra damage. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_15" Notes="" Text="Small extra damage. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_16" Notes="" Text="Juggernauts! Extra Juggernauts. Lethal Juggernauts (grabs kill, regardless of health). Small extra damage. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_17" Notes="" Text="Moderate extra damage. Lethal Juggernauts. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_18" Notes="" Text="Biohazard! Extra Bloaters. Moderate extra damage. Lethal Juggernauts. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_19" Notes="" Text="Moderate extra damage. Lethal Juggernauts. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_20" Notes="" Text="Dead Man's Party! Extra hordes. Extra infestations. Moderate extra damage. Lethal Juggernauts. No map indicator." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_21" Notes="" Text="Moderate extra damage. Lethal Juggernauts. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_22" Notes="" Text="Creeping Death. Extra Screamers. Extra Bloaters. Moderate extra damage. Lethal Juggernauts. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_23" Notes="" Text="Moderate extra damage. Lethal Juggernauts. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_24" Notes="" Text="Frenzy! Extra Ferals. Lethal Juggernauts. Moderate extra damage. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_25" Notes="" Text="Moderate extra damage. Lethal Juggernauts. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_26" Notes="" Text="Tooth and Claw. Extra Ferals. Extra Juggernauts. Lethal Juggernauts. Moderate extra damage. No Map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_27" Notes="" Text="Armageddon. Scariest environment imaginable. Massive extra damage. Lethal Juggernauts. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_28" Notes="" Text="Armageddon. Scariest environment imaginable. Massive extra damage. Lethal Juggernauts. No map indicators." />
+        <EmbeddedText Flags="" Id="SYS_DLC1_DIFFICULTY_DESCRIPTION_29" Notes="" Text="Armageddon. Scariest environment imaginable. Massive extra damage. Lethal Juggernauts. No map indicators." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="FrontEndDurango">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="NO_USER_SIGNED_IN" Notes="" Text="No user signed in" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="FrontEndDurango">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="NO_USER_SIGNED_IN" Notes="" Text="No user signed in" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="FrontEndPC">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="FE_PROFILE1" Notes="" Text="Profile 1" />
+        <EmbeddedText Flags="" Id="FE_PROFILE2" Notes="" Text="Profile 2" />
+        <EmbeddedText Flags="" Id="FE_PROFILE3" Notes="" Text="Profile 3" />
+        <EmbeddedText Flags="" Id="FE_PROFILE4" Notes="" Text="Profile 4" />
+        <EmbeddedText Flags="" Id="FE_NEW_PROFILE" Notes="" Text="Create a New Profile" />
+        <EmbeddedText Flags="" Id="FE_SELECT_PROFILE" Notes="" Text="Select Profile" />
+        <EmbeddedText Flags="" Id="FE_PROFILE" Notes="" Text="%s : %s" />
+        <EmbeddedText Flags="" Id="FE_DELETE_PROFILE" Notes="" Text="Delete Profile" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="BreakdownScore">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="DLC1_VIOLENCE" Notes="" Text="Violence" />
+        <EmbeddedText Flags="" Id="DLC1_ZOMBIES_KILLED_HEADER" Notes="" Text="%d Zombies Killed (Roadkill Doesn't Count)" />
+        <EmbeddedText Flags="" Id="DLC1_FREAKS_KILLED_HEADER" Notes="" Text="%d Freaks Killed" />
+        <EmbeddedText Flags="" Id="DLC1_HORDES_DESTORYED" Notes="" Text="%d Hordes Destroyed" />
+        <EmbeddedText Flags="" Id="DLC1_INFESTATIONS_CLEARED" Notes="" Text="%d Infestations Cleared" />
+        <EmbeddedText Flags="" Id="DLC1_SKILL_HEADER" Notes="" Text="Skill" />
+        <EmbeddedText Flags="" Id="DLC1_MULTIKILLS" Notes="" Text="%d Multikills" />
+        <EmbeddedText Flags="" Id="DLC1_HEADSHOT_STREAKS" Notes="" Text="%d Headshot Streaks" />
+        <EmbeddedText Flags="" Id="DLC1_STEALTH_KILLS" Notes="" Text="%d Stealth Kills" />
+        <EmbeddedText Flags="" Id="DLC1_LEADERSHIP_HEADER" Notes="" Text="Leadership" />
+        <EmbeddedText Flags="" Id="DLC1_RUCKSACKS" Notes="" Text="%d Rucksacks Delivered" />
+        <EmbeddedText Flags="" Id="DLC1_FACILITIES_BUILT" Notes="" Text="%d Facilities Built" />
+        <EmbeddedText Flags="" Id="DLC1_MISSIONS_COMPLETED" Notes="" Text="%d Missions Completed" />
+        <EmbeddedText Flags="" Id="DLC1_SCORE_SUMMARY" Notes="" Text="You done good." />
+        <EmbeddedText Flags="" Id="DLC1_SCORE_YOU_DIED" Notes="" Text="All your friends are dead!" />
+        <EmbeddedText Flags="" Id="DLC1_SCORE_MOVING_ON" Notes="" Text="Moving On ..." />
+        <EmbeddedText Flags="" Id="DLC1_SCORE_TRAGIC_LOSS" Notes="" Text="A Tragic Loss" />
+        <EmbeddedText Flags="" Id="DLC1_WARNING_CHALLENGES" Notes="" Text="Moving on will reset your Challenge progress. You're REALLY starting over. Are you sure you want to leave now?" />
+        <EmbeddedText Flags="" Id="DLC1_WARNING_CHALLENGES_TITLE" Notes="" Text="Warning!" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="LifelineScore">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="DLC2_SCORE_HEADING" Notes="" Text="Extracted" />
+        <EmbeddedText Flags="" Id="DLC2_RESCUES_HEADER" Notes="" Text="Rescues" />
+        <EmbeddedText Flags="" Id="DLC2_RESCUED_VIPS_HEADER" Notes="" Text="%d High Value Assets Rescued" />
+        <EmbeddedText Flags="" Id="DLC2_RESCUED_CIVILIANS_HEADER" Notes="" Text="%d Civilians Rescued" />
+        <EmbeddedText Flags="" Id="DLC2_RESCUED_SOLDIERS_HEADER" Notes="" Text="%d Soldiers Rescued" />
+        <EmbeddedText Flags="" Id="DLC2_LOSSES_HEADER" Notes="" Text="Losses" />
+        <EmbeddedText Flags="" Id="DLC2_LOSSES_VIPS_HEADER" Notes="" Text="%d High Value Assets Lost" />
+        <EmbeddedText Flags="" Id="DLC2_LOSSES_CIVILIANS_HEADER" Notes="" Text="%d Civilians Lost" />
+        <EmbeddedText Flags="" Id="DLC2_LOSSES_SOLDIERS_HEADER" Notes="" Text="%d Soldiers Lost" />
+        <EmbeddedText Flags="" Id="DLC2_TARGETS_HEADER" Notes="" Text="Targets Neutralized" />
+        <EmbeddedText Flags="" Id="DLC2_ZOMBIES_KILLED_HEADER" Notes="" Text="%d Zombies Killed (Roadkill Doesn't Count)" />
+        <EmbeddedText Flags="" Id="DLC2_FREAKS_KILLED_HEADER" Notes="" Text="%d Freaks Killed" />
+        <EmbeddedText Flags="" Id="DLC2_SASQUATCH_HUNTS_HEADER" Notes="" Text="%d Sasquatch Hunts Completed" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Keyboard">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_ESCAPE" Notes="" Text="ESC" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_1" Notes="" Text="1" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_2" Notes="" Text="2" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_3" Notes="" Text="3" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_4" Notes="" Text="4" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_5" Notes="" Text="5" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_6" Notes="" Text="6" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_7" Notes="" Text="7" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_8" Notes="" Text="8" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_9" Notes="" Text="9" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_0" Notes="" Text="0" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_MINUS" Notes="" Text="-" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_EQUALS" Notes="" Text="=" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_BACKSPACE" Notes="" Text="BKSP" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_TAB" Notes="" Text="TAB" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_Q" Notes="" Text="Q" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_W" Notes="" Text="W" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_E" Notes="" Text="E" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_R" Notes="" Text="R" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_T" Notes="" Text="T" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_Y" Notes="" Text="Y" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_U" Notes="" Text="U" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_I" Notes="" Text="I" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_O" Notes="" Text="O" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_P" Notes="" Text="P" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_LBRACKET" Notes="" Text="[" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_RBRACKET" Notes="" Text="]" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_ENTER" Notes="" Text="ENTR" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_LCTRL" Notes="" Text="LCTRL" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_A" Notes="" Text="A" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_S" Notes="" Text="S" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_D" Notes="" Text="D" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F" Notes="" Text="F" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_G" Notes="" Text="G" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_H" Notes="" Text="H" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_J" Notes="" Text="J" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_K" Notes="" Text="K" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_L" Notes="" Text="L" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_SEMICOLON" Notes="" Text=";" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_APOSTROPHE" Notes="" Text="'" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_TILDE" Notes="" Text="~" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_LSHIFT" Notes="" Text="LSHFT" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_BACKSLASH" Notes="" Text="\\" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_Z" Notes="" Text="Z" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_X" Notes="" Text="X" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_C" Notes="" Text="C" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_V" Notes="" Text="V" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_B" Notes="" Text="B" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_N" Notes="" Text="N" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_M" Notes="" Text="M" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_COMMA" Notes="" Text="," />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_PERIOD" Notes="" Text="." />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_SLASH" Notes="" Text="/" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_RSHIFT" Notes="" Text="RSHFT" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_MULTIPLY" Notes="" Text="NM*" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_LALT" Notes="" Text="LALT" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_SPACE" Notes="" Text="SPC" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_CAPSLOCK" Notes="" Text="CAPS" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F1" Notes="" Text="F1" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F2" Notes="" Text="F2" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F3" Notes="" Text="F3" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F4" Notes="" Text="F4" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F5" Notes="" Text="F5" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F6" Notes="" Text="F6" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F7" Notes="" Text="F7" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F8" Notes="" Text="F8" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F9" Notes="" Text="F9" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F10" Notes="" Text="F10" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NUMLOCK" Notes="" Text="NMLK" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_SCROLLLOCK" Notes="" Text="SCL" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_7" Notes="" Text="NM7" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_8" Notes="" Text="NM8" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_9" Notes="" Text="NM9" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_SUBSTRACT" Notes="" Text="NM-" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_4" Notes="" Text="NM4" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_5" Notes="" Text="NM5" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_6" Notes="" Text="NM6" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_ADD" Notes="" Text="NM+" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_1" Notes="" Text="NM1" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_2" Notes="" Text="NM2" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_3" Notes="" Text="NM3" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_0" Notes="" Text="NM0" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F11" Notes="" Text="F11" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F12" Notes="" Text="F12" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F13" Notes="" Text="F13" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F14" Notes="" Text="F14" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_F15" Notes="" Text="F15" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_COLON" Notes="" Text=";" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_UNDERLINE" Notes="" Text="_" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_ENTER" Notes="" Text="NMEN" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_RCTRL" Notes="" Text="RCTRL" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_PERIOD" Notes="" Text="NM." />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_NP_DIVIDE" Notes="" Text="NM/" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_PRINT" Notes="" Text="PRNT" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_RALT" Notes="" Text="RALT" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_PAUSE" Notes="" Text="PAUS" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_HOME" Notes="" Text="HOME" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_UP" Notes="" Text="UP" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_LEFT" Notes="" Text="LEFT" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_RIGHT" Notes="" Text="RIGHT" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_END" Notes="" Text="END" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_DOWN" Notes="" Text="DOWN" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_PGUP" Notes="" Text="PGUP" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_PGDN" Notes="" Text="PGDN" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_INSERT" Notes="" Text="INS" />
+        <EmbeddedText Flags="" Id="KEYBOARD_KEY_DELETE" Notes="" Text="DEL" />
+        <EmbeddedText Flags="" Id="MOUSE_WHEEL_DOWN" Notes="" Text="MWDN" />
+        <EmbeddedText Flags="" Id="MOUSE_WHEEL_UP" Notes="" Text="MWUP" />
+        <EmbeddedText Flags="" Id="MOUSE_LEFT" Notes="" Text="LMB" />
+        <EmbeddedText Flags="" Id="MOUSE_RIGHT" Notes="" Text="RMB" />
+        <EmbeddedText Flags="" Id="TRIGGER_BUTTON_LEFT" Notes="" Text="xi_triggerl" />
+        <EmbeddedText Flags="" Id="TRIGGER_BUTTON_RIGHT" Notes="" Text="xi_triggerr" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="KeyboardControlLabels">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="CONTROLS_MENU_JOURNAL" Notes="" Text="Journal" />
+        <EmbeddedText Flags="" Id="CONTROLS_MENU_RADIO" Notes="" Text="Radio" />
+        <EmbeddedText Flags="" Id="CONTROLS_MENU_MAP" Notes="" Text="Map" />
+        <EmbeddedText Flags="" Id="CONTROLS_MENU_SOCIAL" Notes="" Text="Social" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_ACTIVATE" Notes="" Text="Activate" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_BACK_PAUSE" Notes="" Text="Back/Pause" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_INTERACT" Notes="" Text="Option 2" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_OPTION_3" Notes="" Text="Option 3" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_PREV_TAB" Notes="" Text="Prev Tab" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_NEXT_TAB" Notes="" Text="Next Tab" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_UP" Notes="" Text="Up" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_DOWN" Notes="" Text="Down" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_LEFT" Notes="" Text="Left" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_RIGHT" Notes="" Text="Right" />
+        <EmbeddedText Flags="" Id="CONTROLS_MAP_NEXT_POI" Notes="" Text="Next Point of Interest" />
+        <EmbeddedText Flags="" Id="CONTROLS_MAP_PREV_POI" Notes="" Text="Prev Point of Interest" />
+        <EmbeddedText Flags="" Id="CONTROLS_MAP_LEGEND" Notes="" Text="Toggle Legend" />
+        <EmbeddedText Flags="" Id="CONTROLS_MAP_WAYPOINT" Notes="" Text="Toggle Waypoint" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_MOVELEFT" Notes="" Text="Move Left" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_MOVERIGHT" Notes="" Text="Move Right" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_MOVEFORWARD" Notes="" Text="Move Forward" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_MOVEBACK" Notes="" Text="Move Back" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_SPRINT" Notes="" Text="Sprint" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_JUMP" Notes="" Text="Jump" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_SNEAK" Notes="" Text="Sneak" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_ROLL" Notes="" Text="Roll" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_INTERACT" Notes="" Text="Interact" />
+        <EmbeddedText Flags="" Id="CONTROLS_COMBAT_ZOOM" Notes="" Text="Aim / Scout" />
+        <EmbeddedText Flags="" Id="CONTROLS_COMBAT_SHOOT" Notes="" Text="Shoot" />
+        <EmbeddedText Flags="" Id="CONTROLS_COMBAT_MELEE" Notes="" Text="Melee Attack" />
+        <EmbeddedText Flags="" Id="CONTROLS_COMBAT_EXECUTE" Notes="" Text="Execute" />
+        <EmbeddedText Flags="" Id="CONTROLS_COMBAT_RELOAD" Notes="" Text="Reload" />
+        <EmbeddedText Flags="" Id="CONTROLS_COMBAT_FIREMODE" Notes="" Text="Firemode" />
+        <EmbeddedText Flags="" Id="CONTROLS_ITEM_USE" Notes="" Text="Use Item" />
+        <EmbeddedText Flags="" Id="CONTROLS_ITEM_NEXT" Notes="" Text="Next Item" />
+        <EmbeddedText Flags="" Id="CONTROLS_ITEM_PREV" Notes="" Text="Prev Item" />
+        <EmbeddedText Flags="" Id="CONTROLS_ITEM_DROP" Notes="" Text="Drop Rucksack" />
+        <EmbeddedText Flags="" Id="CONTROLS_ITEM_LIGHT" Notes="" Text="Flashlight" />
+        <EmbeddedText Flags="" Id="CONTROLS_EMOTE_1" Notes="" Text="Emote 1" />
+        <EmbeddedText Flags="" Id="CONTROLS_EMOTE_2" Notes="" Text="Emote 2" />
+        <EmbeddedText Flags="" Id="CONTROLS_EMOTE_3" Notes="" Text="Emote 3" />
+        <EmbeddedText Flags="" Id="CONTROLS_EMOTE_4" Notes="" Text="Emote 4" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_EXIT" Notes="" Text="Exit Vehicle" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_HORN" Notes="" Text="Horn" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_LIGHTS" Notes="" Text="Lights" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_SIREN" Notes="" Text="Siren" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_ACCEL" Notes="" Text="Accelerate" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_LEFT" Notes="" Text="Turn Left" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_RIGHT" Notes="" Text="Turn Right" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_BRAKE" Notes="" Text="Brake / Reverse" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_E_BRAKE" Notes="" Text="Handbrake" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_DOOR_ATTACK" Notes="" Text="Door Attack" />
+        <EmbeddedText Flags="" Id="CONTROLS_MENU_HEADING" Notes="" Text="Menus" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_HEADING" Notes="" Text="User Interface" />
+        <EmbeddedText Flags="" Id="CONTROLS_MAP_HEADING" Notes="" Text="Map" />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_HEADING" Notes="" Text="Navigation" />
+        <EmbeddedText Flags="" Id="CONTROLS_COMBAT_HEADING" Notes="" Text="Combat" />
+        <EmbeddedText Flags="" Id="CONTROLS_ITEM_HEADING" Notes="" Text="Items" />
+        <EmbeddedText Flags="" Id="CONTROLS_EMOTE_HEADING" Notes="" Text="Emotes" />
+        <EmbeddedText Flags="" Id="CONTROLS_VEH_HEADING" Notes="" Text="Driving" />
+        <EmbeddedText Flags="" Id="CONTROLS_REBIND_HEADING" Notes="" Text="Remap %s" />
+        <EmbeddedText Flags="" Id="CONTROLS_REBIND_DETAILS" Notes="" Text="Press desired key" />
+        <EmbeddedText Flags="" Id="CONTROLS_REBIND_CONFLICT" Notes="" Text="[%s] conflicts with %s. Remap that first." />
+        <EmbeddedText Flags="" Id="CONTROLS_NAV_CAMERA" Notes="" Text="Camera / Zoom" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_SCROLL_UP" Notes="" Text="Scroll Up" />
+        <EmbeddedText Flags="" Id="CONTROLS_UI_SCROLL_DOWN" Notes="" Text="Scroll Down" />
+        <EmbeddedText Flags="" Id="CONTROLS_REBIND_DISALLOWED" Notes="" Text="[%s] is not allowed for this action." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Game DVR">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="DVR_FREAK_OF_SURVIVAL_ID" Notes="" Text="4" />
+        <EmbeddedText Flags="" Id="DVR_FREAK_OF_SURVIVAL_TEXT" Notes="" Text="Freak of Survival" />
+        <EmbeddedText Flags="" Id="DVR_HEROIC_MULTIKILL_ID" Notes="" Text="5" />
+        <EmbeddedText Flags="" Id="DVR_HEROIC_MULTIKILL_TEXT" Notes="" Text="Heroic Multikill" />
+        <EmbeddedText Flags="" Id="DVR_LOSS_TO_THE_COMMUNITY_ID" Notes="" Text="3" />
+        <EmbeddedText Flags="" Id="DVR_LOSS_TO_THE_COMMUNITY_TEXT" Notes="" Text="Loss to the Community" />
+        <EmbeddedText Flags="" Id="DVR_HOW_YOU_DIED_ID" Notes="" Text="2" />
+        <EmbeddedText Flags="" Id="DVR_HOW_YOU_DIED_TEXT" Notes="" Text="This Is How You Died" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="ChallengeRewards">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_STORAGE_ITEM_CLAIMED" Notes="" Text="Reward Delivered to Storage!" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_SPAWN_VEHICLE_CLAIMED" Notes="" Text="Vehicle Delivered!" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_SPAWN_CHARACTER_CLAIMED" Notes="" Text="" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_RESOURCE_CLAIMED" Notes="" Text="" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_SPORTS" Notes="" Text="Sports Equipment" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_SPORTS" Notes="" Text="REWARD. A collection of weapons for the zombie-slaying sportsman, delivered directly to your Supply Locker." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_TOWTRUCK" Notes="" Text="Tow Truck" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_TOWTRUCK" Notes="" Text="REWARD. A porcine tow truck, delivered near your current location." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_CLEANER" Notes="" Text="Cleaner Car" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_CLEANER" Notes="" Text="REWARD. An attractively branded sportscar, delivered near your current location." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_INCINDIARY" Notes="" Text="Incendiary Revolver" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_INCINDIARY" Notes="" Text="REWARD. A rare incendiary revolver, delivered directly to your Supply Locker." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_DEMOLITIONS" Notes="" Text="Demolitions Expert" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_DEMOLITIONS" Notes="" Text="REWARD. A character who specializes in demolition, added immediately to your community." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_FIREFIGHTER" Notes="" Text="Firefighter Tools" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_FIREFIGHTER" Notes="" Text="REWARD. A collection of heavy tools used by fire and rescue services, delivered directly to your Supply Locker." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_BACKPACK" Notes="" Text="School Backpack" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_BACKPACK" Notes="" Text="REWARD. A distinctive large backpack, delivered directly to your Supply Locker." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_BLADES" Notes="" Text="Collectible Blades" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_BLADES" Notes="" Text="REWARD. A collection of masterfully-crafted blades, delivered directly to your Supply Locker." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_PIE" Notes="" Text="Holiday Pie" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_PIE" Notes="" Text="REWARD. Delivers a crateload of Pie to your supply locker, and unlocks a new Facility Action in the Kitchen." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_STEALTH" Notes="" Text="Suppressed Weapon" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_STEALTH" Notes="" Text="REWARD. A high-capacity firearm and a collection of quality suppressors, delivered directly to your Supply Locker." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_NEWYEARS" Notes="" Text="Improvised Weapon" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_NEWYEARS" Notes="" Text="REWARD. Someone in your community creates a celebratory weapon to mark the new year. No one will admit it was them." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_VALENTINE" Notes="" Text="Valentine's Weapon" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_VALENTINE" Notes="" Text="REWARD. A beautiful high-capacity firearm, decorated to express the love and devotion that your community members feel towards one another." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_AMMO" Notes="" Text="Ammo Drop" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_AMMO" Notes="" Text="REWARD. Several rucksacks' worth of Ammunition, delivered directly into your stockpile." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_MEDICINE" Notes="" Text="Medicine Drop" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_MEDICINE" Notes="" Text="REWARD. Several rucksacks' worth of Medicine, delivered directly into your stockpile." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_FOOD" Notes="" Text="Food Drop" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_FOOD" Notes="" Text="REWARD. Several rucksacks' worth of Food, delivered directly into your stockpile." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_FUEL" Notes="" Text="Fuel Drop" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_FUEL" Notes="" Text="REWARD. Several rucksacks' worth of Fuel, delivered directly into your stockpile." />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_MENU_ORIGINAL" Notes="" Text="Bonus Character" />
+        <EmbeddedText Flags="" Id="CHALLENGE_REWARD_DESC_ORIGINAL" Notes="" Text="REWARD. Thank you for purchasing the original State of Decay! Select this option, and an exclusive character will be added directly to your community." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="RewardPopups">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="REWARD_POPUP_GURUBANI_1" Notes="" Text="Thank you for supporting the original State of Decay! To show our thanks, we've unlocked a UNIQUE CHARACTER for you!" />
+        <EmbeddedText Flags="" Id="REWARD_POPUP_GURUBANI_2A" Notes="If we manage to get Gurubani selectable on the front end." Text="You'll find GURUBANI KAUR on the Hero Menu in Breakdown. Or use the Radio Menu to add her after you've established a base." />
+        <EmbeddedText Flags="" Id="REWARD_POPUP_GURUBANI_2B" Notes="If we DON'T manage to get Gurubani selectable on the front end." Text="Use the Radio Menu to add GURUBANI KAUR to your community after you've established a base." />
+        <EmbeddedText Flags="" Id="REWARD_POPUP_PREPPER_1" Notes="" Text="You've unlocked the Prepper's Pack!" />
+        <EmbeddedText Flags="" Id="REWARD_POPUP_PREPPER_2" Notes="" Text="Once you have established your base in State of Decay, Breakdown, or Lifeline, you can use your RADIO to call in a unique supply drop that includes an SUV, a Folding Axe, and an Assault Rifle. Enjoy!" />
+        <EmbeddedText Flags="" Id="REWARD_POPUP_ACCEPT" Notes="" Text="Got it!" />
+        <EmbeddedText Flags="" Id="SAVE_IMPORT_POPUP_1" Notes="" Text="We've detected a transferred save from the original State of Decay." />
+        <EmbeddedText Flags="" Id="SAVE_IMPORT_POPUP_2" Notes="" Text="Do you want to use your original saved game, or delete it and continue normally?" />
+        <EmbeddedText Flags="" Id="SAVE_IMPORT_POPUP_ACCEPT" Notes="" Text="Use Original Save" />
+        <EmbeddedText Flags="" Id="SAVE_IMPORT_POPUP_DECLINE" Notes="" Text="Delete It" />
+        <EmbeddedText Flags="" Id="SAVE_EXPORT_POPUP_1" Notes="" Text="We can export a copy of your current saved game to be loaded into State of Decay: Year-One Survival Edition on Xbox One." />
+        <EmbeddedText Flags="" Id="SAVE_EXPORT_POPUP_2" Notes="" Text="Would you like to proceed?" />
+        <EmbeddedText Flags="" Id="SAVE_EXPORT_POPUP_ACCEPT" Notes="" Text="Proceed" />
+        <EmbeddedText Flags="" Id="SAVE_EXPORT_POPUP_DECLINE" Notes="" Text="Cancel" />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="360 Import">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="360IMPORT_LABEL" Notes="" Text="Import Xbox 360 Save" />
+        <EmbeddedText Flags="" Id="360CONFIRMATION" Notes="" Text="You are about to import your Xbox 360 save. This will overwrite and destroy any State of Decay save data already on this device. Are you sure you want to proceed?" />
+        <EmbeddedText Flags="" Id="360LOADING" Notes="" Text="Importing Xbox 360 Save ..." />
+        <EmbeddedText Flags="" Id="360IMPORT_FAILURE" Notes="" Text="The import process failed for some reason. You may be suffering connectivity issues, or the file itself may be corrupted." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+    <EmbeddedTextFolder Name="Save Import">
+      <TextStrings>
+        <EmbeddedText Flags="" Id="SAVE_IMPORT_LABEL" Notes="" Text="Import Save" />
+        <EmbeddedText Flags="" Id="SAVE_IMPORT_CONFIRMATION" Notes="" Text="Warning! This will import your save from the original State of Decay, and will OVERWRITE any progress you have made in the Year-One Survival Edition. Are you sure you want to do this?" />
+        <EmbeddedText Flags="" Id="SAVE_IMPORT_SUCCESS" Notes="" Text="Success! Your save from the original State of Decay has been imported." />
+        <EmbeddedText Flags="" Id="SAVE_IMPORT_FAILURE" Notes="" Text="Oh no! Something went wrong. Please try again, or go to forums.undeadlabs.com if you need further assistance." />
+      </TextStrings>
+    </EmbeddedTextFolder>
+  </TextFolders>
+</EmbeddedTextData>

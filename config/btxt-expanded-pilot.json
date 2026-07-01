@@ -1,0 +1,33 @@
+{
+  "description": "Pilot Menu BTXT Expanded",
+  "replacements": [
+    {
+      "sourceText": "Continue",
+      "translatedText": "Tiếp tục"
+    },
+    {
+      "sourceText": "Start a New Game",
+      "translatedText": "Chơi mới"
+    },
+    {
+      "sourceText": "Select Profile",
+      "translatedText": "Chọn hồ sơ"
+    },
+    {
+      "sourceText": "Leaderboards",
+      "translatedText": "Bảng xếp hạng"
+    },
+    {
+      "sourceText": "Achievements",
+      "translatedText": "Thành tích"
+    },
+    {
+      "sourceText": "Help & Options",
+      "translatedText": "Trợ giúp"
+    },
+    {
+      "sourceText": "Exit Game",
+      "translatedText": "Thoát"
+    }
+  ]
+}

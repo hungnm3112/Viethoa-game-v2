@@ -1,0 +1,57 @@
+<ammo name="UL_Arrow" class="Rocket">
+	<geometry>
+		<firstperson name="objects/weapons/crossbow/crossbow_01/arrow.cgf"/>
+	</geometry>
+	<flags>
+		<param name="serverspawn" value="1"/>
+		<param name="predictspawn" value="1"/>
+	</flags>
+	<physics type="particle">
+		<param name="mass" value="0"/>
+		<param name="speed" value="200"/>
+		<param name="radius" value="0.1"/>
+		<param name="damping" value="5"/>
+
+		<param name="air_resistance" value="1"/>
+		<param name="water_resistance" value="0.5"/>
+		<param name="gravity" value="0, 0, -5"/>
+		<param name="water_gravity" value="0, 0, -9.8"/>
+
+		<param name="thrust" value="0"/>
+		<param name="lift" value="0"/>
+		<param name="min_bounce_speed" value="0.1"/>
+		<param name="material" value="mat_metal"/>
+		<param name="spin_random" value="0, 0, 0"/>
+
+		<param name="single_contact" value="1"/>
+		<param name="traceable" value="1"/>
+	</physics>
+	<explosion>
+		<param name="pressure" value="200"/>
+		<param name="min_radius" value=".01"/>
+		<param name="max_radius" value=".11"/>
+		<param name="min_phys_radius" value=".01"/>
+		<param name="max_phys_radius" value=".25"/>
+		<param name="hole_size" value=".1"/>
+		<param name="terrain_hole_size" value=".25"/>
+		<param name="decal" value="textures/decal/explo_decal.dds"/>
+		<param name="effect_scale" value="1.0"/>
+		<param name="effect" value="Class3Breakables.misc_objects.mailbox_single_metalpost"/>
+		<param name="radialblurdist" value="0.1"/>
+		<param name="type" value="frag"/>
+	</explosion>
+	<trail>
+		<param name="effect" value="Class3Vehicles.exhaust.dirty_start"/>
+	</trail>
+	<params>
+		<param name="lifetime" value="2.5"/>
+		<param name="showtime" value="0.05"/>
+		<param name="aitype" value="grenade"/>
+	</params>
+</ammo>
+
+
+
+
+
+

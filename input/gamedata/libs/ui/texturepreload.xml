@@ -1,0 +1,48 @@
+<Preload>
+
+	<!-- always preloaded (level and main menu) -->
+	<Common>
+			<!--<Preload file="Libs/UI/Textures/*"/> -->
+        <Preload file="Libs/UI/Class3_Banners_I8.dds" />
+        <Preload file="Libs/UI/Class3_Banners_I14.dds" />
+        <Preload file="Libs/UI/Class3_CenterPrompts_I3.dds" />
+        <Preload file="Libs/UI/Class3_FrontEnd_I1.dds" />
+        <Preload file="Libs/UI/Class3_Journal_I1.dds" />
+        <Preload file="Libs/UI/Class3_Journal_I3.dds" />
+        <Preload file="Libs/UI/Class3_Journal_I6.dds" />
+        <Preload file="Libs/UI/Class3_Journal_IBF.dds" />
+        <Preload file="Libs/UI/Class3_notifications_I3.dds" />
+        <Preload file="Libs/UI/Class3_notifications_I6C.dds" />
+        <Preload file="Libs/UI/Class3_notifications_I111.dds" />
+        <Preload file="Libs/UI/Class3_Stats_I22.dds" />
+        <Preload file="Libs/UI/Class3_Pause_I1.dds" />
+        <Preload file="Libs/UI/Class3_Pause_I1F0.dds" />
+        <Preload file="Libs/UI/Class3_Pause_I2C.dds" />
+        <Preload file="Libs/UI/Class3_radar_I8.dds" />
+        <Preload file="Libs/UI/Class3_Reticle_I3.dds" />
+        <Preload file="Libs/UI/Class3_Survey_I1.dds" />
+
+	</Common>
+		
+	<!-- only preloaded when enter the main menu -->
+	<NoLevel>
+		<!-- preload images for loadingscreen otherwise they won't show up! -->
+		<!--<Preload file="levels/Forest/LoadingForest.dds"/>  -->
+	</NoLevel>
+	
+	<!-- level specific -->
+	<Levels>
+	
+		<!-- only preloaded when loading a level -->
+		<Common>
+		</Common>
+		
+		<!-- per level -->
+		<Forest>
+			<!--<Preload file="levels/Forest/Forest.dds"/> -->
+			<!--Preload file="levels/Forest/LoadingForest.dds"/> -->
+		</Forest>
+		
+	</Levels>
+	
+</Preload>

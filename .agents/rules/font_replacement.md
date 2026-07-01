@@ -1,0 +1,2 @@
+- Khi thay đổi tên Font trong mã nhị phân Flash (GFX/SWF), phải thay bằng một Font có độ dài tên BẰNG Y HỆT tên gốc để không làm lệch offset.
+- Ví dụ: `Decaying Kuntry` (15 ký tự) -> `Times New Roman` (15 ký tự).

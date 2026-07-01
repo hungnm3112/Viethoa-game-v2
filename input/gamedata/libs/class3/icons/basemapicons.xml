@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Church" Value="1" />
+  <Icon Name="BigJohn" Value="2" />
+  <Icon Name="DanielFarm" Value="3" />
+  <Icon Name="Alamo" Value="4" />
+  <Icon Name="Riverside" Value="5" />
+  <Icon Name="Warehouse" Value="6" />
+  <Icon Name="Rodeo" Value="7" />
+  <Icon Name="RangerStation" Value="8" />
+</IconData>

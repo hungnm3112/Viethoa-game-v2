@@ -1,0 +1,112 @@
+<!-- Melee weapon script: Crowbar -->
+<item name="Nail_Puller" class="Fists" category="small" priority="1" invisible="1">
+	<params>
+		<param name="giveable" 		value="1" />
+		<param name="selectable" 	value="1" />
+		<param name="droppable" value="0"/>
+		<param name="pose" 				value="nw" />
+		<param name="mass"				value="0" />
+		<param name="melee_attack_firemode" value="melee"/>
+		<param name="raiseable" value="true"/>
+		<param name="raise_distance" value="0.50"/>
+    <param name="display_name" value="Nail Puller"/>
+    <dualwield>
+			<suffix value="akimbo_"/>
+		</dualwield>
+	</params>
+	<geometry>
+		<thirdperson name="objects/weapons/crowbar/nail_puller.cgf"/>
+	</geometry>
+	<actions>
+		<action name="select">
+			<animation target="firstperson" name="nw_arms_select"/>
+			<animation target="owner" name="select_fist"/>
+		</action>
+		<action name="deselect">
+			<animation target="firstperson" name="nw_arms_deselect" blendTime="0.5"/>
+			<animation target="owner" name="deselect"/>
+		</action>
+		<action name="idle">
+			<animation target="firstperson" name="nw_arms_idle"/>
+		</action>
+
+		<action name="punch">
+			<!--<sound target="thirdperson" name="sounds/weapons:punch:fire" radius="5" static="0" />-->
+		</action>
+
+		<action name="melee">
+			<!--<sound target="thirdperson" name="sounds/weapons:punch:fire" radius="5" static="0" />-->
+		</action>
+
+		<action name="hit">
+			<!--<sound target="firstperson" name="sounds/physics:bullet_impact:melee_impact_sw" radius="5" />
+			<sound target="thirdperson" name="sounds/physics:bullet_impact:melee_impact_sw" radius="5" />-->
+		</action>
+	</actions>
+
+  <audio>
+    <player>
+	      <param name="precacheAudioFile" value="mle_wpn_crowbar"/>
+      <surfaces>
+        <surface name="mle_wpn_light" output="mle_wpn_crowbar_lgt"/>
+        <surface name="mle_wpn_heavy" output="mle_wpn_crowbar_hvy"/>
+        <surface name="mle_wpn_secondary" output="mle_wpn_crowbar_secondary"/>
+        <surface name="mle_wpn_mixed" output="mle_wpn_crowbar_mixed"/>			
+      </surfaces>
+      <events>
+	    <event name="break" output="Sounds/combat:mle_wpn_crowbar:break"/>
+	    <event name="stow" output="Sounds/foley:fol_mvmt:stow_wpn"/>	  	
+        <event name="whoosh" output="Sounds/whooshes:whoosh:crowbar"/>	  
+        <event name="whoosh_fast" output="Sounds/whooshes:whoosh:crowbar_fast"/>
+		<event name="whoosh_quiet" output="Sounds/whooshes:whoosh:crowbar_quiet"/>
+        <event name="imp_small" output="Sounds/combat:mle_wpn_crowbar:sml"/>
+        <event name="imp_body_lgt" output="Sounds/combat:mle_wpn_crowbar:body_lgt"/>			
+        <event name="imp_body_hvy" output="Sounds/combat:mle_wpn_crowbar:body_hvy"/>				
+        <event name="imp_head_hvy" output="Sounds/combat:mle_wpn_crowbar:head_hvy"/>
+        <event name="imp_head_kill" output="Sounds/combat:mle_wpn_crowbar:head_kill"/>	
+      </events>
+    </player>
+    <npc>
+	      <param name="precacheAudioFile" value="mle_wpn_crowbar"/>
+	  <surfaces>
+        <surface name="mle_wpn_light" output="mle_wpn_npc_crowbar_lgt"/>
+        <surface name="mle_wpn_heavy" output="mle_wpn_npc_crowbar_hvy"/>
+        <surface name="mle_wpn_secondary" output="mle_wpn_npc_crowbar_secondary"/>
+        <surface name="mle_wpn_mixed" output="mle_wpn_npc_crowbar_mixed"/>			
+      </surfaces>	
+      <events>
+	    <event name="stow" output="Sounds/foley:fol_mvmt:stow_wpn"/>	  	
+        <event name="whoosh" output="Sounds/whooshes:whoosh_npc:crowbar"/>	  
+        <event name="whoosh_fast" output="Sounds/whooshes:whoosh_npc:crowbar_fast"/>
+		<event name="whoosh_quiet" output="Sounds/whooshes:whoosh_npc:crowbar"/>	
+        <event name="imp_small" output="Sounds/combat:mle_wpn_npc_crowbar:sml"/>
+        <event name="imp_body_lgt" output="Sounds/combat:mle_wpn_npc_crowbar:body_lgt"/>				
+        <event name="imp_body_hvy" output="Sounds/combat:mle_wpn_npc_crowbar:body_hvy"/>			
+        <event name="imp_head_hvy" output="Sounds/combat:mle_wpn_npc_crowbar:head_hvy"/>
+        <event name="imp_head_kill" output="Sounds/combat:mle_wpn_npc_crowbar:head_kill"/>
+      </events>	  	  
+    </npc>
+  </audio>
+
+	<firemodes>
+		<firemode name="punch" type="Melee">
+			<melee>
+				<param name="damage" value="80"/>
+			</melee>
+			<actions>
+				<param name="attack" value="punch"/>
+			</actions>
+		</firemode>
+		<firemode name="melee" type="Melee">
+			<melee>
+				<param name="damage" value="80"/>
+			</melee>
+			<actions>
+				<param name="attack" value="melee"/>
+			</actions>
+		</firemode>
+	</firemodes>
+	<zoommodes>
+	</zoommodes>
+</item>
+

@@ -1,0 +1,6592 @@
+<FXLib>
+<Effect name="blank_event">
+</Effect>
+
+
+<Effect name="mle_kick_face" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:kick_face</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_punch_face" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:punch_face</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_limb_face" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:elbowknee</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_stomp_head_kill" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:mle_stomp_head_kill</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.head_burst_ground</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_head_head_kill" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:head_head_kill</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.head_burst</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_kick_body" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:kick_body</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.65" maxscale="0.85" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_punch_body" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:punch_body</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_limb_body" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:elbowknee</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_stomp_body">
+	<Sound>
+		<Name>sounds/combat:mle_plr:stomp_body</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_stomp_face">
+	<Sound>
+		<Name>sounds/combat:mle_plr:stomp_face</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_bump" delay="0.05" >
+	<Sound>
+		<Name>sounds/foley:fol_plr:bump</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+		<Particle>
+			<Name minscale="0.65" maxscale="0.85" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="mle_head_ground_kill_default" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_plr:ground_head_kill</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+	<Particle>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.head_burst_ground</Name>
+		</Particle>
+		<Name>Headshot.Zombie.Headshot</Name>
+	</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="zed_clawattack_head">
+	<Sound>
+		<Name>sounds/combat:mle_zed:attack_scratch</Name>
+	</Sound>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.guts_slash</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="zed_clawattack_body" >
+	<Sound>
+		<Name>sounds/combat:mle_zed:attack_scratch</Name>
+	</Sound>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.guts_slash</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="jugg_swipe_attack">
+	<Sound>
+		<Name>sounds/combat:mle_zed:jugg_swipehit</Name>
+	</Sound>
+	<Sound>
+		<Name>sounds/impacts:imp_juggernaut:plr_swipe</Name>
+	</Sound>
+</Effect>
+
+<Effect name="jugg_gut_attack">
+	<Sound>
+		<Name>sounds/combat:mle_zed:jugg_chargehit</Name>
+	</Sound>
+	<Sound>
+		<Name>sounds/impacts:imp_juggernaut:plr_charge</Name>
+	</Sound>
+</Effect>
+
+
+<!--axe-->
+<Effect name="wpn_axe_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_axe:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_axe_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_axe:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_axe_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_axe:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_axe_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_axe:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_axe_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_axe:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_axe_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_axe:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_axe_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_axe:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_axe_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_axe:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_axe_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_axe:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--axe_npc-->
+<Effect name="wpn_npc_axe_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_axe:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_axe_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_axe:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_axe_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_axe:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_axe_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_axe:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_axe_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_axe:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_axe_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_axe:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_axe_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_axe:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_axe_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_axe:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_axe_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_axe:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--bat_metal-->
+<Effect name="wpn_bat_metal_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_metal:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_metal_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_metal:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_metal_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_metal:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_metal_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_metal:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_metal_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_metal:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_metal_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_metal:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_metal_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_metal:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_metal_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_metal:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_metal_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_metal:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--bat_metal_npc-->
+<Effect name="wpn_npc_bat_metal_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_metal:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_metal_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_metal:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_metal_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_metal:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_metal_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_metal:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_metal_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_metal:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_metal_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_metal:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_metal_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_metal:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_metal_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_metal:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_metal_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_metal:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--bat_wood-->
+<Effect name="wpn_bat_wood_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_wood:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_wood_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_wood:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_wood_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_wood:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_wood_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_wood:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_wood_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_wood:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_wood_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_wood:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_wood_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_wood:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_wood_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_wood:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_bat_wood_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_bat_wood:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--bat_wood_npc-->
+<Effect name="wpn_npc_bat_wood_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_wood:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_wood_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_wood:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_wood_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_wood:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_wood_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_wood:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_wood_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_wood:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_wood_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_wood:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_wood_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_wood:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_wood_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_wood:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_bat_wood_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_bat_wood:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--baton-->
+<Effect name="wpn_baton_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_baton:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_baton_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_baton:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_baton_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_baton:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_baton_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_baton:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_baton_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_baton:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_baton_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_baton:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_baton_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_baton:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_baton_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_baton:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_baton_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_baton:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--baton_npc-->
+<Effect name="wpn_npc_baton_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_baton:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_baton_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_baton:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_baton_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_baton:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_baton_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_baton:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_baton_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_baton:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_baton_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_baton:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_baton_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_baton:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_baton_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_baton:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_baton_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_baton:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--crowbar-->
+<Effect name="wpn_crowbar_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_crowbar:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_crowbar_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_crowbar:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_crowbar_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_crowbar:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_crowbar_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_crowbar:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_crowbar_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_crowbar:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_crowbar_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_crowbar:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_crowbar_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_crowbar:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_crowbar_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_crowbar:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_crowbar_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_crowbar:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--crowbar_npc-->
+<Effect name="wpn_npc_crowbar_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_crowbar:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_crowbar_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_crowbar:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_crowbar_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_crowbar:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_crowbar_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_crowbar:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_crowbar_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_crowbar:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_crowbar_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_crowbar:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_crowbar_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_crowbar:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_crowbar_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_crowbar:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_crowbar_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_crowbar:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+
+<!--dense_wood-->
+<Effect name="wpn_dense_wood_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_dense_wood:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_dense_wood_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_dense_wood:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_dense_wood_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_dense_wood:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_dense_wood_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_dense_wood:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_dense_wood_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_dense_wood:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_dense_wood_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_dense_wood:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_dense_wood_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_dense_wood:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_dense_wood_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_dense_wood:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_dense_wood_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_dense_wood:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--dense_wood_npc-->
+<Effect name="wpn_npc_dense_wood_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_dense_wood:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_dense_wood_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_dense_wood:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_dense_wood_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_dense_wood:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_dense_wood_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_dense_wood:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_dense_wood_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_dense_wood:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_dense_wood_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_dense_wood:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_dense_wood_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_dense_wood:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_dense_wood_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_dense_wood:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_dense_wood_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_dense_wood:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--thin_wood-->
+<Effect name="wpn_thin_wood_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_thin_wood:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_thin_wood_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_thin_wood:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_thin_wood_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_thin_wood:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_thin_wood_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_thin_wood:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_thin_wood_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_thin_wood:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_thin_wood_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_thin_wood:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_thin_wood_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_thin_wood:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_thin_wood_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_thin_wood:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_thin_wood_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_thin_wood:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--thin_wood_npc-->
+<Effect name="wpn_npc_thin_wood_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_thin_wood:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_thin_wood_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_thin_wood:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_thin_wood_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_thin_wood:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_thin_wood_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_thin_wood:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_thin_wood_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_thin_wood:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_thin_wood_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_thin_wood:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_thin_wood_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_thin_wood:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_thin_wood_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_thin_wood:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_thin_wood_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_thin_wood:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+
+<!--fryingpan-->
+<Effect name="wpn_fryingpan_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_fryingpan:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_fryingpan_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_fryingpan:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_fryingpan_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_fryingpan:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_fryingpan_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_fryingpan:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_fryingpan_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_fryingpan:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_fryingpan_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_fryingpan:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_fryingpan_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_fryingpan:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_fryingpan_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_fryingpan:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_fryingpan_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_fryingpan:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--fryingpan_npc-->
+<Effect name="wpn_npc_fryingpan_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_fryingpan:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_fryingpan_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_fryingpan:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_fryingpan_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_fryingpan:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_fryingpan_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_fryingpan:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_fryingpan_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_fryingpan:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_fryingpan_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_fryingpan:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_fryingpan_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_fryingpan:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_fryingpan_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_fryingpan:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_fryingpan_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_fryingpan:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--golfclub-->
+<Effect name="wpn_golfclub_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_golfclub:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_golfclub_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_golfclub:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_golfclub_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_golfclub:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_golfclub_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_golfclub:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_golfclub_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_golfclub:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_golfclub_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_golfclub:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_golfclub_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_golfclub:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_golfclub_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_golfclub:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_golfclub_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_golfclub:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--golfclub_npc-->
+<Effect name="wpn_npc_golfclub_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_golfclub:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_golfclub_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_golfclub:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_golfclub_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_golfclub:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_golfclub_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_golfclub:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_golfclub_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_golfclub:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_golfclub_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_golfclub:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_golfclub_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_golfclub:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_golfclub_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_golfclub:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_golfclub_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_golfclub:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--hatchet-->
+<Effect name="wpn_hatchet_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_hatchet:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_hatchet_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_hatchet:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_hatchet_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_hatchet:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_hatchet_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_hatchet:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_hatchet_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_hatchet:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_hatchet_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_hatchet:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_hatchet_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_hatchet:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_hatchet_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_hatchet:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_hatchet_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_hatchet:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--hatchet_npc-->
+<Effect name="wpn_npc_hatchet_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_hatchet:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_hatchet_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_hatchet:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_hatchet_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_hatchet:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_hatchet_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_hatchet:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_hatchet_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_hatchet:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_hatchet_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_hatchet:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_hatchet_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_hatchet:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_hatchet_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_hatchet:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_hatchet_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_hatchet:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+
+<!--knife-->
+<Effect name="wpn_knife_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_knife:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_knife_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_knife:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_knife_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_knife:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_knife_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_knife:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_knife_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_knife:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_knife_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_knife:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_knife_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_knife:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_knife_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_knife:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_knife_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_knife:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--knife_npc-->
+<Effect name="wpn_npc_knife_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_knife:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_knife_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_knife:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_knife_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_knife:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_knife_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_knife:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_knife_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_knife:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_knife_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_knife:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_knife_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_knife:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_knife_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_knife:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_knife_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_knife:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+
+<!--mace-->
+<Effect name="wpn_mace_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_mace:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_mace_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_mace:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_mace_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_mace:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_mace_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_mace:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_mace_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_mace:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_mace_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_mace:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_mace_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_mace:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_mace_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_mace:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_mace_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_mace:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+
+
+<!--mace_npc-->
+<Effect name="wpn_npc_mace_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_mace:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_mace_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_mace:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_mace_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_mace:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_mace_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_mace:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_mace_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_mace:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_mace_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_mace:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_mace_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_mace:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_mace_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_mace:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_mace_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_mace:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+
+
+
+<!--machete-->
+<Effect name="wpn_machete_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_machete:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_machete_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_machete:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_machete_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_machete:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_machete_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_machete:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_machete_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_machete:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_machete_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_machete:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_machete_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_machete:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+<Effect name="wpn_machete_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_machete:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_machete_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_machete:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--machete_npc-->
+<Effect name="wpn_npc_machete_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_machete:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_machete_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_machete:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_machete_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_machete:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_machete_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_machete:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_machete_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_machete:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_machete_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_machete:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_machete_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_machete:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_machete_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_machete:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_machete_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_machete:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+<!--pipe_metal-->
+<Effect name="wpn_pipe_metal_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_pipe_metal_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+
+
+<!--pipe_metal_npc-->
+<Effect name="wpn_npc_pipe_metal_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<!--pipe_metal_small-->
+<Effect name="wpn_pipe_metal_small_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal_small:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_pipe_metal_small_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal_small:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_small_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal_small:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_small_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal_small:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_small_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal_small:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_small_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal_small:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_small_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal_small:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_small_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal_small:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_pipe_metal_small_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_pipe_metal_small:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+
+
+<!--pipe_metal_small_npc-->
+<Effect name="wpn_npc_pipe_metal_small_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal_small:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_small_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal_small:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_small_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal_small:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_small_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal_small:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_small_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal_small:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_small_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal_small:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_small_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal_small:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_small_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal_small:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_pipe_metal_small_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_pipe_metal_small:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<!--shovel-->
+<Effect name="wpn_shovel_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_shovel:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_shovel_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_shovel:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_shovel_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_shovel:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_shovel_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_shovel:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_shovel_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_shovel:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_shovel_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_shovel:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_shovel_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_shovel:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_shovel_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_shovel:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_shovel_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_shovel:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--shovel_npc-->
+<Effect name="wpn_npc_shovel_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_shovel:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_shovel_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_shovel:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_shovel_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_shovel:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_shovel_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_shovel:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_shovel_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_shovel:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_shovel_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_shovel:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_shovel_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_shovel:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_shovel_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_shovel:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_shovel_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_shovel:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--sledgehammer-->
+<Effect name="wpn_sledgehammer_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sledgehammer:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_sledgehammer_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sledgehammer:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_sledgehammer_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sledgehammer:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_sledgehammer_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sledgehammer:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_sledgehammer_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sledgehammer:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_sledgehammer_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sledgehammer:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_sledgehammer_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sledgehammer:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_sledgehammer_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sledgehammer:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_sledgehammer_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sledgehammer:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+
+
+<!--sledgehammer_npc-->
+<Effect name="wpn_npc_sledgehammer_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sledgehammer:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_sledgehammer_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sledgehammer:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_sledgehammer_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sledgehammer:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_sledgehammer_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sledgehammer:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_sledgehammer_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sledgehammer:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_sledgehammer_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sledgehammer:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_sledgehammer_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sledgehammer:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_sledgehammer_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sledgehammer:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_sledgehammer_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sledgehammer:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+
+
+
+<!--sword-->
+<Effect name="wpn_sword_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--sword_npc-->
+<Effect name="wpn_npc_sword_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+
+<!--sword_large-->
+<Effect name="wpn_sword_large_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword_large:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_large_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword_large:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_large_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword_large:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_large_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword_large:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_large_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword_large:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_large_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword_large:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_large_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword_large:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_large_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword_large:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_sword_large_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_sword_large:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--sword_large_npc-->
+<Effect name="wpn_npc_sword_large_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword_large:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_large_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword_large:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_large_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword_large:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_large_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword_large:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_large_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword_large:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_large_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword_large:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_large_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword_large:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_large_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword_large:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+<Effect name="wpn_npc_sword_large_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_sword_large:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+</Effect>
+
+
+
+<!--wrench-->
+<Effect name="wpn_wrench_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_wrench:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_wrench_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_wrench:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_wrench_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_wrench:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_wrench_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_wrench:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_wrench_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_wrench:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_wrench_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_wrench:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_wrench_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_wrench:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_wrench_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_wrench:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_wrench_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_wrench:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+
+
+<!--wrench_npc-->
+<Effect name="wpn_npc_wrench_sml" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_wrench:sml</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_wrench_mixed" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_wrench:mixed</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_wrench_body_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_wrench:body_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_wrench_body_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_wrench:body_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.15" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_wrench_body_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_wrench:body_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1" maxscaledist="70">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_wrench_head_lgt" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_wrench:head_lgt</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_wrench_head_hvy" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_wrench:head_hvy</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="1" maxscale="1.25" maxscaledist="70">Class3Melee.fleshie</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_wrench_head_armored" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_wrench:head_helmet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+<Effect name="wpn_npc_wrench_head_2nd" delay="0.05" >
+	<Sound>
+		<Name>sounds/combat:mle_wpn_npc_wrench:head_second</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.05" maxscale="0.1" lifetime="5.0">
+			<Filename>textures/decal/metal.dds</Filename>
+			<Material>materials/decals/human_body</Material>
+		</Decal>
+	</RandEffect>
+	<RandEffect>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.0" maxscaledist="80">Class3Melee.fleshie_light</Name>
+		</Particle>
+	</RandEffect>
+
+</Effect>
+
+
+
+
+</FXLib>

@@ -1,0 +1,149 @@
+<EntityPrototypeLibrary Name="SDK_Props_Dest" SandboxVersion="3.2.5.2094">
+ <EntityPrototype Name="Domestic\Misc.Basket01" Id="{18165EF3-7AEC-4E3D-A361-26CACF2FD1B7}" Library="SDK_Props_Dest" Class="DestroyableObject" Description="">
+  <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="Remain" bExplode="0" fHealth="100" object_Model="objects/library/props/household/baskets/basket4.cgf" object_ModelDestroyed="" ModelSubObject="Main" bPickable="0" bPlayerOnly="1" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+   <DamageMultipliers fBullet="1" fCollision="1"/>
+   <Explosion Damage="1000" Decal="textures/decal/explo_decal.dds" Delay="0" Effect="explosions.grenade_air.explosion" EffectScale="1" HoleSize="10" MinPhysRadius="2.5" MinRadius="5" PhysRadius="5" Pressure="1000" Radius="10" TerrainHoleSize="5">
+    <DelayEffect Effect="" bHasDelayEffect="0">
+     <Params AttachForm="none" AttachType="none" bCountPerUnit="0" CountScale="1" bPrime="0" Scale="1" bSizePerUnit="0" SpawnPeriod="0"/>
+     <vOffset x="0" y="0" z="0"/>
+     <vRotation x="0" y="0" z="0"/>
+    </DelayEffect>
+    <Direction x="0" y="0" z="1"/>
+    <vOffset x="0" y="0" z="0"/>
+   </Explosion>
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPushableByPlayers="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+    <Simulation damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+   </Physics>
+   <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+   <Vulnerability bBullet="1" bCollision="1" bExplosion="1" bMelee="1" bOther="1"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Domestic\Misc.Water_Vase01" Id="{EE014654-B801-4BB6-93A8-CC55B0C6F893}" Library="SDK_Props_Dest" Class="DestroyableObject" Description="">
+  <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="Remain" bExplode="0" fHealth="50" object_Model="objects/library/props/household/baskets/basket5.cgf" object_ModelDestroyed="" ModelSubObject="" bPickable="0" bPlayerOnly="1" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+   <DamageMultipliers fBullet="1" fCollision="1"/>
+   <Explosion Damage="1000" Decal="textures/decal/explo_decal.dds" Delay="0" Effect="explosions.grenade_air.explosion" EffectScale="1" HoleSize="10" MinPhysRadius="2.5" MinRadius="5" PhysRadius="5" Pressure="1000" Radius="10" TerrainHoleSize="5">
+    <DelayEffect Effect="" bHasDelayEffect="0">
+     <Params AttachForm="none" AttachType="none" bCountPerUnit="0" CountScale="1" bPrime="0" Scale="1" bSizePerUnit="0" SpawnPeriod="0"/>
+     <vOffset x="0" y="0" z="0"/>
+     <vRotation x="0" y="0" z="0"/>
+    </DelayEffect>
+    <Direction x="0" y="0" z="1"/>
+    <vOffset x="0" y="0" z="0"/>
+   </Explosion>
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPushableByPlayers="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+    <Simulation damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+   </Physics>
+   <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+   <Vulnerability bBullet="1" bCollision="1" bExplosion="1" bMelee="1" bOther="1"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Domestic\Kitchen.Cup01" Id="{879E5F2B-0F72-4B9D-A884-B53A9ED031FC}" Library="SDK_Props_Dest" Class="DestroyableObject" Description="">
+  <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="Remain" bExplode="0" fHealth="20" object_Model="objects/library/props/household/kitchen/cup_b.cgf" object_ModelDestroyed="" ModelSubObject="" bPickable="0" bPlayerOnly="1" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+   <DamageMultipliers fBullet="1" fCollision="1"/>
+   <Explosion Damage="1000" Decal="textures/decal/explo_decal.dds" Delay="0" Effect="explosions.grenade_air.explosion" EffectScale="1" HoleSize="10" MinPhysRadius="2.5" MinRadius="5" PhysRadius="5" Pressure="1000" Radius="10" TerrainHoleSize="5">
+    <DelayEffect Effect="" bHasDelayEffect="0">
+     <Params AttachForm="none" AttachType="none" bCountPerUnit="0" CountScale="1" bPrime="0" Scale="1" bSizePerUnit="0" SpawnPeriod="0"/>
+     <vOffset x="0" y="0" z="0"/>
+     <vRotation x="0" y="0" z="0"/>
+    </DelayEffect>
+    <Direction x="0" y="0" z="1"/>
+    <vOffset x="0" y="0" z="0"/>
+   </Explosion>
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPushableByPlayers="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+    <Simulation damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+   </Physics>
+   <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+   <Vulnerability bBullet="1" bCollision="1" bExplosion="1" bMelee="1" bOther="1"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Domestic\Kitchen.Plate01" Id="{44FCD668-5942-4B23-B495-F68C97BC3D81}" Library="SDK_Props_Dest" Class="DestroyableObject" Description="">
+  <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="Remain" bExplode="0" fHealth="20" object_Model="objects/library/props/household/kitchen/plate_a.cgf" object_ModelDestroyed="" ModelSubObject="" bPickable="0" bPlayerOnly="1" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+   <DamageMultipliers fBullet="1" fCollision="1"/>
+   <Explosion Damage="1000" Decal="textures/decal/explo_decal.dds" Delay="0" Effect="explosions.grenade_air.explosion" EffectScale="1" HoleSize="10" MinPhysRadius="2.5" MinRadius="5" PhysRadius="5" Pressure="1000" Radius="10" TerrainHoleSize="5">
+    <DelayEffect Effect="" bHasDelayEffect="0">
+     <Params AttachForm="none" AttachType="none" bCountPerUnit="0" CountScale="1" bPrime="0" Scale="1" bSizePerUnit="0" SpawnPeriod="0"/>
+     <vOffset x="0" y="0" z="0"/>
+     <vRotation x="0" y="0" z="0"/>
+    </DelayEffect>
+    <Direction x="0" y="0" z="1"/>
+    <vOffset x="0" y="0" z="0"/>
+   </Explosion>
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPushableByPlayers="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+    <Simulation damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+   </Physics>
+   <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+   <Vulnerability bBullet="1" bCollision="1" bExplosion="1" bMelee="1" bOther="1"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Food.Banana01" Id="{6FD23910-A8C5-4A5A-834C-35904D0069CE}" Library="SDK_Props_Dest" Class="DestroyableObject" Description="">
+  <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="Remain" bExplode="0" fHealth="100" object_Model="objects/natural/bananas/banana_bundle1.cgf" object_ModelDestroyed="" ModelSubObject="" bPickable="0" bPlayerOnly="1" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+   <DamageMultipliers fBullet="1" fCollision="1"/>
+   <Explosion Damage="1000" Decal="textures/decal/explo_decal.dds" Delay="0" Effect="explosions.grenade_air.explosion" EffectScale="1" HoleSize="10" MinPhysRadius="2.5" MinRadius="5" PhysRadius="5" Pressure="1000" Radius="10" TerrainHoleSize="5">
+    <DelayEffect Effect="" bHasDelayEffect="0">
+     <Params AttachForm="none" AttachType="none" bCountPerUnit="0" CountScale="1" bPrime="0" Scale="1" bSizePerUnit="0" SpawnPeriod="0"/>
+     <vOffset x="0" y="0" z="0"/>
+     <vRotation x="0" y="0" z="0"/>
+    </DelayEffect>
+    <Direction x="0" y="0" z="1"/>
+    <vOffset x="0" y="0" z="0"/>
+   </Explosion>
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPushableByPlayers="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+    <Simulation damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+   </Physics>
+   <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+   <Vulnerability bBullet="1" bCollision="1" bExplosion="1" bMelee="1" bOther="1"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Domestic\Kitchen.Bowl01" Id="{50B61A1E-CDC0-4562-AD85-41CD542F7CE9}" Library="SDK_Props_Dest" Class="DestroyableObject" Description="">
+  <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="Remain" bExplode="0" fHealth="20" object_Model="objects/library/props/household/kitchen/basin_big.cgf" object_ModelDestroyed="" ModelSubObject="Main" bPickable="0" bPlayerOnly="1" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+   <DamageMultipliers fBullet="1" fCollision="1"/>
+   <Explosion Damage="1000" Decal="textures/decal/explo_decal.dds" Delay="0" Effect="explosions.grenade_air.explosion" EffectScale="1" HoleSize="10" MinPhysRadius="2.5" MinRadius="5" PhysRadius="5" Pressure="1000" Radius="10" TerrainHoleSize="5">
+    <DelayEffect Effect="" bHasDelayEffect="0">
+     <Params AttachForm="none" AttachType="none" bCountPerUnit="0" CountScale="1" bPrime="0" Scale="1" bSizePerUnit="0" SpawnPeriod="0"/>
+     <vOffset x="0" y="0" z="0"/>
+     <vRotation x="0" y="0" z="0"/>
+    </DelayEffect>
+    <Direction x="0" y="0" z="1"/>
+    <vOffset x="0" y="0" z="0"/>
+   </Explosion>
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPushableByPlayers="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+    <Simulation damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+   </Physics>
+   <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+   <Vulnerability bBullet="1" bCollision="1" bExplosion="1" bMelee="1" bOther="1"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Domestic/Explosive.Gas_Canister01" Id="{1F4FFBC2-DB71-4ECF-AA0E-4FDD847A929A}" Library="SDK_Props_Dest" Class="DestroyableObject" Description="">
+  <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="" bExplode="1" fHealth="50" object_Model="objects/library/props/household/kitchen/gascanister.cgf" object_ModelDestroyed="" ModelSubObject="" bPickable="1" bPlayerOnly="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+   <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+   <DamageMultipliers fBullet="1" fCollision="1"/>
+   <Explosion Damage="250" Decal="textures/decal/explo_decal.dds" Delay="0" Effect="explosions.small_fuel_tank.gas" EffectScale="0.5" HoleSize="8" MinPhysRadius="1.5" MinRadius="2" PhysRadius="2.5" Pressure="500" Radius="2.5" TerrainHoleSize="8">
+    <DelayEffect Effect="" bHasDelayEffect="0">
+     <Params AttachForm="none" AttachType="none" bCountPerUnit="0" CountScale="1" bPrime="0" Scale="1" bSizePerUnit="0" SpawnPeriod="0"/>
+     <vOffset x="0" y="0" z="0"/>
+     <vRotation x="0" y="0" z="0"/>
+    </DelayEffect>
+    <Direction x="0" y="0" z="1"/>
+    <vOffset x="0" y="0" z="0"/>
+   </Explosion>
+   <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPushableByPlayers="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+    <Simulation damping="0.1" max_time_step="0.01" sleep_speed="0.02"/>
+   </Physics>
+   <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+   <Vulnerability bBullet="1" bCollision="1" bExplosion="1" bMelee="1" bOther="1"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>

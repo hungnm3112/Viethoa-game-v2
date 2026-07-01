@@ -1,0 +1,2 @@
+- Không bao giờ dịch các từ khóa nội bộ (Internal Identifiers) hoặc đường dẫn file.
+- Quy tắc nhận diện: cấm dịch các chuỗi định dạng `PascalCase`, `camelCase`, `UPPER_SNAKE_CASE`, `lower_snake_case` và các chuỗi chứa đường dẫn (`/`, `.xml`, `.gfx`).

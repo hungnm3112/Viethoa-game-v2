@@ -1,0 +1,14 @@
+<EntityPrototypeLibrary Name="AmbushZombies" SandboxVersion="3.3.8.37329">
+ <EntityPrototype Name="Town.GroundSittingAmbush" Id="{0D1B8E17-AEF5-48DF-9163-3C2C68B335F7}" Library="AmbushZombies" Class="ULZombieSpawnEditor" Description="">
+  <Properties anim_IdleAnim="Test_dormant_sitting" fileEditorModel="objects/gameplay/tagpoint_meshes/ambush_sitground_mesh.cgf" s_OptionalContextTag="AmbushGroundSit" s_Type="Basic Sitter">
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Town.BashHeadAmbush" Id="{856C82C9-AC9B-458F-ADD1-1B6744F0AC68}" Library="AmbushZombies" Class="ULZombieSpawnEditor" Description="">
+  <Properties anim_IdleAnim="Test_dormant_bash_head" fileEditorModel="objects/gameplay/tagpoint_meshes/ambush_bashhead_mesh.cgf" s_OptionalContextTag="AmbushBashHead" s_Type="Basic HeadBanger">
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>

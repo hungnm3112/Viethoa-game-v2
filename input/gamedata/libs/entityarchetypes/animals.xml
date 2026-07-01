@@ -1,0 +1,252 @@
+<EntityPrototypeLibrary Name="animals" SandboxVersion="1.1.1.5571">
+ <EntityPrototype Name="Birds.Seagull" Id="{57F76984-3A51-407B-A937-5F710BFE5CDC}" Class="Birds" Description="">
+  <Properties>
+   <Boid nCount="10" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/birds/tern/tern.chr" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="7" AttractDistMin="1" bEnableFlocking="1" FactorAlign="1" FactorCohesion="0.7" FactorSeparation="20" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="10" FactorHeight="10" FactorOrigin="0.1" HeightMax="40" HeightMin="20" MaxAnimSpeed="0.17" SpeedMax="5" SpeedMin="2"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="1" bObstacleAvoidance="1" Radius="10" VisibilityDist="100"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Tropical_Fishes" Id="{32263926-61D4-4C62-AD4A-DCAD2B218105}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="45" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish05.cgf" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="2" FactorCohesion="3" FactorSeparation="0.1" FieldOfViewAngle="60"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="2.5" SpeedMin="1"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Birds.Tern" Id="{2629BADE-0C15-4183-B64F-9CD4EEF975F0}" Class="Birds" Description="">
+  <Properties>
+   <Boid nCount="15" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/birds/tern/tern.chr" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="7" AttractDistMin="1" bEnableFlocking="1" FactorAlign="1" FactorCohesion="0.7" FactorSeparation="20" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="10" FactorHeight="10" FactorOrigin="0.1" HeightMax="40" HeightMin="20" MaxAnimSpeed="0.17" SpeedMax="5" SpeedMin="2"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="1" bObstacleAvoidance="1" Radius="10" VisibilityDist="100"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Birds.Finch" Id="{83EF9F70-B0EF-4C17-BC1B-1A1125573EA1}" Class="Birds" Description="">
+  <Properties>
+   <Boid nCount="35" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/birds/finch/finch.chr" Size="1.2" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="20" FactorCohesion="40" FactorSeparation="0.001" FieldOfViewAngle="120"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="1" HeightMax="40" HeightMin="5" MaxAnimSpeed="0.15" SpeedMax="10" SpeedMin="2.5"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="1" bObstacleAvoidance="1" Radius="50" VisibilityDist="100"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Reef_Fish_a" Id="{07A8287E-C32E-40F7-B25A-CEB154C938E1}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="30" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish01.cgf" Size="1" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="3" bEnableFlocking="1" FactorAlign="0.7" FactorCohesion="1" FactorSeparation="3" FieldOfViewAngle="100"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Reef_Fish_b" Id="{8586EDFD-DDF2-49B6-B485-7B7944022E06}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="30" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish02.cgf" Size="1" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="3" bEnableFlocking="1" FactorAlign="0.7" FactorCohesion="1" FactorSeparation="3" FieldOfViewAngle="100"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Reef_Fish_c" Id="{A885D740-AAAE-4861-B644-615C6AC7E3E7}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="50" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish03.cgf" Size="1" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="0" FactorCohesion="1" FactorSeparation="10" FieldOfViewAngle="60"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Reef_Fish_d" Id="{9BF88C7E-17C2-4AC6-A636-4005CC2B3DB0}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="30" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish04.cgf" Size="1" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="3" bEnableFlocking="1" FactorAlign="0.7" FactorCohesion="1" FactorSeparation="3" FieldOfViewAngle="100"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Reef_Fish_e" Id="{ADE67B77-BE35-4700-B0B8-970B9C54455E}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="100" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish05.cgf" Size="1" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="0" FactorCohesion="1" FactorSeparation="10" FieldOfViewAngle="60"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Reef_Fish_f" Id="{865B93B3-DD04-4A72-962F-6EEC62704A16}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="30" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish06.cgf" Size="1" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="3" bEnableFlocking="1" FactorAlign="0.7" FactorCohesion="1" FactorSeparation="3" FieldOfViewAngle="100"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Tropical_Fish_small_group" Id="{F92C2FDA-81D5-4CC3-AFB6-B8571103F8E0}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="6" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish02.cgf" Size="0.9" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="0" FactorAlign="0.1" FactorCohesion="1" FactorSeparation="0.1" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="4" SpeedMin="2"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="30" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Tropical_Fish_big_group" Id="{F0B0BF23-42C5-43BB-B3D7-62B4CA901459}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="100" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish05.cgf" Size="1" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="0" FactorCohesion="1" FactorSeparation="0.2" FieldOfViewAngle="60"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.Tropical_Fish_big_group_flock" Id="{3F91071A-1BF6-4FE1-9D4B-816C54AF5181}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="100" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish05.cgf" Size="1" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="3" FactorCohesion="1" FactorSeparation="0.7" FieldOfViewAngle="60"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Fish.River_Fish_group_in_shape" Id="{F3F76ECF-82D6-40F2-8008-CF8B5429C5E2}" Class="Fish" Description="">
+  <Properties>
+   <Boid nCount="5" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/fish/reef_fish06.cgf" Size="0.9" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="1" bEnableFlocking="1" FactorAlign="3" FactorCohesion="10" FactorSeparation="0.7" FieldOfViewAngle="60"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="0" MaxAnimSpeed="1.7" SpeedMax="4" SpeedMin="2"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="50" ViewDistRatio="50" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Insects.butterfly_blue" Id="{FBD812F7-D55A-459C-91A6-A8BDD8FFDF4A}" Class="Birds" Description="">
+  <Properties>
+   <Boid nCount="10" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/insects/butterfly/butterfly_blue.chr" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="5" AttractDistMin="1" bEnableFlocking="1" FactorAlign="1" FactorCohesion="20" FactorSeparation="10" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="0.3" FactorHeight="0.41" FactorOrigin="0.0001" HeightMax="40" HeightMin="1" MaxAnimSpeed="1.6" SpeedMax="1.3" SpeedMin="0.7"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="1" bObstacleAvoidance="0" Radius="1" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Insects.butterfly_brown" Id="{EDF754A9-380F-4465-85E5-AC2874DA8BDA}" Class="Birds" Description="">
+  <Properties>
+   <Boid nCount="5" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/insects/butterfly/butterfly_brown.chr" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="5" AttractDistMin="1" bEnableFlocking="0" FactorAlign="1" FactorCohesion="20" FactorSeparation="10" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="0.3" FactorHeight="0.41" FactorOrigin="0.1" HeightMax="40" HeightMin="1" MaxAnimSpeed="1.6" SpeedMax="1.3" SpeedMin="0.7"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="1" VisibilityDist="60"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Insects.butterfly_green" Id="{E2CAA421-67B2-416D-A62A-AC9B33FD2672}" Class="Birds" Description="">
+  <Properties>
+   <Boid nCount="5" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/insects/butterfly/butterfly_green.chr" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="5" AttractDistMin="1" bEnableFlocking="0" FactorAlign="1" FactorCohesion="20" FactorSeparation="10" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="0.3" FactorHeight="0.41" FactorOrigin="0.1" HeightMax="40" HeightMin="1" MaxAnimSpeed="1.6" SpeedMax="1.3" SpeedMin="0.7"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="1" VisibilityDist="60"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Insects.butterfly_yellow" Id="{B3009AC3-8DAE-44E7-B9F8-73FC4C901731}" Class="Birds" Description="">
+  <Properties>
+   <Boid nCount="5" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/insects/butterfly/butterfly_yellow.chr" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="5" AttractDistMin="1" bEnableFlocking="0" FactorAlign="1" FactorCohesion="20" FactorSeparation="10" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="0.3" FactorHeight="0.41" FactorOrigin="0.1" HeightMax="40" HeightMin="1" MaxAnimSpeed="1.6" SpeedMax="1.3" SpeedMin="0.7"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="1" VisibilityDist="60"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Insects.butterfly_fly" Id="{4DAF22E5-0D7D-45AE-A1DA-3198F3D5367C}" Class="Birds" Description="">
+  <Properties>
+   <Boid nCount="5" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/insects/butterfly/butterfly_fly.chr" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="5" AttractDistMin="1" bEnableFlocking="0" FactorAlign="1" FactorCohesion="20" FactorSeparation="10" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="0.3" FactorHeight="0.41" FactorOrigin="0.1" HeightMax="40" HeightMin="1" MaxAnimSpeed="1.6" SpeedMax="1.3" SpeedMin="0.7"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="0" Radius="1" VisibilityDist="60"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Birds.Chickens_small" Id="{86164FC4-615D-4D2F-835A-3D30C1DD7025}" Class="Chickens" Description="">
+  <Properties>
+   <Boid nCount="3" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/birds/chicken/chicken.cdf" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="0.01" FactorCohesion="0.01" FactorSeparation="1" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="100" FactorHeight="1" FactorOrigin="0.5" HeightMax="1" HeightMin="0" MaxAnimSpeed="2.3" SpeedMax="1" SpeedMin="0.8"/>
+   <Options bActivate="1" bAvoidWater="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="1" Radius="10" VisibilityDist="75"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Birds.Chickens_big" Id="{51148CF1-05EA-4405-8D32-BF2B4E2451F5}" Class="Chickens" Description="">
+  <Properties>
+   <Boid nCount="10" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/birds/chicken/chicken.cdf" Size="1" SizeRandom="0.15"/>
+   <Flocking AttractDistMax="20" AttractDistMin="3" bEnableFlocking="1" FactorAlign="3" FactorCohesion="2" FactorSeparation="2" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="100" FactorHeight="1" FactorOrigin="0.05" HeightMax="1" HeightMin="0" MaxAnimSpeed="2.3" SpeedMax="1" SpeedMin="0.8"/>
+   <Options bActivate="1" bAvoidWater="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="1" Radius="10" VisibilityDist="75"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Frogs.Frog_single" Id="{E246FB08-F517-4536-889F-F4D09191ADF1}" Class="Frogs" Description="">
+  <Properties>
+   <Boid nCount="1" Mass="1" object_Model="objects/characters/animals/frog/frog.cdf" Size="1" SizeRandom="0"/>
+   <Movement MaxAnimSpeed="1" SpeedMax="4" SpeedMin="2"/>
+   <Options bActivate="1" bFollowPlayer="0" bObstacleAvoidance="1" Radius="1" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Frogs.Frog_group" Id="{E4E6D4B0-E444-44A5-AD92-7900F6DB3278}" Class="Frogs" Description="">
+  <Properties>
+   <Boid nCount="5" Mass="10" object_Model="objects/characters/animals/frog/frog.cdf" Size="1" SizeRandom="0"/>
+   <Movement MaxAnimSpeed="0.5" SpeedMax="4" SpeedMin="2"/>
+   <Options bActivate="1" bFollowPlayer="1" bObstacleAvoidance="1" Radius="5" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Turtles.Turtle" Id="{3307240E-1DDA-4D88-9107-FA6B18605878}" Class="Turtles" Description="">
+  <Properties>
+   <Boid nCount="1" gravity_at_death="-9.81" Mass="200" object_Model="objects/characters/animals/turtle/turtle.cdf" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="0" FactorAlign="0.01" FactorCohesion="0.01" FactorSeparation="1" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="100" FactorHeight="1" FactorOrigin="0.7" HeightMax="1" HeightMin="0" MaxAnimSpeed="5.5" SpeedMax="0.5" SpeedMin="0.4"/>
+   <Options bActivate="1" bAvoidWater="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="1" Radius="5" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Birds.plover" Id="{0B0A2F1B-23D0-4307-9999-81C2046678F4}" Class="Plover" Description="">
+  <Properties>
+   <Boid nCount="20" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/birds/plover/plover.cdf" Size="1" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="0.1" bEnableFlocking="1" FactorAlign="3" FactorCohesion="5" FactorSeparation="0.2" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="100" FactorHeight="1" FactorOrigin="0.07" HeightMax="1" HeightMin="0" MaxAnimSpeed="0.5" SpeedMax="2.5" SpeedMin="0.5"/>
+   <Options bActivate="1" bAvoidWater="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="1" Radius="5" VisibilityDist="50"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Crabs.Crabs" Id="{D018A6BF-FEBF-40E1-A248-59F8D55FA087}" Class="Crabs" Description="">
+  <Properties>
+   <Boid nCount="10" gravity_at_death="-9.81" Mass="20" object_Model="objects/characters/animals/crab/crab.cdf" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="5" FactorCohesion="5" FactorSeparation="0.7" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="100" FactorHeight="1" FactorOrigin="0.5" HeightMax="1" HeightMin="0" MaxAnimSpeed="2" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bAvoidWater="0" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="1" Radius="10" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Crabs.Crab_single" Id="{E25EAFC1-8DF2-49F3-BC0B-7844308713D2}" Class="Crabs" Description="">
+  <Properties>
+   <Boid nCount="1" gravity_at_death="-9.81" Mass="20" object_Model="objects/characters/animals/crab/crab.chr" Size="1" SizeRandom="0"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="0" FactorAlign="0.01" FactorCohesion="0.01" FactorSeparation="1" FieldOfViewAngle="250"/>
+   <Movement FactorAvoidLand="100" FactorHeight="1" FactorOrigin="0.1" HeightMax="1" HeightMin="0" MaxAnimSpeed="2" SpeedMax="2" SpeedMin="1"/>
+   <Options bActivate="1" bAvoidWater="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="1" Radius="10" VisibilityDist="80"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Birds.Finch_gouldian" Id="{191AB436-7292-4131-8A02-9332453020E7}" Class="Birds" Description="">
+  <Properties>
+   <Boid nCount="25" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/birds/finch/gouldian.cdf" Size="1.2" SizeRandom="0.2"/>
+   <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="20" FactorCohesion="80" FactorSeparation="0.001" FieldOfViewAngle="120"/>
+   <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="1" HeightMax="40" HeightMin="5" MaxAnimSpeed="0.15" SpeedMax="10" SpeedMin="2.5"/>
+   <Options bActivate="1" bFollowPlayer="0" bNoLanding="1" bObstacleAvoidance="1" Radius="50" VisibilityDist="100"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>

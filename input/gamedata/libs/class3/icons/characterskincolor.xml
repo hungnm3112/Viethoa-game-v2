@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Base" Value="1" />
+  <Icon Name="Dark" Value="2" />
+  <Icon Name="Amber" Value="3" />
+  <Icon Name="Light" Value="4" />
+  <Icon Name="Pale" Value="5" />
+  <Icon Name="Infected Level 1" Value="6" />
+</IconData>

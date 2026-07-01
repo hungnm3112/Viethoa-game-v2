@@ -1,0 +1,212 @@
+<item name="Crossbow_Karma" class="Weapon" category="Launcher" priority="4">
+	<ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="1" draw_time="0.35"
+	    sweep_width="-1" sweep_frequency="-1"  burstPauseTimeMin="0.5" burstPauseTimeMax="1.5" singleFireTriggerTime="0.5" />
+
+    <params>
+        <param name="giveable"      value="1" />
+        <param name="selectable"    value="1" />
+        <param name="pose"              value="assault" />
+        <param name="mass"              value="0" />
+        <param name="disturbanceValue"    value=".1" />
+        <param name="soundRange"          value="1.0" />
+        <param name="soundRangeSilenced"  value=".1" />
+        <param name="canHaveSilencer"     value="0" />
+        <param name="display_name" value="Crossbow"/>
+        <param name="ammoMax"       value="100" />
+  </params>
+
+    <geometry>
+        <firstperson name="objects/weapons/crossbow/crossbow_01/crossbow_01.cgf"/>
+        <thirdperson name="objects/weapons/crossbow/crossbow_01/crossbow_01.cgf"/>
+        <boneAttachments>
+            <attachment target="thirdperson" name="muzzle_flash_effect" bone="weapon_term"/>
+            <attachment target="thirdperson" name="muzzle_flash_light" bone="weapon_term"/>
+            <attachment target="thirdperson" name="muzzle_flash_smoke" bone="weapon_term"/>
+        </boneAttachments>
+    </geometry>
+
+    <actions>
+        <action name="select">
+            <animation target="owner" name="select"/>
+        </action>
+        <action name="deselect">
+            <animation target="owner" name="deselect"/>
+        </action>
+
+        <action name="fire_jammed">
+            <sound target="player" name="Sounds/weapons:wpn_common:jammed" radius="20"/>
+            <sound target="npc" name="Sounds/weapons:wpn_common:jammed" radius="20"/>
+        </action>
+        <action name="fire_silenced">
+            <sound target="player" name="sounds/weapons:wpn_launcher:GL_fire" radius="200" static="0"  />
+            <sound target="player_reverb" name="sounds/weapons:wpn_launcher:GL_fire_rvrb" radius="200" static="0"  />
+            <sound target="npc" name="sounds/weapons:wpn_NPC_launcher:GL_NPC_Fire" radius="200" static="0"/>
+        </action>
+        <action name="fire">
+            <sound target="player" name="sounds/weapons:wpn_launcher:GL_fire" radius="200" static="0"  />
+            <sound target="player_reverb" name="sounds/weapons:wpn_launcher:GL_fire_rvrb" radius="200" static="0"  />
+            <sound target="npc" name="sounds/weapons:wpn_NPC_launcher:GL_NPC_Fire" radius="200" static="0"/>
+        </action>
+
+        <action name="reload">
+          <animation target="owner" name="reload"/>
+        </action>
+        <action name="reload_start">
+            <animation target="owner" name="reload_start"/>
+        </action>
+        <action name="reload_load">
+            <animation target="owner" name="reload_load"/>
+        </action>
+        <action name="reload_end">
+            <animation target="owner" name="reload_end"/>
+        </action>
+        <action name="empty_clip">
+            <sound target="player" name="Sounds/weapons:wpn_common:dryfire" radius="20"/>
+            <sound target="npc" name="Sounds/weapons:wpn_common:dryfire" radius="20"/>
+        </action>
+        <action name="change_firemode">
+            <sound target="player" name="sounds/weapons:wpn_common:firemode" radius="20"/>
+        </action>
+    </actions>
+
+  <audio>
+    <player>
+      <param name="precacheAudioFile" value="wpn_gl_06"/>
+      <events>
+        <event name="aim" output="Sounds/weapons:wpn_smg:fol_aim"/>
+        <event name="relax" output="Sounds/weapons:wpn_smg:fol_relax"/>
+        <event name="run" output="Sounds/weapons:wpn_smg:fol_run"/>
+        <event name="run_quiet" output="Sounds/weapons:wpn_smg:fol_run_quiet"/>
+        <event name="jump" output="Sounds/weapons:wpn_smg:fol_jump"/>
+        <event name="stow" output="Sounds/weapons:wpn_smg:fol_stow"/>
+        <event name="clipin" output="Sounds/weapons:wpn_smg:rld_clipin"/>
+        <event name="clipout" output="Sounds/weapons:wpn_smg:rld_clipout"/>
+        <event name="clipdrop" output="Sounds/weapons:wpn_smg:rld_clipdrop"/>
+        <event name="slidepull" output="Sounds/weapons:wpn_smg:rld_slidepull"/>
+      </events>
+    </player>
+    <npc>
+      <param name="precacheAudioFile" value="wpn_gl_06_npc"/>
+      <events>
+        <event name="clipin" output="Sounds/weapons:wpn_smg:rld_clipin"/>
+        <event name="clipout" output="Sounds/weapons:wpn_smg:rld_clipout"/>
+        <event name="clipdrop" output="Sounds/weapons:wpn_smg:rld_clipdrop"/>
+        <event name="slidepull" output="Sounds/weapons:wpn_smg:rld_slidepull"/>
+      </events>
+    </npc>
+  </audio>
+
+    <firemodes>
+        <firemode type="default">
+            <fire>
+                <param name="ammo_type" value="UL_Arrow"/>
+                <param name="rate" value="900"/>
+                <param name="damage" value="400"/>
+                <param name="reload_time" value="5.0"/>
+                <param name="bullet_chamber" value="0"/>
+                <param name="clip_size" value="100"/>
+                <param name="helper_tp" value="weapon_term"/>
+                <param name="nearmiss_signal" value="OnNearMiss"/>
+            </fire>
+
+            <recoil>
+            <!-- each shot moves this amount along the x and y axes, measured from 5m -->
+            <attack_base>
+                <param name="x" value="0.0001"/>
+                <param name="y" value="0.0025"/>
+            </attack_base>
+
+            <!-- randomness -->
+            <attack_rand>
+                <param name="nx" value="-0.01"/>
+                <param name="x" value="0.01"/>
+                <param name="ny" value="-0.003"/>
+                <param name="y" value="0.005"/>
+            </attack_rand>
+
+            <!-- additional randomness for high rate -->
+            <attack_rand_high>
+                <param name="threshold_timeslice" value="0.45"/>
+                <param name="threshold_shots" value="4"/> <!-- if shots fired in the last timeslice crosses the threshold use high recoil randomness. -->
+                <param name="nx" value="-0.05"/>
+                <param name="x" value="0.05"/>
+                <param name="ny" value="-0.0"/>
+                <param name="y" value="0.01"/>
+            </attack_rand_high>
+
+            <!-- times -->
+            <param name="time_fadein"  value="0.001" />
+            <param name="time_hold"    value="0.11" />
+            <param name="time_fadeout" value="0.11"/>
+
+            <!-- multipliers -->
+            <param name="recoil_jump_m"      value="1.5" />
+            <param name="recoil_crouch_m"    value="0.5" />
+            <param name="recoil_sprint_m"    value="1.2" />
+            <param name="recoil_runandgun_m" value="0.33"/>
+            </recoil>
+
+            <!-- If you don't want your gun to be super-accurate this adds some spread -->
+            <spread>
+                <param name="min" value="0.0"/>
+                <param name="max" value="0.16"/>    <!-- max radius at 5m -->
+                <param name="attack" value="0.06"/> <!-- spread per shot -->
+                <param name="decay" value="0.3"/>   <!-- time from max to min -->
+
+                <!-- movement modifier -->
+                <param name="speed_threshold" value="1.0"/> <!-- movement speed over this adds spread -->
+                <param name="speed_m" value="0.027"/>        <!-- movement times this is added to spread -->
+
+                <param name="rotation_threshold" value="1.0"/> <!-- rotation over this add spread -->
+                <param name="rotation_m" value="0.027"/>        <!-- rotation times this is added to spread -->
+
+                <!-- multipliers -->
+                <param name="spread_jump_m"      value="1.5" />
+                <param name="spread_crouch_m"    value="0.85" />
+                <param name="spread_sprint_m"    value="1.2" />
+                <param name="spread_runandgun_m" value="1.0"/>
+            </spread>
+
+            <muzzleflash>
+                <thirdperson effect="Class3_WeaponFX.muzzleflashes.grenade" helper="weapon_term" light_helper="weapon_term" light_radius="2" light_time="0.010" light_color="1,1,0.8" light_diffuse_mult="8"/>
+            </muzzleflash>
+            <reject>
+                <firstperson effect="Class3_WeaponFX.shells.grenade" helper="shells"/>
+                <thirdperson effect="Class3_WeaponFX.shells.grenade" helper="shells"/>
+            </reject>
+        </firemode>
+
+        <firemode name="Single" type="Single">
+        </firemode>
+    </firemodes>
+
+    <accessories>
+        <accessory name="Silencer">
+            <attach helper="silencer_attach" layer="silencer"/>
+            <detach/>
+            <params>
+                <firemodes>
+                    <firemode type="default">
+                        <muzzleflash>
+                            <firstperson effect="muzzleflash.AssaultRifle.silenced_smoke" helper="muzzle_flash_effect" time="0.1"/>
+                            <thirdperson effect="muzzleflash.AssaultRifle.silenced_smoke_tp" helper="weapon_term" time="0.1"/>
+                        </muzzleflash>
+                        <actions>
+                            <param name="fire" value="fire_silenced"/>
+                            <param name="fire_cock" value="fire_silenced"/>
+                        </actions>
+                    </firemode>
+                </firemodes>
+            </params>
+        </accessory>
+    </accessories>
+</item>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<GameTokensLibrary Name="Character">
+ <GameToken Name="Expertise.MeleeUnarmed" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.MeleeBlunt" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.MeleeBlade" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunPistol" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunShotgun" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunRifle" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunAssault" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.GunHeavy" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.Medicine" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.Repair" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="Expertise.Psychology" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.MeleeUnarmed" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.MeleeBlunt" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.MeleeBlade" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.GunPistol" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.GunShotgun" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.GunRifle" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.GunAssault" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.GunHeavy" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.Medicine" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.Repair" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="ExpertiseBonus.Psychology" Type="Int" Value="0" LocalOnly="0"/>
+ <GameToken Name="StaminaBonus" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="HealthBonus" Type="Int" Value="0" LocalOnly="1"/>
+</GameTokensLibrary>

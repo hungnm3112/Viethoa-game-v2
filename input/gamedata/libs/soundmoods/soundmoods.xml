@@ -1,0 +1,398 @@
+<SoundMoods>
+ <Mood Name="default" Priority="1" MusicVolume="0.80000001">
+  <Category Name="breakables"/>
+  <Category Name="combat"/>
+  <Category Name="dx"/>
+  <Category Name="dx_combat"/>
+  <Category Name="dx_bog"/>  
+  <Category Name="dx_mission"/>
+  <Category Name="dx_chatter"/>  
+  <Category Name="environment_2d" />
+  <Category Name="environment_3d" />
+  <Category Name="environment_wind" />    
+  <Category Name="environment_wtr" />  
+  <Category Name="foley"/> 
+  <Category Name="foley_search"/>
+  <Category Name="foley_bodyrag"/>  
+  <Category Name="foley_bf_zed" Volume="0.3"/>
+  <Category Name="impacts"/>
+  <Category Name="master"/>
+  <Category Name="music"/>
+  <Category Name="mx_exploration"/>
+  <Category Name="mx_combat"/>  
+  <Category Name="mx_combat_light"/>  
+  <Category Name="mx_menu"/>    
+  <Category Name="physics"/>
+  <Category Name="projectiles" />
+  <Category Name="soundtoys" />  
+  <Category Name="sfx"/>
+  <Category Name="ui"/>
+  <Category Name="ui_global"/> 
+  <Category Name="ui_foley"/> 
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles"/>
+  <Category Name="vehicle_impacts"/>  
+  <Category Name="whoosh" /> 
+  <Category Name="zdx"/>
+ </Mood>
+ <Mood Name="dx_default" Priority="125" MusicVolume="0.80000001">
+  <Category Name="breakables" Volume="0.3"/>
+  <Category Name="combat" Volume="0.5"/>
+  <Category Name="dx"/>
+  <Category Name="dx_combat" Volume="0.6"/>
+  <Category Name="dx_bog"/>    
+  <Category Name="dx_mission"/>
+  <Category Name="dx_chatter" Volume="0.6"/>    
+  <Category Name="environment_2d" />
+  <Category Name="environment_3d" />
+  <Category Name="environment_wind" />    
+  <Category Name="environment_wtr" Volume="0.5"/>    
+  <Category Name="foley" Volume="0.7"/>
+  <Category Name="foley_search" Volume="0.5"/>
+  <Category Name="foley_bodyrag" Volume="0.5"/>    
+  <Category Name="foley_bf_zed" Volume="0.3"/>
+  <Category Name="impacts" Volume="0.5"/>
+  <Category Name="master"/>
+  <Category Name="music"/>
+  <Category Name="mx_exploration" Volume="0.8"/>
+  <Category Name="mx_combat" Volume="0.7"/>    
+  <Category Name="mx_combat_light" Volume="0.7"/>  
+  <Category Name="mx_menu" />      
+  <Category Name="physics" Volume="0.3"/>
+  <Category Name="projectiles" Volume="0.4"/>
+  <Category Name="soundtoys" Volume="0.9"/>    
+  <Category Name="sfx"/>
+  <Category Name="ui"/>
+  <Category Name="ui_global"/> 
+  <Category Name="ui_foley"/>   
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles" Volume="0.3"/>
+  <Category Name="vehicle_impacts" Volume="0.3"/>   
+  <Category Name="whoosh" Volume="0.75"/> 
+  <Category Name="zdx" Volume="0.6"/>
+ </Mood>  
+  <Mood Name="dx_default_chatter" Priority="100" MusicVolume="0.80000001">
+  <Category Name="breakables" Volume="0.5"/>
+  <Category Name="combat" Volume="0.8"/>
+  <Category Name="dx"/>
+  <Category Name="dx_combat" Volume="0.6"/>
+  <Category Name="dx_bog"/>    
+  <Category Name="dx_mission"/>
+  <Category Name="dx_chatter" />    
+  <Category Name="environment_2d" />
+  <Category Name="environment_3d" />
+  <Category Name="environment_wind" />  
+  <Category Name="environment_wtr" Volume="0.75"/>  
+  <Category Name="foley" Volume="0.8"/>
+  <Category Name="foley_search"/>
+  <Category Name="foley_bodyrag" Volume="0.8"/>     
+  <Category Name="foley_bf_zed" Volume="0.3"/>
+  <Category Name="impacts" Volume="0.8"/>
+  <Category Name="master"/>
+  <Category Name="mx_exploration"/>
+  <Category Name="mx_combat"/>  
+  <Category Name="mx_combat_light"/>  
+  <Category Name="mx_menu"/>      
+  <Category Name="music"/>
+  <Category Name="physics" Volume="0.5"/>
+  <Category Name="projectiles" Volume="0.8"/>
+  <Category Name="soundtoys" Volume="0.9"/>    
+  <Category Name="sfx"/>
+  <Category Name="ui"/>
+  <Category Name="ui_global"/> 
+  <Category Name="ui_foley"/>   
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles" Volume="0.75"/>
+  <Category Name="vehicle_impacts" Volume="0.65"/>   
+  <Category Name="whoosh" Volume="0.8"/> 
+  <Category Name="zdx" Volume="0.7"/>
+ </Mood>  
+ <Mood Name="dx_mission" Priority="200" MusicVolume="0.80000001">
+  <Category Name="breakables" Volume="0.2"/>
+  <Category Name="combat" Volume="0.3"/>
+  <Category Name="dx"/>
+  <Category Name="dx_combat" Volume="0.3"/> 
+  <Category Name="dx_bog"/>    
+  <Category Name="dx_mission"/>
+  <Category Name="dx_chatter" Volume="0.3"/>      
+  <Category Name="environment_2d" Volume="0.75"/>
+  <Category Name="environment_3d" Volume="0.6"/>
+  <Category Name="environment_wind" Volume="0.6"/>     
+  <Category Name="environment_wtr" Volume="0.45"/>    
+  <Category Name="foley" Volume="0.6"/>
+  <Category Name="foley_bodyrag" Volume="0.4"/>     
+  <Category Name="foley_bf_zed" Volume="0.1"/>
+  <Category Name="foley_search" Volume="0.5"/>
+  <Category Name="impacts" Volume="0.4"/>
+  <Category Name="master"/>
+  <Category Name="music"/>
+  <Category Name="mx_exploration" Volume="0.75"/>
+  <Category Name="mx_combat" Volume="0.4"/> 
+  <Category Name="mx_combat_light" Volume="0.5"/>  
+  <Category Name="mx_menu" Volume="0.75"/>      
+  <Category Name="physics" Volume="0.2"/>
+  <Category Name="projectiles" Volume="0.3"/>
+  <Category Name="soundtoys" Volume="0.7"/>    
+  <Category Name="sfx"/>
+  <Category Name="ui"/>
+  <Category Name="ui_global"/> 
+  <Category Name="ui_foley" Volume="0.6"/>    
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles" Volume="0.15"/>
+  <Category Name="vehicle_impacts" Volume="0.1"/> 
+  <Category Name="whoosh" Volume="0.25"/> 
+  <Category Name="zdx" Volume="0.25"/>
+ </Mood>
+  <Mood Name="dx_mission_misc" Priority="200" MusicVolume="0.80000001">
+  <Category Name="breakables" Volume="0.2"/>
+  <Category Name="combat" Volume="0.35"/>
+  <Category Name="dx"/>
+  <Category Name="dx_combat" Volume="0.35"/>
+  <Category Name="dx_bog"/>    
+  <Category Name="dx_mission"/>
+  <Category Name="dx_chatter" Volume="0.3"/>     
+  <Category Name="environment_2d" Volume="0.8"/>
+  <Category Name="environment_3d" Volume="0.6"/>
+  <Category Name="environment_wind" Volume="0.6"/>     
+  <Category Name="environment_wtr" Volume="0.5"/>   
+  <Category Name="foley" Volume="0.6"/>    
+  <Category Name="foley_search" Volume="0.5"/>
+  <Category Name="foley_bodyrag" Volume="0.65"/>     
+  <Category Name="foley_bf_zed" Volume="0.1"/>
+  <Category Name="impacts" Volume="0.4"/>
+  <Category Name="master"/>
+  <Category Name="music"/>
+  <Category Name="mx_exploration" Volume="0.75"/>
+  <Category Name="mx_combat" Volume="0.45"/>    
+  <Category Name="mx_combat_light" Volume="0.5"/>  
+  <Category Name="mx_menu" Volume="0.75"/>      
+  <Category Name="physics" Volume="0.2"/>
+  <Category Name="projectiles" Volume="0.3"/>
+  <Category Name="soundtoys" Volume="0.7"/>    
+  <Category Name="sfx"/>
+  <Category Name="ui"/>
+  <Category Name="ui_global"/> 
+  <Category Name="ui_foley" Volume="0.75"/>    
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles" Volume="0.15"/>
+  <Category Name="vehicle_impacts" Volume="0.1"/> 
+  <Category Name="whoosh" Volume="0.4"/> 
+  <Category Name="zdx" Volume="0.3"/>
+ </Mood>  
+  <Mood Name="in_vehicle" Priority="75" MusicVolume="0.80000001">
+  <Category Name="breakables"/>
+  <Category Name="combat"/>
+  <Category Name="dx"/>
+  <Category Name="dx_combat" Volume="0.7"/> 
+  <Category Name="dx_bog"/>    
+  <Category Name="dx_mission"/>
+  <Category Name="dx_chatter"/>    
+  <Category Name="environment_2d" Volume="0.7"/>
+  <Category Name="environment_3d" Volume="0.6"/>
+  <Category Name="environment_wind" Volume="0.6"/>  
+  <Category Name="environment_wtr" Volume="0.7"/>      
+  <Category Name="foley" Volume="0.8"/>
+  <Category Name="foley_search" Volume="0.4"/>
+  <Category Name="foley_bodyrag" Volume="0.8"/>     
+  <Category Name="foley_bf_zed" Volume="0.6"/>
+  <Category Name="impacts"/>
+  <Category Name="master"/>
+  <Category Name="music" />
+  <Category Name="mx_exploration"/>
+  <Category Name="mx_combat"/>    
+  <Category Name="mx_combat_light"/>  
+  <Category Name="mx_menu"/>      
+  <Category Name="physics"/>
+  <Category Name="projectiles"/>
+  <Category Name="soundtoys" />    
+  <Category Name="sfx"/>
+  <Category Name="ui"/>
+  <Category Name="ui_global"/> 
+  <Category Name="ui_foley"/>  
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles"/>
+  <Category Name="vehicle_impacts"/> 
+  <Category Name="whoosh" /> 
+  <Category Name="zdx"/>
+ </Mood>
+ <Mood Name="knockeddown" Priority="500" MusicVolume="0.80000001">
+  <Category Name="breakables"/>
+  <Category Name="combat" Pitch="-.15" />
+  <Category Name="dx"/>
+  <Category Name="dx_combat" Volume="0.6" Pitch="-.025"/>
+  <Category Name="dx_bog"/>    
+  <Category Name="dx_mission" Volume="0.75"/>
+  <Category Name="dx_chatter" Volume="0.6"/>    
+  <Category Name="environment_2d" Volume="0"/>
+  <Category Name="environment_3d" Volume="0"/>
+  <Category Name="environment_wind" Volume="0"/>    
+  <Category Name="environment_wtr" Volume="0"/>    
+  <Category Name="foley" Pitch="-.15"/>
+  <Category Name="foley_search" />
+  <Category Name="foley_bodyrag" />      
+  <Category Name="foley_bf_zed" Volume="0.1"/>
+  <Category Name="impacts" Pitch="-.2" />
+  <Category Name="master"/>
+  <Category Name="music"/>
+  <Category Name="mx_exploration"/>
+  <Category Name="mx_combat"/>    
+  <Category Name="mx_combat_light"/>  
+  <Category Name="mx_menu"/>      
+  <Category Name="physics" Pitch="-.2" />
+  <Category Name="projectiles" Pitch="-.2" />
+  <Category Name="soundtoys" Pitch="-.2"/>    
+  <Category Name="sfx"/>
+  <Category Name="ui" Volume="0.4"/>
+  <Category Name="ui_global"/> 
+  <Category Name="ui_foley"/>    
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles" Volume="0.7" Pitch="-.15" />
+  <Category Name="vehicle_impacts" Volume="0.6" Pitch="-.15"/> 
+  <Category Name="whoosh" />  
+  <Category Name="zdx" Pitch="-.2" />
+ </Mood> 
+  <Mood Name="vulnerable" Priority="1000" MusicVolume="0.80000001">
+  <Category Name="breakables"/>
+  <Category Name="combat" Pitch="-.3" />
+  <Category Name="dx"/>
+  <Category Name="dx_combat" Volume="0.75" Pitch="-.075"/>
+  <Category Name="dx_bog"/>  
+  <Category Name="dx_mission" Volume="0"/>
+  <Category Name="dx_chatter" Volume="0"/>    
+  <Category Name="environment_2d" Volume="0"/>
+  <Category Name="environment_3d" Volume="0"/>
+  <Category Name="environment_wind" Volume="0"/>    
+  <Category Name="environment_wtr" Volume="0"/>      
+  <Category Name="foley" Pitch="-.3" />   
+  <Category Name="foley_search" />
+  <Category Name="foley_bodyrag" />      
+  <Category Name="foley_bf_zed" Volume="0"/>
+  <Category Name="impacts" Pitch="-.4" />
+  <Category Name="master"/>
+  <Category Name="music"/>
+  <Category Name="mx_exploration"/>
+  <Category Name="mx_combat"/>   
+  <Category Name="mx_combat_light"/>  
+  <Category Name="mx_menu"/>      
+  <Category Name="physics" Pitch="-.4" />
+  <Category Name="projectiles" Pitch="-.3" />
+  <Category Name="soundtoys" Pitch="-.3"/>      
+  <Category Name="sfx"/>
+  <Category Name="ui" Volume="0.2"/>
+  <Category Name="ui_global"/> 
+  <Category Name="ui_foley"/>   
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles" Volume="0.3" Pitch="-.3" />
+  <Category Name="vehicle_impacts" Volume="0.2" Pitch="-.3"/> 
+  <Category Name="whoosh" />    
+  <Category Name="zdx" Pitch="-.4" />
+ </Mood>  
+ <Mood Name="main_menu" Priority="10000" MusicVolume="0.80000001">
+  <Category Name="breakables" Volume="0"/>
+  <Category Name="combat" Volume="0"/>
+  <Category Name="dx" />
+  <Category Name="dx_combat" Volume="0"/>
+  <Category Name="dx_bog" Volume="0"/>    
+  <Category Name="dx_mission" Volume="0"/>
+  <Category Name="dx_chatter" Volume="0"/>    
+  <Category Name="environment_2d" Volume="0"/>
+  <Category Name="environment_3d" Volume="0"/>
+  <Category Name="environment_wind" Volume="0"/>    
+  <Category Name="environment_wtr" Volume="0"/>      
+  <Category Name="foley" Volume="0"/>   
+  <Category Name="foley_bodyrag" Volume="0"/>      
+  <Category Name="foley_search" Volume="0"/>
+  <Category Name="foley_bf_zed" Volume="0"/>
+  <Category Name="impacts" Volume="0"/>
+  <Category Name="master"/>
+  <Category Name="music"/>
+  <Category Name="mx_exploration" Volume="0"/>
+  <Category Name="mx_combat" Volume="0"/>
+  <Category Name="mx_combat_light" Volume="0"/>  
+  <Category Name="mx_menu"/>      
+  <Category Name="physics" Volume="0"/>
+  <Category Name="projectiles" Volume="0"/>
+  <Category Name="soundtoys" Volume="0"/>  
+  <Category Name="sfx" />
+  <Category Name="ui"/>
+  <Category Name="ui_global" Volume="0"/> 
+  <Category Name="ui_foley" Volume="0"/>   
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles" Volume="0"/>
+  <Category Name="vehicle_impacts" Volume="0"/> 
+  <Category Name="whoosh" Volume="0"/> 
+  <Category Name="zdx" Volume="0"/>
+ </Mood>    
+ <Mood Name="credits" Priority="10000" MusicVolume="0.80000001">
+  <Category Name="breakables" Volume="0"/>
+  <Category Name="combat" Volume="0"/>
+  <Category Name="dx" />
+  <Category Name="dx_combat" Volume="0"/>
+  <Category Name="dx_bog"/>    
+  <Category Name="dx_mission" />
+  <Category Name="dx_chatter" />    
+  <Category Name="environment_2d" Volume="0"/>
+  <Category Name="environment_3d" Volume="0"/>
+  <Category Name="environment_wind" Volume="0"/>    
+  <Category Name="environment_wtr" Volume="0"/>      
+  <Category Name="foley" Volume="0"/>   
+  <Category Name="foley_bodyrag" Volume="0"/>      
+  <Category Name="foley_search" Volume="0"/>
+  <Category Name="foley_bf_zed" Volume="0"/>
+  <Category Name="impacts" Volume="0"/>
+  <Category Name="master"/>
+  <Category Name="music"/>
+  <Category Name="mx_exploration" />
+  <Category Name="mx_combat" />
+  <Category Name="mx_combat_light" />  
+  <Category Name="mx_menu"/>      
+  <Category Name="physics" Volume="0"/>
+  <Category Name="projectiles" Volume="0"/>
+  <Category Name="soundtoys" Volume="0"/>  
+  <Category Name="sfx" />
+  <Category Name="ui"/>
+  <Category Name="ui_global" Volume="0"/> 
+  <Category Name="ui_foley" Volume="0"/> 
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles" Volume="0"/>
+  <Category Name="vehicle_impacts" Volume="0"/> 
+  <Category Name="whoosh" Volume="0"/> 
+  <Category Name="zdx" Volume="0"/>
+ </Mood>     
+ <Mood Name="credits_VO" Priority="10000" MusicVolume="0.80000001">
+  <Category Name="breakables" Volume="0"/>
+  <Category Name="combat" Volume="0"/>
+  <Category Name="dx"/>
+  <Category Name="dx_combat"/>
+  <Category Name="dx_bog"/>    
+  <Category Name="dx_mission"/>
+  <Category Name="dx_chatter"/>  
+  <Category Name="environment_2d" Volume="0"/>
+  <Category Name="environment_3d" Volume="0"/>
+  <Category Name="environment_wind" Volume="0"/>    
+  <Category Name="environment_wtr" Volume="0"/>  
+  <Category Name="foley" Volume="0"/> 
+  <Category Name="foley_search" Volume="0"/>
+  <Category Name="foley_bodyrag" Volume="0"/>  
+  <Category Name="foley_bf_zed" Volume="0"/>
+  <Category Name="impacts" Volume="0"/>
+  <Category Name="master"/>
+  <Category Name="music"/>
+  <Category Name="mx_exploration" Volume="0.7"/>
+  <Category Name="mx_combat" Volume="0.5"/>  
+  <Category Name="mx_combat_light" Volume="0.5"/>  
+  <Category Name="mx_menu" Volume="0.7"/>    
+  <Category Name="physics" Volume="0"/>
+  <Category Name="projectiles" Volume="0"/>
+  <Category Name="soundtoys" Volume="0"/>  
+  <Category Name="sfx"/>
+  <Category Name="ui"/>
+  <Category Name="ui_global" Volume="0"/> 
+  <Category Name="ui_foley" Volume="0"/>   
+  <Category Name="ui_menu"/>    
+  <Category Name="vehicles" Volume="0"/>
+  <Category Name="vehicle_impacts" Volume="0"/> 
+  <Category Name="whoosh" Volume="0"/> 
+  <Category Name="zdx" Volume="0"/>
+ </Mood>  
+</SoundMoods>

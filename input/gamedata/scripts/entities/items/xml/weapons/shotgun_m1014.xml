@@ -1,0 +1,242 @@
+<item name="Shotgun_M1014" class="Weapon" category="shotgun" priority="5">
+	<ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="1" draw_time="0.35"
+	    sweep_width="-1" sweep_frequency="-1"  burstPauseTimeMin="0.5" burstPauseTimeMax="1.5" singleFireTriggerTime="0.5" />
+
+    <params>
+        <param name="giveable"      value="1" />
+        <param name="selectable"    value="1" />
+        <param name="pose"              value="shotgun" />
+        <param name="mass"              value="0" />
+        <param name="disturbanceValue"    value="5.0" />
+        <param name="soundRange"          value="50.0" />
+        <param name="canHaveSilencer" value="0"/>
+        <param name="display_name" value="M 1014"/>
+        <param name="ammoMax"       value="90" />
+    </params>
+
+    <geometry>
+        <firstperson name="objects/weapons/shotgun/shotgun_m1014/shotgun_m1014.cgf"/>
+        <thirdperson name="objects/weapons/shotgun/shotgun_m1014/shotgun_m1014.cgf"/>
+        <boneAttachments>
+            <attachment target="thirdperson" name="muzzle_flash_effect" bone="weapon_term"/>
+            <attachment target="thirdperson" name="muzzle_flash_light" bone="weapon_term"/>
+            <attachment target="thirdperson" name="muzzle_flash_smoke" bone="weapon_term"/>
+        </boneAttachments>
+    </geometry>
+
+    <actions>
+        <action name="select">
+            <animation target="owner" name="select"/>
+        </action>
+        <action name="deselect">
+            <animation target="owner" name="deselect"/>
+        </action>
+
+        <action name="fire">
+            <sound target="player" name="sounds/weapons:wpn_shotgun:12_moss_fire" radius="200" static="0"/>
+            <sound target="player_reverb" name="sounds/weapons:wpn_shotgun:12_moss_fire_rvrb" radius="200" static="0"/>
+            <sound target="npc" name="sounds/weapons:wpn_NPC_shotgun:12_moss_NPC_fire" radius="200" static="0"/>
+        </action>
+        <action name="fire_jammed">
+            <sound target="player" name="Sounds/weapons:wpn_common:jammed" radius="20"/>
+            <sound target="npc" name="Sounds/weapons:wpn_common:jammed" radius="20"/>
+        </action>
+
+        <action name="reload_start">
+            <animation target="owner" name="reload_start"/>
+        </action>
+        <action name="reload_load">
+            <animation target="owner" name="reload_load"/>
+        </action>
+        <action name="reload_end">
+            <animation target="owner" name="reload_end"/>
+        </action>
+
+        <action name="unjam_start">
+            <animation target="owner" name="unjam_start"/>
+        </action>
+        <action name="unjam_work">
+            <animation target="owner" name="unjam_work"/>
+        </action>
+        <action name="unjam_end">
+            <animation target="owner" name="unjam_end"/>
+        </action>
+
+        <action name="empty_clip">
+            <sound target="player" name="Sounds/weapons:wpn_common:dryfire" radius="20"/>
+            <sound target="npc" name="Sounds/weapons:wpn_common:dryfire" radius="20"/>
+        </action>
+        <action name="change_firemode">
+            <sound target="player" name="sounds/weapons:wpn_common:firemode" radius="20"/>
+        </action>
+    </actions>
+
+  <audio>
+    <player>
+      <param name="precacheAudioFile" value="wpn_shtgn_12_moss"/>
+      <events>
+        <event name="aim" output="Sounds/weapons:wpn_shotgun:fol_aim"/>
+        <event name="relax" output="Sounds/weapons:wpn_shotgun:fol_relax"/>
+        <event name="run" output="Sounds/weapons:wpn_shotgun:fol_run"/>
+        <event name="run_quiet" output="Sounds/weapons:wpn_shotgun:fol_run_quiet"/>
+        <event name="jump" output="Sounds/weapons:wpn_shotgun:fol_jump"/>
+        <event name="stow" output="Sounds/weapons:wpn_shotgun:fol_stow"/>
+        <event name="open" output="Sounds/weapons:wpn_shotgun:rld_open"/>
+        <event name="close" output="Sounds/weapons:wpn_shotgun:rld_close"/>
+        <event name="magin" output="Sounds/weapons:wpn_shotgun:rld_magin"/>
+        <event name="magout" output="Sounds/weapons:wpn_shotgun:rld_magout"/>
+        <event name="pump" output="Sounds/weapons:wpn_shotgun:rld_pump"/>
+        <event name="shellin" output="Sounds/weapons:wpn_shotgun:rld_shellin"/>
+		<event name="boltin" output="Sounds/weapons:wpn_shotgun:rld_boltin"/>
+      </events>
+    </player>
+    <npc>
+      <param name="precacheAudioFile" value="wpn_shtgn_12_moss"/>
+      <events>
+        <event name="aim" output="Sounds/weapons:wpn_shotgun:fol_aim"/>
+        <event name="relax" output="Sounds/weapons:wpn_shotgun:fol_relax"/>
+        <event name="run" output="Sounds/weapons:wpn_shotgun:fol_run"/>
+        <event name="run_quiet" output="Sounds/weapons:wpn_shotgun:fol_run_quiet"/>
+        <event name="jump" output="Sounds/weapons:wpn_shotgun:fol_jump"/>
+        <event name="stow" output="Sounds/weapons:wpn_shotgun:fol_stow"/>
+        <event name="open" output="Sounds/weapons:wpn_shotgun:rld_open"/>
+        <event name="close" output="Sounds/weapons:wpn_shotgun:rld_close"/>
+        <event name="magin" output="Sounds/weapons:wpn_shotgun:rld_magin"/>
+        <event name="magout" output="Sounds/weapons:wpn_shotgun:rld_magout"/>
+        <event name="pump" output="Sounds/weapons:wpn_shotgun:rld_pump"/>
+        <event name="shellin" output="Sounds/weapons:wpn_shotgun:rld_shellin"/>
+		<event name="boltin" output="Sounds/weapons:wpn_shotgun:rld_boltin"/>
+      </events>
+    </npc>
+  </audio>
+
+    <firemodes>
+        <firemode type="default">
+            <fire>
+                <param name="ammo_type" value="shotgunshell"/>
+                <param name="rate" value="600"/>
+                <param name="reload_time" value="2.0"/>
+                <param name="bullet_chamber" value="1"/>
+                <param name="clip_size" value="6"/>
+
+				<param name="damage" value="100"/>
+                <param name="damage_drop_min_distance" value="10"/>
+                <param name="damage_drop_per_meter" value="10.0"/>
+
+                <param name="helper_tp" value="weapon_term"/>
+                <param name="nearmiss_signal" value="OnNearMiss"/>
+            </fire>
+
+            <recoil>
+                <!-- each shot moves this amount along the x and y axes, measured from 5m -->
+                <attack_base>
+                    <param name="x" value="0.0"/>
+                    <param name="y" value="0.05"/>
+                </attack_base>
+
+                <!-- randomness -->
+                <attack_rand>
+                    <param name="nx" value="-0.04"/>
+                    <param name="x" value="0.04"/>
+                    <param name="ny" value="-0.04"/>
+                    <param name="y" value="0.04"/>
+                </attack_rand>
+
+                <!-- additional randomness for high rate -->
+                <attack_rand_high>
+                    <param name="threshold_timeslice" value="0.2"/>
+                    <param name="threshold_shots" value="1"/> <!-- if shots fired in the last timeslice crosses the threshold use high recoil randomness. -->
+                    <param name="nx" value="-0.06"/>
+                    <param name="x" value="0.06"/>
+                    <param name="ny" value="-0.005"/>
+                    <param name="y" value="0.16"/>
+                </attack_rand_high>
+
+                <!-- times -->
+                <param name="time_fadein"  value="0.001" />
+                <param name="time_hold"    value="0.2" />
+                <param name="time_fadeout" value="0.16"/>
+
+                <!-- multipliers -->
+                <param name="recoil_jump_m"      value="1.5" />
+                <param name="recoil_crouch_m"    value="0.5" />
+                <param name="recoil_sprint_m"    value="1.2" />
+                <param name="recoil_runandgun_m" value="0.5"/>
+            </recoil>
+
+            <!-- If you don't want your gun to be super-accurate this adds some spread -->
+            <spread>
+                <param name="min"       value="0.0"/>
+                <param name="max"       value="0.0"/> <!-- max radius at 5m -->
+                <param name="attack"    value="0.0"/> <!-- spread per shot -->
+                <param name="decay"     value="0.0"/> <!-- time from max to min -->
+
+                <!-- movement modifier -->
+                <param name="speed_threshold" value="1.0"/> <!-- movement speed over this adds spread -->
+                <param name="speed_m" value="0.00"/> <!-- movement times this is added to spread -->
+
+                <param name="rotation_threshold" value="1.0"/> <!-- rotation over this add spread -->
+                <param name="rotation_m" value="0.00"/> <!-- rotation times this is added to spread -->
+
+                <!-- multipliers -->
+                <param name="spread_jump_m"         value="1.5" />
+                <param name="spread_crouch_m"       value="0.85" />
+                <param name="spread_sprint_m"       value="1.2" />
+                <param name="spread_runandgun_m"    value="1.0" />
+            </spread>
+
+            <muzzleflash>
+                <thirdperson effect="Class3_WeaponFX.muzzleflashes.shotgun" helper="weapon_term" light_helper="weapon_term" light_radius="2" light_time="0.010" light_color="1,1,0.8" light_diffuse_mult="8"/>
+            </muzzleflash>
+            <reject>
+                <firstperson effect="Class3_WeaponFX.shells.shotgun" helper="shells"/>
+                <thirdperson effect="Class3_WeaponFX.shells.shotgun" helper="shells"/>
+            </reject>
+        </firemode>
+        <firemode name="Shotgun" type="Shotgun">
+			<shotgun>
+				<param name="pellets"   value="10" />
+				<param name="pelletdamage" value="20"/>
+				<param name="spread" value="0.3"/>
+				<param name="partial_reload" value="1"/>
+
+                <param name="coneheight" value="12"/>
+                <param name="coneradius0" value="0.5"/>
+                <param name="coneradius" value="3.5"/>
+                <param name="killzone" value="0.36"/>
+			</shotgun>
+
+            <tracer>
+                <param name="geometryFP"    value="objects/effects/tracer_standard_new.cgf" />
+                <param name="geometry"  value="objects/effects/tracer_standard_new.cgf" />
+
+                <param name="effectFP"      value="weapon_fx.tracer.standardfp" />
+                <param name="effect"        value="weapon_fx.tracer.standard" />
+                <param name="speed"         value="375" />
+                <param name="speedFP"   value="1100" />
+                <param name="frequency" value="1"/>
+                <param name="helper_fp" value="weapon_term"/>
+                <param name="helper_tp" value="weapon_term"/>
+            </tracer>
+            <outofammotracer>
+                <param name="effectFP"      value="weapon_fx.tracer.standardfp" />
+                <param name="effect"        value="weapon_fx.tracer.standard" />
+                <paran name="speed"         value="375" />
+                <param name="speedFP"   value="1100" />
+                <param name="frequency" value="2"/>
+                <param name="helper_fp" value="weapon_term"/>
+                <param name="helper_tp" value="weapon_term"/>
+            </outofammotracer>
+            <fire>
+                <param name="tracer_treshold" value="5"/>
+                <param name="auto_fire" value="false"/>
+            </fire>
+        </firemode>
+    </firemodes>
+</item>
+
+
+
+
+
+

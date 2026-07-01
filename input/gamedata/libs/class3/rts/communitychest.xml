@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<CommunityChests xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Chest Resource="Ammo">
+        <Rating Level="0"   InfluenceCost="10000" DailyUses="0"/>
+        <Rating Level="1"   InfluenceCost=   "10" DailyUses="1"/>
+        <Rating Level="2"   InfluenceCost=    "8" DailyUses="2"/>
+        <Rating Level="3"   InfluenceCost=    "7" DailyUses="3"/>
+        <Rating Level="4"   InfluenceCost=    "6" DailyUses="4"/>
+        <Rating Level="5"   InfluenceCost=    "5" DailyUses="5"/>
+    </Chest>
+    <Chest Resource="Food">
+        <Rating Level="0"   InfluenceCost="10000" DailyUses="0"/>
+        <Rating Level="1"   InfluenceCost=   "10" DailyUses="1"/>
+        <Rating Level="2"   InfluenceCost=    "8" DailyUses="2"/>
+        <Rating Level="3"   InfluenceCost=    "7" DailyUses="3"/>
+        <Rating Level="4"   InfluenceCost=    "6" DailyUses="4"/>
+        <Rating Level="5"   InfluenceCost=    "5" DailyUses="5"/>
+    </Chest>
+    <Chest Resource="Medicine">
+        <Rating Level="0"   InfluenceCost="10000" DailyUses="0"/>
+        <Rating Level="1"   InfluenceCost=   "10" DailyUses="1"/>
+        <Rating Level="2"   InfluenceCost=    "8" DailyUses="2"/>
+        <Rating Level="3"   InfluenceCost=    "7" DailyUses="3"/>
+        <Rating Level="4"   InfluenceCost=    "6" DailyUses="4"/>
+        <Rating Level="5"   InfluenceCost=    "5" DailyUses="5"/>
+    </Chest>
+</CommunityChests>
+

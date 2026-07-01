@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTSData>
+  <Group Name="Home">
+    <Subgroup Name="Defense">
+      <Value Default="60" Name="BaseRange" />
+      <Value Default="40" Name="BaseFacilityRange" />
+      <Value Default="1" Name="FacilityInfestationPenalty" />
+      <Value Default="200" Name="FacilityInfestationRange" />
+    </Subgroup>
+  </Group>
+  <Group Name="Enclave">
+    <Value Default="40" Name="BaseDefenseRange" />
+  </Group>
+</RTSData>

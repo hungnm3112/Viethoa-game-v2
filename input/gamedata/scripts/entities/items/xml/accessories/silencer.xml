@@ -1,0 +1,10 @@
+<item name="Silencer" class="Accessory">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+    <thirdperson name="Objects/weapons/accessories/suppressor/suppressor_pistol.cgf" />
+	</geometry>
+</item>

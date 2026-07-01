@@ -1,0 +1,3615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTSData>
+  <EnclaveValues>
+    <Value Default="1" Name="AlwaysTrue">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="AlwaysFalse">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Determination">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Skill">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Wealth">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Survival">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Trust">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DangerLevel">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="CostScalar">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HasFood">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HasMedicine">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HasAmmo">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HasMaterials">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HasFuel">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DailyResetComplete">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="FirstFavorMissionCreated">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Discovered">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Note_Discovered">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DelayMissionCreation">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionPrimary_Created">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionPrimary_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionPrimary_Timeout">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionSecondary_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionTertiary_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionArrive_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionInfestation_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionJoin_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionJoinSetup_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionRescue_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionSave_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionSiege_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionSiege_Fail">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionSupplies_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionTrade_Done">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DailyMissionOpCount">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="3" Name="MissionOps_Random_Allowed">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="3" Name="Max_MissionOps_Random_Daily">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="1" Name="Max_MissionOps_Random_Visible">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="3" Name="MissionOps_Favor_Allowed">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="3" Name="Max_MissionOps_Favor_Daily">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="1" Name="Max_MissionOps_Favor_Visible">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Blackout_RescueMissing">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Blackout_TrustStateChange">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="NextDay">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Story">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </EnclaveValues>
+  <Group Name="Activity">
+    <Subgroup Name="Assassinate">
+      <Value Default="0" Name="MoraleBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="ClearInfestation">
+      <Value Default="0" Name="MoraleBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="ScoutRescue">
+      <Value Default="0" Name="MoraleBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="ScoutResource">
+      <Value Default="0" Name="MoraleBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Survey">
+      <Value Default="0" Name="MoraleBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Want">
+      <Value Default="0" Name="MoraleBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="DeliverRucksack">
+      <Value Default="0" Name="MoraleBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="InterceptHorde">
+      <Value Default="0" Name="BadassTime">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HomeMaxAttackTime">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="3" Name="MaxActive">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="60" Name="SpawnIntervalMax">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="30" Name="SpawnIntervalMin">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="300" Name="StartDistMax">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="125" Name="StartDistMin">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.75" Name="TargetHomeChance">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+  </Group>
+  <Group Name="Capacity">
+    <Value Default="0" Name="Labor">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Power">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Housing">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Parking">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Character">
+    <Subgroup Name="XPBonus">
+      <Value Default="0" Name="MeleeBasic">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GunBasic">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CardioBasic">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Survival">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="BonusNote">
+      <Value Default="0" Name="Melee_Reflexes">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Melee_Dojo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Gun_Eyesight">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Gun_ShootingPlatform">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Wits_Library">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="PenaltyNote">
+      <Value Default="0" Name="Melee_Coward">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Melee_Clumsy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Cardio_CouchPotato">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Survival_Dumb">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Survival_Drunk">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Survival_AbsentMinded">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Cardio_BadLungs">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Cardio_Smoker">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Value Default="20.0" Name="EncumbranceBase">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="StaminaBonus">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HealthBonus">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="EncumbranceBonus">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="StaminaBonus_Expected">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HealthBonus_Expected">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Confidence">
+    <Value Default="0" Name="Ammo">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Food">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Medicine">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Materials">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Fuel">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Housing">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Guns">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Labor">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Morale">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Power">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Research">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Weapons">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Count">
+    <Value Default="0" Name="Infestations">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Guns">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Enclaves">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="OutpostTotal">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="PlayerCharMissionSuccess">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Population">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HomeSize">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HavenNPCs">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="GeneralPopulation">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="FamilyPopulation">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Cars">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Facilities">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionsRunToday">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MeleeWeapons">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Consumables">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="OutpostAmmo">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="OutpostFood">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="OutpostFuel">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="OutpostMaterials">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="OutpostMedicine">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="OutpostNothing">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="OutpostFreeSlots">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="NeedMedicine">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="3" Name="MissionOps_Random_Allowed">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionOps_Random_Active">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MissionOps_Random_Created">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="FacilitySocketsFree">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="FacilitySocketsTotal">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="InfestationsNearHome">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="WorldPopulation">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="OutpostBonusSlots">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Daily">
+    <Value Default="0" Name="InfestationsCleared">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HordesDestroyed">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Enclave">
+    <Value Default="0" Name="BaseDefenseRange">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Facility">
+    <Value Default="0" Name="Infirmary">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Garden">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="GrowRoom">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Storage">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Generator">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="FuelStorage">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Parking">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Family">
+    <Value Default="0" Name="Influence">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Renown">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="InfluenceGained">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="RenownGained">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="1.5" Name="InfluenceSoftCapScale">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0.007" Name="InfluenceAttritionTimeScale">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="3.0" Name="InfluenceAttritionScale">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Fate">
+    <Value Default="0" Name="Fear">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Discord">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Despair">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Misfortune">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Hope">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Tragedy">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Infestations">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Game">
+    <Subgroup Name="Player">
+      <Value Default="0" Name="Alone">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Base">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CinematicMode">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerLevel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Downed">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Encumbered">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HasMeleeEquipped">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HasEmptyConsumableSlot">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HasGunEquipped">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HasLowAmmoLoaded">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HasRunnersAvailable">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Inside">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Intense">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideEnclosedBuilding">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideOutdoorBuilding">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideSupplyRunBuilding">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideTinyBuilding">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LightOn">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Lull">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Mission">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NearMissionOp">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MissionOpWaypoint">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideHomeSite">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideInfestation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideSearchedBuilding">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="StoryMission">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Tired">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Travel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Wounded">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GunJammed">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideHomeBuilding">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideEnclave">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideOutpost">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HasBoGItem">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsidePathing">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InsideEmptyBuilding">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TodoListEmpty">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="RTS">
+      <Value Default="0" Name="AttemptedMission">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlwaysFalse">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="-1" Name="AlwaysNegative">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1" Name="AlwaysTrue">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CarSlotsFree">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="IncomeAmmo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="IncomeFood">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="IncomeFuel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="IncomeMaterials">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="IncomeMedicine">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InterceptHordeCount">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="75" Name="InitialDepletion">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="50400" Name="NextDayTime">
+        <NameText Flags="" Notes="Timer in seconds" Text="" />
+      </Value>
+      <Value Default="0" Name="Night">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoDriving">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoSupplyRuns">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoRadio">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoBefriending">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoHomeManagement">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoOutposts">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoRunners">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoFateEvents">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoEnclaveMissions">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1" Name="NoHordeIntercepts">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1" Name="NoRandomMissionFreaks">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoResourceOps">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoJournalPeople">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoJournalExpertise">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoJournalEvents">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoJournalAssets">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoJournalHome">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoSurvey">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoTradeMissions">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.5" Name="RareAmmoOdds">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.5" Name="RareAmmoScale">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RepairCarBumper">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RepairCarDoor">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RepairCarTires">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RepairCarBody">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RepairCarEngine">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="40" Name="SceneAudibleRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SimFail">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SimHurt">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SimFlee">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SimTough">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1.43" Name="StaminaRecoveryRate">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="300" Name="StaminaTankHitSmall">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="600" Name="StaminaTankHitLarge">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FirstNeighborMission">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="5" Name="HealthMeleeBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="5" Name="StaminaCardioBonus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.5" Name="StartingInfluencePerFame">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SiegeActive">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Interact">
+      <Value Default="0" Name="Rucksack">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Barricade">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CommunityChest">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Cost">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Door">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Prop">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Vehicle">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NPC">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Zombie">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Story">
+      <Value Default="0" Name="BlackFever">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DiseaseSpreading">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExplosivesGathered">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="OldDoctorBusy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PastorBusy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PoliceSlickBusy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="pdEscalation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="pdEscalationDone">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ReachChurch">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MovedHome">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SwitchedCharacters">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="StoryGR">
+      <Value Default="0" Name="UnlockArc">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlexMentioned">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ToldQuentin">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RefusedQuentin">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AdvisedQuentin">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlexQuestionResolved">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FortificationsBuilt">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="QuentinsMissing">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RescuedJack">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AttractGR_Coffee">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Fortifications_NoteAllowed">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Fortifications_NoteDelivered">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="completed_gr02Fortifications">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="completed_gr03Question">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="StoryCH">
+      <Value Default="0" Name="ReachedChurch">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TouredChurch">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WhyChurch">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="VetClinicSpotted">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MedsAcquired">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MetJacob">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JacobDied">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GotDoc">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlanDied">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlanRanOff">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlanShotPastorWill">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ChurchPastorBusy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FledFromVetClinic">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GotWatchForLily">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GaveWatchToLily">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HelpedSamWithAnOldFriend">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PastorIsSick_TriggerNote">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BagLilyCreated">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BagSamCreated">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EdHealed">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EdsMaulingResolved">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EdGotSicker">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EdSuccumbed">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ch04Brother">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SurvivalTactics">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SurvivorsJoined">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ch04BrotherNoDistraction">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="StoryTA">
+      <Value Default="0" Name="ZombiesUnknown">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ReachedRangerStation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ReadyForGunshots">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HeardGunshots">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MetStarterFemale">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FakeDeath_RidgeCabin">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FakeDeath_LakesideCabin">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FakeDeath_TannerWarehouse">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FirstEnclave">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FirstBaseSlaughtered">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SearchedCabins">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CrossedTannerRiver">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="StoryWI">
+      <Value Default="0" Name="UnlockArc">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EliDied">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CargoDone">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExchangeDone">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExchangeRefused">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Accusations">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AccusationsSkipped">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NewRecruits">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PaidStrangersDebt">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="StrangersDebtResolved">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FinalFavorAsked">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="OldDoctorBusy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RescuedDocAtCemetary">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AttractWI_ThugGuns">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AttractWI_MilitaryGuns">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AttractWI_MachineGun">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BagDocCreated">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DocDied">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="completed_wi01Denial">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="completed_wi02Cargo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="StoryAR">
+      <Value Default="0" Name="UnlockArc">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MetArmy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WorkedWithErik">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoticedByErik">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="QuarantineBroadcast">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MaydayBroadcast">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Silence">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BadWaterFound">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ObstaclesDefined">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExplosivesGathered">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BridgesOpened">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Silence_TriggerNote">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="UnlockSpotter">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="StoryPD">
+      <Value Default="0" Name="UnlockArc">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MetJudge">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MetRay">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JudgeKilled">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PoliceSlickBusy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AttractPD_Items">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BusinessDone_PaymentOwed">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ToDestruction">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="completed_pd02Drive">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="UI">
+      <Value Default="0" Name="CommunityChestOpen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ContainerOpen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ContainerResources">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JournalOpen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JournalOpenAssets">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JournalOpenEvents">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JournalOpenHome">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JournalOpenPeople">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JournalOpenSkills">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MapHoverMissionOp">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MapOpen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RadioOpen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RadioExtrasExist">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="UnreadEvents">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SkillIncreased">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="VehicleInventoryOpen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Hint">
+      <Value Default="0" Name="Attack.Mastered">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Evade.Mastered">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Radio">
+      <Value Default="0" Name="Airstrike.ArmyArtillery">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoAirstrike_ArmyArtillery">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoBuildHelp_GroceryIdealist">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoEnergyHelp_ChurchCommand">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoEnergyHelp_ChurchPastor">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoHealHelp_OldDoctor">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoMoveHome">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoOutposts">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoSWAT">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoSniper_HicksHothead">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoVehicle_PoliceSlick">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Recent">
+      <Value Default="0" Name="SprintUnlocked">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="TraitGiven">
+      <Value Default="0" Name="TrainingHRO">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TrainingLAW">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TrainingED">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TrainingALN">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TrainingSAM">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TrainingHRF">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TravelHRO">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TravelLAW">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TravelED">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TravelALN">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TravelSAM">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TravelHRF">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HomeHRO">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HomeLAW">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HomeED">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HomeALN">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HomeSAM">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HomeHRF">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerHRO">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerLAW">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerED">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerALN">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerSAM">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerHRF">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RescueHRO">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RescueLAW">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RescueED">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RescueALN">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RescueSAM">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RescueHRF">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResourcesHRO">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResourcesLAW">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResourcesED">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResourcesALN">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResourcesSAM">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResourcesHRF">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Mission">
+      <Value Default="0" Name="Phase">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Score">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NumCoreNpcs">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NumNpcsLost">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NumPlayerKills">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="UIPersist">
+      <Value Default="0" Name="TeachMap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="RideAlong">
+      <Value Default="100" Name="Cost">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="600" Name="TiredTimer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.1" Name="ZombieTrust">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.2" Name="ZombieTrustInfestation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.3" Name="ZombieTrustHorde">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.4" Name="ZombieTrustFreak">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="20" Name="TrustCap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1" Name="TrustMission">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Value Default="1" Name="NoSave">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Demo">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Sandbox">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Tutorial">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="StartTimeOfDay">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Test">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Reset">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Finale">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Version">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DisableAutosave">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Home">
+    <Subgroup Name="Defense">
+      <Value Default="0" Name="BaseRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Range">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BaseFacilityRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityInfestationPenalty">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityInfestationRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="120" Name="OutpostHordeCooldown">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Facility">
+      <Value Default="0" Name="ItemRepairAvailable">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="30" Name="ItemRepairCost">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Value Default="30" Name="InteractRange">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Manual">
+    <Value Default="0" Name="DangerLevel">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Max">
+    <Value Default="0" Name="Ammo">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Food">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Medicine">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Materials">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Fuel">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="100" Name="Morale">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Research">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Cars">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Guns">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MeleeWeapons">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Population">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="3" Name="MissionOps_Random_Visible">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="10" Name="MissionOps_Random_Daily">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Mission">
+    <Subgroup Name="Reward">
+      <Value Default="5" Name="AmmoMultiplier">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="8" Name="FoodMultiplier">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="5" Name="FuelMultiplier">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="15" Name="MaterialsMultiplier">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="8" Name="MedicineMultiplier">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Sim">
+      <Value Default="0" Name="Fail">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Flee">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Hurt">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerHordeWeight">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerInfestationWeight">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerInfestationNearbyDist">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerInfestationNearbyWeight">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerMissionEscalationWeight">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Temp">
+      <Value Default="0" Name="AllSitesChecked">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Casualties">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EnclaveArmy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EnclaveGrocery">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EnclaveHicks">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EnclaveHome">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EnclaveNonStory">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EnclavePolice">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MultipleSitesChecked">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NotPrompt">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Event_TrustLost">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Event_CalledBadass">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Event_GatheringInterrupted">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionDanger">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionResources">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionTravel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionRescue">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionTraining">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionHome">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FailReason_FledAfterDeath">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FailReason_KeyNpcDied">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FailReason_TooSlow">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FailReason_LeftArea">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FailReason_BoG">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FailReason_NotEnoughResources">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+  </Group>
+  <Group Name="Rating">
+    <Value Default="0" Name="Medicine">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Construction">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Research">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Scene">
+    <Subgroup Name="DangerLevel">
+      <Value Default="0" Name="ZombieCloseDist">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ZombieCloseVal">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ZombieNearDist">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ZombieNearVal">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ZombieFarDist">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ZombieFarVal">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FreakVal">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+  </Group>
+  <Group Name="Stat">
+    <Value Default="0" Name="Morale">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DangerFactor">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="AmmoUsage">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="FoodUsage">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="FuelUsage">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="PowerUsage">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DailyAmmoRation">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="CharacterHealthBonus">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DailyMedsRation">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="CharacterStaminaBonus">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DailyFoodRation">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MaterialsUsage">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="MedicineUsage">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="HealingRate">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="1.43" Name="StaminaRecoveryRate">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ConstructionRate">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ResearchRate">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="CurrentHealthBonus">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="CurrentStaminaBonus">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="1000" Name="Reputation_Points">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Reputation_GoodActs">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Reputation_BadActs">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Status">
+    <Subgroup Name="Award">
+      <Value Default="0" Name="SBMASK">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="BuiltOnce">
+      <Value Default="0" Name="AnyFacility">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Bunkhouse">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DiningArea">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Garden">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Generator">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Infirmary">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Kitchen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Library">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Storage">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Training">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Watchtower">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Workshop">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Cheat">
+      <Value Default="0" Name="chSpencers_Save">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="chExploration_Save">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="chSites_Save">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="chBlackFever_Save">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="chPastorState">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="wiExchange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="chExploration">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="chSites">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="chBlackFever">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="chPastor">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="arBridges">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="arFinale">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="arMayday">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="arObstacles">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="arQuarantine">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="arRequest">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="arWater">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="grBackground">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="grFortifications">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="grFury">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="grRescue">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="pdCurfew">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="pdDestruction">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="pdJoin">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="pdVision">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="taEscape">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="taMountain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="wiCargo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="wiDenial">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="wiSiege">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Enemy">
+      <Value Default="0" Name="Unlock_ArmyZombie">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Bloater">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Infestation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Feral">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Horde">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1" Name="Unlock_HordeIntercepts">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Count_HordeIntercepts">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Juggernaut">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Screamer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_SwatZombie">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Asshole">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_FateEvents">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NearSource_ArmyZombie">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NearSource_Bloater">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NearSource_Feral">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NearSource_Juggernaut">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NearSource_SwatZombie">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NearSource_Screamer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ChallengeLevel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="TradeOp">
+      <Value Default="0" Name="Kitchen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Biodiesel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Dojo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FoodPreservation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Library">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ShootingPlatform">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Recent">
+      <Value Default="0" Name="BadFood">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Broadcast">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BroadcastAmmo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BroadcastFood">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BroadcastFuel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BroadcastMaterials">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BroadcastMedicine">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BroadcastShelter">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BroadcastShelterFailed">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BroadcastTriumph">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ComRescue">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DocScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EncJoin">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Exercise">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Feast">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HordeIntercepted">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InfestationCleared">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Meal">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RucksackDelivered">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Survey">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Want">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WatchtowerSniping">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityBuilt">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="OutpostEstablished">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="OutpostLost">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RecoverItem">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ReputationGain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ReputationLoss">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResLost_Food">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResLost_Medicine">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResLost_Ammo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResLost_Materials">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResLost_Fuel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SurvivalNotesCompilation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PlayerDeath_StarterMale">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PlayerDeath_StarterFemale">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PlayerDeath_ChurchOutsider">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PlayerDeath_ChurchSmartass">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PlayerDeath_Buddy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FearGain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GraveFearGain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DiscordGain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GraveDiscordGain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DespairGain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GraveDespairGain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ShootingPractice">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FitnessRegimen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CombatTraining">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="RecentChatter">
+      <Value Default="0" Name="Army">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Advice">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AttractNote">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CombatSim">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Construction">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Lull">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Police">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Status">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TakeItem">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Tech">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Event_CarRelocated_TooDense">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Survey">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="RecentFate">
+      <Value Default="0" Name="Community_Any">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Community_Setup">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Remind">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoodTrait_Despair">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoodTrait_Fear">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoodTrait_Discord">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerPayoff">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerPayoff_DiseaseOutbreak">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerPayoff_FoodContamination">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Bogus">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DangerSetup_HordeIntercepts">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="OutpostRescue">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ReputationRemind">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="RecentMission">
+      <Value Default="0" Name="Any">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Away">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="bagDespair">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="bagDiscord">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="bagFear">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Baggage">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="comTraining">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="comSlay">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Neighbor">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Story">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="StoryOp">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="StoryOpToday">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Reputation">
+      <Value Default="0" Name="VeryGood">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Good">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1" Name="Neutral">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Bad">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="VeryBad">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Weak">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Daily">
+      <Value Default="0" Name="FoodGiven">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Infestation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="DailySummary">
+      <Value Default="0" Name="DeathFromBlackFever">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DeathFromSickness">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DeathFromFreak">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DeathFromInfestation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DeathFromChemistry">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResistedFlu">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ResistedFreak">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AbandonmentBadReputation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AbandonmentChemistry">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RecoveryFromInjury">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RecoveryFromSickness">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SleepDeprivation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WeakFromHunger">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TimePlayedToday">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DaysOffline">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Need">
+      <Value Default="0" Name="Ammo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Food">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Materials">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Medicine">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Fuel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Scene">
+      <Value Default="0" Name="Emote_Any">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExcessInfluence">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExcessFood">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExcessMedicine">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExcessAmmo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExcessMaterials">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExcessFuel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ExcessStockpile">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FameGain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TrustGain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TrustLoss">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HungerRecovery">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InjuryRecovery">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="IllnessRecovery">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MissionTimeout">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Fatigue">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Painkillers">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Attitude">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Infestation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Juggernaut">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Bloater">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Feral">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Screamer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Noise">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Searching">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Scouting">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SkillIncrease">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SpecializationUnlocked">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PersonalSkill">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Hordes">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LoadRucksack">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Friendship">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Personality">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="SceneCH">
+      <Value Default="0" Name="JacobHearsEliDied">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlanAsksAboutPastor">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlanDissesJacob">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlanIsSick1">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlanIsSick2">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DocAndAlanCommiserate">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DocChecksOnLily">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DocSeesEdsScar">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="GiftFromErik">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JacobSawJeeps">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PastorIsLoopy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PastorMassacre">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SamMissedSundayService">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LilyAsksAboutHerDad">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NeighborsWithBlackFever">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BadWaterComplaint">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NpcWantsToLeaveValley">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SamDeliversVetClinicMeds">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EdEulogized">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HomeRelocationNote">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BlockLocScenes">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LocScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WCScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EdGotSicker">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ch04Brother_Stall">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="SceneAR">
+      <Value Default="0" Name="SilenceChatter">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LocScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WCScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ar02Quarantine_Stall">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ar03Mayday_Stall">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ar04Bridges_Stall">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="SceneGR">
+      <Value Default="0" Name="HeartlessChatter">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="QuentinConfrontedBecca">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="QuentinAndBeccaTalked">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RelationshipStarting">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AttackForeshadowed">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="VisitedGrangeAgain">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RayAnnoyedBecca">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LocScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WCScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="gr04Fury_Stall">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="ScenePD">
+      <Value Default="0" Name="wcScotchForCarl">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BroadcastHeard">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="JudgesEugenics">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LocScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WCScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="pd03Destruction_Stall">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="SceneTA">
+      <Value Default="0" Name="InfirmaryDiscussion">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PrisonWorries">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BackstoryFishing">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BackstoryHunting">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BackstoryHunting2">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BackstoryBuddies">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RadioAcquired">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LocScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WCScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="SceneWI">
+      <Value Default="0" Name="ExchangeAftermath">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HicksDangerous">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HicksDangerous2">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CargoPaymentDelivered">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CargoAftermath">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LocScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="WCScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="wi03Exchange_Stall">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Staff">
+      <Value Default="0" Name="FoodPrep">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PlantCare">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Tech">
+      <Value Default="0" Name="Unlock_Ammo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Ammo_Suppress">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Biodiesel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_DiningArea">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Gardening">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Generator">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Kitchen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_FancyGardening">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Grenade">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Landmine">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Library">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Incendiary">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Pickling">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Pie">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Stimulants">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Stimulants_Strong">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Storage">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Suppressor">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Unlock_Suppressor_Strong">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_FoodPreservation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_StaminaBonus_Beds">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_StaminaBonus_Exercise">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_StaminaBonus_Training">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_StaminaBonus_Feast">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_HealthBonus_Feast">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_HealthBonus_Infirmary">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_OutpostTrapsSet">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_CombatBonus_Dojo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active_ShootingBonus_Watchtower">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Warning">
+      <Value Default="0" Name="Danger_SwatZombie">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Danger_ArmyZombie">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Danger_Bloater">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Danger_Feral">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Danger_Juggernaut">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Danger_HordeCount">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Danger_InfestationCount">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Home_GraveHurt">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Home_GraveSick">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Home_Hunger">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Home_MissingAllies">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Home_NoFuel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Home_PoorDefense">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleIssue_Asshole">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleIssue_BadReputation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleIssue_Boastful">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleIssue_Despair">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleIssue_Discord">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleIssue_Fear">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleIssue_Insensitive">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleIssue_LowMorale">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleIssue_Overbearing">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Rumor_BlackFever">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Rumor_DiseaseOutbreak">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Rumor_FoodSpoilage">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Blackout">
+      <Value Default="0" Name="Content">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RandomNewOppScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RandomMissions">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CheckInSceneDone">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CheckMissionDone">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ContentFsEvent">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Advice">
+      <Value Default="0" Name="MoveHome_Larger">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoveHome_Smaller">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Any">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Garden">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Generator">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Bunkhouse_Basic">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Bunkhouse">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Workshop">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Workshop_B">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_WorkshopMunitions">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_WorkshopCar">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Infirmary_Basic">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Infirmary">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_InfirmaryAdvanced">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Kitchen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Watchtower">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Watchtower_B">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Outposts">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Outpost_First">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_Training">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Build_TrainingAdvanced">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Find_Ammo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Find_Materials">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Find_Food">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Find_Medicine">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Find_Fuel">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Find_Survivors">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Crisis">
+      <Value Default="0" Name="Labor">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Morale">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Filth">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HomeUnderSiege">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Overpopulated">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Expertise">
+      <Value Default="0" Name="ChallengeComplete_HeadshotStreak">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ChallengeComplete_Multikill">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ChallengeComplete_SlaughterBluntHeavy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ChallengeComplete_SlaughterBluntLight">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ChallengeComplete_SlaughterEdgedLight">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Want">
+      <Value Default="0" Name="FacilityWorkshop">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityInfirmary">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityGarden">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityKitchen">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityGenerators">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityBunkhouse">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityTraining">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityStorage">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityBedroom">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityLibrary">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityDiningArea">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityWatchtower">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FacilityOther">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionGeneral">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionBuild">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionUpgrade">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ActionResearch">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="MoveHome">
+      <Value Default="0" Name="Church">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Rodeo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Warehouse">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Riverside">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BigJohn">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DanielFarm">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Alamo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RangerStation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Home">
+      <Value Default="0" Name="InDanger">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Threatened">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+  </Group>
+  <Group Name="Stockpile">
+    <Value Default="0" Name="Ammo">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Food">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Medicine">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Materials">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Fuel">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Trait">
+    <Subgroup Name="Debug">
+      <Value Default="0" Name="Ai">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Status">
+      <Value Default="0" Name="Family">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Hungry">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Tired">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="OnActivity">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="OnMission">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InScene">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Training">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MercyVictim">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Staff">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Rescuable">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Dead">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Fled">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Injury">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Sick">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Away">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NotInJournal">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NotPlayable">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Wound">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="LowEnergy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NotInPopulation">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Facility">
+      <Value Default="0" Name="Want">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Merc">
+      <Value Default="0" Name="Gun">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Melee">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Meta">
+      <Value Default="0" Name="Busy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Female">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Friend">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Male">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Missing">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoLabor">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoMissions">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoTasks">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Rescuer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Story">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Grave">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CannotDie">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Story">
+      <Value Default="0" Name="StarterMale">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="StarterFemale">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Command">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Behavior">
+      <Value Default="0" Name="FollowPlayer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="AlwaysAway">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NeverAway">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Hurt">
+      <Value Default="0" Name="None">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Fatigue">
+      <Value Default="0" Name="None">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Winded">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Tired">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="VeryTired">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Exhausted">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Voice">
+      <Value Default="0" Name="Playable">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HRF">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="HRO">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="MoodType">
+      <Value Default="0" Name="Neutral">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Despair">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Fear">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Discord">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Shame">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Hope">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Pride">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Hurt">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="NoSleep">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Hunger">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Sick">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Wound">
+      <Value Default="0" Name="None">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Light">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Moderate">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Heavy">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Extreme">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+  </Group>
+  <Group Name="Zombies">
+    <Subgroup Name="Ambush">
+      <Value Default="0" Name="SpawnTimer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SpawnChance">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CooldownChance">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CooldownPenalty">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="CooldownDuration">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="EvaluateRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="ReevaluateDelay">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BaseSpawnChance">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PostSpawnEvaluateDelay">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="DespawnRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BaseSpawnRecoveryDelay">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="PerSpawnChanceReduction">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="BaseSpawnRecoveryAmount">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Infestation">
+      <Value Default="0" Name="SpreadTimer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SpreadCap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SafeZoneRadius">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SafeZoneTimer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Density">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="TotalSpreadCap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="10" Name="EchoCap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Horde">
+      <Value Default="8" Name="MaxSize">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MaxAmbient">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MaxRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RespawnDelayBase">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RespawnDelayBasePerActive">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RespawnDelayPerKill">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RespawnDelayMax">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RespawnDelayDecayInterval">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="RespawnDelayDecayAmount">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="MoraleCost">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SimDefenseAttrition">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="50" Name="NearTargetRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="300" Name="FarTargetRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Density">
+      <Value Default="0" Name="Agricultural">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Commercial">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Industrial">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Park">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Residential">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Wilderness">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Interior">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="InteriorCap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Armored">
+      <Value Default="0" Name="Percentage">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Bloater">
+      <Value Default="0" Name="Percentage">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Feral">
+      <Value Default="0" Name="Percentage">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Juggernaut">
+      <Value Default="0" Name="Percentage">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Value Default="0" Name="Hordes">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ActivationDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="AggroDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="AggroDistModifier">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="AmbientRespawnRate">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="BaseFOV">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="BreakEchoAggroRadius">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="BreakEchoDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="BreakEchoDuration">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ChaseCount1">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ChaseCount2">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ChaseCount3">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ChaseSoundDist1">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ChaseSoundDist2">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ChaseSoundDist3">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="CombatSoundDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DeactivationDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DeaggroDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="1.0" Name="EchoAutoRecognizeLoudChance">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="26.0" Name="EchoAutoRecognizeLoudDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="EchoDampenInsideMultiplier">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="EchoDampenInsideMinRadius">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="EchoDecayRate">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="EchoMultiplier">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="EchoRecognitionTime">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="EchoRepeatEffect">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="EchoNoticeMultiplier">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="EchoRepeatEffectLoud">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="InvestigationDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="InvestigationTimeout">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="KillSoundDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Killed">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="RecognitionTime">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="SoundDistRucksack">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="SoundDistRun">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="SoundDistSprint">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="SoundDistWalk">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="StealthFOVMultiplier">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="DoorBreachTime">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="KillPoints">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="Sandbox">
+    <Value Default="128" Name="MaxCars">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="9" Name="ScenarioCap">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="4" Name="ResourceScenarioCap">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="ScenarioCount">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+  <Group Name="YOSE">
+    <Subgroup Name="Cleo">
+      <Value Default="0" Name="FirstDrop">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="SecondDrop">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="FinalDrop">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Random01">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Random02">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Random03">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Random04">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Active">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Abort">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Reward">
+      <Value Default="0" Name="Gurubani">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Milo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Prepper">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Delivered">
+      <Value Default="0" Name="Gurubani">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Milo">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0" Name="Prepper">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+  </Group>
+  <Group Name="Challenge">
+    <Value Default="1" Name="Vehicle1">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="1" Name="Vehicle2">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Milo">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="Milo.Delivered">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+</RTSData>

@@ -1,0 +1,2530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-->
+    <functions>
+        <function name="SetHealth" funcname="setHealth" >
+            <param name="Health" desc="Health 0-1"/>
+        </function>
+        <function name="SetTransparency" funcname="setTransparency" >
+            <param name="Alpha" desc="Alpha 0-1"/>
+        </function>
+    </functions>
+ <!-->
+<UIElements name="Menus">
+  <UIElement name="Class3FrontEnd">
+    <GFx file="Class3_FrontEnd.gfx" layer="2">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="HintTimerCallback" />
+      <function name="HintOnFrame" />
+      <function name="StartHintCycle" />
+      <function name="Setup3DElements" />
+      <function name="IndexedName">
+        <param name="_strName" />
+        <param name="_intIndex" />
+      </function>
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="cry_onResize">
+        <param name="_intWidth" />
+        <param name="_intHeight" />
+        <param name="_intScreenWidth" />
+        <param name="_intScreenHeight" />
+      </function>
+      <function name="OpenFrontend" />
+      <function name="RefreshPressStartControls" />
+      <function name="FadeOutPressStart" />
+      <function name="ShowDLCSelect" />
+      <function name="ShowBreakdown">
+        <param name="_intState" />
+        <param name="_strBuyText" />
+      </function>
+      <function name="ShowLifeline">
+        <param name="_intState" />
+        <param name="_strBuyText" />
+      </function>
+      <function name="SelectSoD">
+        <param name="_strButtonLabel" />
+      </function>
+      <function name="SelectBreakdown">
+        <param name="_strButtonLabel" />
+      </function>
+      <function name="SelectLifeline">
+        <param name="_strButtonLabel" />
+      </function>
+      <function name="RefreshDLCControls">
+        <param name="_strKey" />
+      </function>
+      <function name="AutoSaveNoticeShow">
+        <param name="_notice" />
+      </function>
+      <function name="AutoSaveNoticeHide" />
+      <function name="OpenMainMenu">
+        <param name="_intLogoToDisplay" />
+      </function>
+      <function name="HideMainMenu" />
+      <function name="BeginLoading">
+        <param name="_strHintText1" />
+        <param name="_strHintText2" />
+        <param name="_strHintText3" />
+        <param name="_strHintText4" />
+        <param name="_strHintText5" />
+        <param name="_boolInGame" />
+      </function>
+      <function name="HideLoading" />
+      <function name="SetMenuTitle">
+        <param name="_strText" />
+      </function>
+      <function name="SetMenuItem">
+        <param name="_intIdx" />
+        <param name="_strText" />
+        <param name="_boolSelected" />
+      </function>
+      <function name="SetMenuItemScrollbar">
+        <param name="_intIdx" />
+        <param name="_intAmount" />
+        <param name="_strLabel" />
+      </function>
+      <function name="SetMenuItemToggle">
+        <param name="_intIdx" />
+        <param name="_boolOn" />
+      </function>
+      <function name="HideMenuItem">
+        <param name="_intIdx" />
+      </function>
+      <function name="SetMenuButton">
+        <param name="_intIcon" />
+        <param name="_strText" />
+        <param name="_strKey" />
+      </function>
+      <function name="HideMenuButton" />
+      <function name="ShowControls">
+        <param name="_boolShow" />
+      </function>
+      <function name="ShowHowToPlay">
+        <param name="_boolShow" />
+      </function>
+      <function name="ShowConfirm">
+        <param name="_strMessage" />
+        <param name="_strButtonLabel" />
+      </function>
+      <function name="HideConfirm" />
+      <function name="TickerSetMessage">
+        <param name="_strText" />
+      </function>
+      <function name="TickerHide" />
+    </functions>
+  </UIElement>
+  <UIElement name="Class3HUDBanners">
+    <GFx file="Class3_Banners.gfx" layer="1">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="Setup3DElements" />
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="cry_onResize">
+        <param name="_intWidth" />
+        <param name="_intHeight" />
+        <param name="_intScreenWidth" />
+        <param name="_intScreenHeight" />
+      </function>
+      <function name="SetBannerOffset">
+        <param name="_offset" />
+      </function>
+      <function name="SetSceneMode">
+        <param name="_bSceneMode" />
+      </function>
+      <function name="ShowRadarBanner">
+        <param name="_intBannerType" />
+        <param name="_strLeadInText" />
+        <param name="_strDetailText" />
+      </function>
+      <function name="HideRadarBanner" />
+      <function name="HideDangerZoneBanner" />
+      <function name="ShowDangerZoneBanner" />
+      <function name="HideWarningBanner" />
+      <function name="ShowWarningBanner">
+        <param name="_strText" />
+        <param name="_boolOneShot" />
+      </function>
+      <function name="MissionBannerStart">
+        <param name="_strType" />
+        <param name="_strName" />
+        <param name="_strText" />
+      </function>
+      <function name="MissionBannerComplete">
+        <param name="_strType" />
+        <param name="_strName" />
+        <param name="_strSummary" />
+        <param name="_strTutorial" />
+        <param name="_boolSuccess" />
+      </function>
+      <function name="MissionBannerShowEffect">
+        <param name="_intIndex" />
+        <param name="_intState" />
+        <param name="_strText" />
+        <param name="_intIcon" />
+      </function>
+      <function name="MissionBannerOpportunity">
+        <param name="_strType" />
+        <param name="_strName" />
+      </function>
+      <function name="MissionBannerUpdate">
+        <param name="_strType" />
+        <param name="_strName" />
+        <param name="_strText" />
+      </function>
+      <function name="MissionBannerHide" />
+      <function name="ArcGoalHide" />
+      <function name="ArcGoalShow">
+        <param name="_strHeading" />
+        <param name="_strType" />
+      </function>
+    </functions>
+  </UIElement>
+  <!-- Class3HUDBanners -->
+  <UIElement name="Class3HUDCenterPrompts">
+    <GFx file="Class3_CenterPrompts.gfx" layer="4">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="Setup3DElements" />
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="ShowBButton">
+        <param name="_strText" />
+        <param name="_strKey" />
+      </function>
+      <function name="HideBButton" />
+      <function name="ShowUseButton">
+        <param name="_strText" />
+        <param name="_strKey" />
+      </function>
+      <function name="HideUseButton" />
+      <function name="ShowSubtitle">
+        <param name="_strText" />
+      </function>
+      <function name="HideSubtitle" />
+      <function name="ShowHint">
+        <param name="_strText" />
+      </function>
+      <function name="ShowJournalHint">
+        <param name="_strText" />
+      </function>
+      <function name="HideHint" />
+      <function name="SearchSetProgress">
+        <param name="_fltProgress" />
+        <param name="_strTitle" />
+        <param name="_strKey" />
+      </function>
+      <function name="SearchHideProgress" />
+      <function name="SearchFoundNothing">
+        <param name="_strKey" />
+      </function>
+      <function name="EmoteHide" />
+      <function name="EmoteShow" />
+      <function name="EmoteSetButton">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strLabel" />
+        <param name="_strKey" />
+      </function>
+      <function name="DumpDebugText">
+        <param name="_text" />
+      </function>
+      <function name="DumpActiveClipInfo">
+        <param name="_where" />
+      </function>
+      <function name="ActualIcon">
+        <param name="_icon" />
+        <param name="_strKey" />
+      </function>
+      <function name="SetInputMethod">
+        <param name="_keyboard" />
+      </function>
+      <function name="isVisible">
+        <param name="_mc" />
+      </function>
+      <function name="ClickActiveClip" />
+      <function name="UpdateActiveClipPostInput">
+        <param name="_boolMouse" />
+      </function>
+      <function name="UnclickActiveClip" />
+      <function name="ActiveClipMouseMove" />
+      <function name="ActiveClipEnter" />
+      <function name="ActiveClipExit" />
+      <function name="SetActiveClip">
+        <param name="_clip" />
+        <param name="_boolEnter" />
+      </function>
+      <function name="SetScrollbar">
+        <param name="_mc" />
+        <param name="_command" />
+      </function>
+      <function name="SetSlider">
+        <param name="_mc" />
+        <param name="_command" />
+      </function>
+      <function name="ClearActiveClip">
+        <param name="_clip" />
+      </function>
+    </functions>
+  </UIElement>
+  <!-- Class3HUDCenterPrompts -->
+  <UIElement name="Class3HUDNotifications">
+    <GFx file="Class3_notifications.gfx" layer="0">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="IndexedName">
+        <param name="_strName" />
+        <param name="_intIndex" />
+      </function>
+      <function name="Setup3DElements" />
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="cry_onResize">
+        <param name="_intWidth" />
+        <param name="_intHeight" />
+        <param name="_intScreenWidth" />
+        <param name="_intScreenHeight" />
+      </function>
+      <function name="HideBaseStatus" />
+      <function name="SetBaseStatus">
+        <param name="_intMorale" />
+        <param name="_intMoraleOver" />
+        <param name="_intMeds" />
+        <param name="_intMedsOver" />
+        <param name="_intFood" />
+        <param name="_intFoodOver" />
+        <param name="_intAmmo" />
+        <param name="_intAmmoOver" />
+        <param name="_intMaterials" />
+        <param name="_intMatsOver" />
+        <param name="_intFuel" />
+        <param name="_intFuelOver" />
+        <param name="_intInfluence" />
+        <param name="_intInfluenceOver" />
+        <param name="_intPopulation" />
+        <param name="_intPopulationOver" />
+      </function>
+      <function name="HideThreatLevel" />
+      <function name="ShowThreatLevel">
+        <param name="_intLevel" />
+      </function>
+      <function name="SetupMapLegendButtion">
+        <param name="_button" />
+        <param name="_intIcon" />
+        <param name="_strKey" />
+      </function>
+      <function name="MapLegendShow">
+        <param name="_ar" />
+        <param name="_strZoomKey" />
+        <param name="_strPOIKey" />
+        <param name="_strWaypointKey" />
+        <param name="_strCloseKey" />
+        <param name="_strLegendKey" />
+      </function>
+      <function name="MapLegendHide" />
+      <function name="ShowChallengeProgress">
+        <param name="_strTitle" />
+        <param name="_intCount" />
+        <param name="_intMax" />
+      </function>
+      <function name="AddRewardMessage">
+        <param name="_strReward" />
+      </function>
+      <function name="RewardsHide" />
+      <function name="RewardsShow" />
+      <function name="HideGameNotifications" />
+      <function name="ShowGameNotifications" />
+      <function name="MapLabelClear" />
+      <function name="MapLabelSet">
+        <param name="_strLabel" />
+        <param name="_fltX" />
+        <param name="_fltY" />
+      </function>
+      <function name="MapLabelSetInfoLine">
+        <param name="_intLineIndex" />
+        <param name="_strInfo" />
+      </function>
+      <function name="MapLabelSetDescLine">
+        <param name="_intLineIndex" />
+        <param name="_strInfo" />
+      </function>
+      <function name="MapLabelSetIconLine">
+        <param name="_intLineIndex" />
+        <param name="_strLabel" />
+        <param name="_intIconCount" />
+      </function>
+      <function name="MapLabelIconSet">
+        <param name="_intLineIndex" />
+        <param name="_intIconIndex" />
+        <param name="_intIcon" />
+      </function>
+      <function name="MapLabelSetProgressLine">
+        <param name="_intLineIndex" />
+        <param name="_strLabel" />
+        <param name="_intAmount" />
+      </function>
+      <function name="MapMoraleHide" />
+      <function name="MapMoraleSet">
+        <param name="_intMorale" />
+        <param name="_fltX" />
+        <param name="_fltY" />
+      </function>
+      <function name="MapClearNeeds" />
+      <function name="MapSetNeed">
+        <param name="_intIndex" />
+        <param name="_strNeed" />
+      </function>
+      <function name="MapWaypointArrowShow">
+        <param name="_intId" />
+        <param name="_intState" />
+      </function>
+      <function name="MapWaypointArrowUpdate">
+        <param name="_intId" />
+        <param name="_floatX" />
+        <param name="_floatY" />
+        <param name="_floatRotation" />
+      </function>
+      <function name="MapWaypointArrowHide">
+        <param name="_intId" />
+      </function>
+      <function name="SkillUpShow">
+        <param name="_strSkillName" />
+        <param name="_intSkillLevel" />
+        <param name="_intDisplayMs" />
+      </function>
+      <function name="SkillUpHide" />
+      <function name="BuildCompleteShow">
+        <param name="_strFacName" />
+        <param name="_intDisplayMs" />
+      </function>
+      <function name="BuildCompleteHide" />
+      <function name="SkillUnlockShow">
+        <param name="_intDisplayMs" />
+      </function>
+      <function name="SkillUnlockHide" />
+      <function name="EventCardShow">
+        <param name="_intCardType" />
+        <param name="_strName" />
+        <param name="_strSummary" />
+        <param name="_intIconState" />
+        <param name="_intIcon" />
+      </function>
+      <function name="EventCardAddEffect">
+        <param name="_intIndex" />
+        <param name="_intState" />
+        <param name="_intIcon" />
+        <param name="_intCount" />
+      </function>
+      <function name="EventCardHide" />
+      <function name="ToDoListShow">
+        <param name="_boolScroll" />
+      </function>
+      <function name="ToDoListHide" />
+      <function name="ToDoListSetScroll">
+        <param name="_intAmount" />
+        <param name="_boolScrollUp" />
+        <param name="_boolScrollDown" />
+      </function>
+      <function name="ToDoListAddItem">
+        <param name="_intIndex" />
+        <param name="_intState" />
+        <param name="_intIcon" />
+        <param name="_strText" />
+      </function>
+      <function name="ChoicesShow">
+        <param name="_strPrompt" />
+        <param name="_intChoiceCount" />
+        <param name="_intSelected" />
+        <param name="_strSelectedDesc" />
+        <param name="_strAKey" />
+        <param name="_strBKey" />
+      </function>
+      <function name="ChoicesSetChoice">
+        <param name="_intIndex" />
+        <param name="_boolSelected" />
+        <param name="_strChoiceText" />
+      </function>
+      <function name="ChoicesHide" />
+      <function name="CHShow">
+        <param name="_intIndex" />
+        <param name="_strChallenge" />
+        <param name="_strChallengeProg" />
+      </function>
+      <function name="CHHide">
+        <param name="challenge" />
+      </function>
+      <function name="HEStampHide" />
+      <function name="HEUnlock">
+        <param name="_strText" />
+        <param name="_intDisplayMs" />
+      </function>
+      <function name="DumpDebugText">
+        <param name="_text" />
+      </function>
+      <function name="DumpActiveClipInfo">
+        <param name="_where" />
+      </function>
+      <function name="ActualIcon">
+        <param name="_icon" />
+        <param name="_strKey" />
+      </function>
+      <function name="SetInputMethod">
+        <param name="_keyboard" />
+      </function>
+      <function name="isVisible">
+        <param name="_mc" />
+      </function>
+      <function name="ClickActiveClip" />
+      <function name="UpdateActiveClipPostInput">
+        <param name="_boolMouse" />
+      </function>
+      <function name="UnclickActiveClip" />
+      <function name="ActiveClipMouseMove" />
+      <function name="ActiveClipEnter" />
+      <function name="ActiveClipExit" />
+      <function name="SetActiveClip">
+        <param name="_clip" />
+        <param name="_boolEnter" />
+      </function>
+      <function name="SetScrollbar">
+        <param name="_mc" />
+        <param name="_command" />
+      </function>
+      <function name="SetSlider">
+        <param name="_mc" />
+        <param name="_command" />
+      </function>
+      <function name="ClearActiveClip">
+        <param name="_clip" />
+      </function>
+    </functions>
+  </UIElement>
+  <!-- Class3HUDNotifications -->
+  <UIElement name="Class3HUDRadar">
+    <GFx file="Class3_Radar.gfx" layer="1">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="Setup3DElements" />
+      <function name="SetSiegeThreatLevel">
+        <param name="_intLevel" />
+      </function>
+      <function name="SetMapRotation">
+        <param name="_fltRotation" />
+      </function>
+      <function name="SetMapZoom">
+        <param name="_fltZoom" />
+      </function>
+      <function name="RotateLocX">
+        <param name="_fltX" />
+        <param name="_fltY" />
+      </function>
+      <function name="RotateLocY">
+        <param name="_fltX" />
+        <param name="_fltY" />
+      </function>
+      <function name="UpdateBarricade">
+        <param name="_intCount" />
+        <param name="_intIndex" />
+        <param name="_intStatus" />
+      </function>
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="HideBaseStatus" />
+      <function name="SetBaseStatus">
+        <param name="_intMorale" />
+        <param name="_intMeds" />
+        <param name="_intFood" />
+        <param name="_intAmmo" />
+        <param name="_intMaterials" />
+        <param name="_intFuel" />
+        <param name="_intInfluence" />
+      </function>
+      <function name="SetMissionObjectiveText">
+        <param name="_strText" />
+      </function>
+      <function name="SetThreatLevel">
+        <param name="_intThreatLevel" />
+      </function>
+      <function name="SetMapLoc">
+        <param name="_fltX" />
+        <param name="_fltY" />
+        <param name="_fltRotation" />
+        <param name="_fltZoom" />
+      </function>
+      <function name="SetMoraleBar">
+        <param name="_morale" />
+      </function>
+      <function name="HideMoraleBar" />
+      <function name="HideFlagLoc">
+        <param name="_intIndex" />
+      </function>
+      <function name="SetFlagLoc">
+        <param name="_fltX" />
+        <param name="_fltY" />
+        <param name="_intIndex" />
+        <param name="_strType" />
+      </function>
+      <function name="ClearPoiLocs" />
+      <function name="HidePoiLoc">
+        <param name="_intIndex" />
+      </function>
+      <function name="SetPoiLoc">
+        <param name="_fltX" />
+        <param name="_fltY" />
+        <param name="_intIndex" />
+        <param name="_strType" />
+      </function>
+      <function name="HideProgressBar" />
+      <function name="SetProgressBar">
+        <param name="_intPercentComplete" />
+        <param name="_intIcon" />
+        <param name="_intBarColor" />
+        <param name="_strText" />
+      </function>
+      <function name="HideObjective">
+        <param name="_intIndex" />
+      </function>
+      <function name="HideObjectives" />
+      <function name="SetObjectiveLoc">
+        <param name="_intIndex" />
+        <param name="_fltX" />
+        <param name="_fltY" />
+        <param name="_type" />
+        <param name="_radius" />
+      </function>
+      <function name="HideObjectiveArrow" />
+      <function name="SetObjectiveArrow">
+        <param name="_fltRot" />
+        <param name="_type" />
+        <param name="_boolNew" />
+      </function>
+      <function name="SetWaypointArrowRot">
+        <param name="_fltRotation" />
+        <param name="_boolHideArrow" />
+        <param name="_boolNew" />
+      </function>
+      <function name="HideWaypoint" />
+      <function name="SetPlayerRotation">
+        <param name="_fltRotation" />
+      </function>
+      <function name="PlayAlert">
+        <param name="_fltX" />
+        <param name="_fltY" />
+        <param name="_strAlertType" />
+        <param name="_fltScale" />
+      </function>
+      <function name="ShowZombieCounter">
+        <param name="_intCount" />
+        <param name="_intCountKilled" />
+      </function>
+      <function name="HideZombieCounter" />
+      <function name="HideBarricadeCounter" />
+      <function name="ShowBarricadeCounter">
+        <param name="_intCount" />
+        <param name="_intStatus1" />
+        <param name="_intStatus2" />
+        <param name="_intStatus3" />
+        <param name="_intStatus4" />
+        <param name="_intStatus5" />
+        <param name="_intStatus6" />
+        <param name="_intStatus7" />
+        <param name="_intStatus8" />
+        <param name="_intStatus9" />
+        <param name="_intStatus10" />
+      </function>
+      <function name="SetMinimapUiVisible">
+        <param name="_bVisible" />
+      </function>
+      <function name="SetAggroRadius">
+        <param name="_fltRadius" />
+      </function>
+    </functions>
+  </UIElement>
+  <!-- Class3HUDRadar -->
+  <UIElement name="Class3HUDStats">
+    <GFx file="Class3_Stats.gfx" layer="0">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="GetIconFrame">
+        <param name="_intIcon" />
+      </function>
+      <function name="Setup3DElements" />
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="cry_onResize">
+        <param name="_intWidth" />
+        <param name="_intHeight" />
+        <param name="_intScreenWidth" />
+        <param name="_intScreenHeight" />
+      </function>
+      <function name="SetBuildNumber">
+        <param name="_intBuildNumber" />
+      </function>
+      <function name="SetLocation">
+        <param name="_strLocation" />
+      </function>
+      <function name="SetHealth">
+        <param name="_intHealth" />
+        <param name="_intMaxHealth" />
+        <param name="_intHealthPenalty" />
+        <param name="_intShadow" />
+        <param name="_intSurgeActive" />
+      </function>
+      <function name="SetStamina">
+        <param name="_intStamina" />
+        <param name="_intMaxStamina" />
+        <param name="_intStaminaPenalty" />
+        <param name="_intShadow" />
+        <param name="_intSurgeActive" />
+      </function>
+      <function name="ConsumableHide" />
+      <function name="ConsumableNameNotification">
+        <param name="_strName" />
+      </function>
+      <function name="ConsumableSet">
+        <param name="_intCount" />
+        <param name="_intIcon" />
+      </function>
+      <function name="EquippedItemGunDamagedNotification">
+        <param name="_strNotification" />
+      </function>
+      <function name="EquippedItemWeaponDamagedNotification">
+        <param name="_strNotification" />
+      </function>
+      <function name="GunStatsHide" />
+      <function name="GunStatsShow">
+        <param name="_intAmmo" />
+        <param name="_intInventoryAmmo" />
+        <param name="_intSuppressorCharges" />
+        <param name="_intFireMode" />
+      </function>
+      <function name="IconGunHide" />
+      <function name="IconGunShow">
+        <param name="_intDurability" />
+        <param name="_intIcon" />
+      </function>
+      <function name="IconWeaponHide" />
+      <function name="IconWeaponShow">
+        <param name="_intDurability" />
+        <param name="_intIcon" />
+      </function>
+      <function name="SetCharacterUiVisible">
+        <param name="_bVisible" />
+      </function>
+      <function name="MercAirstrikeClear" />
+      <function name="MercAirstrikeSet">
+        <param name="_intSeconds" />
+      </function>
+      <function name="MercGunClear" />
+      <function name="MercGunSet" />
+      <function name="MercSniperClear" />
+      <function name="MercSniperSet">
+        <param name="_intShots" />
+      </function>
+    </functions>
+  </UIElement>
+  <!-- Class3HUDStats -->
+  <UIElement name="Class3HUDPause">
+    <GFx file="Class3_Pause.gfx" layer="5">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="SetCryMouse">
+        <param name="_cryMouseX" />
+        <param name="cryMouseY" />
+      </function>
+      <function name="Setup3DElements" />
+      <function name="Clamp">
+        <param name="value" />
+        <param name="rangeMin" />
+        <param name="rangeMax" />
+      </function>
+      <function name="Saturate">
+        <param name="value" />
+      </function>
+      <function name="IndexedName">
+        <param name="_strName" />
+        <param name="_intIndex" />
+      </function>
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="CNShow" />
+      <function name="CNHide" />
+      <function name="CNSetMode">
+        <param name="_mode" />
+      </function>
+      <function name="CNHideEntry">
+        <param name="_intIdx" />
+      </function>
+      <function name="CNSetHeading">
+        <param name="_intIdx" />
+        <param name="_strHeading" />
+      </function>
+      <function name="CNSetConflicts">
+        <param name="_boolConflicts" />
+      </function>
+      <function name="CNSetEntry">
+        <param name="_intIdx" />
+        <param name="_strAction" />
+        <param name="_strKey" />
+        <param name="_intConflict" />
+      </function>
+      <function name="CNSetScrollAmount">
+        <param name="_fltAmount" />
+      </function>
+      <function name="CNSetRebindPopup">
+        <param name="_strHeading" />
+        <param name="_strDetails" />
+        <param name="_strConflict" />
+        <param name="_strKey" />
+        <param name="_strCaption" />
+      </function>
+      <function name="PAShowHowToPlay">
+        <param name="_boolShow" />
+      </function>
+      <function name="PAShowUpsell">
+        <param name="_boolShow" />
+      </function>
+      <function name="PAShowUpsellAward">
+        <param name="_bShow" />
+      </function>
+      <function name="PAShowUpsellMenu" />
+      <function name="PAUpsellMenuShown" />
+      <function name="PAShowMenu">
+        <param name="_strTitle" />
+      </function>
+      <function name="PAHideMenu" />
+      <function name="HowToHideButtons" />
+      <function name="HowToHoldCancel">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+      </function>
+      <function name="HowToHoldStart">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_boolHold" />
+      </function>
+      <function name="HowToHoldUpdate">
+        <param name="_intPosition" />
+        <param name="_intProgress" />
+      </function>
+      <function name="HowToShowButtons">
+        <param name="_intState" />
+      </function>
+      <function name="HowToShowButton">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strLabel" />
+        <param name="_boolHold" />
+      </function>
+      <function name="HowToShowPage">
+        <param name="_strHeading" />
+        <param name="_strBody" />
+        <param name="_strPageNum" />
+      </function>
+      <function name="HowToQueuePage">
+        <param name="_strHeading" />
+        <param name="_strBody" />
+        <param name="_strPageNum" />
+      </function>
+      <function name="HowToSetTitle">
+        <param name="_strTitle" />
+      </function>
+      <function name="USHideButtons" />
+      <function name="USHoldCancel">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+      </function>
+      <function name="USHoldStart">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_boolHold" />
+      </function>
+      <function name="USHoldUpdate">
+        <param name="_intPosition" />
+        <param name="_intProgress" />
+      </function>
+      <function name="USShowButtons">
+        <param name="_intState" />
+      </function>
+      <function name="USShowButton">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strLabel" />
+        <param name="_boolHold" />
+      </function>
+      <function name="USSetHeader">
+        <param name="_strHeader" />
+      </function>
+      <function name="USAHideButtons" />
+      <function name="USAHoldCancel">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+      </function>
+      <function name="USAHoldStart">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_boolHold" />
+      </function>
+      <function name="USAHoldUpdate">
+        <param name="_intPosition" />
+        <param name="_intProgress" />
+      </function>
+      <function name="USAShowButtons">
+        <param name="_intState" />
+      </function>
+      <function name="USAShowButton">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strLabel" />
+        <param name="_boolHold" />
+      </function>
+      <function name="USASetText">
+        <param name="_strHeader" />
+        <param name="_strTitle" />
+        <param name="_strBody" />
+        <param name="_intIcon" />
+      </function>
+      <function name="SetMenuTitle">
+        <param name="_strText" />
+      </function>
+      <function name="SetMenuItem">
+        <param name="_intIdx" />
+        <param name="_strText" />
+        <param name="_boolSelected" />
+      </function>
+      <function name="SetMenuItemScrollbar">
+        <param name="_intIdx" />
+        <param name="_intAmount" />
+        <param name="_strLabel" />
+      </function>
+      <function name="SetMenuItemToggle">
+        <param name="_intIdx" />
+        <param name="_boolOn" />
+      </function>
+      <function name="HideMenuItem">
+        <param name="_intIdx" />
+      </function>
+      <function name="SetMenuButton">
+        <param name="_intIcon" />
+        <param name="_strText" />
+        <param name="_strKey" />
+      </function>
+      <function name="HideMenuButton" />
+      <function name="PACreditsShow">
+        <param name="_lifeline" />
+      </function>
+      <function name="PACreditsHiding" />
+      <function name="PACreditsHide">
+        <param name="_lifeline" />
+      </function>
+      <function name="PACreditsRefresh">
+        <param name="_lifeline" />
+      </function>
+      <function name="AlertShow">
+        <param name="_strHeading" />
+        <param name="_strDesc" />
+      </function>
+      <function name="AlertShowSlots">
+        <param name="_strHeading" />
+        <param name="_strSlot1" />
+        <param name="_strSlot2" />
+        <param name="_strSlot3" />
+        <param name="_strSlot4" />
+      </function>
+      <function name="AlertSetupHitbox">
+        <param name="_intIdx" />
+      </function>
+      <function name="AlertSelectSlot">
+        <param name="_intIdx" />
+      </function>
+      <function name="AlertHide" />
+      <function name="AlertHideButtons" />
+      <function name="AlertHoldCancel">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+      </function>
+      <function name="AlertHoldStart">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+      </function>
+      <function name="AlertHoldUpdate">
+        <param name="_intPosition" />
+        <param name="_intProgress" />
+      </function>
+      <function name="AlertShowButtons">
+        <param name="_intState" />
+      </function>
+      <function name="AlertShowButton">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strLabel" />
+        <param name="_boolHold" />
+      </function>
+      <function name="ControllerHideButtons" />
+      <function name="ControllerHoldCancel">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+      </function>
+      <function name="ControllerHoldStart">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+      </function>
+      <function name="ControllerHoldUpdate">
+        <param name="_intPosition" />
+        <param name="_intProgress" />
+      </function>
+      <function name="ControllerShowButtons">
+        <param name="_intState" />
+      </function>
+      <function name="ControllerShowButton">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strLabel" />
+        <param name="_boolHold" />
+      </function>
+      <function name="AutoSaveShow" />
+      <function name="AutoSaveHide" />
+      <function name="LBShow">
+        <param name="_strTitle" />
+        <param name="_strType" />
+        <param name="_strRankTitle" />
+        <param name="_strNameTitle" />
+        <param name="_strScoreTitle" />
+        <param name="_strLeftKey" />
+        <param name="_strRightKey" />
+      </function>
+      <function name="LBHide" />
+      <function name="LBHideEntry">
+        <param name="_intIdx" />
+      </function>
+      <function name="LBSetEntry">
+        <param name="_intIdx" />
+        <param name="_intState" />
+        <param name="_intHighlightState" />
+        <param name="_intRank" />
+        <param name="_strGamerTag" />
+        <param name="_intScore" />
+      </function>
+      <function name="LBSetScrollAmount">
+        <param name="_fltAmount" />
+      </function>
+      <function name="LBHideButtons" />
+      <function name="LBHoldCancel">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+      </function>
+      <function name="LBHoldStart">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+      </function>
+      <function name="LBHoldUpdate">
+        <param name="_intPosition" />
+        <param name="_intProgress" />
+      </function>
+      <function name="LBShowButtons">
+        <param name="_intState" />
+      </function>
+      <function name="LBShowButton">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strLabel" />
+        <param name="_boolHold" />
+      </function>
+      <function name="DumpDebugText">
+        <param name="_text" />
+      </function>
+      <function name="DumpActiveClipInfo">
+        <param name="_where" />
+      </function>
+      <function name="ActualIcon">
+        <param name="_icon" />
+        <param name="_strKey" />
+      </function>
+      <function name="SetInputMethod">
+        <param name="_keyboard" />
+      </function>
+      <function name="isVisible">
+        <param name="_mc" />
+      </function>
+      <function name="ClickActiveClip" />
+      <function name="UpdateActiveClipPostInput">
+        <param name="_boolMouse" />
+      </function>
+      <function name="UnclickActiveClip" />
+      <function name="ActiveClipMouseMove" />
+      <function name="ActiveClipEnter" />
+      <function name="ActiveClipExit" />
+      <function name="SetActiveClip">
+        <param name="_clip" />
+        <param name="_boolEnter" />
+      </function>
+      <function name="SetScrollbar">
+        <param name="_mc" />
+        <param name="_command" />
+      </function>
+      <function name="SetSlider">
+        <param name="_mc" />
+        <param name="_command" />
+      </function>
+      <function name="ClearActiveClip">
+        <param name="_clip" />
+      </function>
+      <function name="SetupMouseChoice">
+        <param name="_mc" />
+        <param name="_intIdx" />
+      </function>
+      <function name="SetupMouseSwitch">
+        <param name="_mc" />
+        <param name="_intIdx" />
+        <param name="_bool" />
+      </function>
+      <function name="SetupMouseMenuButton">
+        <param name="_mc" />
+        <param name="_intIcon" />
+        <param name="_intDispIcon" />
+        <param name="_strKey" />
+      </function>
+      <function name="SetupMouseSlider">
+        <param name="_mc" />
+        <param name="_intIdx" />
+      </function>
+      <function name="SetupMouseBumper">
+        <param name="_mc" />
+        <param name="_strKey" />
+      </function>
+      <function name="SetupMouseScrollbar">
+        <param name="_mc" />
+        <param name="_command" />
+      </function>
+      <function name="SetupMouseBack">
+        <param name="_mc" />
+        <param name="_intIdx" />
+      </function>
+    </functions>
+  </UIElement>
+  <!-- Class3HUDPause -->
+  <UIElement name="Class3HUDJournal">
+    <GFx file="Class3_Journal.gfx" layer="3">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="Setup3DElements" />
+      <function name="Clamp">
+        <param name="value" />
+        <param name="rangeMin" />
+        <param name="rangeMax" />
+      </function>
+      <function name="GetIconFrame">
+        <param name="_intIcon" />
+      </function>
+      <function name="GetPercentageFrame">
+        <param name="_fltValue" />
+      </function>
+      <function name="Saturate">
+        <param name="value" />
+      </function>
+      <function name="IndexedName">
+        <param name="_strName" />
+        <param name="_intIndex" />
+      </function>
+      <function name="ItemSlotClearData">
+        <param name="_itemSlot" />
+        <param name="_boolSelected" />
+      </function>
+      <function name="ItemSlotSetData">
+        <param name="_itemSlot" />
+        <param name="_intSlotId" />
+        <param name="_intIcon" />
+        <param name="_intState" />
+        <param name="_intStatus" />
+        <param name="_intEquipped" />
+        <param name="_strCount" />
+        <param name="_intCountType" />
+        <param name="_intCost" />
+      </function>
+      <function name="InfoBlockActionSet">
+        <param name="_infoBlock" />
+        <param name="_strName" />
+        <param name="_strDesc" />
+      </function>
+      <function name="InfoBlockClear">
+        <param name="_infoBlock" />
+      </function>
+      <function name="InfoBlockGunSet">
+        <param name="_infoBlock" />
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intBanner" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_intMag" />
+        <param name="_strWeight" />
+        <param name="_strAmmoName" />
+        <param name="_fltAccuracy" />
+        <param name="_fltDurability" />
+        <param name="_fltNoise" />
+        <param name="_fltRecoil" />
+        <param name="_intScope" />
+        <param name="_intSuppress" />
+      </function>
+      <function name="InfoBlockItemScroll">
+        <param name="_infoBlock" />
+        <param name="_intDirection" />
+      </function>
+      <function name="InfoBlockItemSet">
+        <param name="_infoBlock" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strWeight" />
+      </function>
+      <function name="InfoBlockTextScroll">
+        <param name="_infoBlock" />
+        <param name="_intDirection" />
+      </function>
+      <function name="InfoBlockTextSet">
+        <param name="_infoBlock" />
+        <param name="_strText" />
+      </function>
+      <function name="InfoBlockAdvisorTextSet">
+        <param name="_infoBlock" />
+        <param name="_strText" />
+        <param name="_strFacilityName" />
+        <param name="_intIcon" />
+      </function>
+      <function name="InfoBlockVehicleSet">
+        <param name="_infoBlock" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_intSeats" />
+        <param name="_fltAcceleration" />
+        <param name="_fltTopSpeed" />
+        <param name="_fltDurability" />
+        <param name="_fltHandling" />
+      </function>
+      <function name="InfoBlockWeaponSet">
+        <param name="_infoBlock" />
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strClass" />
+        <param name="_strWeight" />
+        <param name="_fltDurability" />
+      </function>
+      <function name="InfoBlockExpertiseSet">
+        <param name="_infoBlock" />
+      </function>
+      <function name="InfoBlockExpertiseSetItem">
+        <param name="_infoBlock" />
+        <param name="_intIndex" />
+        <param name="_strName" />
+        <param name="_intCurStars" />
+        <param name="_intMaxStars" />
+      </function>
+      <function name="InfoBlockExpertiseSetSpecialization">
+        <param name="_infoBlock" />
+        <param name="_strName" />
+        <param name="_intCurStars" />
+        <param name="_intMaxStars" />
+      </function>
+      <function name="PortraitBlockGetPortrait">
+        <param name="_portraitBlock" />
+        <param name="_intSlot" />
+      </function>
+      <function name="PortraitSetSlotData">
+        <param name="portraitSlot" />
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_boolNew" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+        <param name="_intSelectionState" />
+      </function>
+      <function name="SetStars">
+        <param name="_starParent" />
+        <param name="_intFilledCount" />
+        <param name="_intTotalCount" />
+      </function>
+      <function name="TabsShow">
+        <param name="_intSelected" />
+        <param name="_strLabelText" />
+      </function>
+      <function name="TabSetData">
+        <param name="_intTabIndex" />
+        <param name="_intState" />
+        <param name="_boolNew" />
+        <param name="_intIcon" />
+        <param name="_boolMouse" />
+      </function>
+      <function name="ShowJournalStandard">
+        <param name="title" />
+        <param name="tabFrame" />
+      </function>
+      <function name="SetupJournalButtons">
+        <param name="_strLeft" />
+        <param name="_strRight" />
+      </function>
+      <function name="HideJournalStandard" />
+      <function name="CloseJournal" />
+      <function name="SetJournalSubfocus">
+        <param name="_bShow" />
+      </function>
+      <function name="UpdateScrollbarPosition">
+        <param name="_textField" />
+        <param name="_scrollbarClip" />
+      </function>
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="cry_onResize">
+        <param name="_intWidth" />
+        <param name="_intHeight" />
+        <param name="_intScreenWidth" />
+        <param name="_intScreenHeight" />
+      </function>
+      <function name="AMShowMenu">
+        <param name="_strTitle" />
+      </function>
+      <function name="AMHideMenu" />
+      <function name="AMSetPossessionField">
+        <param name="_intWhich" />
+        <param name="_intIcon" />
+        <param name="_intItemState" />
+        <param name="_intCount" />
+      </function>
+      <function name="AMSetResourceField">
+        <param name="_intWhich" />
+        <param name="_intIcon" />
+        <param name="_intItemState" />
+        <param name="_intCount" />
+        <param name="_intMax" />
+        <param name="_intOver" />
+        <param name="_intUsage" />
+        <param name="_intUsageState" />
+      </function>
+      <function name="AMSetWealthField">
+        <param name="_intWhich" />
+        <param name="_strLabel" />
+        <param name="_intIcon" />
+        <param name="_intItemState" />
+        <param name="_intCount" />
+        <param name="_intCounterState" />
+      </function>
+      <function name="AMSetDetails">
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strStatus" />
+      </function>
+      <function name="CCClearSlots" />
+      <function name="CCShowMenu" />
+      <function name="CCHideMenu" />
+      <function name="CCInfluenceAvailableClear" />
+      <function name="CCInfluenceAvailableSet">
+        <param name="_intInfluence" />
+      </function>
+      <function name="CCScrollbarSet">
+        <param name="_intFrame" />
+      </function>
+      <function name="CCSlotClear">
+        <param name="_intSlot" />
+        <param name="_boolSelected" />
+      </function>
+      <function name="CCSlotSetData">
+        <param name="_intSlot" />
+        <param name="_intSlotId" />
+        <param name="_intIcon" />
+        <param name="_intState" />
+        <param name="_intStatus" />
+        <param name="_intEquipped" />
+        <param name="_intItemCount" />
+        <param name="_intCountType" />
+        <param name="_intCost" />
+      </function>
+      <function name="CCAmmoShow" />
+      <function name="CCBackpackShow" />
+      <function name="CCGunShow" />
+      <function name="CCGunDetailsClear" />
+      <function name="CCGunDetailsSet">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intBanner" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_intMag" />
+        <param name="_strWeight" />
+        <param name="_strAmmoName" />
+        <param name="_fltAccuracy" />
+        <param name="_fltDurability" />
+        <param name="_fltNoise" />
+        <param name="_fltRecoil" />
+        <param name="_intScope" />
+        <param name="_intSuppress" />
+      </function>
+      <function name="CCItemShow" />
+      <function name="CCItemDetailsClear" />
+      <function name="CCItemDetailsScroll">
+        <param name="_intDirection" />
+      </function>
+      <function name="CCItemDetailsSet">
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strWeight" />
+      </function>
+      <function name="CCWeaponShow" />
+      <function name="CCWeaponDetailsClear" />
+      <function name="CCWeaponDetailsSet">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strClass" />
+        <param name="_strWeight" />
+        <param name="_fltDurability" />
+      </function>
+      <function name="CHShowMenu">
+        <param name="_strTitle" />
+      </function>
+      <function name="CHHideMenu" />
+      <function name="CHSetChallenge">
+        <param name="_intIndex" />
+        <param name="_intScrollFrame" />
+        <param name="_strTitle" />
+        <param name="_strDescription" />
+        <param name="_strEpithet" />
+        <param name="_intScenarioCount" />
+        <param name="_intAvailable" />
+        <param name="_intUnlocked" />
+        <param name="_intSelected" />
+        <param name="_strProgress" />
+      </function>
+      <function name="CHSetStats">
+        <param name="_intScenarioCount" />
+        <param name="_intScore" />
+      </function>
+      <function name="DMShowMenu">
+        <param name="_strTitle" />
+      </function>
+      <function name="DMShowScrollbar">
+        <param name="_fltScrollValue" />
+      </function>
+      <function name="DMHideScrollbar" />
+      <function name="DMSetListboxData">
+        <param name="_intListboxIndex" />
+        <param name="_intListboxState" />
+        <param name="_intItemCount" />
+        <param name="_strName" />
+        <param name="_intHighlightState" />
+      </function>
+      <function name="DMSetPossessionCount">
+        <param name="_intPossessionCount" />
+      </function>
+      <function name="DMHideMenu" />
+      <function name="DMSetItemDetails">
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDesc" />
+        <param name="_strWeight" />
+      </function>
+      <function name="DMSetVehicleDetails">
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_intSeats" />
+        <param name="_fltAcceleration" />
+        <param name="_fltTopSpeed" />
+        <param name="_fltDurability" />
+        <param name="_fltHandling" />
+      </function>
+      <function name="DMSetGunDetails">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intBanner" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_intMag" />
+        <param name="_strWeight" />
+        <param name="_strAmmoName" />
+        <param name="_fltAccuracy" />
+        <param name="_fltDurability" />
+        <param name="_fltNoise" />
+        <param name="_fltRecoil" />
+        <param name="_intScope" />
+        <param name="_intSuppress" />
+      </function>
+      <function name="DMSetWeaponDetails">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strClass" />
+        <param name="_strWeight" />
+        <param name="_fltDurability" />
+      </function>
+      <function name="EMShowMenu">
+        <param name="_strTitle" />
+      </function>
+      <function name="EMHideMenu" />
+      <function name="EMListSetItem">
+        <param name="_intIndex" />
+        <param name="_intIcon" />
+        <param name="_boolIsNew" />
+        <param name="_strName" />
+        <param name="_strSummary" />
+        <param name="_intSelected" />
+      </function>
+      <function name="EMListSetItemSeparator">
+        <param name="_intIndex" />
+        <param name="_strDay" />
+        <param name="_strTime" />
+      </function>
+      <function name="EMListSetItemEmpty">
+        <param name="_intIndex" />
+      </function>
+      <function name="EMListSetScrollPosition">
+        <param name="_fltAmount" />
+      </function>
+      <function name="EMDetailSetData">
+        <param name="_strName" />
+        <param name="_strDesc" />
+        <param name="_strTimeStamp" />
+        <param name="_intEffectCount" />
+      </function>
+      <function name="EMDetailSetReward">
+        <param name="_intIndex" />
+        <param name="_intIcon" />
+        <param name="_strDesc" />
+      </function>
+      <function name="EMDetailSetRewardEmpty">
+        <param name="_intIndex" />
+      </function>
+      <function name="EMDetailSetEffectNpc">
+        <param name="_intIndex" />
+        <param name="_strCharName" />
+        <param name="_strDesc" />
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_boolNew" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+        <param name="_intSelectionState" />
+      </function>
+      <function name="EMDetailSetEffect">
+        <param name="_intIndex" />
+        <param name="_intType" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDesc" />
+      </function>
+      <function name="EMDetailSetEffectEmpty">
+        <param name="_intIndex" />
+      </function>
+      <function name="EMDetailSetEffectScrollAmount">
+        <param name="_fltScrollValue" />
+      </function>
+      <function name="EXDShow">
+        <param name="_strTitle" />
+        <param name="_strDescription" />
+        <param name="_strSubheading" />
+        <param name="_intFilledCount" />
+        <param name="_intTotalCount" />
+        <param name="_strSkillName" />
+        <param name="_strSkillUnits" />
+      </function>
+      <function name="EXDHide" />
+      <function name="EXDHideAbilitySlot">
+        <param name="_intSlot" />
+      </function>
+      <function name="EXDSetAbilityDetails">
+        <param name="_strDescription" />
+      </function>
+      <function name="EXDSetAbilitySlot">
+        <param name="_intSlot" />
+        <param name="_intState" />
+        <param name="_intIcon" />
+        <param name="_strTitle" />
+      </function>
+      <function name="EXDSetScrollAmount">
+        <param name="_fltAmount" />
+      </function>
+      <function name="EXMShowMenu">
+        <param name="_strTitle" />
+      </function>
+      <function name="EXMHideMenu" />
+      <function name="EXMSetCharacterBlockData">
+        <param name="_strName" />
+        <param name="_intHealth" />
+        <param name="_intStamina" />
+        <param name="_intTrust" />
+      </function>
+      <function name="EXMSetMainSelectState">
+        <param name="_intFrame" />
+      </function>
+      <function name="EXMSetPortraitData">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_boolNew" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+        <param name="_intSelectionState" />
+      </function>
+      <function name="EXMSetScrollAmount">
+        <param name="_fltAmount" />
+      </function>
+      <function name="EXMSetExpertiseSlotState">
+        <param name="_intSlot" />
+        <param name="_intSelectionState" />
+        <param name="_intState" />
+        <param name="_intIcon" />
+      </function>
+      <function name="EXMSetExpertiseSlotData">
+        <param name="_intSlot" />
+        <param name="_intFilledCount" />
+        <param name="_intTotalCount" />
+        <param name="_strName" />
+        <param name="_fltProgress" />
+      </function>
+      <function name="EXMSetExpertiseSlotHeading">
+        <param name="_intSlot" />
+        <param name="_strHeading" />
+      </function>
+      <function name="EXMSetExpertiseSlotSpecialization">
+        <param name="_intSlot" />
+        <param name="_intSpecializationSlot" />
+        <param name="_intSelectionState" />
+        <param name="_intStatus" />
+        <param name="_intIcon" />
+        <param name="_boolNew" />
+      </function>
+      <function name="EXMSetExpertiseSlotSpecializationScrollArrows">
+        <param name="_intSlot" />
+        <param name="_bLeft" />
+        <param name="_bRight" />
+      </function>
+      <function name="EXMSetDetails">
+        <param name="_intState" />
+        <param name="_strTitle" />
+        <param name="_strDescription" />
+        <param name="_strSkillName" />
+        <param name="_strSkillUnits" />
+      </function>
+      <function name="HMShowMenu">
+        <param name="_strTitle" />
+      </function>
+      <function name="HMHideMenu" />
+      <function name="HMSetMainSelectState">
+        <param name="_intState" />
+      </function>
+      <function name="HMSetFacilityBlockState">
+        <param name="_intFacilityState" />
+      </function>
+      <function name="HMSetStaffedFacilityData">
+        <param name="_strFacilityName" />
+        <param name="_intFacilityStatus" />
+        <param name="_intFacilityIcon" />
+        <param name="_strStaffName" />
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_boolNew" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+        <param name="_intSelectionState" />
+      </function>
+      <function name="HMSetStaffedFacilityDataNoStaff">
+        <param name="_strFacilityName" />
+        <param name="_intSelected" />
+        <param name="_intFacilityStatus" />
+        <param name="_intFacilityIcon" />
+        <param name="_strStaffName" />
+      </function>
+      <function name="HMSetUnstaffedFacilityData">
+        <param name="_strFacilityName" />
+        <param name="_intSelected" />
+        <param name="_intFacilityStatus" />
+        <param name="_intFacilityIcon" />
+      </function>
+      <function name="HMSetFacilityEffectIcon">
+        <param name="_intSlot" />
+        <param name="_intSelectionState" />
+        <param name="_intEffectState" />
+        <param name="_intIconIndex" />
+      </function>
+      <function name="HMClearFacilityEffectIcon">
+        <param name="_intSlot" />
+      </function>
+      <function name="HMClearFacilityEffectIcons" />
+      <function name="HMSetMapBase">
+        <param name="_strBaseName" />
+        <param name="_intMaxOutposts" />
+      </function>
+      <function name="HMSetMapSocket">
+        <param name="_strSocketName" />
+        <param name="_intSelected" />
+        <param name="_intStatus" />
+        <param name="_intFacilityIcon" />
+        <param name="_intProgress" />
+        <param name="_intFacilityIndex" />
+      </function>
+      <function name="HMSetMapOutpost">
+        <param name="_strOutpostIndex" />
+        <param name="_intSelected" />
+        <param name="_intStatus" />
+        <param name="_intFacilityIcon" />
+        <param name="_intProgress" />
+        <param name="_intFacilityIndex" />
+      </function>
+      <function name="HMSetMapOutpostEmpty">
+        <param name="_strOutpostIndex" />
+      </function>
+      <function name="HMSetMapRV">
+        <param name="_intSelected" />
+        <param name="_intStatus" />
+        <param name="_intFacilityIcon" />
+        <param name="_intProgress" />
+        <param name="_intFacilityIndex" />
+      </function>
+      <function name="HMSetMapRVEmpty" />
+      <function name="HMSetMapRVHide" />
+      <function name="HMSetMapRVShow" />
+      <function name="HMSetUnusedFacilityData">
+        <param name="_strSocketName" />
+        <param name="_intFacilityIcon" />
+        <param name="_intFacilityStatus" />
+        <param name="_strLocationName" />
+        <param name="_strLocationDesc" />
+      </function>
+      <function name="HMSetActionBlockScrollArrows">
+        <param name="_bLeft" />
+        <param name="_bRight" />
+      </function>
+      <function name="HMSetActionBlockState">
+        <param name="_intState" />
+        <param name="_strLabel" />
+      </function>
+      <function name="HMSetActionBlockFacilityInfoIcon">
+        <param name="_boolSelected" />
+      </function>
+      <function name="HMSetActionBlockActionSlotData">
+        <param name="_intSlot" />
+        <param name="_intSelectionState" />
+        <param name="_intActionState" />
+        <param name="_intIcon" />
+      </function>
+      <function name="HMSetActionBlockActionSlotEmpty">
+        <param name="_intSlot" />
+      </function>
+      <function name="HMSetActionBlockProgressData">
+        <param name="_intActionStatus" />
+        <param name="_intActionIcon" />
+        <param name="_intLaborCount" />
+        <param name="_strLabel" />
+      </function>
+      <function name="HMUpdateActionBlockProgressBar">
+        <param name="_fltAmount" />
+        <param name="_strFormattedTimeString" />
+        <param name="_intState" />
+      </function>
+      <function name="HMSetActionBlockFacilitiesLabel">
+        <param name="_strLabel" />
+      </function>
+      <function name="HMSetActionBlockFacilitiesSlotData">
+        <param name="_intSlot" />
+        <param name="_intSelectionState" />
+        <param name="_intFacilityState" />
+        <param name="_intIcon" />
+      </function>
+      <function name="HMSetActionBlockFacilitiesSlotEmpty">
+        <param name="_intSlot" />
+      </function>
+      <function name="HMSetDetailBlockState">
+        <param name="_intState" />
+        <param name="_strLabel" />
+      </function>
+      <function name="HMSetDetailBlockActionDelay">
+        <param name="_strDelay" />
+      </function>
+      <function name="HMHideDetailBlockActionDelay" />
+      <function name="HMSetDetailBlockActionDescription">
+        <param name="_strDescription" />
+      </function>
+      <function name="HMSetDetailBlockActionName">
+        <param name="_strName" />
+        <param name="_intStatus" />
+      </function>
+      <function name="HMSetDetailBlockEffectScrolling">
+        <param name="_bScrolling" />
+        <param name="_fltAmount" />
+      </function>
+      <function name="HMSetDetailBlockEffect">
+        <param name="_intSlot" />
+        <param name="_strName" />
+        <param name="_strDesc" />
+        <param name="_intIconType" />
+        <param name="_intIcon" />
+      </function>
+      <function name="HMHideDetailBlockEffect">
+        <param name="_intSlot" />
+      </function>
+      <function name="HMSetDetailBlockActionRequirement">
+        <param name="_intSlot" />
+        <param name="_intIcon" />
+        <param name="_intState" />
+        <param name="_intCount" />
+      </function>
+      <function name="HMHideDetailBlockActionRequirement">
+        <param name="_intSlot" />
+      </function>
+      <function name="HMSetDetailBlockBonusCount">
+        <param name="_intCount" />
+      </function>
+      <function name="HMScrollDetailBlockBonuses">
+        <param name="_intFrame" />
+      </function>
+      <function name="HMSetDetailBlockBonusData">
+        <param name="_intSlot" />
+        <param name="_strName" />
+        <param name="_intIcon" />
+        <param name="_intStatus" />
+        <param name="_strOutput1" />
+        <param name="_intState1" />
+      </function>
+      <function name="HMSetDetailBlockBonusTime">
+        <param name="_intSlot" />
+        <param name="_intPercent" />
+        <param name="_strTime" />
+      </function>
+      <function name="HMSetDetailBlockStaffData">
+        <param name="_intSlot" />
+        <param name="_strName" />
+        <param name="_strOutput1" />
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_boolNew" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+        <param name="_intSelectionState" />
+      </function>
+      <function name="HMSetDetailBlockFacilitySlotData">
+        <param name="_intSlot" />
+        <param name="_intState" />
+        <param name="_intStatus" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+      </function>
+      <function name="HMSetDetailBlockActionInfoCostHeading">
+        <param name="_strHeading" />
+      </function>
+      <function name="HMSetDetailBlockActionInfoUnlockHeading">
+        <param name="_strHeading" />
+      </function>
+      <function name="HMSetDetailBlockActionInfoCostSlotData">
+        <param name="_intSlot" />
+        <param name="_intState" />
+        <param name="_intIcon" />
+        <param name="_intCost" />
+        <param name="_strName" />
+      </function>
+      <function name="HMSetDetailBlockFacilityListArrows">
+        <param name="_bUp" />
+        <param name="_bDown" />
+      </function>
+      <function name="NoteHideAll" />
+      <function name="NoteHide">
+        <param name="_intNote" />
+      </function>
+      <function name="NoteShow">
+        <param name="_intNote" />
+        <param name="_intState" />
+        <param name="_strField1" />
+        <param name="_strField2" />
+      </function>
+      <function name="NoteShowSkill">
+        <param name="_intNote" />
+        <param name="_strTitle" />
+        <param name="_strSkillName" />
+        <param name="_strSkillMessage" />
+        <param name="_intCurStars" />
+        <param name="_intMaxStars" />
+      </function>
+      <function name="PAShowMenu">
+        <param name="_strTitle" />
+      </function>
+      <function name="PAHideMenu" />
+      <function name="PASetMenuEntry">
+        <param name="_intIdx" />
+        <param name="_strTitle" />
+        <param name="_boolSelected" />
+      </function>
+      <function name="PAHideMenuEntry">
+        <param name="_intIdx" />
+      </function>
+      <function name="PCShow" />
+      <function name="PCHide" />
+      <function name="PCEnableScrolling">
+        <param name="_boolIsEnabled" />
+      </function>
+      <function name="PCSetScrollAmount">
+        <param name="_fltAmount" />
+      </function>
+      <function name="PCSetPortraitSlotData">
+        <param name="_intSlot" />
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_boolNew" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+        <param name="_intSelectionState" />
+      </function>
+      <function name="PCClearPortraitSlot">
+        <param name="_intSlot" />
+      </function>
+      <function name="PCSetCharacterBlockData">
+        <param name="_intSelectionState" />
+        <param name="_strName" />
+        <param name="_intHealth" />
+        <param name="_intStamina" />
+      </function>
+      <function name="PCSetWeaponSlotData">
+        <param name="_intState" />
+        <param name="_strName" />
+        <param name="_intIcon" />
+      </function>
+      <function name="PCSetGunSlotData">
+        <param name="_intState" />
+        <param name="_strName" />
+        <param name="_intIcon" />
+      </function>
+      <function name="PCSetActionSlotData">
+        <param name="_intState" />
+        <param name="_strName" />
+      </function>
+      <function name="PIShow" />
+      <function name="PIHide" />
+      <function name="PIBackpackSet">
+        <param name="_intIcon" />
+        <param name="_intState" />
+      </function>
+      <function name="PIRucksackSet">
+        <param name="_boolHasOne" />
+        <param name="_intState" />
+      </function>
+      <function name="PICapacitySet">
+        <param name="_intCapacity" />
+        <param name="_boolRucksack" />
+      </function>
+      <function name="PIFocusSet">
+        <param name="_intFocus" />
+      </function>
+      <function name="PIGunClear" />
+      <function name="PIGunSet">
+        <param name="_intIcon" />
+        <param name="_intState" />
+      </function>
+      <function name="PIItemClear">
+        <param name="_intSlot" />
+        <param name="_boolSelected" />
+      </function>
+      <function name="PIItemSet">
+        <param name="_intSlot" />
+        <param name="_intIcon" />
+        <param name="_intState" />
+        <param name="_intStatus" />
+        <param name="_intEquipped" />
+        <param name="_intCount" />
+        <param name="_intCountType" />
+        <param name="_intCost" />
+      </function>
+      <function name="PIPortraitSet">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_boolNew" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+        <param name="_intSelectionState" />
+      </function>
+      <function name="PIWeaponClear" />
+      <function name="PIWeaponSet">
+        <param name="_intIcon" />
+        <param name="_intState" />
+      </function>
+      <function name="PIWeightSet">
+        <param name="_strWeight" />
+        <param name="_fltRatio" />
+      </function>
+      <function name="PMShowMenu">
+        <param name="_strTitle" />
+      </function>
+      <function name="PMHideMenu" />
+      <function name="PMSetFocus">
+        <param name="_intState" />
+      </function>
+      <function name="PMEnablePortraitScrolling">
+        <param name="_boolIsEnabled" />
+      </function>
+      <function name="PMSetPortraitScrollAmount">
+        <param name="_fltAmount" />
+      </function>
+      <function name="PMUpdateController" />
+      <function name="PMSetPortraitSlotData">
+        <param name="_intSlot" />
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_boolNew" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+        <param name="_intSelectionState" />
+      </function>
+      <function name="PMClearPortraitSlot">
+        <param name="_intSlot" />
+      </function>
+      <function name="PMSetCharacterBlockData">
+        <param name="_intState" />
+        <param name="_strName" />
+        <param name="_strStatus" />
+        <param name="_strAction" />
+        <param name="_intActionIcon" />
+        <param name="_strMood" />
+        <param name="_intMoodIcon" />
+        <param name="_intHealthMax" />
+        <param name="_intStaminaMax" />
+        <param name="_intTrust" />
+      </function>
+      <function name="PMSetWeaponSlotData">
+        <param name="_intState" />
+        <param name="_strName" />
+        <param name="_intIcon" />
+      </function>
+      <function name="PMSetGunSlotData">
+        <param name="_intState" />
+        <param name="_strName" />
+        <param name="_intIcon" />
+      </function>
+      <function name="PMSetTraitSlotData">
+        <param name="_intSlot" />
+        <param name="_intSelectionState" />
+        <param name="_strName" />
+        <param name="_intBadge" />
+      </function>
+      <function name="PMEnableDetailTextScrolling">
+        <param name="_boolIsEnabled" />
+      </function>
+      <function name="PMScrollDetailText">
+        <param name="_intDirection" />
+      </function>
+      <function name="PMSetDetailText">
+        <param name="_strText" />
+      </function>
+      <function name="PMSetDetailAdvisorText">
+        <param name="_strText" />
+        <param name="_strFacility" />
+        <param name="_intIcon" />
+      </function>
+      <function name="PMGunDetailsClear" />
+      <function name="PMGunDetailsSet">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intBanner" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_intMag" />
+        <param name="_strWeight" />
+        <param name="_strAmmoName" />
+        <param name="_fltAccuracy" />
+        <param name="_fltDurability" />
+        <param name="_fltNoise" />
+        <param name="_fltRecoil" />
+        <param name="_intScope" />
+        <param name="_intSuppress" />
+      </function>
+      <function name="PMItemDetailsClear" />
+      <function name="PMItemDetailsSet">
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strWeight" />
+      </function>
+      <function name="PMWeaponDetailsClear" />
+      <function name="PMWeaponDetailsSet">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strClass" />
+        <param name="_strWeight" />
+        <param name="_fltDurability" />
+      </function>
+      <function name="PMExpertiseDetailsSet" />
+      <function name="PMExpertiseDetailsSetSpec">
+        <param name="_strSpecName" />
+        <param name="_intCurStars" />
+        <param name="_intMaxStars" />
+      </function>
+      <function name="PMExpertiseDetailsSetBasic">
+        <param name="_intIndex" />
+        <param name="_strName" />
+        <param name="_intCurStars" />
+        <param name="_intMaxStars" />
+      </function>
+      <function name="RadioClearListBoxData" />
+      <function name="RadioHideMenu" />
+      <function name="RadioShowMenu">
+        <param name="_intFavorAvailable" />
+      </function>
+      <function name="RadioUpdateScrollbar">
+        <param name="_intAmount" />
+      </function>
+      <function name="SetupRadioHitbox">
+        <param name="_mc" />
+        <param name="_intIndex" />
+      </function>
+      <function name="RadioSetChannelIndex">
+        <param name="_intIndex" />
+        <param name="_strTitle" />
+      </function>
+      <function name="RadioSetChannelLabels">
+        <param name="_strLabel0" />
+        <param name="_strLabel1" />
+        <param name="_strLabel2" />
+        <param name="_strLabel3" />
+        <param name="_strLabel4" />
+      </function>
+      <function name="RadioSetListBoxData">
+        <param name="_intListBoxIndex" />
+        <param name="_intListBoxState" />
+        <param name="_boolIsNew" />
+        <param name="_boolIsSelected" />
+        <param name="_strName" />
+        <param name="_intCost" />
+      </function>
+      <function name="RadioSetListBoxEmpty">
+        <param name="_intListBoxIndex" />
+      </function>
+      <function name="RadioSetDescription">
+        <param name="_intIcon" />
+        <param name="_strDesc" />
+        <param name="_intCurUses" />
+        <param name="_intMaxUses" />
+        <param name="_floatCurTime" />
+        <param name="_floatMaxTime" />
+      </function>
+      <function name="RadioUpdateCooldown">
+        <param name="_floatCurTime" />
+        <param name="_floatMaxTime" />
+      </function>
+      <function name="HideContainerMenu" />
+      <function name="ShowContainerMenu" />
+      <function name="SetContainerMenuHighlightData">
+        <param name="_strName" />
+        <param name="_strDesc" />
+        <param name="_strFlavor" />
+      </function>
+      <function name="ContainerGunDetailsClear" />
+      <function name="ContainerGunDetailsSet">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intBanner" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_intMag" />
+        <param name="_strWeight" />
+        <param name="_strAmmoName" />
+        <param name="_fltAccuracy" />
+        <param name="_fltDurability" />
+        <param name="_fltNoise" />
+        <param name="_fltRecoil" />
+        <param name="_intScope" />
+        <param name="_intSuppress" />
+      </function>
+      <function name="ContainerItemDetailsClear" />
+      <function name="ContainerItemDetailsScroll">
+        <param name="_intDirection" />
+      </function>
+      <function name="ContainerItemDetailsSet">
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strWeight" />
+      </function>
+      <function name="ContainerWeaponDetailsClear" />
+      <function name="ContainerWeaponDetailsSet">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strClass" />
+        <param name="_strWeight" />
+        <param name="_fltDurability" />
+      </function>
+      <function name="SetContainerSlotData">
+        <param name="_intSlot" />
+        <param name="_intIcon" />
+        <param name="_intState" />
+        <param name="_intStatus" />
+        <param name="_intEquipped" />
+        <param name="_intItemCount" />
+        <param name="_intCountType" />
+      </function>
+      <function name="SetContainerMenuTitle">
+        <param name="_strTitle" />
+      </function>
+      <function name="ClearContainerMenuSlots" />
+      <function name="HideVehicleInventoryMenu" />
+      <function name="ShowVehicleInventoryMenu">
+        <param name="_intSlots" />
+      </function>
+      <function name="SetVehicleInventoryMenuHighlightData">
+        <param name="_strName" />
+        <param name="_strDesc" />
+        <param name="_strFlavor" />
+      </function>
+      <function name="VehicleInventoryGunDetailsClear" />
+      <function name="VehicleInventoryGunDetailsSet">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intBanner" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_intMag" />
+        <param name="_strWeight" />
+        <param name="_strAmmoName" />
+        <param name="_fltAccuracy" />
+        <param name="_fltDurability" />
+        <param name="_fltNoise" />
+        <param name="_fltRecoil" />
+        <param name="_intScope" />
+        <param name="_intSuppress" />
+      </function>
+      <function name="VehicleInventoryItemDetailsClear" />
+      <function name="VehicleInventoryItemDetailsScroll">
+        <param name="_intDirection" />
+      </function>
+      <function name="VehicleInventoryItemDetailsSet">
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strWeight" />
+      </function>
+      <function name="VehicleInventoryWeaponDetailsClear" />
+      <function name="VehicleInventoryWeaponDetailsSet">
+        <param name="_intState" />
+        <param name="_strStateLabel" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strClass" />
+        <param name="_strWeight" />
+        <param name="_fltDurability" />
+      </function>
+      <function name="SetVehicleInventorySlotData">
+        <param name="_intSlot" />
+        <param name="_intIcon" />
+        <param name="_intState" />
+        <param name="_intStatus" />
+        <param name="_intEquipped" />
+        <param name="_intItemCount" />
+        <param name="_intCountType" />
+      </function>
+      <function name="SetVehicleInventorySlotClear">
+        <param name="_intSlot" />
+        <param name="_boolSelected" />
+      </function>
+      <function name="SetVehicleInventoryMenuTitle">
+        <param name="_strTitle" />
+      </function>
+      <function name="ClearVehicleInventoryMenuSlots" />
+      <function name="JournalDetailsShow">
+        <param name="_strHeading" />
+        <param name="_strText" />
+      </function>
+      <function name="JournalDetailsHide" />
+      <function name="JournalNavLeft" />
+      <function name="JournalNavRight" />
+      <function name="HEShow">
+        <param name="_strHeader" />
+        <param name="_intScenarioCount" />
+        <param name="_strAButtonText" />
+        <param name="_strXButtonText" />
+        <param name="_strAKey" />
+        <param name="_strBKey" />
+      </function>
+      <function name="HESelect">
+        <param name="_intIndex" />
+        <param name="_intUnlocked" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+      </function>
+      <function name="HESet">
+        <param name="_intIndex" />
+        <param name="_intUnlocked" />
+        <param name="_intPortraitHairColor" />
+        <param name="_intPortraitHairType" />
+        <param name="_intPortraitHeadType" />
+        <param name="_intPortraitSkinColor" />
+      </function>
+      <function name="HEHide" />
+      <function name="HEShowInfo">
+        <param name="_boolShowGun" />
+        <param name="_intGunIcon" />
+        <param name="_strGunName" />
+        <param name="_boolShowWeapon" />
+        <param name="_intWeaponIcon" />
+        <param name="_strWeaponName" />
+      </function>
+      <function name="HEHideInfo" />
+      <function name="HEToggle">
+        <param name="_intMode" />
+        <param name="_intScenarioCount" />
+        <param name="_intButtonsUnlocked" />
+        <param name="_strHeader" />
+        <param name="_strName" />
+        <param name="_strDescription" />
+        <param name="_strAKey" />
+        <param name="_strBKey" />
+      </function>
+      <function name="HEDecDifficulty">
+        <param name="_intScenarioCount" />
+      </function>
+      <function name="HEIncDifficulty">
+        <param name="_intScenarioCount" />
+      </function>
+      <function name="SSShowBreakdown">
+        <param name="_intScenarioCount" />
+        <param name="_strSummaryHeader" />
+        <param name="_strSummary" />
+        <param name="_strMultiplier" />
+        <param name="_intTotalScore" />
+      </function>
+      <function name="SSShowLifeline">
+        <param name="_strSummaryHeader" />
+        <param name="_strSummary" />
+        <param name="_strMultiplier" />
+        <param name="_intTotalScore" />
+      </function>
+      <function name="SSShowBlock">
+        <param name="_intBlock" />
+        <param name="_strTitle" />
+        <param name="_intScore" />
+        <param name="_intItemCount" />
+        <param name="_strItem01" />
+        <param name="_strItem02" />
+        <param name="_strItem03" />
+        <param name="_strItem04" />
+      </function>
+      <function name="SSHide" />
+      <function name="BBSetup" />
+      <function name="BBShowBlock">
+        <param name="_intState" />
+      </function>
+      <function name="BBHide" />
+      <function name="BBShowButton">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strLabel" />
+        <param name="_strKey" />
+        <param name="_boolHold" />
+      </function>
+      <function name="BBHoldStart">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strKey" />
+      </function>
+      <function name="BBHoldUpdate">
+        <param name="_intPosition" />
+        <param name="_intProgress" />
+      </function>
+      <function name="BBHoldCancel">
+        <param name="_intPosition" />
+        <param name="_intButtonIcon" />
+        <param name="_strKey" />
+      </function>
+      <function name="DumpDebugText">
+        <param name="_text" />
+      </function>
+      <function name="DumpActiveClipInfo">
+        <param name="_where" />
+      </function>
+      <function name="ActualIcon">
+        <param name="_icon" />
+        <param name="_strKey" />
+      </function>
+      <function name="SetInputMethod">
+        <param name="_keyboard" />
+      </function>
+      <function name="isVisible">
+        <param name="_mc" />
+      </function>
+      <function name="ClickActiveClip" />
+      <function name="UpdateActiveClipPostInput">
+        <param name="_boolMouse" />
+      </function>
+      <function name="UnclickActiveClip" />
+      <function name="ActiveClipMouseMove" />
+      <function name="ActiveClipEnter" />
+      <function name="ActiveClipExit" />
+      <function name="SetActiveClip">
+        <param name="_clip" />
+        <param name="_boolEnter" />
+      </function>
+      <function name="SetScrollbar">
+        <param name="_mc" />
+        <param name="_command" />
+      </function>
+      <function name="SetSlider">
+        <param name="_mc" />
+        <param name="_command" />
+      </function>
+      <function name="ClearActiveClip">
+        <param name="_clip" />
+      </function>
+    </functions>
+  </UIElement>
+  <!-- Class3HUDJournal -->
+  <UIElement name="Class3HUDReticle">
+    <GFx file="Class3_Reticle.gfx" layer="0">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="Setup3DElements" />
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="OnGunFired" />
+      <function name="ResetReticle" />
+      <function name="SetReticleMode">
+        <param name="_intReticle" />
+        <param name="_fltFrameSpeed" />
+        <param name="_fltFrameSpread" />
+        <param name="_fltHashSpeed" />
+        <param name="_fltHashSpread" />
+      </function>
+      <function name="SetUnarmedReticleMode">
+        <param name="_intReticle" />
+      </function>
+    </functions>
+  </UIElement>
+  <!-- Class3HUDReticle -->
+  <UIElement name="Class3HUDSurvey">
+    <GFx file="Class3_Survey.gfx" layer="0">
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="Setup3DElements" />
+      <function name="cry_onSetup">
+        <param name="_bIsConsole" />
+      </function>
+      <function name="HideCharacterLabels" />
+      <function name="HideCharacterLabel">
+        <param name="_intIndex" />
+      </function>
+      <function name="ShowCharacterLabel">
+        <param name="_intIndex" />
+        <param name="_fltX" />
+        <param name="_fltY" />
+        <param name="_intStatus" />
+        <param name="_intIcon" />
+        <param name="_strName" />
+        <param name="_strTraits" />
+      </function>
+      <function name="ShowSurveyStatus">
+        <param name="_strText" />
+        <param name="_bProgress" />
+        <param name="_intIcon" />
+      </function>
+      <function name="ShowSurveyStatusComplete">
+        <param name="_strText" />
+      </function>
+      <function name="HideSurveyStatus" />
+      <function name="HideSurveyPois" />
+      <function name="HideSurveyPoi">
+        <param name="_intIndex" />
+      </function>
+      <function name="ShowSurveyPoi">
+        <param name="_intIndex" />
+        <param name="_intIcon" />
+        <param name="_fltX" />
+        <param name="_fltY" />
+        <param name="_intProgress" />
+        <param name="_strText" />
+      </function>
+      <function name="HideIconFloaters" />
+      <function name="HideIconFloater">
+        <param name="_intIndex" />
+      </function>
+      <function name="ShowIconFloater">
+        <param name="_intIndex" />
+        <param name="_intIcon" />
+        <param name="_fltX" />
+        <param name="_fltY" />
+        <param name="_fltRotation" />
+        <param name="_strColor" />
+      </function>
+    </functions>
+  </UIElement>
+  <!-- Class3HUDSurvey -->
+</UIElements>

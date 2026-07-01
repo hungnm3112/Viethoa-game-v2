@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigravity String Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard">
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">🚀</span>
+                <h1>String Viewer <span class="badge">MongoDB Master</span></h1>
+            </div>
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="zoneFilter">Zone:</label>
+                    <select id="zoneFilter">
+                        <option value="">-- All Zones --</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm English hoặc Tiếng Việt..." />
+                </div>
+                <div class="filter-group checkbox-group">
+                    <input type="checkbox" id="truncatedFilter" />
+                    <label for="truncatedFilter">Chỉ hiển thị chuỗi bị cắt cụt (Truncated)</label>
+                </div>
+            </div>
+        </header>
+
+        <main class="content">
+            <div class="table-container">
+                <table id="stringsTable">
+                    <thead>
+                        <tr>
+                            <th class="sortable" data-sort="zone" width="8%">Zone ↕</th>
+                            <th width="20%">English Gốc</th>
+                            <th class="sortable" data-sort="lengthEn" width="8%">EN Bytes ↕</th>
+                            <th width="20%">Tiếng Việt Dịch</th>
+                            <th class="sortable" data-sort="lengthVi" width="8%">VI Bytes ↕</th>
+                            <th width="10%">Trạng Thái</th>
+                            <th width="16%">Mô Phỏng Truncate</th>
+                            <th width="10%">Hành Động</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- Rows will be injected here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="pagination">
+                <button id="prevBtn" disabled>« Previous</button>
+                <span id="pageInfo">Page 1 of ?</span>
+                <button id="nextBtn">Next »</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Edit Modal -->
+    <div id="editModal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Chỉnh Sửa Bản Dịch</h2>
+            <div class="modal-body">
+                <p><strong>Tiếng Anh Gốc:</strong> <span id="modalEnText"></span></p>
+                <p><strong>Zone:</strong> <span id="modalZone"></span></p>
+                <p><strong>Byte Limit (English):</strong> <span id="modalEnLength" class="highlight-byte"></span></p>
+                <hr/>
+                <label for="modalViInput">Bản Dịch Tiếng Việt:</label>
+                <textarea id="modalViInput" rows="4"></textarea>
+                <div class="byte-counter">
+                    Độ dài hiện tại: <span id="modalViLength">0</span> bytes
+                    <span id="modalWarning" class="warning-text hidden">⚠️ Sẽ bị cắt cụt trong Game!</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="closeModalBtn" class="btn-secondary">Hủy</button>
+                <button id="saveModalBtn" class="btn-primary">Lưu Database</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

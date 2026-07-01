@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTSData>
+  <EnclaveValues />
+  <Group Name="Count">
+    <Value Default="0" Name="MeleeWeapons">
+      <DescriptionText Flags="" Notes="" Text="The most direct and simplest way to put an end to a zombie is in hand-to-hand combat. Every weapon is a little different, but it always comes down to the same thing: remove the head or destroy the brain." />
+      <NameText Flags="" Notes="" Text="Weapons (Hand-to-Hand)" />
+    </Value>
+    <Value Default="0" Name="Guns">
+      <DescriptionText Flags="" Notes="" Text="If we're going to fight zombies, why not do it from a safe distance? Guns make a lot of noise and ammo is scarce, but I feel a hell of a lot safer with a gun handy." />
+      <NameText Flags="" Notes="" Text="Guns" />
+    </Value>
+    <Value Default="0" Name="Cars">
+      <DescriptionText Flags="" Notes="" Text="Great for fast getaways, transporting a lotta salvage, and running over zombies a whole horde at a time... few things are more valuable than a motor vehicle." />
+      <NameText Flags="" Notes="" Text="Cars &amp; Trucks" />
+    </Value>
+    <Value Default="0" Name="Consumables">
+      <DescriptionText Flags="" Notes="" Text="Useful ITEMS that we've found or made. Gotta plan carefully while loading up a backpack." />
+      <NameText Flags="" Notes="" Text="Items" />
+    </Value>
+    <Value Default="0" Name="Population">
+      <DescriptionText Flags="" Notes="" Text="When we invite people to join our community, we share in the work and fight side by side and share our resources as well. Greater POPULATION means more strength, but also more needs to be met." />
+      <NameText Flags="" Notes="" Text="Population" />
+    </Value>
+    <Value Default="0" Name="Tech">
+      <DescriptionText Flags="" Notes="(Discoveries... fake value for now)" Text="Sometimes it's like we're re-inventing civilization one discovery at a time." />
+      <NameText Flags="" Notes="" Text="Tech" />
+    </Value>
+  </Group>
+  <Group Name="Stockpile">
+    <Value Default="0" Name="Ammo">
+      <DescriptionText Flags="" Notes="" Text="Nobody's sure if money's going to be worth anything. So just like that, it isn't. The truest currency after the apocalypse is AMMO. Each case of ammo provides enough bullets to fully restock one of us multiple times over." />
+      <NameText Flags="" Notes="" Text="Cases of Ammunition" />
+    </Value>
+    <Value Default="0" Name="Food">
+      <DescriptionText Flags="" Notes="" Text="Food and water are priority number one. Each case will feed several people for a day." />
+      <NameText Flags="" Notes="" Text="Daily Rations of Food" />
+    </Value>
+    <Value Default="0" Name="Medicine">
+      <DescriptionText Flags="" Notes="" Text="No one can be sick. Medical supplies are necessary for a healthy population. They can be used at an Infirmary to speed recovery from wounds." />
+      <NameText Flags="" Notes="" Text="Cases of Medicine" />
+    </Value>
+    <Value Default="0" Name="Materials">
+      <DescriptionText Flags="" Notes="" Text="Seems all the stores are closed. We need to build and maintain fortifications and every other thing we need to survive." />
+      <NameText Flags="" Notes="" Text="Construction Materials" />
+    </Value>
+    <Value Default="0" Name="Fuel">
+      <DescriptionText Flags="" Notes="" Text="We don't drive enough for FUEL to be a concern for cars, but we may want it for making firebombs." />
+      <NameText Flags="" Notes="" Text="Barrels of Fuel" />
+    </Value>
+  </Group>
+  <Group Name="Family">
+    <Value Default="0" Name="Influence">
+      <DescriptionText Flags="" Notes="" Text="INFLUENCE is about affecting other people, whether through kind acts or intimidation. The more you earn, the more willing people are to do favors for you. In a world without money, it's the closest thing you have to a currency." />
+      <NameText Flags="" Notes="" Text="Influence" />
+    </Value>
+    <Value Default="0" Name="Renown">
+      <DescriptionText Flags="" Notes="(Fame)" Text="Guess there are no celebrities left to gossip about. Your FAME is the long-term recognition you've earned with other survivors. Your INFLUENCE will continually tick towards this value, making it a sort of a baseline." />
+      <NameText Flags="" Notes="" Text="Fame" />
+    </Value>
+  </Group>
+  <Group Name="Capacity">
+    <Value Default="0" Name="Labor">
+      <DescriptionText Flags="" Notes="" Text="There's only so much everyone can do each day. Total up the people who aren't TIRED or INJURED. That's how much labor we have at any given time." />
+      <NameText Flags="" Notes="" Text="Labor" />
+    </Value>
+    <Value Default="0" Name="Power">
+      <DescriptionText Flags="" Notes="" Text="Electrical grid is down. If we want ELECTRICITY, we'll need to generate it." />
+      <NameText Flags="" Notes="" Text="Electricity" />
+    </Value>
+    <Value Default="0" Name="Housing">
+      <DescriptionText Flags="" Notes="(Beds)" Text="Need enough BEDS for everyone or they won't be rested." />
+      <NameText Flags="" Notes="" Text="Beds" />
+    </Value>
+  </Group>
+  <Group Name="Stat">
+    <Value Default="0" Name="Panic">
+      <DescriptionText Flags="" Notes="" Text="How fearful your community is." />
+      <NameText Flags="" Notes="" Text="Panic" />
+    </Value>
+  </Group>
+</RTSData>

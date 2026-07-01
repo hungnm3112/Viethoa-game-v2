@@ -1,0 +1,184 @@
+<FXLib>
+
+<Effect name="truck_road">	
+	<Particle>
+	  <Name>HD_vehicles.Surface.Road_Surface_HD</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">HD_vehicles.Slip.Road_Slip_HD</Name>
+	</Particle>
+ 	<Particle>
+ 	  <Name userdata="rims">HD_vehicles.Rim.Road_Rim_HD</Name>
+ 	</Particle>
+ 	<Sound>
+ 	  <Name>concrete</Name>
+  </Sound>
+</Effect>
+
+<Effect name="truck_mud">
+ 	<Particle>
+ 	  <Name>HD_vehicles.Surface.Mud_Surface_HD</Name>
+ 	</Particle>
+  <Particle>
+    <Name userdata="slip">HD_vehicles.Slip.Dirt_Slip_HD</Name>
+  </Particle>
+ 	<Sound>
+ 	  <Name>water</Name>
+ 	</Sound>
+</Effect>
+
+<Effect name="truck_dirt">
+	<Particle>
+	  <Name>HD_vehicles.Surface.Dirt_Surface_HD</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">HD_vehicles.Slip.Dirt_Slip_HD</Name>
+	</Particle>
+ 	<Particle>
+ 	  <Name userdata="rims">HD_vehicles.Rim.Dirt_Rim_HD</Name>
+ 	</Particle>
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_soil_dusty">
+	<Particle>
+	  <Name>HD_vehicles.Surface.Dusty_Surface_HD</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">HD_vehicles.Slip.Dust_Slip_HD</Name>
+	</Particle>
+ 	<Particle>
+ 	  <Name userdata="rims">HD_vehicles.Rim.Dirt_Rim_HD</Name>
+ 	</Particle>
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_grass">
+	<Particle>
+	  <Name>HD_vehicles.Surface.Grass_Surface_HD</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">HD_vehicles.Slip.Grass_Slip_HD</Name>
+	</Particle>
+ 	<Particle>
+ 	  <Name userdata="rims">HD_vehicles.Rim.Dirt_Rim_HD</Name>
+ 	</Particle>
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_rock">
+	<Particle>
+	  <Name>HD_vehicles.Surface.Road_Surface_HD</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">HD_vehicles.Slip.Road_Slip_HD</Name>
+	</Particle>
+ 	<Particle>
+ 	  <Name userdata="rims">HD_vehicles.Rim.Road_Rim_HD</Name>
+ 	</Particle>
+	<Sound>
+	  <Name>gravel</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_gravel">
+	<Particle>
+	  <Name>HD_Vehicles.Surface.Gravel_Surface_HD</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">HD_Vehicles.Slip.Gravel_Slip_HD</Name>
+	</Particle>
+ 	<Particle>
+ 	  <Name userdata="rims">HD_vehicles.Rim.Dirt_Rim_HD</Name>
+ 	</Particle>
+	<Sound>
+	  <Name>gravel</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_water">
+	<Particle>
+	  <Name>HD_vehicles.Surface.Water_Surface_HD</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">HD_vehicles.Slip.Water_Slip_HD</Name>
+	</Particle>	
+	<Sound>
+	  <Name>water</Name>
+	</Sound>
+</Effect>
+
+
+<Effect name="truck_water_muddy">
+	<Particle>
+	  <Name>HD_vehicles.Surface.Mud_Surface_HD</Name>
+	</Particle>	
+	<Sound>
+	  <Name>water</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_sand">
+	<Particle>
+	  <Name>HD_vehicles.Surface.Dusty_Surface_HD</Name>
+	</Particle>	
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_leaves">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.leaves_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>vegetation</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_snow">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.snow_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_metal">	  
+	<Particle>
+	  <Name userdata="rims">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+	</Particle>	
+	<Sound>
+	  <Name>metal</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_concrete">	
+	<Particle>
+	  <Name>HD_vehicles.Surface.Road_Surface_HD</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">HD_vehicles.Slip.Road_Slip_HD</Name>
+	</Particle>
+ 	<Particle>
+ 	  <Name userdata="rims">HD_vehicles.Rim.Road_Rim_HD</Name>
+ 	</Particle>
+	<Sound>
+	  <Name>concrete</Name>
+	</Sound>
+</Effect>
+
+<Effect name="us_ltv_impact_rattle">
+	<Sound>
+		<Name>sounds/vehicles:hmmwv:bump_on_road</Name>
+	</Sound>
+</Effect>
+
+</FXLib>

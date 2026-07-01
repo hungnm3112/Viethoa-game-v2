@@ -1,0 +1,281 @@
+<ParticleLibrary Name="Class3Breakables" SandboxVersion="3.3.8.56165" ParticleVersion="22">
+ <Particles Name="break.edge" Id="{5F976DC4-75F3-4338-8703-E4022FADB848}" Library="Class3Breakables">
+  <Params Enabled="false" Count="1" ParticleLifeTime="2" EmitAngle="15,1" OrientToVelocity="true" Texture="particles/sprites/flying_brain.tif" TextureTiling="2,2,,,4,20,true" Alpha="0.99" Color="(0.07,0.07)" DiffuseLighting="0.75" EmissiveLighting="0.15" ReceiveShadows="true" GlobalIllumination="true" Size="0.2" Speed="1.75" Turbulence3DSpeed="0.25" TurbulenceSize="5" TurbulenceSpeed="0.25" InitAngles=",45"/>
+ </Particles>
+ <Particles Name="break.main" Id="{0DA7A5A0-A60E-41C6-B59C-0E7C69587A91}" Library="Class3Breakables">
+  <Params Enabled="false" Count="1" PositionOffset=",0.15" GeometryInPieces="true" Alpha="0.5" Color="(0.694,0.66,0.647)" DiffuseLighting="0" ReceiveShadows="true" Size="0.35,0.5" GravityScale="0.05"/>
+  <Childs>
+   <Particles Name="dust_puff">
+    <Params Count="3,,(,1;1,1)" EmitterLifeTime="0.25" ParticleLifeTime="0.85,0.5,(,1;1,1)" PositionOffset=",0.1" EmitAngle="20,1,(,1;1,1)" TextureTiling="2,2,1,3" Material="Particles/Materials/smoke/smoke_small_halfshadowed" Alpha="0.25,0.5,(,1;1,1),(,1;0.3014354,0.3409091,32;1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.47,0.56,0.64),0.5" SoftParticle="true" DiffuseLighting="0.85" DiffuseBacklighting="0.65" ReceiveShadows="true" Size="0.5,0.5,(,1;1,1),(0.017804155,,32;0.4225,0.79545456;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="2.5,0.85,(,1;1,1)" InheritVelocity="0.25" AirResistance="1,,,(0.0043572984,,32;1,1)" RotationalDragScale="0.5" RotationRate="-20,-20,-20" RandomRotationRate="40,40,40" Streamable="false"/>
+   </Particles>
+   <Particles Name="flash">
+    <Params Count="2,,(,1;1,1)" ParticleLifeTime="0.2,0.5" PositionOffset=",0.25" EmitAngle="25,1,(,1;1,1)" OrientToVelocity="true" TextureTiling="4,,1,3" Material="Particles/Materials/flares/bullet_hits_shadowed" Alpha="0.25,,(,1;1,1),(,1;0.13318777,1;0.99126637)" AlphaClamp=",,(,1;1,1)" Color="(0.3,0.35,0.4)" SoftParticle="true" DiffuseLighting="0.5" DiffuseBacklighting="1" ReceiveShadows="true" Size="0.25,0.35,(,1;1,1),(0.017804155,,32;1,1)" Stretch="0.35" Speed="5,,(,1;1,1)" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="break_wood.edge" Id="{BF92C1F6-2503-4B7E-A297-722BB7152B18}" Library="Class3Breakables">
+  <Params Count="3" ParticleLifeTime="1.5,0.5" EmitAngle="180,1" Texture="textures/sprites/wood_chip_tiled.tif" TextureTiling="2,2,,4" AlphaTest="0.1" Color="(0.64,0.52,0.42),0.65" SimpleParticle="true" DiffuseLighting="0.5" ReceiveShadows="true" Sound="Sounds/impacts:imp_breakables:wood_small" Size="0.125,0.35" Speed="5,0.5" RotationalDragScale="0" GravityScale="0.85" RotationRate=",-200" RandomRotationRate=",400"/>
+ </Particles>
+ <Particles Name="break_wood.main" Id="{A818D2A4-C86D-49B8-B97B-6948D8E10F2C}" Library="Class3Breakables">
+  <Params Continuous="true" Count="20" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1" Texture="textures/sprites/wood_chip_tiled.tif" TextureTiling="2,2,,4" AlphaTest="0.1" Color="(0.64,0.52,0.42),0.65" SimpleParticle="true" DiffuseLighting="0.5" ReceiveShadows="true" Sound="Sounds/impacts:imp_breakables:wood" Size="0.125,0.35" Speed="6.5,0.35" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5" PosRandomOffset="0.2" EmitAngle="180,1" Texture="textures/sprites/smoke_tiled_d.dds" TextureTiling="2,2,,4" Alpha="0.35,0.5,,(,1;1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" Size="0.35,,,(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="glass.edges" Id="{3D7D8320-31B9-43DA-B786-029B9E008AE8}" Library="Class3Breakables">
+  <Params Enabled="false" Count="3,0.75,(,1;1,1)" ParticleLifeTime="2.5,0.5,(,1;1,1)" RandomOffset="0.05,0.05,0.05" EmitAngle="180,1,(,1;1,1)" Texture="textures/sprites/glass_tiled.dds" TextureTiling="4,2,,8" Material="Materials/particle/glass_tiled1" Alpha="0.45,,(,1;1,1),(,1;0.65957445,1;1,,4)" Color="(0.125,0.19,0.224),0.25" DiffuseLighting="0.65" DiffuseBacklighting="0.55" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.1,0.75,(,1;1,1),(,1;1,1)" Speed="5,0.85,(,1;1,1)" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1.1" InitAngles=",180" RandomAngles=",360" RotationRate=",-200" RandomRotationRate=",400"/>
+  <Childs>
+   <Particles Name="puffter">
+    <Params Enabled="false" Count="3,,(,1;1,1)" ParticleLifeTime="0.35,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.2" EmitAngle="180,1,(,1;1,1)" Texture="textures/sprites/smoke_tiled_d.dds" TextureTiling="2,2,,4" Alpha="0.2,,(,1;1,1),(,,32;0.15531915,1;0.3638298,0.365;1)" Color="(0.875,0.89,0.906),0.5" DiffuseLighting="0.3" DiffuseBacklighting="0.2" EmissiveLighting="0.1" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.25,0.5,(,1;1,1),(,1;1,1)" Speed="2,0.5,(,1;1,1)" InheritVelocity="0.25" AirResistance="0.3" RotationalDragScale="0" GravityScale="0.1"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="glass.fracture" Id="{B39F6424-0EED-4C13-89B3-C653819B9A93}" Library="Class3Breakables">
+  <Params Count="5,0.75,(,1;1,1)" ParticleLifeTime="6,,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" Facing="Free" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;0.6361702,1;0.9851064,,4)" Color=",0.25" DiffuseBacklighting="0.65" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.085,0.35,(,1;1,1),(,1;1,1)" Speed="5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="1,,(,1;1,1),(,1;1,1)" RandomAngles="360,360,360" RotationRate="-200,-200,-200" RandomRotationRate="400,400,400" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.5" DynamicFriction="1" CameraMaxDistance="50" CameraMaxFadeLength="5" ViewDistanceAdjust="4" DrawLast="-47" Streamable="false"/>
+  <Childs>
+   <Particles Name="puff">
+    <Params Count="5,,(,1;1,1)" ParticleLifeTime="0.35,0.5,(,1;1,1)" RandomOffset="0.2,0.2,0.2" EmitAngle="180,1,(,1;1,1)" Texture="textures/sprites/smoke_tiled_d.dds" TextureTiling="2,2,,4" Alpha="0.25,,(,1;1,1),(,1,32;0.33617023,0.34;1)" Color="(0.584,0.624,0.65)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" EmissiveLighting="0.05" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.3,0.5,(,1;1,1),(,1;1,1)" Speed="3.5,0.5,(,1;1,1)" AirResistance="0.65" RotationalDragScale="0" GravityScale="0.25" CameraMinDistance="1" CameraMaxDistance="30" CameraMinFadeLength="1" CameraMaxFadeLength="5" DrawLast="37" Streamable="false"/>
+   </Particles>
+   <Particles Name="sound_glass_fracture">
+    <Params Sound="Sounds/impacts:imp_generic:glass_shatter"/>
+   </Particles>
+   <Particles Name="glass_bits_nocollision">
+    <Params Count="32,0.75,(,1;1,1)" ParticleLifeTime="6,,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" Facing="Free" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;0.6361702,1;0.9851064,,4)" Color="(0.984,0.984,0.984),0.25" DiffuseBacklighting="0.65" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.085,0.35,(,1;1,1),(,1;1,1)" Speed="5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.9,,(,1;1,1),(,1;1,1)" RandomAngles="360,360,360" RotationRate="-200,-200,-200" RandomRotationRate="400,400,400" DynamicFriction="0.5" CameraMaxDistance="30" CameraMaxFadeLength="5" ViewDistanceAdjust="4" DrawLast="-19" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="glass.fracture_full" Id="{8D318B0D-BF49-448A-AA3F-F6C5E4976EBB}" Library="Class3Breakables">
+  <Params Enabled="false" Count="1" ParticleLifeTime="10" Texture="particles/sprites/debug_dot.tif" Size="0.1"/>
+  <Childs>
+   <Particles Name="puff">
+    <Params Count="10,,(,1;1,1)" ParticleLifeTime="1.5,0.5,(,1;1,1)" PosRandomOffset="0.4" EmitAngle="180,1,(,1;1,1)" Texture="textures/sprites/smoke_tiled_d.dds" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_halfshadowed" Alpha="0.15,,(,1;1,1),(,,32;0.17234042,1,32;0.43404254,0.294;1)" Color="(0.435,0.486,0.52)" DiffuseLighting="0.5" DiffuseBacklighting="0.65" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.75,0.5,(,1;1,1),(,0.41,32;0.29787233,0.933,32;1,1,4)" Speed="1.5,0.5,(,1;1,1)" AirResistance="0.35" RotationalDragScale="0" GravityScale="0.05" RandomAngles=",360" RotationRate=",-20" RandomRotationRate=",40" CameraMaxDistance="50" CameraMaxFadeLength="5" DrawLast="18" Streamable="false"/>
+   </Particles>
+   <Particles Name="breakers_big">
+    <Params Enabled="false" Count="6,0.65,(,1;1,1)" ParticleLifeTime="6,,(,1;1,1)" RandomOffset="0.5,0.5,0.5" PosRandomOffset="0.1" EmitAngle="180,1,(,1;1,1)" Facing="Free" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha="0.85,,(,1;1,1),(,1;1,1)" Color="(0.46,0.518,0.56),0.25" DiffuseBacklighting="0.55" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.15,0.35,(,1;1,1),(,1;1,1)" Speed="6,0.75,(,1;1,1)" RotationalDragScale="0" GravityScale="1" RandomAngles="360,360,360" RotationRate="-200,-200,-200" RandomRotationRate="400,400,400" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="-1" DynamicFriction="0.5" CameraMaxDistance="80" CameraMaxFadeLength="10" ViewDistanceAdjust="10" DrawLast="-38" Streamable="false"/>
+    <Childs>
+     <Particles Name="splinters">
+      <Params Count="2,,(,1;1,1)" SecondGeneration="true" SpawnOnParentCollision="true" ParticleLifeTime="3,,(,1;1,1)" RandomOffset="0.05,0.05,0.05" FocusGravityDir="true" EmitAngle="45,0.75,(,1;1,1)" Facing="Free" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;0.63404256,1;0.9893617,,4)" Color="(0.318,0.39,0.42),0.25" DiffuseLighting="0.85" DiffuseBacklighting="0.55" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.085,0.35,(,1;1,1),(,1;0.6898734,1;1)" Speed="7.5,0.5,(,1;1,1)" RotationalDragScale="0" GravityScale="0.85" RandomAngles="360,360,360" RotationRate="-200,-200,-200" RandomRotationRate="400,400,400" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.25" DynamicFriction="0.85" CameraMaxDistance="30" CameraMaxFadeLength="5" ViewDistanceAdjust="4" DrawLast="-11" Streamable="false"/>
+     </Particles>
+     <Particles Name="puff">
+      <Params Count="3,,(,1;1,1)" SecondGeneration="true" SpawnOnParentCollision="true" ParticleLifeTime="0.75,0.35,(,1;1,1)" RandomOffset="0.1,0.1,0.2" FocusGravityDir="true" EmitAngle="45,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_halfshadowed" Alpha="0.15,,(,1;1,1),(,,32;0.15531915,1,32;1)" Color="(0.18,0.247,0.325),0.5" DiffuseLighting="0.65" DiffuseBacklighting="0.45" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.3,0.5,(,1;1,1),(,1;1,1)" Speed="2.5,0.5,(,1;1,1)" AirResistance="0.5" RotationalDragScale="0" CameraMaxDistance="30" CameraMaxFadeLength="5" DrawLast="7" Streamable="false"/>
+     </Particles>
+    </Childs>
+   </Particles>
+   <Particles Name="glass_bits_splosion_collision">
+    <Params Count="10,0.75,(,1;1,1)" ParticleLifeTime="6,0.35,(,1;1,1)" PosRandomOffset="0.5" EmitAngle="180,1,(,1;1,1)" Facing="Free" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;0.6361702,1;0.9851064,,4)" AlphaClamp=",,(,1;1,1)" Color=",0.25" DiffuseBacklighting="0.65" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.1,0.5,(,1;1,1),(,1;0.66033757,1;1)" Speed="6,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="1,,(,1;1,1),(,1;1,1)" RandomAngles="360,360,360" RotationRate="-200,-200,-200" RandomRotationRate="400,400,400" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.5" DynamicFriction="1" CameraMaxDistance="80" CameraMaxFadeLength="5" ViewDistanceAdjust="10" DrawLast="-11" Streamable="false"/>
+   </Particles>
+   <Particles Name="sound_glass_fracture_full">
+    <Params Count="1" SpawnDelay="0.05" ParticleLifeTime="0.1" Sound="Sounds/impacts:imp_generic:glass_shatter_large"/>
+   </Particles>
+   <Particles Name="glass_bits_splosion_nocollision">
+    <Params Count="64,0.75,(,1;1,1)" ParticleLifeTime="2,,(,1;1,1)" PosRandomOffset="0.5" EmitAngle="180,1,(,1;1,1)" Facing="Free" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;0.6361702,1;0.9851064,,4)" AlphaClamp=",,(,1;1,1)" Color="(0.89,0.898,0.906),0.25" DiffuseLighting="0.85" DiffuseBacklighting="0.55" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.075,0.5,(,1;1,1),(,1;0.613924,1;1)" Speed="6,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.85,,(,1;1,1),(,1;1,1)" RandomAngles="360,360,360" RotationRate="-200,-200,-200" RandomRotationRate="400,400,400" CollideTerrain="true" CollideStaticObjects="true" DynamicFriction="0.5" CameraMaxDistance="100" CameraMaxFadeLength="2" ViewDistanceAdjust="10" DrawLast="-21" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="glass.break" Id="{D138A931-2438-4F97-B29D-363A2E9BCF5F}" Library="Class3Breakables">
+  <Params Count="8" ParticleLifeTime="0.35,0.5" EmitAngle="180,1" Texture="textures/sprites/smoke_tiled_d.dds" TextureTiling="2,2,,4" Alpha="0.35,0.5,,(,1;1)" Color="(0.19,0.21,0.243),0.25" DiffuseLighting="0.65" DiffuseBacklighting="0.55" ReceiveShadows="true" Size="0.25" Speed="1.5,0.5" AirResistance="0.35" RotationalDragScale="0.25" GravityScale="0.25"/>
+ </Particles>
+ <Particles Name="plywood.break" Id="{8FF7B5C3-4D6E-4CDF-AA61-BCD74B92B0F0}" Library="Class3Breakables">
+  <Params Enabled="false" Count="6,0.75" ParticleLifeTime="6" RandomOffset="0.1,0.1,0.1" PosRandomOffset="0.1" EmitAngle="180,1" Texture="textures/sprites/wood_chip_tiled.dds" TextureTiling="2,2,,4" Alpha="0.85,,,(,1;0.6361702,1;0.9851064,,4)" Color="(0.72,0.78,0.82),0.5" DiffuseLighting="0.75" DiffuseBacklighting="0.5" EmissiveLighting="0.025" ReceiveShadows="true" Size="0.15,0.65" Speed="3,0.85" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1.1" InitAngles=",180" RandomAngles=",360" RotationRate=",-200" RandomRotationRate=",400" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.5" DynamicFriction="0.5"/>
+  <Childs>
+   <Particles Name="puff">
+    <Params Count="16,,(,1;1,1)" ParticleLifeTime="0.5,0.5,(,1;1,1)" RandomOffset="0.2,0.2,0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.2,,(,1;1,1),(,1,32;0.33617023,0.34;1)" AlphaClamp=",,(,1;1,1)" Color="(0.37,0.267,0.235)" DiffuseLighting="0.6" DiffuseBacklighting="0.4" EmissiveLighting="0.05" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.3,0.5,(,1;1,1),(,1;1,1)" Speed="3.5,0.5,(,1;1,1)" InheritVelocity="0.25" AirResistance="0.65" RotationalDragScale="0" GravityScale="0.25" Streamable="false"/>
+   </Particles>
+   <Particles Name="breakers">
+    <Params Count="4,0.65,(,1;1,1)" ParticleLifeTime="6,0.5,(,1;1,1)" RandomOffset="0.15,0.15,0.15" PosRandomOffset="0.15" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.26,0.17,0.086),0.5" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.15,0.35,(,1;1,1),(,1;1,1)" Speed="3,0.85,(,1;1,1)" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="0.85" InitAngles=",180" RandomAngles=",360" RotationRate=",-200" RandomRotationRate=",400" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.25" DynamicFriction="1" Streamable="false"/>
+   </Particles>
+   <Particles Name="splinters">
+    <Params Count="16,0.65,(,1;1,1)" ParticleLifeTime="2,,(,1;1,1)" RandomOffset="0.15,0.15,0.15" PosRandomOffset="0.15" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.28,0.17,0.106),0.5" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.075,0.35,(,1;1,1),(,1;1,1)" Speed="4,0.85,(,1;1,1)" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="0.85" InitAngles=",180" RandomAngles=",360" RotationRate=",-200" RandomRotationRate=",400" Bounciness="-1" DynamicFriction="0.5" Streamable="false"/>
+   </Particles>
+   <Particles Name="sound_plywood_fracture">
+    <Params Sound="Sounds/impacts:imp_generic:plywood_splinter"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="plywood.break_full" Id="{3BBDBDC3-0DDA-4A68-A574-847B8B89445E}" Library="Class3Breakables">
+  <Params Enabled="false" Count="1" ParticleLifeTime="10" Texture="particles/sprites/debug_dot.tif" Color="(0,0)" Size="0.1"/>
+  <Childs>
+   <Particles Name="puff">
+    <Params Count="16,,(,1;1,1)" ParticleLifeTime="1.5,0.5,(,1;1,1)" RandomOffset="0.5,0.5,0.5" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.25,,(,1;1,1),(,,32;0.17234042,1,32;0.43404254,0.294;1)" AlphaClamp=",,(,1;1,1)" Color="(0.333,0.22,0.145)" DiffuseLighting="0.35" DiffuseBacklighting="0.35" EmissiveLighting="0.15" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.5,0.5,(,1;1,1),(,0.41,32;0.29787233,0.933,32;1,1,4)" Speed="2,0.5,(,1;1,1)" InheritVelocity="0.25" AirResistance="0.35" RotationalDragScale="0" GravityScale="0.05" RandomAngles=",360" RotationRate=",-100" RandomRotationRate=",200"/>
+   </Particles>
+   <Particles Name="breakers_big">
+    <Params Count="16,0.65,(,1;1,1)" ParticleLifeTime="6,0.5,(,1;1,1)" RandomOffset="0.5,0.5,0.5" PosRandomOffset="0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.3,0.16,0.12),0.5" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.175,0.5,(,1;1,1),(,1;1,1)" Speed="4,0.75,(,1;1,1)" InheritVelocity="0.25" RotationalDragScale="0" GravityScale="0.9" InitAngles=",180" RandomAngles=",360" RotationRate=",-200" RandomRotationRate=",400" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.25" DynamicFriction="0.65"/>
+   </Particles>
+   <Particles Name="splinters_splosion">
+    <Params Count="48,0.75,(,1;1,1)" ParticleLifeTime="2,,(,1;1,1)" RandomOffset="0.65,0.65,0.5" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.204,0.118,0.075),0.5" DiffuseLighting="0.85" DiffuseBacklighting="0.5" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.1,0.5,(,1;1,1),(,1;1,1)" Speed="5,0.75,(,1;1,1)" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1" InitAngles=",180" RandomAngles=",360" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+   </Particles>
+   <Particles Name="sound_plywood_fracture_full">
+    <Params Count="1" SpawnDelay="0.05" ParticleLifeTime="0.1" Sound="Sounds/impacts:imp_generic:plywood_shatter"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="plywood.edges" Id="{AB10924A-4DB7-4A55-9593-3448D9417658}" Library="Class3Breakables">
+  <Params Count="2,0.75,(,1;1,1)" ParticleLifeTime="2.5,0.5,(,1;1,1)" RandomOffset="0.05,0.05,0.05" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;0.65957445,1;1,,4)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.4,0.247,0.17),0.5" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.085,0.75,(,1;1,1),(,1;1,1)" Speed="4,0.85,(,1;1,1)" InheritVelocity="0.5" RotationalDragScale="0" GravityScale="1.1" InitAngles=",180" RandomAngles=",360" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="puffter">
+    <Params Count="3,,(,1;1,1)" ParticleLifeTime="0.35,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.2,,(,1;1,1),(,,32;0.15531915,1;0.3638298,0.365;1)" AlphaClamp=",,(,1;1,1)" Color="(0.373,0.196,0.137),0.5" DiffuseLighting="0.3" DiffuseBacklighting="0.2" EmissiveLighting="0.1" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.25,0.5,(,1;1,1),(,1;1,1)" Speed="2,0.5,(,1;1,1)" InheritVelocity="0.25" AirResistance="0.3" RotationalDragScale="0" GravityScale="0.1" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="wood.edge" Id="{EA7DD0BA-ED2A-4DFE-8072-C1BD35C338B9}" Library="Class3Breakables">
+  <Params Count="3,,(,1;1,1)" ParticleLifeTime="1.5,0.5,(,1;1,1)" EmitAngle="180,1,(,1;1,1)" Texture="textures/sprites/wood_chip_tiled.tif" TextureTiling="2,2,,4" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp=",,(,1;1,1)" Color="(0.64,0.52,0.42),0.65" SimpleParticle="true" DiffuseLighting="0.5" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:wood_small" Size="0.125,0.35,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="5,0.5,(,1;1,1)" RotationalDragScale="0" GravityScale="0.85" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+ </Particles>
+ <Particles Name="wood.main" Id="{8060E992-FFCA-43F8-BF2C-5B2C1292CF87}" Library="Class3Breakables">
+  <Params Continuous="true" Count="20,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.34,0.247,0.184),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:wood" Size="0.125,0.35,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="break_barricades.planks" Id="{3993FEB6-F40A-4B8B-BD0F-8C1B1E034108}" Library="Class3Breakables">
+  <Params Continuous="true" Count="20" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1" Texture="textures/sprites/wood_chip_tiled.tif" TextureTiling="2,2,,4" AlphaTest="0.1" Color="(0.64,0.52,0.42),0.65" SimpleParticle="true" DiffuseLighting="0.5" ReceiveShadows="true" Size="0.125,0.35" Speed="6.5,0.35" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5" PosRandomOffset="0.2" EmitAngle="180,1" Texture="textures/sprites/smoke_tiled_d.dds" TextureTiling="2,2,,4" Alpha="0.35,0.5,,(,1;1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" Sound="Sounds/impacts:imp_physics:wood_hollow" Size="0.35,,,(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="metal.main" Id="{D5105E18-5945-4B83-8FD4-72DE4364B646}" Library="Class3Breakables">
+  <Params Continuous="true" Count="12" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1" BlendType="Opaque" Texture="textures/particles/debris/glass_shards.tif" TextureTiling="2,2,,4" AlphaTest="0.1" AlphaClamp="0.95,,(,1;1,1)" Color="(0.153,0.23,0.275),0.65" DiffuseLighting="0.75" DiffuseBacklighting="0.45" Sound="Sounds/impacts:imp_breakables:metal" Size="0.075,0.35" Speed="6.5,0.35" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5" PosRandomOffset="0.2" EmitAngle="180,1" Texture="textures/sprites/smoke_tiled_d.dds" TextureTiling="2,2,,4" Alpha="0.35,0.5,,(,1;1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" Size="0.35,,,(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="stone.main" Id="{C5DE00AB-D4EE-4610-9412-B2BA1C328D80}" Library="Class3Breakables">
+  <Params Continuous="true" Count="20,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/rock_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.85,,(,1;1,1)" Color="(0.247,0.255,0.263),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:concrete" Size="0.05,0.5,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="roadsigns.wood" Id="{7F532B06-A5AD-4F4D-8815-E8D7B43C8741}" Library="Class3Breakables">
+  <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.35,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.34,0.247,0.184),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:wood" Size="0.15,0.25,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="2.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.85" RotationRate=",-200" RandomRotationRate=",400" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+   <Particles Name="wood_smallchunks">
+    <Params Continuous="true" Count="16,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.35,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.34,0.247,0.184),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:wood" Size="0.065,0.25,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="4,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.85" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="roadsigns.metal" Id="{F2475FB5-4979-428B-B257-13276FB181A3}" Library="Class3Breakables">
+  <Params Continuous="true" Count="16,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.153,0.23,0.275),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:metal" Size="0.065,0.35,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="misc_objects.shopping_cart" Id="{0B2F07F7-E9CB-4AEB-8471-4F92DE9F43C6}" Library="Class3Breakables">
+  <Params Continuous="true" Count="20,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.153,0.23,0.275),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:metal_shoppingcart" Size="0.05,0.35,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_physics:metal_misc" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="roadsigns.sandwich_wood" Id="{92D0CA79-D11D-41C1-94D9-97BB6528C027}" Library="Class3Breakables">
+  <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.35,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.34,0.247,0.184),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:wood" Size="0.15,0.25,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="2.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.85" RotationRate=",-200" RandomRotationRate=",400" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+   <Particles Name="wood_smallchunks">
+    <Params Continuous="true" Count="16,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.35,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.34,0.247,0.184),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:wood" Size="0.065,0.25,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="4,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.85" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="roadsigns.construction01" Id="{C7446C85-3744-40EF-9CB5-0FCD058398E9}" Library="Class3Breakables">
+  <Params Continuous="true" Count="20,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.34,0.247,0.184),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" ReceiveShadows="true" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:wood" Size="0.125,0.35,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="roadsigns.metal_highway" Id="{87CEC251-6A0B-4DB8-9C46-7EF2DA63AB6A}" Library="Class3Breakables">
+  <Params Continuous="true" Count="20,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.153,0.23,0.275),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:metal" Size="0.05,0.35,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5" PosRandomOffset="0.2" EmitAngle="180,1" Texture="textures/sprites/smoke_tiled_d.dds" TextureTiling="2,2,,4" Alpha="0.35,0.5,,(,1;1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" Size="0.35,,,(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="roadsigns.metal_directions" Id="{5BA2A286-399E-4271-8491-7C7887A4C56C}" Library="Class3Breakables">
+  <Params Continuous="true" Count="20,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.153,0.23,0.275),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:metal" Size="0.05,0.35,(,1;1,1),(,1;1,1)" Stretch=",,(,1;1,1),(,1;1,1)" TailLength=",,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5" PosRandomOffset="0.2" EmitAngle="180,1" Texture="textures/sprites/smoke_tiled_d.dds" TextureTiling="2,2,,4" Alpha="0.35,0.5,,(,1;1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" Size="0.35,,,(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="misc_objects.mailbox_single_metalpost" Id="{7E97D96B-F6B4-456E-A5E3-ADC9B5051EAB}" Library="Class3Breakables">
+  <Params Continuous="true" Count="20,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.153,0.23,0.275),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:metal" Size="0.05,0.35,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_physics:metal_misc" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="misc_objects.birdbath_concrete" Id="{D61FD1CC-458B-41C0-AA8E-1D88699FFD1C}" Library="Class3Breakables">
+  <Params Continuous="true" Count="16,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/rock_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.15" AlphaClamp="0.8,,(,1;1,1)" Color="(0.43,0.41,0.4),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:concrete" Size="0.065,0.65,(,1;1,1),(,1;1,1)" Speed="5.5,0.35,(,1;1,1)" AirResistance="0.1" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_physics:concrete_dirt" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="misc_objects.garbage_bin_plastic" Id="{C2B66CAA-CE99-467D-BD56-9C6B04AECD10}" Library="Class3Breakables">
+  <Params Continuous="true" Count="12,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.15" AlphaClamp="0.85,,(,1;1,1)" Color="(0.047,0.082,0.047),0.65" DiffuseLighting="0.75" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:plastic_hollow" Size="0.085,0.35,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_physics:plastic" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="misc_objects.mailbox_single_woodpost" Id="{A9CF48B9-C4AE-48A5-ADBF-94C6D576DD37}" Library="Class3Breakables">
+  <Params Continuous="true" Count="12,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.404,0.333,0.28),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:wood_metal" Size="0.06,0.35,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_physics:metal_misc_dirt" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="misc_objects.mailbox_multi_woodpost" Id="{C937C7F4-BF90-439D-B08D-A37F3A2EC7C5}" Library="Class3Breakables">
+  <Params Continuous="true" Count="12,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/wood_chunks_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.9,,(,1;1,1)" Color="(0.404,0.333,0.28),0.65" DiffuseLighting="0.85" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:wood_metal" Size="0.06,0.35,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_physics:metal_misc_dirt" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="misc_objects.garbage_can_metal_mounted" Id="{AA7FBE60-D3F6-4A11-AFAF-3FBA9AA6D483}" Library="Class3Breakables">
+  <Params Continuous="true" Count="12,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1,0.5,(,1;1,1)" RandomOffset="0.1,0.1,0.1" EmitAngle="180,1,(,1;1,1)" BlendType="Opaque" TextureTiling="2,2,,4" Material="Particles/Materials/debris/glass_chunks_highspec_shadowed" Alpha=",,(,1;1,1),(,1;1,1)" AlphaTest="0.1" AlphaClamp="0.85,,(,1;1,1)" Color="(0.22,0.302,0.345),0.75" DiffuseLighting="0.85" DiffuseBacklighting="0.45" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_breakables:metal_hollow" Size="0.075,0.35,(,1;1,1),(,1;1,1)" Speed="6.5,0.35,(,1;1,1)" RotationalDragScale="0" GravityScale="0.95" RotationRate=",-200" RandomRotationRate=",400" Streamable="false"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="5,,(,1;1,1)" EmitterLifeTime="0.1" ParticleLifeTime="1.25,0.5,(,1;1,1)" PosRandomOffset="0.2" EmitAngle="180,1,(,1;1,1)" TextureTiling="2,2,,4" Material="Particles/Materials/smoke/smoke_small_barely-shadowed" Alpha="0.35,0.5,(,1;1,1),(,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.267,0.267,0.267)" DiffuseLighting="0.65" DiffuseBacklighting="0.5" LightSource=",(,,(,1;1,1),(,1;1,1))" Sound="Sounds/impacts:imp_physics:metal_misc_dirt" Size="0.35,,(,1;1,1),(0.002631579,0.4318182,32;0.43157893,1;1,1)" Speed="0.5,0.5,(,1;1,1)" AirResistance="0.15" RotationalDragScale="0.25" GravityScale="0.01" RandomAngles=",360" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="misc_objects.porta_potty" Id="{62E0C564-9913-4C83-9A95-3E661B113DB7}" Library="Class3Breakables">
+  <Params Enabled="false" Count="4" EmitterLifeTime="0.5" ParticleLifeTime="2,0.6" RandomOffset="0.15,,0.15" FocusGravityDir="true" EmitAngle=",1" Facing="Water" BlendType="Additive" Texture="textures/particles/liquids/water_ripples.tif" TextureTiling="2,2,,4" Alpha=",0.5,,(,,4;0.22058824,1;1)" AlphaClamp=",,(,1;1,1)" Color="(0.3,0.227,0.153),0.65" DiffuseBacklighting="0.5" Size="1.75,0.35,,(,0.52272725,32;1,1)" Speed="0.01,0.3150685" InheritVelocity="0.75" InitAngles=",180" RandomAngles=",360" Streamable="false"/>
+  <Childs>
+   <Particles Name="mudl_splash">
+    <Params Continuous="true" Count="12" EmitterLifeTime="0.15" ParticleLifeTime="0.7,0.5,(,1;1,1)" PositionOffset=",0.15" RandomOffset="0.25,0.25,0.25" FocusGravityDir="true" EmitAngle="45,0.5" Texture="textures/particles/liquids/goopy_sheets_small.tif" TextureTiling="2,2,,4" Alpha="1.5,0.5,,(0.12,1;1)" AlphaClamp=",,(,1;0.2088167,1,32;0.8654292,0.045454547)" Color="(0.008,0.11,0.52)" SoftParticle="true" DiffuseLighting="0.85" DiffuseBacklighting="0.55" Size="0.75,0.25,(,1;1,1),(,0.1590909,32;0.5046296,1;1,0.75,4)" Speed="5" InheritVelocity="0.75" GravityScale="0.75" RandomAngles=",360" RotationRate=",-60" RandomRotationRate=",120" Streamable="false"/>
+   </Particles>
+   <Particles Name="splash0">
+    <Params Count="8" EmitterLifeTime="0.2" ParticleLifeTime="0.55,0.5,(,1;1,1)" RandomOffset=",0.25" FocusGravityDir="true" EmitAngle="45,0.5" Texture="textures/particles/liquids/goopy_sheets_large.tif" TextureTiling="2,2,,4" Alpha=",,,(0.085784316,1,4;1)" AlphaClamp=",,(,1;0.32714617,1,32;1,0.09090909)" Color="(0.03,0.224,0.62)" SoftParticle="true" DiffuseLighting="0.75" DiffuseBacklighting="0.65" EmissiveLighting="0.1" ReceiveShadows="true" Size="0.85,0.35,(,1;1,1),(,0.18181819,32;0.5,1;1,0.8181818,4)" Speed="5" InheritVelocity="0.75" RotationalDragScale="0" GravityScale="0.65" RandomAngles=",360" RotationRate=",-80" RandomRotationRate=",160" Streamable="false"/>
+   </Particles>
+   <Particles Name="dots">
+    <Params Continuous="true" Count="12" EmitterLifeTime="0.15" ParticleLifeTime="0.85,0.65,(,1;1,1)" PositionOffset=",0.15" RandomOffset="0.25,0.25,0.25" FocusGravityDir="true" EmitAngle="45,0.5" Texture="textures/particles/liquids/water_spray_small.tif" TextureTiling="2" Alpha="1.5,0.5,,(0.12,1;1)" AlphaClamp=",,(,1;0.28538284,1;1,0.3409091)" Color="(0.035,0.208,0.56)" SoftParticle="true" DiffuseLighting="0.85" DiffuseBacklighting="0.55" Size="0.6,0.25,(,1;1,1),(,0.1590909,32;0.5046296,1;1,0.75,4)" Speed="5" InheritVelocity="0.75" GravityScale="0.75" RandomAngles=",360" RotationRate=",-20" RandomRotationRate=",40" CameraMaxDistance="150" CameraMaxFadeLength="20" ViewDistanceAdjust="8" DrawLast="-21" Streamable="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+</ParticleLibrary>

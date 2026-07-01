@@ -1,0 +1,4 @@
+<GameTokensLibrary Name="HoldoutMission">
+ <GameToken Name="HoldoutMissionPhase" Type="Int" Value="-1" LocalOnly="1"/>
+ <GameToken Name="MissionFrameworkName" Type="String" Value="mhFramework" LocalOnly="1"/>
+</GameTokensLibrary>

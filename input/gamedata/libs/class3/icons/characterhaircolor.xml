@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Base" Value="1" />
+  <Icon Name="Red" Value="2" />
+  <Icon Name="Auburn" Value="3" />
+  <Icon Name="Purple" Value="4" />
+  <Icon Name="Black" Value="5" />
+  <Icon Name="Dark Brown" Value="6" />
+  <Icon Name="Brown" Value="7" />
+  <Icon Name="Medium Brown" Value="8" />
+  <Icon Name="Light Brown" Value="9" />
+  <Icon Name="Dirty Blonde" Value="10" />
+  <Icon Name="Blonde" Value="11" />
+  <Icon Name="Strawberry" Value="12" />
+  <Icon Name="White Gold" Value="13" />
+  <Icon Name="White" Value="14" />
+</IconData>

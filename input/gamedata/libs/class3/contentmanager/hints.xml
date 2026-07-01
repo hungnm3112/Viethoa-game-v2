@@ -1,0 +1,3651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HintData>
+  <HintCategory Name="Exploration" TimeoutSeconds="30">
+    <Hint Flags="" ID="Sprint" MaxDisplayCount="10" Priority="50" TimeoutSeconds="120">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [sprint] to sprint." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="1" Name="Sprinting" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="2" Name="Sprinting" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="2" Name="Running" Value="true" />
+          <ContextTag Duration="0" Name="SearchAllowed" Value="false" />
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.Inside" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="Drive" MaxDisplayCount="3" Priority="50" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [v_moveforward] to accelerate. [v_moveback] to brake or drive in reverse." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="InVehicle" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Drive.Handbrake" MaxDisplayCount="3" Priority="50" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [v_brake] for the handbrake. Press [vehicle.ul_melee_attack] for a door attack." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="20" Name="InVehicle" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Wounded" MaxDisplayCount="5" Priority="0" TimeoutSeconds="10">
+      <HintText Flags="" Notes="Hint Text" Text="You've taken a lot of damage, reducing your MAXIMUM VITALITY." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="10" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.Wounded" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.Mission" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.Lull" Value="true" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="Wounded.Rest" HintIndex="4" />
+      </FollowUps>
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="2" Name="Game.Player.Wounded" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="FollowUpOnly" ID="Wounded.Rest" MaxDisplayCount="5" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Return home and let someone else take over." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Outpost.Search" MaxDisplayCount="3" Priority="0" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Once you fully SEARCH this building, you can set up an OUTPOST here." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="8" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="0" Name="Game.Radio.NoOutposts" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.Inside" Value="true" />
+          <RTSBool Duration="5" Name="Game.Player.Alone" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.InsideInfestation" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideHomeSite" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideEnclave" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideOutpost" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideTinyBuilding" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.Base" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideSearchedBuilding" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="Outpost.SafeArea" HintIndex="7" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Outpost" MaxDisplayCount="10" Priority="0" TimeoutSeconds="600">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Radio home using [ul_radio_menu] to create an OUTPOST here." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Radio home using [xi_dpad_down] (D-pad) to create an OUTPOST here." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSValue Duration="0" Name="Count.OutpostTotal" Value="1" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="8" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="0" Name="Game.Radio.NoOutposts" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.Inside" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.InsideInfestation" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideHomeSite" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.Base" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideSearchedBuilding" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.Alone" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.InsideEnclave" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideOutpost" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideTinyBuilding" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="Outpost.SafeArea" HintIndex="7" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="FollowUpOnly, LoadingScreen" ID="Outpost.SafeArea" MaxDisplayCount="20" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Outposts create a small SAFE AREA and can be visited to RESUPPLY." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="MoveHome" MaxDisplayCount="20" Priority="0" TimeoutSeconds="3600">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Radio home using [ul_radio_menu] to relocate your home base." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Radio home using [xi_dpad_down] (D-pad) to relocate your home base." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Story.MovedHome" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="8" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="0" Name="Game.Radio.NoMoveHome" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InsideInfestation" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InsideHomeSite" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.Base" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="MoveHome.LoseHome" HintIndex="9" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="FollowUpOnly" ID="MoveHome.LoseHome" MaxDisplayCount="20" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: If you relocate, you will abandon your current home." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="Climb.Fast" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [sprint] to ascend or descend a ladder faster." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="OnLadder" Value="true" />
+          <ContextTag Duration="0" Name="StaminaNoRegen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="OnLadder" Value="true" />
+          <ContextTag Duration="0" Name="StaminaNoRegen" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="OnLadder" Value="true" />
+          <ContextTag Duration="0" Name="StaminaNoRegen" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="Hide" MaxDisplayCount="10" Priority="0" TimeoutSeconds="120">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [cover] to crouch down and make yourself harder to spot." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="1" Name="Stealth" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="2" Name="Running" Value="true" />
+          <ContextTag Duration="2" Name="Sprinting" Value="false" />
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.Inside" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="StartDisabled, LoadingScreen" ID="Journal" MaxDisplayCount="5" Priority="0" TimeoutSeconds="300">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Press [ul_journal_menu] to open your journal and view inventory, skills, and community info." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [xi_dpad_up] (D-pad) open your journal and view inventory, skills, and community info." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="1" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.Inside" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="StartDisabled, LoadingScreen" ID="Radio" MaxDisplayCount="5" Priority="0" TimeoutSeconds="300">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Press [ul_radio_menu] use your radio to call in favors." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [xi_dpad_down] (D-pad) use your radio to call in favors." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="1" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.Inside" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="Flashlight" MaxDisplayCount="5" Priority="0" TimeoutSeconds="600">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Press [crouch] to turn your flashlight on or off." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Click [crouch] to turn your flashlight on or off." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="3" Name="Game.Player.LightOn" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <ContextTag Duration="2" Name="InVehicle" Value="false" />
+          <RTSBool Duration="0" Name="Game.RTS.Night" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.LightOn" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="Headlights" MaxDisplayCount="5" Priority="0" TimeoutSeconds="600">
+      <KeyboardHintText Flags="" Notes="" Text="TIP: Press [v_lights] to turn your headlights on or off." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Click [v_lights] to turn your headlights on or off." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="3" Name="Game.Player.LightOn" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <ContextTag Duration="1" Name="InVehicle" Value="true" />
+          <RTSBool Duration="0" Name="Game.RTS.Night" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.LightOn" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="Social" MaxDisplayCount="5" Priority="0" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [emote_hold] to see character names and perform emotes." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Status.Scene.Emote_Any" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="20" Name="Game.StoryTA.ReachedRangerStation" Value="true" />
+          <ContextTag Duration="10" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="Emotes" HintIndex="17" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="FollowUpOnly" ID="Emotes" MaxDisplayCount="0" Priority="0" TimeoutSeconds="0">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Experiment with the different emotes your character can perform. Press [emote1], [emote2], [emote3], or [emote4]." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Experiment with the different emotes your character can perform. Hold [xi_triggerr] then press [xi_a], [xi_b], [xi_x], or [xi_y]." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="10" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Parking" MaxDisplayCount="5" Priority="0" TimeoutSeconds="300">
+      <HintText Flags="" Notes="" Text="Drive to the parking area of your base, and any rucksacks in your vehicle will be delivered automatically." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+  </HintCategory>
+  <HintCategory Name="Interaction" TimeoutSeconds="5">
+    <Hint Flags="LoadingScreen" ID="OpenDoor" MaxDisplayCount="3" Priority="50" TimeoutSeconds="5">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [xi_use] to open or close a door." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Door" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Door" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Barricade" MaxDisplayCount="2" Priority="50" TimeoutSeconds="5">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [xi_use] to build a barricade." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Barricade" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Barricade" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Resupply" MaxDisplayCount="2" Priority="50" TimeoutSeconds="5">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [xi_use] to check for supplies." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.CommunityChest" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="Resupply.Cost" HintIndex="22" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="FollowUpOnly" ID="Resupply.Cost" MaxDisplayCount="2" Priority="50" TimeoutSeconds="5">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Spend INFLUENCE to take items." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Cost" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Search" MaxDisplayCount="2" Priority="50" TimeoutSeconds="120">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [xi_use] to search for supplies or useful items." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Prop" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="ActivelySearching" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Prop" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="SearchFast" MaxDisplayCount="2" Priority="50" TimeoutSeconds="120">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [sprint] + [xi_use] to search FASTER but make more NOISE." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Prop" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="ActivelySearching_Fast" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Prop" Value="true" />
+          <ContextTag Duration="0" Name="ActivelySearching" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="EnterVehicle" MaxDisplayCount="10" Priority="50" TimeoutSeconds="5">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [xi_use] to enter or exit a car." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Vehicle" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="InVehicle" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="InVehicle" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Vehicle" Value="true" />
+          <RTSBool Duration="0" Name="Game.StoryTA.FirstBaseSlaughtered" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Vehicle" Value="true" />
+          <RTSBool Duration="0" Name="Game.Tutorial" Value="false" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="DropRucksack" MaxDisplayCount="10" Priority="50" TimeoutSeconds="60">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Press [drop] to drop rucksacks." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [emote_hold] and tap [item] to drop rucksacks." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="InVehicle" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Rucksack" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.Lull" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+  </HintCategory>
+  <HintCategory Name="UI" TimeoutSeconds="0">
+    <Hint Flags="" ID="MapGeneral" MaxDisplayCount="10" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: The green icons represent mission opportunities." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="10" Name="Game.UIPersist.TeachMap" Value="false" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.Mission" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="5" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="" ID="MapMission" MaxDisplayCount="10" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: The blue ring shows your mission objective." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="10" Name="Game.UIPersist.TeachMap" Value="false" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.Mission" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="5" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="JournalStyle" ID="Container.Influence" MaxDisplayCount="1" Priority="0" TimeoutSeconds="60">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Taking emergency supplies requires INFLUENCE." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="1" Name="Game.UI.CommunityChestOpen" Value="true" />
+          <RTSBool Duration="0" Name="Game.StoryCH.ReachedChurch" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="Container.InfluenceGain" HintIndex="30" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="FollowUpOnly, JournalStyle" ID="Container.InfluenceGain" MaxDisplayCount="0" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="Earn INFLUENCE by completing missions, gathering supplies, and defending your home." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalStyle" ID="ContainerTabs" MaxDisplayCount="3" Priority="0" TimeoutSeconds="120">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Use [ui_lb] and [ui_rb] to view other item types." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="1" Name="Game.UI.CommunityChestOpen" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalPageEvents" ID="Journal.Events" MaxDisplayCount="1" Priority="50" TimeoutSeconds="120">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="You have new Events in your Journal! Press [ul_journal_menu] to open your Journal and review things that have happened to you on the Events page." />
+      <HintText Flags="" Notes="Hint Text" Text="You have new Events in your Journal! Press D-pad [xi_dpad_up] to open your Journal and review things that have happened to you on the Events page." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenEvents" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="3" Name="Game.UI.JournalOpenEvents" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="5" Name="Game.UI.JournalOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalStyle, ExtendDuration" ID="Journal.Events.Desc" MaxDisplayCount="3" Priority="50" TimeoutSeconds="0">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="The Events page keeps a log of things that happen to you as you play, including new mission opportunities, results of previous missions, community events, skill upgrades, and global events that impact you and your fellow survivors in Trumbull Valley.&#xD;&#xA;Use the mouse to select an event to show more details such as the people involved, and the associated rewards and bonuses." />
+      <HintText Flags="" Notes="Hint Text" Text="The Events page keeps a log of things that happen to you as you play, including new mission opportunities, results of previous missions, community events, skill upgrades, and global events that impact you and your fellow survivors in Trumbull Valley.&#xD;&#xA;Use the D-pad to select an event and press [xi_a] to show more details such as the people involved, and the associated rewards and bonuses." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenEvents" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="1" Name="Game.UI.JournalOpenEvents" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenEvents" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="JournalPageSkills" ID="Journal.Skills" MaxDisplayCount="1" Priority="50" TimeoutSeconds="120">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="You've leveled up a Skill! Press [ul_journal_menu] to open your Journal and view your Skills and Abilities on the Survivor page." />
+      <HintText Flags="" Notes="Hint Text" Text="You've leveled up a Skill! Press D-pad [xi_dpad_up] to open your Journal and view your Skills and Abilities on the Survivor page." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenSkills" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="3" Name="Game.UI.JournalOpenSkills" Value="true" />
+          <RTSBool Duration="0" Name="Game.UI.SkillIncreased" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.SkillIncreased" Value="true" />
+          <RTSBool Duration="5" Name="Game.UI.JournalOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalStyle, ExtendDuration" ID="Journal.Skills.Desc" MaxDisplayCount="3" Priority="50" TimeoutSeconds="0">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="The Survivor page is where you view your progress in various Skills.  Everyone you encounter will have a different set of skills at their disposal.&#xD;&#xA;To learn more about a Skill such as how to train it up, how it helps you, and what new abilities it unlocks; select a Skill with the mouse. Some skills, such as Fighting, will allow you to further specialize and learn new techniques." />
+      <HintText Flags="" Notes="Hint Text" Text="The Survivor page is where you view your progress in various Skills.  Everyone you encounter will have a different set of skills at their disposal.&#xD;&#xA;To learn more about a Skill such as how to train it up, how it helps you, and what new abilities it unlocks; select a Skill with the D-Pad and press [xi_a].  Some skills, such as Fighting, will allow you to further specialize and learn new techniques." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenSkills" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="1" Name="Game.UI.JournalOpenSkills" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenSkills" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="JournalPagePeople" ID="Journal.People.Inventory" MaxDisplayCount="2" Priority="50" TimeoutSeconds="120">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="Press [ul_journal_menu] to open your Journal and manage your Inventory on the Survivor page." />
+      <HintText Flags="" Notes="Hint Text" Text="Press D-pad [xi_dpad_up] to open your Journal and manage your Inventory on the Survivor page." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenPeople" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="3" Name="Game.UI.JournalOpenPeople" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="5" Name="Game.UI.JournalOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalStyle, ExtendDuration" ID="Journal.People.Inventory.Desc" MaxDisplayCount="3" Priority="50" TimeoutSeconds="0">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="The Survivor page shows information on your character, such as Name, Equipment, Traits, Skills, and Status. Use the mouse to highlight specific items to see more information.&#xD;&#xA;You can also use the mouse to manage items in your inventory. This is where you will Equip and Unequip weapons, Reload guns, Use consumables, and Destroy unwanted items." />
+      <HintText Flags="" Notes="Hint Text" Text="The Survivor page shows information on your character, such as Name, Equipment, Traits, Skills, and Status.  Use the D-pad to highlight specific items to see more information.&#xD;&#xA;You can also use D-pad [xi_dpad_left] to manage items in your inventory.  This is where you will Equip and Unequip weapons, Reload guns, Use consumables, and Destroy unwanted items." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenPeople" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="1" Name="Game.UI.JournalOpenPeople" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenPeople" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="JournalPagePeople" ID="Journal.People.Community" MaxDisplayCount="1" Priority="50" TimeoutSeconds="120">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="You've joined a Community! Press [ul_journal_menu] to open your Journal and learn more about your fellow survivors on the Community page." />
+      <HintText Flags="" Notes="Hint Text" Text="You've joined a Community! Press D-pad [xi_dpad_up] to open your Journal and learn more about your fellow survivors on the Community page." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenPeople" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="3" Name="Game.UI.JournalOpenPeople" Value="true" />
+          <RTSBool Duration="0" Name="Game.StoryTA.ReachedRangerStation" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.StoryTA.ReachedRangerStation" Value="true" />
+          <RTSBool Duration="5" Name="Game.UI.JournalOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalStyle, ExtendDuration" ID="Journal.People.Community.Desc" MaxDisplayCount="3" Priority="50" TimeoutSeconds="0">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="The Community page shows information on characters in your community.  Character portraits may be shaded to indicate conditions such as Hurt, Sick, or Tired.&#xD;&#xA;Use the mouse to highlight a character and view Name, Equipment, Traits, Skills, and Status. Select the character to highlight specific items to see more information." />
+      <HintText Flags="" Notes="Hint Text" Text="The Community page shows information on characters in your community.  Character portraits may be shaded to indicate conditions such as Hurt, Sick, or Tired.&#xD;&#xA;Use the D-pad to highlight a character and view Name, Equipment, Traits, Skills, and Status.  Press [xi_a] and use the D-pad to highlight specific items to see more information." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenPeople" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="1" Name="Game.UI.JournalOpenPeople" Value="true" />
+          <RTSBool Duration="0" Name="Game.StoryTA.ReachedRangerStation" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenPeople" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="JournalPageAssets" ID="Journal.Assets" MaxDisplayCount="1" Priority="50" TimeoutSeconds="120">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="You have a new Home! Press [ul_journal_menu] to open your Journal and view your Stockpiles and Possessions on the Assets page." />
+      <HintText Flags="" Notes="Hint Text" Text="You have a new Home! Press D-pad [xi_dpad_up] to open your Journal and view your Stockpiles and Possessions on the Assets page." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenAssets" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="3" Name="Game.UI.JournalOpenAssets" Value="true" />
+          <RTSBool Duration="0" Name="Game.StoryCH.ReachedChurch" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.StoryCH.ReachedChurch" Value="true" />
+          <RTSBool Duration="5" Name="Game.UI.JournalOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalStyle, ExtendDuration" ID="Journal.Assets.Desc" MaxDisplayCount="3" Priority="50" TimeoutSeconds="0">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="The Assets page is where you can get an overview of your Community's Assets. Use the mouse to highlight specific items to get more information.&#xD;&#xA;Status and Possessions show statistical information about your Community.&#xD;&#xA;Stockpiles are the resources you'll need to keep your Community alive, safe, and healthy." />
+      <HintText Flags="" Notes="Hint Text" Text="The Assets page is where you can get an overview of your Community's Assets. Use the D-Pad to highlight specific items to get more information.&#xD;&#xA;Status and Possessions show statistical information about your Community.&#xD;&#xA;Stockpiles are the resources you'll need to keep your Community alive, safe, and healthy." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenAssets" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="1" Name="Game.UI.JournalOpenAssets" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenAssets" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="JournalPageHome" ID="Journal.Home" MaxDisplayCount="1" Priority="50" TimeoutSeconds="120">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="Time to upgrade your Home! Press [ul_journal_menu] to open your Journal and build new Facilties on the Home page." />
+      <HintText Flags="" Notes="Hint Text" Text="Time to upgrade your Home! Press D-pad [xi_dpad_up] to open your Journal and build new Facilties on the Home page." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenHome" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="3" Name="Game.UI.JournalOpenHome" Value="true" />
+          <RTSBool Duration="0" Name="Status.Advice.Build_Any" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Status.Advice.Build_Any" Value="true" />
+          <RTSBool Duration="5" Name="Game.UI.JournalOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalStyle, ExtendDuration" ID="Journal.Home.Desc" MaxDisplayCount="3" Priority="50" TimeoutSeconds="0">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="The Home page is where you can view, build, and upgrade your Community's Facilities. Use the mouse to select a Facility Slot and get more information about the bonuses it provides and the actions available.&#xD;&#xA;An Infirmary is critical when it comes to dealing with disease and injury; meanwhile a Garden will keep everyone fed, and a Watchtower will keep everyone safe." />
+      <HintText Flags="" Notes="Hint Text" Text="The Home page is where you can view, build, and upgrade your Community's Facilities.  Use the D-Pad to select a Facility Slot and press [xi_a] to get more information about the bonuses it provides and the actions available.&#xD;&#xA;An Infirmary is critical when it comes to dealing with disease and injury; meanwhile a Garden will keep everyone fed, and a Watchtower will keep everyone safe." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenHome" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="1" Name="Game.UI.JournalOpenHome" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenHome" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="JournalPagePeople" ID="Journal.People.Friends" MaxDisplayCount="1" Priority="50" TimeoutSeconds="120">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="You've added survivors to your Community! Press [ul_journal_menu] to open your Journal and learn about making Friends on the Community page." />
+      <HintText Flags="" Notes="Hint Text" Text="You've added survivors to your Community! Press D-pad [xi_dpad_up] to open your Journal and learn about making Friends on the Community page." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <RTSBool Duration="3" Name="Game.UI.JournalOpenPeople" Value="true" />
+          <RTSBool Duration="0" Name="Game.StoryCH.SurvivorsJoined" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.StoryCH.SurvivorsJoined" Value="true" />
+          <RTSBool Duration="5" Name="Game.UI.JournalOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalStyle, ExtendDuration" ID="Journal.People.Friends.Desc" MaxDisplayCount="3" Priority="50" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="You can become Friends with many characters in the game after earning their full Trust. Your level of Trust with each character is represented by the green gauge. You can earn Trust with characters by helping them out on Missions and keeping the Community defended and well provisioned.&#xD;&#xA;When a character becomes your Friend you can play as that character by highlighting his or her portrait and pressing [ui_x] to &quot;Switch to...&quot;" />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenPeople" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="1" Name="Game.UI.JournalOpenPeople" Value="true" />
+          <RTSBool Duration="0" Name="Game.StoryCH.SurvivorsJoined" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenPeople" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="JournalStyle, ExtendDuration" ID="BreakDownContainer" MaxDisplayCount="3" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Resource Bundles&#xD;&#xA;While searching you will occasionally find a bundle of resources that can be brought back to your home and added to your Community's Stockpile.  Press [ui_click] to load it up and take it yourself, or press [ui_use] to radio in for some scavengers to take it for you.&#xD;&#xA;Alternatively you can press [ui_x] to break it open to get consumables of that resource type instead of adding it to your Community's Stockpile." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerResources" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="JournalStyle, ExtendDuration" ID="Journal.Assets.Stockpiles.Desc" MaxDisplayCount="3" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="You'll need Food to prevent hunger, Medicine to ward off disease, Ammo to defend yourselves, Building Materials to construct new Facilities, and Fuel for projects in your Workshop.&#xD;&#xA;Stockpiles are adjusted every real-world day. The daily adjustment is determined by your Facilities, Population, and Outposts." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenAssets" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="1" Name="Game.UI.JournalOpenAssets" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpenAssets" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="" ID="Radio.Extras" MaxDisplayCount="3" Priority="0" TimeoutSeconds="300">
+      <HintText Flags="" Notes="" Text="You've unlocked an Extra! Press [xi_dpad_left] and [xi_dpad_right] to switch between the Radio channel and the Extras channel." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="1" Name="Game.UI.RadioOpen" Value="true" />
+          <RTSBool Duration="0" Name="Game.UI.RadioExtrasExist" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+  </HintCategory>
+  <HintCategory Name="Combat" TimeoutSeconds="10">
+    <Hint Flags="" ID="Evade" MaxDisplayCount="5" Priority="50" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Tap [cover] to defend." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Dodge" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroDamage" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <RTSBool Duration="0" Name="Game.Recent.SprintUnlocked" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="EvadeRoll" MaxDisplayCount="5" Priority="50" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Press [roll] to roll." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [sprint] + [cover] to roll." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Dodge" Value="true" />
+          <ContextTag Duration="0" Name="StaminaNoRegen" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroDamage" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <RTSBool Duration="0" Name="Game.Recent.SprintUnlocked" Value="false" />
+          <RTSBool Duration="0" Name="Game.Hint.Evade.Mastered" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Attack" MaxDisplayCount="30" Priority="50" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [ul_melee_attack] to attack." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="1" Name="Attacking" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Kick" MaxDisplayCount="3" Priority="50" TimeoutSeconds="300">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [xi_use] to kick an enemy away from you." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <ContextTag Duration="0" Name="HeroHasVulnerableZombie" Value="false" />
+          <RTSBool Duration="0" Name="Game.Hint.Attack.Mastered" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="CarDoorDefense" MaxDisplayCount="3" Priority="50" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [vehicle.ul_melee_attack] repeatedly to knock an enemy off the car door." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Grabbed" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="1" Name="Attacking" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="true" />
+          <ContextTag Duration="0" Name="Grabbed" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Grabbed" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="StartDisabled" ID="JumpAttack" MaxDisplayCount="2" Priority="50" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [jump] for a longer range attack." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <RTSBool Duration="0" Name="Game.Hint.Attack.Mastered" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="QuickKill" MaxDisplayCount="8" Priority="50" TimeoutSeconds="240">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Press [execute] to finish off a downed foe." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [sprint] + [xi_use] to finish off a downed foe." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="2" Name="HeroHasVulnerableZombie" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroGrabKill" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroHasVulnerableZombie" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <ContextTag Duration="0" Name="Down" Value="false" />
+          <ContextTag Duration="0" Name="Vulnerable" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Shoot" MaxDisplayCount="5" Priority="0" TimeoutSeconds="120">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="Hold [ul_aim] to aim. Press [ul_shoot] to shoot." />
+      <HintText Flags="" Notes="Hint Text" Text="Hold [ul_aim] to aim. Pull [ul_shoot] to shoot." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="IsAiming" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="10" Name="IsAiming" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.HasGunEquipped" Value="true" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="IsAiming" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.HasGunEquipped" Value="true" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="ShootReload" HintIndex="57" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="ShootReload" MaxDisplayCount="3" Priority="1" TimeoutSeconds="300">
+      <HintText Flags="" Notes="Hint Text" Text="Press [aim.reload] to reload." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="IsAiming" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="IsAiming" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.HasLowAmmoLoaded" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.HasGunEquipped" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="JamRepair" MaxDisplayCount="10" Priority="1" TimeoutSeconds="300">
+      <HintText Flags="" Notes="Hint Text" Text="Press [aim.reload] to unjam your gun." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.GunJammed" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.HasGunEquipped" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="CanScope" MaxDisplayCount="2" Priority="1" TimeoutSeconds="300">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="Press [camera] to toggle zoom with scoped weapons." />
+      <HintText Flags="" Notes="Hint Text" Text="Click in on [camera] to toggle zoom with scoped weapons." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="IsAiming" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="CanScope" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.HasGunEquipped" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="CanFireMode" MaxDisplayCount="8" Priority="1" TimeoutSeconds="300">
+      <HintText Flags="" Notes="Hint Text" Text="Tap [jump] while aiming to cycle fire modes with capable weapons." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="IsAiming" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="CanFireMode" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.HasGunEquipped" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Silencer" MaxDisplayCount="3" Priority="50" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Attach a suppressor to muffle your gunshots." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="IsAiming" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="IsAiming" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.HasGunEquipped" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="BlazeOfGlory" MaxDisplayCount="0" Priority="50" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Use an EXPLOSIVE or INCENDIARY to go out in a Blaze of Glory." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="CanDie" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="BlazeOfGlory" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.HasBoGItem" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="StealthKill" MaxDisplayCount="8" Priority="50" TimeoutSeconds="240">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Press [execute] while sneaking to kill a zombie instantly" />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [sprint] + [xi_use] while sneaking to kill a zombie instantly" />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Stealth" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroGrabKill" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="1" Name="ZombieNearby" Value="true" />
+          <ContextTag Duration="1" Name="Stealth" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <ContextTag Duration="0" Name="Down" Value="false" />
+          <ContextTag Duration="0" Name="Vulnerable" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+  </HintCategory>
+  <HintCategory Name="Clarification" TimeoutSeconds="0">
+    <Hint Flags="" ID="BreakDownDoor" MaxDisplayCount="3" Priority="100" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [ul_melee_attack] repeatedly to force open a locked door." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Door" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Interact.Door" Value="true" />
+          <ContextTag Duration="1" Name="Interacting" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="Hide.Bush" MaxDisplayCount="5" Priority="50" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Move into a bush while crouched to hide completely." />
+      <AbortConditions />
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="1" Name="Hidden" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="2" Name="Stealth" Value="true" />
+          <ContextTag Duration="0" Name="Hidden" Value="false" />
+          <ContextTag Duration="3" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="3" Name="Game.Player.Inside" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Hide.InBush" MaxDisplayCount="5" Priority="100" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="You are HIDDEN. Remain in cover to avoid detection." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="1" Name="Hidden" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Hidden" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="false" />
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <ContextTag Duration="5" Name="Hidden" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="" ID="MapHoverMissionOp" MaxDisplayCount="5" Priority="100" TimeoutSeconds="20">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [ui_click] to set or clear a waypoint." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapHoverMissionOp" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+          <RTSBool Duration="0" Name="Game.UI.MapHoverMissionOp" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Drown.LowStamina" MaxDisplayCount="0" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="You are DROWNING. Get out of the water." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="1" Name="InWater" Value="true" />
+          <ContextTag Duration="1" Name="HeroLowStamina" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="InWater" Value="false" />
+          <ContextTag Duration="0" Name="HeroLowStamina" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="" ID="Encumbered" MaxDisplayCount="0" Priority="100" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="YOU ARE ENCUMBERED" />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.Encumbered" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="2" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="2" Name="Game.Player.Encumbered" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="Encumbered.Weight" HintIndex="71" />
+      </FollowUps>
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="2" Name="Game.Player.Encumbered" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="" ID="Unencumbered" MaxDisplayCount="0" Priority="50" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="YOU ARE NO LONGER ENCUMBERED" />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.Encumbered" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="2" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="2" Name="Game.Player.Encumbered" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="2" Name="Game.Player.Encumbered" Value="true" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="FollowUpOnly, LoadingScreen" ID="Encumbered.Weight" MaxDisplayCount="5" Priority="0" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Your mobility and stamina are penalized if you carry too much weight." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.Encumbered" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="EncumberedReminder" MaxDisplayCount="0" Priority="0" TimeoutSeconds="300">
+      <HintText Flags="" Notes="Hint Text" Text="You are still ENCUMBERED. Stamina will drain rapidly while sprinting." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="2" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="60" Name="Game.Player.Encumbered" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="MissionNoSaveReminder" MaxDisplayCount="0" Priority="0" TimeoutSeconds="900">
+      <HintText Flags="" Notes="" Text="Your game is not being saved. Complete the mission to save your progress." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.Mission" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="1800" Name="Game.Player.Mission" Value="true" />
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InScene" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="MissionNoSaveExplanation" MaxDisplayCount="3" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="" Text="TIP: Your game is not saved while you are on a mission. Complete the mission to save your progress." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="900" Name="Game.Player.Mission" Value="true" />
+          <ContextTag Duration="5" Name="HasCombatInteraction" Value="false" />
+          <RTSBool Duration="5" Name="Game.Player.InScene" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.Mission" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+  </HintCategory>
+  <HintCategory Name="Critical" TimeoutSeconds="0">
+    <Hint Flags="" ID="Down" MaxDisplayCount="0" Priority="1000" TimeoutSeconds="10">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [jump] repeatedly to get up." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Down" Value="false" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Down" Value="true" />
+          <ContextTag Duration="0" Name="Vulnerable" Value="false" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="StruggleJump" MaxDisplayCount="0" Priority="1000" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Tap [cover] repeatedly to break free." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="StruggleJump" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="StruggleJump" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="StruggleJump" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+    <Hint Flags="" ID="Grabbed" MaxDisplayCount="0" Priority="100" TimeoutSeconds="3">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Tap [cover] repeatedly to break free." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroStruggling" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroStruggling" Value="true" />
+          <ContextTag Duration="0" Name="InVehicle" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroStruggling" Value="false" />
+        </ConditionBlock>
+      </UnpauseConditions>
+    </Hint>
+  </HintCategory>
+  <HintCategory Name="Triggered" TimeoutSeconds="0">
+    <Hint Flags="Triggered" ID="Scene.Move" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="Use [moveforward], [moveleft], [moveback], [moveright] to move." />
+      <HintText Flags="" Notes="Hint Text" Text="Use [xi_thumblx] to move." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Look" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="Use the mouse to look around." />
+      <HintText Flags="" Notes="Hint Text" Text="Use [xi_thumbrx] to look around." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Defend" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Tap [cover] to defend." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered, LoadingScreen" ID="Scene.Combat" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [ul_melee_attack] to attack. Press [cover] to defend." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Attacking" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Attack" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [ul_melee_attack] to attack." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.JumpAndClimb" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [jump] to jump and climb." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Push" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Press [execute] to shove an enemy away." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [sprint] + [xi_use] to shove an enemy away." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered, LoadingScreen" ID="Scene.Search" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Approach a container and press [xi_use] to search it." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Sprint" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [sprint] to sprint." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered, LoadingScreen" ID="Scene.Exploration" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Hold [sprint] to sprint. Press [jump] to jump and climb." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Hide" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Hold [cover] to crouch down and make yourself harder to spot." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.HideBush" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Move into a bush while crouched to hide completely." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.CanCharSwitch" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="You can switch between Maya and Marcus in the Community tab of your journal. Press [ul_journal_menu] to open your journal." />
+      <HintText Flags="" Notes="" Text="You can switch between Maya and Marcus in the Community tab of your journal. Press [xi_dpad_up] (D-pad) to open your journal." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered, LoadingScreen" ID="Scene.Shoot" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="Hold [ul_aim] to aim. Press [ul_shoot] to shoot." />
+      <HintText Flags="" Notes="Hint Text" Text="Hold [ul_aim] to aim. Pull [ul_shoot] to shoot." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Aim" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Hold [ul_aim] to aim your gun." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Map" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Press [ul_map_menu] to view your Map." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered, LoadingScreen" ID="Scene.Survey" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Surveying adds buildings and other points of interest to your map." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps>
+        <HintID HintID="Scene.SurveySearch" HintIndex="95" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="FollowUpOnly" ID="Scene.SurveySearch" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You can search all of these locations for resources, weapons, and other survivors." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.CycleOps" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="Use [ui_scroll_down] to cycle between Mission Opportunities." />
+      <HintText Flags="" Notes="Hint Text" Text="Click [xi_thumbr] to cycle between Mission Opportunities." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Waypoint" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Press [ui_click] to set a Waypoint." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.StaminaPenalty" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You are now FATIGUED and have LOWER STAMINA." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered, LoadingScreen" ID="Scene.EarnInfluence" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Earn INFLUENCE by completing missions, gathering supplies, and defending your home." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.SpendInfluence" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Spend INFLUENCE for extra supplies or to influence others." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Scene.OpenDoor" MaxDisplayCount="10" Priority="50" TimeoutSeconds="5">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [xi_use] to open or close a door." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Interact_Door" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="Scene.BreakDownDoor" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [ul_melee_attack] repeatedly to force open a locked door." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Door_Locked" Value="true" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Firecracker" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Use a firecracker to draw zombie attention to an area." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.HomePage" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: Press [ul_journal_menu] and then [ui_lb] to view your HOME BASE." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Press [xi_dpad_up] (D-pad) and then [xi_shoulderl] to view your HOME BASE." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered, LoadingScreen" ID="Scene.OpenWorld" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Your top survival needs are FOOD, MEDICINE, and AMMUNITION." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.KeysAndRadio" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Acquired TRUCK KEYS and RADIO." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorReload_WrongType" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Your equipped gun uses a different kind of ammunition." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorReload_FullyLoaded" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Your equipped gun is fully loaded." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorTake_FullInventory" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Your inventory is FULL." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorTake_BackpackTooSmall" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="This backpack is TOO SMALL to hold your current inventory." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorSilencer_AlreadyEquipped" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Your gun already has a suppressor." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorOutpost_NotSearched" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You must fully SEARCH a location before establishing an outpost there." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorOutpost_Outdoors" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You must be in a BUILDING to set up an outpost." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorOutpost_TooSmall" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="This building is TOO SMALL to fortify." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorOutpost_InsideOutpost" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="This is ALREADY an OUTPOST." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorOutpost_InsideEnclave" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="This location is OCCUPIED by someone else." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorOutpost_MaxOutposts" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Your community cannot support any more outposts." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorCar_NoSpace" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="The roads near you are too crowded." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorBuildHelp_NoConstruction" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Your community is NOT BUILDING anything right now." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorAirstrike_NoInventorySpace" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Your inventory is FULL. There's no room for an ARTILLERY MARKER." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorInspire_NotTired" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Use this after your MAXIMUM STAMINA has been reduced." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorHeal_NotHurt" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Use this after your MAXIMUM VITALITY has been reduced." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRadio_NoUses" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You've called in this favor too many times recently." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorMoveHome_AtHome" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="This already is your home!" />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRadio_Cooldown" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You need to wait a bit before doing this again." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRadio_Combat" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You cannot do this while in combat." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRadio_Milo" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You have already added Milo to this community once." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRunners_AtHome" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You already own everything here!" />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRunners_Outdoors" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You aren't near any supplies!" />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRunners_Redundant" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="A SUPPLY RUN is already in progress here." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRunners_NoSupplies" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="There are NO KNOWN RESOURCES here." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorItem_SelectNone" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="There are NO USABLE ITEMS in your inventory." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorItem_UseNone" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You do not have an item selected." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorItem_MaxStaminaSimulants" MaxDisplayCount="10" Priority="0" TimeoutSeconds="600">
+      <HintText Flags="" Notes="Hint Text" Text="Max stamina is full. Stimulants temporarily recover some of your max stamina." />
+      <AbortConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.JournalOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.CommunityChestOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.VehicleInventoryOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.ContainerOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.RadioOpen" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.UI.MapOpen" Value="true" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorSwitchChar_Injury" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You cannot switch to someone who is INJURED." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorSwitchChar_Dead" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You cannot switch to someone who is DEAD." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorSwitchChar_NotFriend" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Once you reach 100% TRUST you can become FRIENDS." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps>
+        <HintID HintID="ErrorSwitchChar_NotFriend_Befriend" HintIndex="138" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorSwitchChar_NotFriend_Befriend" MaxDisplayCount="0" Priority="50" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You can SWITCH control to any of your FRIENDS." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorSwitchChar_Missing" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="It's hard to know how things stand when someone is MISSING." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorSwitchChar_Fleeing" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="It's hard to know how things stand when someone is FLEEING." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorSwitchChar_Busy" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You cannot switch to someone who is BUSY." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorBefriend_Independent" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Some people are too INDEPENDENT to ever give 100% trust." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorBefriend_LowTrust" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You must earn 100% trust before BEFRIENDING someone." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorJournal_PlayerDown" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You can't reach your journal right now." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="down" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorJournal_PlayerDown_EE1" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="The pages are too blood-soaked to read." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="down" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorJournal_PlayerDown_EE2" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Some people are scared of books. Zombies, not so much." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="down" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorJournal_PlayerDown_EE3" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="This isn't the time for a little casual reading." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="down" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRadio_PlayerDown" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You can't reach your radio right now." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="down" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorMap_PlayerDown" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="You can't reach your map right now." />
+      <AbortConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="down" Value="false" />
+        </ConditionBlock>
+      </AbortConditions>
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="ErrorRucksack_OutpostDelivery" MaxDisplayCount="0" Priority="75" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Supplies must be brought HOME for distribution." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered, LoadingScreen" ID="Scene.Fatigue" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: After exploring for a while, you will FATIGUE, lowering your available stamina." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.RadioInspire" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: [ul_radio_menu] to talk to Pastor William again." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: [xi_dpad_down] (D-pad) to talk to Pastor William again." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.Distraction" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Use repeated or loud NOISE to create a DISTRACTION." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps>
+        <HintID HintID="Scene.Distraction_Options" HintIndex="154" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="FollowUpOnly, Triggered" ID="Scene.Distraction_Options" MaxDisplayCount="10" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Gunfire, explosions, firecrackers, and alarm clocks are just some of the ways to create a DISTRACTION." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.LeaveArea" MaxDisplayCount="0" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Leave the area." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.ResetCommunity" MaxDisplayCount="0" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="WIPED OUT: You and all your friends are DEAD." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Scene.SwitchChar_Away" MaxDisplayCount="0" Priority="0" TimeoutSeconds="30">
+      <HintText Flags="" Notes="Hint Text" Text="Returning Home" />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Trial.Warn30" MaxDisplayCount="0" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="You have 30 minutes remaining in your trial. Press [xi_start] to unlock the full game." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Trial.Warn15" MaxDisplayCount="0" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="You have 15 minutes remaining in your trial. Press [xi_start] to unlock the full game." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Trial.Warn5" MaxDisplayCount="0" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="You have 5 minutes remaining in your trial. Press [xi_start] to unlock the full game." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="Triggered" ID="Trial.Warn1" MaxDisplayCount="0" Priority="0" TimeoutSeconds="0">
+      <HintText Flags="" Notes="Hint Text" Text="You have 1 minute remaining in your trial. Press [xi_start] to unlock the full game." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+  </HintCategory>
+  <HintCategory Name="Item" TimeoutSeconds="20">
+    <Hint Flags="" ID="Meds" MaxDisplayCount="10" Priority="0" TimeoutSeconds="180">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Use painkillers to restore Vitality" />
+      <AbortConditions />
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="SurgeActive_Health" Value="true" />
+        </ConditionBlock>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="Vulnerable" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroLowHealth" Value="true" />
+          <ContextTag Duration="2" Name="HasCombatInteraction" Value="false" />
+          <ContextTag Duration="0" Name="SearchAllowed" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="UseItem" HintIndex="164" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="LoadingScreen" ID="StaminaBoost" MaxDisplayCount="10" Priority="0" TimeoutSeconds="180">
+      <HintText Flags="" Notes="Hint Text" Text="TIP: Eat a snack for a temporary stamina boost." />
+      <AbortConditions />
+      <DisableConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="SurgeActive_Stamina" Value="true" />
+        </ConditionBlock>
+      </DisableConditions>
+      <DisplayConditions>
+        <ConditionBlock>
+          <ContextTag Duration="0" Name="HeroLowStamina" Value="true" />
+          <ContextTag Duration="2" Name="HasCombatInteraction" Value="false" />
+          <ContextTag Duration="0" Name="SearchAllowed" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps>
+        <HintID HintID="UseItem" HintIndex="164" />
+      </FollowUps>
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="FollowUpOnly, LoadingScreen" ID="UseItem" MaxDisplayCount="10" Priority="100" TimeoutSeconds="30">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: [ul_prev_consumable] or [ul_next_consumable] to select an item. Press [item] to use the selected item." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: [xi_dpad_left] or [xi_dpad_right] (D-pad) to select an item. Press [xi_shoulderr] to use it." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions />
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+    <Hint Flags="" ID="SelectItem" MaxDisplayCount="2" Priority="50" TimeoutSeconds="120">
+      <KeyboardHintText Flags="" Notes="Keyboard Hint Text" Text="TIP: [ul_prev_consumable] or [ul_next_consumable] to select an item. Press [item] to use the selected item." />
+      <HintText Flags="" Notes="Hint Text" Text="TIP: [xi_dpad_left] or [xi_dpad_right] (D-pad) to select an item. Press [xi_shoulderr] to use it." />
+      <AbortConditions />
+      <DisableConditions />
+      <DisplayConditions>
+        <ConditionBlock>
+          <RTSBool Duration="0" Name="Game.Player.HasEmptyConsumableSlot" Value="true" />
+          <RTSBool Duration="0" Name="Game.Player.CinematicMode" Value="false" />
+          <RTSBool Duration="0" Name="Game.Player.InScene" Value="false" />
+        </ConditionBlock>
+      </DisplayConditions>
+      <FollowUps />
+      <UnpauseConditions />
+    </Hint>
+  </HintCategory>
+</HintData>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HomeData>
+  <HomeInfo CameraPitch="-4" HomeId="home_Church" Map="Church" StatusRtsBool="Status.MoveHome.Church" MapIndex="1">
+    <NameText Flags="" Notes="" Text="Church of the Ascension" />
+  </HomeInfo>
+  <HomeInfo CameraPitch="-4" HomeId="home_bigJohn" Map="BigJohn" StatusRtsBool="Status.MoveHome.BigJohn" MapIndex="2">
+    <NameText Flags="" Notes="" Text="Kirkman Residence" />
+  </HomeInfo>
+  <HomeInfo CameraPitch="-4" HomeId="home_riverside" Map="Riverside" StatusRtsBool="Status.MoveHome.Riverside" MapIndex="5">
+    <NameText Flags="" Notes="" Text="Savini Residence" />
+  </HomeInfo>
+  <HomeInfo CameraPitch="-4" HomeId="home_Warehouse" Map="Warehouse" StatusRtsBool="Status.MoveHome.Warehouse" MapIndex="6">
+    <NameText Flags="" Notes="" Text="Snyder Trucking Warehouse" />
+  </HomeInfo>
+  <HomeInfo CameraPitch="-4" HomeId="home_Rodeo" Map="Rodeo" StatusRtsBool="Status.MoveHome.Rodeo" MapIndex="7">
+    <NameText Flags="" Notes="" Text="Trumbull County Fairgrounds" />
+  </HomeInfo>
+  <HomeInfo CameraPitch="-4" HomeId="home_Alamo" Map="Alamo" StatusRtsBool="Status.MoveHome.Alamo" MapIndex="4">
+    <NameText Flags="" Notes="" Text="The Alamo" />
+  </HomeInfo>
+  <HomeInfo CameraPitch="-10" HomeId="home_DanielFarm" Map="DanielFarm" StatusRtsBool="Status.MoveHome.DanielFarm" MapIndex="3">
+    <NameText Flags="" Notes="" Text="McReady Farmhouse" />
+  </HomeInfo>
+  <HomeInfo CameraPitch="-10" HomeId="home_RangerStation" Map="RangerStation" StatusRtsBool="Status.MoveHome.RangerStation" MapIndex="8">
+    <NameText Flags="" Notes="" Text="Ranger Station" />
+  </HomeInfo>
+</HomeData>

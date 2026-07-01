@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Dynamite" Value="1" />
+  <Icon Name="Pills" Value="2" />
+  <Icon Name="Drumstick" Value="3" />
+  <Icon Name="Grenade" Value="4" />
+  <Icon Name="Molotov" Value="5" />
+  <Icon Name="Binoculars" Value="6" />
+  <Icon Name="Speed" Value="7" />
+  <Icon Name="Silencer" Value="8" />
+  <Icon Name="Hacksaw" Value="9" />
+  <Icon Name="Antidote" Value="10" />
+  <Icon Name="Plyers" Value="11" />
+  <Icon Name="Medkit" Value="12" />
+  <Icon Name="Mine" Value="13" />
+  <Icon Name="Airstrike" Value="14" />
+  <Icon Name="Coffee" Value="15" />
+  <Icon Name="Soda" Value="16" />
+  <Icon Name="Doll" Value="17" />
+  <Icon Name="Firecrackers" Value="18" />
+  <Icon Name="Frog" Value="19" />
+  <Icon Name="Smoke" Value="20" />
+  <Icon Name="Snack" Value="21" />
+  <Icon Name="Timer" Value="22" />
+  <Icon Name="Notes" Value="23" />
+  <Icon Name="Flare" Value="24" />
+  <Icon Name="Pie" Value="25" />
+  <Icon Name="MRE" Value="26" />
+</IconData>

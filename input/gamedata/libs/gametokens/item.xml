@@ -1,0 +1,7 @@
+<GameTokensLibrary Name="Item">
+  <GameToken Name="Food" Type="Int" Value="0" LocalOnly="0"/>
+  <GameToken Name="Grenade" Type="Int" Value="0" LocalOnly="0"/>
+  <GameToken Name="HealthPack" Type="Int" Value="0" LocalOnly="0"/>
+  <GameToken Name="Silencer" Type="Int" Value="0" LocalOnly="0"/>
+  <GameToken Name="Stimulant" Type="Int" Value="0" LocalOnly="0"/>
+</GameTokensLibrary>

@@ -1,0 +1,245 @@
+<ParticleLibrary Name="HD_Vehicles" SandboxVersion="3.3.8.3040" ParticleVersion="22">
+ <Particles Name="Surface.Dusty_Surface_HD" Id="{ADC17C77-FD8C-48F1-8D62-3A4B11623846}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="40" ParticleLifeTime="1,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.3,,,(;0.05970149,1;0.10738255,1;0.4183267,0.38636363;1)" Color="(0.357,0.294,0.247)" SoftParticle="true" DiffuseLighting="0.15" DiffuseBacklighting="0.5" ReceiveShadows="true" Size="0.85,0.4,,(,0.22727273;0.50199205,0.84090906;1,1,4)" Stretch="2.5,,,(,1,32;0.24253732,1;1)" Speed="0.5" InheritVelocity="0.25" AirResistance="0.2" GravityScale="-0.1,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" RandomAngles=",180" RandomRotationRate=",15" DrawLast="20" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="Grit">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.8" PosRandomOffset="0.1" FocusAngle="50" EmitAngle="20,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha="0.2,,,(,1;0.68791944,1,4;1)" AlphaTest="0.1" AlphaClamp="0.9" Color="(0.475,0.39,0.294)" DiffuseLighting="0.3" DiffuseBacklighting="0.2" Size="0.25,0.3,(,1;1,1),(,0.11363637,4;1,1)" Stretch="1,,,(,1;0.24161074,0.09090909)" Speed="3.5" GravityScale="0.45" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="slow_dirt">
+    <Params Enabled="false" Continuous="true" Count="30" ParticleLifeTime="6,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.085,,,(;0.30876493,1;1)" Color="(0.263,0.19,0.13)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.85" Size="3,0.1,(,1;1,1),(,0.25,32;0.30478087,0.5,4;0.6713147,1;1,0.8181818,4)" Stretch="0.5,,,(,1,32;0.08964144,1;0.7450199)" Speed="0.5" InheritVelocity="0.005" AirResistance="0.1" RotationalDragScale="0.75" GravityScale="-0.075,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="20" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Surface.Road_Surface_HD" Id="{B2DE8B87-D9BD-45B9-85A9-049D97F9C312}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="40" ParticleLifeTime="1,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.15,,,(;0.0936255,1;0.4183267,0.18181819;1)" Color="(0.506,0.494,0.47)" SoftParticle="true" DiffuseLighting="0.15" DiffuseBacklighting="0.5" ReceiveShadows="true" Size="0.6,0.4,,(,0.27272728;0.5,0.8636364;1,1,4)" Stretch="2.5,,,(,1,32;0.24253732,1;1)" Speed="0.5" InheritVelocity="0.25" AirResistance="0.2" GravityScale="-0.1" RandomAngles=",180" RandomRotationRate=",15" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="Road_DustPlume">
+    <Params Enabled="false" Continuous="true" Count="30" ParticleLifeTime="1.35,0.1" RandomOffset="0.5,0.15,0.5" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.05,,,(;0.1442953,1;1)" Color="(0.34,0.294,0.23)" SoftParticle="true" DiffuseLighting="0.25" DiffuseBacklighting="0.75" Size=",0.6,(,1;1,1),(,0.29545453,32;1,1)" Stretch=",,,(,1,32;0.24253732,1;1)" Speed="3" InheritVelocity="-0.002" GravityScale="-0.015" RandomAngles=",180" RandomRotationRate=",15" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="tire_dust">
+    <Params Continuous="true" Count="30" ParticleLifeTime="0.4,0.25" EmitAngle="65,0.5" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.075,,,(,,32;0.2868526,1,32;1)" Color="(0.192,0.16,0.133)" SoftParticle="true" DiffuseLighting="0.45" DiffuseBacklighting="0.3" Size="0.25,0.25,(,1;1,1),(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="0.125,,,(,1,32;0.42031872,0.29545453)" Speed="1" InheritVelocity="0.7" GravityScale="0.1" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Surface.Dirt_Surface_HD" Id="{D1F58B4C-6C89-43F9-9ED0-1400150A31ED}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="40" ParticleLifeTime="1,0.25" RandomOffset="0.1,,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.25,,,(;0.05970149,1;0.10738255,1;0.4183267,0.38636363;1)" Color="(0.275,0.21,0.17)" SoftParticle="true" DiffuseLighting="0.15" DiffuseBacklighting="0.5" ReceiveShadows="true" Size="0.85,0.4,,(,0.22727273;0.50199205,0.84090906;1,1,4)" Stretch="2.5,,,(,1,32;0.24253732,1;1)" Speed="0.5" InheritVelocity="0.25" AirResistance="0.2" GravityScale="-0.1,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="20" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="Grit">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.8" PosRandomOffset="0.1" FocusAngle="50" EmitAngle="20,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha="0.2,,,(,1;0.68791944,1,4;1)" AlphaTest="0.1" AlphaClamp="0.9" Color="(0.475,0.39,0.294)" DiffuseLighting="0.3" DiffuseBacklighting="0.2" Size="0.25,0.3,(,1;1,1),(,0.11363637,4;1,1)" Stretch="1,,,(,1;0.24161074,0.09090909)" Speed="3.5" GravityScale="0.45" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="DirtBase">
+    <Params Enabled="false" Continuous="true" Count="7" ParticleLifeTime="0.3" PositionOffset=",,-0.5" RandomOffset="0.2" FocusAngle="80" EmitAngle="10,1" OrientToVelocity="true" Texture="textures/particles/debris/hd/t_dirtwedge_hd.tif" TextureTiling="2,2,,4" Alpha="0.3,,,(;0.093959734,1;0.54497355,1,4;1)" Color="(0.13,0.098,0.055)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size=",0.5,,(,0.65909094;1,1)" Stretch="3,,,(,0.54545456;1,1)" Speed="5" DrawLast="-64" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="dust_plume">
+    <Params Enabled="false" Continuous="true" Count="50" ParticleLifeTime="7,0.25" RandomOffset="0.75,0.25,0.75" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.05,,,(;0.23306774,1;1)" Color="(0.204,0.145,0.1)" SoftParticle="true" DiffuseLighting="0.25" DiffuseBacklighting="0.75" Size="2.65,0.1,(,1;1,1),(,0.25,32;0.30478087,0.5,4;0.6713147,1;1,0.8181818,4)" Stretch="0.5,,,(,1,32;0.08964144,1;0.7450199)" Speed="0.5" InheritVelocity="0.005" AirResistance="0.1" RotationalDragScale="0.75" GravityScale="-0.075,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="20" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="tire_dust">
+    <Params Continuous="true" Count="35" ParticleLifeTime="0.4,0.25" EmitAngle="65,0.5" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.1,,,(,,32;0.2868526,1,32;1)" Color="(0.118,0.086,0.06)" SoftParticle="true" DiffuseLighting="0.4" DiffuseBacklighting="0.25" Size="0.2,0.25,(,1;1,1),(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="0.125,,,(,1,32;0.42031872,0.29545453)" Speed="1" InheritVelocity="0.7" GravityScale="0.1" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Surface.Grass_Surface_HD" Id="{68A90C5B-539C-4095-9BF1-63CE574C8C83}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="50" ParticleLifeTime="1.5,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.25,,,(;0.05970149,1;0.10738255,1;0.2947761,0.22727273;1)" Color="(0.17,0.106,0.055)" SoftParticle="true" DiffuseLighting="0.4" DiffuseBacklighting="0.5" Size="3,0.1,,(,0.13636364,32;0.42828685,0.3409091,4;1,1)" Stretch="0.7,,,(,1,32;0.7583643,1;1)" Speed="2" InheritVelocity="-0.002" GravityScale="-0.05,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" Acceleration=",,0.3" RandomAngles=",180" RandomRotationRate=",15" DrawLast="20" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="Grit">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.5" PosRandomOffset="0.1" FocusAngle="55" EmitAngle="20,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha="0.2,,,(,1;0.68791944,1,4;1)" AlphaTest="0.1" AlphaClamp="0.95" Color="(0.82,0.78,0.737)" DiffuseLighting="0.25" DiffuseBacklighting="0.2" Size="0.25,0.3,(,1;1,1),(,0.11363637,36;1,1)" Stretch="1,,,(,1;0.24161074,0.09090909)" Speed="5.5,0.25" GravityScale="0.45" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-60" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="Grass">
+    <Params Continuous="true" Count="120" ParticleLifeTime="1.5,0.65" FocusAngle="60" EmitAngle="25,0.75" OrientToVelocity="true" Texture="textures/particles/debris/grassbits4x4.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.68791944,1,4;1)" AlphaTest="0.1" AlphaClamp="0.95" Color="(0.373,0.39,0.118),0.1" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size="0.1,0.35,,(,0.5681818,32;0.07370518,1;0.66533864,1;1,0.27272728,4)" Stretch=",,,(,1;0.24161074,0.09090909)" Speed="4,0.35" InheritVelocity="0.4" AirResistance="0.05" RotationalDragScale="0.5" GravityScale="0.3" Turbulence3DSpeed="1" TurbulenceSize="2" RandomAngles=",180" RotationRate=",400" RandomRotationRate=",200" CameraMaxDistance="30" CameraMaxFadeLength="5" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="dust_plume">
+    <Params Enabled="false" Continuous="true" Count="50" ParticleLifeTime="7,0.1" RandomOffset="0.75,0.25,0.75" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.085,,,(;0.20318726,1;1)" Color="(0.263,0.19,0.13)" SoftParticle="true" DiffuseLighting="0.25" DiffuseBacklighting="0.85" Size="2.75,0.1,(,1;1,1),(,0.25,32;0.30478087,0.5,4;0.6713147,1;1,0.8181818,4)" Stretch="0.5,,,(,1,32;0.08964144,1;0.7450199)" Speed="0.5" InheritVelocity="0.005" AirResistance="0.1" RotationalDragScale="0.75" GravityScale="-0.075,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="20" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="tire_dust">
+    <Params Continuous="true" Count="35" ParticleLifeTime="0.4,0.25" EmitAngle="65,0.5" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.2,,,(,,32;0.2868526,1,32;1)" Color="(0.153,0.11,0.08)" SoftParticle="true" DiffuseLighting="0.45" DiffuseBacklighting="0.25" Size="0.3,0.25,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="0.125,,,(,1,32;0.42031872,0.29545453)" Speed="1" InheritVelocity="0.7" GravityScale="0.1" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Slip.Dirt_Slip_HD" Id="{F13C295F-CBA3-4C4F-AF7E-27095A0512BA}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="50" ParticleLifeTime="4,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.4,,,(;0.05970149,1;0.12350598,1;0.29681274,0.29545453;1)" Color="(0.37,0.27,0.208)" SoftParticle="true" DiffuseLighting="0.2" DiffuseBacklighting="0.7" Size="4,0.1,,(,0.06818182,32;0.8326693,1)" Stretch="0.7,,,(,1,32;0.7583643,1;1)" Speed="1" InheritVelocity="0.05" GravityScale="-0.1,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" RandomAngles=",180" RandomRotationRate=",15" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="Grit">
+    <Params Continuous="true" Count="40" PulsePeriod="1" ParticleLifeTime="1,0.5" PositionOffset=",0.3" RandomOffset="0.4,0.2,0.4" FocusAngle="50" FocusAzimuth="180" EmitAngle="15,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.73489934,1,4;1)" AlphaTest="0.05" AlphaClamp="0.95" Color="(0.518,0.43,0.333)" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size="0.55,0.3,,(,0.11363637,36;0.563745,1;1,1)" Stretch=",,,(,1;0.17857143,0.09090909)" Speed="8,0.5" GravityScale="0.9" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="DirtBase">
+    <Params Enabled="false" Continuous="true" Count="12" ParticleLifeTime="0.35" PositionOffset=",,-0.5" RandomOffset="0.2" FocusAngle="80" EmitAngle="10,1" OrientToVelocity="true" Texture="textures/particles/debris/hd/t_dirtwedge_hd.tif" TextureTiling="2,2,,4" Alpha="0.2,,,(;0.093959734,1;0.54497355,1,4;1)" Color="(0.13,0.082,0.047)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.5" Size="0.75,0.5,,(,0.65909094;1,1)" Stretch="5,,,(,0.54545456;1,1)" Speed="4" DrawLast="-32" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="Grit_Backwards">
+    <Params Continuous="true" Count="40" PulsePeriod="1" ParticleLifeTime="0.8" PositionOffset=",0.3" RandomOffset="0.4,0.2,0.4" FocusAngle="60" EmitAngle="15,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha="0.8,,,(,1;0.73489934,1,4;1)" AlphaTest="0.05" AlphaClamp="0.95" Color="(0.494,0.4,0.306)" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size="0.55,0.3,,(,0.11363637,36;0.50199205,1;1,1)" Stretch=",,,(,1;0.17857143,0.09090909)" Speed="5,0.5" GravityScale="0.4" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="fastdust">
+    <Params Continuous="true" Count="20" ParticleLifeTime="1,0.35" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.3,,,(,,32;0.2868526,1,32;1)" Color="(0.353,0.267,0.208)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size="2,0.6,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="3,,,(,1,32;0.16334662,1;1)" Speed="2" InheritVelocity="0.1" GravityScale="-0.2" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="tire_ground_dust">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.4,0.25" PositionOffset=",0.1" EmitAngle="87" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.3,,,(,,32;0.2868526,1,32;1)" Color="(0.353,0.267,0.208)" SoftParticle="true" DiffuseLighting="0.4" DiffuseBacklighting="0.35" Size="0.35,0.25,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="2,,,(,1,32;0.5836653,0.22727273)" Speed="2.5" InheritVelocity="0.5" GravityScale="0.25" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Slip.Grass_Slip_HD" Id="{6658EEE9-246B-4E58-B5A9-AFA7941218B8}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="50" ParticleLifeTime="4,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.4,,,(;0.05970149,1;0.12350598,1;0.29681274,0.29545453;1)" Color="(0.294,0.21,0.137)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.4" Size="6,0.1,,(,0.06818182,32;0.8326693,1)" Stretch="0.7,,,(,1,32;0.7583643,1;1)" Speed="0.5" InheritVelocity="0.05" GravityScale="-0.1,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" RandomAngles=",180" RandomRotationRate=",15" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="Grit">
+    <Params Continuous="true" Count="30" PulsePeriod="1" ParticleLifeTime="1" PositionOffset=",0.3" RandomOffset="0.4,0.2,0.4" FocusAngle="60" FocusAzimuth="180" EmitAngle="15,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.73489934,1,4;1)" AlphaTest="0.1" AlphaClamp="0.9" Color="(0.345,0.25,0.16),0.25" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size="0.4,0.3,,(,0.11363637,36;0.4732143,1;1,1)" Stretch=",,,(,1;0.17857143,0.09090909)" Speed="8,0.5" InheritVelocity="0.35" AirResistance="0.1" GravityScale="0.9" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="Grass">
+    <Params Continuous="true" Count="120" ParticleLifeTime="3,0.5" PosRandomOffset="0.4" FocusAngle="55" FocusAzimuth="180" EmitAngle="20,1" OrientToVelocity="true" Texture="textures/particles/debris/grassbits4x4.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.68791944,1,4;1)" AlphaTest="0.1" AlphaClamp="0.95" Color="(0.384,0.384,0.1),0.25" DiffuseLighting="0.3" DiffuseBacklighting="0.2" Size="0.1,0.3" Stretch=",,,(,1;0.24161074,0.09090909)" Speed="8,0.35" InheritVelocity="0.35" AirResistance="0.5" RotationalDragScale="0.75" GravityScale="0.45" Turbulence3DSpeed="0.2" RandomAngles=",180" RotationRate=",400" RandomRotationRate=",200" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="DirtBase">
+    <Params Continuous="true" Count="10" ParticleLifeTime="0.35" PositionOffset=",,-0.5" RandomOffset="0.2" FocusAngle="80" EmitAngle="10,1" OrientToVelocity="true" Texture="textures/particles/debris/hd/t_dirtwedge_hd.tif" TextureTiling="2,2,,4" Alpha="0.25,,,(;0.093959734,1;0.54497355,1,4;1)" AlphaTest="0.1" AlphaClamp="0.9" Color="(0.086,0.063,0.03)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.5" Size="1.5,0.5,,(,0.65909094;1,1)" Stretch="8,,,(,0.54545456;1,1)" Speed="5" DrawLast="-32" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="Grit_Backwards">
+    <Params Continuous="true" Count="30" PulsePeriod="1" ParticleLifeTime="1" PositionOffset=",0.3" RandomOffset="0.4,0.2,0.4" FocusAngle="60" EmitAngle="15,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.73489934,1,4;1)" AlphaTest="0.1" AlphaClamp="0.9" Color="(0.333,0.24,0.145)" DiffuseLighting="0.1" DiffuseBacklighting="0.3" Size="0.4,0.3,,(,0.11363637,36;0.4732143,1;1,1)" Stretch=",,,(,1;0.17857143,0.09090909)" Speed="8,0.5" InheritVelocity="0.35" AirResistance="0.1" GravityScale="0.9" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="Grass_Backwards">
+    <Params Continuous="true" Count="120" ParticleLifeTime="3,0.5" PosRandomOffset="0.4" FocusAngle="55" EmitAngle="20,1" OrientToVelocity="true" Texture="textures/particles/debris/grassbits4x4.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.68791944,1,4;1)" AlphaTest="0.1" AlphaClamp="0.95" Color="(0.384,0.384,0.1),0.25" DiffuseLighting="0.3" DiffuseBacklighting="0.2" Size="0.12,0.3,,(,1;0.74302787,1;1,0.29545453,4)" Stretch=",,,(,1;0.24161074,0.09090909)" Speed="8,0.35" InheritVelocity="0.35" AirResistance="0.5" RotationalDragScale="0.75" GravityScale="0.45" Turbulence3DSpeed="0.2" RandomAngles=",180" RotationRate=",400" RandomRotationRate=",200" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="tire_ground_dirt">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.4,0.25" PositionOffset=",0.25" EmitAngle="85" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.3,,,(,,32;0.2868526,1,32;1)" Color="(0.192,0.133,0.082),0.5" SoftParticle="true" DiffuseLighting="0.35" DiffuseBacklighting="0.35" Size="0.35,0.25,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="2,,,(,1,32;0.5836653,0.22727273)" Speed="2.5" InheritVelocity="0.5" GravityScale="0.25" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="fast_dust">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.75,0.35" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.3,,,(,,32;0.2868526,1,32;1)" Color="(0.235,0.17,0.12)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size="2,0.6,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="3,,,(,1,32;0.16334662,1;1)" Speed="2" InheritVelocity="0.1" GravityScale="-0.2" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Slip.Dust_Slip_HD" Id="{C4F5D941-9083-49FC-BF88-9999DA671C5D}" Library="HD_Vehicles">
+  <Params Enabled="false" Continuous="true" Count="50" ParticleLifeTime="4,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.4,,,(;0.05970149,1;0.12350598,1;0.29681274,0.29545453;1)" Color="(0.37,0.27,0.208)" SoftParticle="true" DiffuseLighting="0.2" DiffuseBacklighting="0.7" Size="4,0.1,,(,0.06818182,32;0.8326693,1)" Stretch="0.7,,,(,1,32;0.7583643,1;1)" Speed="1" InheritVelocity="0.05" GravityScale="-0.1,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" RandomAngles=",180" RandomRotationRate=",15" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="Grit">
+    <Params Enabled="false" Continuous="true" Count="40" PulsePeriod="1" ParticleLifeTime="1,0.5" PositionOffset=",0.3" RandomOffset="0.4,0.2,0.4" FocusAngle="50" FocusAzimuth="180" EmitAngle="15,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.73489934,1,4;1)" AlphaTest="0.05" AlphaClamp="0.95" Color="(0.518,0.43,0.333)" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size="0.55,0.3,,(,0.11363637,36;0.563745,1;1,1)" Stretch=",,,(,1;0.17857143,0.09090909)" Speed="8,0.5" GravityScale="0.9" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="DirtBase">
+    <Params Enabled="false" Continuous="true" Count="12" ParticleLifeTime="0.35" PositionOffset=",,-0.5" RandomOffset="0.2" FocusAngle="80" EmitAngle="10,1" OrientToVelocity="true" Texture="textures/particles/debris/hd/t_dirtwedge_hd.tif" TextureTiling="2,2,,4" Alpha="0.2,,,(;0.093959734,1;0.54497355,1,4;1)" Color="(0.13,0.082,0.047)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.5" Size=",0.5,,(,0.65909094;1,1)" Stretch="5,,,(,0.54545456;1,1)" Speed="5" DrawLast="-32" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="Grit_Backwards">
+    <Params Enabled="false" Continuous="true" Count="40" PulsePeriod="1" ParticleLifeTime="0.8" PositionOffset=",0.3" RandomOffset="0.4,0.2,0.4" FocusAngle="60" EmitAngle="15,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha="0.8,,,(,1;0.73489934,1,4;1)" AlphaTest="0.05" AlphaClamp="0.95" Color="(0.494,0.4,0.306)" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size="0.55,0.3,,(,0.11363637,36;0.50199205,1;1,1)" Stretch=",,,(,1;0.17857143,0.09090909)" Speed="5,0.5" GravityScale="0.4" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="fastdust">
+    <Params Enabled="false" Continuous="true" Count="20" ParticleLifeTime="1,0.35" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.3,,,(,,32;0.2868526,1,32;1)" Color="(0.353,0.267,0.208)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.3" Size="2,0.6,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="3,,,(,1,32;0.16334662,1;1)" Speed="2" InheritVelocity="0.1" GravityScale="-0.2" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="tire_ground_dust">
+    <Params Enabled="false" Continuous="true" Count="20" ParticleLifeTime="0.4,0.25" PositionOffset=",0.1" EmitAngle="87" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.3,,,(,,32;0.2868526,1,32;1)" Color="(0.353,0.267,0.208)" SoftParticle="true" DiffuseLighting="0.4" DiffuseBacklighting="0.35" Size="0.35,0.25,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="2,,,(,1,32;0.5836653,0.22727273)" Speed="2.5" InheritVelocity="0.5" GravityScale="0.25" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Slip.Road_Slip_HD" Id="{F62168F0-881E-45F5-865E-5549C06DC795}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="40" ParticleLifeTime="4,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.15,,,(;0.2244898,1;1)" Color="(0.494,0.482,0.46)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.4" Size="3.5,0.6,,(,0.11363637,32;0.50398403,0.59090906,4;1,1)" Stretch=",,,(,1,32;0.24253732,1;1)" Speed="1" GravityScale="-0.01" RandomAngles=",180" RandomRotationRate=",15" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="fastdust">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.85,0.35" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.2,,,(,,32;0.2868526,1,32;1)" Color="(0.54,0.506,0.482)" SoftParticle="true" DiffuseLighting="0.5" DiffuseBacklighting="0.35" Size="1.5,0.6,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="3,,,(,1,32;0.24253732,1;1)" Speed="2" InheritVelocity="-0.1" GravityScale="-0.2" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="tire_ground_dust">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.4,0.25" PositionOffset=",0.15" EmitAngle="87" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.2,,,(,,32;0.2868526,1,32;1)" Color="(0.353,0.267,0.208)" SoftParticle="true" DiffuseLighting="0.4" DiffuseBacklighting="0.35" Size="0.35,0.25,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="2,,,(,1,32;0.5836653,0.22727273)" Speed="2.5" InheritVelocity="0.5" GravityScale="0.25" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Surface.Mud_Surface_HD" Id="{0695697C-91A1-4F86-AF9F-9D9722060406}" Library="HD_Vehicles">
+  <Params Enabled="false" Continuous="true" Count="20" ParticleLifeTime="1.15,0.1" FocusAngle="65" Texture="textures/sprites/water_tiled_a.tif" TextureTiling="2,2,,4" Alpha="0.65,0.35,,(;0.17114094,1;1)" AlphaTest="0.05" Color="(0.125,0.098,0.082),,,(0.17193677,(0.121985726,0.058187183,0.031551395);0.63241106,(0.288816,0.24279638,0.1668723);0.97035575,(0.21951973,0.10114517,0.06190748))" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.3" ReceiveShadows="true" Size="1.5,0.1,,(,0.06818182,32;1,1)" Stretch=",,,(,1,32;0.7583643,1;1)" Speed="2" InheritVelocity="-0.002" GravityScale="0.75,,,(,0.25;0.48406374,1;1,1)" RandomAngles=",180" RandomRotationRate=",15" DrawLast="20" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="Grit">
+    <Params Continuous="true" Count="40" ParticleLifeTime="0.8" PosRandomOffset="0.1" FocusAngle="50" EmitAngle="20,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.68791944,1,4;1)" AlphaTest="0.1" Color="(0.173,0.153,0.13)" DiffuseLighting="0.5" DiffuseBacklighting="0.35" ReceiveShadows="true" Size="0.55,0.3,,(,0.11363637,36;1,1)" Stretch="2,,,(,1,32;0.33266932)" Speed="3" InheritVelocity="-0.15" GravityScale="0.85" RandomAngles=",180" RotationRate=",-30" RandomRotationRate=",60" ViewDistanceAdjust="30" DrawLast="-30" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="tire_mud">
+    <Params Continuous="true" Count="30" ParticleLifeTime="0.5" PosRandomOffset="0.05" EmitAngle="45,1" Texture="textures/particles/liquids/water_foam.tif" TextureTiling="2,2,,4" Alpha=",,,(,,32;0.1812749,1,32;0.64541835,1;1)" AlphaTest="0.2" AlphaClamp=",,(0.18326694,1;0.7968128,0.09090909)" Color="(0.02,0.016,0.01),,,(0.0033112583,(0.9743003,0.96581477,0.9573697);0.98344374,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.65" DiffuseBacklighting="0.55" ReceiveShadows="true" Size="0.4,0.3,,(,0.11363637,4;0.685259,1;1,0.6818182,4)" Stretch="0.15,,,(,1,32;0.32669324,0.38636363;1,0.11363637)" Speed="1.5" InheritVelocity="0.7" GravityScale="0.85" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" ViewDistanceAdjust="30" DrawLast="-30" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="WaterSplashes">
+    <Params Enabled="false" Continuous="true" Count="15" ParticleLifeTime="0.7,0.35" PosRandomOffset="0.1" FocusAngle="55" EmitAngle="20,1" Texture="textures/particles/liquids/goopy_sheets_large.tif" TextureTiling="2,2,,4" Material="Particles/Materials/liquids/mud_splash_small1" Alpha=",,,(,1;0.5318725,1;1)" AlphaTest="0.1" AlphaClamp=",,(,1;0.3306773,1;0.8386454,0.11363637)" Color="(0.54,0.54,0.54),,,(0.023178808,(0.9075473,0.9489651,0.96581477);0.6092715,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.65" DiffuseBacklighting="0.6" ReceiveShadows="true" Size="0.65,0.3,,(,0.36363637,36;1,1)" Stretch="0.2,,,(,1,32;0.33266932,0.18181819,32;1,0.13636364,4)" Speed="3,0.35" InheritVelocity="-0.1" RotationalDragScale="0.5" GravityScale="0.85" RandomAngles=",180" RotationRate=",-30" RandomRotationRate=",60" ViewDistanceAdjust="30" DrawLast="-19" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="WaterBase">
+    <Params Continuous="true" Count="30" ParticleLifeTime="0.6" PositionOffset=",0.1" EmitAngle="75,0.25" Texture="textures/particles/liquids/goopy_sheets_small.tif" TextureTiling="2,2,,4" Material="Particles/Materials/liquids/mud_splash_small" Alpha=",,,(,,32;0.1812749,1,32;0.57171315,1;1)" AlphaTest="0.1" AlphaClamp=",,(0.37250996,1;1)" Color="(0.73,0.73,0.73),,,(0.0033112583,(0.9743003,0.96581477,0.9573697);0.98344374,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.65" DiffuseBacklighting="0.55" ReceiveShadows="true" Size="0.55,0.3,,(,0.11363637,4;0.685259,1;1,0.6818182,4)" Stretch="0.2,,,(,1,32;0.33266932,0.27272728;1,0.11363637)" Speed="1.5" InheritVelocity="0.2" GravityScale="0.5" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" ViewDistanceAdjust="30" DrawLast="-25" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="spray">
+    <Params Continuous="true" Count="60" ParticleLifeTime="1,0.35" PosRandomOffset="0.1" FocusAngle="47" EmitAngle="15,1" Texture="textures/particles/liquids/water_foam.tif" TextureTiling="2,2,,4" Material="Particles/Materials/liquids/mud_splash_small" Alpha=",,,(,,32;0.28286853,1;0.58964145,0.27272728;1)" AlphaTest="0.1" AlphaClamp=",,(,1;0.14143427,1;0.6394422,0.13636364)" Color="(0.835,0.85,0.867),,,(0.023178808,(0.9075473,0.9489651,0.96581477);0.6092715,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.35" DiffuseBacklighting="0.6" ReceiveShadows="true" Size="0.85,0.3,,(,,36;1,1)" Stretch="0.3" Speed="2.5,0.35" InheritVelocity="-0.2" RotationalDragScale="0.5" GravityScale="1,,,(,0.5;0.6952191,0.52272725;1,1,4)" RandomAngles=",180" RotationRate=",-10" RandomRotationRate=",20" ViewDistanceAdjust="30" DrawLast="-15" FillRateCost="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Surface.Water_Surface_HD" Id="{CC2C068A-26CE-42F3-9A92-76D9B9C0DDC1}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="20" ParticleLifeTime="1.5,0.1" FocusAngle="60" Texture="textures/sprites/water_tiled_c.tif" TextureTiling="2,2,,4" Alpha="0.45,0.35,,(;0.17114094,1;1)" Color=",,,(0.046357617,(0.028991189,0.024222944,0.010397803);0.6456954,(0.19751646,0.3786763,0.54799354))" SoftParticle="true" DiffuseLighting="0.2" DiffuseBacklighting="0.7" ReceiveShadows="true" Size="2.75,0.1,,(,0.06818182,32;1,1)" Stretch=",,,(,1,32;0.7583643,1;1)" Speed="3" InheritVelocity="-0.002" GravityScale="0.65,,,(,0.25;0.48406374,1;1,1)" RandomAngles=",180" RandomRotationRate=",15" DrawLast="20" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="Grit">
+    <Params Continuous="true" Count="30" ParticleLifeTime="0.8" PosRandomOffset="0.1" FocusAngle="50" EmitAngle="20,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.68791944,1,4;1)" AlphaTest="0.1" AlphaClamp="0.95" Color="(0.3,0.208,0.12)" DiffuseLighting="0.2" DiffuseBacklighting="0.3" ReceiveShadows="true" Size="0.6,0.3,,(,0.11363637,36;1,1)" Stretch="1,,,(,1;0.24161074,0.09090909)" Speed="6" GravityScale="1.5" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="DirtBase">
+    <Params Enabled="false" Continuous="true" Count="13" ParticleLifeTime="0.25" RandomOffset="0.2" FocusAngle="60" EmitAngle="10,1" OrientToVelocity="true" Texture="textures/particles/debris/hd/t_dirtwedge_hd.tif" TextureTiling="2,2,,4" Alpha="0.7,,,(;0.23489933,1;0.54497355,1,4;1)" Color=",,,(0.0033112583;0.28807947,(0.08241421,0.04298701,0.011126082))" SoftParticle="true" DiffuseLighting="0.1" DiffuseBacklighting="0.2" Size="1.5,0.3,,(,0.65909094;1,1)" Stretch="8,,,(,0.54545456;1,1)" Speed="0.5" InheritVelocity="-0.1" Acceleration=",,1" DrawLast="-64" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="WaterSplashes">
+    <Params Continuous="true" Count="50" ParticleLifeTime="1,0.35" PosRandomOffset="0.1" FocusAngle="65" EmitAngle="15,1" Texture="textures/particles/liquids/hd/hd_water_foam_c.tif" TextureTiling="2,2,,4" Alpha="0.5,,,(,1;0.47011954,0.47727272,32;1,,4)" AlphaTest="0.1" AlphaClamp=",,(,1;0.117529884,1;1,0.4318182)" Color="(0.518,0.61,0.675),,,(0.023178808,(0.9075473,0.9489651,0.96581477);0.6092715,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.3" DiffuseBacklighting="0.8" ReceiveShadows="true" Size="0.6,0.3,,(,0.5681818,36;1,1)" Stretch="0.25,,,(,1,32;0.22111554,0.29545453,32;1,0.06818182,4)" Speed="5.5,0.35" InheritVelocity="0.15" RotationalDragScale="0.5" GravityScale="1.35" RandomAngles=",180" RotationRate=",-30" RandomRotationRate=",60" ViewDistanceAdjust="30" DrawLast="-19" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="WaterBase">
+    <Params Continuous="true" Count="50" ParticleLifeTime="0.85" PositionOffset=",0.1" EmitAngle="75,0.35" Texture="textures/particles/liquids/hd/hd_water_foam_c.dds" TextureTiling="2,2,,4" Alpha="0.25,,,(,,32;0.1812749,1,32;1)" AlphaClamp=",,(0.035856575,1,32;1)" Color="(0.62,0.675,0.753),,,(0.0033112583,(0.9743003,0.96581477,0.9573697);0.98344374,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.25" DiffuseBacklighting="0.75" EmissiveLighting="0.05" ReceiveShadows="true" Size="0.5,0.3,,(,0.11363637,36;0.685259,1;1,0.6818182,4)" Stretch="0.125,,,(,1,32;0.31075698,0.25;1)" Speed="1" InheritVelocity="0.7" GravityScale="0.35" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" ViewDistanceAdjust="30" DrawLast="-128" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="FoamTrail">
+    <Params Continuous="true" Count="50" ParticleLifeTime="4" PosRandomOffset="0.4" FocusAngle="90" Facing="Water" Texture="textures/particles/liquids/hd/hd_water_foam_d.tif" TextureTiling="2,2,,4" Alpha="0.75,,,(;0.10402685,1,32;0.23904383,1,32;1)" AlphaClamp=",,(,1;0.20318726,1,32;0.87848604,0.3181818,32)" Color="(0.475,0.604,0.55)" DiffuseLighting="0.6" ReceiveShadows="true" Size="3,,,(,0.27272728,32;0.76494026,1;1,0.8863636,4)" InheritVelocity="-0.025" RandomAngles=",180"/>
+   </Particles>
+   <Particles Name="spray">
+    <Params Continuous="true" Count="50" ParticleLifeTime="1.5,0.35" PosRandomOffset="0.1" FocusAngle="50" EmitAngle="10,1" Texture="textures/particles/liquids/water_splashes_large.tif" TextureTiling="2,2,,4" Alpha="0.5,,,(,,32;0.33266932,1;0.58964145,0.27272728;1)" AlphaTest="0.1" AlphaClamp=",,(,1;0.14143427,1;0.6155378,0.25)" Color="(0.435,0.604,0.753),,,(0.023178808,(0.9075473,0.9489651,0.96581477);0.6092715,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.2" DiffuseBacklighting="0.75" ReceiveShadows="true" Size="1.5,0.3,,(,,36;1,1)" Speed="6.5,0.35" InheritVelocity="0.05" RotationalDragScale="0.5" GravityScale="2.5,,,(,0.5;0.58565736,0.72727275;1,1)" RandomAngles=",180" RotationRate=",-10" RandomRotationRate=",20" ViewDistanceAdjust="30" DrawLast="-19" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="quick_foam">
+    <Params Continuous="true" Count="30" ParticleLifeTime="1.25" FocusAngle="90" Facing="Water" Texture="textures/particles/liquids/water_foam_ring.tif" TextureTiling="2,2,,4" Alpha="0.35,,,(,,32;0.22509961,1,32;1)" Color="(0.694,0.702,0.624)" DiffuseLighting="0.6" ReceiveShadows="true" Size=",0.35,,(,0.11363637;0.66533864,1;1,0.79545456,4)" InheritVelocity="0.1" RandomAngles=",180" DrawLast="-20"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Slip.Water_Slip_HD" Id="{516B5F47-1385-4586-B058-FCE019117B98}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="50" ParticleLifeTime="0.85" PositionOffset=",0.1" EmitAngle="65,0.35" Texture="textures/particles/liquids/hd/hd_water_foam_c.dds" TextureTiling="2,2,,4" Alpha="0.65,,,(,,32;0.1812749,1,32;1)" AlphaClamp=",,(0.035856575,1,32;1)" Color="(0.62,0.675,0.753),,,(0.0033112583,(0.9743003,0.96581477,0.9573697);0.98344374,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.25" DiffuseBacklighting="0.75" EmissiveLighting="0.05" ReceiveShadows="true" Size="1.25,0.3,,(,0.11363637,36;0.685259,1;1,0.6818182,4)" Stretch="0.125,,,(,1,32;0.31075698,0.25;1)" Speed="4" InheritVelocity="0.5" GravityScale="0.65" RandomAngles=",180" RandomRotationRate=",30" ViewDistanceAdjust="30" DrawLast="-128" FillRateCost="0"/>
+  <Childs>
+   <Particles Name="soft_splash">
+    <Params Continuous="true" Count="30" ParticleLifeTime="0.85" PositionOffset=",0.1" EmitAngle="55,0.35" Texture="textures/particles/liquids/hd/hd_water_foam_a.tif" TextureTiling="2,2,,4" Alpha="0.25,,,(,,32;0.1812749,1,32;1)" AlphaClamp=",,(0.035856575,1,32;1)" Color="(0.62,0.675,0.753),,,(0.0033112583,(0.9743003,0.96581477,0.9573697);0.98344374,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.25" DiffuseBacklighting="0.75" EmissiveLighting="0.05" ReceiveShadows="true" Size=",0.3,,(,0.11363637,36;1,1)" Stretch="0.125,,,(,1,32;0.31075698,0.25;1)" Speed="5" InheritVelocity="0.65" GravityScale="1" RandomAngles=",180" RandomRotationRate=",30" ViewDistanceAdjust="30" DrawLast="-128" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="mist">
+    <Params Continuous="true" Count="20" ParticleLifeTime="1.25" PositionOffset=",0.1" EmitAngle="55,0.35" Texture="textures/particles/liquids/hd/hd_water_foam_c.tif" TextureTiling="2,2,,4" Alpha="0.25,,,(,,32;0.1812749,1,32;1)" Color="(0.62,0.675,0.753),,,(0.0033112583,(0.9743003,0.96581477,0.9573697);0.98344374,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.25" DiffuseBacklighting="0.75" EmissiveLighting="0.05" ReceiveShadows="true" Size="1.25,0.3,,(,0.11363637,36;1,1)" Stretch="0.125,,,(,1,32;0.31075698,0.25;1)" Speed="3" InheritVelocity="0.65" GravityScale="0.3" RandomAngles=",180" RandomRotationRate=",30" ViewDistanceAdjust="30" DrawLast="-128" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="wheel_churn">
+    <Params Continuous="true" Count="30" ParticleLifeTime="1.5" PositionOffset=",0.1" PosRandomOffset="0.25" EmitAngle="25,1" Texture="textures/particles/liquids/hd/hd_water_foam_c.dds" TextureTiling="2,2,,4" Alpha="0.65,,,(,,32;0.1812749,1,32;1)" AlphaClamp=",,(0.035856575,1,32;1)" Color="(0.62,0.675,0.753),,,(0.0033112583,(0.9743003,0.96581477,0.9573697);0.98344374,(0.78931385,0.78931385,0.78931385))" DiffuseLighting="0.25" DiffuseBacklighting="0.75" EmissiveLighting="0.05" ReceiveShadows="true" Size="0.75,0.3,,(,0.11363637,36;0.685259,1;1,0.6818182,4)" Stretch="0.125,,,(,1,32;0.31075698,0.25;1)" Speed="3" InheritVelocity="0.75" GravityScale="0.75" RandomAngles=",180" RandomRotationRate=",30" ViewDistanceAdjust="30" DrawLast="-128" FillRateCost="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Rim.Road_Rim_HD" Id="{B7685399-9DAB-40CC-A07E-BF7790967035}" Library="HD_Vehicles">
+  <Params InheritVelocity="1"/>
+  <Childs>
+   <Particles Name="Sparks">
+    <Params Continuous="true" Count="40" ParticleLifeTime="0.25,0.85" PositionOffset=",0.075" RandomOffset="0.05,,0.05" EmitAngle="35,1" Texture="textures/weapons/hd/dragonsbreath/t_sparks16_a.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.60738254,1;1)" Color=",,,(0.008988764,(0.9828264,0.91575027,0.8277259);0.24044944,(0.5295233,0.29765266,0.08021926);0.5280899,(0.44787088,0.05284163,0.032875918))" DiffuseLighting="0" EmissiveLighting="7.5" EmissiveHDRDynamic="2" Size="0.15,0.75,,(,1;0.70469797,1;1)" Stretch="0.1,0.9" Speed="1.5,0.65" InheritVelocity="-0.2" GravityScale="0.5" RandomAngles=",180" DynamicFriction="5"/>
+    <Childs>
+     <Particles Name="Sparks_Flat0">
+      <Params Enabled="false" Continuous="true" Count="3" SecondGeneration="true" SpawnOnParentCollision="true" ParticleLifeTime="0.2,0.8" Texture="textures/weapons/hd/dragonsbreath/t_sparks16_a.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.60738254,1;1)" Color=",,,(,(0.8355279,0.35865393,0.01431052);0.40066224,(0.7226725,0.065753885,0.0012017395))" DiffuseLighting="0" EmissiveLighting="5" EmissiveHDRDynamic="2" Size="0.15,0.9,,(,1;0.70469797,1;1)" Stretch="0.05,0.9" InheritVelocity="0.5" GravityScale="6,0.7" RandomAngles=",180" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="1" DynamicFriction="5"/>
+     </Particles>
+    </Childs>
+   </Particles>
+   <Particles Name="Smoke">
+    <Params Enabled="false" Continuous="true" Count="60" ParticleLifeTime="0.7" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.6,,,(;0.32885906,1;0.46644294,1;1)" Color=",,,(0.013245033,(0.4704403,0.18698853,0.013473397);0.4536424,(0.049433462,0.030256521,0.017936435))" SoftParticle="true" DiffuseLighting="0.4" DiffuseBacklighting="0.3" EmissiveLighting="0.5" Size="2.5,0.8,,(,0.18181819;1,1)" Speed="0.5" GravityScale="-0.5" RandomAngles=",180"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Rim.Dirt_Rim_HD" Id="{DBD7DB71-1C62-4DB2-B83B-7CA56DCD0802}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="35" ParticleLifeTime="0.4,0.25" EmitAngle="65,0.5" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.15,,,(,,32;0.2868526,1,32;1)" Color="(0.118,0.086,0.06)" SoftParticle="true" DiffuseLighting="0.4" DiffuseBacklighting="0.25" Size="0.3,0.25,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="0.125,,,(,1,32;0.42031872,0.29545453)" Speed="1" InheritVelocity="0.7" GravityScale="0.1" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+ </Particles>
+ <Particles Name="Surface.Gravel_Surface_HD" Id="{8F5AF23D-43A8-4527-ACE4-02260130B802}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="40" ParticleLifeTime="1,0.2" RandomOffset="0.1,,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.25,,,(;0.05970149,1;0.10738255,1;0.4183267,0.18181819;1)" Color="(0.33,0.29,0.263)" SoftParticle="true" DiffuseLighting="0.15" DiffuseBacklighting="0.5" ReceiveShadows="true" Size="0.85,0.4,,(,0.27272728;0.5,0.8636364;1,1,4)" Stretch="2.5,,,(,1,32;0.24253732,1;1)" Speed="0.5" InheritVelocity="0.25" AirResistance="0.2" GravityScale="-0.1" RandomAngles=",180" RandomRotationRate=",15" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="dust_plume">
+    <Params Enabled="false" Continuous="true" Count="50" ParticleLifeTime="7,0.25" RandomOffset="0.75,0.25,0.75" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.085,,,(;0.20318726,1;1)" Color="(0.165,0.137,0.118)" SoftParticle="true" DiffuseLighting="0.25" DiffuseBacklighting="0.75" Size="2.75,0.1,(,1;1,1),(,0.25,32;0.30478087,0.5,4;0.6713147,1;1,0.8181818,4)" Stretch="0.5,,,(,1,32;0.08964144,1;0.7450199)" Speed="0.5" InheritVelocity="0.005" AirResistance="0.1" RotationalDragScale="0.75" GravityScale="-0.075,,,(,0.11363637,32;0.65055764,0.09090909;1,1)" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="20" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="Grit">
+    <Params Continuous="true" Count="15" ParticleLifeTime="0.6" PosRandomOffset="0.1" FocusAngle="50" EmitAngle="20,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha="0.5,,,(,1;0.68791944,1,4;1)" AlphaTest="0.1" AlphaClamp="0.9" Color="(0.475,0.39,0.294),0.25" DiffuseLighting="0.4" DiffuseBacklighting="0.3" Size="0.3,0.3,,(,0.11363637,36;1,1)" Stretch="1,,,(,1;0.24161074,0.09090909)" Speed="3.5" GravityScale="0.45" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="tire_dust">
+    <Params Enabled="false" Continuous="true" Count="35" ParticleLifeTime="0.4,0.25" EmitAngle="65,0.5" Texture="textures/particles/smoke/smoke_tiled.tif" TextureTiling="2,2,,4" Alpha="0.15,,,(,,32;0.2868526,1,32;1)" Color="(0.153,0.11,0.08)" SoftParticle="true" DiffuseLighting="0.45" DiffuseBacklighting="0.25" Size="0.3,0.25,(,1;1,1),(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="0.125,,,(,1,32;0.42031872,0.29545453)" Speed="1" InheritVelocity="0.7" GravityScale="0.1" RandomAngles=",180" RotationRate=",-15" RandomRotationRate=",30" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Slip.Gravel_Slip_HD" Id="{B35A697B-19D0-403E-8AF0-783C9DA9A3BF}" Library="HD_Vehicles">
+  <Params Continuous="true" Count="40" ParticleLifeTime="4,0.1" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.15,,,(;0.2244898,1;1)" Color="(0.475,0.384,0.32)" SoftParticle="true" DiffuseLighting="0.3" DiffuseBacklighting="0.5" Size="3.5,0.6,,(,0.11363637,32;0.50398403,0.59090906,4;1,1)" Stretch=",,,(,1,32;0.24253732,1;1)" Speed="1" GravityScale="-0.01" RandomAngles=",180" RandomRotationRate=",15" FillRateCost="0" AllowMerging="false"/>
+  <Childs>
+   <Particles Name="fastdust">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.85,0.35" FocusAngle="90" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.2,,,(,,32;0.2868526,1,32;1)" Color="(0.42,0.34,0.29)" SoftParticle="true" DiffuseLighting="0.5" DiffuseBacklighting="0.35" Size="1.5,0.6,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="3,,,(,1,32;0.24253732,1;1)" Speed="2" InheritVelocity="-0.1" GravityScale="-0.2" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="tire_ground_dust">
+    <Params Continuous="true" Count="20" ParticleLifeTime="0.4,0.25" PositionOffset=",0.25" EmitAngle="85" Texture="textures/particles/smoke/smoke_large.tif" TextureTiling="2,2,,4" Alpha="0.3,,,(,,32;0.2868526,1,32;1)" Color="(0.353,0.267,0.208)" SoftParticle="true" DiffuseLighting="0.4" DiffuseBacklighting="0.35" Size="0.35,0.25,,(,0.09090909,32;0.4243028,0.8636364;0.98804784,0.97727275)" Stretch="2,,,(,1,32;0.5836653,0.22727273)" Speed="2.5" InheritVelocity="0.5" GravityScale="0.25" RandomAngles=",180" RandomRotationRate=",15" DrawLast="-30" FillRateCost="0" AllowMerging="false"/>
+   </Particles>
+   <Particles Name="Grit">
+    <Params Continuous="true" Count="20" PulsePeriod="1" ParticleLifeTime="1,0.5" PositionOffset=",0.3" RandomOffset="0.4,0.2,0.4" FocusAngle="55" FocusAzimuth="180" EmitAngle="10,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha=",,,(,1;0.73489934,1,4;1)" AlphaTest="0.05" AlphaClamp="0.9" Color="(0.518,0.43,0.333)" DiffuseLighting="0.4" DiffuseBacklighting="0.3" Size="0.5,0.3,,(,0.11363637,36;0.563745,1;1,1)" Stretch=",,,(,1;0.17857143,0.09090909)" Speed="7,0.5" GravityScale="0.9" RandomAngles=",180" RotationRate=",-90" RandomRotationRate=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="Grit_Backwards">
+    <Params Continuous="true" Count="20" PulsePeriod="1" ParticleLifeTime="0.8" PositionOffset=",0.3" RandomOffset="0.4,0.2,0.4" FocusAngle="60" EmitAngle="15,1" Texture="textures/particles/debris/dirtgrit_4x4_smaller.tif" TextureTiling="4,4,,16" Alpha="0.8,,,(,1;0.73489934,1,4;1)" AlphaTest="0.05" AlphaClamp="0.95" Color="(0.494,0.4,0.306)" DiffuseLighting="0.4" DiffuseBacklighting="0.3" Size="0.55,0.3,,(,0.11363637,36;0.50199205,1;1,1)" Stretch=",,,(,1;0.17857143,0.09090909)" Speed="6,0.5" GravityScale="0.4" RandomAngles=",180" ViewDistanceAdjust="30" DrawLast="-20" FillRateCost="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+</ParticleLibrary>

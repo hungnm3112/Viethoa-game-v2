@@ -1,0 +1,852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ZombieTypes>
+  <MarkupBlock>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.3" BlendInRootOffset="0.45, 0.0, 1.7" BlendInStartTime="0.16" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOver" MaxHeight="3.0" MinHeight="1.8" Name="Fast_ClimbOver_High" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_climb_high_fast" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_03_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_03_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.1666" BlendInRootOffset="0.15, 0.0, 1.23" BlendInStartTime="0" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOnto" MaxHeight="3" MinHeight="1.8" Name="Fast_ClimbOnto_High" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_climb_mid_onto_fast" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.55, 0.0, 0.0" BlendInStartTime="0.3333" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOver" MaxHeight="1.8" MinHeight="0" Name="Fast_ClimbOver" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_start" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.55, 0.0, 0.0" BlendInStartTime="0.3333" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.8666" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOnto" MaxHeight="1.8" MinHeight="0" Name="Fast_ClimbOnto" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_start" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.55, 0.0, 0.0" BlendInStartTime="0.3333" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="Window" MaxHeight="3.0" MinHeight="0" Name="Fast_Window" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_start" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.1333" BlendInRootOffset="0.43, 0.0, 1.7" BlendInStartTime="0.1666" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOver" MaxHeight="3.0" MinHeight="1.8" Name="Slow_ClimbOver_High" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_climb_high_slow" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.1666" BlendInRootOffset="0.15, 0.0, 1.23" BlendInStartTime="0" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOnto" MaxHeight="3" MinHeight="1.8" Name="Slow_ClimbOnto_High" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_climb_mid_onto" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.26, 0.0, 0.2" BlendInStartTime="0.4" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOver" MaxHeight="1.8" MinHeight="0.0" Name="Slow_ClimbOver" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_02_start" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.26, 0.0, 0.2" BlendInStartTime="0.4" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="1.2" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOnto" MaxHeight="1.8" MinHeight="0.0" Name="Slow_ClimbOnto" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_02_start" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.26, 0.0, 0.2" BlendInStartTime="0.4" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="Window" MaxHeight="3.0" MinHeight="0.0" Name="Slow_Window" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_02_start" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.26" BlendInRootOffset="0.43, 0.0, 1.7" BlendInStartTime="0.1333" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="BarbedWire" MaxHeight="3.0" MinHeight="1.8" Name="BarbedWire" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_climb_high_wire" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.26" BlendInRootOffset="0.43, 0.0, 1.7" BlendInStartTime="0.1333" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="DoorClimb" MaxHeight="3.0" MinHeight="1.8" Name="DoorClimb" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_climb_high_wire" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.55, 0.0, 0.0" BlendInStartTime="0.3333" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOver, Window" MaxHeight="1.5" MinHeight="0.5" Name="Freak_ClimbScreamer_ClimbOver" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_start" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.55, 0.0, 0.0" BlendInStartTime="0.3333" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.8666" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOnto" MaxHeight="1.5" MinHeight="0.5" Name="Freak_ClimbScreamer_ClimbOnto" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_start" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.26, 0.0, 0.2" BlendInStartTime="0.4" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOver, Window" MaxHeight="1.5" MinHeight="0.5" Name="Freak_ClimbBloater_ClimbOver" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_02_start" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.26, 0.0, 0.2" BlendInStartTime="0.4" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="1.2" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOnto" MaxHeight="1.5" MinHeight="0.5" Name="Freak_ClimbBloater_ClimbOnto" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_02_start" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0.0" AllowedAngleRangeStop="0.0" BlendInDuration="0.0" BlendInRootOffset="0.0,0.0,0.0" BlendInStartTime="0.0" ConstraintAngle="0.0" ConstraintBone="Bip01" CutoffTime="0.75" EndpointMinDistFore="0.0" EndpointMinDistRear="0.0" Flags="DoNoConstrain" MarkupTag="ClimbOver" MaxHeight="0.1" MinHeight="-0.1" Name="JumpDown_ClimbOver" SelectorPlane="">
+      <ZombieAnim AnimName="Test_wander_walk" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_03_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_03_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.55, 0.0, 0.0" BlendInStartTime="0.3333" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.0" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="Window, ClimbOver" MaxHeight="1.5" MinHeight="0" Name="SlowNoArms_Window_ClimbOver" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_start" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0" AllowedAngleRangeStop="0" BlendInDuration="0.2" BlendInRootOffset="0.55, 0.0, 0.0" BlendInStartTime="0.3333" ConstraintAngle="0.0" ConstraintBone="interact_bone" CutoffTime="0.8666" EndpointMinDistFore="0.5" EndpointMinDistRear="0.5" Flags="" MarkupTag="ClimbOnto" MaxHeight="1.8" MinHeight="0" Name="SlowNoArms_ClimbOnto" SelectorPlane="Ground">
+      <ZombieAnim AnimName="Environmental_window_start" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0.0" AllowedAngleRangeStop="0.0" BlendInDuration="0.0" BlendInRootOffset="0.0,0.0,0.0" BlendInStartTime="0.0" ConstraintAngle="0.0" ConstraintBone="Bip01" CutoffTime="0.75" EndpointMinDistFore="0.0" EndpointMinDistRear="0.0" Flags="DoNoConstrain" MarkupTag="ClimbOver" MaxHeight="0.1" MinHeight="-0.1" Name="Screamer_JumpDown_ClimbOver" SelectorPlane="">
+      <ZombieAnim AnimName="Basic_wander_creep_01" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_land" Flags="" />
+    </MarkupDef>
+    <MarkupDef AllowedAngleRangeStart="0.0" AllowedAngleRangeStop="0.0" BlendInDuration="0.0" BlendInRootOffset="0.0,0.0,0.0" BlendInStartTime="0.0" ConstraintAngle="0.0" ConstraintBone="Bip01" CutoffTime="0.75" EndpointMinDistFore="0.0" EndpointMinDistRear="0.0" Flags="DoNoConstrain" MarkupTag="ClimbOver" MaxHeight="0.1" MinHeight="-0.1" Name="Bloater_JumpDown_ClimbOver" SelectorPlane="">
+      <ZombieAnim AnimName="Basic_wander_creep" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_loop" Flags="" />
+      <ZombieAnim AnimName="Environmental_window_02_land" Flags="" />
+    </MarkupDef>
+    <MarkupGroup Name="DefaultMarkupFast">
+      <MarkupRef Ref="Fast_ClimbOver_High" />
+      <MarkupRef Ref="Fast_ClimbOnto_High" />
+      <MarkupRef Ref="Fast_ClimbOver" />
+      <MarkupRef Ref="Fast_ClimbOnto" />
+      <MarkupRef Ref="Fast_Window" />
+      <MarkupRef Ref="BarbedWire" />
+      <MarkupRef Ref="DoorClimb" />
+      <MarkupRef Ref="JumpDown_ClimbOver" />
+    </MarkupGroup>
+    <MarkupGroup Name="DefaultMarkupSlow">
+      <MarkupRef Ref="Slow_ClimbOver_High" />
+      <MarkupRef Ref="Slow_ClimbOnto_High" />
+      <MarkupRef Ref="Slow_ClimbOver" />
+      <MarkupRef Ref="Slow_ClimbOnto" />
+      <MarkupRef Ref="Slow_Window" />
+      <MarkupRef Ref="BarbedWire" />
+      <MarkupRef Ref="DoorClimb" />
+      <MarkupRef Ref="JumpDown_ClimbOver" />
+    </MarkupGroup>
+    <MarkupGroup Name="DefaultMarkupScreamer">
+      <MarkupRef Ref="Freak_ClimbScreamer_ClimbOver" />
+      <MarkupRef Ref="Freak_ClimbScreamer_ClimbOnto" />
+      <MarkupRef Ref="Screamer_JumpDown_ClimbOver" />
+    </MarkupGroup>
+    <MarkupGroup Name="DefaultMarkupBloater">
+      <MarkupRef Ref="Freak_ClimbBloater_ClimbOver" />
+      <MarkupRef Ref="Freak_ClimbBloater_ClimbOnto" />
+      <MarkupRef Ref="Bloater_JumpDown_ClimbOver" />
+    </MarkupGroup>
+    <MarkupGroup Name="DefaultMarkupSlow">
+      <MarkupRef Ref="SlowNoArms_Window_ClimbOver" />
+      <MarkupRef Ref="SlowNoArms_ClimbOnto" />
+      <MarkupRef Ref="JumpDown_ClimbOver" />
+    </MarkupGroup>
+  </MarkupBlock>
+  <ZombieAnimGroup GraphAnimationStateInput="none" GraphForcedState="Walk" InvestigateSpeed="0.98" MarkupGroup="DefaultMarkupSlow" PursueSpeed="2.07" Type="Slow" WalkSpeed="0.52">
+    <AngryGroup>
+      <ZombieAnim AnimName="Behavior_look_around01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_heavy_breathe" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Behavior_rage04" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_fake_attack02" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_wander_idle" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Test_wander_walk" Flags="" />
+      <ZombieAnim AnimName="Test_wander_walk_01" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Test_wander_run" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="ZombieMelee_taunt04_alert01" Flags="NoOrient" MaxTime="8" MinTime="6" />
+      <ZombieReachAnim AnimName="Behavior_look_around01" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Behavior_hunt" Flags="" />
+      <ZombieAnim AnimName="Behavior_roar01" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_wander_creep" Flags="" />
+      <ZombieAnim AnimName="Test_wander_creep_01" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="none" GraphForcedState="Walk" InvestigateSpeed="0.98" MarkupGroup="DefaultMarkupSlow" PursueSpeed="2.07" Type="SlowMissingArms" WalkSpeed="0.52">
+    <AngryGroup>
+      <ZombieAnim AnimName="Behavior_look_around01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_heavy_breathe" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Behavior_rage04" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_fake_attack02" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_wander_idle" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Test_wander_walk" Flags="" />
+      <ZombieAnim AnimName="Test_wander_walk_01" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Test_wander_run" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="ZombieMelee_taunt04_alert01" Flags="NoOrient" MaxTime="8" MinTime="6" />
+      <ZombieReachAnim AnimName="Behavior_look_around01" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Behavior_hunt" Flags="" />
+      <ZombieAnim AnimName="Behavior_roar01" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_wander_creep" Flags="" />
+      <ZombieAnim AnimName="Test_wander_creep_01" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="none" GraphForcedState="Run" InvestigateSpeed="3.68" MarkupGroup="DefaultMarkupFast" PursueSpeed="5.58" Type="Fast" WalkSpeed="0.52">
+    <AngryGroup>
+      <ZombieAnim AnimName="Behavior_look_around01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_heavy_breathe" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Behavior_rage01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_fake_attack01" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_wander_idle" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_loop" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_01" Flags="" />
+      <ZombieAnim AnimName="ZombieMelee_run_forward_02" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Behavior_heavy_breathe" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+      <ZombieReachAnim AnimName="Behavior_look_around01" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Behavior_look_around01" Flags="" />
+      <ZombieAnim AnimName="Behavior_roar01" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_wander_creep" Flags="" />
+      <ZombieAnim AnimName="Test_wander_creep_01" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="CrouchedEating" GraphForcedState="CrouchedEating" InvestigateSpeed="0.0" MarkupGroup="" PursueSpeed="0.0" Type="CrouchedEatFast" WalkSpeed="0.0">
+    <AngryGroup>
+      <ZombieAnim AnimName="Test_crouch_eat01" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Test_crouch_eat01" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Test_crouch_eat01" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_crouch_eat01" Flags="NoOrient" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Test_crouch_eat01" Flags="NoOrient" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Test_crouch_eat01" Flags="NoOrient" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Test_crouch_eat01" Flags="NoOrient" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Test_crouch_eat01" Flags="NoOrient" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_crouch_eat01" Flags="NoOrient" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="CrouchedEating" GraphForcedState="CrouchedEating" InvestigateSpeed="0.0" MarkupGroup="" PursueSpeed="0.0" Type="CrouchedEatFast01" WalkSpeed="0.0">
+    <AngryGroup>
+      <ZombieAnim AnimName="Behavior_look_around01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_heavy_breathe" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Behavior_rage01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_fake_attack01" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_crouch_eat02" Flags="NoOrient" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_loop" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_01" Flags="" />
+      <ZombieAnim AnimName="ZombieMelee_run_forward_02" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Behavior_heavy_breathe" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+      <ZombieReachAnim AnimName="Behavior_look_around01" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Behavior_look_around01" Flags="" />
+      <ZombieAnim AnimName="Behavior_roar01" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_wander_creep" Flags="" />
+      <ZombieAnim AnimName="Test_wander_creep_01" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="Dormant" GraphForcedState="Dormant" InvestigateSpeed="0.0" MarkupGroup="" PursueSpeed="0.0" Type="DormantSlow" WalkSpeed="0.0">
+    <AngryGroup>
+      <ZombieAnim AnimName="Test_dormant_idle" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Test_dormant_idle" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_dormant_idle" Flags="NoOrient" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Test_dormant_idle" Flags="NoOrient" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Test_dormant_idle" Flags="NoOrient" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Test_dormant_idle" Flags="NoOrient" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Test_dormant_idle" Flags="NoOrient" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_dormant_idle" Flags="NoOrient" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="none" GraphForcedState="Run" InvestigateSpeed="3.68" MarkupGroup="DefaultMarkupSlow" PursueSpeed="5.58" Type="Horde_Variant01" WalkSpeed="0.98">
+    <AngryGroup>
+      <ZombieAnim AnimName="Behavior_heavy_breathe" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_look_around01" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Behavior_fake_attack01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_fake_attack02" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_wander_idle" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_loop" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_01" Flags="" />
+      <ZombieAnim AnimName="ZombieMelee_run_forward_02" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="ZombieMelee_taunt05_alert02" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+      <ZombieReachAnim AnimName="Behavior_heavy_breathe" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Behavior_reach01" Flags="" />
+      <ZombieAnim AnimName="ZombieMelee_barricade_frantic_02" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_wander_walk" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="none" GraphForcedState="Run" InvestigateSpeed="3.68" MarkupGroup="DefaultMarkupFast" PursueSpeed="5.58" Type="Horde_Variant02" WalkSpeed="0.98">
+    <AngryGroup>
+      <ZombieAnim AnimName="Behavior_heavy_breathe" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_look_around01" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Behavior_rage02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_fake_attack02" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_wander_idle" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_loop" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_01" Flags="" />
+      <ZombieAnim AnimName="ZombieMelee_run_forward_02" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="ZombieMelee_taunt04_alert01" Flags="NoOrient" MaxTime="8" MinTime="6" />
+      <ZombieReachAnim AnimName="Behavior_look_around01" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="ZombieMelee_barricade_frantic_02" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_wander_walk_01" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="none" GraphForcedState="Run" InvestigateSpeed="3.68" MarkupGroup="DefaultMarkupFast" PursueSpeed="5.58" Type="Horde_Variant03" WalkSpeed="0.98">
+    <AngryGroup>
+      <ZombieAnim AnimName="Behavior_heavy_breathe" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_look_around01" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Behavior_rage02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Behavior_fake_attack02" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_wander_idle" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_loop" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="ZombieMelee_run_forward_01" Flags="" />
+      <ZombieAnim AnimName="ZombieMelee_run_forward_02" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="ZombieMelee_taunt04_alert01" Flags="NoOrient" MaxTime="8" MinTime="6" />
+      <ZombieReachAnim AnimName="Behavior_look_around01" Flags="OneOff, NoOrient" MaxTime="8" MinTime="6" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="ZombieMelee_barricade_frantic_02" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_relaxed_walk_forward_slow" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="StuckOnBack" GraphForcedState="StuckOnBack" InvestigateSpeed="0.0" MarkupGroup="DefaultMarkupSlow" PursueSpeed="0.0" Type="StuckOnBack" WalkSpeed="0.0">
+    <AngryGroup>
+      <ZombieAnim AnimName="ZombieReact_stuck_on_back" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="ZombieReact_stuck_on_back" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="ZombieReact_stuck_on_back" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="ZombieReact_stuck_on_back" Flags="NoOrient" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="ZombieReact_stuck_on_back" Flags="NoOrient" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="ZombieReact_stuck_on_back" Flags="NoOrient" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="ZombieReact_stuck_on_back" Flags="NoOrient" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="ZombieReact_stuck_on_back" Flags="NoOrient" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="ZombieReact_stuck_on_back" Flags="NoOrient" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="AmbushHeadbang" GraphForcedState="Ambush_Headbang" InvestigateSpeed="0.0" MarkupGroup="DefaultMarkupFast" PursueSpeed="0.0" Type="AmbushHeadBanger" WalkSpeed="0.0">
+    <AngryGroup>
+      <ZombieAnim AnimName="Test_dormant_bash_head" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Test_dormant_bash_head" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_dormant_bash_head" Flags="NoOrient" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Test_dormant_bash_head" Flags="NoOrient" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Test_dormant_bash_head" Flags="NoOrient" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Test_dormant_bash_head" Flags="NoOrient" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Test_dormant_bash_head" Flags="NoOrient" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_dormant_bash_head" Flags="NoOrient" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="AmbushSitting" GraphForcedState="Ambush_Sitting" InvestigateSpeed="0.0" MarkupGroup="DefaultMarkupFast" PursueSpeed="0.0" Type="AmbushSitter" WalkSpeed="0.0">
+    <AngryGroup>
+      <ZombieAnim AnimName="Test_dormant_sitting" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Test_dormant_sitting" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Environmental_door_locked_slam01" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam02" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam03" Flags="NoOrient" />
+      <ZombieAnim AnimName="Environmental_door_locked_slam04" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Test_dormant_sitting" Flags="NoOrient" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Test_dormant_sitting" Flags="NoOrient" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Test_dormant_sitting" Flags="NoOrient" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Test_dormant_sitting" Flags="NoOrient" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Test_dormant_sitting" Flags="NoOrient" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Test_dormant_sitting" Flags="NoOrient" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="" GraphForcedState="" InvestigateSpeed="0.95" MarkupGroup="DefaultMarkupScreamer" PursueSpeed="0.95" Type="Screamer" WalkSpeed="0.5">
+    <AngryGroup>
+      <ZombieAnim AnimName="Basic_idle" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Basic_idle" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Basic_idle" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Basic_idle" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Basic_wander_walk_01" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Basic_wander_walk_01" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Basic_idle" Flags="NoOrient" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Behavior_reach01" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Basic_wander_creep_01" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="" GraphForcedState="" InvestigateSpeed="2.04" MarkupGroup="DefaultMarkupBloater" PursueSpeed="2.04" Type="Bloater" WalkSpeed="0.5">
+    <AngryGroup>
+      <ZombieAnim AnimName="Basic_standing_idle" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Basic_standing_idle" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Basic_standing_idle" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Basic_standing_idle" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Basic_wander_walk_fast" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Basic_wander_walk_fast" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Basic_standing_idle" Flags="NoOrient" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Behavior_reach01" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Basic_wander_creep" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="BloaterDown" GraphForcedState="BloaterDown" InvestigateSpeed="0.0" MarkupGroup="" PursueSpeed="0.0" Type="BloaterDown" WalkSpeed="0.0">
+    <AngryGroup>
+      <ZombieAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="" GraphForcedState="" InvestigateSpeed="10" MarkupGroup="" PursueSpeed="10.0" Type="Feral" WalkSpeed="4.0">
+    <AngryGroup>
+      <ZombieAnim AnimName="Basic_standing_alert" Flags="" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Basic_standing_alert" Flags="" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Behavior_reach01" Flags="" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Basic_standing_alert" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Basic_sprint_forward" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Basic_sprint_forward" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Basic_standing_alert" Flags="" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Behavior_reach01" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Basic_walk_forward" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="" GraphForcedState="" InvestigateSpeed="0.73" MarkupGroup="" PursueSpeed="0.73" Type="Juggernaut" WalkSpeed="0.73">
+    <AngryGroup>
+      <ZombieAnim AnimName="Basic_relaxed_basic_idle" Flags="" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="Basic_relaxed_basic_idle" Flags="" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="Basic_relaxed_basic_idle" Flags="" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="Basic_relaxed_basic_idle" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="Basic_walk_forward" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="Basic_walk_forward" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="Basic_relaxed_basic_idle" Flags="" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="Behavior_reach01" Flags="" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="Basic_walk_forward" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="" GraphForcedState="" InvestigateSpeed="0.15" MarkupGroup="DefaultMarkupSlow" PursueSpeed="0.15" Type="Crawler" WalkSpeed="0.15">
+    <AngryGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="ZombieReact_DownFace" Flags="" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieAnimGroup GraphAnimationStateInput="" GraphForcedState="" InvestigateSpeed="0.0" MarkupGroup="DefaultMarkupSlow" PursueSpeed="0.0" Type="TRANSITIONS_FROM_SM" WalkSpeed="0.0">
+    <AngryGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+    </AngryGroup>
+    <AttackGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+    </AttackGroup>
+    <DoorAttackGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+    </DoorAttackGroup>
+    <IdleGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+      <ZombieAnim AnimName="ZombieReact_Down" Flags="NoOrient" />
+      <ZombieAnim AnimName="ZombieReact_downknees" Flags="NoOrient" />
+      <ZombieAnim AnimName="ZombieReact_down" Flags="NoOrient" />
+    </IdleGroup>
+    <InvestigateGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+    </InvestigateGroup>
+    <PursueGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+    </PursueGroup>
+    <ReachGroup>
+      <ZombieReachAnim AnimName="ZombieReact_headshot_idle" Flags="NoOrient" MaxTime="0.0" MinTime="0.0" />
+    </ReachGroup>
+    <ReactGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+    </ReactGroup>
+    <WalkGroup>
+      <ZombieAnim AnimName="ZombieReact_DownFace" Flags="NoOrient" />
+    </WalkGroup>
+  </ZombieAnimGroup>
+  <ZombieGroup Type="Ambient">
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Slow" AnimGroup="Slow" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="Slow" WanderDist="10.0" WanderVariance="20.0" Weight="80" />
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Fast" AnimGroup="Fast" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="Fast" WanderDist="10.0" WanderVariance="20.0" Weight="20" />
+    <ZombieDef AggroDist="3.0" AISignal="UL_Zombie_StuckOnBack" AnimGroup="StuckOnBack" BaseAggroDist="3.0" Flags="IgnoreEchoes" FOV="180" IdlePeriod="86400" IdleVariance="86400" LustOdds="0" LustType="" Name="StuckOnBack" WanderDist="0.0" WanderVariance="0.0" Weight="0" />
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Dormant_Slow" AnimGroup="DormantSlow" BaseAggroDist="15" Flags="IgnoreEchoes" FOV="180" IdlePeriod="86400" IdleVariance="86400" LustOdds="0" LustType="" Name="Dormant" WanderDist="0.0" WanderVariance="0.0" Weight="10" />
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Slow" AnimGroup="SlowMissingArms" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="SlowMissingArms" WanderDist="10.0" WanderVariance="20.0" Weight="0" />
+  </ZombieGroup>
+  <ZombieGroup Type="Ambush">
+    <ZombieDef AggroDist="3.5" AISignal="UL_Zombie_Fast" AnimGroup="AmbushHeadBanger" BaseAggroDist="2.0" Flags="" FOV="90" IdlePeriod="86400" IdleVariance="86400" LustOdds="0" LustType="" Name="AmbushHeadBanger" WanderDist="0.0" WanderVariance="0.0" Weight="100" />
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Fast" AnimGroup="AmbushSitter" BaseAggroDist="7.5" Flags="" FOV="90" IdlePeriod="86400" IdleVariance="86400" LustOdds="0" LustType="" Name="AmbushSitter" WanderDist="0.0" WanderVariance="0.0" Weight="100" />
+  </ZombieGroup>
+  <ZombieGroup Type="Horde">
+    <ZombieDef AggroDist="20" AISignal="UL_Zombie_Fast" AnimGroup="Horde_Variant01" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="10.0" IdleVariance="10.0" LustOdds="0" LustType="" Name="Horde01" WanderDist="10.0" WanderVariance="20.0" Weight="33" />
+    <ZombieDef AggroDist="20" AISignal="UL_Zombie_Fast" AnimGroup="Horde_Variant02" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="10.0" IdleVariance="10.0" LustOdds="0" LustType="" Name="Horde02" WanderDist="10.0" WanderVariance="20.0" Weight="33" />
+    <ZombieDef AggroDist="20" AISignal="UL_Zombie_Fast" AnimGroup="Horde_Variant03" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="10.0" IdleVariance="10.0" LustOdds="0" LustType="" Name="Horde03" WanderDist="10.0" WanderVariance="20.0" Weight="33" />
+  </ZombieGroup>
+  <ZombieGroup Type="Mission">
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Fast" AnimGroup="Fast" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="MissionFast" WanderDist="10.0" WanderVariance="20.0" Weight="100" />
+  </ZombieGroup>
+  <ZombieGroup Type="Infestation">
+    <ZombieDef AggroDist="8" AISignal="UL_Zombie_Eatting_Fast" AnimGroup="CrouchedEatFast" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="86400" IdleVariance="86400" LustOdds="100" LustType="Fast" Name="InfestationEating" WanderDist="0.0" WanderVariance="0.0" Weight="50" />
+    <ZombieDef AggroDist="8" AISignal="UL_Zombie_Eatting_Fast" AnimGroup="CrouchedEatFast01" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="86400" IdleVariance="86400" LustOdds="100" LustType="Fast" Name="InfestationEatingVariant" WanderDist="0.0" WanderVariance="0.0" Weight="50" />
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Fast" AnimGroup="Fast" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="InfestationFast" WanderDist="10.0" WanderVariance="20.0" Weight="50" />
+  </ZombieGroup>
+  <ZombieFreakGroup AudioPreload="" ContextTag="Screamer" EntityClass="Screamer" Flags="NoBarricade" Id="Screamer" KillScore="2" Max="100" Percentage="0.0" Type="Freak">
+    <ZombieDef AggroDist="15" AISignal="" AnimGroup="Screamer" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="FreakScreamer" WanderDist="10.0" WanderVariance="20.0" Weight="100" />
+  </ZombieFreakGroup>
+  <ZombieFreakGroup AudioPreload="zdx_bloater" ContextTag="Bloater" EntityClass="Bloater" Flags="NoBarricade, NoDismemberFX" Id="Bloater" KillScore="2" Max="100" Percentage="0.0" Type="Freak">
+    <ZombieDef AggroDist="15" AISignal="" AnimGroup="Bloater" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="FreakBloater" WanderDist="10.0" WanderVariance="20.0" Weight="100" />
+    <ZombieDef AggroDist="4.0" AISignal="UL_Zombie_Dormant_Passive" AnimGroup="BloaterDown" BaseAggroDist="4.0" Flags="IgnoreEchoes" FOV="180" IdlePeriod="86400" IdleVariance="0.0" LustOdds="0" LustType="" Name="BloaterDown" WanderDist="0.0" WanderVariance="0.0" Weight="0" />
+  </ZombieFreakGroup>
+  <ZombieFreakGroup AudioPreload="zdx_feral" ContextTag="Feral" EntityClass="Feral" Flags="AlwaysLive, NoBarricade" Id="Feral" KillScore="6" Max="4" Percentage="0.0" Type="Freak">
+    <ZombieDef AggroDist="6" AISignal="" AnimGroup="Feral" BaseAggroDist="1.5" Flags="" FOV="50" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="FreakFeral" WanderDist="10.0" WanderVariance="20.0" Weight="100" />
+  </ZombieFreakGroup>
+  <ZombieFreakGroup AudioPreload="zdx_juggernaut" ContextTag="Juggernaut" EntityClass="Juggernaut" Flags="AlwaysLive, NoBarricade" Id="Juggernaut" KillScore="10" Max="4" Percentage="0.0" Type="Freak">
+    <ZombieDef AggroDist="6" AISignal="" AnimGroup="Juggernaut" BaseAggroDist="1.5" Flags="" FOV="50" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="FreakJuggernaut" WanderDist="10.0" WanderVariance="20.0" Weight="100" />
+  </ZombieFreakGroup>
+  <ZombieFreakGroup AudioPreload="zdx_juggernaut" ContextTag="Armored" EntityClass="SwatZombie" Flags="" Id="SwatZombie" KillScore="4" Max="100" Percentage="0.0" Type="Freak">
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Slow" AnimGroup="Slow" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="FreakSwatZombie" WanderDist="10.0" WanderVariance="20.0" Weight="100" />
+  </ZombieFreakGroup>
+  <ZombieFreakGroup AudioPreload="" ContextTag="" EntityClass="FreshGrunt" Flags="UseNormalDot" Id="Eatter" KillScore="1" Max="100" Percentage="0.0" Type="Freak">
+    <ZombieDef AggroDist="8" AISignal="UL_Zombie_Eatting_Fast" AnimGroup="CrouchedEatFast" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="86400" IdleVariance="86400" LustOdds="100" LustType="Fast" Name="FreakEater" WanderDist="0.0" WanderVariance="0.0" Weight="100" />
+    <ZombieDef AggroDist="8" AISignal="UL_Zombie_Eatting_Fast" AnimGroup="CrouchedEatFast01" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="86400" IdleVariance="86400" LustOdds="100" LustType="Fast" Name="FreakEaterVariant" WanderDist="0.0" WanderVariance="0.0" Weight="100" />
+  </ZombieFreakGroup>
+  <ZombieFreakGroup AudioPreload="zdx_juggernaut" ContextTag="Armored" EntityClass="ArmyZombie" Flags="" Id="ArmyZombie" KillScore="4" Max="100" Percentage="0.0" Type="Freak">
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Fast" AnimGroup="Fast" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="FreakArmyZombie" WanderDist="10.0" WanderVariance="20.0" Weight="100" />
+  </ZombieFreakGroup>
+  <ZombieFreakGroup AudioPreload="" ContextTag="FreshZombie" EntityClass="FreshGrunt" Flags="UseNormalDot" Id="FreshZombie" KillScore="1" Max="100" Percentage="0.0" Type="Freak">
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Slow" AnimGroup="Slow" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="FreakFreshSlow" WanderDist="10.0" WanderVariance="20.0" Weight="80" />
+    <ZombieDef AggroDist="15" AISignal="UL_Zombie_Fast" AnimGroup="Fast" BaseAggroDist="2.0" Flags="" FOV="60" IdlePeriod="5.0" IdleVariance="5.0" LustOdds="0" LustType="" Name="FreakFreshFast" WanderDist="10.0" WanderVariance="20.0" Weight="20" />
+    <ZombieDef AggroDist="3.0" AISignal="UL_Zombie_Dormant_Slow" AnimGroup="DormantSlow" BaseAggroDist="2.0" Flags="IgnoreEchoes" FOV="180" IdlePeriod="86400" IdleVariance="86400" LustOdds="100" LustType="Slow" Name="FreakFreshDormant" WanderDist="0.0" WanderVariance="0.0" Weight="10" />
+  </ZombieFreakGroup>
+  <ZombieTransition AnimName="ZombieReact_DownFace">
+    <IntoTransition>
+      <ZombieAnim AnimName="Test_trip" Flags="" />
+    </IntoTransition>
+    <OutOfTransition>
+      <ZombieAnim AnimName="ZombieReact_DownFace_Getup" Flags="NoOrient" />
+    </OutOfTransition>
+  </ZombieTransition>
+  <ZombieTransition AnimName="ZombieReact_Down">
+    <IntoTransition>
+      <ZombieAnim AnimName="Test_trip" Flags="" />
+    </IntoTransition>
+    <OutOfTransition>
+      <ZombieAnim AnimName="ZombieReact_Down_Getup" Flags="NoOrient" />
+    </OutOfTransition>
+  </ZombieTransition>
+  <ZombieTransition AnimName="ZombieReact_downknees">
+    <IntoTransition>
+      <ZombieAnim AnimName="Test_trip" Flags="" />
+    </IntoTransition>
+    <OutOfTransition>
+      <ZombieAnim AnimName="ZombieReact_downknees_getup" Flags="NoOrient" />
+    </OutOfTransition>
+  </ZombieTransition>
+  <ZombieTransition AnimName="ZombieReact_down">
+    <IntoTransition>
+      <ZombieAnim AnimName="Test_trip" Flags="" />
+    </IntoTransition>
+    <OutOfTransition>
+      <ZombieAnim AnimName="ZombieReact_Down_Getup" Flags="NoOrient" />
+    </OutOfTransition>
+  </ZombieTransition>
+  <ZombieTransition AnimName="Test_crouch_eat01">
+    <IntoTransition>
+      <ZombieAnim AnimName="Test_crouch_eat01" Flags="NoOrient" />
+    </IntoTransition>
+    <OutOfTransition>
+      <ZombieAnim AnimName="Test_crouch_eat_exit" Flags="NoOrient" />
+    </OutOfTransition>
+  </ZombieTransition>
+  <ZombieTransition AnimName="Test_crouch_eat02">
+    <IntoTransition>
+      <ZombieAnim AnimName="Test_crouch_eat02" Flags="NoOrient" />
+    </IntoTransition>
+    <OutOfTransition>
+      <ZombieAnim AnimName="Test_crouch_eat_exit" Flags="NoOrient" />
+    </OutOfTransition>
+  </ZombieTransition>
+</ZombieTypes>

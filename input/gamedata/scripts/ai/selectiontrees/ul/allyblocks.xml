@@ -1,0 +1,240 @@
+<Blocks>
+  <Block name="AllyVariables">
+    <Variable name="FollowPlayer" default="false" />
+    <Variable name="ActivateFOGEAlly" default="false" />
+    <Variable name="Inside" default="false" />
+    <Variable name="MissionOp" default="false" />
+    <Variable name="DialogIdle" default="false" />
+
+    <Variable name="BehaviorIdle" default="false" />
+    <Variable name="BehaviorBarricade" default="false" />
+    <Variable name="BehaviorVigilant" default="false" />
+    <Variable name="BehaviorFollow" default="false" />
+    <Variable name="BehaviorHiding" default="false" />
+    <Variable name="BehaviorDefend" default="false" />
+    <Variable name="BehaviorMoveTo" default="false" />
+    <Variable name="BehaviorGather" default="false" />
+    <Variable name="BehaviorWatchtower" default="false" />
+    <Variable name="BehaviorScene" default="false" />
+    <Variable name="BehaviorSuicide" default="false" />
+    <Variable name="BehaviorPointAnimate" default="false" />
+
+    <Variable name="BehaviorBarricadeReady" default="false" />
+    <Variable name="BehaviorVigilantReady" default="false" />
+    <Variable name="BehaviorFollowReady" default="false" />
+    <Variable name="BehaviorHidingReady" default="false" />
+    <Variable name="BehaviorDefendReady" default="false" />
+    <Variable name="BehaviorMoveToReady" default="false" />
+    <Variable name="BehaviorGatherReady" default="false" />
+    <Variable name="BehaviorWatchtowerReady" default="false" />
+    <Variable name="BehaviorSuicideReady" default="false" />
+    <Variable name="BehaviorPointAnimateReady" default="false" />
+
+    <Variable name="ExitBehavior" default="false" />
+
+    <Variable name="RangedAttacker_Setup" default="false" />
+    <Variable name="RangedAttacker_Ready" default="false" />
+    <!-- Scenes -->
+    <Variable name="Scene_Sync" default="false" />
+    <Variable name="Scene_Action" default="false" />
+    <Variable name="Scene_ShouldStop" default="false" />
+    <Variable name="Scene_Move" default="false" />
+    <Variable name="Scene_LookAtOverride" default="false" />
+    <Variable name="Scene_FaceOverride" default="false" />
+    <Variable name="Scene_Talk" default="false" />
+    <Variable name="Scene_Exit" default="false" />
+    <Variable name="Scene_Initialized" default="false" />
+
+    <Variable name="Vigilant" default="false" />
+    <Variable name="StateMachine" default="false" />
+    <Variable name="HasGun" default="false" />
+    <Variable name="Reloading" default="false" />
+    <Variable name="NoLOSwithTarget" default="false" />
+
+    <Variable name="Greeter" default="false" />
+    <Variable name="GreetMode" default="false" />
+
+    <!-- Used to identify when an NPC should engage in melee/ranged combat -->
+    <Variable name="DealWithEnemyMelee" default="false" />
+    <Variable name="DealWithEnemyRanged" default="false" />
+    <Variable name="ForceEngageMelee" default="false" />
+
+    <Variable name="NickTest" default="false" />
+
+    <!-- barricades -->
+    <Variable name="BarricadesFull" default="false" />
+    <Variable name="BarricadesNeedAttention" default="false" />
+    <Variable name="Leash" default="false" />
+
+    <!-- vehicles -->
+    <Variable name="VehicleMoving" default="false" />
+    <Variable name="InVehicle" default="false" />
+
+    <!-- Used to differentiate staffing a watchtower vs siege sitautions -->
+    <Variable name="ModeStaffWatchtower" default="false" />
+
+    <Variable name="IgnoreZombies" default="false" />
+    <Variable name="AttackMove" default="false" />
+    <Variable name="Shooter" default="false" />
+    <Variable name="Rucksack" default="false" />
+
+    <!-- Target Distance -->
+    <Variable name="DistanceFromTarget_TooClose" default="false" />
+    <Variable name="DistanceFromTarget_Close" default="false" />
+    <Variable name="DistanceFromTarget_Far" default="false" />
+    <Variable name="DistanceFromTarget_TooFar" default="false" />
+
+    <!-- Target In Vehicle -->
+    <Variable name="TargetInVehicle" default="false" />
+
+    <!-- Gather/Search -->
+    <Variable name="InteractionAvailable" default="false" />
+    <Variable name="InteractionComplete" default="false" />
+
+    <!-- Zombies -->
+    <Variable name="DistanceFromThreat_Close" default="false" />
+    <Variable name="DistanceFromZombie_Close" default="false" />
+  </Block>
+    <Block name="AllySignalVariables">
+        <signal name="FROM_PLAYER" variable="FollowPlayer" value="false" />
+        <signal name="FROM_PLAYER" variable="ActivateFOGEAlly" value="false" />
+        <signal name="FROM_PLAYER" variable="Inside" value="false" />
+        <signal name="FROM_PLAYER" variable="MissionOp" value="false" />
+        <signal name="FROM_PLAYER" variable="DialogIdle" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorIdle" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorBarricade" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorVigilant" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorFollow" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorHiding" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorDefend" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorMoveTo" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorGather" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorWatchtower" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorScene" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorSuicide" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorPointAnimate" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorBarricadeReady" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorVigilantReady" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorFollowReady" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorHidingReady" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorDefendReady" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorMoveToReady" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorGatherReady" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorWatchtowerReady" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorSuicideReady" value="false" />
+        <signal name="FROM_PLAYER" variable="BehaviorPointAnimateReady" value="false" />
+        <signal name="FROM_PLAYER" variable="ExitBehavior" value="false" />
+        <signal name="FROM_PLAYER" variable="RangedAttacker_Setup" value="false" />
+        <signal name="FROM_PLAYER" variable="RangedAttacker_Ready" value="false" />
+        <signal name="FROM_PLAYER" variable="Scene_Sync" value="false" />
+        <signal name="FROM_PLAYER" variable="Scene_Action" value="false" />
+        <signal name="FROM_PLAYER" variable="Scene_ShouldStop" value="false" />
+        <signal name="FROM_PLAYER" variable="Scene_Move" value="false" />
+        <signal name="FROM_PLAYER" variable="Scene_LookAtOverride" value="false" />
+        <signal name="FROM_PLAYER" variable="Scene_FaceOverride" value="false" />
+        <signal name="FROM_PLAYER" variable="Scene_Talk" value="false" />
+        <signal name="FROM_PLAYER" variable="Scene_Exit" value="false" />
+        <signal name="FROM_PLAYER" variable="Scene_Initialized" value="false" />
+        <signal name="FROM_PLAYER" variable="Vigilant" value="false" />
+        <signal name="FROM_PLAYER" variable="StateMachine" value="false" />
+        <signal name="FROM_PLAYER" variable="HasGun" value="false" />
+        <signal name="FROM_PLAYER" variable="Reloading" value="false" />
+        <signal name="FROM_PLAYER" variable="NoLOSwithTarget" value="false" />
+        <signal name="FROM_PLAYER" variable="Greeter" value="false" />
+        <signal name="FROM_PLAYER" variable="GreetMode" value="false" />
+        <signal name="FROM_PLAYER" variable="DealWithEnemyMelee" value="false" />
+        <signal name="FROM_PLAYER" variable="DealWithEnemyRanged" value="false" />
+        <signal name="FROM_PLAYER" variable="ForceEngageMelee" value="false" />
+        <signal name="FROM_PLAYER" variable="NickTest" value="false" />
+        <signal name="FROM_PLAYER" variable="BarricadesFull" value="false" />
+        <signal name="FROM_PLAYER" variable="BarricadesNeedAttention" value="false" />
+        <signal name="FROM_PLAYER" variable="Leash" value="false" />
+        <signal name="FROM_PLAYER" variable="VehicleMoving" value="false" />
+        <signal name="FROM_PLAYER" variable="InVehicle" value="false" />
+        <signal name="FROM_PLAYER" variable="ModeStaffWatchtower" value="false" />
+        <signal name="FROM_PLAYER" variable="IgnoreZombies" value="false" />
+        <signal name="FROM_PLAYER" variable="AttackMove" value="false" />
+        <signal name="FROM_PLAYER" variable="Shooter" value="false" />
+        <signal name="FROM_PLAYER" variable="Rucksack" value="false" />
+        <signal name="FROM_PLAYER" variable="DistanceFromTarget_TooClose" value="false" />
+        <signal name="FROM_PLAYER" variable="DistanceFromTarget_Close" value="false" />
+        <signal name="FROM_PLAYER" variable="DistanceFromTarget_Far" value="false" />
+        <signal name="FROM_PLAYER" variable="DistanceFromTarget_TooFar" value="false" />
+        <signal name="FROM_PLAYER" variable="TargetInVehicle" value="false" />
+        <signal name="FROM_PLAYER" variable="InteractionAvailable" value="false" />
+        <signal name="FROM_PLAYER" variable="InteractionComplete" value="false" />
+        <signal name="FROM_PLAYER" variable="DistanceFromThreat_Close" value="false" />
+        <signal name="FROM_PLAYER" variable="DistanceFromZombie_Close" value="false" />
+
+        <Signal name="DialogIdle_On"            variable="DialogIdle" value="true" />
+        <Signal name="DialogIdle_Off"           variable="DialogIdle" value="false" />
+
+        <Signal name="ModeSceneStart"       variable="BehaviorScene"  value="true" />
+
+        <Signal name="SM_LOSwithTarget_LOST"      variable="NoLOSwithTarget" value="true" />
+        <Signal name="SM_LOSwithTarget_ACQUIRED"      variable="NoLOSwithTarget" value="false" />
+
+        <Signal name="SM_INSIDE_ON"         variable="Inside" value="true" />
+        <Signal name="SM_INSIDE_OFF"        variable="Inside" value="false" />
+
+        <Signal name="Shooter"              variable="Shooter"  value="true" />
+        <Signal name="ShooterClear"         variable="Shooter"  value="false" />
+
+        <Signal name="Rucksack"             variable="Rucksack" value="true" />
+        <Signal name="RucksackClear"        variable="Rucksack" value="false" />
+
+        <Signal name="AttackMove"           variable="AttackMove" value="true" />
+        <Signal name="AttackMoveClear"      variable="AttackMove" value="false" />
+
+        <Signal name="IgnoreZombies"        variable="IgnoreZombies" value="true" />
+        <Signal name="IgnoreZombiesClear"   variable="IgnoreZombies" value="false" />
+
+        <!-- barricades -->
+        <Signal name="BarricadeLevel_Full"      variable="BarricadesNeedAttention"  value="false" />
+        <Signal name="BarricadeLevel_NotFull"   variable="BarricadesNeedAttention"  value="true" />
+
+        <Signal name="SM_IsMissionOp_ON"        variable="MissionOp"  value="true" />
+        <Signal name="SM_IsMissionOp_OFF"       variable="MissionOp"  value="false" />
+
+        <Signal name="Shooter"   variable="DealWithEnemyRanged"  value="true" />
+        <Signal name="ShooterClear"   variable="DealWithEnemyRanged"  value="false" />
+
+        <Signal name="CommunityGreeter"         variable="Greeter"      value="true" />
+        <Signal name="CommunityGreeter"         variable="FollowPlayer" value="true" />
+        <Signal name="CommunityGreeterClear"    variable="FollowPlayer" value="false" />
+
+        <Signal name="Greeter"          variable="FollowPlayer"  value="false" />
+        <Signal name="Greeter"          variable="GreetMode"  value="true" />
+        <Signal name="GreeterClear"     variable="FollowPlayer"  value="false" />
+        <Signal name="GreeterClear"     variable="GreetMode"  value="false" />
+
+        <Signal name="SM_Leash_ON"   variable="Leash"  value="true" />
+        <Signal name="SM_Leash_OFF"   variable="Leash"  value="false" />
+
+        <Signal name="SM_ON"   variable="StateMachine"  value="true" />
+        <Signal name="SM_OFF"   variable="StateMachine"  value="false" />
+
+        <Signal name="SM_EngageTargetMelee_ON"   variable="DealWithEnemyMelee"  value="true" />
+        <Signal name="SM_EngageTargetMelee_OFF"   variable="DealWithEnemyMelee"  value="false" />
+
+        <Signal name="SM_ForceEngageMelee_ON"   variable="ForceEngageMelee"  value="true" />
+        <Signal name="SM_ForceEngageMelee_OFF"   variable="ForceEngageMelee"  value="false" />
+
+        <Signal name="SM_HAS_GUN_ON"   variable="HasGun"  value="true" />
+        <Signal name="SM_HAS_GUN_OFF"   variable="HasGun"  value="false" />
+
+        <Signal name="SM_VEHICLE_MOVING_ON"    variable="VehicleMoving"  value="true" />
+        <Signal name="SM_VEHICLE_MOVING_OFF"   variable="VehicleMoving"  value="false" />
+
+        <Signal name="SM_INVEHICLE_ON"    variable="InVehicle"  value="true" />
+        <Signal name="SM_INVEHICLE_OFF"   variable="InVehicle"  value="false" />
+
+        <Signal name="SM_TARGETINVEHICLE_ON"   variable="TargetInVehicle"  value="true" />
+        <Signal name="SM_TARGETINVEHICLE_OFF"   variable="TargetInVehicle"  value="false" />
+
+        <Signal name="NickTest_ON"   variable="NickTest"   value="true" />
+        <Signal name="NickTest_OFF"   variable="NickTest"  value="false" />
+
+        <Signal name="FOGE_NPC" variable="ActivateFOGEAlly"     value="true" />
+    </Block>
+</Blocks>

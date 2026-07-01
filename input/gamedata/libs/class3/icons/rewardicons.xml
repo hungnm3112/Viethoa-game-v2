@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="Empty" Value="1" />
+  <Icon Name="Ammo" Value="2" />
+  <Icon Name="Food" Value="3" />
+  <Icon Name="Unknown" Value="4" />
+  <Icon Name="Health" Value="5" />
+  <Icon Name="Building" Value="6" />
+  <Icon Name="Fuel" Value="7" />
+  <Icon Name="NPC" Value="8" />
+  <Icon Name="Base" Value="9" />
+  <Icon Name="Labor" Value="10" />
+  <Icon Name="HappyFace" Value="11" />
+  <Icon Name="NeutralFace" Value="12" />
+  <Icon Name="SadFace" Value="13" />
+  <Icon Name="Zombie" Value="14" />
+  <Icon Name="Influence" Value="15" />
+  <Icon Name="Reknown" Value="16" />
+  <Icon Name="Friendship" Value="17" />
+  <Icon Name="Time" Value="18" />
+  <Icon Name="Noise" Value="19" />
+  <Icon Name="Pack" Value="20" />
+  <Icon Name="Survey" Value="21" />
+  <Icon Name="Wall" Value="22" />
+  <Icon Name="Travel" Value="23" />
+</IconData>

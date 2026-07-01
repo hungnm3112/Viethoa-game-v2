@@ -1,0 +1,46 @@
+<SelectionTrees>
+    <SelectionTree name="ZombieAttacker" type="BehaviorSelectionTree">
+        <Variables>
+            <Variable name="Fast" default="false" />
+            <Variable name="ChargeOff" default="false" />
+            <Variable name="StateMachine" default="false" />
+            <Variable name="Pathfinding_AI" default="false" />
+            <Variable name="Pathfinding_Player" default="false" />
+            <Variable name="CryAIStartMoving" default="false" />
+            <Variable name="Initialized" default="false" />
+        </Variables>
+
+        <SignalVariables>
+            <Signal name="CryAIStartMoving" variable="CryAIStartMoving" value="true" />
+
+            <Signal name="UL_CHARGE_OFF" variable="ChargeOff" value="true" />
+
+            <Signal name="SM_OFF" variable="StateMachine" value="false" />
+            <Signal name="SM_ON" variable="StateMachine" value="true" />
+
+			<Signal name="SM_PATHING_AI_ON" variable="Pathfinding_AI" value="true" />
+			<Signal name="SM_PATHING_AI_OFF" variable="Pathfinding_AI" value="false" />
+
+            <Signal name="SM_PATHING_PLAYER_ON" variable="Pathfinding_Player" value="true" />
+			<Signal name="SM_PATHING_PLAYER_OFF" variable="Pathfinding_Player" value="false" />
+			
+			<Signal name="ZOMBIE_RESET" variable="Fast"                 value="false" />
+			<Signal name="ZOMBIE_RESET" variable="ChargeOff"            value="false" />
+			<Signal name="ZOMBIE_RESET" variable="StateMachine"         value="false" />
+			<Signal name="ZOMBIE_RESET" variable="Pathfinding_AI"       value="false" />
+			<Signal name="ZOMBIE_RESET" variable="Pathfinding_Player"   value="false" />
+			<Signal name="ZOMBIE_RESET" variable="CryAIStartMoving"     value="false" />
+			<Signal name="ZOMBIE_RESET" variable="Initialized"          value="false" />
+       </SignalVariables>
+
+        <Priority name="Root">
+            <Priority name="Initialized" condition="Initialized">
+                <Leaf name="UL_Zombie_MachineDriven" condition="StateMachine"/>
+    			<Leaf name="UL_Zombie_GraphDrivenPathing_AI" condition="Pathfinding_AI"/>
+    			<Leaf name="UL_Zombie_GraphDrivenPathing_Player" condition="Pathfinding_Player"/>
+    			<Leaf name="UL_Zombie_GraphDriven" condition="ChargeOff"/>
+            </Priority>
+			<Leaf name="UL_Zombie_GraphDrivenInitialize"/>
+        </Priority>
+    </SelectionTree>
+</SelectionTrees>

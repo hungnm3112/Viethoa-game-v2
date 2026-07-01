@@ -1,0 +1,68 @@
+<!-- Melee weapon script: Hammer -->
+<item name="Hammer" class="Fists" category="small" priority="1" invisible="1" >
+	<params>
+		<param name="giveable" 		value="1" />
+		<param name="selectable" 	value="1" />
+		<param name="droppable" value="0" />
+		<param name="pose" 				value="nw" />
+		<param name="mass"				value="0" />
+		<param name="melee_attack_firemode"	value="melee" />
+		<param name="raiseable" value="true" />
+		<param name="raise_distance" value="0.50" />
+    <param name="display_name"	value="Hammer" />
+
+    <dualwield>
+			<suffix value="akimbo_" />
+		</dualwield>
+	</params>
+	<geometry>
+		<thirdperson name="objects/weapons/hammer/hammer_basic/hammer_basic_01.cgf"/>
+	</geometry>
+	<actions>
+		<action name="select">
+			<animation target="firstperson" name="nw_arms_select" />
+			<animation target="owner" name="select_fist" />
+		</action>
+		<action name="deselect">
+			<animation target="firstperson" name="nw_arms_deselect" blendTime="0.5" />
+			<animation target="owner" name="deselect" />
+		</action>
+		<action name="idle">
+			<animation target="firstperson" name="nw_arms_idle" />
+		</action>
+
+		<action name="punch">
+			<!--<sound target="thirdperson" name="sounds/weapons:punch:fire" radius="5" static="0" />-->
+		</action>
+
+		<action name="melee">
+			<!--<sound target="thirdperson" name="sounds/weapons:punch:fire" radius="5" static="0" />-->
+		</action>
+
+		<action name="hit">
+			<!--<sound target="firstperson" name="sounds/physics:bullet_impact:melee_impact_sw" radius="5" />
+			<sound target="thirdperson" name="sounds/physics:bullet_impact:melee_impact_sw" radius="5" />-->
+		</action>
+	</actions>
+
+	<firemodes>
+		<firemode name="punch" type="Melee">
+			<melee>
+				<param name="damage" value="80" />
+			</melee>
+			<actions>
+				<param name="attack" value="punch" />
+			</actions>
+		</firemode>
+		<firemode name="melee" type="Melee">
+			<melee>
+				<param name="damage" value="80" />
+			</melee>
+			<actions>
+				<param name="attack" value="melee" />
+			</actions>
+		</firemode>
+	</firemodes>
+	<zoommodes>
+	</zoommodes>
+</item>

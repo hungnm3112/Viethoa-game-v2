@@ -1,0 +1,36 @@
+<item name="Molotov" class="Weapon" category="utility" priority="40" uniqueId="1">
+	<params>
+		<param name="giveable" 		value="0" />
+		<param name="selectable" 	value="0" />
+		<param name="droppable" 	value="0" />
+    <param name="unique" 	    value="0" />
+		<param name="pose" 				value="lockpick" />
+		<param name="mass"				value="4" />
+		<param name="raiseable"		value="true" />
+		<param name="raise_distance" value="0.60" />
+		<param name="uniqueId" value="1" />
+		<param name="display_name"	value="Firebomb" />
+    <param name="iconIndex"     value="5" />
+  </params>	<geometry>
+	</geometry>
+	<actions>
+	</actions>
+	<firemodes>
+	</firemodes>
+	<zoommodes>
+	</zoommodes>
+	<audio>
+    <player>
+	      <param name="precacheAudioFile" value="wpn_molotov" />
+      <events>
+        <event name="throw" output="Sounds/foley:fol_item_use:throw_molotov"/>	  
+      </events>
+    </player>
+    <npc>
+	      <param name="precacheAudioFile" value="wpn_molotov" />
+      <events>
+        <event name="throw" output="Sounds/foley:fol_item_use:throw_molotov"/>	
+      </events>	  	  
+    </npc>
+  </audio>
+</item>

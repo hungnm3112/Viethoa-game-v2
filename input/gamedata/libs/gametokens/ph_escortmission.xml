@@ -1,0 +1,13 @@
+<GameTokensLibrary Name="ph_EscortMission">
+ <GameToken Name="MissionPhase" Type="Int" Value="-1" LocalOnly="1"/>
+ <GameToken Name="MissionComplete" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="MissionRating" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="RunnersJumped" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="CurrentRunnerWaypoint" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Triggers.RunnersInbound" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="Triggers.GateClear" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="Triggers.Phase3AmbushPoint" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="RunnerWaypointFrozen" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="UpdateRunnerStatus" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="StopForDanger" Type="Bool" Value="false" LocalOnly="1"/>
+</GameTokensLibrary>

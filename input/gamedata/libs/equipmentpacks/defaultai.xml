@@ -1,0 +1,12 @@
+<EquipPack name="DefaultAI" primary="Fists">
+ <Items>
+  <Fists type="ItemGivable"/>
+ </Items>
+ <Ammos>
+  <Ammo name="bullet" amount="500"/>
+  <Ammo name="ShotgunShell" amount="0"/>
+  <Ammo name="UL_Grenade" amount="0"/>
+  <Ammo name="bulletmagnum" amount="0"/>
+  <Ammo name="bulletrifle" amount="0"/>
+ </Ammos>
+</EquipPack>

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActorConstantsData>
+  <DamageConstants>
+    <DamageScaling>
+      <DamageScalar Health="80" Scale="1.00" />
+      <DamageScalar Health="50" Scale="0.8" />
+      <DamageScalar Health="25" Scale="0.7" />
+      <DamageScalar Health="0" Scale="0.6" />
+    </DamageScaling>
+    <DamageValues>
+      <DamageValues Max="10.0" Min="10.0" Name="HealthGain_Normal_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="20.0" Min="20.0" Name="HealthGain_Normal_Standard" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="40.0" Min="40.0" Name="HealthGain_Normal_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="10.0" Min="10.0" Name="HealthGain_Bonus_Medicine" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="0.0" Min="0.0" Name="HealthRegen_Standard" PerSecond="4.0" Stat="Health" />
+      <DamageValues Max="0.0" Min="0.0" Name="HealthRegen_Heavy" PerSecond="10.0" Stat="Health" />
+      <DamageValues Max="0.0" Min="0.0" Name="HealthRegen_Level00_Normal" PerSecond="0.6" Stat="Health" />
+      <DamageValues Max="40" Min="30" Name="Health_Explosion" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="8.0" Min="6.0" Name="Health_Normal_Level00_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="16.0" Min="12.0" Name="Health_Normal_Level00_Standard" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="22.0" Min="18.0" Name="Health_Normal_Level00_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="3.0" Min="2.0" Name="Health_Cooldown_Level00_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="5.0" Min="4.0" Name="Health_Cooldown_Level00_Standard" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="8.0" Min="6.0" Name="Health_Cooldown_Level00_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="7.5" Min="5.5" Name="Health_Normal_Level01_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="15.0" Min="11.0" Name="Health_Normal_Level01_Standard" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="21.0" Min="17.0" Name="Health_Normal_Level01_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="7.0" Min="5.0" Name="Health_Normal_Level02_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="14.0" Min="10.0" Name="Health_Normal_Level02_Standard" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="20.0" Min="16.0" Name="Health_Normal_Level02_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="6.5" Min="4.5" Name="Health_Normal_Level03_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="13.0" Min="9.0" Name="Health_Normal_Level03_Standard" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="19.0" Min="15.0" Name="Health_Normal_Level03_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="6.0" Min="4.0" Name="Health_Normal_Level04_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="12.0" Min="8.0" Name="Health_Normal_Level04_Standard" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="18.0" Min="14.0" Name="Health_Normal_Level04_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="5.5" Min="3.5" Name="Health_Normal_Level05_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="11.0" Min="7.0" Name="Health_Normal_Level05_Standard" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="17.0" Min="13.0" Name="Health_Normal_Level05_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="5.0" Min="3.0" Name="Health_Normal_Level06_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="10.0" Min="6.0" Name="Health_Normal_Level06_Standard" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="16.0" Min="12.0" Name="Health_Normal_Level06_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="20" Min="20" Name="HealthPenalty_KnockdownTax" PerSecond="0.0" Stat="HealthPenalty" />
+      <DamageValues Max="6" Min="3" Name="HealthPenalty_Normal_Level00_Light" PerSecond="1.5" Stat="HealthPenalty" />
+      <DamageValues Max="10" Min="6" Name="HealthPenalty_Normal_Level00_Standard" PerSecond="3.5" Stat="HealthPenalty" />
+      <DamageValues Max="16" Min="10" Name="HealthPenalty_Normal_Level00_Heavy" PerSecond="6.5" Stat="HealthPenalty" />
+      <DamageValues Max="1" Min="1" Name="HealthPenalty_Cooldown_Level00_Light" PerSecond="1.5" Stat="HealthPenalty" />
+      <DamageValues Max="2" Min="2" Name="HealthPenalty_Cooldown_Level00_Standard" PerSecond="3.5" Stat="HealthPenalty" />
+      <DamageValues Max="3" Min="3" Name="HealthPenalty_Cooldown_Level00_Heavy" PerSecond="6.5" Stat="HealthPenalty" />
+      <DamageValues Max="6" Min="3" Name="HealthPenalty_Normal_Level01_Light" PerSecond="1.5" Stat="HealthPenalty" />
+      <DamageValues Max="10" Min="6" Name="HealthPenalty_Normal_Level01_Standard" PerSecond="3.5" Stat="HealthPenalty" />
+      <DamageValues Max="16" Min="10" Name="HealthPenalty_Normal_Level01_Heavy" PerSecond="6.5" Stat="HealthPenalty" />
+      <DamageValues Max="6" Min="3" Name="HealthPenalty_Normal_Level02_Light" PerSecond="1.5" Stat="HealthPenalty" />
+      <DamageValues Max="10" Min="6" Name="HealthPenalty_Normal_Level02_Standard" PerSecond="3.5" Stat="HealthPenalty" />
+      <DamageValues Max="16" Min="10" Name="HealthPenalty_Normal_Level02_Heavy" PerSecond="6.5" Stat="HealthPenalty" />
+      <DamageValues Max="6" Min="3" Name="HealthPenalty_Normal_Level03_Light" PerSecond="1.5" Stat="HealthPenalty" />
+      <DamageValues Max="10" Min="6" Name="HealthPenalty_Normal_Level03_Standard" PerSecond="3.5" Stat="HealthPenalty" />
+      <DamageValues Max="16" Min="10" Name="HealthPenalty_Normal_Level03_Heavy" PerSecond="6.5" Stat="HealthPenalty" />
+      <DamageValues Max="6" Min="3" Name="HealthPenalty_Normal_Level04_Light" PerSecond="1.5" Stat="HealthPenalty" />
+      <DamageValues Max="10" Min="6" Name="HealthPenalty_Normal_Level04_Standard" PerSecond="3.5" Stat="HealthPenalty" />
+      <DamageValues Max="16" Min="10" Name="HealthPenalty_Normal_Level04_Heavy" PerSecond="6.5" Stat="HealthPenalty" />
+      <DamageValues Max="6" Min="3" Name="HealthPenalty_Normal_Level05_Light" PerSecond="1.5" Stat="HealthPenalty" />
+      <DamageValues Max="10" Min="6" Name="HealthPenalty_Normal_Level05_Standard" PerSecond="3.5" Stat="HealthPenalty" />
+      <DamageValues Max="16" Min="10" Name="HealthPenalty_Normal_Level05_Heavy" PerSecond="6.5" Stat="HealthPenalty" />
+      <DamageValues Max="6" Min="3" Name="HealthPenalty_Normal_Level06_Light" PerSecond="1.5" Stat="HealthPenalty" />
+      <DamageValues Max="10" Min="6" Name="HealthPenalty_Normal_Level06_Standard" PerSecond="3.5" Stat="HealthPenalty" />
+      <DamageValues Max="16" Min="10" Name="HealthPenalty_Normal_Level06_Heavy" PerSecond="6.5" Stat="HealthPenalty" />
+      <DamageValues Max="0.0" Min="0.0" Name="HealthDot_Light" PerSecond="2.0" Stat="Health" />
+      <DamageValues Max="0.0" Min="0.0" Name="HealthDot_Standard" PerSecond="4.0" Stat="Health" />
+      <DamageValues Max="0.0" Min="0.0" Name="HealthDot_Heavy" PerSecond="6.0" Stat="Health" />
+      <DamageValues Max="0.0" Min="0.0" Name="HealthPenaltyDot_Heavy" PerSecond="6.0" Stat="HealthPenalty" />
+      <DamageValues Max="0.0" Min="0.0" Name="HealthDot_Debug" PerSecond="100.0" Stat="Health" />
+      <DamageValues Max="0.0" Min="0.0" Name="HealthPenaltyDot_Debug" PerSecond="100.0" Stat="HealthPenalty" />
+      <DamageValues Max="30.0" Min="30.0" Name="StaminaGain_Item_Food_Normal" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="6.0" Min="6.0" Name="StaminaGain_Perk_Rage_Level1" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="10.0" Min="10.0" Name="StaminaGain_Perk_Rage_Level2" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="14.0" Min="14.0" Name="StaminaGain_Perk_Rage_Level3" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Level00" PerSecond="6.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Level01" PerSecond="7.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Level02" PerSecond="8.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Level03" PerSecond="9.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Level04" PerSecond="10.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Level05" PerSecond="11.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Level06" PerSecond="12.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_High" PerSecond="12.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Stimulant_Standard" PerSecond="1.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Stimulant_Heavy" PerSecond="2.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Stealth_Stopped" PerSecond="16.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaRegen_Stealth_Moving" PerSecond="12.0" Stat="Stamina" />
+      <DamageValues Max="4.0" Min="4.0" Name="Stamina_Light_Normal" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="2.85" Min="2.85" Name="Stamina_Light_Reduced" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="6" Min="6" Name="Stamina_Standard_Normal" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="3.75" Min="3.75" Name="Stamina_Standard_Reduced" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="12" Min="12" Name="Stamina_Heavy_Normal" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="7" Min="7" Name="Stamina_Heavy_Reduced" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="20" Min="20" Name="Stamina_Special_Normal" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="16" Min="16" Name="Stamina_Special_Reduced" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="55.0" Min="55.0" Name="Stamina_Massive_Normal" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="45.0" Min="45.0" Name="Stamina_Massive_Reduced" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="16.0" Min="16.0" Name="Stamina_Dodge_Normal" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="10.0" Min="10.0" Name="Stamina_Dodge_Reduced" PerSecond="0.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDot_Light" PerSecond="10.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDot_Standard" PerSecond="20.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDot_Heavy" PerSecond="40.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDot_Focus" PerSecond="60.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDot_Debug" PerSecond="100.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Toxic" PerSecond="8.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level00_Normal" PerSecond="6.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level00_Encumbered" PerSecond="15.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level00_Marathon" PerSecond="3.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level00_MarathonEncumbered" PerSecond="7.5" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level01_Normal" PerSecond="5.5" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level01_Encumbered" PerSecond="22.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level02_Normal" PerSecond="5.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level02_Encumbered" PerSecond="20.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level03_Normal" PerSecond="4.5" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level03_Encumbered" PerSecond="18.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level04_Normal" PerSecond="4.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level04_Encumbered" PerSecond="16.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level05_Normal" PerSecond="3.5" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level05_Encumbered" PerSecond="14.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level06_Normal" PerSecond="3.0" Stat="Stamina" />
+      <DamageValues Max="0.0" Min="0.0" Name="StaminaDegen_Sprint_Level06_Encumbered" PerSecond="12.0" Stat="Stamina" />
+      <DamageValues Max="75" Min="50" Name="Damage_ToJuggernaut_Vulnerable_Unarmed" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="175" Min="150" Name="Damage_ToJuggernaut_Vulnerable_BluntLight" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="175" Min="150" Name="Damage_ToJuggernaut_Vulnerable_EdgedLight" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="300" Min="230" Name="Damage_ToJuggernaut_Vulnerable_BluntHeavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="50" Min="35" Name="Damage_ToJuggernaut_Normal_Unarmed" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="135" Min="100" Name="Damage_ToJuggernaut_Normal_BluntLight" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="135" Min="100" Name="Damage_ToJuggernaut_Normal_EdgedLight" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="225" Min="150" Name="Damage_ToJuggernaut_Normal_BluntHeavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="1000" Min="800" Name="Damage_ToJuggernaut_Explosives" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="250" Min="250" Name="Damage_ToJuggernaut_FireBombImpact" PerSecond="0" Stat="Health" />
+      <DamageValues Max="0" Min="0" Name="DamageDoT_ToJuggernaut_Burning" PerSecond="50" Stat="Health" />
+      <DamageValues Max="15" Min="15" Name="Damage_ToPlayer_Juggernaut_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="20" Min="20" Name="Damage_ToPlayer_Juggernaut_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="18" Min="18" Name="Damage_ToPlayer_Juggernaut_Light_Tier2" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="23" Min="23" Name="Damage_ToPlayer_Juggernaut_Heavy_Tier2" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="22" Min="22" Name="Damage_ToPlayer_Juggernaut_Light_Tier3" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="26" Min="26" Name="Damage_ToPlayer_Juggernaut_Heavy_Tier3" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="25" Min="25" Name="Damage_ToPlayer_Juggernaut_Light_Tier4" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="30" Min="30" Name="Damage_ToPlayer_Juggernaut_Heavy_Tier4" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="10" Min="10" Name="Damage_ToPlayer_Juggernaut_Heavy_Penalty" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="45" Min="45" Name="Damage_ToPlayer_Juggernaut_Bite" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="45" Min="45" Name="Damage_ToPlayer_Juggernaut_Bite_Tier2" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="52" Min="52" Name="Damage_ToPlayer_Juggernaut_Bite_Tier3" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="60" Min="60" Name="Damage_ToPlayer_Juggernaut_Bite_Tier4" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="20" Min="20" Name="Damage_ToPlayer_Juggernaut_Bite_Penalty" PerSecond="0.0" Stat="HealthPenalty" />
+      <DamageValues Max="65" Min="65" Name="Damage_ToPlayer_DeepWater" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="65" Min="65" Name="Damage_ToPlayer_DeepWater_Penalty" PerSecond="0.0" Stat="HealthPenalty" />
+      <DamageValues Max="6" Min="3" Name="Damage_ToPlayer_Feral_Light" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="15" Min="10" Name="Damage_ToPlayer_Feral_Heavy" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="25" Min="20" Name="Damage_ToPlayer_Feral_Bite" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="10" Min="10" Name="Damage_ToPlayer_Feral_Bite_Penalty" PerSecond="0.0" Stat="HealthPenalty" />
+      <DamageValues Max="10" Min="10" Name="Damage_ToJuggernaut_Vulnerable_Unarmed_NPC" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="50" Min="50" Name="Damage_ToJuggernaut_Vulnerable_BluntLight_NPC" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="50" Min="50" Name="Damage_ToJuggernaut_Vulnerable_EdgedLight_NPC" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="100" Min="100" Name="Damage_ToJuggernaut_Vulnerable_BluntHeavy_NPC" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="10" Min="10" Name="Damage_ToJuggernaut_Normal_Unarmed_NPC" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="30" Min="30" Name="Damage_ToJuggernaut_Normal_BluntLight_NPC" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="30" Min="30" Name="Damage_ToJuggernaut_Normal_EdgedLight_NPC" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="50" Min="50" Name="Damage_ToJuggernaut_Normal_BluntHeavy_NPC" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="15" Min="15" Name="Health_ExitVehicle_Fast" PerSecond="0.0" Stat="Health" />
+      <DamageValues Max="5" Min="5" Name="Health_BreakdownBonus01" PerSecond="1.5" Stat="Health" />
+      <DamageValues Max="5" Min="5" Name="Health_BreakdownBonus02" PerSecond="1.5" Stat="Health" />
+      <DamageValues Max="10" Min="10" Name="Health_BreakdownBonus03" PerSecond="1.5" Stat="Health" />
+    </DamageValues>
+    <FallingDamage>
+      <FallingDamage Distance="4" Max="10" Min="10" MinHealth="4" />
+      <FallingDamage Distance="6" Max="20" Min="20" MinHealth="4" />
+      <FallingDamage Distance="8" Max="30" Min="30" MinHealth="4" />
+      <FallingDamage Distance="10" Max="50" Min="50" MinHealth="4" />
+      <FallingDamage Distance="12" Max="80" Min="80" MinHealth="4" />
+      <FallingDamage Distance="14" Max="1000" Min="1000" MinHealth="1" />
+    </FallingDamage>
+  </DamageConstants>
+</ActorConstantsData>

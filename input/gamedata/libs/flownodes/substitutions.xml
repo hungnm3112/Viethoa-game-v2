@@ -1,0 +1,17 @@
+<Substitutions>
+  <!-- Basically you can change and old node class to a new class
+       and also reconnect edges to new ports, by remapping old ports to new ones
+       optionally you can also remap the value of an old input port to an new one,
+       when the port name has changed
+       also, you can set the input port values of the new node to reasonable/appropriate values-->
+  <!--
+	<Node OldClass="HUD:DisplayInstructionMessage" NewClass="HUD:DisplayInfoMessage" />
+	<Node OldClass="HUD:DisplayInstructionMessage" NewClass="HUD:DisplayPDAMessage">
+		<InputPort OldName="display" NewName="display" />
+		<InputPort OldName="message" NewName="objective" RemapValue="1" />
+	</Node>		
+	<Node OldClass="HUD:DisplayTimedDebugMessage" NewClass="HUD:DisplayTimedDebugMessage"> 
+		<Inputs DisplayTime="11.0" />
+	</Node>
+	-->	
+</Substitutions> 

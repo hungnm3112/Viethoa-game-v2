@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Controls
+    infestationColor="0, 0, 0, 0"
+    hoverSpeed="0.15"
+    moveSpeed="0.25"
+    compassZoomMin="0.5"
+    compassZoomMax="1.0"
+    compassZoomVehicleMaxSpeed="30.0"
+    compassZoomDayTime="1.0"
+    compassZoomNightTime="1.0"
+    compassZoomBuilding="3.0"
+    zoomDefault="10"
+    zoomMax="10"
+    zoomMin="1"
+    zoomSpeed="1.5"
+  />
+  <Levels>
+    <Level
+      name="Class3"
+      texture="Textures/Gui/Map/map.tif"
+      textureOffset="0.25"
+      textureSize="1024"
+      worldSize="8192"
+      worldOriginX = "256"
+      worldOriginY = "768"
+    >
+      <Chunks>
+        <Chunk
+          left="529"
+          top="487"
+          right="632"
+          bottom="590"
+          texture="Textures/Gui/Map/spencersMill512.dds"
+          textureSize="512"
+        />
+        <Chunk
+          left="632"
+          top="487"
+          right="736"
+          bottom="590"
+          texture="Textures/Gui/Map/macReadyFarm512.dds"
+          textureSize="512"
+        />
+      </Chunks>
+      <CursorBounds
+        left="256"
+        top="256"
+        right="768"
+        bottom="768"
+      />
+    </Level>
+  </Levels>
+</Map>

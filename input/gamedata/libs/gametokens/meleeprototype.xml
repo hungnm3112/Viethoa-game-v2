@@ -1,0 +1,14 @@
+<GameTokensLibrary Name="MeleePrototype">
+ <GameToken Name="NumZombies" Type="Int" Value="4" LocalOnly="1"/>
+ <GameToken Name="MaxZombies" Type="Int" Value="10" LocalOnly="1"/>
+ <GameToken Name="ObjectiveText" Type="String" Value="D-pad Up/Down - Add/Remove Zombies" LocalOnly="1"/>
+ <GameToken Name="Tutorial.BPromptVisible" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="Tutorial.BPromptAnnoying" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="Tutorial.BPromptDisplayCount" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Tutorial.TargetVulnerableHintAnnoying" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="Tutorial.TargetVulnerableHintCount" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="False" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="Tutorial.CounterHintCount" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Tutorial.CounterHintAnnoying" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="HealthKitCount" Type="Int" Value="99" LocalOnly="1"/>
+</GameTokensLibrary>

@@ -1,0 +1,36 @@
+<FXLib>
+	
+	<Effect name="body_shatter">
+	</Effect>
+
+	<Effect name="glass_shatter">
+	</Effect>
+
+	<Effect name="tree_falling">
+	</Effect>
+
+	<Effect name="vehicle_shatter">
+	</Effect>
+	
+	<Effect name="vehicle_window">
+	</Effect>
+
+	<Effect name="wood_shatter">
+	</Effect>
+
+	<Effect name="metal_shatter">
+		<Particle>
+			<Name minscale="0.85" maxscale="1.15" maxscaledist="80">Class3Bullets.metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="stone_shatter">
+	</Effect>
+
+	<Effect name="ice_shatter">
+	</Effect>
+
+	<Effect name="flesh_shatter">
+	</Effect>
+
+</FXLib>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SceneEventsData>
+  <SceneEventBucket Name="Activity - Clear Infestation">
+    <SceneEvent Event="ClearInfestationDiscover" Scene="actSurvey_Spot_Infestation" />
+    <SceneEvent Event="ClearInfestationVictory" Scene="activity_Done_Secure" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Activity - Scout Rescue">
+    <SceneEvent Event="ScoutRescueBuildingEnter" Scene="ScoutRescue_Enter" />
+    <SceneEvent Event="ScoutRescueBuildingEmpty" Scene="Scout_Clear" />
+    <SceneEvent Event="ScoutRescueVictory" Scene="activity_Done_Rescue" />
+    <SceneEvent Event="ScoutRescueTargetSpotted" Scene="gen_RescueHiding" />
+    <SceneEvent Event="ScoutRescueBuildingsNear " Scene="activity_Approach_Scout" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Activity - Scout Resource">
+    <SceneEvent Event="ScoutResourceAdd" Scene="activity_NewOpp" />
+    <SceneEvent Event="ScoutResourceVictory" Scene="Scout_Complete" />
+    <SceneEvent Event="ScoutResourceTagged" Scene="sig_Ready" />
+    <SceneEvent Event="ScoutResourceApproach" Scene="activity_Approach_Scout" />
+    <SceneEvent Event="ScoutResourceBuildingEmpty" Scene="Scout_Clear" />
+    <SceneEvent Event="ScoutResourcePropFindOther" Scene="Scout_Found" />
+    <SceneEvent Event="ScoutResourcePropFindNothing" Scene="Scout_Clear_NoResources" />
+    <SceneEvent Event="ScoutResourcePropTakeItem" Scene="chatTakeItem" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Activity - Survey">
+    <SceneEvent Event="SurveyVictory" Scene="actSurvey_Done" />
+    <SceneEvent Event="SurveyReachTop" Scene="Survey_ReachTop" />
+    <SceneEvent Event="SurveySpotBuilding" Scene="actSurvey_Spot_ResourceBuilding" />
+    <SceneEvent Event="SurveySpotEnclave" Scene="actSurvey_Spot_Survivors" />
+    <SceneEvent Event="SurveySpotHomeSite" Scene="actSurvey_Spot_Good" />
+    <SceneEvent Event="SurveySpotInfestation" Scene="actSurvey_Spot_Infestation" />
+    <SceneEvent Event="SurveySpotNeighborMission" Scene="actSurvey_Spot_Trouble" />
+    <SceneEvent Event="SurveySpotHorde" Scene="actSurvey_Spot_Horde" />
+    <SceneEvent Event="SurveySpotFreakBloater" Scene="actSurvey_Spot_Freak_Bloater" />
+    <SceneEvent Event="SurveySpotFreakFeral" Scene="actSurvey_Spot_Freak_Feral" />
+    <SceneEvent Event="SurveySpotFreakJuggernaut" Scene="actSurvey_Spot_Freak_Jug" />
+    <SceneEvent Event="SurveySpotFreakScreamer" Scene="actSurvey_Spot_Freak_Screamer" />
+    <SceneEvent Event="SurveySpotFreakSwatZombie" Scene="actSurvey_Spot_Freak_Swat" />
+    <SceneEvent Event="SurveySpotVehicle" Scene="actSurvey_Spot_Good" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Activity - Want">
+    <SceneEvent Event="WantAdd" Scene="activity_NewOpp_Want" />
+    <SceneEvent Event="WantVictory" Scene="Scout_Complete" />
+    <SceneEvent Event="WantFound" Scene="chatTakeItem" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Npc Events">
+    <SceneEvent Event="NpcBogActivate" Scene="BoG_NPCActivate" />
+    <SceneEvent Event="NpcInDanger" Scene="NpcInDanger" />
+    <SceneEvent Event="NpcGrabbedByFeral" Scene="NpcDanger_GrabbedByFeral" />
+    <SceneEvent Event="NpcGrabbedByJuggernaut" Scene="NpcDanger_GrabbedByJuggernaut" />
+    <SceneEvent Event="NpcPoisonedByBloater" Scene="NpcDanger_PoisonedByBloater" />
+    <SceneEvent Event="NpcBurnedByPlayer" Scene="NpcDanger_BurnedByPlayer" />
+    <SceneEvent Event="NpcExplodedByPlayer" Scene="NpcDanger_ExplodedByPlayer" />
+    <SceneEvent Event="NpcRunOverByPlayer" Scene="NpcDanger_RunOverByPlayer" />
+    <SceneEvent Event="NpcShotAtByPlayer" Scene="NpcDanger_ShotAtByPlayer" />
+    <SceneEvent Event="NpcRescuedByPlayer" Scene="NpcHelp_RescuedByPlayer" />
+    <SceneEvent Event="NpcCheeredByPlayer" Scene="NpcHelp_CheeredByPlayer" />
+    <SceneEvent Event="NpcLeaveAfterMission" Scene="Goodbye" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Player Events">
+    <SceneEvent Event="BoG_PlayerTaunt" Scene="BoG_PlayerTaunt" />
+    <SceneEvent Event="BoG_PlayerCommit" Scene="BoG_PlayerCommit" />
+    <SceneEvent Event="BoG_PlayerLastWords" Scene="BoG_PlayerLastWords" />
+    <SceneEvent Event="BoG_PlayerLastWords_Airstrike" Scene="BoG_PlayerLastWords_Airstrike" />
+    <SceneEvent Event="PlayerBreakGun" Scene="activityTwist_Bad" />
+    <SceneEvent Event="PlayerBreakWeapon" Scene="activityTwist_Bad" />
+    <SceneEvent Event="Radio_Disallowed_PlayerDown" Scene="ErrorRadio_PlayerDown" />
+    <SceneEvent Event="Journal_Disallowed_PlayerDown" Scene="ErrorJournal_PlayerDown" />
+    <SceneEvent Event="Map_Disallowed_PlayerDown" Scene="ErrorMap_PlayerDown" />
+    <SceneEvent Event="PlayerVehicleLocked" Scene="ErrorVehicle_NoDriving" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Activity - Intercept Horde">
+    <SceneEvent Event="InterceptHordeOtherAdd" Scene="activity_NewOpp_Intercept" />
+    <SceneEvent Event="InterceptHordeOtherVictoryNoParticipation" Scene="" />
+    <SceneEvent Event="InterceptHordeOtherVictoryOutpost" Scene="" />
+    <SceneEvent Event="InterceptHordeOtherVictoryPlayer" Scene="activity_Done_HordeDefense" />
+    <SceneEvent Event="InterceptHordeHomeAdd" Scene="activity_NewOpp_Intercept" />
+    <SceneEvent Event="InterceptHordeHomeFail" Scene="activity_Done_HordeDefense" />
+    <SceneEvent Event="InterceptHordeHomeReached" Scene="activity_Trouble_Ready" />
+    <SceneEvent Event="InterceptHordeHomeNearing" Scene="activity_Start_Defend_Incoming" />
+    <SceneEvent Event="InterceptHordeHomeVictoryNoParticipation" Scene="" />
+    <SceneEvent Event="InterceptHordeHomeVictoryOutpost" Scene="" />
+    <SceneEvent Event="InterceptHordeHomeVictoryPlayer" Scene="activity_Done_HordeDefense" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Activity - Assassinate">
+    <SceneEvent Event="AssassinateTargetSpotted" Scene="activity_Progress_FoeSpotted" />
+    <SceneEvent Event="AssassinateVictory" Scene="activity_Done_Assassinate" />
+    <SceneEvent Event="AssassinateBuildingEnter" Scene="actEnter_Assassinate" />
+    <SceneEvent Event="AssassinateBuildingNear " Scene="activity_Approach_Scout" />
+    <SceneEvent Event="AssassinateProgressKill" Scene="activity_Progress_First" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="RadioMenu - Airstrike">
+    <SceneEvent Event="Airstrike_Call" Scene="radioAirstrike_Success" />
+    <SceneEvent Event="Airstrike_Targeted" Scene="radioAirstrike_Targeted" />
+    <SceneEvent Event="Airstrike_Incoming" Scene="radioAirstrike_Incoming" />
+    <SceneEvent Event="Airstrike_Done" Scene="radioAirstrike_Done" />
+    <SceneEvent Event="Airstrike_ErrorNoFreeSlots" Scene="radioAirstrike_NoFreeSlots" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="RadioMenu - Sniper">
+    <SceneEvent Event="Sniper_Start" Scene="radioSniper_Hicks_Call" />
+    <SceneEvent Event="Sniper_SeekTarget" Scene="radioSniper_Hicks_SeekTarget" />
+    <SceneEvent Event="Sniper_Aim" Scene="radioSniper_Hicks_Aim" />
+    <SceneEvent Event="Sniper_Kill" Scene="radioSniper_Hicks_Shot" />
+    <SceneEvent Event="Sniper_Done" Scene="radioSniper_Hicks_Done" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="RadioMenu - Mercs">
+    <SceneEvent Event="Soldiers_Call" Scene="radioSoldiers_Call" />
+    <SceneEvent Event="Soldiers_Arrive" Scene="radioSoldiers_Arrive" />
+    <SceneEvent Event="Soldiers_Leave" Scene="radioSoldiers_Leave" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Radio Menu - MoveHome">
+    <SceneEvent Event="RadioMoveHome_Complete" Scene="radioMoveHome_Complete" />
+    <SceneEvent Event="RadioMoveHome_ErrorLowPopulation" Scene="radioMoveHome_NotEnoughPeople" />
+    <SceneEvent Event="RadioMoveHome_ErrorLowMaterials" Scene="radioMoveHome_NotEnoughMaterials" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Radio Menu - CallRunners">
+    <SceneEvent Event="RadioRunners_NoSupplies" Scene="radioRunners_NoSupplies" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Radio Menu - BuildHelp">
+    <SceneEvent Event="RadioBuild_NoBuilding" Scene="radioBuild_NoBuilding" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Radio Menu - Car">
+    <SceneEvent Event="RadioCar_NoSpace" Scene="radioCar_NoSpace" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Chatter">
+    <SceneEvent Event="ChatterFreakSpotted" Scene="actSurvey_Spot_Freak" />
+    <SceneEvent Event="ChatterFreakIncoming" Scene="actSurvey_Spot_Freak" />
+    <SceneEvent Event="ChatterHordeSpotted" Scene="actSurvey_Spot_Horde" />
+    <SceneEvent Event="ChatterHordeIncoming" Scene="actSurvey_Spot_Horde" />
+    <SceneEvent Event="ChatterLullPreMission" Scene="Lull_ReviewStatus" />
+    <SceneEvent Event="ChatterLullStoryMission" Scene="Lull_StoryMissions" />
+    <SceneEvent Event="ChatterLullMission" Scene="Lull_Mission" />
+    <SceneEvent Event="ChatterStaminaPenalty" Scene="Chatter_StaminaPenaltyGained" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="MissionOp">
+    <SceneEvent Event="MissionOpAreaNotSafe" Scene="Combat_Sim_MissionOp" />
+    <SceneEvent Event="OpTimeoutWarningSecond" Scene="activity_OppRemind_TimeShort" />
+    <SceneEvent Event="OpTimeoutWarningLast" Scene="activity_OppRemind_TimeShort" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="MissionObjectives">
+    <SceneEvent Event="SurveyNothingSpotted" Scene="" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="SearchParty - Supply Run">
+    <SceneEvent Event="SpSupplyRunComplete" Scene="activity_Done_NpcSupplyRun" />
+    <SceneEvent Event="SpSupplyRunArrive" Scene="activity_Arrive_NpcSupplyRun" />
+    <SceneEvent Event="SpSupplyRunReturn" Scene="activity_ReturnHome_NpcSupplyRun" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Greeting">
+    <SceneEvent Event="Chatter" Scene="GreetingChatter" />
+    <SceneEvent Event="Greeting" Scene="Greeting" />
+    <SceneEvent Event="Goodbye" Scene="Goodbye" />
+    <SceneEvent Event="Talk" Scene="GreetingTalk" />
+    <SceneEvent Event="BefriendSuccess" Scene="TalkBefriend_Success" />
+    <SceneEvent Event="BefriendFailure" Scene="TalkBefriend_Failure" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Supply Locker">
+    <SceneEvent Event="SupplyNeedInfluence" Scene="ErrorBuy_NotEnoughInfluence" />
+    <SceneEvent Event="ErrorRucksack_OutpostDelivery" Scene="ErrorRucksack_OutpostDelivery" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="General">
+    <SceneEvent Event="BuildingClear" Scene="Scout_Done_Secure" />
+    <SceneEvent Event="BuildingNotClear" Scene="Scout_Done_NotSecure" />
+    <SceneEvent Event="SearchCrashDisturbance" Scene="Noise_Aggro" />
+    <SceneEvent Event="SearchCrash" Scene="Noise_NoAggro" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Items">
+    <SceneEvent Event="ItemAmmoWrongType" Scene="ErrorReload_WrongType" />
+    <SceneEvent Event="ItemAmmoFullyLoaded" Scene="ErrorReload_FullyLoaded" />
+    <SceneEvent Event="ItemBackpackTooSmall" Scene="ErrorTake_BackpackTooSmall" />
+    <SceneEvent Event="ItemFoodStaminaSurgeActive" Scene="ErrorFood_StaminaSurge" />
+    <SceneEvent Event="ItemFoodStaminaFull" Scene="ErrorFood_StaminaFull" />
+    <SceneEvent Event="ItemFullBackpack" Scene="ErrorTake_FullInventory" />
+    <SceneEvent Event="ItemMedsHealthFull" Scene="ErrorMeds_HealthFull" />
+    <SceneEvent Event="ItemNothingToSelect" Scene="ErrorItem_NothingToSelect" />
+    <SceneEvent Event="ItemNothingToUse" Scene="ErrorItem_NothingToUse" />
+    <SceneEvent Event="ItemStimStaminaMaxFull" Scene="ErrorStim_StaminaMaxFull" />
+    <SceneEvent Event="ItemStimStaminaSurgeActive" Scene="Error_Generic_WillNot" />
+    <SceneEvent Event="ItemSuppressorNoGun" Scene="ErrorSilencer_NoGun" />
+    <SceneEvent Event="ItemSuppressorIncompatibleGun" Scene="ErrorSilencer_IncompatibleGun" />
+    <SceneEvent Event="ItemSuppressorAlreadyEquipped" Scene="ErrorSilencer_AlreadyEquipped" />
+    <SceneEvent Event="ItemCantUse" Scene="Error_Generic_NotNow" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Switch to Character">
+    <SceneEvent Event="SwitchChar_FailNotFriend" Scene="ErrorSwitchChar_NotFriend" />
+    <SceneEvent Event="SwitchChar_FailMissing" Scene="ErrorSwitchChar_Missing" />
+    <SceneEvent Event="SwitchChar_FailFleeing" Scene="ErrorSwitchChar_Fleeing" />
+    <SceneEvent Event="SwitchChar_FailDead" Scene="ErrorSwitchChar_Dead" />
+    <SceneEvent Event="SwitchChar_FailBusy" Scene="ErrorSwitchChar_Busy" />
+    <SceneEvent Event="SwitchChar_FailInjured" Scene="ErrorSwitchChar_Injured" />
+    <SceneEvent Event="SwitchChar_Away" Scene="SwitchChar_Away" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Emotes">
+    <SceneEvent Event="emote_Yell" Scene="emote_Yell" />
+    <SceneEvent Event="emote_Cheer" Scene="emote_Cheer" />
+    <SceneEvent Event="emote_Agree" Scene="emote_Agree" />
+    <SceneEvent Event="emote_Disagree" Scene="emote_Disagree" />
+    <SceneEvent Event="emote_Taunt_Hushed" Scene="emote_Taunt_Hushed" />
+  </SceneEventBucket>
+  <SceneEventBucket Name="Followers">
+    <SceneEvent Event="FollowerGoodbye" Scene="GenResp_Goodbye_Positive" />
+    <SceneEvent Event="FollowerCant" Scene="GenResp_No" />
+    <SceneEvent Event="FollowerNotEnough" Scene="ErrorBuy_NotEnoughInfluence" />
+    <SceneEvent Event="FollowerReady" Scene="sig_Ready_Follower" />
+  </SceneEventBucket>
+</SceneEventsData>

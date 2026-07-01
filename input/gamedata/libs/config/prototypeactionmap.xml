@@ -1,0 +1,285 @@
+<profile version="0">
+    <platforms>
+        <PC keyboard="1" xboxpad="1" />
+        <Xbox keyboard="1" xboxpad="1" />
+    </platforms>
+
+    <actionmap name="debug" version="22">
+        <!-- debug keys - move to debug when we can switch devmode-->
+        <action name="flymode" onPress="1" noModifiers="1" keyboard="f3" />
+        <!-- debug keys - end -->
+    </actionmap>
+
+    <actionmap name="multiplayer" version="20">
+    <!-- multiplayer specific keys -->
+        <!--
+        <action name="radio_group_0" onPress="1" keyboard="f5" />
+        <action name="radio_group_1" onPress="1" keyboard="f6" />
+        <action name="radio_group_2" onPress="1" keyboard="f7" />
+        <action name="radio_group_3" onPress="1" keyboard="f8" />
+        -->
+    </actionmap>
+
+    <actionmap name="singleplayer" version="20">
+    <!-- singleplayer specific keys -->
+        <!--
+        <action name="save" onPress="1" consoleCmd="1" keyboard="f5" />
+        <action name="loadLastSave" onPress="1" consoleCmd="1" keyboard="f9" />
+        <action name="load" onPress="1" consoleCmd="1" keyboard="f8" />
+        -->
+    </actionmap>
+
+    <actionmap name="default" version="21">
+    <!-- default keys -->
+        <action name="screenshot" onPress="1" keyboard="f12" />
+        <action name="skip_cutscene" onPress="1" noModifiers="1" keyboard="space" />
+        <action name="objectives" onPress="1" onRelease="1" noModifiers="0" keyboard="o" />
+
+        <!-- UI keys -->
+        <action name="ui_left_mouse" onPress="1" onRelease="1" holdRepeatDelay="-1">
+            <keyboard>
+                <inputdata input="mouse1"/>
+            </keyboard>
+        </action>
+        <action name="ui_right_mouse" onPress="1" onRelease="1" holdRepeatDelay="-1">
+            <keyboard>
+                <inputdata input="mouse2"/>
+            </keyboard>
+        </action>
+        <action name="ui_click" onPress="1" onRelease="1" holdRepeatDelay="-1">
+					  <keyboard>
+						    <inputdata input="space"/>
+					  </keyboard>
+					  <xboxpad>
+						    <inputdata input="xi_a"/>
+					  </xboxpad>
+				</action>
+        <action name="ui_back" onPress="1" onRelease="1" holdRepeatDelay="-1">
+					  <keyboard>
+						    <inputdata input="escape"/>
+					  </keyboard>
+					  <xboxpad>
+						    <inputdata input="xi_b"/>
+					  </xboxpad>
+				</action>
+        <action name="ui_use" onPress="1" onRelease="1" holdRepeatDelay="-1" xboxpad="xi_y" keyboard="e"/>
+        <action name="ui_x" onPress="1" onRelease="1" holdRepeatDelay="-1" xboxpad="xi_x" keyboard="q"/>
+        <action name="ui_toggle_pause" onPress="1" onRelease="1" xboxpad="xi_start"/>
+        <action name="ui_rb" onPress="1" onRelease="0">
+			      <keyboard>
+				        <inputdata input="tab"/>
+			      </keyboard>
+			      <xboxpad>
+				        <inputdata input="xi_shoulderr"/>
+			      </xboxpad>
+		    </action>
+        <action name="ui_lb" onPress="1" onRelease="0">
+			      <keyboard>
+				        <inputdata input="z"/>
+			      </keyboard>
+			      <xboxpad>
+				        <inputdata input="xi_shoulderl"/>
+			      </xboxpad>
+		    </action>
+
+        <action name="ui_up" onPress="1" onHold="1" holdTriggerDelay="0.3" holdRepeatDelay="0.13" >
+            <keyboard>
+                <inputdata input="w" />
+            </keyboard>
+            <xboxpad>
+                <inputdata input="xi_dpad_up" />
+                <inputdata input="xi_thumbly" useAnalogCompare="1" analogCompareVal="0.5" analogCompareOp="GREATERTHAN" />
+            </xboxpad>
+        </action>
+
+        <action name="ui_down" onPress="1" onHold="1" holdTriggerDelay="0.3" holdRepeatDelay="0.13" >
+            <keyboard>
+                <inputdata input="s" />
+            </keyboard>
+            <xboxpad>
+                <inputdata input="xi_dpad_down" />
+                <inputdata input="xi_thumbly" useAnalogCompare="1" analogCompareVal="-0.5" analogCompareOp="LESSTHAN" />
+            </xboxpad>
+        </action>
+
+        <action name="ui_left" onPress="1" onHold="1" holdTriggerDelay="0.3" holdRepeatDelay="0.13" >
+            <keyboard>
+                <inputdata input="a" />
+            </keyboard>
+            <xboxpad>
+                <inputdata input="xi_dpad_left" />
+                <inputdata input="xi_thumblx" useAnalogCompare="1" analogCompareVal="-0.5" analogCompareOp="LESSTHAN" />
+            </xboxpad>
+        </action>
+
+        <action name="ui_right" onPress="1" onHold="1" holdTriggerDelay="0.3" holdRepeatDelay="0.13" >
+            <keyboard>
+                <inputdata input="d" />
+            </keyboard>
+            <xboxpad>
+                <inputdata input="xi_dpad_right" />
+                <inputdata input="xi_thumblx" useAnalogCompare="1" analogCompareVal="0.5" analogCompareOp="GREATERTHAN" />
+            </xboxpad>
+        </action>
+
+        <action name="ui_scroll_up" onPress="1" xboxpad="xi_triggerl_btn" keyboard="mwheel_up"/>
+        <action name="ui_scroll_down" onPress="1" xboxpad="xi_triggerr_btn" keyboard="mwheel_down"/>
+
+        <action name="map_exit" onPress="1" xboxpad="xi_back" keyboard="m"/>
+        <action name="map_cycle_poi" onPress="1" xboxpad="xi_thumbr"/>
+        <action name="map_next_poi" onPress="1" xboxpad="xi_dpad_right" keyboard="tab"/>
+        <action name="map_prev_poi" onPress="1" xboxpad="xi_dpad_left" keyboard="z"/>
+        <action name="map_toggle_legend" onPress="1" xboxpad="xi_y" keyboard="space"/>
+        <action name="map_toggle_waypoint" onPress="1" xboxpad="xi_a" keyboard="mouse1"/>
+        <action name="map_move_x" onPress="1" keyboard="maxis_x"/>
+        <action name="map_move_y" onPress="1" keyboard="maxis_y"/>
+        <action name="map_zoom_stick" onPress="1" xboxpad="xi_thumbry" />
+        <action name="map_zoom_in" onPress="1" onHold="1" onRelease="1" retriggerable="1" keyboard="mwheel_up"/>
+        <action name="map_zoom_out" onPress="1" onHold="1" onRelease="1" retriggerable="1" keyboard="mwheel_down"/>
+        <action name="map_move_faster" onPress="1" onRelease="1" xboxpad="xi_shoulderl" keyboard="lshift"/>
+        <action name="map_move_debug" onPress="1" xboxpad="xi_thumbl" keyboard="lctrl"/>
+        <action name="xi_map_move_x" onPress="1" onHold="1" onRelease="1" xboxpad="xi_thumblx"/>
+        <action name="xi_map_move_y" onPress="1" onHold="1" onRelease="1" xboxpad="xi_thumbly"/>
+        <action name="xi_map_zoom_in" onPress="1" onHold="1" onRelease="1" keyboard="xi_triggerr"/>
+        <action name="xi_map_zoom_out" onPress="1" onHold="1" onRelease="1" keyboard="xi_triggerl"/>
+    </actionmap>
+
+    <!-- UL player keys -->
+    <actionmap name="ul_player_base" version="1">
+        <action name="xi_rotateyaw" xboxpad="xi_thumbrx" />
+        <action name="xi_rotatepitch" xboxpad="xi_thumbry" />
+        <action name="rotateyaw" keyboard="maxis_x" />
+        <action name="rotatepitch" keyboard="maxis_y" />
+
+        <action name="xi_movey" xboxpad="xi_thumbly" />
+        <action name="xi_movex" xboxpad="xi_thumblx" />
+        <action name="moveleft" onPress="1" onRelease="1" retriggerable="1" keyboard="a" />
+        <action name="moveright" onPress="1" onRelease="1" retriggerable="1" keyboard="d" />
+        <action name="moveforward" onPress="1" onRelease="1" retriggerable="1" keyboard="w" />
+        <action name="moveback" onPress="1" onRelease="1" retriggerable="1" keyboard="s" />
+        <action name="sprint" onPress="1" onRelease="1" onHold="0" retriggerable="0" keyboard="lshift" xboxpad="xi_shoulderl" />
+        <action name="turbo_hold" onPress="0" onRelease="0" onHold="1" keyboard="lshift" xboxpad="xi_shoulderl" />
+        <action name="item" onPress="1" onRelease="0" onHold="0" retriggerable="1" keyboard="f" xboxpad="xi_shoulderr" />
+        <action name="item_hold" onPress="0" onRelease="0" onHold="1" retriggerable="1" keyboard="rshift" xboxpad="xi_shoulderr" />
+        <action name="ul_inventory" onPress="1" onHold="1" xboxpad="xi_dpad_down" />
+
+        <action name="xi_use" onPress="1" onRelease="0" keyboard="e" xboxpad="xi_y" />
+        <action name="xi_use_hold" onPress="0" onRelease="0" onHold="1" keyboard="e" xboxpad="xi_y" />
+
+        <action name="revive" onPress="1" keyboard="mouse1" xboxpad="xi_triggerr_btn" />
+
+        <action name="ul_aim_analog" xboxpad="xi_triggerl" />
+        <action name="ul_aim" onPress="1" onRelease="1" xboxpad="xi_triggerl_btn" keyboard="mouse2" />
+        <action name="ul_aim_hold" onPress="1" onRelease="0" onHold="1" xboxpad="xi_triggerl_btn" keyboard="mouse2" />
+        <action name="ul_shoot" onPress="1" onRelease="0" keyboard="mouse1" xboxpad="xi_triggerr_btn" />
+        <action name="ul_shoot_hold" onPress="0" onRelease="0" onHold="1" keyboard="mouse1" xboxpad="xi_triggerr_btn" />
+        <action name="attack1" onPress="1" onRelease="1" onHold="1" keyboard="mouse1" xboxpad="xi_triggerr_btn" />
+
+        <action name="emote_hold" onPress="1" onRelease="0" onHold="1" xboxpad="xi_triggerr_btn" keyboard="capslock" />
+        <action name="emote1" onPress="1" onRelease="0" keyboard="1"/>
+        <action name="emote2" onPress="1" onRelease="0" keyboard="4"/>
+        <action name="emote3" onPress="1" onRelease="0" keyboard="3"/>
+        <action name="emote4" onPress="1" onRelease="0" keyboard="2"/>
+        <action name="execute" onPress="1" onRelease="0" onHold="1" keyboard="z"/>
+        <action name="roll" onPress="1" onRelease="0" onHold="1" keyboard="lctrl"/>
+        <action name="drop" onPress="1" onRelease="0" keyboard="x"/>
+
+        <action name="camera" onPress="1" onRelease="0" onHold="0" keyboard="q" xboxpad="xi_thumbl" />
+        <action name="camera_hold" onPress="0" onRelease="0" onHold="1" keyboard="q" xboxpad="xi_thumbl" />
+    </actionmap>
+
+    <actionmap name="ul_player_nav" version="1">
+        <action name="jump" onPress="1" onRelease="0" onHold="0" keyboard="space" xboxpad="xi_a" />
+        <action name="jump_hold" onPress="0" onRelease="0" onHold="1" keyboard="space" xboxpad="xi_a" />
+        <action name="cover" onPress="1" onRelease="0" keyboard="c" xboxpad="xi_b" />
+        <action name="cover_hold" onPress="0" onRelease="0" onHold="1" keyboard="c" xboxpad="xi_b" />
+        <action name="crouch" onPress="1" onRelease="1" keyboard="t" xboxpad="xi_thumbr" />
+        <action name="crouch_hold" onPress="0" onRelease="0" onHold="1" keyboard="t" xboxpad="xi_thumbr" />
+        <action name="ul_melee_attack" onPress="1" onRelease="0" keyboard="mouse1" xboxpad="xi_x" />
+        <action name="ul_melee_attack_hold" onPress="0" onRelease="0" onHold="1" keyboard="mouse1" xboxpad="xi_x"/>
+        <action name="reload" onPress="1" onRelease="0" keyboard="r" />
+    </actionmap>
+
+    <actionmap name="ul_player_aim" version="1">
+        <action name="firemode" onPress="1" onRelease="0" keyboard="space" xboxpad="xi_a" />
+        <action name="cover" onPress="1" onRelease="0" keyboard="c" xboxpad="xi_b" />
+        <action name="cover_hold" onPress="0" onRelease="0" onHold="1" keyboard="c" xboxpad="xi_b" />
+        <action name="crouch" onPress="1" onRelease="1" keyboard="t" xboxpad="xi_thumbr" />
+        <action name="crouch_hold" onPress="0" onRelease="0" onHold="1" keyboard="t" xboxpad="xi_thumbr" />
+        <action name="reload" onPress="1" onRelease="0" xboxpad="xi_y" keyboard="r" />
+    </actionmap>
+
+    <actionmap name="ul_player_item" version="1">
+        <action name="ul_next_consumable" onPress="1" onHold="1" keyboard="mwheel_down" xboxpad="xi_dpad_right" />
+        <action name="ul_prev_consumable" onPress="1" onHold="1" keyboard="mwheel_up" xboxpad="xi_dpad_left" />
+        <action name="ul_journal_menu">
+						<keyboard>
+							  <inputdata onPress="1" input="tab" noModifiers="1" />
+						</keyboard>
+						<xboxpad>
+							  <inputdata onHold="1" holdTriggerDelay="0.12" input="xi_dpad_up"/>
+						</xboxpad>
+				</action>
+        <action name="ul_radio_menu">
+            <keyboard>
+                <inputdata onPress="1" onHold="1" input="lalt"/>
+            </keyboard>
+            <xboxpad>
+                <inputdata onHold="1" holdTriggerDelay="0.12" input="xi_dpad_down"/>
+            </xboxpad>
+        </action>
+        <action name="ul_map_menu" onPress="1" xboxpad="xi_back" keyboard="m"/>
+    </actionmap>
+
+    <actionmap name="vehicle_general" version="21">
+    <!-- vehicle keys -->
+        <action name="v_exit" onPress="1" onRelease="1" onHold="1" keyboard="e" xboxpad="xi_y" />
+        <action name="v_horn" onPress="1" onRelease="1" keyboard="q" xboxpad="xi_thumbl" />
+        <action name="v_lights" onPress="1" onRelease="1" keyboard="t" xboxpad="xi_thumbr" />
+        <action name="v_siren" onPress="1" onRelease="1" keyboard="lctrl" xboxpad="xi_a" />
+
+        <!-- CONSOLE SPECIFIC CONTROLS START -->
+        <!--<action name="xi_v_movey" xboxpad="xi_thumbly" />-->
+        <action name="v_moveforward" onPress="1" onRelease="1" keyboard="w" xboxpad="xi_triggerr" />
+        <action name="v_moveback" onPress="1" onRelease="1" keyboard="s" xboxpad="xi_triggerl" />
+        <action name="sprint" onPress="1" onRelease="1" onHold="0" retriggerable="0" keyboard="lshift" xboxpad="xi_shoulderl" />
+        <action name="turbo_hold" onPress="0" onRelease="0" onHold="1" keyboard="lshift" xboxpad="xi_shoulderl" />
+
+        <action name="v_turnleft" onPress="1" onRelease="1" retriggerable="1" keyboard="a" />
+        <action name="v_turnright" onPress="1" onRelease="1" retriggerable="1" keyboard="d" />
+
+        <action name="v_brake" onPress="1" onRelease="1" keyboard="space" xboxpad="xi_b" />
+        <action name="xi_movey" xboxpad="xi_thumbly" />
+        <action name="xi_movex" xboxpad="xi_thumblx"/>
+        <action name="xi_v_movex" xboxpad="xi_thumblx" />
+        <action name="xi_v_rotateyaw" xboxpad="xi_thumbrx" />
+        <action name="xi_v_rotatepitch" xboxpad="xi_thumbry" />
+        <action name="rotateyaw" keyboard="maxis_x" />
+        <action name="rotatepitch" keyboard="maxis_y" />
+        <action name="ul_melee_attack" onPress="1" onRelease="0" keyboard="mouse1" xboxpad="xi_x" />
+        <action name="ul_melee_attack_hold" onPress="0" onRelease="0" onHold="1" keyboard="mouse1" xboxpad="xi_x" />
+        <action name="ul_journal_menu">
+				    <keyboard>
+						    <inputdata onPress="1" input="tab" noModifiers="1" />
+				    </keyboard>
+				    <xboxpad>
+						    <inputdata onHold="1" holdTriggerDelay="0.12" input="xi_dpad_up"/>
+				    </xboxpad>
+		    </action>
+        <action name="ul_radio_menu">
+        	  <keyboard>
+                <inputdata onHold="1" input="lalt"/>
+            </keyboard>
+            <xboxpad>
+                <inputdata onHold="1" holdTriggerDelay="0.12" input="xi_dpad_down"/>
+            </xboxpad>
+        </action>
+        <action name="ul_map_menu" onPress="1" xboxpad="xi_back" keyboard="m"/>
+
+        <!-- New for HD -->
+        <action name="ul_next_consumable" onPress="1" onHold="1" keyboard="mwheel_down" xboxpad="xi_dpad_right" />
+        <action name="ul_prev_consumable" onPress="1" onHold="1" keyboard="mwheel_up" xboxpad="xi_dpad_left" />
+         <!-- CONSOLE SPECIFIC CONTROLS END -->
+    </actionmap>
+
+</profile>

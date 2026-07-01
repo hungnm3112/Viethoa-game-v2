@@ -1,0 +1,1011 @@
+<FXLib>
+
+	<Effect name="hit_mat_default">
+
+	</Effect>
+	
+	<Effect name="default_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:default</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="wood_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:wood_hollow</Name>
+		</Sound>
+	</Effect>
+	
+	<Effect name="wood_solid_wood_hollow">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:wood_hollow</Name>
+		</Sound>
+	</Effect>
+	
+<Effect name="zed_bf_metal_solid_torso">
+		<Sound>
+			<Name>sounds/foley:br_metal_solid:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_metal_solid_limb">
+		<Sound>
+			<Name>sounds/foley:br_metal_solid:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>	
+	
+<Effect name="zed_bf_metal_hollow_torso">
+		<Sound>
+			<Name>sounds/foley:br_metal_hollow:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_metal_hollow_limb">
+		<Sound>
+			<Name>sounds/foley:br_metal_hollow:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>	
+	
+<Effect name="zed_bf_concrete_torso">
+		<Sound>
+			<Name>sounds/foley:br_concrete:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_concrete_limb">
+		<Sound>
+			<Name>sounds/foley:br_concrete:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>	
+	
+<Effect name="zed_bf_tile_torso">
+		<Sound>
+			<Name>sounds/foley:br_tile:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_tile_limb">
+		<Sound>
+			<Name>sounds/foley:br_tile:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>		
+	
+<Effect name="zed_bf_wood_torso">
+		<Sound>
+			<Name>sounds/foley:br_wood:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_wood_limb">
+		<Sound>
+			<Name>sounds/foley:br_wood:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>	
+	
+<Effect name="zed_bf_wood_hollow_torso">
+		<Sound>
+			<Name>sounds/foley:br_wood_hollow:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_wood_hollow_limb">
+		<Sound>
+			<Name>sounds/foley:br_wood_hollow:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>		
+	
+<Effect name="zed_bf_debris_misc_torso">
+		<Sound>
+			<Name>sounds/foley:br_debris_misc:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_debris_misc_limb">
+		<Sound>
+			<Name>sounds/foley:br_debris_misc:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>		
+	
+<Effect name="zed_bf_upholstery_torso">
+		<Sound>
+			<Name>sounds/foley:br_upholstery:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_upholstery_limb">
+		<Sound>
+			<Name>sounds/foley:br_upholstery:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>		
+	
+<Effect name="zed_bf_carpet_torso">
+		<Sound>
+			<Name>sounds/foley:br_carpet:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_carpet_limb">
+		<Sound>
+			<Name>sounds/foley:br_carpet:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>		
+	
+<Effect name="zed_bf_dirt_torso">
+		<Sound>
+			<Name>sounds/foley:br_dirt:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_dirt_limb">
+		<Sound>
+			<Name>sounds/foley:br_dirt:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>		
+	
+<Effect name="zed_bf_grass_torso">
+		<Sound>
+			<Name>sounds/foley:br_grass:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_grass_limb">
+		<Sound>
+			<Name>sounds/foley:br_grass:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>		
+
+<Effect name="zed_bf_water_torso">
+		<Sound>
+			<Name>sounds/foley:br_water:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_water_limb">
+		<Sound>
+			<Name>sounds/foley:br_water:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>	
+	
+<Effect name="zed_bf_mud_torso">
+		<Sound>
+			<Name>sounds/foley:br_mud:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zed_bf_mud_limb">
+		<Sound>
+			<Name>sounds/foley:br_mud:zed_bodyfall</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>		
+	
+<Effect name="zedflesh_splat_torso">
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>materials/decals/blood_splats/blood_splat3</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+	
+<Effect name="zedflesh_splat_limb">
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".5" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+
+<Effect name="zedflesh_splat">
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="0.35" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".35" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".35" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".35" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+
+
+<Effect name="zedflesh_splat_small">
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="0.35" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats1</Material>
+			</Decal>
+			<Decal minscale=".35" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats2</Material>
+			</Decal>
+			<Decal minscale=".35" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats3</Material>
+			</Decal>
+			<Decal minscale=".35" maxscale="1" growtime="0.0">
+				<Material>Materials/decals/blood_splats/blood_zed_ropey_splats4</Material>
+			</Decal>
+		</RandEffect>
+</Effect>
+
+
+
+<Effect name="veh_hvy_destroyed">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:destruction_land</Name>
+		</Sound>
+</Effect>
+
+<Effect name="veh_hvy_metal">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:generic</Name>
+		</Sound>
+</Effect>
+
+	
+<Effect name="veh_hvy_metal_chainlink">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:chainlink</Name>
+		</Sound>
+</Effect>	
+
+<Effect name="veh_metal_shoppingcart">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:metal_shoppingcart</Name>
+		</Sound>
+</Effect>	
+
+<Effect name="veh_hvy_glass">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:generic</Name>
+		</Sound>
+</Effect>
+	
+<Effect name="veh_hvy_wood">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:generic</Name>
+		</Sound>
+</Effect>
+
+<Effect name="veh_hvy_concrete">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:generic</Name>
+		</Sound>
+</Effect>	
+	
+<Effect name="veh_water">
+	<Particle>
+	  <Name>Class3Collisions.vehicles.water</Name>
+	</Particle>	
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:water</Name>
+		</Sound>
+</Effect>	
+
+<Effect name="veh_hvy_dirt">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:dirt</Name>
+		</Sound>
+</Effect>
+	
+<Effect name="veh_hvy_leaves">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:foliage</Name>
+		</Sound>
+</Effect>		
+	
+	
+	
+	
+	<Effect name="shotgun_shell_carpet">
+		<Sound>
+			<Name>sounds/weapons:phy_shotgunshell:carpet</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="shotgun_shell_concrete">
+		<Sound>
+			<Name>sounds/weapons:phy_shotgunshell:concrete</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="shotgun_shell_default">
+		<Sound>
+			<Name>sounds/weapons:phy_shotgunshell:default</Name>
+		</Sound>
+	</Effect>	
+
+	<Effect name="shotgun_shell_dirt">
+		<Sound>
+			<Name>sounds/weapons:phy_shotgunshell:dirt</Name>
+		</Sound>
+	</Effect>
+	
+	<Effect name="shotgun_shell_grass">
+		<Sound>
+			<Name>sounds/weapons:phy_shotgunshell:grass</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="shotgun_shell_metal">
+		<Sound>
+			<Name>sounds/weapons:phy_shotgunshell:metal</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="shotgun_shell_mud">
+		<Sound>
+			<Name>sounds/weapons:phy_shotgunshell:mud</Name>
+		</Sound>
+	</Effect>
+	
+	<Effect name="shotgun_shell_water">
+		<Sound>
+			<Name>sounds/weapons:phy_shotgunshell:water</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="shotgun_shell_wood">
+		<Sound>
+			<Name>sounds/weapons:phy_shotgunshell:wood</Name>
+		</Sound>
+	</Effect>							
+	
+	
+	<Effect name="bullet_shell_carpet">
+		<Sound>
+			<Name>sounds/weapons:phy_bulletcasing:carpet</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="bullet_shell_concrete">
+		<Sound>
+			<Name>sounds/weapons:phy_bulletcasing:concrete</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="bullet_shell_default">
+		<Sound>
+			<Name>sounds/weapons:phy_bulletcasing:default</Name>
+		</Sound>
+	</Effect>	
+
+	<Effect name="bullet_shell_dirt">
+		<Sound>
+			<Name>sounds/weapons:phy_bulletcasing:dirt</Name>
+		</Sound>
+	</Effect>
+	
+	<Effect name="bullet_shell_grass">
+		<Sound>
+			<Name>sounds/weapons:phy_bulletcasing:grass</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="bullet_shell_metal">
+		<Sound>
+			<Name>sounds/weapons:phy_bulletcasing:metal</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="bullet_shell_mud">
+		<Sound>
+			<Name>sounds/weapons:phy_bulletcasing:mud</Name>
+		</Sound>
+	</Effect>
+	
+	<Effect name="bullet_shell_water">
+		<Sound>
+			<Name>sounds/weapons:phy_bulletcasing:water</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="bullet_shell_wood">
+		<Sound>
+			<Name>sounds/weapons:phy_bulletcasing:wood</Name>
+		</Sound>
+	</Effect>		
+		
+	<Effect name="plastic_hollow_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:plastic_hollow</Name>
+		</Sound>
+	</Effect>	
+
+	<Effect name="plastic_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:plastic</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="plastic_garbagecan">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:garbage_can_plastic</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="plastic_pylon">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:pylon_plastic</Name>
+		</Sound>
+	</Effect>		
+
+	<Effect name="metal_garbagecan">
+		<Sound>
+			<Name>sounds/impacts:imp_vehicle:garbage_can_metal</Name>
+		</Sound>
+	</Effect>	
+
+	<Effect name="metal_shoppingcart">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:metal_shoppingcart</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Melee.zed_hits.chunk_splat</Name>
+		</Particle>
+
+	</Effect>	
+	
+	<Effect name="metal_misc_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:metal_misc</Name>
+		</Sound>
+	</Effect>			
+
+	<Effect name="metal_misc_dirt">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:metal_misc_dirt</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="metal_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:metal</Name>
+		</Sound>
+	</Effect>			
+	
+	<Effect name="chainlink_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:chainlink</Name>
+		</Sound>
+	</Effect>			
+	
+	<Effect name="wood_dense_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:wood_dense</Name>
+		</Sound>
+	</Effect>	
+
+	<Effect name="wood_dirt">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:wood_dirt</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="wood_hollow_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:wood_hollow</Name>
+		</Sound>
+	</Effect>		
+
+	<Effect name="wood_metal_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:wood_metal</Name>
+		</Sound>
+	</Effect>		
+	
+<Effect name="glass_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:glass</Name>
+		</Sound>
+</Effect>	
+	
+	<Effect name="dirt_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:dirt</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="dirt_metal_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:dirt_metal</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="concrete_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:concrete</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="concrete_dirt_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:concrete_dirt</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="concrete_metal_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:concrete_metal</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="foliage_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:foliage</Name>
+		</Sound>
+	</Effect>	
+	
+	<Effect name="upholstery_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:upholstery</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="water_generic">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:water</Name>
+		</Sound>
+	</Effect>		
+
+	<Effect name="water">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:water</Name>
+		</Sound>
+		<Particle>
+			<Name>Class3Collisions.footsteps.water_splash</Name>
+		</Particle>
+	</Effect>		
+
+	
+	
+	<Effect name="grenade_metal">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:grenade_metal</Name>
+		</Sound>
+	</Effect>			
+	
+	<Effect name="grenade_wood">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:grenade_wood</Name>
+		</Sound>
+	</Effect>		
+	
+	<Effect name="grenade_dirt">
+		<Sound>
+			<Name>sounds/impacts:imp_physics:grenade_dirt</Name>
+		</Sound>
+	</Effect>		
+	
+</FXLib>

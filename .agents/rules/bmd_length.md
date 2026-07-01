@@ -1,0 +1,4 @@
+- File `.bmd` khi được chỉnh sửa và nạp lại vào game (đặc biệt trong quá trình nén PAK) PHẢI giữ nguyên kích thước byte như file gốc.
+- Nếu bản dịch ngắn hơn, phải độn thêm khoảng trắng (Space).
+- Nếu dài hơn, phải cắt gọn (truncate) ở ranh giới UTF-8 hợp lệ.
+- Cấm thay đổi cấu trúc internal offsets của BMD.

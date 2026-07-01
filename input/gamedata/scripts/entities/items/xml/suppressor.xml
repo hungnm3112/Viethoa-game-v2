@@ -1,0 +1,28 @@
+<item name="Suppressor" class="Weapon" category="utility" priority="40" uniqueId="5">
+	<params>
+		<param name="giveable" 		value="0" />
+		<param name="selectable" 	value="1" />
+		<param name="droppable" 	value="0" />
+    <param name="unique" 	    value="0" />
+		<param name="pose" 				value="lockpick" />
+		<param name="mass"				value="4" />
+		<param name="raiseable"		value="true" />
+		<param name="raise_distance" value="0.60" />
+		<param name="uniqueId" value="5" />
+		<param name="display_name"	value="Silencer" />
+    <param name="iconIndex"     value="8"/>
+	</params>
+	<geometry>
+	
+		<boneAttachments>
+			<attachment target="firstperson" name="weapon_term" bone="weapon_term" />
+			<attachment target="firstperson" name="beam_emitter" bone="weapon_term" />
+		</boneAttachments>		
+	</geometry>
+	<actions>	
+	</actions>
+	<firemodes>
+	</firemodes>
+	<zoommodes>
+	</zoommodes>
+</item>

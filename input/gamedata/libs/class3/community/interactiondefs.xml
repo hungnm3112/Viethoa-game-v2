@@ -1,0 +1,910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Interaction>
+  <AnimSets>
+    <AnimSet EnterAnim="" ExitAnim="" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_stand_bored_loop" Name="Stand_Bored">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_stand_bored_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_stand_bored_fidget_03" IdleAnim="" Name="Fidget 03" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_stand_bored_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="30" EnterAnim="InteractUnshared_stand_bored_fruit_enter" ExitAnim="InteractUnshared_stand_bored_fruit_exit" IdleAnim="InteractUnshared_stand_bored_fruit_loop" Name="Fruit" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\apple\apple.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\apple\apple.chr" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="60" EnterAnim="InteractUnshared_stand_bored_eat_enter" ExitAnim="InteractUnshared_stand_bored_eat_exit" IdleAnim="InteractUnshared_stand_bored_eat_loop" Name="Eat" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\beans\beans.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\beans\beans.chr" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_stand_grieve_enter" ExitAnim="Interact_stand_grieve_exit" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_stand_grieve_loop" Name="Stand_Grieve">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_stand_tired_enter" ExitAnim="Interact_stand_tired_exit" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_stand_tired_loop" Name="Stand_Tired">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_stand_wall_enter" ExitAnim="Interact_stand_wall_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_stand_wall_loop" Name="Stand_Wall">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_stand_wall_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_stand_wall_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="30" EnterAnim="InteractUnshared_stand_wall_fruit_enter" ExitAnim="InteractUnshared_stand_wall_fruit_exit" IdleAnim="InteractUnshared_stand_wall_fruit_loop" Name="Fruit" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\apple\apple.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\apple\apple.chr" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="60" EnterAnim="Interact_stand_wall_journal_enter" ExitAnim="Interact_stand_wall_journal_exit" IdleAnim="Interact_stand_wall_journal_loop" Name="Journal" Weight="35">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\journal\journal.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\journal\journal.chr" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="10" EnterAnim="InteractUnshared_stand_wall_drink_enter" ExitAnim="InteractUnshared_stand_wall_drink_exit" IdleAnim="InteractUnshared_stand_wall_drink_loop" Name="Drink" Weight="15">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\bottle\bottle.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\bottle\bottle.chr" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="60" EnterAnim="InteractUnshared_stand_wall_eat_enter" ExitAnim="InteractUnshared_stand_wall_eat_exit" IdleAnim="InteractUnshared_stand_wall_eat_loop" Name="Eat" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\beans\beans.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\beans\beans.chr" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_stand_wall_enter" ExitAnim="Interact_stand_wall_exit" FidgetMaxInterval="2.0" FidgetMinInterval="0.5" IdleAnim="Interact_stand_wall_loop" Name="Stand_Wall_Grieve">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="60" EnterAnim="Interact_stand_wall_grieve_enter" ExitAnim="Interact_stand_wall_grieve_exit" IdleAnim="Interact_stand_wall_grieve_loop" Name="Grieve" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sit_bored_enter" ExitAnim="Interact_sit_bored_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_sit_bored_loop" Name="Sit_Bored">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_bored_fidget_01" IdleAnim="" Name="Fidget 01" Weight="35">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_bored_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="60" EnterAnim="Interact_sit_journal_enter" ExitAnim="Interact_sit_journal_exit" IdleAnim="Interact_sit_journal_loop" Name="Journal" Weight="35">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\journal\journal.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\journal\journal.chr" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="30" EnterAnim="" ExitAnim="" IdleAnim="InteractUnshared_sit_fruit_loop" Name="Fruit" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\apple\apple.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\apple\apple.chr" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="60" EnterAnim="InteractUnshared_sit_eat_enter" ExitAnim="InteractUnshared_sit_eat_exit" IdleAnim="InteractUnshared_sit_eat_loop" Name="Eat" Weight="35">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\beans\beans.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\beans\beans.chr" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="10" EnterAnim="InteractUnshared_sit_drink_enter" ExitAnim="InteractUnshared_sit_drink_exit" IdleAnim="InteractUnshared_sit_drink_loop" Name="Drink" Weight="15">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\bottle\bottle.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\bottle\bottle.chr" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sit_tired_enter" ExitAnim="Interact_sit_tired_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_sit_tired_loop" Name="Sit_Tired">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_tired_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_tired_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_tired_fidget_03" IdleAnim="" Name="Fidget 03" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sit_bored_enter" ExitAnim="Interact_sit_bored_exit" FidgetMaxInterval="2.0" FidgetMinInterval="0.5" IdleAnim="Interact_sit_bored_loop" Name="Sit_Grieve">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="60" EnterAnim="Interact_sit_bored_grieve_enter" ExitAnim="Interact_sit_bored_grieve_exit" IdleAnim="Interact_sit_bored_grieve_loop" Name="Grieve" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sitground_bored_enter" ExitAnim="Interact_sitground_bored_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_sitground_bored_loop" Name="SitGround">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="60" EnterAnim="Interact_sitground_journal_enter" ExitAnim="Interact_sitground_journal_exit" IdleAnim="Interact_sitground_journal_loop" Name="Journal" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\journal\journal.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\journal\journal.chr" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="10" EnterAnim="" ExitAnim="" IdleAnim="InteractUnshared_sitground_drink_loop" Name="Drink" Weight="15">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\bottle\bottle.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\bottle\bottle.chr" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="60" EnterAnim="InteractUnshared_sitground_eat_enter" ExitAnim="InteractUnshared_sitground_eat_exit" IdleAnim="InteractUnshared_sitground_eat_loop" Name="Eat" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="Game\characters\female\human\attachments\beans\beans.chr" />
+          <Male LeftItem="" RightItem="Game\characters\male\human\attachments\beans\beans.chr" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sitground_bored_enter" ExitAnim="Interact_sitground_bored_exit" FidgetMaxInterval="2.0" FidgetMinInterval="0.5" IdleAnim="Interact_sitground_bored_loop" Name="SitGround_Grieve">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="60" EnterAnim="Interact_sitground_grieve_enter" ExitAnim="Interact_sitground_grieve_exit" IdleAnim="Interact_sitground_grieve_loop" Name="Grieve" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sitground_sick_enter" ExitAnim="Interact_sitground_sick_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_sitground_sick_loop" Name="SitGround_Sick">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sitground_sick_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sitground_sick_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sitground_injured_enter" ExitAnim="Interact_sitground_injured_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_sitground_injured_loop" Name="SitGround_Injured">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sitground_injured_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sitground_injured_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sit_tablechair_enter" ExitAnim="Interact_sit_tablechair_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_sit_tablechair_loop" Name="SitTableChair">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_tablechair_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_tablechair_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="" IdleAnim="Interact_sit_tablechair_eat_loop" Name="Eat" Weight="25">
+        <AnimItems>
+          <Female LeftItem="Game\characters\test\props\apple\apple.chr" RightItem="" />
+          <Male LeftItem="Game\characters\test\props\apple\apple.chr" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sit_tablechair_read_enter" ExitAnim="Interact_sit_tablechair_read_exit" FidgetMaxInterval="" FidgetMinInterval="" IdleAnim="Interact_sit_tablechair_read_loop" Name="Library_Research">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_bed_bored_enter" ExitAnim="Interact_bed_bored_exit" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_bed_bored_loop" Name="Bed_Bored">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_bed_sleep_enter" ExitAnim="Interact_bed_sleep_exit" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_bed_sleep_loop" Name="Bed_Sleep">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_bed_injured_enter" ExitAnim="Interact_bed_injured_exit" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_bed_injured_loop" Name="Bed_Injured">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_bed_sick_enter" ExitAnim="Interact_bed_sick_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_bed_sick_loop" Name="Bed_Sick">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_bed_sick_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_bed_sick_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_search_ground_start" ExitAnim="Interact_search_ground_stop" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_search_ground_loop" Name="SearchGround">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_search_low_flat_start" ExitAnim="Interact_search_low_flat_stop" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_search_low_flat_loop" Name="SearchLowFlat">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_search_low_vert_start" ExitAnim="Interact_search_low_vert_stop" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_search_low_vert_loop" Name="SearchLowVert">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_search_mid_flat_start" ExitAnim="Interact_search_mid_flat_stop" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_search_mid_flat_loop" Name="SearchMidFlat">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_search_mid_vert_start" ExitAnim="Interact_search_mid_vert_stop" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_search_mid_vert_loop" Name="SearchMidVert">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_search_high_vert_start" ExitAnim="Interact_search_high_vert_stop" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_search_high_vert_loop" Name="SearchHighVert">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sit_radio_enter" ExitAnim="Interact_sit_radio_exit" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_sit_radio_loop" Name="CommandCenter - Scan Radio">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_radio_talk_fidget_01" IdleAnim="" Name="Fidget 01" Weight="15">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_radio_talk_fidget_02" IdleAnim="" Name="Fidget 02" Weight="15">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="10" EnterAnim="Interact_sit_radio_scan_enter" ExitAnim="Interact_sit_radio_scan_exit" IdleAnim="Interact_sit_radio_scan_loop" Name="Scan" Weight="20">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sit_radio_talk_enter" ExitAnim="Interact_sit_radio_talk_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_sit_radio_talk_loop" Name="CommandCenter - Talk Radio">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_radio_talk_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_radio_talk_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_kit_clean_enter" ExitAnim="Interact_kit_clean_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_kit_clean_loop" Name="Kitchen_Clean">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_kit_clean_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_kit_cook_enter" ExitAnim="Interact_kit_cook_exit" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_kit_cook_loop" Name="Kitchen_Cook">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_kit_knife_enter" ExitAnim="Interact_kit_knife_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_kit_knife_loop" Name="Kitchen_Chop">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_kit_knife_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_gdn_tend_knees_enter" ExitAnim="Interact_gdn_tend_knees_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_gdn_tend_knees_loop" Name="Garden_TendKnees">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_gdn_tend_knees_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_gdn_tend_knees_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_gdn_tend_knees_tool_enter" ExitAnim="Interact_gdn_tend_knees_tool_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_gdn_tend_knees_tool_loop" Name="Garden_TendKneesTool">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_gdn_tend_knees_tool_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_gdn_tend_knees_tool_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_gdn_action_harvest_low_enter" ExitAnim="Interact_gdn_action_harvest_low_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_gdn_action_harvest_low_loop" Name="Garden_HarvestLow">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_gdn_action_harvest_low_fidget" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_gdn_action_harvest_mid_enter" ExitAnim="Interact_gdn_action_harvest_mid_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_gdn_action_harvest_mid_loop" Name="Garden_HarvestMid">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_gdn_action_harvest_mid_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_gdn_action_harvest_mid_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_gdn_action_harvest_high_enter" ExitAnim="Interact_gdn_action_harvest_high_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_gdn_action_harvest_high_loop" Name="Garden_HarvestHigh">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_gdn_action_harvest_high_fidget" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_sit_tablechair_enter" ExitAnim="Interact_sit_tablechair_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_sit_tablechair_loop" Name="Infirmary_TableChair">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_tablechair_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_sit_tablechair_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="10" EnterAnim="" ExitAnim="" IdleAnim="Interact_inf_preparemeds_loop" Name="PrepareMeds" Weight="50">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_inf_idle_bedfilled_chart_enter" ExitAnim="Interact_inf_idle_bedfilled_chart_exit" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_inf_idle_bedfilled_chart_loop" Name="Infirmary_HealPatient">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_ws_action_research_enter" ExitAnim="Interact_ws_action_research_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_ws_action_research_loop" Name="Workshop - Research">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_ws_action_research_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_ws_action_research_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_ws_action_create_enter" ExitAnim="Interact_ws_action_create_exit" FidgetMaxInterval="7.0" FidgetMinInterval="3.0" IdleAnim="Interact_ws_action_create_loop" Name="Workshop - Create">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_ws_action_create_fidget_01" IdleAnim="" Name="Fidget 01" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_ws_action_create_fidget_02" IdleAnim="" Name="Fidget 02" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="" EnterAnim="" ExitAnim="Interact_ws_action_create_fidget_03" IdleAnim="" Name="Fidget 03" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="" ExitAnim="" FidgetMaxInterval="3.0" FidgetMinInterval="1.0" IdleAnim="Interact_stand_bored_loop" Name="Training_Fitness">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+      <FidgetAnims Duration="10" EnterAnim="Interact_tr_action_pushups_enter" ExitAnim="Interact_tr_action_pushups_exit" IdleAnim="Interact_tr_action_pushups_loop" Name="" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+      <FidgetAnims Duration="10" EnterAnim="Interact_tr_action_situps_enter" ExitAnim="Interact_tr_action_situps_exit" IdleAnim="Interact_tr_action_situps_loop" Name="" Weight="25">
+        <AnimItems>
+          <Female LeftItem="" RightItem="" />
+          <Male LeftItem="" RightItem="" />
+        </AnimItems>
+      </FidgetAnims>
+    </AnimSet>
+    <AnimSet EnterAnim="Interact_tr_action_shadowbox_enter" ExitAnim="Interact_tr_action_shadowbox_exit" FidgetMaxInterval="0.0" FidgetMinInterval="0.0" IdleAnim="Interact_tr_action_shadowbox_loop" Name="Training_Combat">
+      <AnimItems>
+        <Female LeftItem="" RightItem="" />
+        <Male LeftItem="" RightItem="" />
+      </AnimItems>
+    </AnimSet>
+  </AnimSets>
+  <BehaviorDefs>
+    <BehaviorDef EnterSignal="ModeStaffWatchtower" ExitSignal="TO_IDLE" Name="Watchtower" />
+    <BehaviorDef EnterSignal="ModeDefendGroup" ExitSignal="TO_IDLE" Name="DefendGroup" />
+    <BehaviorDef EnterSignal="ModeVigilantStart" ExitSignal="ModeVigilantStop" Name="Vigilant" />
+    <BehaviorDef EnterSignal="ModeBarricade" ExitSignal="TO_IDLE" Name="Barricade" />
+  </BehaviorDefs>
+  <InteractionProps>
+    <InteractionProp Facility="Workshop" PropName="Stand">
+      <TaskList>
+        <AnimateTask AnimSet="Workshop - Research" DurationMin="9999" DurationRange="" Priority="High" Requirements="" TaskName="Task.WS_Research" />
+        <AnimateTask AnimSet="Workshop - Create" DurationMin="9999" DurationRange="" Priority="High" Requirements="" TaskName="Task.WS_Create" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Garden" PropName="Stand">
+      <TaskList>
+        <AnimateTask AnimSet="Garden_TendKneesTool" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+        <AnimateTask AnimSet="Garden_TendKnees" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Garden" PropName="Stand_Wall">
+      <TaskList>
+        <AnimateTask AnimSet="Garden_HarvestHigh" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.GDN_Harvest" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Garden" PropName="SearchMidFlat">
+      <TaskList>
+        <AnimateTask AnimSet="Garden_HarvestMid" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.GDN_Harvest" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Garden" PropName="SearchLowFlat">
+      <TaskList>
+        <AnimateTask AnimSet="Garden_HarvestLow" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.GDN_Harvest" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Infirmary" PropName="Bed">
+      <TaskList>
+        <AnimateTask AnimSet="Bed_Sick" DurationMin="9999" DurationRange="" Priority="High" Requirements="" TaskName="Task.RecuperateSick" />
+        <AnimateTask AnimSet="Bed_Injured" DurationMin="9999" DurationRange="" Priority="High" Requirements="" TaskName="Task.RecuperateHurt" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Infirmary" PropName="TableChair">
+      <TaskList>
+        <AnimateTask AnimSet="Infirmary_TableChair" DurationMin="120" DurationRange="" Priority="High" Requirements="" TaskName="Task.Relax" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Infirmary" PropName="Stand">
+      <TaskList>
+        <AnimateTask AnimSet="Infirmary_HealPatient" DurationMin="9999" DurationRange="" Priority="High" Requirements="" TaskName="Task.INF_TendPatient" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="CommandCenter" PropName="TableChair">
+      <TaskList>
+        <AnimateTask AnimSet="CommandCenter - Talk Radio" DurationMin="9999" DurationRange="" Priority="High" Requirements="" TaskName="Task.CC_RadioTalk" />
+        <AnimateTask AnimSet="CommandCenter - Scan Radio" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.Staff" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Kitchen" PropName="Stand">
+      <TaskList>
+        <AnimateTask AnimSet="Kitchen_Cook" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.KIT_Cook" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Kitchen" PropName="SearchMidFlat">
+      <TaskList>
+        <AnimateTask AnimSet="Kitchen_Clean" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+        <AnimateTask AnimSet="Kitchen_Chop" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.KIT_Cook" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Training" PropName="Stand">
+      <TaskList>
+        <AnimateTask AnimSet="Training_Combat" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.TR_Combat" />
+        <AnimateTask AnimSet="Training_Fitness" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.TR_Fitness" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Library" PropName="TableChair">
+      <TaskList>
+        <AnimateTask AnimSet="Library_Research" DurationMin="9999" DurationRange="" Priority="High" Requirements="" TaskName="Task.LIB_Research" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Watchtower" PropName="Stand">
+      <TaskList>
+        <BehaviorTask Behavior="Watchtower" Priority="High" Requirements="Gun" TaskName="Task.StaffWatchtower" />
+        <BehaviorTask Behavior="Watchtower" Priority="High" Requirements="Gun" TaskName="Task.DefendBreach" />
+        <BehaviorTask Behavior="Watchtower" Priority="High" Requirements="Gun" TaskName="Task.DefendThreat" />
+        <BehaviorTask Behavior="Watchtower" Priority="High" Requirements="Gun" TaskName="Task.Defend" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Watchtower" PropName="HomeWatchtower">
+      <TaskList />
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="Chair">
+      <TaskList>
+        <AnimateTask AnimSet="Sit_Bored" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+        <AnimateTask AnimSet="Sit_Tired" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Rest" />
+        <AnimateTask AnimSet="Sit_Grieve" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.Grieve" />
+        <AnimateTask AnimSet="Sit_Tired" DurationMin="99999" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Sleep" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="Bed">
+      <TaskList>
+        <AnimateTask AnimSet="Bed_Sleep" DurationMin="240" DurationRange="" Priority="High" Requirements="" TaskName="Task.Rest" />
+        <AnimateTask AnimSet="Bed_Injured" DurationMin="9999" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.RecuperateHurt" />
+        <AnimateTask AnimSet="Bed_Sick" DurationMin="9999" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.RecuperateSick" />
+        <AnimateTask AnimSet="Bed_Sleep" DurationMin="99999" DurationRange="" Priority="High" Requirements="" TaskName="Task.Sleep" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="Stand">
+      <TaskList>
+        <AnimateTask AnimSet="Stand_Bored" DurationMin="" DurationRange="" Priority="Low" Requirements="" TaskName="Task.Relax" />
+        <AnimateTask AnimSet="Stand_Grieve" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.Grieve" />
+        <AnimateTask AnimSet="Stand_Bored" DurationMin="" DurationRange="" Priority="Low" Requirements="" TaskName="Task.Sleep" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="SitGround">
+      <TaskList>
+        <AnimateTask AnimSet="SitGround" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+        <AnimateTask AnimSet="SitGround" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Rest" />
+        <AnimateTask AnimSet="SitGround_Injured" DurationMin="" DurationRange="" Priority="Low" Requirements="" TaskName="Task.RecuperateHurt" />
+        <AnimateTask AnimSet="SitGround_Sick" DurationMin="" DurationRange="" Priority="Low" Requirements="" TaskName="Task.RecuperateSick" />
+        <AnimateTask AnimSet="SitGround_Grieve" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.Grieve" />
+        <AnimateTask AnimSet="SitGround" DurationMin="" DurationRange="" Priority="Low" Requirements="" TaskName="Task.Sleep" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="Stand_Wall">
+      <TaskList>
+        <AnimateTask AnimSet="Stand_Wall" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+        <AnimateTask AnimSet="Stand_Wall" DurationMin="" DurationRange="" Priority="Low" Requirements="" TaskName="Task.Rest" />
+        <AnimateTask AnimSet="Stand_Wall_Grieve" DurationMin="" DurationRange="" Priority="High" Requirements="" TaskName="Task.Grieve" />
+        <AnimateTask AnimSet="Stand_Wall" DurationMin="" DurationRange="" Priority="Low" Requirements="" TaskName="Task.Sleep" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="SearchMidFlat">
+      <TaskList>
+        <AnimateTask AnimSet="SearchMidFlat" DurationMin="10" DurationRange="10" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="SearchLowFlat">
+      <TaskList>
+        <AnimateTask AnimSet="SearchLowFlat" DurationMin="10" DurationRange="10" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="SearchGround">
+      <TaskList>
+        <AnimateTask AnimSet="SearchGround" DurationMin="10" DurationRange="10" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Outpost" PropName="OutpostStaff">
+      <TaskList>
+        <AnimateTask AnimSet="Stand_Bored" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Staff" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="Outpost" PropName="OutpostDefend">
+      <TaskList>
+        <AnimateTask AnimSet="Stand_Bored" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Defend" />
+        <BehaviorTask Behavior="DefendGroup" Priority="High" Requirements="" TaskName="Task.Defend" />
+        <BehaviorTask Behavior="DefendGroup" Priority="Medium" Requirements="" TaskName="Task.DefendBreach" />
+        <BehaviorTask Behavior="DefendGroup" Priority="Medium" Requirements="" TaskName="Task.DefendThreat" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="EnclaveStaff">
+      <TaskList>
+        <AnimateTask AnimSet="Stand_Bored" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="EnclaveDefend">
+      <TaskList>
+        <BehaviorTask Behavior="Vigilant" Priority="Medium" Requirements="" TaskName="Task.Vigilant" />
+        <BehaviorTask Behavior="Barricade" Priority="Medium" Requirements="" TaskName="Task.Barricade" />
+        <BehaviorTask Behavior="Vigilant" Priority="Low" Requirements="" TaskName="Task.Watchtower" />
+        <BehaviorTask Behavior="DefendGroup" Priority="Medium" Requirements="" TaskName="Task.DefendBreach" />
+        <BehaviorTask Behavior="DefendGroup" Priority="Medium" Requirements="" TaskName="Task.DefendThreat" />
+        <BehaviorTask Behavior="DefendGroup" Priority="Medium" Requirements="" TaskName="Task.Defend" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="EnclaveWC">
+      <TaskList>
+        <AnimateTask AnimSet="Stand_Bored" DurationMin="" DurationRange="" Priority="Medium" Requirements="" TaskName="Task.Relax" />
+        <BehaviorTask Behavior="Vigilant" Priority="Low" Requirements="" TaskName="Task.Vigilant" />
+        <BehaviorTask Behavior="Barricade" Priority="Low" Requirements="" TaskName="Task.Barricade" />
+        <BehaviorTask Behavior="Vigilant" Priority="Low" Requirements="" TaskName="Task.Watchtower" />
+        <BehaviorTask Behavior="DefendGroup" Priority="Low" Requirements="" TaskName="Task.Defend" />
+        <BehaviorTask Behavior="DefendGroup" Priority="Low" Requirements="" TaskName="Task.DefendThreat" />
+        <BehaviorTask Behavior="DefendGroup" Priority="Low" Requirements="" TaskName="Task.DefendBreach" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="EnclaveBarricade">
+      <TaskList>
+        <BehaviorTask Behavior="DefendGroup" Priority="High" Requirements="" TaskName="Task.Defend" />
+        <BehaviorTask Behavior="DefendGroup" Priority="High" Requirements="" TaskName="Task.DefendBreach" />
+        <BehaviorTask Behavior="DefendGroup" Priority="High" Requirements="" TaskName="Task.DefendThreat" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="HomeDefend">
+      <TaskList>
+        <BehaviorTask Behavior="DefendGroup" Priority="Medium" Requirements="" TaskName="Task.DefendThreat" />
+        <BehaviorTask Behavior="DefendGroup" Priority="Medium" Requirements="" TaskName="Task.DefendBreach" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="HomeWC">
+      <TaskList>
+        <AnimateTask AnimSet="Stand_Bored" DurationMin="" DurationRange="" Priority="Low" Requirements="" TaskName="Task.WC" />
+        <AnimateTask AnimSet="Stand_Bored" DurationMin="" DurationRange="" Priority="Low" Requirements="" TaskName="Task.Relax" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="HomeWatchtower">
+      <TaskList>
+        <BehaviorTask Behavior="Watchtower" Priority="High" Requirements="Gun" TaskName="Task.DefendThreat" />
+      </TaskList>
+    </InteractionProp>
+    <InteractionProp Facility="" PropName="HomeBarricade">
+      <TaskList>
+        <BehaviorTask Behavior="Vigilant" Priority="High" Requirements="" TaskName="Task.DefendBreach" />
+      </TaskList>
+    </InteractionProp>
+  </InteractionProps>
+  <PropTypes>
+    <PropDef Name="Chair">
+      <ModelDef Name="objects/decor/chairs/dining/dining.cgf" />
+      <ModelDef Name="objects/decor/chairs/folding/folding_chair.cgf" />
+      <ModelDef Name="objects/decor/chairs/retro_metal/chair_blue.cgf" />
+      <ModelDef Name="objects/decor/chairs/retro_metal/chair_green.cgf" />
+      <ModelDef Name="objects/decor/chairs/retro_metal/chair_yellow.cgf" />
+      <ModelDef Name="objects/decor/chairs/retro_metal/chair_gray.cgf" />
+      <ModelDef Name="objects/decor/chairs/retro_metal/chair_red.cgf" />
+      <ModelDef Name="objects/decor/chairs/wood_chairs_01/chair_01.cgf" />
+      <ModelDef Name="objects/decor/chairs/wood_chairs_01/chair_02.cgf" />
+      <ModelDef Name="objects/decor/chairs/wood_chairs_01/chair_03.cgf" />
+      <ModelDef Name="objects/decor/chairs/wood_chairs_01/chair_04.cgf" />
+      <ModelDef Name="objects/decor/chairs/spencers_mill_wood_dining/wood_misc.cgf" />
+      <ModelDef Name="objects/decor/chairs/spencers_mill_chair_dinning_01/spencers_mill_dinning_chair_01_new.cgf" />
+      <ModelDef Name="objects/decor/chairs/spencers_mill_chair_dinning_02/spencers_mill_dinning_chair_02_new.cgf" />
+      <ModelDef Name="objects/decor/chairs/spencers_mill_wood_dining/wood_dining_01.cgf" />
+    </PropDef>
+    <PropDef Name="Bed">
+      <ModelDef Name="objects/decor/beds/crap_bed/crap_bed.cgf" />
+      <ModelDef Name="objects/decor/beds/bunk_bed/bunk_bed.cgf" />
+      <ModelDef Name="objects/decor/beds/full/full.cgf" />
+      <ModelDef Name="objects/decor/beds/cot_bloody/cot_bloody.cgf" />
+      <ModelDef Name="objects/decor/beds/queen_sleigh/queen_sleigh.cgf" />
+      <ModelDef Name="objects/decor/beds/hospital_bed/hospital_bed.cgf" />
+      <ModelDef Name="objects/decor/beds/modern_bed_01/bunk_01.cgf" />
+      <ModelDef Name="objects/decor/beds/modern_bed_01/single_02.cgf" />
+    </PropDef>
+    <PropDef Name="Stand">
+      <ModelDef Name="objects/decor/appliances/ovens/oven_01/oven_01.cgf" />
+      <ModelDef Name="objects/gameplay/facility_interaction/stand_bored/stand_bored.cgf" />
+      <ModelDef Name="objects/decor/construction/table_workshop/table_workshop.cgf" />
+    </PropDef>
+    <PropDef Name="SitGround">
+      <ModelDef Name="objects/gameplay/tagpoint_meshes/sit_ground_tagpoint_mesh.cgf" />
+      <ModelDef Name="objects/gameplay/facility_interaction/sit_bored/sit_bored.cgf" />
+    </PropDef>
+    <PropDef Name="Stand_Wall">
+      <ModelDef Name="objects/gameplay/tagpoint_meshes/stand_wall_tagpoint_mesh.cgf" />
+      <ModelDef Name="objects/gameplay/facility_interaction/stand_wall/stand_wall.cgf" />
+    </PropDef>
+    <PropDef Name="TableChair">
+      <ModelDef Name="objects/architecture/bases/facilities/command_center_little_john/command_center_little_john_01.cgf" />
+      <ModelDef Name="objects/architecture/bases/facilities/infirmary_desk_01/infirmary_desk_01.cgf" />
+    </PropDef>
+    <PropDef Name="SearchMidFlat">
+      <ModelDef Name="objects/gameplay/facility_interaction/search_mid_flat/search_mid_flat.cgf" />
+    </PropDef>
+    <PropDef Name="SearchLowFlat">
+      <ModelDef Name="objects/gameplay/facility_interaction/search_low_flat/search_low_flat.cgf" />
+    </PropDef>
+    <PropDef Name="SearchGround">
+      <ModelDef Name="objects/gameplay/facility_interaction/search_ground/search_ground.cgf" />
+    </PropDef>
+    <PropDef Name="OutpostStaff">
+      <ModelDef Name="OutpostStaff" />
+    </PropDef>
+    <PropDef Name="OutpostDefend">
+      <ModelDef Name="OutpostDefend" />
+    </PropDef>
+    <PropDef Name="OutpostBarricade">
+      <ModelDef Name="OutpostBarricade" />
+    </PropDef>
+    <PropDef Name="EnclaveStaff">
+      <ModelDef Name="EnclaveStaff" />
+    </PropDef>
+    <PropDef Name="EnclaveDefend">
+      <ModelDef Name="EnclaveDefend" />
+    </PropDef>
+    <PropDef Name="EnclaveWC">
+      <ModelDef Name="EnclaveWC" />
+    </PropDef>
+    <PropDef Name="EnclaveBarricade">
+      <ModelDef Name="EnclaveBarricade" />
+    </PropDef>
+    <PropDef Name="HomeSpawn">
+      <ModelDef Name="HomeSpawn" />
+    </PropDef>
+    <PropDef Name="HomeDefend">
+      <ModelDef Name="HomeDefend" />
+    </PropDef>
+    <PropDef Name="HomeWC">
+      <ModelDef Name="HomeWC" />
+    </PropDef>
+    <PropDef Name="HomeWatchtower">
+      <ModelDef Name="HomeWatchtower" />
+    </PropDef>
+    <PropDef Name="HomeBarricade">
+      <ModelDef Name="HomeBarricade" />
+    </PropDef>
+  </PropTypes>
+</Interaction>

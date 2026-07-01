@@ -1,0 +1,21 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="32" Class="Image:EffectWaterDroplets" pos="240,500,0" flags="0">
+   <Inputs WaterDroplets_Active="1" WaterDroplets_Amount="0"/>
+  </Node>
+  <Node Id="78" Class="Interpol:Float" pos="60,520,0" flags="0">
+   <Inputs StartValue="0.4" EndValue="0" Time="2"/>
+  </Node>
+  <Node Id="79" Class="MaterialFX:HUDEndFX" pos="250,560,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="80" Class="MaterialFX:HUDStartFX" pos="-100,520,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="32" nodeOut="78" portIn="WaterDroplets_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="79" nodeOut="78" portIn="Trigger" portOut="Done" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="80" portIn="Start" portOut="Started" enabled="1"/>
+ </Edges>
+</Graph>

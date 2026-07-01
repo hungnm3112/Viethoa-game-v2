@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconData>
+  <Icon Name="woodsman" Value="1" />
+  <Icon Name="tracker" Value="2" />
+  <Icon Name="strongman" Value="3" />
+  <Icon Name="streetfighter" Value="4" />
+  <Icon Name="sneak" Value="5" />
+  <Icon Name="server" Value="6" />
+  <Icon Name="sailor" Value="7" />
+  <Icon Name="quickdraw" Value="8" />
+  <Icon Name="pharmacist" Value="9" />
+  <Icon Name="mechanic" Value="10" />
+  <Icon Name="locksmith" Value="11" />
+  <Icon Name="weightlifter" Value="12" />
+  <Icon Name="builder" Value="13" />
+  <Icon Name="electrician" Value="14" />
+  <Icon Name="driver" Value="15" />
+  <Icon Name="demolitions" Value="16" />
+  <Icon Name="military" Value="17" />
+  <Icon Name="marksman" Value="18" />
+  <Icon Name="blank" Value="19" />
+  <Icon Name="dead" Value="20" />
+  <Icon Name="exhausted" Value="21" />
+  <Icon Name="friend" Value="22" />
+  <Icon Name="happy" Value="23" />
+  <Icon Name="neutral" Value="24" />
+  <Icon Name="sad" Value="25" />
+  <Icon Name="wounded" Value="26" />
+</IconData>

@@ -1,0 +1,3 @@
+<GameTokensLibrary Name="HeroStats">
+ <GameToken Name="CombatLevel" Type="Int" Value="0" LocalOnly="1"/>
+</GameTokensLibrary>
