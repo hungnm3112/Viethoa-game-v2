@@ -893,3 +893,11 @@ Fix:
   - parsed/matched key counts,
   - length-repair request/response.
 - Dashboard Stop now marks translation session as `paused` when stopping a translate command.
+
+
+## Phase 2 (BMD Patching) Post-Mortem
+
+- Finding: BMD files contain strings that are used BOTH as UI Display Names AND internal engine tags (e.g. Junk, Baton Cop).
+- Finding: Translating these internal tags causes immediate or delayed engine crashes because the logic checks fail.
+- Finding: XML extraction is insufficient to filter tags if the tags contain spaces or are stored inside generic <Data> nodes.
+- Conclusion: BMD binary patching is highly unstable unless we can strictly isolate UI strings from internal identifiers.

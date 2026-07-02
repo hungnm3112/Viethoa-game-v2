@@ -1,3 +1,4 @@
 - KHÔNG chạy script copy file vào thư mục cài game (Deploy) khi `StateOfDecay.exe` đang chạy để tránh lỗi File Lock.
+- TRƯỚC KHI thực hiện bất kỳ thao tác copy/deploy nào vào thư mục game, AI BẮT BUỘC phải DỪNG LẠI và hỏi USER xem có được phép thực hiện không. Chỉ khi USER xác nhận đã thoát game thì AI mới được tiếp tục lệnh deploy.
 - Luôn Backup file gốc (như `gamedata.pak`, `english.win.btxt`) trước khi ghi đè.
 - Mỗi lần test chỉ thay đổi 1 nhóm file (1 cluster). Không mix nhiều thay đổi để dễ dàng xác định nguyên nhân nếu crash.
