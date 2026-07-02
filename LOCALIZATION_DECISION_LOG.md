@@ -108,7 +108,7 @@ Conclusion:
 
 ## Crash-Prone Changes
 
-### Bad BTXT Padding With Null Bytes
+### Legacy BTXT Padding With Null Bytes (OBSOLETE)
 
 Bad behavior:
 
@@ -125,17 +125,11 @@ Choi moi\0\0\0\0\0\0\0\0\0
 Observed result:
 
 - Game crashed or exited before menu.
-- No new `.dmp` was found in the game folder.
-- No useful StateOfDecay entry was found in Windows Event Log/WER during this test.
 
-Likely reason:
-
-- BTXT appears to be a sequential string table or indexed data blob.
-- Extra null bytes can create empty entries or shift expected string parsing.
-
-Rule:
-
-- Never pad shorter BTXT replacements with extra null terminators.
+**Update (02/07/2026):**
+The legacy BTXT padding method has been **OBSOLETED**. We now use a Python `construct` parser (`tools/python/btxt_parser.py`) which correctly rebuilds the entire binary string table.
+- You can now translate BTXT strings to any length (longer or shorter).
+- No manual padding of any kind is required anymore.
 
 ### Broad Binary Replacement
 
@@ -172,33 +166,32 @@ Rule:
 - For smoke tests, copy only the small file cluster being tested.
 - Keep backup per test.
 
-## Confirmed Safe BTXT Patch Style
+## Confirmed Safe BTXT Patch Style (Modern Python Workflow)
 
-Correct behavior:
+Correct behavior (via Python `btxt_parser.py`):
 
-- Keep original file size unchanged.
-- Patch only exact null-terminated full string entries.
-- If translated text is shorter, pad with spaces, not null bytes.
-- Keep exactly one final `00` terminator.
-
-Example good transformation:
-
-```text
-Start a New Game\0
-Choi moi        \0
-```
+- Rebuild the entire binary BTXT structure.
+- Variable-length translations are fully supported.
+- Let the parser recalculate offsets automatically.
 
 Current tool:
 
 ```text
-tools/build-btxt.js
+tools/python/build_btxt_expanded.py
 ```
 
 Current command:
 
 ```bash
-npm run build-btxt
+npm run build-btxt:expanded-pilot:workflow
 ```
+
+## BMD Same-Length Requirement (ACTIVE)
+
+Unlike BTXT, BMD files use a proprietary `DMBU` binary structure that is not fully understood. Rebuilding them with variable lengths causes immediate runtime crashes.
+
+Rule:
+- BMD files (Items, Gameplay Text) MUST be patched using the `samelength` Node.js script. Translations must be abbreviated to fit the original byte length.
 
 Current safe output:
 

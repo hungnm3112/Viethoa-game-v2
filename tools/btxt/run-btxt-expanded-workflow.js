@@ -6,14 +6,14 @@ const args = parseArgs(process.argv.slice(2));
 const manifest = String(args.manifest ?? DEFAULT_MANIFEST);
 const shouldSync = Boolean(args.sync);
 
-runStep("Preview expanded BTXT", [
-  "tools/btxt/build-btxt-expanded.js",
+runStep("Preview expanded BTXT", "python", [
+  "tools/python/build_btxt_expanded.py",
   `--manifest=${manifest}`,
   "--dry-run",
 ]);
 
-runStep("Build expanded BTXT", [
-  "tools/btxt/build-btxt-expanded.js",
+runStep("Build expanded BTXT", "python", [
+  "tools/python/build_btxt_expanded.py",
   `--manifest=${manifest}`,
 ]);
 
@@ -25,9 +25,9 @@ if (shouldSync) {
 
 console.log("Expanded BTXT workflow completed.");
 
-function runStep(label, nodeArgs) {
+function runStep(label, command, args) {
   console.log(`\n== ${label} ==`);
-  const result = spawnSync(process.execPath, nodeArgs, {
+  const result = spawnSync(command, args, {
     stdio: "inherit",
     shell: false,
   });

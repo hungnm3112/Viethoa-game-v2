@@ -43,8 +43,8 @@ graph TD
     A --> D["Phân Khu 3: HUD & Tutorials<br/>btxt chunks 20-100"]
     A --> E["Phân Khu 4: Story & Subtitles<br/>btxt chunks 100-213"]
     
-    B --> F["build-bmd → samelength → PAK"]
-    C --> G["build-btxt-expanded → deploy"]
+    B --> F["BMD (Node.js + samelength) → PAK"]
+    C --> G["BTXT (Python + Construct) → deploy"]
     D --> G
     E --> G
     
@@ -114,7 +114,7 @@ npm run db:stats    # Xác nhận 13,692 entries
 
 #### Bước 0.7.2: Chức Năng UI
 - Dashboard tổng quan hiển thị tiến độ % dịch của từng phân khu (Zone).
-- Hiển thị danh sách các câu thoại/văn bản: Text gốc, Text dịch hiện tại, Vị trí (Location).
+- Hiển thị danh sách các câu thoại/văn bản: Text gốc, Text dịch hiện tại, Vị trí (Location), và **Phương án Build** (`[BTXT (Python)]` hoặc `[BMD (Node.js)]`).
 - Cho phép tìm kiếm và xem trạng thái.
 
 ---
@@ -123,10 +123,11 @@ npm run db:stats    # Xác nhận 13,692 entries
 
 **Mục tiêu:** Menu chính hiển thị tiếng Việt có dấu, game boot ổn định.
 
-#### Bước 1.1: Build BTXT mở rộng cho menu
+#### Bước 1.1: Build BTXT mở rộng cho menu (Bằng Python)
+- Sử dụng parser lõi Python + Construct (`build_btxt_expanded.py`) cho phép tự do độ dài bản dịch.
 ```powershell
-npm run build-btxt:expanded-pilot:dry   # Dry-run kiểm tra
-npm run build-btxt:expanded-pilot       # Build thật
+npm run build-btxt:expanded-pilot:dry   # Dry-run kiểm tra (Gọi Python)
+npm run build-btxt:expanded-pilot       # Build thật (Gọi Python)
 ```
 
 #### Bước 1.2: Patch Font Cluster A (Front-end menu fonts)
@@ -150,7 +151,8 @@ npm run sync-font-cluster-a             # Deploy Font Cluster A
 
 **Mục tiêu:** Tên vũ khí, vật phẩm, kỹ năng hiển thị tiếng Việt.
 
-#### Bước 2.1: Build BMD dịch thuật
+#### Bước 2.1: Build BMD dịch thuật (Bằng Node.js)
+- Do BMD sử dụng cấu trúc nhị phân độc quyền (DMBU), phân khu này bắt buộc dùng script Node.js.
 ```powershell
 npm run build-bmd                # Build BMD từ DB dịch thuật
 npm run build-bmd:samelength     # Ép cùng độ dài byte (chống crash)
@@ -238,8 +240,8 @@ npm run scan-font-usage
 
 | # | Quy tắc | Lý do |
 |---|---------|-------|
-| 1 | BTXT shorter → pad spaces, KHÔNG pad null `\0` | Null padding crash game |
-| 2 | BMD phải cùng độ dài byte (same-length) | Variable-length BMD crash runtime |
+| 1 | BTXT (Python) được dịch dài/ngắn tùy ý | Core Parser Python tự tính toán lại offset an toàn |
+| 2 | BMD (Node.js) phải cùng độ dài byte (same-length) | Variable-length BMD crash runtime (Lỗi cấu trúc DMBU) |
 | 3 | Mỗi lần test chỉ thay đổi 1 cluster | Tránh debug mù khi crash |
 | 4 | Không deploy khi `StateOfDecay.exe` đang chạy | File lock gây corrupt |
 | 5 | Luôn backup trước deploy | Rollback nhanh |

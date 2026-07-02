@@ -1,112 +1,93 @@
-import express from "express";
-import { MongoClient } from "mongodb";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import express from 'express';
+import { MongoClient } from 'mongodb';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const port = process.env.PORT || 3000;
-const mongoUri = process.env.MONGODB_URI || "mongodb://localhost:27017";
-const dbName = process.env.MONGODB_DB || "viethoa_sod";
 
-let db;
+const MONGO_URL = "mongodb://127.0.0.1:27017";
+const DB_NAME = "StateOfDecay_VN";
+const COLLECTION_NAME = "translations";
 
-// Connect to MongoDB
-MongoClient.connect(mongoUri)
-  .then((client) => {
-    console.log("Connected to MongoDB");
-    db = client.db(dbName);
-  })
-  .catch((err) => {
-    console.error("MongoDB connection error:", err);
-  });
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.json());
 
-app.use(express.static(path.join(__dirname, "public")));
+let db, collection;
 
-// API: Lấy thống kê
-app.get("/api/stats", async (req, res) => {
-  if (!db) return res.status(500).json({ error: "Database not connected" });
-  try {
-    const translations = db.collection("translations");
-    const total = await translations.countDocuments();
-    const translatedCount = await translations.countDocuments({ translatedText: { $ne: "" } });
-    
-    // Aggregation by zone
-    const zones = await translations.aggregate([
-      {
-        $group: {
-          _id: "$zone",
-          total: { $sum: 1 },
-          translated: {
-            $sum: { $cond: [{ $ne: ["$translatedText", ""] }, 1, 0] }
-          }
+async function connectDB() {
+    try {
+        const client = new MongoClient(MONGO_URL);
+        await client.connect();
+        db = client.db(DB_NAME);
+        collection = db.collection(COLLECTION_NAME);
+        console.log("Connected to MongoDB");
+    } catch (err) {
+        console.error("Failed to connect to MongoDB", err);
+        process.exit(1);
+    }
+}
+
+// API: Get Stats
+app.get('/api/stats', async (req, res) => {
+    try {
+        const total = await collection.countDocuments();
+        const btxtCount = await collection.countDocuments({ buildMethod: "BTXT (Python)" });
+        const bmdCount = await collection.countDocuments({ buildMethod: "BMD (Node.js)" });
+        
+        res.json({
+            total,
+            btxtCount,
+            bmdCount,
+            progress: 100 // assuming all in DB are translated or 'final'
+        });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// API: Get Translations (with search and pagination)
+app.get('/api/translations', async (req, res) => {
+    try {
+        const page = parseInt(req.query.page) || 1;
+        const limit = parseInt(req.query.limit) || 50;
+        const skip = (page - 1) * limit;
+        const search = req.query.search || '';
+        const buildMethod = req.query.buildMethod || '';
+
+        let query = {};
+        if (search) {
+            query.$or = [
+                { sourceText: { $regex: search, $options: 'i' } },
+                { translatedText: { $regex: search, $options: 'i' } }
+            ];
         }
-      },
-      { $sort: { total: -1 } }
-    ]).toArray();
+        if (buildMethod) {
+            query.buildMethod = buildMethod;
+        }
 
-    res.json({
-      total,
-      translated: translatedCount,
-      percentage: ((translatedCount / total) * 100).toFixed(2),
-      zones: zones.map(z => ({
-        name: z._id || "Unknown",
-        total: z.total,
-        translated: z.translated,
-        percentage: ((z.translated / z.total) * 100).toFixed(2)
-      }))
-    });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+        const items = await collection.find(query)
+                                      .skip(skip)
+                                      .limit(limit)
+                                      .toArray();
+        const totalItems = await collection.countDocuments(query);
+
+        res.json({
+            items,
+            page,
+            totalPages: Math.ceil(totalItems / limit),
+            totalItems
+        });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
 });
 
-// API: Lấy danh sách translations có phân trang và tìm kiếm
-app.get("/api/translations", async (req, res) => {
-  if (!db) return res.status(500).json({ error: "Database not connected" });
-  try {
-    const page = parseInt(req.query.page) || 1;
-    const limit = parseInt(req.query.limit) || 50;
-    const search = req.query.search || "";
-    const zone = req.query.zone || "";
-    const status = req.query.status || ""; // "translated" | "untranslated" | ""
-
-    const query = {};
-    if (search) {
-      query.$or = [
-        { sourceText: { $regex: search, $options: "i" } },
-        { translatedText: { $regex: search, $options: "i" } }
-      ];
-    }
-    if (zone) {
-      query.zone = zone;
-    }
-    if (status === "translated") {
-      query.translatedText = { $ne: "" };
-    } else if (status === "untranslated") {
-      query.translatedText = "";
-    }
-
-    const translations = db.collection("translations");
-    const totalItems = await translations.countDocuments(query);
-    const items = await translations
-      .find(query)
-      .skip((page - 1) * limit)
-      .limit(limit)
-      .toArray();
-
-    res.json({
-      totalItems,
-      totalPages: Math.ceil(totalItems / limit),
-      currentPage: page,
-      items
+connectDB().then(() => {
+    app.listen(port, () => {
+        console.log(`Dashboard running at http://localhost:${port}`);
     });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
-
-app.listen(port, () => {
-  console.log(`Dashboard server running at http://localhost:${port}`);
 });

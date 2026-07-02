@@ -1,94 +1,81 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>State of Decay YOSE - Translation Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>State of Decay - Translation Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="app-container">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div class="logo-container">
-                <div class="logo-icon">☣️</div>
-                <h1 class="logo-text">SoD YOSE<br><span>Localization</span></h1>
+    <div class="glass-container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <h1>SoD Translation Hub</h1>
             </div>
-            
-            <nav class="nav-menu">
-                <a href="#" class="nav-item active" data-view="dashboard">
-                    <span class="icon">📊</span> Tổng Quan
-                </a>
-                <a href="#" class="nav-item" data-view="database">
-                    <span class="icon">🗄️</span> Database
-                </a>
-            </nav>
-            
-            <div class="global-progress">
-                <h3>Tiến độ chung</h3>
-                <div class="progress-bar-container">
-                    <div class="progress-bar" id="global-progress-bar"></div>
-                </div>
-                <div class="progress-stats" id="global-progress-text">Đang tải...</div>
+            <div class="user-profile">
+                <span>Phase 0.7</span>
             </div>
-        </aside>
+        </header>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <header class="top-bar">
-                <h2>Translation Dashboard</h2>
-                <div class="user-status">🟢 System Online</div>
-            </header>
+        <section class="stats-grid">
+            <div class="stat-card glass-card">
+                <h3>Total Translations</h3>
+                <p id="stat-total">0</p>
+            </div>
+            <div class="stat-card glass-card stat-python">
+                <h3>BTXT (Python)</h3>
+                <p id="stat-btxt">0</p>
+                <div class="glow-effect"></div>
+            </div>
+            <div class="stat-card glass-card stat-node">
+                <h3>BMD (Node.js)</h3>
+                <p id="stat-bmd">0</p>
+                <div class="glow-effect"></div>
+            </div>
+            <div class="stat-card glass-card">
+                <h3>Completion</h3>
+                <p id="stat-progress">100%</p>
+                <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
+            </div>
+        </section>
 
-            <!-- Dashboard View -->
-            <section id="view-dashboard" class="view-section active">
-                <div class="stats-grid" id="zones-grid">
-                    <!-- Zones will be rendered here -->
+        <section class="data-section glass-card">
+            <div class="toolbar">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search original or translated text...">
                 </div>
-            </section>
+                <div class="filter-box">
+                    <select id="method-filter">
+                        <option value="">All Methods</option>
+                        <option value="BTXT (Python)">BTXT (Python)</option>
+                        <option value="BMD (Node.js)">BMD (Node.js)</option>
+                    </select>
+                </div>
+            </div>
 
-            <!-- Database View -->
-            <section id="view-database" class="view-section">
-                <div class="db-controls">
-                    <div class="search-box">
-                        <input type="text" id="search-input" placeholder="Tìm kiếm chuỗi gốc hoặc bản dịch...">
-                        <button id="search-btn">Tìm kiếm</button>
-                    </div>
-                    <div class="filters">
-                        <select id="filter-zone">
-                            <option value="">Tất cả phân khu</option>
-                        </select>
-                        <select id="filter-status">
-                            <option value="">Trạng thái: Tất cả</option>
-                            <option value="translated">Đã dịch</option>
-                            <option value="untranslated">Chưa dịch</option>
-                        </select>
-                    </div>
-                </div>
-                
-                <div class="table-container">
-                    <table class="db-table">
-                        <thead>
-                            <tr>
-                                <th width="15%">Phân Khu</th>
-                                <th width="40%">Text Gốc</th>
-                                <th width="45%">Bản Dịch</th>
-                            </tr>
-                        </thead>
-                        <tbody id="db-body">
-                            <!-- Data rows -->
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div class="pagination">
-                    <button id="page-prev" class="btn-page">← Trước</button>
-                    <span id="page-info">Trang 1 / 1</span>
-                    <button id="page-next" class="btn-page">Sau →</button>
-                </div>
-            </section>
-        </main>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th width="40%">Source Text (English)</th>
+                            <th width="40%">Translated Text (Vietnamese)</th>
+                            <th width="20%">Build Method</th>
+                        </tr>
+                    </thead>
+                    <tbody id="translations-body">
+                        <!-- Rows will be injected here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="pagination">
+                <button id="btn-prev" disabled>Previous</button>
+                <span id="page-info">Page 1 of 1</span>
+                <button id="btn-next" disabled>Next</button>
+            </div>
+        </section>
     </div>
     <script src="app.js"></script>
 </body>
