@@ -6,13 +6,13 @@ const args = parseArgs(process.argv.slice(2));
 const manifest = String(args.manifest ?? DEFAULT_MANIFEST);
 const shouldSync = Boolean(args.sync);
 
-runStep("Preview expanded BTXT", "python", [
+runStep("Preview expanded BTXT", "C:/Users/Admin/AppData/Local/Programs/Python/Python312/python.exe", [
   "tools/python/build_btxt_expanded.py",
   `--manifest=${manifest}`,
   "--dry-run",
 ]);
 
-runStep("Build expanded BTXT", "python", [
+runStep("Build expanded BTXT", "C:/Users/Admin/AppData/Local/Programs/Python/Python312/python.exe", [
   "tools/python/build_btxt_expanded.py",
   `--manifest=${manifest}`,
 ]);

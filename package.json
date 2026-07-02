@@ -56,8 +56,8 @@
     "pak:bmd-fonts:apply": "node tools/fonts/patch-cluster-a-fonts.js && node tools/fonts/patch-cluster-b-fonts.js && node tools/fonts/patch-cluster-c-fonts.js && node tools/fonts/patch-cluster-d-fonts.js && node tools/fonts/patch-gfx-fonts.js --apply",
     "build-pak:full-unsafe": "node tools/pak/build-pak.js",
     "build-game": "node tools/btxt/build-btxt.js && node tools/pak/build-pak.js --exclude=.win.bmd,scripts/,libs/",
-    "build-btxt:expanded-pilot": "python tools/python/build_btxt_expanded.py --manifest=config/btxt-expanded-pilot.json",
-    "build-btxt:expanded-pilot:dry": "python tools/python/build_btxt_expanded.py --manifest=config/btxt-expanded-pilot.json --dry-run",
+    "build-btxt:expanded-pilot": "C:/Users/Admin/AppData/Local/Programs/Python/Python312/python.exe tools/python/build_btxt_expanded.py --manifest=config/btxt-expanded-pilot.json",
+    "build-btxt:expanded-pilot:dry": "C:/Users/Admin/AppData/Local/Programs/Python/Python312/python.exe tools/python/build_btxt_expanded.py --manifest=config/btxt-expanded-pilot.json --dry-run",
     "build-btxt:expanded-pilot:workflow": "node tools/btxt/run-btxt-expanded-workflow.js --manifest=config/btxt-expanded-pilot.json",
     "deploy-btxt:expanded-pilot": "node tools/btxt/run-btxt-expanded-workflow.js --manifest=config/btxt-expanded-pilot.json --sync",
     "analyze-dmp": "node tools/analyze-dmp.js",
@@ -79,7 +79,9 @@
     "scan-font-usage": "node tools/fonts/scan-font-usage.js",
     "deploy:loose-gfx": "node scripts/deploy_loose_gfx.js",
     "deploy:gfx-fix": "npm run pak:bmd-fonts:apply && npm run deploy:loose-gfx",
-    "dashboard": "node dashboard/server.js"
+    "dashboard": "node dashboard/server.js",
+    "backup:save": "node tools/backup-manager.js save",
+    "backup:restore": "node tools/backup-manager.js restore"
   },
   "engines": {
     "node": ">=22"

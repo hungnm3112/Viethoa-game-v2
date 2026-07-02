@@ -5,7 +5,7 @@ const MONGO_URL = "mongodb://127.0.0.1:27017";
 const DB_NAME = "StateOfDecay_VN";
 const COLLECTION_NAME = "translations";
 
-const OUTPUT_PATH = "output/languages/master-translation-db.json";
+const OUTPUT_PATH = "master-translation-db.json";
 
 async function run() {
   console.log("Connecting to MongoDB to export translations...");
